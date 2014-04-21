@@ -3,3 +3,5 @@
 ## Vagrant
 
 ## Trumpet without pyramid
+
+[static](#pages/trumpet-resources) resources
