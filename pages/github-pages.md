@@ -110,9 +110,26 @@ selecting and manipulating
 This library has possibly the largest user base of any javascript 
 library being used by anybody.
 
-mention underscore, backbone
+I decided to use [Backbone](http://backbonejs.org/) to provide the 
+model/view framework for the applications.  [Lo-Dash](http://lodash.com/) 
+was chosen, mainly for the amd support, to provide the underscore 
+dependency for backbone.
 
-mention marionette, teacup
+I wanted something better than the underscore templates that were 
+already available in the stack.  I just happened to wander 
+across [Teacup](http://goodeggs.github.io/teacup/) one day and decided 
+that this would be the best way to create templates, although the 
+boilerplate for the tag names can be tedious to keep up with.
+
+### Middle Level Libraries
+
+[MarionetteJS](http://marionettejs.com/) was chosen to help manage 
+the backbone objects in a coherent manner.  While this 
+[chapter](http://addyosmani.github.io/backbone-fundamentals/#marionettejs-backbone.marionette) in the backbone fundamentals book does a good job of 
+describing the benefits of using Marionette, it doesn't say much 
+about the [Wreqr](https://github.com/marionettejs/backbone.wreqr) object 
+that is very useful in managing the collection of objects and interactions.
+
 
 
 
