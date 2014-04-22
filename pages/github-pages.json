@@ -1,1 +1,1 @@
-{"content": "# Creating a Static Website with GitHub\n\n## Vagrant\n\n## Trumpet without pyramid\n\n[static](#pages/trumpet-resources) resources", "id": "github-pages"}
+{"content": "# Creating a Static Website with GitHub\n\n## Vagrant\n\nI am using [Vagrant](http://vagrantup.com) to house the development \ntools to build the website.  I use a [nodejs](http://nodejs.org) \nenvironment to develop the website, using [Grunt](http://gruntjs.com) \nto handle much of the work.\n\n\n## Trumpet without pyramid\n\n[static](#pages/trumpet-resources) resources", "id": "github-pages"}
