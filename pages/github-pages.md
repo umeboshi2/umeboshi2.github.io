@@ -20,8 +20,9 @@ to retrieve the file content by name, then have the client render
 the text.  At the moment, this isn't working, so I am using a 
 script to take the markdown files and create a JSON object that is 
 stored in a corresponding .json file, which is retrieved in an 
-xhr request.  When this difficulty is overcome, all that will need 
-to be done will be manage *one* directory of text files.
+[xhr](http://en.wikipedia.org/wiki/XMLHttpRequest) request.  When 
+this difficulty is overcome, all that will need to be done will be 
+manage *one* directory of text files.
 
 
 ## Vagrant
@@ -29,7 +30,15 @@ to be done will be manage *one* directory of text files.
 I am using [Vagrant](http://vagrantup.com) to house the development 
 tools to build the website.  I use a [nodejs](http://nodejs.org) 
 environment to develop the website, using [Grunt](http://gruntjs.com) 
-to handle much of the work.
+to handle much of the work.  I am also using the basebox I created 
+to help with web development, 
+[trumpet-i386](https://vagrantcloud.com/umeboshi/trumpet-i386).
+
+The trumpet box comes with fairly recent versions of nodejs,
+[compass](http://compass-style.org), 
+[coffee script](http://coffeescript.org), Grunt,
+[Bower](http://bower.io), and some ruby gems to help with 
+stylesheet development.
 
 
 ## Trumpet without pyramid
