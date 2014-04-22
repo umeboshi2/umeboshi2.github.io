@@ -43,4 +43,42 @@ stylesheet development.
 
 ## Trumpet without pyramid
 
+[Trumpet](https://github.com/umeboshi2/trumpet) is the code that 
+I use to create websites.  The trumpet web server is a 
+[Pyramid](http://www.pylonsproject.org/) based server that serves 
+[REST](http://en.wikipedia.org/wiki/Representational_state_transfer) 
+resources and the static resources built in the nodejs environment.
+
+With the GitHub sites serving only static resources, the web 
+server portion of trumpet isn't needed, but the tools that provide 
+the client side applications and stylesheets are still quite 
+useful.
+
+## Stylesheet Development
+
+Here I should mention compass, the gems I've installed on the 
+trumpet basebox, and how to maintain the stylesheets.
+
+## Client Application Development
+
+Here I should mention all those tools that I have had a hard time 
+selecting and putting together in the manner I have chosen to 
+develop.
+
+Three axioms I've chosen to follow:
+
+1. Use a stack built of minimal components that perform specific 
+   jobs.
+   
+2. Write all code in coffeescript, but do not depend on coffee
+   script upstream, when good javascript serves better.
+   
+3. Use components that support amd loading as much as possible
+   to keep the coding environment as clean as possible.
+   
+(The marriage of coffeescript and amd loading provides the ability 
+to maintain a large code base in a manner almost comparable to
+python.)
+
+
 [static](#pages/trumpet-resources) resources
