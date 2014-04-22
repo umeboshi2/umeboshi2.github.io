@@ -65,6 +65,8 @@ Here I should mention all those tools that I have had a hard time
 selecting and putting together in the manner I have chosen to 
 develop.
 
+### Basic Guidelines
+
 Three axioms I've chosen to follow:
 
 1. Use a stack built of minimal components that perform specific 
@@ -79,6 +81,39 @@ Three axioms I've chosen to follow:
 (The marriage of coffeescript and amd loading provides the ability 
 to maintain a large code base in a manner almost comparable to
 python.)
+
+### Base Library
+
+Due to the necessity of amd loading, the primary javascript 
+library that is used is [Requirejs](http://requirejs.org).  This 
+library works for me in two distinct scenarios.  The first 
+scenario is the development process, where the library handles 
+the loading of all of the resources.  While this scenario is 
+great for development, the astounding number of http requests 
+that are done can be a show stopper if this was used in 
+production.  The second scenario that requirejs is used for is 
+in the building of a single static resources that contains the 
+bulk of the modules that are loaded into your app by scanning 
+the files and including all the top level requirements 
+recusively in each module loaded. This is done in the nodejs 
+environment with the r.js command line tool that requirejs 
+provides.  This base library is the code that helps to load and 
+manage all of the other parts of the application stack.
+
+### Lower Libraries
+
+These lower libraries form the common base that each application 
+is based upon.  The most notable of the lower libraries is 
+[jQuery](http://jquery.com).  This library is very useful for 
+selecting and manipulating 
+[DOM](http://en.wikipedia.org/wiki/Document_Object_Model) elements.  
+This library has possibly the largest user base of any javascript 
+library being used by anybody.
+
+mention underscore, backbone
+
+mention marionette, teacup
+
 
 
 [static](#pages/trumpet-resources) resources
