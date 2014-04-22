@@ -1,6 +1,6 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
-
+@import "partials/action-button";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 @import url(https://fonts.googleapis.com/css?family=Rambla:300italic,700italic,300,700);
@@ -292,6 +292,15 @@ footer p {
 footer p + p {
   float: right;
 }
+
+.top-button {
+  @include action-button();
+  a {
+      font: 14px/1.5 Rambla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: lighten($basecolor1, 15);
+  }
+}
+
 
 @media print, screen and (max-width: 740px) {
   body {

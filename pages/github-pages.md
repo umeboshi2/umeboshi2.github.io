@@ -18,7 +18,8 @@ markdown text to html, rather the web browser will be doing this.
 The desire is to use [requirejs-text](https://github.com/requirejs/text) 
 to retrieve the file content by name, then have the client render 
 the text.  At the moment, this isn't working, so I am using a 
-script to take the markdown files and create a JSON object that is 
+script to take the markdown files and create a 
+[JSON](http://en.wikipedia.org/wiki/JSON) object that is 
 stored in a corresponding .json file, which is retrieved in an 
 [xhr](http://en.wikipedia.org/wiki/XMLHttpRequest) request.  When 
 this difficulty is overcome, all that will need to be done will be 
