@@ -9,7 +9,7 @@ define (require, exports, module) ->
   marked = require 'marked'
   Models = require 'models'
   Collections = require 'collections'
-  
+
   side_bar_data = new Backbone.Model
     entries: [
       {
@@ -32,10 +32,10 @@ define (require, exports, module) ->
       MSGBUS.events.trigger 'sidebar:show', view
       
     make_main_content: ->
+      @make_sidebar()
       @show_page 'intro'
 
     show_page: (name) ->
-      @make_sidebar()
       page = MSGBUS.reqres.request 'pages:getpage', name
       response = page.fetch()
       response.done =>
@@ -47,7 +47,15 @@ define (require, exports, module) ->
     start: ->
       @make_main_content()
       console.log 'frontdoor started'
-        
+
+    user_info: ->
+      page = MSGBUS.reqres.request 'pages:getpage', 'news'
+      response = page.fetch()
+      response.done =>
+        view = new FDViews.FrontDoorMainView
+          model: page
+        MSGBUS.events.trigger 'rcontent:show', view
+      
 
   module.exports = Controller
   

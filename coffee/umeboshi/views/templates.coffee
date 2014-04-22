@@ -49,14 +49,14 @@ define (require, exports, module) ->
             
   PageLayoutTemplate = renderable () ->
     div '.wrapper', ->
-      main_header()
+      div '#main-header'
       div '#content-wrapper', ->
-        section '#main-content'
         aside '#sidebar'
+        section '#main-content'
     div '#footer'
 
   
-  main_header = renderable () ->
+  main_header_orig = renderable () ->
     header ->
       h1 ->
         a href:'#', 'Umeboshi2.github.io'
@@ -71,10 +71,27 @@ define (require, exports, module) ->
             text 'View On'
             strong 'GitHub'
             
+  main_header = renderable (user) ->
+    header ->
+      h1 ->
+        a href:'mailto:' + user.email, 'GitHub Page for ' + user.name
+      p ->
+        a href:'#', 'Main GitHub Website'
+      p '.view', ->
+        a href:'https://github.com/umeboshi2', ->
+          text 'View the Project on GitHub'
+          small 'umeboshi2'
+      ul ->
+        li '.single', ->
+          a href:'https://github.com/umeboshi2/umeboshi2.github.io', ->
+            #img src:user.avatar_url
+            text 'View On'
+            strong 'GitHub'
+            
   main_sidebar = renderable (model) ->
     div '.sidebar-menu', ->
       for entry in model.entries
-        div '.sidebar-entry', ->
+        div '.sidebar-entry.top-button', ->
           a href:entry.url, entry.name          
   
 

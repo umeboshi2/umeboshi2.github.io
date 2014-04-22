@@ -8,7 +8,8 @@ define (require, exports, module) ->
 
   
   MSGBUS = require 'msgbus'
-
+  Models = require 'models'
+  
   require 'mainpage'
   require 'frontdoor/main'
 
@@ -54,6 +55,9 @@ define (require, exports, module) ->
       console.log 'sidebar:close called'
       app.sidebar.close()
 
+    MSGBUS.events.on 'mainheader:show', (view) =>
+      console.log 'mainheader:show called'
+      app.header.show view
       
     MSGBUS.events.on 'rcontent:show', (view) =>
       console.log 'rcontent:show called'
@@ -65,8 +69,20 @@ define (require, exports, module) ->
             
       
   app = new Marionette.Application()
-  prepare_app app
-                        
+  app.current_user = new Models.User
+  response = app.current_user.fetch()
+
+
+  MSGBUS.reqres.setHandler 'current:user', ->
+    app.current_user
+    
+  app.ready = false
+
+  response.done ->
+    prepare_app app
+    app.ready = true
+    
+  
   module.exports = app
   
     
