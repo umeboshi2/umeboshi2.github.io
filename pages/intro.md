@@ -9,6 +9,8 @@ Here is a list of projects:
 
 - [hubby](https://github.com/umeboshi2/hubby)([website](hubby))
 
+- [bumblr](https://github.com/umeboshi2/bumblr)([website](bumblr))
+
 - [trumpet](https://github.com/umeboshi2/trumpet)
 
 
