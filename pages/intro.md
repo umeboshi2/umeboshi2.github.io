@@ -11,6 +11,8 @@ Here is a list of projects:
 
 - [bumblr](https://github.com/umeboshi2/bumblr)([website](bumblr))
 
+- [conspectus](https://github.com/umeboshi2/conspectus)([website](conspectus))
+
 - [trumpet](https://github.com/umeboshi2/trumpet)
 
 
