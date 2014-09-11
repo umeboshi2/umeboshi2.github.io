@@ -1,5 +1,34 @@
 # Application Development Environment
 
+## Development Environments
+
+Vagrant is the development environment of choice, since it
+requires the least amount of changes to the operating system.
+All that is needed is virtualbox and the vagrant application.  In
+the future, docker will be used to contain the development
+environment.  Using vagrant allows for better server side development,
+where the developer can configure services that won't interfere
+with the developer's system.  The environment is configured
+using [salt](http://www.saltstack.com).
+
+An alternative to using vagrant, which is the alternative used
+on my netbook of limited resources, is to use schroot to
+contain the development enviroment in a chroot.  This can also
+be configured with salt, and a script exists in the scripts/
+directory to achieve this.
+
+Of course, development can be done natively in the operating system,
+if desired.
+
+## node.js
+
+A [node.js](http://nodejs.org) environment is used to develop and
+build the applications.  [Grunt](http://gruntjs.com/) is used to
+build and optimize the static resources for the client application.
+The Gruntfile is written in coffeescript.  [bower](http://bower.io)
+is also used in the node environment to install the upstream
+static resources needed by the application.
+
 ## CoffeeScript
 
 [CoffeeScript](http://coffeescript.org/) is used as the language 
@@ -29,7 +58,6 @@ and also forcing every variable to be declared locally on first chance
 in that anonymous function, making it very difficult to pollute 
 the global namespace accidentally.
 
-
 ## Backbone.Marionette
 
 Marionette is the main application framework.  Marionette makes 
@@ -40,33 +68,77 @@ develop each part separately.
 
 ### Application Skeleton
 
+The application skeleton was inspired by this github
+[project](https://github.com/t2k/backbone.marionette-RequireJS),
+which provides some simple boilerplate code to start
+a single page application using marionette, coffeescript, and
+requirejs.  It also taught me to use bower to manage the
+components and their dependencies.
+
 - **main (main-local)**
   This is where the requirejs config is located.  This file is 
   responsible for importing the application module and starting
   the application.
 - **application**
-  - This module is responsible for the initial setup of the application.
-  - This module sets the AppRegions for the main page.
-  - It starts the AppRouters of all the sub applications.
+  - This module is responsible for the initial setup of the
+	[application](http://marionettejs.com/docs/marionette.application.html).
+  - This module sets the
+	[Regions](http://marionettejs.com/docs/marionette.region.html)
+	for the main page.
+  - It starts the
+	[AppRouters](http://marionettejs.com/docs/marionette.approuter.html)
+	of all the sub applications.
   - If logins are used, this module sets the handler for the user info
 	and starts the app after fetching the user info.
 - **models** and **collections**
-  These provide access to models and collections that are 
+  These provide access to
+  [models](http://backbonejs.org/#Model) and
+  [collections](http://backbonejs.org/#Collection) that are 
   global to the application, such as "current user info" for
   the logged in user.
 - **msgbus**
-  This is the global message bus that allows communication 
+  This is the global
+  [message bus]( https://github.com/marionettejs/backbone.wreqr)
+  (MainBus) that allows communication 
   between the main application and the sub apps.
 
 ### Child Application Skeleton
 
-- main.coffee
-- models and collections
+The child application exists *logically* in a subdirectory of
+the main application root.  The structure of the child application,
+along with the use of a separate message bus for each child application,
+provides the ability to use the same child application in multiple
+main apps, if needed.  If the child application is not in the subdirectory
+of the main application, the path needs to be configured in requirejs
+config object.
+
+- **main**
+  - The main module is responsible creating the router that maps
+	the routes to methods on the controller.
+- **models** and **collections**
+  - These modules provide the models and collections specific to
+	the child application.
+- **msgbus**
+  - This is the child specific message bus (AppBus).  The channel
+	it defines *must* have a unique name.
+- **controller**
+  - The [controller](http://marionettejs.com/docs/marionette.controller.html)
+	basically handles the route requests by managing the views
+	for those routes.
+- **views**
+  These are the
+  [views](http://marionettejs.com/docs/marionette.region.html)
+  that will be used in this child application.
+- **templates**
+  These are the teacup templates for the views in this child application.
 
 ### Frontdoor Application
 
 The frontdoor application is the default child application.  One
 child application must exist to perform the function of an "index.html"
-page.
-
+page.  This can be considered the root path of the main application.
+The frontdoor application can be required last in the application module
+and interact with the functionality of those child applications, such as
+accessing models, collections, templates, and views of those child
+applications with the controller of the frontdoor application.
 
