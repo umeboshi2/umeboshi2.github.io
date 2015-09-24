@@ -1,5 +1,0 @@
-# -*- mode: yaml -*-
-
-base:
-  '*':
-    - default

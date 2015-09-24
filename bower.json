@@ -1,9 +1,15 @@
 {
-  "name": "paella",
+  "name": "umeboshi2",
   "version": "0.0.0",
-  "homepage": "https://github.com/umeboshi2/paella",
-  "license": "MIT",
-  "private": true,
+    "homepage": "https://umeboshi2.github.io",
+  "authors": [
+    "Joseph Rawson <joseph.rawson.works@littledebian.org>"
+  ],
+  "description": "My Github Page",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "Public Domain",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,26 +18,14 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.1.1",
-    "backbone.modal": "*",
-    "font-awesome": "~4.0.3",
-    "backbone.validation": "~0.7.1",
-    "fullcalendar": "~1.6.4",
-    "marked": "~0.3.2",
-    "marionette.bundle": "https://raw.github.com/marionettejs/backbone.marionette/master/lib/backbone.marionette.js",
-    "lodash": "~2.4.1",
-    "jquery-ui": "~1.10.3",
-    "teacup": "https://github.com/goodeggs/teacup.git",
-    "modernizr": "~2.7.2",
-    "require-cs": "~0.4.4",
-    "requirejs-bower": "~2.1.11",
-    "coffee-script": "~1.7.1",
-    "underscore": "~1.6.0",
-    "backbone": "~1.1.2",
-    "requirejs-text": "~2.0.12"
-  },
-  "resolutions": {
-    "jquery": ">= 1.9.0",
-    "coffee-script": "~1.7.1"
+    "backbone.paginator": "~2.0.2",
+    "bootstrap": "~3.3.5",
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "fullcalendar": "~2.4.0",
+    "furniture": "umeboshi2/furniture",
+    "imagesloaded": "~3.1.8",
+    "lodash-compat": "~3.10.1",
+    "masonry": "~3.3.2"
   }
 }
