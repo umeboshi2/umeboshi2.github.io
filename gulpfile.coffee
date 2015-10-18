@@ -13,7 +13,7 @@ compass = require 'gulp-compass'
 size = require 'gulp-size'
 
 gulp.task 'compass', () ->
-  gulp.src('./src/*.scss')
+  gulp.src('./sass/*.scss')
   .pipe compass
     config_file: './config.rb'
     css: 'stylesheets'
@@ -35,4 +35,8 @@ gulp.task 'webpack:build-dev', ['compass'], (callback) ->
 
 gulp.task 'default', ->
   gulp.start 'webpack:build-dev'
+  
+gulp.task 'watch', ['compass', 'webpack:build-dev'], ->
+  gulp.watch ['./sass/*.scss', 'config.rb'], ['compass', 'webpack:build-dev']
+  gulp.watch ['./src/**/*.coffee', 'index.coffee'], ['webpack:build-dev']
   

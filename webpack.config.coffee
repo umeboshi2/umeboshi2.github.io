@@ -12,6 +12,14 @@ module.exports =
         test: /\.css$/
         loader: 'style!css'
       }
+      {
+        test: /\.(woff|woff2|eot|ttf)(\?[\&0-9]+)?$/
+        loader: 'url-loader'
+      }
+      {
+        test: /\.(woff|woff2|eot|ttf)(\?v=[0-9]\.[0-9]\.[0-9])?$/
+        loader: 'url-loader'
+      }
       ]
   resolve:
     extensions: [
@@ -21,5 +29,6 @@ module.exports =
       '.webpack.js'
       '.web.js'
       '.js'
+      # add coffescript files to the list
       '.coffee'
     ]
