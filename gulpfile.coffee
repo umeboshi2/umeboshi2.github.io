@@ -19,7 +19,7 @@ gulp.task 'compass', () ->
     css: 'stylesheets'
     sass: 'sass'
   .pipe size()
-  .pipe gulp.dest 'app/assets/temp'
+  .pipe gulp.dest 'stylesheets'
 
 
 # Create a single instance of the compiler to allow caching.
@@ -37,6 +37,6 @@ gulp.task 'default', ->
   gulp.start 'webpack:build-dev'
   
 gulp.task 'watch', ['compass', 'webpack:build-dev'], ->
-  gulp.watch ['./sass/*.scss', 'config.rb'], ['compass', 'webpack:build-dev']
+  gulp.watch ['./sass/**/*.scss', 'config.rb'], ['compass', 'webpack:build-dev']
   gulp.watch ['./src/**/*.coffee', 'index.coffee'], ['webpack:build-dev']
   
