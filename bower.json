@@ -1,0 +1,19 @@
+{
+  "name": "migmatite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/umeboshi2/migmatite",
+  "authors": [
+    "Joseph Rawson <joseph.rawson.works@littledebian.org>"
+  ],
+  "description": "project skeleton",
+  "main": "",
+  "moduleType": [],
+  "license": "UNLICENSED",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

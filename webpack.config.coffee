@@ -1,3 +1,6 @@
+path = require 'path'
+webpack = require 'webpack'
+
 module.exports =
   entry: './index.coffee'
   output:
@@ -22,6 +25,10 @@ module.exports =
       }
       ]
   resolve:
+    modulesDirectories: [
+      'node_modules'
+      'bower_components'
+      ]
     extensions: [
       # MUST include empty string
       # https://webpack.github.io/docs/configuration.html#resolve-extensions
@@ -31,4 +38,9 @@ module.exports =
       '.js'
       # add coffescript files to the list
       '.coffee'
+    ]
+    plugins: [
+      new webpack.ResolverPlugin(
+        new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
+    )
     ]
