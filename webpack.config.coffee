@@ -2,7 +2,7 @@ path = require 'path'
 webpack = require 'webpack'
 
 module.exports =
-  entry: './index.coffee'
+  entry: './src/application.coffee'
   output:
     filename: 'build/bundle.js'
   module:
@@ -23,8 +23,22 @@ module.exports =
         test: /\.(woff|woff2|eot|ttf)(\?v=[0-9]\.[0-9]\.[0-9])?$/
         loader: 'url-loader'
       }
+      {
+        test: /jquery\/src\/selector\.js$/
+        #loader: "expose?$!expose?jQuery"
+        loader: 'amd-define-factory-patcher-loader'
+      }
+      #{
+      #  test: require.resolve 'jquery'
+      #  loader: "expose?$!expose?jQuery"
+      #}
       ]
   resolve:
+    fallback: [
+      path.join __dirname, 'src'
+      ]
+    alias:
+      jquery: 'jquery/src/jquery'
     modulesDirectories: [
       'node_modules'
       'bower_components'
@@ -40,7 +54,13 @@ module.exports =
       '.coffee'
     ]
     plugins: [
+      #new webpack.ProvidePlugin
+      #  '$': 'jquery'
+      #  'jQuery': 'jquery'
+      #  'window.jQuery': 'jquery'
+        
       new webpack.ResolverPlugin(
         new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
     )
     ]
+

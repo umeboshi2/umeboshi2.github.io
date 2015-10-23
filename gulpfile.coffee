@@ -33,10 +33,22 @@ gulp.task 'webpack:build-dev', ['compass'], (callback) ->
     return
   return
 
+gulp.task 'coffee', (callback) ->
+  # run webpack
+  devCompiler.run (err, stats) ->
+    throw new gutil.PluginError('webpack:build-dev', err) if err
+    gutil.log "[webpack:build-dev]", stats.toString(colors: true)
+    callback()
+    return
+  return
+  
 gulp.task 'default', ->
   gulp.start 'webpack:build-dev'
   
 gulp.task 'watch', ['compass', 'webpack:build-dev'], ->
   gulp.watch ['./sass/**/*.scss', 'config.rb'], ['compass', 'webpack:build-dev']
-  gulp.watch ['./src/**/*.coffee', 'index.coffee'], ['webpack:build-dev']
+  gulp.watch ['./coffee/**/*.coffee'], ['webpack:build-dev']
+  
+gulp.task 'watch:coffee', ['coffee'], ->
+  gulp.watch ['./coffee/**/*.coffee'], ['coffee']
   
