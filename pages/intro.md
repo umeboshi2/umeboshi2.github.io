@@ -41,4 +41,11 @@ How I create this [website](#pages/github-pages)
 ## Jessie
 
 Add this line to ```/etc/apt/sources.list```:
+
 ```deb https://deb.nodesource.com/node_4.x/ jessie main```
+
+
+Make sure the development user is in the ```staff``` group.
+
+
+
