@@ -29,3 +29,9 @@ node_modules
 # compass
 .sass-cache
 bower_components
+
+# maybe include later?
+stylesheets
+manifest.json
+stats-dev.json
+
