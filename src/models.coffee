@@ -21,7 +21,7 @@ class KottiMessages extends Backbone.Collection
 
 class BaseKottiModel extends Backbone.Model
   url: ->
-    "#{@id}/@@json"
+    "#{@id}.json"
 
   parse: (response, options) ->
     messages = response.data.relationships.meta.messages
@@ -35,9 +35,6 @@ class BaseKottiModel extends Backbone.Model
 class AppSettings extends Backbone.Model
   id: 'ittok'
 
-class KottiRootDocument extends BaseKottiModel
-  url: "@@json"
-
 class KottiDefaultViewSelector extends Backbone.Model
 
 
@@ -46,11 +43,9 @@ MainChannel.reply 'main:app:settings', ->
   app_settings
 
 
-#root_document = new KottiRootDocument
-#MainChannel.reply 'main:app:root-document', ->
-#  root_document
-
 MainChannel.reply 'main:app:get-document', (path) ->
+  if path == ''
+    path = 'package'
   new BaseKottiModel
     id: path
 
