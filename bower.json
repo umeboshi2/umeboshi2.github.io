@@ -17,6 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "TableDnD": "~0.9.1"
+    "bootstrap-fileinput": "~4.2.7",
+    "TableDnD": "~0.9.1",
+    "tag-it": "aehlke/tag-it"
   }
 }
