@@ -1,44 +1,42 @@
 path = require 'path'
 webpack = require 'webpack'
 
+ManifestPlugin = require 'webpack-manifest-plugin'
+
+ChunkManifestPlugin = require 'chunk-manifest-webpack-plugin'
+StatsPlugin = require 'stats-webpack-plugin'
+
+
+loaders = require './webpack-config/loaders'
+aliases = require './webpack-config/resolve-aliases'
+entries = require './webpack-config/entries'
+
 module.exports =
-  entry: './src/application.coffee'
+  devtool: 'source-map'
+  entry: entries
   output:
-    filename: 'build/bundle.js'
+    filename: 'build/bundle-[name].js'
+    #path: path.join __dirname, "kotti_dashboard/static"
+    #publicPath: '/static-kotti_dashboard/'
+    
+  plugins: [
+    new webpack.DefinePlugin
+      __DEV__: 'true'
+      DEBUG: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
+    new webpack.optimize.DedupePlugin()
+    new webpack.optimize.CommonsChunkPlugin
+      name: 'vendor'
+      filename: 'build/vendor-dev.js'
+    new StatsPlugin 'stats-dev.json', chunkModules: true
+    new ManifestPlugin()
+    ]
   module:
-    loaders: [
-      {
-        test: /\.coffee$/
-        loader: 'coffee'
-      }
-      {
-        test: /\.css$/
-        loader: 'style!css'
-      }
-      {
-        test: /\.(woff|woff2|eot|ttf)(\?[\&0-9]+)?$/
-        loader: 'url-loader'
-      }
-      {
-        test: /\.(woff|woff2|eot|ttf)(\?v=[0-9]\.[0-9]\.[0-9])?$/
-        loader: 'url-loader'
-      }
-      {
-        test: /jquery\/src\/selector\.js$/
-        #loader: "expose?$!expose?jQuery"
-        loader: 'amd-define-factory-patcher-loader'
-      }
-      #{
-      #  test: require.resolve 'jquery'
-      #  loader: "expose?$!expose?jQuery"
-      #}
-      ]
+    loaders: loaders
   resolve:
     fallback: [
       path.join __dirname, 'src'
       ]
-    alias:
-      jquery: 'jquery/src/jquery'
+    alias: aliases
     modulesDirectories: [
       'node_modules'
       'bower_components'
@@ -54,13 +52,9 @@ module.exports =
       '.coffee'
     ]
     plugins: [
-      #new webpack.ProvidePlugin
-      #  '$': 'jquery'
-      #  'jQuery': 'jquery'
-      #  'window.jQuery': 'jquery'
-        
-      new webpack.ResolverPlugin(
-        new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
-    )
+      new webpack.ResolverPlugin
+        new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin
+          "bower.json", ["main"]
+        ['normal', 'loader']
     ]
 
