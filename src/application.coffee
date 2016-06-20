@@ -16,7 +16,9 @@ require 'bootstrap-fileinput-js'
 
 MainChannel = Backbone.Radio.channel 'global'
 
-Backbone.Radio.DEBUG = true
+if __DEV__
+  console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
+  Backbone.Radio.DEBUG = true
 
 # FIXME
 # sync should probably be overridden in model/collection
@@ -140,8 +142,6 @@ MainChannel.on 'appregion:navbar:displayed', ->
   search = MainChannel.request 'main:app:get-region', 'search'
   search.show view
 
-#root_document = new KottiRootDocument
-#  root_document
 
 # require applets
 # 
