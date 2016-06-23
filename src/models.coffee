@@ -2,41 +2,37 @@ $ = require 'jquery'
 _ = require 'underscore'
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
+Backbone.LocalStorage = require 'backbone.localstorage'
 
 
 MainChannel = Backbone.Radio.channel 'global'
 
 
+DocumentDatabase = new Backbone.LocalStorage 'app-documents'
+MainChannel.reply 'main:app:app-documentdb', ->
+  DocumentDatabase
+  
+
 ########################################
 # Models
 ########################################
 #
-class KottiMessage extends Backbone.Model
+
+class BaseMessage extends Backbone.Model
   defaults:
     level: 'info'
 
 
-class KottiMessages extends Backbone.Collection
-  model: KottiMessage
+class BaseMessageCollection extends Backbone.Collection
+  model: BaseMessage
 
-class BaseKottiModel extends Backbone.Model
-  url: ->
-    "#{@id}.json"
 
-  parse: (response, options) ->
-    messages = response.data.relationships.meta.messages
-    for label of messages
-      for msg in messages[label]
-        MainChannel.request 'main:app:display-message', msg, label
-    window.kotti_response = response
-    window.kotti_options = options
-    super response, options
-
+# FIXME: figure out what settings and where stored
 class AppSettings extends Backbone.Model
-  id: 'ittok'
 
-class KottiDefaultViewSelector extends Backbone.Model
-
+class Document extends Backbone.Model
+  localStorage: MainChannel.request 'main:app:app-documentdb'
+  
 
 app_settings = new AppSettings
 MainChannel.reply 'main:app:settings', ->
@@ -46,23 +42,16 @@ MainChannel.reply 'main:app:settings', ->
 MainChannel.reply 'main:app:get-document', (path) ->
   if path == ''
     path = 'package'
-  new BaseKottiModel
+  new Backbone.Model
     id: path
 
-main_message_collection = new KottiMessages
+main_message_collection = new BaseMessageCollection
 MainChannel.reply 'main:app:messages', ->
   main_message_collection
 
 MainChannel.reply 'main:app:display-message', (msg, lvl) =>
   messages = MainChannel.request 'main:app:messages'
-  Message = new Backbone.Model
-    content: msg
-    level: lvl
-  window.messages = messages
-  messages.add Message
-
-MainChannel.reply 'main:app:display-message', (msg, lvl) =>
-  messages = MainChannel.request 'main:app:messages'
+  # FIXME: why not use BaseMessage model?
   Message = new Backbone.Model
     content: msg
     level: lvl
@@ -74,9 +63,7 @@ MainChannel.reply 'main:app:delete-message', (model) =>
   messages.remove model
 
 
-
 module.exports =
-  KottiMessage: KottiMessage
+  BaseMessage: BaseMessage
   AppSettings: AppSettings
-  KottiRootDocument: KottiRootDocument
-
+  Document: Document

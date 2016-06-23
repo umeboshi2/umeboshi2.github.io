@@ -14,8 +14,6 @@ MainLayoutTemplate = tc.renderable () ->
   tc.div '#navbar-view-container'
   tc.div '#editor-bar-container'
   tc.div '.container', ->
-    # edit/breadcrumbs.pt
-    tc.div '#breadcrumbs'
     tc.div '.row', ->
       tc.div 'col-md-12', ->
         tc.div '#messages'

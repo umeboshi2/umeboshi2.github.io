@@ -46,16 +46,6 @@ class MainController extends BaseController
     else
       editbar.empty()
 
-  _make_breadcrumbs: ->
-    data = @root_doc.get 'data'
-    breadcrumbs = data.relationships.meta.breadcrumbs
-    bc = @_get_region 'breadcrumbs'
-    if breadcrumbs.length > 1
-      view = new MainViews.BreadCrumbView
-        model: @root_doc
-      bc.show view
-    else
-      bc.empty()
 
 module.exports =
   BaseController: BaseController

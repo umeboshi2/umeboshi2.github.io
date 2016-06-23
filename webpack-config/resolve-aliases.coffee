@@ -15,4 +15,4 @@ module.exports =
   backbone: path.resolve nodeModulesPath, 'backbone.marionette', 'node_modules', 'backbone'
   #backbone: 'backbone.marionette/node_modules/backbone/backbone.js'
   underscore: 'backbone.marionette/node_modules/underscore/underscore.js'
-  
+  #underscore: 'lodash'

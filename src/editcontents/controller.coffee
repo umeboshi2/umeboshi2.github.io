@@ -11,27 +11,35 @@ MainViews = require '../views'
 Views = require './views'
 
 MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
 
 
+CONTENT_TYPES =
+  html: 'Document'
+  markdown: 'MarkDownDocument'
 
-require.ensure [
-  "hallo/src/hallo"
-  "hallo/src/widgets/dropdownbutton"
-  "hallo/src/widgets/button"
-  "hallo/src/toolbar/contextual"
-  "hallo/src/plugins/halloformat"
-  "hallo/src/plugins/headings"
-  "hallo/src/plugins/justify"
-  "hallo/src/plugins/link"
-  "hallo/src/plugins/lists"
-  "hallo/src/plugins/reundo"
-  "hallo/src/plugins/image_insert_edit"
-  "hallo/src/plugins/image"
-  "hallo/src/plugins/image/current"
-  "hallo/src/plugins/block"
-  "hallo/src/plugins/blacklist"], (require) ->
-    EditView = Views.EditorView
-    return EditView
+CONTENT_LOOKUP =
+  Document: 'html'
+  MarkDownDocument: 'markdown'
+
+#require.ensure [
+#  "hallo/src/hallo"
+#  "hallo/src/widgets/dropdownbutton"
+#  "hallo/src/widgets/button"
+#  "hallo/src/toolbar/contextual"
+#  "hallo/src/plugins/halloformat"
+#  "hallo/src/plugins/headings"
+#  "hallo/src/plugins/justify"
+#  "hallo/src/plugins/link"
+#  "hallo/src/plugins/lists"
+#  "hallo/src/plugins/reundo"
+#  "hallo/src/plugins/image_insert_edit"
+#  "hallo/src/plugins/image"
+#  "hallo/src/plugins/image/current"
+#  "hallo/src/plugins/block"
+#  "hallo/src/plugins/blacklist"], (require) ->
+#    EditView = Views.EditorView
+#    return EditView
     
 
 
@@ -40,7 +48,6 @@ class Controller extends MainController
     response = @root_doc.fetch()
     response.done =>
       @_make_editbar()
-      @_make_breadcrumbs()
       view = new viewclass
         model: @root_doc
       @_show_content view

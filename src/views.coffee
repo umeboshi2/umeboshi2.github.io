@@ -26,9 +26,6 @@ class MainSearchFormView extends Backbone.Marionette.ItemView
 class EditBarView extends Backbone.Marionette.LayoutView
   template: EditorBarTemplates.editor_bar_pt
 
-class BreadCrumbView extends Backbone.Marionette.ItemView
-  template: MiscTemplates.breadcrumbs
-
 class UserMenuView extends Backbone.Marionette.ItemView
   template: MiscTemplates.user_menu
 
@@ -54,7 +51,6 @@ module.exports =
   MainSearchFormView: MainSearchFormView
   EditBarView: EditBarView
   BootstrapNavBarView: BootstrapNavBarView
-  BreadCrumbView: BreadCrumbView
   UserMenuView: UserMenuView
   MessagesView: MessagesView
   

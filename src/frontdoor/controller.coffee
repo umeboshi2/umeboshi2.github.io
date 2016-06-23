@@ -12,7 +12,6 @@ Views = require './views'
 class Controller extends MainController
   make_main_content: ->
     @_make_editbar()
-    @_make_breadcrumbs()
     #console.log "Make_Main_Content"
     view = new Views.FrontDoorMainView
       model: @root_doc
@@ -23,7 +22,6 @@ class Controller extends MainController
     response = @root_doc.fetch()
     response.done =>
       @_make_editbar()
-      @_make_breadcrumbs()
       view = new Views.FrontDoorMainView
         model: @root_doc
       @_show_content view

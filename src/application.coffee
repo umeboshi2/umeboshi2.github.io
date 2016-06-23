@@ -1,13 +1,14 @@
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
 require 'radio-shim'
-
+  
 require 'bootstrap'
 
-Models = require './models'
-Views = require './views'
+#Models = require './models'
+#Views = require './views'
 AppModel = require './appmodel'
 require './collections'
+
 require 'bootstrap-fileinput-css'
 require 'bootstrap-fileinput-js'
 
@@ -19,19 +20,6 @@ MainChannel = Backbone.Radio.channel 'global'
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
   Backbone.Radio.DEBUG = true
-
-# FIXME
-# sync should probably be overridden in model/collection
-# instead of globally
-# also, I could never get the rest view to respond to
-# this accept header and decided to use "@@json" instead.
-# 
-#bbsync = Backbone.sync
-#Backbone.sync = (method, model, options) ->
-#  options.headers =
-#    Accept: 'application/vnd.api+json'
-#  bbsync method, model, options
-
 
 class BootstrapModalRegion extends Backbone.Marionette.Region
   el: '#modal'
@@ -115,9 +103,10 @@ prepare_app = (app, appmodel, root_doc) ->
 ######################
 # start app setup
 
+# use a signal to request appmodel
 MainChannel.reply 'main:app:appmodel', ->
-  #console.log "setHandler main:app:appmodel"
   AppModel
+
 
 MainChannel.reply 'mainpage:init', (appmodel, root_doc) =>
   # get the app object
@@ -127,51 +116,51 @@ MainChannel.reply 'mainpage:init', (appmodel, root_doc) =>
   # emit the main view is ready
   MainChannel.trigger 'mainpage:displayed'
 
-#MainChannel.on 'appregion:navbar:displayed', ->
-#  doc = MainChannel.request 'main:app:current-document'
-#
-#  #view = new Views.UserMenuView
-#  #  model: doc
-#  #  
-#  #usermenu = MainChannel.request 'main:app:get-region', 'usermenu'
-#  #usermenu.show view
 
 MainChannel.on 'appregion:navbar:displayed', ->
-  view = new Views.MainSearchFormView
-    model: MainChannel.request 'main:app:current-document'
-  search = MainChannel.request 'main:app:get-region', 'search'
-  search.show view
-
+  # this handler is useful if there are views that need to be
+  # added to the navbar.  The navbar should have regions to attach
+  # the views
+  # --- example ---
+  # view = new view
+  # aregioun = MainChannel.request 'main:app:get-region', aregioun
+  # aregioun.show view
+  if __DEV__
+    console.warn "__DEV__ navbar displayed"
 
 # require applets
+# Applets need to be loaded to provide
+# urls for the app routers
 # 
+# FIXME - how to get this to work?
+#for applet in AppModel.get 'applets'
+#  window.appletfoo = applet
+#  console.log "require #{applet.appname}/main"
+#  require "#{applet.appname}/main"
+#for applet in AppModel.get 'applets'
+#  console.log "require #{applet.appname}/main"
+#  require.context "#{applet.appname}", false, /^main.coffee$/
+#  require "#{applet.appname}/main"
 require 'frontdoor/main'
 require 'editcontents/main'
-
-#FormView = require 'marionette-form-view'
-#window.formview = FormView
-
+ 
 
 
 app = new Marionette.Application()
-# DEBUG attach app to window
-window.App = app
 
-#root_doc = MainChannel.request 'main:app:root-document'
-here = location.pathname
-#console.log "Here we are", here
-if here == '/'
-  here = ''
-current_doc = MainChannel.request 'main:app:get-document', here
-MainChannel.reply 'main:app:current-document', ->
-  current_doc
-# DEBUG  
-window.current_doc = current_doc
-response = current_doc.fetch()
-response.done ->
-  console.log "AppModel", AppModel
-  prepare_app app, AppModel, current_doc
-  app.start()
+if __DEV__
+  # DEBUG attach app to window
+  window.App = app
+  console.warn "App is available #{app}"
+  
+
+# Start the Application
+app.start()
+
+# FIXME - remove this when things work better
+docwriter = () ->
+  document.write "Hello World!@!! #{app.channelName}<br/>"
+setInterval docwriter, 5000
 
 
 module.exports = app

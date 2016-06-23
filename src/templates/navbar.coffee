@@ -7,7 +7,7 @@ tc = require 'teacup'
   dropdown_toggle } = require 'bootstrap-teacup-templates/coffee/buttons'
   
   
-{ frontdoor_url } = require './common'
+# { frontdoor_url } = require './common'
 
 
 # Main Templates must use teacup.
@@ -19,9 +19,8 @@ tc = require 'teacup'
 ########################################
 # FIXME -- no search form with action 
 nav_pt_search = tc.renderable (doc) ->
-  relmeta = doc.data.relationships.meta
   tc.form '#form-search.navbar-form.navbar-right', role:'search',
-  method:'post', action:"#{relmeta.root_url}@@search-results", ->
+  method:'post', action:"/search-results", ->
     tc.div '.form-group', ->
       # FIXME search input placeholder needs to come from server
       tc.input '.form-control', name:'search-term', type:'search',
@@ -29,21 +28,35 @@ nav_pt_search = tc.renderable (doc) ->
     tc.button '.btn.btn-default', type:'submit', name:'search-submit',
     value:'search', style:'display: none;', ->
       tc.raw '&#8594'
+      
+# FIXME
+_navitems =
+  item1:
+    inside: false
+    description: "Item 1"
+    title: "Item One"
+    path: "/item1"
+  item2:
+    inside: false
+    description: "Item 2"
+    title: "Item Two"
+    path: "/item2"
+    
 
 nav_pt_content = tc.renderable (doc) ->
-  relmeta = doc.data.relationships.meta
   tc.div '.container-fluid', ->
     tc.div '.navbar-header', ->
       navbar_collapse_button 'navbar-view-collapse'
-      tc.a '.navbar-brand', href:'#frontdoor', relmeta.site_title
+      tc.a '.navbar-brand', href:'#frontdoor', "FIXME"
     tc.div '#navbar-view-collapse.collapse.navbar-collapse', ->
       tc.ul '.nav.navbar-nav', ->
-        for item in relmeta.navitems
+        # FIXME
+        for item in _navitems
           isactive = ""
           if item.inside
             isactive = ".active"
           tc.li isactive, ->
-            tc.a href:frontdoor_url(item.path),
+            tc.a href:item.path,
             title:item.description, item.title
       tc.ul '#user-menu.nav.navbar-nav.navbar-right'
       tc.div '#form-search-container'

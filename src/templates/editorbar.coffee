@@ -17,24 +17,6 @@ tc = require 'teacup'
 ########################################
 # Templates
 ########################################
-workflow_dropdown = tc.renderable (doc) ->
-  relmeta = doc.data.relationships.meta
-  wf = relmeta.workflow
-  tc.li '.dropdown', ->
-    if wf.current_state?.current and relmeta.has_permission?.state_change
-      dropdown_toggle ->
-        tc.span ".state-#{wf.current_state.name}", ->
-          tc.text wf.current_state.title
-          tc.b '.caret'
-      tc.ul '.dropdown-menu', ->
-        for trans in wf.transitions
-          tc.li ->
-            tc.a href:"#workflow-change", ->
-              tc.text "Make "
-              tc.span wf.states[trans.to_state]['title']
-  if wf.current_state?.current and not relmeta.has_permission?.state_change
-    tc.a ".state-#{wf.current_state.name}", ->
-      tc.text wf.current_state.title
 
 default_view_selector = tc.renderable (doc) ->
   relmeta = doc.data.relationships.meta
@@ -154,28 +136,7 @@ editor_bar_pt = tc.renderable (doc) ->
   tc.nav '#editor-bar.navbar.navbar-default.navbar-static-top', ->
     editor_bar_pt_content doc
 
-MainLayoutTemplate = tc.renderable () ->
-  tc.div '#navbar-view-container'
-  tc.div '#editor-bar-container'
-  tc.div '.container', ->
-    # edit/breadcrumbs.pt
-    tc.div '#breadcrumbs'
-    tc.div '.row', ->
-      tc.div '#main-content.col-md-9'
-      tc.div '#right-slot.col-md-3.right-column'
-  tc.div '#footer'
-  tc.div '#modal'
-
-breadcrumbs = tc.renderable (doc) ->
-  relmeta = doc.data.relationships.meta
-  tc.ol '.breadcrumb', ->
-    tc.small 'You are here:  '
-    for item in relmeta.breadcrumbs
-      tc.li ->
-        tc.a href:item.url, item.title
-
 ########################################
 module.exports =
-  workflow_dropdown: workflow_dropdown
   editor_bar_pt: editor_bar_pt
 

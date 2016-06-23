@@ -2,13 +2,14 @@ $ = require 'jquery'
 _ = require 'underscore'
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
+Backbone.LocalStorage = require 'backbone.localstorage'
 
 Models = require 'models'
 
 MainChannel = Backbone.Radio.channel 'global'
 
 
-class KottiClipboard extends Backbone.Collection
+class AppClipboard extends Backbone.Collection
   # initialize copy_status with "copy"
   copy_status: 'copy'
 
@@ -31,11 +32,21 @@ class KottiClipboard extends Backbone.Collection
     # return models
     models
 
-kotti_clipboard = new KottiClipboard
-MainChannel.reply 'main:app:kotti-clipboard', ->
-  kotti_clipboard
+app_clipboard = new AppClipboard
+MainChannel.reply 'main:app:app-clipboard', ->
+  app_clipboard
+
+class DocumentCollection extends Backbone.Collection
+  localStorage: MainChannel.request 'main:app:app-documentdb'
+  #localStorage: new Backbone.LocalStorage 'app-documents'
+  model: Models.Document
   
-
-module.exports = KottiClipboard
-
+app_documents = new DocumentCollection
+MainChannel.reply 'main:app:app-documents', ->
+  console.log "Set handler main:app:app-documents"
+  app_documents
+  
+module.exports =
+  AppClipboard: AppClipboard
+  DocumentCollection: DocumentCollection
 

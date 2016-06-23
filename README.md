@@ -28,7 +28,54 @@ nodejs global packages:
 above is definitely necessary.
 
 
+
 clone repo
 
 npm install
 
+
+
+## NodeJS Packages
+
+- backbone
+
+- backbone.marionette
+
+- backbone.radio
+
+- bootstrap
+
+- brace
+
+- hallo
+
+
+### webpack loaders
+
+- coffee-loader
+
+	- coffee-script
+
+- css-loader
+
+- expose-loader 
+
+- file-loader
+
+- imports-loader
+
+- raw-loader
+
+- style-loader
+
+- url-loader
+
+### gulp
+
+- gulp
+
+- gulp-compass
+
+- gulp-size
+
+- gulp-util

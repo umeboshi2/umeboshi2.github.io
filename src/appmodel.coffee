@@ -30,7 +30,6 @@ appregions =
   navbar: '#navbar-view-container'
   editbar: '#editor-bar-container'
   sidebar: '#sidebar'
-  breadcrumbs: '#breadcrumbs'
   content: '#main-content'
   messages: '#messages'
   footer: '#footer'
@@ -43,7 +42,7 @@ appregions =
 appmodel = new BaseAppModel
   hasUser: true
   brand:
-    name: 'Kotti'
+    name: 'Migmatite'
     url: '/'
   applets:
     [

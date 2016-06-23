@@ -15,7 +15,10 @@ module.exports =
   devtool: 'source-map'
   entry: entries
   output:
-    filename: 'build/bundle-[name].js'
+    filename: 'build/[name].js'
+    #publicPath: 'build'
+    #path: path.join __dirname, "build"
+    path: __dirname
     #path: path.join __dirname, "kotti_dashboard/static"
     #publicPath: '/static-kotti_dashboard/'
     
@@ -23,10 +26,10 @@ module.exports =
     new webpack.DefinePlugin
       __DEV__: 'true'
       DEBUG: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
-    new webpack.optimize.DedupePlugin()
     new webpack.optimize.CommonsChunkPlugin
       name: 'vendor'
       filename: 'build/vendor-dev.js'
+    new webpack.optimize.DedupePlugin()
     new StatsPlugin 'stats-dev.json', chunkModules: true
     new ManifestPlugin()
     ]
