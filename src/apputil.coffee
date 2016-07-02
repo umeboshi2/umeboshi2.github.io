@@ -2,7 +2,13 @@ $ = require 'jquery'
 _ = require 'underscore'
 Backbone = require 'backbone'
 
+# FIXME: we really need the equivalent of pressing "home"
+# http://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript-jquery
 scroll_top_fast = ()  ->
+  #$('html, body').animate {scrollTop: 0}, 'fast'
+  window.scrollTo 0,0
+  
+scroll_top_fast_jquery = ()  ->
   $('html, body').animate {scrollTop: 0}, 'fast'
 
 navigate_to_url = (url) ->
@@ -16,7 +22,11 @@ capitalize = (str) ->
   str.charAt(0).toUpperCase() + str.slice(1)
 
 handle_newlines = (str) ->
- str.replace(/(?:\r\n|\r|\n)/g, '<br />')
+  console.warn "handle_newlines being replaced by newline_2_br"
+  str.replace(/(?:\r\n|\r|\n)/g, '<br />')
+
+newline_2_br = (str) ->
+  str.replace(/(?:\r\n|\r|\n)/g, '<br />')
 
 #https://github.com/goodeggs/teacup-camel-to-kebab
 camel_to_kebab = (str) ->
@@ -48,6 +58,7 @@ remove_trailing_slashes = (path) ->
 
 module.exports =
   scroll_top_fast: scroll_top_fast
+  scroll_top_fast_jquery: scroll_top_fast_jquery
   navigate_to_url: navigate_to_url
   capitalize: capitalize
   handle_newlines: handle_newlines
