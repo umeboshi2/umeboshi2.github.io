@@ -9,6 +9,8 @@ class BaseAppModel extends Backbone.Model
     brand:
       name: 'Brand'
       url: '/'
+    # FIXME frontdoor_app has to be statically required in
+    # application.coffee
     frontdoor_app: 'frontdoor'
     hasUser: false
     frontdoor_sidebar:
@@ -44,6 +46,9 @@ appmodel = new BaseAppModel
   brand:
     name: 'Migmatite'
     url: '/'
+  #FIXME
+  # applets listed here still need to be required in
+  # application.coffee
   applets:
     [
       {
