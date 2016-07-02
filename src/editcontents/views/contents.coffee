@@ -14,6 +14,7 @@ require 'jquery-ui'
   make_json_post } = require 'apputil'
 
 MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
 
 class ContentsView extends Backbone.Marionette.ItemView
   template: AppTemplates.ContentsViewTemplate
@@ -69,7 +70,7 @@ class ContentsView extends Backbone.Marionette.ItemView
     selected = @ui.contents_form.serializeArray()
     if not selected.length
       msg = 'Select a child before pressing a button'
-      MainChannel.request 'main:app:display-message', msg, 'info'
+      MessageChannel.request 'display-message', msg, 'info'
       return
     console.log "Somehting should be selected"
     selected_values = (parseInt c.value for c in selected)
@@ -90,7 +91,7 @@ class ContentsView extends Backbone.Marionette.ItemView
       if name in ['copy', 'cut']
         cb[name] selected_models
         msg = "#{name} performed on #{selected_models.length} models"
-        MainChannel.request 'main:app:display-message', msg, 'success'
+        MessageChannel.request 'display-message', msg, 'success'
         return
         
     if name in ['delete_nodes']
@@ -129,7 +130,7 @@ class ContentsView extends Backbone.Marionette.ItemView
           #console.log "Success"
           msg = "Moved from #{oldPosition} to #{newPosition} successfully!"
           level = 'info'
-          MainChannel.request 'main:app:display-message', msg, level
+          MessageChannel.request 'display-message', msg, level
 
         response.fail =>
           alert "Bad move!"

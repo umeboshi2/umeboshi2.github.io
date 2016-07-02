@@ -19,13 +19,17 @@ class Controller extends MainController
 
   _view_resource: ->
     #console.log "Fetch from", @root_doc.url()
-    response = @root_doc.fetch()
-    response.done =>
-      @_make_editbar()
-      view = new Views.FrontDoorMainView
-        model: @root_doc
-      @_show_content view
-
+    #response = @root_doc.fetch()
+    #response.done =>
+    #  @_make_editbar()
+    #  view = new Views.FrontDoorMainView
+    #    model: @root_doc
+    #  @_show_content view
+    @_make_editbar()
+    view = new Views.FrontDoorMainView
+      model: @root_doc
+    @_show_content view
+    
   view_resource: (resource) ->
     #console.log "RESOURCE", resource
     @_set_resource resource

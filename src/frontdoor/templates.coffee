@@ -20,12 +20,12 @@ frontdoor_main = tc.renderable (content) ->
   #tc.div 'hello there'
   #
 DefaultViewTemplate = tc.renderable (doc) ->
-  atts = doc.data.attributes
+  #atts = doc.data.attributes
   tc.article '.document-view.content', ->
-    tc.h1 atts.title
-    tc.p '.lead', atts.description
+    tc.h1 doc.title
+    #tc.p '.lead', atts.description
     tc.div '.body', ->
-      tc.raw atts.body
+      tc.raw doc.content
 
 FolderViewTemplate = tc.renderable (doc) ->
   atts = doc.data.attributes

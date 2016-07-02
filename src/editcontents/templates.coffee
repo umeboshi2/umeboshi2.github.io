@@ -38,6 +38,30 @@ popover_image = tc.renderable (url) ->
   tc.img src:url
 
 ContentsViewTemplate = tc.renderable (doc) ->
+  lineage = []
+  tc.div '.document-view.content', ->
+    tc.h1 doc.title
+    #tc.p '.lead', (doc?.description || 'description?')
+    tc.p '.lead', if doc?.description isnt undefined then doc.description else 'description???'
+    #tc.div tags
+    # FIXME i18n
+    tc.h2 'Contents'
+    tc.div '.body', ->
+      tc.div '#contents-path', ->
+        tc.div doc.content
+      tc.form '#contents-form', ->
+        # table only needed if length children
+          tc.div ".btn-group", ->
+            for btn in ['cut', 'copy', 'paste']
+              tc.div ".action-button.btn.btn-default.btn-sm",
+              #name:btn.name, type:'submit', ->
+              name:btn.name, ->
+                tc.i ".fa.#{button_icons[btn]}.fa-fw"
+                tc.small ->
+                  tc.text capitalize btn
+
+  
+ContentsViewTemplateOrig = tc.renderable (doc) ->
   atts = doc.data.attributes
   relmeta = doc.data.relationships.meta
   lineage = relmeta.lineage.slice()

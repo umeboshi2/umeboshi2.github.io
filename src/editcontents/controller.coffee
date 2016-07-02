@@ -45,13 +45,17 @@ CONTENT_LOOKUP =
 
 class Controller extends MainController
   _get_doc_and_render_view: (viewclass) ->
-    response = @root_doc.fetch()
-    response.done =>
-      @_make_editbar()
-      view = new viewclass
-        model: @root_doc
-      @_show_content view
-      
+    #response = @root_doc.fetch()
+    #response.done =>
+    #  @_make_editbar()
+    #  view = new viewclass
+    #    model: @root_doc
+    #  @_show_content view
+    @_make_editbar()
+    view = new viewclass
+      model: @root_doc
+    @_show_content view
+    
   manage_contents: (resource) ->
     @_set_resource resource
     @_get_doc_and_render_view Views.ContentsView
