@@ -7,6 +7,8 @@ Backbone.LocalStorage = require 'backbone.localstorage'
 Models = require 'models'
 
 MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
+ResourceChannel = Backbone.Radio.channel 'resources'
 
 
 class AppClipboard extends Backbone.Collection
@@ -36,17 +38,5 @@ app_clipboard = new AppClipboard
 MainChannel.reply 'main:app:app-clipboard', ->
   app_clipboard
 
-class DocumentCollection extends Backbone.Collection
-  localStorage: MainChannel.request 'main:app:app-documentdb'
-  #localStorage: new Backbone.LocalStorage 'app-documents'
-  model: Models.Document
-  
-app_documents = new DocumentCollection
-MainChannel.reply 'main:app:app-documents', ->
-  console.log "Set handler main:app:app-documents"
-  app_documents
-  
 module.exports =
   AppClipboard: AppClipboard
-  DocumentCollection: DocumentCollection
-

@@ -5,17 +5,27 @@ require 'radio-shim'
 require 'bootstrap'
 
 #Models = require './models'
-#Views = require './views'
+
+Views = require './views'
 AppModel = require './appmodel'
-require './collections'
+
+require './clipboard'
+require './messages'
+require './documents'
 
 require 'bootstrap-fileinput-css'
 require 'bootstrap-fileinput-js'
 
 #require 'vie'
+{ random_choice } = require './apputil'
 
 
 MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
+ResourceChannel = Backbone.Radio.channel 'resources'
+
+#FIXME
+window.rchnnl = ResourceChannel
 
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
@@ -50,7 +60,7 @@ initialize_page = (app, root_doc) ->
     navbar_region = regions.get 'navbar'
     navbar_region.show navbar
     messages = new Views.MessagesView
-      collection: MainChannel.request 'main:app:messages'
+      collection: MessageChannel.request 'messages'
     messages_region = regions.get 'messages'
     messages_region.show messages
     
@@ -65,9 +75,11 @@ prepare_app = (app, appmodel, root_doc) ->
   if 'modal' of regions
     regions.modal = BootstrapModalRegion
 
+  # set up region manager
   region_manager = new Backbone.Marionette.RegionManager
   region_manager.addRegions regions
 
+  # set triggers on regions
   navbar = region_manager.get 'navbar'
   navbar.on 'show', =>
       #console.log "we have users for this app....."
@@ -151,15 +163,43 @@ app = new Marionette.Application()
 if __DEV__
   # DEBUG attach app to window
   window.App = app
-  console.warn "App is available #{app}"
+  #console.warn "App is available #{app}"
   
 
 # Start the Application
 app.start()
 
+root_doc = ResourceChannel.request 'get-document', 'startdoc'
+  
+# DEBUG
+if __DEV__
+  window.root_doc = root_doc
+  
+if root_doc is undefined
+  console.warn "root_doc is undefined!!"
+  root_doc = ResourceChannel.request 'add-document', 'startdoc', 'Welcome', 'Hello World!'
+  console.warn 'root_doc', root_doc
+
+if root_doc is undefined
+  console.error 'bad, bad, bad'
+else
+  prepare_app app, AppModel, root_doc
+  app.start()
+  $('title').text root_doc.get 'title'
+  
+
+
 # FIXME - remove this when things work better
+inames = ['bicycle', 'spinner', 'cut', 'copy', 'paste']
+icons = ("fa-#{i}" for i in inames)
+#icons = ['fa-bicycle', 'fa-spinner', 'fa-copy', 'fa-paste']
+#console.log "icons", icons, inames
+
 docwriter = () ->
-  document.write "Hello World!@!! #{app.channelName}<br/>"
+  #document.write "Hello World!@!! #{app.channelName}<br/>"
+  #$('.body').append "Hello World!@!! #{app.channelName}<br/>"
+  iclass = "fa #{random_choice icons} fa-spin"
+  $('.body').append "<i class=\"#{iclass}\"></i>"
 setInterval docwriter, 5000
 
 
