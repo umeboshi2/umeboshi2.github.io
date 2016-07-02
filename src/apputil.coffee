@@ -56,6 +56,10 @@ make_json_post = (url, data, type='POST') ->
 remove_trailing_slashes = (path) ->
   path.replace /\/$/, ""
 
+random_choice = (myArray) ->
+  index = Math.floor(Math.random() * myArray.length)
+  myArray[index]
+  
 module.exports =
   scroll_top_fast: scroll_top_fast
   scroll_top_fast_jquery: scroll_top_fast_jquery
@@ -67,7 +71,7 @@ module.exports =
   make_json_post_settings: make_json_post_settings
   make_json_post: make_json_post
   remove_trailing_slashes: remove_trailing_slashes
-
+  random_choice: random_choice
 
 
 
