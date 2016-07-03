@@ -8,10 +8,11 @@ Util = require 'apputil'
 MainViews = require '../views'
 { MainController } = require '../controllers'
 
-Views = require './views'
+#Views = require './views'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
+ResourceChannel = Backbone.Radio.channel 'resources'
 
 
 CONTENT_TYPES =
@@ -22,54 +23,51 @@ CONTENT_LOOKUP =
   Document: 'html'
   MarkDownDocument: 'markdown'
 
-#require.ensure [
-#  "hallo/src/hallo"
-#  "hallo/src/widgets/dropdownbutton"
-#  "hallo/src/widgets/button"
-#  "hallo/src/toolbar/contextual"
-#  "hallo/src/plugins/halloformat"
-#  "hallo/src/plugins/headings"
-#  "hallo/src/plugins/justify"
-#  "hallo/src/plugins/link"
-#  "hallo/src/plugins/lists"
-#  "hallo/src/plugins/reundo"
-#  "hallo/src/plugins/image_insert_edit"
-#  "hallo/src/plugins/image"
-#  "hallo/src/plugins/image/current"
-#  "hallo/src/plugins/block"
-#  "hallo/src/plugins/blacklist"], (require) ->
-#    EditView = Views.EditorView
-#    return EditView
-    
-
 
 class Controller extends MainController
   _get_doc_and_render_view: (viewclass) ->
-    #response = @root_doc.fetch()
-    #response.done =>
-    #  @_make_editbar()
-    #  view = new viewclass
-    #    model: @root_doc
-    #  @_show_content view
     @_make_editbar()
     view = new viewclass
       model: @root_doc
     @_show_content view
     
   manage_contents: (resource) ->
-    @_set_resource resource
-    @_get_doc_and_render_view Views.ContentsView
-
+    require.ensure [], () =>
+      ContentsView = require './views/contents'
+      @_set_resource resource
+      @_get_doc_and_render_view ContentsView
+    # name the chunk
+    , 'manage-contents'
+    
   edit_node: (resource) ->
-    console.log "EDIT RESOURCE", resource
-    @_set_resource resource
-    @_get_doc_and_render_view Views.EditorView
-
+    require.ensure [], () =>
+      console.log "HALLO EDIT RESOURCE", resource
+      #Views = require './views'
+      EditorView = require './views/halloeditor'
+      @_set_resource resource
+      @_get_doc_and_render_view EditorView
+    # name the chunk
+    , 'hallo-edit'
+    
   ace_edit_node: (resource) ->
-    console.log "ACE EDIT RESOURCE", resource
-    @_set_resource resource
-    @_get_doc_and_render_view Views.AceEditorView
-
+    require.ensure [], () =>
+      console.log "ACE EDIT RESOURCE", resource
+      #Views = require './views'
+      AceEditorView = require './views/ace-editor'
+      @_set_resource resource
+      @_get_doc_and_render_view AceEditorView
+    # name the chunk
+    , 'ace-edit'
+    
+  list_pages: () ->
+    console.log "List Pages"
+    require.ensure [], () =>
+      PageListView = require './views/pagelist'
+      view = new PageListView
+        collection: ResourceChannel.request 'app-documents'
+      @_show_content view
+    # name the chunk
+    , 'listpages'
     
 module.exports = Controller
 

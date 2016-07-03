@@ -168,6 +168,20 @@ AceEditNodeForm = tc.renderable (doc) ->
   tc.div '#ace-editor', style:'position:relative;width:100%;height:40em;'
   tc.input '.btn.btn-default', type:'submit', value:"Update #{doc.data.type}"
 
+PageItem = tc.renderable (page) ->
+  tc.li ".page-item", ->
+    tc.text page.name
+    #tc.span "#edit-page-#{page.name}.btn.btn-default.fa.fa-edit"
+    tc.span ".edit-page.btn.btn-default.btn-xs.fa.fa-edit"
+    tc.span ".delete-page.btn.btn-default.btn-xs.fa.fa-close"
+
+
+PageList = tc.renderable () ->
+  tc.div '#makenewpage.btn.btn-default', ->
+    "new page"
+  tc.hr()
+  tc.ul "#pagecontainer.nav.nav-list"
+  
 #editor {
 #    position: relative;
 #    width: 100%;
@@ -180,4 +194,5 @@ module.exports =
   ContentsViewTemplate: ContentsViewTemplate
   EditNodeForm: EditNodeForm
   AceEditNodeForm: AceEditNodeForm
-
+  PageItem: PageItem
+  PageList: PageList
