@@ -31,6 +31,11 @@ nav_pt_search = tc.renderable (doc) ->
       
 # FIXME
 _navitems =
+  editor:
+    inside: false
+    description: "Edit pages"
+    title: 'Editor'
+    path: '#editor'
   item1:
     inside: false
     description: "Item 1"
@@ -51,7 +56,10 @@ nav_pt_content = tc.renderable (doc) ->
     tc.div '#navbar-view-collapse.collapse.navbar-collapse', ->
       tc.ul '.nav.navbar-nav', ->
         # FIXME
-        for item in _navitems
+        #console.log '_navitems', _navitems
+        for iname, item of _navitems
+          #item = _navitems[iname]
+          #console.log "navitem", item, item.path
           isactive = ""
           if item.inside
             isactive = ".active"
@@ -66,7 +74,7 @@ nav_pt = tc.renderable (doc) ->
   xmlns:'http://www.w3.org/1999/xhtml', 'xml:lang':'en',
   role:'navigation', ->
     nav_pt_content doc
-
+    
 ########################################
 module.exports =
   nav_pt_search: nav_pt_search

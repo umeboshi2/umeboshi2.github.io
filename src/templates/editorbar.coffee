@@ -95,7 +95,7 @@ user_menu_dropdown = tc.renderable (doc) ->
           # FIXME i18n
           tc.span 'Logout'
 
-editor_bar_pt_content = tc.renderable (doc) ->
+editor_bar_pt_content_orig = tc.renderable (doc) ->
   relmeta = doc.data.relationships.meta
   this_path = relmeta.paths.this_path
   tc.div '.container-fluid', ->
@@ -118,6 +118,45 @@ editor_bar_pt_content = tc.renderable (doc) ->
             href = editor_url link.name, this_path
             tc.a href:href, link.title
         if relmeta.has_permission.edit
+          actions_dropdown doc
+        if relmeta.has_permission.add
+          tc.li '.divider-vertical'
+          add_dropdown doc
+      tc.ul '.nav.navbar-nav.navbar-right', ->
+        liclass = '.pull-right'
+        if relmeta.request_url == relmeta.navigate_url
+          liclass = "#{liclass}.active"
+        tc.li liclass, ->
+          # FIXME i18n
+          tc.a href:relmeta.navigate_url, "Navigate"
+        user_menu_dropdown doc
+
+
+editor_bar_pt_content = tc.renderable (doc) ->
+  #relmeta = doc.data.relationships.meta
+  this_path = ''
+  tc.div '.container-fluid', ->
+    tc.div '.navbar-header', ->
+      navbar_collapse_button 'navbar-edit'
+    tc.div '#navbar-edit.collapse.navbar-collapse', ->
+      tc.ul '.nav.navbar-nav.navbar-left', ->
+        # has edit permission
+        if true
+          workflow_dropdown doc
+        # FIXME, check another way for active
+        isactive = ''
+        #if relmeta.request_url == relmeta.api_url
+        #  isactive = '.active'
+        tc.li ->
+          href = frontdoor_url this_path
+          tc.a href:href, "View"
+        # FIXME: figure out disable_context_links
+        for link in relmeta.edit_links
+          tc.li ->
+            href = editor_url link.name, this_path
+            tc.a href:href, link.title
+        #has edit permission
+        if true
           actions_dropdown doc
         if relmeta.has_permission.add
           tc.li '.divider-vertical'
