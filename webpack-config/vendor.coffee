@@ -1,7 +1,7 @@
 module.exports = [
   'underscore'
   'backbone'
-  'backbone.localstorage'
+  #'backbone.localstorage'
   'backbone.marionette'
   'backbone.validation'
   'radio-shim'
