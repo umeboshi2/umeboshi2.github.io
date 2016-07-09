@@ -12,10 +12,10 @@ tc = require 'teacup'
 ########################################
 MainLayoutTemplate = tc.renderable () ->
   tc.div '#navbar-view-container'
-  tc.div '#editor-bar-container'
+  #tc.div '#editor-bar-container'
   tc.div '.container', ->
     tc.div '.row', ->
-      tc.div 'col-md-12', ->
+      tc.div '.col-md-10', ->
         tc.div '#messages'
       tc.div '#main-content.col-md-9'
       tc.div '#right-slot.col-md-3.right-column'
