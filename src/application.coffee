@@ -13,11 +13,14 @@ require './clipboard'
 require './messages'
 require './documents'
 
-require 'bootstrap-fileinput-css'
-require 'bootstrap-fileinput-js'
+#require 'bootstrap-fileinput-css'
+#require 'bootstrap-fileinput-js'
 
 #require 'vie'
 { random_choice } = require './apputil'
+
+{ BootstrapModalRegion } = require './regions'
+
 
 
 MainChannel = Backbone.Radio.channel 'global'
@@ -30,21 +33,6 @@ window.rchnnl = ResourceChannel
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
   Backbone.Radio.DEBUG = true
-
-class BootstrapModalRegion extends Backbone.Marionette.Region
-  el: '#modal'
-
-  getEl: (selector) ->
-    $el = $ selector
-    $el.attr 'class', 'modal'
-    #$el.attr 'class', 'modal fade'
-    $el
-
-  show: (view) ->
-    super view
-    @$el.modal
-      backdrop: false
-    @$el.modal 'show'
 
 initialize_page = (app, root_doc) ->
   regions = MainChannel.request 'main:app:regions'
@@ -187,20 +175,6 @@ else
   app.start()
   $('title').text root_doc.get 'title'
   
-
-
-# FIXME - remove this when things work better
-inames = ['bicycle', 'spinner', 'cut', 'copy', 'paste']
-icons = ("fa-#{i}" for i in inames)
-#icons = ['fa-bicycle', 'fa-spinner', 'fa-copy', 'fa-paste']
-#console.log "icons", icons, inames
-
-docwriter = () ->
-  #document.write "Hello World!@!! #{app.channelName}<br/>"
-  #$('.body').append "Hello World!@!! #{app.channelName}<br/>"
-  iclass = "fa #{random_choice icons} fa-spin"
-  $('.body').append "<i class=\"#{iclass}\"></i>"
-setInterval docwriter, 5000
 
 
 module.exports = app
