@@ -7,15 +7,18 @@ marked = require 'marked'
 
 MainChannel = Backbone.Radio.channel 'global'
 
-Views = require './views'
+#Views = require './views'
 
 class Controller extends MainController
   make_main_content: ->
     @_make_editbar()
-    #console.log "Make_Main_Content"
-    view = new Views.FrontDoorMainView
-      model: @root_doc
-    @_show_content view
+    require.ensure [], () =>
+      { FrontDoorMainView } = require './views'
+      view = new FrontDoorMainView
+        model: @root_doc
+      @_show_content view
+    # name the chunk
+    , 'frontdoor-main-view'
 
   _view_resource: ->
     #console.log "Fetch from", @root_doc.url()
@@ -26,9 +29,14 @@ class Controller extends MainController
     #    model: @root_doc
     #  @_show_content view
     @_make_editbar()
-    view = new Views.FrontDoorMainView
-      model: @root_doc
-    @_show_content view
+    require.ensure [], () =>
+      { FrontDoorMainView } = require './views'
+      view = new FrontDoorMainView
+        model: @root_doc
+      @_show_content view
+    # name the chunk
+    , 'frontdoor-view-resource'
+    
     
   view_resource: (resource) ->
     #console.log "RESOURCE", resource
