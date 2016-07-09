@@ -1,12 +1,13 @@
 Backbone = require 'backbone'
-Marionette = require 'marionette'
+Marionette = require 'backbone.marionette'
 
-MainChannel = Backbone.Wreqr.radio.channel 'global'
-global_request = MainChannel.reqres.request
+MainChannel = Backbone.Radio.channel 'global'
+
 
 class BootstrapModalRegion extends Backbone.Marionette.Region
   el: '#modal'
-      
+  backdrop: false
+  
   getEl: (selector) ->
     $el = $ selector
     $el.attr 'class', 'modal'
@@ -16,10 +17,15 @@ class BootstrapModalRegion extends Backbone.Marionette.Region
   show: (view) ->
     super view
     @$el.modal
-      backdrop: false
+      backdrop: @backdrop
     @$el.modal 'show'
       
-
-exports =
+show_modal = (view, backdrop=false) ->
+  modal_region = MainChannel.request 'main:app:get-region', 'modal'
+  modal_region.backdrop = backdrop
+  modal_region.show view
+  
+module.exports =
   BootstrapModalRegion: BootstrapModalRegion
+  show_modal: show_modal
   
