@@ -3,15 +3,16 @@ marked = require 'marked'
 
 
 { navbar_collapse_button
-  dropdown_toggle } = require 'bootstrap-teacup-templates/coffee/buttons'
+  dropdown_toggle
+  modal_close_button } = require 'bootstrap-teacup-templates/coffee/buttons'
   
+{ form_group_input_div } = require 'bootstrap-teacup-templates/coffee/forms'
 
 { frontdoor_url
   editor_url } = require '../templates/common'
 
 { workflow_dropdown } = require '../templates/editorbar'
 
-{ form_group_input_div } = require 'bootstrap-teacup-templates/coffee/forms'
 
 { capitalize } = require 'apputil'
 
@@ -173,22 +174,35 @@ PageItem = tc.renderable (page) ->
     tc.text page.name
     #tc.span "#edit-page-#{page.name}.btn.btn-default.fa.fa-edit"
     tc.span ".edit-page.btn.btn-default.btn-xs.fa.fa-edit"
-    tc.span ".delete-page.btn.btn-default.btn-xs.fa.fa-close"
+    #tc.span ".delete-page.btn.btn-default.btn-xs.fa.fa-close", style:"visibility:hidden;color:red"
+    tc.span ".delete-page.btn.btn-default.btn-xs.fa.fa-close", style:"color:red"
 
 
 PageList = tc.renderable () ->
+  tc.input '#newpagename'
   tc.div '#makenewpage.btn.btn-default', ->
     "new page"
   tc.hr()
   tc.ul "#pagecontainer.nav.nav-list"
-  
-#editor {
-#    position: relative;
-#    width: 100%;
-#    height: 40em;
-#}
 
 
+ConfirmPageDeleteModal = tc.renderable (page) ->
+  tc.div '.modal-dialog', ->
+    tc.div '.modal-content', ->
+      tc.h3 "Do you really want to delete #{page.name}?"
+      tc.div '.modal-body', ->
+        tc.div '#selected-children'
+      tc.div '.modal-footer', ->
+        tc.ul '.list-inline', ->
+          btnclass = 'btn.btn-default.btn-sm'
+          #tc.li "#confirm-delete-button.#{btnclass}", "OK"
+          #tc.div "#cancel-delete-button.#{btnclass}",
+          #'data-dismiss': 'modal', "Cancel"
+          tc.li "#confirm-delete-button", ->
+            modal_close_button 'OK', 'check'
+          tc.li "#cancel-delete-button", ->
+            modal_close_button 'Cancel'
+    
 
 module.exports =
   ContentsViewTemplate: ContentsViewTemplate
@@ -196,3 +210,4 @@ module.exports =
   AceEditNodeForm: AceEditNodeForm
   PageItem: PageItem
   PageList: PageList
+  ConfirmPageDeleteModal: ConfirmPageDeleteModal

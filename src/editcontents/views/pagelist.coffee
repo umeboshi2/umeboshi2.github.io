@@ -3,27 +3,58 @@ Marionette = require 'backbone.marionette'
 
 AppTemplates = require '../templates'
 
+# FIXME - these requires depend on fallback directive
+# in webpack
+{ navigate_to_url } = require 'apputil'
+{ show_modal } = require 'regions'
 
 MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
 ResourceChannel = Backbone.Radio.channel 'resources'
 
+class DeletePageModal extends Backbone.Marionette.ItemView
+  template: AppTemplates.ConfirmPageDeleteModal
+  ui:
+    confirm_delete: '#confirm-delete-button'
+    cancel_button: '#cancel-delete-button'
+    
+  events: ->
+    'click @ui.confirm_delete': 'confirm_delete'
+
+  confirm_delete: ->
+    name = @model.get 'name'
+    ResourceChannel.request 'delete-document', name
+    MessageChannel.request 'display-message', "#{name} deleted.", 'success'
+    
+    
 class PageItemView extends Backbone.Marionette.ItemView
   template: AppTemplates.PageItem
   ui:
     edit_page: '.edit-page'
     delete_page: '.delete-page'
+    page_item: '.page-item'
+    
+  onShow: ->
+    @ui.delete_page.hide()
     
   events: ->
-    console.log 'init events for', @model
     'click @ui.edit_page': 'edit_page'
     'click @ui.delete_page': 'delete_page'
-
+    'mouseover @ui.page_item': 'hover_delete'
+    
+  hover_delete: ->
+    @ui.delete_page.show()
+    
   edit_page: ->
     console.log "edit_page", @model
 
   delete_page: ->
     console.log "delete_page", @model
-    
+    view = new DeletePageModal
+      model: @model
+    show_modal view, true
+
+  
 class PageListView extends Backbone.Marionette.CompositeView
   childView: PageItemView
   template: AppTemplates.PageList
@@ -31,13 +62,22 @@ class PageListView extends Backbone.Marionette.CompositeView
   childViewContainer: '#pagecontainer'
   ui:
     make_new_page: '#makenewpage'
-
+    new_page_name: '#newpagename'
+    
   events: ->
     'click @ui.make_new_page': 'make_new_page'
 
-  make_new_page: ->
-    console.log "make a new page"
+  _show_modal: (view, backdrop=false) ->
+    modal_region = MainChannel.request 'main:app:get-region', 'modal'
+    modal_region.backdrop = backdrop
+    modal_region.show view
 
+  
+  make_new_page: ->
+    pagename = @ui.new_page_name.val()
+    console.log "make a new page", pagename
+    navigate_to_url "#editor/newpage/#{pagename}"
+    
   
 
 module.exports = PageListView

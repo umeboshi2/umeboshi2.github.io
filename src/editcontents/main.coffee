@@ -14,6 +14,7 @@ ResourceChannel = Backbone.Radio.channel 'resources'
 class Router extends BootStrapAppRouter
   appRoutes:
     'editor': 'list_pages'
+    'editor/newpage/:name': 'new_page'
     'editor/contents': 'manage_contents'
     'editor/contents/*resource': 'manage_contents'
     'editor/edit/*resource': 'edit_node'

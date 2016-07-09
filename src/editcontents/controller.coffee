@@ -68,6 +68,18 @@ class Controller extends MainController
       @_show_content view
     # name the chunk
     , 'listpages'
-    
+
+  new_page: (name) ->
+    console.log "make new page", name
+    require.ensure [], () =>
+      NewPageView = require './views/newpage'
+      docs = ResourceChannel.request 'app-documents'
+      view = new NewPageView
+        model: ResourceChannel.request 'add-document', name, 'title', 'content'
+      @_show_content view
+    # name the chunk
+    , 'new-page'
+      
+      
 module.exports = Controller
 
