@@ -2,7 +2,6 @@ $ = require 'jquery'
 _ = require 'underscore'
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
-Backbone.LocalStorage = require 'backbone.localstorage'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
@@ -18,7 +17,7 @@ main_message_collection = new BaseMessageCollection
 MessageChannel.reply 'messages', ->
   main_message_collection
 
-MessageChannel.reply 'display-message', (msg, lvl) =>
+MessageChannel.reply 'display-message', (msg, lvl='info') =>
   messages = MessageChannel.request 'messages'
   # FIXME: why not use BaseMessage model?
   Message = new Backbone.Model
