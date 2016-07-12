@@ -2,15 +2,6 @@ $ = require 'jquery'
 _ = require 'underscore'
 Backbone = require 'backbone'
 
-# FIXME: we really need the equivalent of pressing "home"
-# http://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript-jquery
-scroll_top_fast = ()  ->
-  #$('html, body').animate {scrollTop: 0}, 'fast'
-  window.scrollTo 0,0
-  
-scroll_top_fast_jquery = ()  ->
-  $('html, body').animate {scrollTop: 0}, 'fast'
-
 navigate_to_url = (url) ->
   if url.split('/')[0] == ''
     window.location = url
@@ -59,10 +50,25 @@ remove_trailing_slashes = (path) ->
 random_choice = (myArray) ->
   index = Math.floor(Math.random() * myArray.length)
   myArray[index]
+
+# FIXME: we really need the equivalent of pressing "home"
+# http://stackoverflow.com/questions/1144805/scroll-to-the-top-of-the-page-using-javascript-jquery
+scroll_top_fast = ()  ->
+  #$('html, body').animate {scrollTop: 0}, 'fast'
+  window.scrollTo 0,0
   
+scroll_top_fast_jquery = ()  ->
+  $('html, body').animate {scrollTop: 0}, 'fast'
+
+string_endswith = (searchString, position) ->
+  subjectString = @toString()
+  if typeof position != 'number' or !isFinite(position) or Math.floor(position) != position or position > subjectString.length
+    position = subjectString.length
+  position -= searchString.length
+  lastIndex = subjectString.indexOf(searchString, position)
+  lastIndex != -1 and lastIndex == position
+
 module.exports =
-  scroll_top_fast: scroll_top_fast
-  scroll_top_fast_jquery: scroll_top_fast_jquery
   navigate_to_url: navigate_to_url
   capitalize: capitalize
   handle_newlines: handle_newlines
@@ -72,7 +78,10 @@ module.exports =
   make_json_post: make_json_post
   remove_trailing_slashes: remove_trailing_slashes
   random_choice: random_choice
-
+  scroll_top_fast: scroll_top_fast
+  scroll_top_fast_jquery: scroll_top_fast_jquery
+  string_endswith: string_endswith
+  
 
 
 
