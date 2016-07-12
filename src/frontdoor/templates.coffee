@@ -25,7 +25,10 @@ DefaultViewTemplate = tc.renderable (doc) ->
     tc.h1 doc.title
     #tc.p '.lead', atts.description
     tc.div '.body', ->
-      tc.raw doc.content
+      content = doc.content
+      if doc.doctype is 'markdown'
+        content = marked content
+      tc.raw content
 
 FolderViewTemplate = tc.renderable (doc) ->
   atts = doc.data.attributes
