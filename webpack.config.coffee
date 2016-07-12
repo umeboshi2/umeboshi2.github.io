@@ -27,10 +27,11 @@ module.exports =
     new webpack.DefinePlugin
       __DEV__: 'true'
       DEBUG: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
-    new webpack.optimize.CommonsChunkPlugin
-      name: 'vendor'
-      filename: 'vendor-dev.js'
+    #new webpack.optimize.CommonsChunkPlugin
+    #  name: 'vendor'
+    #  filename: 'vendor-dev.js'
     new webpack.optimize.DedupePlugin()
+    new webpack.optimize.AggressiveMergingPlugin()
     new StatsPlugin 'stats-dev.json', chunkModules: true
     new ManifestPlugin()
     ]
