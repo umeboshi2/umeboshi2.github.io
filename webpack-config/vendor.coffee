@@ -7,7 +7,6 @@ module.exports = [
   'radio-shim'
   'bootstrap'
   'jquery'
-  'jquery-ui'
   'marionette-form-view'
   'teacup'
   ]
