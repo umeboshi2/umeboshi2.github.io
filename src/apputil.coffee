@@ -13,6 +13,12 @@ handle_newlines = (str) ->
   console.warn "handle_newlines being replaced by newline_2_br"
   str.replace(/(?:\r\n|\r|\n)/g, '<br />')
 
+make_field_input_ui = (fieldlist) ->
+  uiobject = {}
+  for field in fieldlist
+    uiobject[field] = "input[name=\"#{field}\"]"
+  return uiobject
+
 make_json_post_settings = (url, data, type='POST') ->
   settings =
     type: type
@@ -72,6 +78,7 @@ module.exports =
   camel_to_kebab: camel_to_kebab
   capitalize: capitalize
   handle_newlines: handle_newlines
+  make_field_input_ui: make_field_input_ui
   make_json_post_settings: make_json_post_settings
   make_json_post: make_json_post
   navbar_set_active: navbar_set_active
