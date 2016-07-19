@@ -36,16 +36,6 @@ _navitems =
     description: "Edit pages"
     title: 'Editor'
     path: '#editor'
-  item1:
-    inside: false
-    description: "Item 1"
-    title: "Item One"
-    path: "/item1"
-  item2:
-    inside: false
-    description: "Item 2"
-    title: "Item Two"
-    path: "/item2"
     
 
 nav_pt_content = tc.renderable (doc) ->
@@ -57,15 +47,16 @@ nav_pt_content = tc.renderable (doc) ->
       tc.ul '.nav.navbar-nav', ->
         # FIXME
         #console.log '_navitems', _navitems
-        for iname, item of _navitems
+        #console.log 'applets', doc.applets, doc
+        for iname, item of doc.applets
           #item = _navitems[iname]
           #console.log "navitem", item, item.path
           isactive = ""
           if item.inside
             isactive = ".active"
           tc.li isactive, ->
-            tc.a href:item.path,
-            title:item.description, item.title
+            tc.a href:item.url,
+            title:item.name, item.name
       tc.ul '#user-menu.nav.navbar-nav.navbar-right'
       tc.div '#form-search-container'
 

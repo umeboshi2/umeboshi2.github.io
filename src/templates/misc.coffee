@@ -2,11 +2,6 @@ $ = require 'jquery'
 _ = require 'underscore'
 tc = require 'teacup'
 
-
-
-{ dropdown_toggle
-  frontdoor_url } = require './common'
-
 # Main Templates must use teacup.
 # The template must be a teacup.renderable, 
 # and accept a layout model as an argument.
