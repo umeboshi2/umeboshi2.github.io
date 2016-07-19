@@ -12,6 +12,11 @@ aliases = require './webpack-config/resolve-aliases'
 entries = require './webpack-config/entries'
 
 module.exports =
+  devServer:
+    proxy:
+      '/api/*':
+        target: 'http://localhost:6543'
+        secure: false
   devtool: 'source-map'
   entry: entries
   output:
