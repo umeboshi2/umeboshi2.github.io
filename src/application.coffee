@@ -170,8 +170,6 @@ response.done ->
     window.tc = require 'teacup'
   if root_doc is undefined
     console.warn "root_doc is undefined!!"
-
-
   if root_doc is undefined
     console.error 'bad, bad, bad'
   else
@@ -179,6 +177,10 @@ response.done ->
     app.start()
     $('title').text root_doc.get 'title'
   
+response.fail -> 
+  #MessageChannel.request 'display-message', 'Error loading Site Documents', 'danger'
+  $('h1').text "Failure"
+  $('.col-sm-6').prepend('<a href="/">reload</a>')
 
 
 module.exports = app
