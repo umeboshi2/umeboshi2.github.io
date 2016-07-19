@@ -44,7 +44,7 @@ initialize_page = (app, root_doc) ->
   # that the $el is present in the DOM. 
   layout.on 'show', =>
     navbar = new Views.BootstrapNavBarView
-      model: root_doc
+      model: appmodel
     navbar_region = regions.get 'navbar'
     navbar_region.show navbar
     messages = new Views.MessagesView
@@ -155,25 +155,29 @@ if __DEV__
   
 
 # Start the Application
-app.start()
+#app.start()
 
-root_doc = ResourceChannel.request 'get-document', 'startdoc'
-  
-# DEBUG
-if __DEV__
-  window.root_doc = root_doc
-  
-if root_doc is undefined
-  console.warn "root_doc is undefined!!"
-  root_doc = ResourceChannel.request 'add-document', 'startdoc', 'Welcome', 'Hello World!'
-  console.warn 'root_doc', root_doc
+docs = ResourceChannel.request 'app-documents'
+#docs.fetch ->
+response = docs.fetch()
+response.done -> 
+  #root_doc = ResourceChannel.request 'get-document', 'startdoc'
+  console.log "docs fetched", docs
+  root_doc = docs.get 'startdoc'
+  # DEBUG
+  if __DEV__
+    window.root_doc = root_doc
+    window.tc = require 'teacup'
+  if root_doc is undefined
+    console.warn "root_doc is undefined!!"
 
-if root_doc is undefined
-  console.error 'bad, bad, bad'
-else
-  prepare_app app, AppModel, root_doc
-  app.start()
-  $('title').text root_doc.get 'title'
+
+  if root_doc is undefined
+    console.error 'bad, bad, bad'
+  else
+    prepare_app app, AppModel, root_doc
+    app.start()
+    $('title').text root_doc.get 'title'
   
 
 
