@@ -21,6 +21,7 @@ class BaseLocalStorageCollection extends Backbone.Collection
     docs = JSON.parse(localStorage.getItem(@local_storage_key)) || []
     @set docs
 
+  # FIXME!
   save: (collection) ->
     #console.log 'saving documents'
     localStorage.setItem(@local_storage_key, JSON.stringify(@toJSON()))
