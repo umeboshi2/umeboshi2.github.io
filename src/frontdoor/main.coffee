@@ -12,10 +12,10 @@ ResourceChannel = Backbone.Radio.channel 'resources'
 
 class Router extends BootStrapAppRouter
   appRoutes:
-    '': 'start'
+    '': 'frontdoor'
     'frontdoor': 'frontdoor'
     'frontdoor/view': 'frontdoor'
-    'frontdoor/view/*resource': 'view_resource'
+    'frontdoor/view/:name': 'view_page'
 
 MainChannel.reply 'applet:frontdoor:route', () ->
   #console.log "frontdoor:route being handled"
