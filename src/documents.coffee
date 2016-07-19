@@ -4,6 +4,7 @@ Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
 
 { BaseLocalStorageCollection } = require 'lscollection'
+{ BaseCollection } = require 'collections'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
@@ -11,54 +12,52 @@ ResourceChannel = Backbone.Radio.channel 'resources'
 
 class Document extends Backbone.Model
   idAttribute: 'name'
+  # FIXME, make apiroot configurable
+  url: ->
+    "/api/dev/sitedocuments/#{@attributes.name}"
   defaults:
-    name: 'name me'
+    # name is pkey
+    name: ''
     # doctype is either markdown or html
     doctype: 'markdown'
-    title: 'the title'
-    content: 'somecontent'
-    description: 'describe me'
+    title: ''
+    content: ''
+    description: ''
   
 
-class DocumentCollection extends BaseLocalStorageCollection
-  local_storage_key: 'app_documents'
+class DocumentCollection extends BaseCollection
+  url: '/api/dev/sitedocuments'
   model: Document
-      
-app_documents = new DocumentCollection
+  
+app_documents = new DocumentCollection()
 ResourceChannel.reply 'app-documents', ->
-  #console.log "Set handler app-documents"
   app_documents
+  
 
 if __DEV__
   window.app_documents = app_documents
 
 ResourceChannel.reply 'get-document', (name) ->
-  #console.warn "!!!!!!!!!!!!!!!!!!get a document named #{name}"
-  doc = app_documents.get name
-  #console.warn "doc is named #{doc}"
-  doc
+  app_documents.get name
 
-ResourceChannel.reply 'delete-document', (name) ->
-  #console.warn "!!!!!!!!!!!!!!!!!!get a document named #{name}"
-  doc = app_documents.remove name
-  app_documents.save()
-  #console.warn "doc is named #{doc}"
-  doc
 
-ResourceChannel.reply 'add-document', (name, title, content) ->
+ResourceChannel.reply 'new-document', ->
+  new Document()
+
+ResourceChannel.reply 'add-document', (name, title, description, content) ->
+  docs = ResourceChannel.request 'app-documents'
   if __DEV__
     console.log "create document #{name}"
-  doc = new Document
+  doc = new Document()
     name: name
     title: title
+    description: description
     content: content
-  if __DEV__
-    console.log "Created doc", doc
-    window.created_doc = doc
+    
+  doc = make_new_doc name, title, content
+  doc.save()
   app_documents.add doc
-  app_documents.save()
   doc
-  
   
 module.exports =
   DocumentCollection: DocumentCollection
