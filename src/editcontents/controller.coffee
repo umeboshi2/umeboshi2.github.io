@@ -5,10 +5,9 @@ marked = require 'marked'
 
 
 Util = require 'apputil'
-MainViews = require '../views'
+
 { MainController } = require '../controllers'
 
-#Views = require './views'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
@@ -31,18 +30,9 @@ class Controller extends MainController
       model: @root_doc
     @_show_content view
     
-  manage_contents: (resource) ->
-    require.ensure [], () =>
-      ContentsView = require './views/contents'
-      @_set_resource resource
-      @_get_doc_and_render_view ContentsView
-    # name the chunk
-    , 'manage-contents'
-    
   edit_node: (resource) ->
     require.ensure [], () =>
       console.log "HALLO EDIT RESOURCE", resource
-      #Views = require './views'
       EditorView = require './views/halloeditor'
       @_set_resource resource
       @_get_doc_and_render_view EditorView
@@ -52,7 +42,6 @@ class Controller extends MainController
   ace_edit_node: (resource) ->
     require.ensure [], () =>
       console.log "ACE EDIT RESOURCE", resource
-      #Views = require './views'
       AceEditorView = require './views/ace-editor'
       @_set_resource resource
       @_get_doc_and_render_view AceEditorView
@@ -69,14 +58,20 @@ class Controller extends MainController
     # name the chunk
     , 'listpages'
 
-  new_page: (name) ->
-    console.log "make new page", name
+  edit_page: (name) ->
+    #console.log "CONTROLLER: edit_page", name
     require.ensure [], () =>
-      NewPageView = require './views/newpage'
-      docs = ResourceChannel.request 'app-documents'
-      view = new NewPageView
-        model: ResourceChannel.request 'add-document', name, 'title', 'content'
-      @_show_content view
+      { EditPageView } = require './views/editor'
+      @_show_content new EditPageView
+        model: ResourceChannel.request 'get-document', name
+    # name the chunk
+    , 'edit-page'
+      
+  new_page: () ->
+    #console.log "CONTROLLER: make new page (nameless)"
+    require.ensure [], () =>
+      { NewPageView } = require './views/editor'
+      @_show_content new NewPageView
     # name the chunk
     , 'new-page'
       

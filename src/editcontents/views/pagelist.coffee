@@ -23,9 +23,13 @@ class DeletePageModal extends Backbone.Marionette.ItemView
 
   confirm_delete: ->
     name = @model.get 'name'
-    ResourceChannel.request 'delete-document', name
-    MessageChannel.request 'display-message', "#{name} deleted.", 'success'
-    
+    #ResourceChannel.request 'delete-document', name
+    response = @model.destroy()
+    response.done =>
+      MessageChannel.request 'display-message', "#{name} deleted.", 'success'
+    response.fail =>
+      MessageChannel.request 'display-message', "#{name} NOT deleted.", 'danger'
+      
     
 class PageItemView extends Backbone.Marionette.ItemView
   template: AppTemplates.PageItem
@@ -46,8 +50,9 @@ class PageItemView extends Backbone.Marionette.ItemView
     @ui.delete_page.show()
     
   edit_page: ->
-    console.log "edit_page", @model
-
+    pagename = @model.get 'name'
+    navigate_to_url "#editor/edit/#{pagename}"
+    
   delete_page: ->
     console.log "delete_page", @model
     view = new DeletePageModal
@@ -75,8 +80,9 @@ class PageListView extends Backbone.Marionette.CompositeView
   
   make_new_page: ->
     pagename = @ui.new_page_name.val()
-    console.log "make a new page", pagename
-    navigate_to_url "#editor/newpage/#{pagename}"
+    #console.log "make a new page", pagename
+    #navigate_to_url "#editor/newpage/#{pagename}"
+    navigate_to_url "#editor/newpage"
     
   
 
