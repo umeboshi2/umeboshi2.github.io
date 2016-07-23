@@ -57,20 +57,19 @@ AceEditNodeForm = tc.renderable (doc) ->
   tc.input '.btn.btn-default', type:'submit', value:"Update #{doc.data.type}"
 
 PageItem = tc.renderable (page) ->
-  item_btn = ".col-xs-1.btn.btn-default.btn-xs"
-  tc.li ".page-item", ->
-    tc.div '.row', ->
-      tc.div '.col-xs-6', ->
-        tc.a href:"#frontdoor/view/#{page.name}", page.name
-      tc.div ".edit-page.#{item_btn}.btn-primary.fa.fa-edit"
-      tc.div ".delete-page.#{item_btn}.btn-danger.fa.fa-close"
-
+  item_btn = ".btn.btn-default.btn-xs"
+  tc.li ".page-item.list-group-item.row", ->
+    tc.div '.col-md-3.pull-left', ->
+      tc.a href:"#frontdoor/view/#{page.name}", page.name
+    tc.div '.col-md-1.pull-right.button-group', ->
+      tc.button ".edit-page.#{item_btn}.btn-primary.fa.fa-edit"
+      tc.button ".delete-page.#{item_btn}.btn-danger.fa.fa-close"
 
 PageList = tc.renderable () ->
-  tc.div '#makenewpage.btn.btn-default', ->
+  tc.button '#makenewpage.btn.btn-default', ->
     "new page"
   tc.hr()
-  tc.ul "#pagecontainer.nav.nav-list"
+  tc.ul "#pagecontainer.list-group"
 
 
 ConfirmPageDeleteModal = tc.renderable (page) ->

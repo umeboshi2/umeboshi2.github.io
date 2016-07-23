@@ -38,16 +38,9 @@ class PageItemView extends Backbone.Marionette.ItemView
     delete_page: '.delete-page'
     page_item: '.page-item'
     
-  onShow: ->
-    @ui.delete_page.hide()
-    
   events: ->
     'click @ui.edit_page': 'edit_page'
     'click @ui.delete_page': 'delete_page'
-    'mouseover @ui.page_item': 'hover_delete'
-    
-  hover_delete: ->
-    @ui.delete_page.show()
     
   edit_page: ->
     pagename = @model.get 'name'
@@ -80,8 +73,6 @@ class PageListView extends Backbone.Marionette.CompositeView
   
   make_new_page: ->
     pagename = @ui.new_page_name.val()
-    #console.log "make a new page", pagename
-    #navigate_to_url "#editor/newpage/#{pagename}"
     navigate_to_url "#editor/newpage"
     
   
