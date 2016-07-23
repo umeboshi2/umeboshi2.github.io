@@ -17,10 +17,10 @@ require './documents'
 #require 'bootstrap-fileinput-js'
 
 #require 'vie'
-{ random_choice } = require './apputil'
 
 { BootstrapModalRegion } = require './regions'
 
+prepare_app = require 'app-prepare'
 
 
 MainChannel = Backbone.Radio.channel 'global'
@@ -56,50 +56,6 @@ initialize_page = (app, root_doc) ->
   mainview = regions.get 'mainview'
   mainview.show layout
 
-
-
-prepare_app = (app, appmodel, root_doc) ->
-  regions = appmodel.get 'regions'
-  if 'modal' of regions
-    regions.modal = BootstrapModalRegion
-
-  # set up region manager
-  region_manager = new Backbone.Marionette.RegionManager
-  region_manager.addRegions regions
-
-  # set triggers on regions
-  navbar = region_manager.get 'navbar'
-  navbar.on 'show', =>
-      #console.log "we have users for this app....."
-      # trigger the display message to create
-      # the user menu on the navbar
-      MainChannel.trigger 'appregion:navbar:displayed'
-
-  # set more main:app handlers
-  MainChannel.reply 'main:app:object', ->
-    app
-  MainChannel.reply 'main:app:regions', ->
-    region_manager
-  MainChannel.reply 'main:app:get-region', (region) ->
-    region_manager.get region
-
-  # Prepare what happens to the app when .start() is called.
-  app.on 'start', ->
-    # build routes first
-    frontdoor = appmodel.get 'frontdoor_app'
-    MainChannel.request "applet:#{frontdoor}:route"
-    for applet in appmodel.get 'applets'
-      signal = "applet:#{applet.appname}:route"
-      #console.log "create signal #{signal}"
-      MainChannel.request signal
-    # build main page layout
-    MainChannel.request 'mainpage:init', appmodel, root_doc
-    # start the approutes
-    # the 'frontdoor_app' should handle the '' <blank>
-    # route for the initial page.
-    Backbone.history.start() unless Backbone.history.started
-
-
 ######################
 # start app setup
 
@@ -123,8 +79,8 @@ MainChannel.on 'appregion:navbar:displayed', ->
   # the views
   # --- example ---
   # view = new view
-  # aregioun = MainChannel.request 'main:app:get-region', aregioun
-  # aregioun.show view
+  # aregion = MainChannel.request 'main:app:get-region', aregion
+  # aregion.show view
   if __DEV__
     console.warn "__DEV__ navbar displayed"
 
@@ -143,6 +99,8 @@ MainChannel.on 'appregion:navbar:displayed', ->
 #  require "#{applet.appname}/main"
 require 'frontdoor/main'
 require 'editcontents/main'
+require 'phaserdemo/main'
+require 'hubby/main'
  
 
 
