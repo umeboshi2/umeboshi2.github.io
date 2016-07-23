@@ -11,7 +11,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 
 class MainPageLayout extends Backbone.Marionette.LayoutView
-  template: LayoutTemplates.MainLayoutTemplate
+  #template: LayoutTemplates.MainLayoutTemplate
+  template: LayoutTemplates.MainFluidLayoutTemplate
 
 class BootstrapNavBarView extends Backbone.Marionette.LayoutView
   template: NavTemplates.nav_pt

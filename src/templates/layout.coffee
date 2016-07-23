@@ -10,10 +10,10 @@ tc = require 'teacup'
 ########################################
 # Templates
 ########################################
-MainLayoutTemplate = tc.renderable () ->
+_MainLayoutTemplate = tc.renderable (container) ->
   tc.div '#navbar-view-container'
   #tc.div '#editor-bar-container'
-  tc.div '.container', ->
+  tc.div ".#{container}", ->
     tc.div '.row', ->
       tc.div '.col-md-10', ->
         tc.div '#messages'
@@ -21,6 +21,13 @@ MainLayoutTemplate = tc.renderable () ->
       tc.div '#right-slot.col-md-3.right-column'
   tc.div '#footer'
   tc.div '#modal'
+
+MainLayoutTemplate = ->
+  _MainLayoutTemplate 'container'
+
+MainFluidLayoutTemplate = ->
+  _MainLayoutTemplate 'container-fluid'
+  
 
 MainContentTemplate = tc.renderable (doc) ->
   atts = doc.data.attributes
@@ -33,5 +40,6 @@ MainContentTemplate = tc.renderable (doc) ->
 ########################################
 module.exports =
   MainLayoutTemplate: MainLayoutTemplate
+  MainFluidLayoutTemplate: MainFluidLayoutTemplate
   MainContentTemplate: MainContentTemplate
 
