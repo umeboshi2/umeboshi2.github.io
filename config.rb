@@ -2,7 +2,6 @@ require 'bootstrap-sass'
 require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 require 'compass-ui'
-require 'sassy-buttons'
 
 
 # Set this to the root of your project when deployed:
