@@ -53,13 +53,18 @@ appmodel = new BaseAppModel
     [
       {
         appname: 'editcontents'
-        name: 'Edit Contents'
+        name: 'Edit Pages'
         url: '#editor'
       }
       {
         appname: 'phaserdemo'
         name: 'Phaser'
         url: '#phaser'
+      }
+      {
+        appname: 'hubby'
+        name: 'Hubby'
+        url: '#hubby'
       }
     ]
   regions: appregions
