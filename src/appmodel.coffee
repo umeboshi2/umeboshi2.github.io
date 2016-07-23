@@ -52,11 +52,6 @@ appmodel = new BaseAppModel
   applets:
     [
       {
-        appname: 'editcontents'
-        name: 'Edit Pages'
-        url: '#editor'
-      }
-      {
         appname: 'phaserdemo'
         name: 'Phaser'
         url: '#phaser'

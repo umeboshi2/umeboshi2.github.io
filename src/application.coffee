@@ -11,7 +11,6 @@ AppModel = require './appmodel'
 
 require './clipboard'
 require './messages'
-require './documents'
 require './static-documents'
 
 #require 'bootstrap-fileinput-css'
@@ -26,11 +25,9 @@ prepare_app = require 'app-prepare'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
-ResourceChannel = Backbone.Radio.channel 'resources'
 DocChannel = Backbone.Radio.channel 'static-documents'
 
 #FIXME
-window.rchnnl = ResourceChannel
 window.dchnnl = DocChannel
 
 if __DEV__
@@ -101,13 +98,15 @@ MainChannel.on 'appregion:navbar:displayed', ->
 #  require.context "#{applet.appname}", false, /^main.coffee$/
 #  require "#{applet.appname}/main"
 require 'frontdoor/main'
-require 'editcontents/main'
+require 'dbdocs/main'
 require 'phaserdemo/main'
 require 'hubby/main'
  
 
 
 app = new Marionette.Application()
+
+prepare_app app, AppModel
 
 if __DEV__
   # DEBUG attach app to window
@@ -116,30 +115,7 @@ if __DEV__
   
 
 # Start the Application
-#app.start()
-
-doc = DocChannel.request 'get-document', 'intro'
-response = doc.fetch()
-response.done ->
-  console.log "doc fetched", doc
-  # DEBUG
-  if __DEV__
-    window.root_doc = doc
-  if doc is undefined
-    console.warn "intro doc is undefined!!"
-  if root_doc is undefined
-    console.error 'bad, bad, bad'
-  else
-    prepare_app app, AppModel, doc
-    app.start()
-    $('title').text root_doc.get 'id'
-  
-
-response.fail -> 
-  #MessageChannel.request 'display-message', 'Error loading Site Documents', 'danger'
-  $('h1').text "Failure"
-  $('.col-sm-6').prepend('<a href="/">reload</a>')
-
+app.start()
 
 module.exports = app
 
