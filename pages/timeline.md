@@ -103,5 +103,25 @@ Looking at chaplin
 
 ##December 30
 remove fanstatic
+add pyramid view for single page apps
+start creating frontdoor app
+
+##December 31
+frontdoor does simple login
+
+##January 1, 2014
+start testing spine
+
+##January 2, 2014
+start testing marionette
+
+##January 3, 2014
+fontawesome in jellyfish
+
+##January 4, 2014
+write script to use only essential bower components
+
+
+
 
 
