@@ -1,4 +1,5 @@
 path = require 'path'
+os = require 'os'
 webpack = require 'webpack'
 
 ManifestPlugin = require 'webpack-manifest-plugin'
@@ -13,25 +14,29 @@ entries = require './webpack-config/entries'
 
 module.exports =
   devServer:
+    host: os.hostname()
     proxy:
       '/api/*':
         target: 'http://localhost:6543'
         secure: false
+      '/rest/v0/*':
+        target: 'http://localhost:6541'
+        secure: false
+      '/hubcal*':
+        target: 'http://localhost:6541'
+        secure: false
+        
   devtool: 'source-map'
   entry: entries
   output:
     filename: '[name].js'
-    #publicPath: 'build'
     path: path.join __dirname, "build"
     publicPath: 'build/'
-    #path: __dirname
-    #path: path.join __dirname, "kotti_dashboard/static"
-    #publicPath: '/static-kotti_dashboard/'
-    
   plugins: [
     new webpack.DefinePlugin
       __DEV__: 'true'
       DEBUG: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
+    # FIXME: we probably want vendor.js for multipage sites
     #new webpack.optimize.CommonsChunkPlugin
     #  name: 'vendor'
     #  filename: 'vendor-dev.js'
@@ -39,6 +44,9 @@ module.exports =
     new webpack.optimize.AggressiveMergingPlugin()
     new StatsPlugin 'stats-dev.json', chunkModules: true
     new ManifestPlugin()
+    # This is to ignore moment locales with fullcalendar
+    # https://github.com/moment/moment/issues/2416#issuecomment-111713308
+    new webpack.IgnorePlugin /^\.\/locale$/, /moment$/
     ]
   module:
     loaders: loaders

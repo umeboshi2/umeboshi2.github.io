@@ -34,4 +34,20 @@ module.exports =
       test: /jquery\/src\/selector\.js$/
       loader: 'amd-define-factory-patcher-loader'
     }
+    {
+      test: /pixi\.js/
+      loader: 'expose?PIXI'
+    }
+    {
+      test: /phaser-split\.js$/
+      loader: 'expose?Phaser'
+    }
+    {
+      test: /p2\.js/
+      loader: 'expose?p2'
+    }
+    {
+      test: /masonry-layout/,
+      loader: 'imports?define=>false&this=>window'
+    }
   ]

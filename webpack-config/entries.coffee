@@ -2,7 +2,8 @@
 vendor = require './vendor'
 
 module.exports =
+  # FIXME: we probably want vendor.js for multipage sites
   #vendor: vendor
   app: './src/application.coffee'
-  #app2: './src/application.coffee'
+
   
