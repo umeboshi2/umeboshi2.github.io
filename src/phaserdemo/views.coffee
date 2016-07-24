@@ -118,10 +118,10 @@ class PhaserDemo extends Backbone.Marionette.Object
     demo.game = @game
     
   preload: ->
-    @game.load.image 'sky', 'assets/sky.png'
-    @game.load.image 'ground', 'assets/platform.png'
-    @game.load.image 'star', 'assets/star.png'
-    @game.load.spritesheet 'dude', 'assets/dude.png', 32, 48
+    @game.load.image 'sky', 'assets/phaserdemo/sky.png'
+    @game.load.image 'ground', 'assets/phaserdemo/platform.png'
+    @game.load.image 'star', 'assets/phaserdemo/star.png'
+    @game.load.spritesheet 'dude', 'assets/phaserdemo/dude.png', 32, 48
     
 
   create: ->
