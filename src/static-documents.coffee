@@ -12,7 +12,7 @@ DocChannel = Backbone.Radio.channel 'static-documents'
 
 class StaticDocument extends Backbone.Model
   url: ->
-    "/assets/documents/#{@id}.md"
+    "/pages/#{@id}.md"
   
   fetch: (options) ->
     options = _.extend options || {},
