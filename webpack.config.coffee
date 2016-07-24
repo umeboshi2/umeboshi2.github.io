@@ -12,14 +12,18 @@ loaders = require './webpack-config/loaders'
 aliases = require './webpack-config/resolve-aliases'
 entries = require './webpack-config/entries'
 
+local_build_dir = "build"
+
 module.exports =
   devServer:
     host: os.hostname()
+    historyApiFallback:
+      index: 'index-dev.html'
   devtool: 'source-map'
   entry: entries
   output:
     filename: '[name].js'
-    path: path.join __dirname, "build"
+    path: path.join __dirname, local_build_dir
     publicPath: 'build/'
   plugins: [
     new webpack.DefinePlugin
@@ -29,7 +33,7 @@ module.exports =
     #new webpack.optimize.CommonsChunkPlugin
     #  name: 'vendor'
     #  filename: 'vendor-dev.js'
-    new webpack.optimize.DedupePlugin()
+    new webpack.optimize.OccurenceOrderPlugin true
     new webpack.optimize.AggressiveMergingPlugin()
     new StatsPlugin 'stats-dev.json', chunkModules: true
     new ManifestPlugin()
