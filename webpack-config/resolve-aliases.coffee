@@ -17,11 +17,14 @@ module.exports =
   'tag-it': 'tag-it/js/tag-it.js'
   'radio-shim': path.join __dirname, 'radio-shim.coffee'
   common: path.join __dirname, '../coffee/common'
+  stylesheets: path.join __dirname, '..', 'stylesheets'
+  fonts: path.join __dirname, '..', 'fonts'
+  
   # FIXME: this should be resolved otherwise
   # 'backbone': path.resolve(nodeModulesPath, 'backbone.marionette', 'node_modules', 'backbone')
-  backbone: path.resolve nodeModulesPath, 'backbone.marionette', 'node_modules', 'backbone'
+  #backbone: path.resolve nodeModulesPath, 'backbone.marionette', 'node_modules', 'backbone'
   #backbone: 'backbone.marionette/node_modules/backbone/backbone.js'
-  underscore: 'backbone.marionette/node_modules/underscore/underscore.js'
+  underscore: path.resolve nodeModulesPath, 'backbone.marionette', 'node_modules', 'underscore'
   #underscore: 'lodash'
   phaser: phaser
   pixi: pixi
