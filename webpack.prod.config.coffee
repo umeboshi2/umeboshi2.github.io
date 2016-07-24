@@ -73,6 +73,5 @@ module.exports =
         new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin
           "bower.json", ["main"]
         ['normal', 'loader']
-      #new webpack.optimize.OccurenceOrderPlugin true
     ]
 
