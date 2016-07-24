@@ -11,9 +11,7 @@ MainChannel = Backbone.Radio.channel 'global'
 
 class Router extends BootStrapAppRouter
   appRoutes:
-    'phaser': 'frontdoor'
-    'phaser/view': 'frontdoor'
-    'phaser/view/:name': 'view_page'
+    'phaser': 'mainview'
 
 MainChannel.reply 'applet:phaserdemo:route', () ->
   controller = new Controller MainChannel

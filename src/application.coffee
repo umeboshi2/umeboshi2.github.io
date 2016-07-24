@@ -22,6 +22,9 @@ require './static-documents'
 
 prepare_app = require 'app-prepare'
 
+require 'stylesheets/font-awesome.css'
+require 'stylesheets/bootstrap-custom.css'
+
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
@@ -98,10 +101,8 @@ MainChannel.on 'appregion:navbar:displayed', ->
 #  require.context "#{applet.appname}", false, /^main.coffee$/
 #  require "#{applet.appname}/main"
 require 'frontdoor/main'
-require 'dbdocs/main'
 require 'phaserdemo/main'
-require 'hubby/main'
- 
+
 
 
 app = new Marionette.Application()

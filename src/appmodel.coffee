@@ -44,7 +44,7 @@ appregions =
 appmodel = new BaseAppModel
   hasUser: true
   brand:
-    name: 'Migmatite'
+    name: 'Umeboshi2'
     url: '/'
   #FIXME
   # applets listed here still need to be required in

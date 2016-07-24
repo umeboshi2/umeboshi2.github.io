@@ -196,6 +196,16 @@ class FrontDoorMainView extends Backbone.Marionette.ItemView
     game.start()
     window.mygame = game
 
+
+class PhaserView extends Backbone.Marionette.ItemView
+  template: PhaserViewTemplate
+
+  onDomRefresh: ->
+    game = new PhaserDemo()
+    game.start()
+    if __DEV__
+      window.mygame = game
+  
 module.exports =
-  FrontDoorMainView: FrontDoorMainView
+  PhaserView: PhaserView
 
