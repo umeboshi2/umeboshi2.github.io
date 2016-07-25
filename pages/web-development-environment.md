@@ -1,4 +1,48 @@
-# Application Development Environment
+# Web Development Environment
+
+## Node.js
+
+(born on February 15, 2009)
+
+A [node.js](//nodejs.org) environment is used to develop and
+build the web applications.  Using nodejs is essential for meaningful web 
+development.
+
+
+## CoffeeScript
+
+(born on December 13, 2009)
+
+The development environment uses [CoffeeScript](//coffeescript.org/).  This 
+may change eventually depending on how it eventually targets 
+[es6](//github.com/lukehoban/es6features) features.
+
+## Gulp
+
+(born on July 4, 2013)
+
+[Gulp](//gulpjs.com) is used for task automation when developing.  Gulp 
+has replaced grunt and seems to be a bit more pluggable and extensible.
+
+Here is the ["gulpfile.coffee"](/gulpfile.coffee) for this website.
+
+
+## Webpack 
+
+(born on March 10, 2012)
+
+[Webpack](//webpack.github.io) is a module bundler, and is very useful 
+for preparing and deploying the static resources.  Using webpack removed 
+the need for requirejs, and most of the bower dependencies became nodejs 
+dependencies, making the environment more coherent.
+
+Here are the [development](/webpack.config.coffee) and 
+[production](/webpack.prod.config.coffee) configurations.  Common config 
+options are to be loaded from the "webpack-config" 
+[directory](/webpack-config/).
+
+
+
 
 
 
@@ -24,7 +68,7 @@ An application model looks like this:
   - approutes
 
 
-### Common Modules (these don't exist anymore)
+### Common Modules
 
 Common modules exist in the common/ directory.
 
@@ -176,4 +220,12 @@ The frontdoor application can be required last in the application module
 and interact with the functionality of those child applications, such as
 accessing models, collections, templates, and views of those child
 applications with the controller of the frontdoor application.
+
+
+
+[Grunt](http://gruntjs.com/) is used to
+build and optimize the static resources for the client application.
+The Gruntfile is written in coffeescript.  [bower](http://bower.io)
+is also used in the node environment to install the upstream
+static resources needed by the application.
 

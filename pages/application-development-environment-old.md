@@ -1,6 +1,62 @@
 # Application Development Environment
 
+## Development Environments
 
+Vagrant is the development environment of choice, since it
+requires the least amount of changes to the operating system.
+All that is needed is virtualbox and the vagrant application.  In
+the future, docker will be used to contain the development
+environment.  Using vagrant allows for better server side development,
+where the developer can configure services that won't interfere
+with the developer's system.  The environment is configured
+using [salt](http://www.saltstack.com).
+
+An alternative to using vagrant, which is the alternative used
+on my netbook of limited resources, is to use schroot to
+contain the development enviroment in a chroot.  This can also
+be configured with salt, and a script exists in the scripts/
+directory to achieve this.
+
+Of course, development can be done natively in the operating system,
+if desired.
+
+## node.js
+
+A [node.js](http://nodejs.org) environment is used to develop and
+build the applications.  [Grunt](http://gruntjs.com/) is used to
+build and optimize the static resources for the client application.
+The Gruntfile is written in coffeescript.  [bower](http://bower.io)
+is also used in the node environment to install the upstream
+static resources needed by the application.
+
+## CoffeeScript
+
+[CoffeeScript](http://coffeescript.org/) is used as the language 
+of choice for developing applications with 
+[Backbone.Marionette](http://marionettejs.com/).  When I began 
+noticing the necessity of learning javascript to achieve a 
+better application platform, I decided to use coffeescript for 
+a large number of reasons.  I had already been hesitant to use 
+javascript, so being a python developer, I started by looking 
+at javascript alternatives that would allow me to perform 
+client side development without a heavy investment into learning 
+another language.  I came across some projects that took a 
+python file and compiled it into javascript, but this turned 
+out to be a greater hassle than expected.
+
+I happened to chance upon coffee script one day and decided to 
+try it out.  While I was initially using it to provide a 
+whitespace environment for creating javascript, I found that
+the coffeescript language provides a lot of valuable assistance to a 
+person learning to program in a javascript environment.  Not 
+only does the syntactic sugar provide for cleaner and more 
+readable code, it also provides readable reliability when performing 
+some common actions that are a bit tricky to do correctly in 
+javascript, such as testing for *undefined*.  Even more valuable 
+is the default behaviour to wrap the code in an anonymous function,
+and also forcing every variable to be declared locally on first chance 
+in that anonymous function, making it very difficult to pollute 
+the global namespace accidentally.
 
 ## Backbone.Marionette
 
@@ -24,7 +80,7 @@ An application model looks like this:
   - approutes
 
 
-### Common Modules (these don't exist anymore)
+### Common Modules
 
 Common modules exist in the common/ directory.
 
