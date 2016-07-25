@@ -10,7 +10,7 @@ tc = require 'teacup'
 
 { remove_trailing_slashes
   make_json_post
-  random_choice } = require 'apputil'
+  random_choice } = require 'agate/src/apputil'
 
 MainChannel = Backbone.Radio.channel 'global'
 

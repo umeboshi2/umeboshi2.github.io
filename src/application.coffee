@@ -6,23 +6,18 @@ require 'bootstrap'
 
 #Models = require './models'
 
-Views = require './views'
+Views = require 'agate/src/views'
 AppModel = require './appmodel'
 
-require './clipboard'
-require './messages'
+require 'agate/src/clipboard'
+require 'agate/src/messages'
 require './static-documents'
 
-#require 'bootstrap-fileinput-css'
-#require 'bootstrap-fileinput-js'
+{ BootstrapModalRegion } = require 'agate/src/regions'
 
-#require 'vie'
+prepare_app = require 'agate/src/app-prepare'
 
-{ BootstrapModalRegion } = require './regions'
-
-prepare_app = require 'app-prepare'
-
-require 'stylesheets/font-awesome.css'
+require 'url!stylesheets/font-awesome.css'
 require 'stylesheets/bootstrap-custom.css'
 
 
@@ -30,12 +25,12 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 DocChannel = Backbone.Radio.channel 'static-documents'
 
-#FIXME
-window.dchnnl = DocChannel
 
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
   Backbone.Radio.DEBUG = true
+  #FIXME
+  window.dchnnl = DocChannel
 
 initialize_page = (app, root_doc) ->
   regions = MainChannel.request 'main:app:regions'
