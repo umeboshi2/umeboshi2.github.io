@@ -1,17 +1,16 @@
 # inspired by https://github.com/KyleAMathews/coffee-react-quickstart
 # 
 fs = require 'fs'
+process = require 'process'
 
 gulp = require 'gulp'
 gutil = require 'gulp-util'
+
 runSequence = require 'run-sequence'
 
 webpack = require 'webpack'
 
-DevServer = require 'webpack-dev-server'
-DevConfig = require './webpack.config'
 
-ProdConfig = require './webpack.prod.config'
 
 compass = require 'gulp-compass'
 size = require 'gulp-size'
@@ -28,10 +27,10 @@ gulp.task 'compass', () ->
   .pipe gulp.dest 'stylesheets'
 
 
-# Create a single instance of the compiler to allow caching.
-devCompiler = webpack DevConfig
 gulp.task 'webpack:build-dev', ['compass'], (callback) ->
   # run webpack
+  DevConfig = require './webpack.config'
+  devCompiler = webpack DevConfig
   devCompiler.run (err, stats) ->
     throw new gutil.PluginError('webpack:build-dev', err) if err
     gutil.log "[webpack:build-dev]", stats.toString(colors: true)
@@ -42,6 +41,8 @@ gulp.task 'webpack:build-dev', ['compass'], (callback) ->
 
 gulp.task 'webpack:build-prod', ['compass'], (callback) ->
   # run webpack
+  process.env.PRODUCTION_BUILD = 'true'
+  ProdConfig = require './webpack.config'
   prodCompiler = webpack ProdConfig
   prodCompiler.run (err, stats) ->
     throw new gutil.PluginError('webpack:build-prod', err) if err
