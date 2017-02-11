@@ -21,10 +21,10 @@ gulp.task 'compass', () ->
   gulp.src('./sass/*.scss')
   .pipe compass
     config_file: './config.rb'
-    css: 'stylesheets'
+    css: 'assets/stylesheets'
     sass: 'sass'
   .pipe size()
-  .pipe gulp.dest 'stylesheets'
+  .pipe gulp.dest 'assets/stylesheets'
 
 
 gulp.task 'webpack:build-dev', ['compass'], (callback) ->
