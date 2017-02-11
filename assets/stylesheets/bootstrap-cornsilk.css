@@ -5953,7 +5953,7 @@ button.list-group-item-danger.active:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #c9c7bf;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -7560,7 +7560,6 @@ button.close {
 }
 
 .mini-calendar {
-  width: 20em;
   margin: 0 auto;
   font-family: "Droid Sans";
   font-size: 0.5em;
@@ -7570,8 +7569,18 @@ button.close {
   padding: 0.1em;
   vertical-align: bottom;
 }
+.mini-calendar #loading h2 {
+  font-size: 2.0em;
+  font-family: "Cabin";
+  white-space: normal !important;
+}
+.mini-calendar .fc-header-toolbar h2 {
+  font-size: 2.0em;
+  font-family: "Cabin";
+  white-space: normal !important;
+}
 .mini-calendar .fc-header-title h2 {
-  font-size: 1.1em;
+  font-size: 0.7em;
   font-family: "Cabin";
   white-space: normal !important;
 }
