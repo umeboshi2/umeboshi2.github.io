@@ -97,7 +97,8 @@ WebPackConfig =
 if BuildEnvironment is 'dev'
   #proxy = require './webpack-config/devserver-proxies'
   WebPackConfig.devServer =
-    host: os.hostname()
+    host: 'localhost'
+    port: 8081
     #proxy: proxy
     historyApiFallback:
       index: 'index-dev.html'

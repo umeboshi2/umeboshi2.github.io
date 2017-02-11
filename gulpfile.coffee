@@ -17,6 +17,8 @@ size = require 'gulp-size'
 
 tc = require 'teacup'
 
+{ make_page } = require './index-pages'
+
 gulp.task 'compass', () ->
   gulp.src('./sass/*.scss')
   .pipe compass
@@ -54,12 +56,14 @@ gulp.task 'webpack:build-prod', ['compass'], (callback) ->
 
 #gulp.task 'indexhtml', ['webpack:build-prod'], (callback) ->
 gulp.task 'indexhtml', (callback) ->
-  manifest = require './build/manifest.json'
-  page = require './index'
-  beautify = require('js-beautify').html
-  #console.log "page", page manifest
-  index = page manifest
-  fs.writeFileSync 'index.html', beautify index
+  process.env.PRODUCTION_BUILD = 'true'
+  page = make_page 'index'
+  fs.writeFileSync 'index.html', page
+  console.log "Created new index.html"
+
+gulp.task 'indexdev', (callback) ->
+  page = make_page 'index'
+  fs.writeFileSync 'index-dev.html', page
   console.log "Created new index.html"
   
 gulp.task 'default', ->

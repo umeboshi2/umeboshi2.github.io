@@ -4,12 +4,7 @@ vendor = require './vendor'
 client_entry = (name) ->
   "./client/entries/#{name}.coffee"
 
-pages = [
-  'index'
-  'sunny'
-  'admin'
-  ]
-
+pages = ['index']
 entries =
   vendor: vendor
   agate: require './agate'
