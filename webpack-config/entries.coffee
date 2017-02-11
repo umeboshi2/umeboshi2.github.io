@@ -1,9 +1,20 @@
 # webpack config module.entry
 vendor = require './vendor'
 
-module.exports =
-  # FIXME: we probably want vendor.js for multipage sites
-  #vendor: vendor
-  app: './src/application.coffee'
+client_entry = (name) ->
+  "./client/entries/#{name}.coffee"
 
+pages = [
+  'index'
+  'sunny'
+  'admin'
+  ]
+
+entries =
+  vendor: vendor
+  agate: require './agate'
   
+for page in pages
+  entries[page] = client_entry page
+
+module.exports = entries

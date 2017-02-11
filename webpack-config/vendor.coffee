@@ -1,12 +1,12 @@
 module.exports = [
   'underscore'
   'backbone'
-  #'backbone.localstorage'
   'backbone.marionette'
+  'backbone.paginator'
+  'backbone.radio'
   'backbone.validation'
-  'radio-shim'
   'bootstrap'
   'jquery'
-  'marionette-form-view'
   'teacup'
+  'marked'
   ]
