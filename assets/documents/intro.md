@@ -53,9 +53,4 @@ Here is a list of projects:
 - [trumpet](https://github.com/umeboshi2/trumpet)
 
 
-### More stuff
-
-- [GunRunners](https://github.com/umeboshi2/lamentations-of-the-hattiesburg-gun-runners)
-
-
 [timeline](#pages/timeline)
