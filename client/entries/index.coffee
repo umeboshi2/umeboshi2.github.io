@@ -19,6 +19,14 @@ applets =
       needUser: false
     }
   ]
+
+if __DEV__
+  applets.push
+    appname: 'msleg'
+    name: 'MSLeg'
+    url: '#msleg'
+    needUser: false
+
 appmodel.set 'applets', applets
 
 brand = appmodel.get 'brand'
@@ -42,6 +50,9 @@ applet_menus = [
   }
   ]
 
+if __DEV__
+  applet_menus[1].applets = ['bumblr', 'msleg']
+
 appmodel.set 'applet_menus', applet_menus
 
 #applets = {}
@@ -59,6 +70,8 @@ MainChannel.reply 'main:app:appmodel', ->
 require '../applets/frontdoor/main'
 require '../applets/bumblr/main'
 require '../applets/hubby/main'
+if __DEV__
+  require '../applets/msleg/main'
 
 #app = new Marionette.Application()
 

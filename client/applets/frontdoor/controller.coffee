@@ -16,6 +16,7 @@ frontdoor_template = tc.renderable () ->
   tc.div '#header-stuff.row', ->
     tc.div '.col-sm-4', ->
       tc.div '#calendar.mini-calendar.panel'
+      tc.div '#meeting-info'
     tc.div '#main-content.col-sm-8'
   
     
@@ -25,7 +26,9 @@ class FrontdoorLayout extends Backbone.Marionette.View
     content: new SlideDownRegion
       el: '#main-content'
       speed: 'slow'
-    calendar: '#calendar'
+    minicalendar: '#calendar'
+    meeting: '#meeting-info'
+    
 
 class Controller extends MainController
   layoutClass: FrontdoorLayout
@@ -76,13 +79,12 @@ class Controller extends MainController
     require.ensure [], () =>
       { PostList } = require './views'
       @view_page 'intro'
-      HubChannel.request 'view-calendar', @layout, 'calendar'
+      HubChannel.request 'view-calendar', @layout, 'minicalendar'
     , 'frontdoor-default-view'
     
   frontdoor: ->
     appmodel = MainChannel.request 'main:app:appmodel'
     if appmodel.get 'needUser'
-      console.log 'needUser is true'
       @frontdoor_needuser()
     else
       @default_view()

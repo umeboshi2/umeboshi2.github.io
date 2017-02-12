@@ -33,10 +33,10 @@ class MainPageLayout extends Backbone.Marionette.View
     
 
 appmodel = new BaseAppModel
-  hasUser: true
+  hasUser: false
   needUser: false
   brand:
-    name: 'Infidel'
+    name: 'Umeboshi'
     url: '/'
   appView: MainPageLayout
   navbarView: NavbarView
