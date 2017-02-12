@@ -50,19 +50,22 @@ class Controller extends MainController
     super()
     @layout.showChildView 'toolbar', new ToolbarView
 
-
   show_calendar: (layout, region) ->
-    console.log "show_calendar", layout, region
+    #console.log "show_calendar", layout, region
     require.ensure [], () =>
       MeetingCalendarView  = require './calendarview'
-      view = new MeetingCalendarView
+      options = {}
+      if region == 'minicalendar'
+        options.minicalendar = true
+        options.layout = layout
+      view = new MeetingCalendarView options
       layout.showChildView region, view
     # name the chunk
     , 'hubby-show-calendar'
     
   mainview: ->
     @setup_layout_if_needed()
-    console.log "mainview"
+    #console.log "mainview"
     @show_calendar @layout, 'content'
     
 
@@ -74,21 +77,17 @@ class Controller extends MainController
       ListMeetingsView = require './listmeetingsview'
       response = meetings.fetch()
       response.done =>
-        if __DEV__ and false
-          window.meetings = meetings
-          console.log "MEETINGS", meetings
         view = new ListMeetingsView
           collection: meetings
         @layout.showChildView 'content', view
       response.fail =>
-        MessageChannel.request 'display-message', 'Failed to load meeting list', 'danger'
+        MessageChannel.request 'danger', 'Failed to load meeting list'
     # name the chunk
     , 'hubby-list-meetings-view'
 
     
 
-  show_meeting: (meeting_id) ->
-    @setup_layout_if_needed()
+  show_meeting: (layout, region, meeting_id) ->
     require.ensure [], () =>
       { MainMeetingModel } = require './collections'
       ShowMeetingView  = require './meetingview'
@@ -98,11 +97,16 @@ class Controller extends MainController
       response.done =>
         view = new ShowMeetingView
           model: meeting
-        @layout.showChildView 'content', view
+        layout.showChildView region, view
       response.fail =>
-        MessageChannel.request 'display-message', 'Failed to load meeting', 'danger'
+        MessageChannel.request 'danger', 'Failed to load meeting'
     # name the chunk
     , 'hubby-meetingview'
+    
+  view_meeting: (meeting_id) ->
+    @setup_layout_if_needed()
+    @show_meeting @layout, 'content', meeting_id
+    
 
     
 module.exports = Controller

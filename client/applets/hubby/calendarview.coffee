@@ -49,8 +49,18 @@ class MeetingCalendarView extends Backbone.Marionette.View
   template: meeting_calendar
   ui:
     calendar: '#maincalendar'
-    
+  options:
+    minicalendar: false
+    layout: false
+
   onDomRefresh: () ->
+    calEventClick = (event) =>
+      if not @options.minicalendar
+        url = event.url
+        Backbone.history.navigate url, trigger: true
+      else
+        meeting_id = event.id
+        HubChannel.request 'view-meeting', @options.layout, 'meeting', meeting_id
     date = HubChannel.request 'maincalendar:get-date'
     cal = @ui.calendar
     cal.fullCalendar
@@ -67,9 +77,7 @@ class MeetingCalendarView extends Backbone.Marionette.View
       eventRender: render_calendar_event
       viewRender: calendar_view_render
       loading: loading_calendar_events
-      eventClick: (event) ->
-        url = event.url
-        Backbone.history.navigate url, trigger: true
+      eventClick: calEventClick
     # if the current calendar date that has been set,
     # go to that date
     if date != undefined
