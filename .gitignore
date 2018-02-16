@@ -35,3 +35,5 @@ stylesheets
 manifest.json
 stats-dev.json
 
+/assets/client/stats.json
+

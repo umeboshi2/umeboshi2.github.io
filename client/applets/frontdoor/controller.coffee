@@ -1,93 +1,59 @@
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
+tc = require 'teacup'
+ms = require 'ms'
 
-{ MainController } = require 'agate/src/controllers'
-{ login_form } = require 'agate/src/templates/forms'
-{ SlideDownRegion } = require 'agate/src/regions'
+ToolbarView = require 'tbirds/views/button-toolbar'
+{ MainController } = require 'tbirds/controllers'
+{ ToolbarAppletLayout } = require 'tbirds/views/layout'
+navigate_to_url = require 'tbirds/util/navigate-to-url'
+scroll_top_fast = require 'tbirds/util/scroll-top-fast'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
-HubChannel = Backbone.Radio.channel 'hubby'
-DocChannel = Backbone.Radio.channel 'static-documents'
+ResourceChannel = Backbone.Radio.channel 'resources'
+AppChannel = Backbone.Radio.channel 'todos'
 
-tc = require 'teacup'
+toolbarEntries = [
+  {
+    button: '#list-button'
+    label: 'List'
+    url: '#frontdoor'
+    icon: '.fa.fa-list'
+  }
+  {
+    button: '#calendar-button'
+    label: 'Calendar'
+    url: '#frontdoor/calendar'
+    icon: '.fa.fa-calendar'
+  }
+  ]
 
-frontdoor_template = tc.renderable () ->
-  tc.div '#header-stuff.row', ->
-    tc.div '.col-sm-4', ->
-      tc.div '#calendar.mini-calendar.panel'
-      tc.div '#meeting-info'
-    tc.div '#main-content.col-sm-8'
-  
-    
-class FrontdoorLayout extends Backbone.Marionette.View
-  template: frontdoor_template
-  regions: ->
-    content: new SlideDownRegion
-      el: '#main-content'
-      speed: 'slow'
-    minicalendar: '#calendar'
-    meeting: '#meeting-info'
-    
+
+toolbarEntryCollection = new Backbone.Collection toolbarEntries
+AppChannel.reply 'get-toolbar-entries', ->
+  toolbarEntryCollection
 
 class Controller extends MainController
-  layoutClass: FrontdoorLayout
-  
-  _view_resource: (doc) ->
+  layoutClass: ToolbarAppletLayout
+  setup_layout_if_needed: ->
+    super()
+    toolbar = new ToolbarView
+      collection: toolbarEntryCollection
+    @layout.showChildView 'toolbar', toolbar
+  start: ->
+    @view_index()
+    
+  view_index: ->
+    @setup_layout_if_needed()
+    # https://jsperf.com/bool-to-int-many
+    completed = completed ^ 0
     require.ensure [], () =>
-      { FrontDoorMainView } = require './views'
-      view = new FrontDoorMainView
-        model: doc
+      View = require './views/index-view.coffee'
+      view = new View
       @layout.showChildView 'content', view
     # name the chunk
-    , 'frontdoor-view-page'
-    
-
-  _view_login: ->
-    require.ensure [], () =>
-      LoginView = require './loginview'
-      view = new LoginView
-      @layout.showChildView 'content', view
-      #@_show_content view
-    # name the chunk
-    , 'frontdoor-login-view'
-    
-  view_page: (name) ->
-    doc = DocChannel.request 'get-document', name
-    response = doc.fetch()
-    response.done =>
-      @_view_resource doc
-    response.fail =>
-      MessageChannel.request 'danger', 'Failed to get document'
-
-  frontdoor_needuser: ->
-    user = MainChannel.request 'current-user'
-    if user.has 'name'
-      @frontdoor_hasuser user
-    else
-      @show_login()
+    , 'frontdoor-view-index'
       
-  show_login: ->
-    @setup_layout_if_needed()
-    @_view_login()
-    
-  frontdoor_hasuser: (user) ->
-    @default_view()
-
-  default_view: ->
-    @setup_layout_if_needed()
-    require.ensure [], () =>
-      { PostList } = require './views'
-      @view_page 'intro'
-      HubChannel.request 'view-calendar', @layout, 'minicalendar'
-    , 'frontdoor-default-view'
-    
-  frontdoor: ->
-    appmodel = MainChannel.request 'main:app:appmodel'
-    if appmodel.get 'needUser'
-      @frontdoor_needuser()
-    else
-      @default_view()
-
 module.exports = Controller
 

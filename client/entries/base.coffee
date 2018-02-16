@@ -1,99 +1,74 @@
-$ = require 'jquery'
+$= require 'jquery'
+_ = require 'underscore'
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
-tc = require 'teacup'
 
-#if window.__agent
-#  console.warn '__agent is present'
-#  window.__agent.start Backbone, Marionette
-
-  
 require 'bootstrap'
-
-initialize_page = require 'agate/src/app-initpage'
-
-# FIXME
-
-require 'agate/src/clipboard'
-require 'agate/src/messages'
-require '../static-documents'
-
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-DocChannel = Backbone.Radio.channel 'static-documents'
-
 
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
   Backbone.Radio.DEBUG = true
-  #FIXME
-  window.dchnnl = DocChannel
 
+require 'tbirds/applet-router'
+IsEscapeModal = require 'tbirds/behaviors/is-escape-modal'
 
+MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
 
-class AppletMenuView extends Backbone.Marionette.View
-  templateContext: ->
-    applets: @applets
-    
-  template: tc.renderable (entry) ->
-    if entry?.applets
-      tc.li '.dropdown', ->
-        tc.a '.dropdown-toggle', 'data-toggle':'dropdown', ->
-          tc.text entry.label
-          tc.b '.caret'
-        tc.ul '.dropdown-menu', ->
-          for appname in entry.applets
-            tc.li appname:applets[appname].appname, ->
-              tc.a href:applets[appname].url, applets[appname].name
-    else
-      tc.li ->
-        tc.a href:entry.url, entry.label
-    
-
-
-######################
-# start app setup
-
-MainChannel.reply 'mainpage:init', (appmodel) ->
-  # get the app object
-  app = MainChannel.request 'main:app:object'
-  # initialize the main view
-  initialize_page app
-  # emit the main view is ready
-  MainChannel.trigger 'mainpage:displayed'
-
-
-MainChannel.on 'mainpage:displayed', ->
-  # this handler is useful if there are views that need to be
-  # added to the navbar.  The navbar should have regions to attach
-  # the views
-  # --- example ---
-  # view = new view
-  # aregion = MainChannel.request 'main:app:get-region', aregion
-  # aregion.show view
-
-  # current user should already be fetched before
-  # any view is shown
-
-  app = MainChannel.request 'main:app:object'
-  appmodel = MainChannel.request 'main:app:appmodel'
+if __DEV__
+  require '../inspector'
   
-  #applets = {}
-  #for applet in appmodel.applets
-  #  applets[applet.appname] = applet
-  #for entry in appmodel.applet_menus
-  #  do (entry) ->
-  #    model = new Backbone.Model entry
-      
-      
+MainChannel.reply 'main:app:switch-theme', (theme) ->
+  href = "/assets/stylesheets/bootstrap-#{theme}.css"
+  ss = $ 'head link[href^="/assets/stylesheets/bootstrap-"]'
+  ss.attr 'href', href
+
+MainChannel.reply 'main:app:set-theme', (theme) ->
+  localStorage.setItem 'main-theme', theme
+
+MainChannel.reply 'main:app:get-theme', ->
+  localStorage.getItem 'main-theme'
+
+  
+export_to_file = (options) ->
+  data = encodeURIComponent(options.data)
+  link = "#{options.type},#{data}"
+  filename = options.filename or "exported"
+  a = document.createElement 'a'
+  a.id = options.el_id or 'exported-file-anchor'
+  a.href = link
+  a.download = filename
+  a.innerHTML = "Download #{filename}"
+  a.style.display = 'none'
+  document.body.appendChild a
+  a.click()
+  document.body.removeChild a
+  
+MainChannel.reply 'export-to-file', (options) ->
+  export_to_file options
+  
+
+class BaseModalView extends Marionette.View
+  behaviors: [IsEscapeModal]
+  ui:
+    close_btn: '#close-modal div'
     
-  #user = MainChannel.request 'current-user'
-  #view = new UserMenuView
-  #  model: user
-  #navbar = app.getView().getChildView('navbar')
-  #navbar.showChildView 'usermenu', view
+MainChannel.reply 'main:app:BaseModalView', ->
+  BaseModalView
+  
+show_modal = (view, backdrop=false) ->
+  app = MainChannel.request 'main:app:object'
+  modal_region = app.getView().getRegion 'modal'
+  modal_region.backdrop = backdrop
+  modal_region.show view
+
+MainChannel.reply 'show-modal', (view, backdrop=false) ->
+  console.warn 'show-modal', backdrop
+  show_modal view, false
   
 
 
 module.exports = {}
+
+
 

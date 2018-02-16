@@ -3,11 +3,11 @@ module.exports =
   [
     {
       test: /\.coffee$/
-      loader: 'coffee'
+      loader: 'coffee-loader'
     }
     {
       test: /\.css$/
-      loader: 'style!css'
+      loader: 'style-loader!css-loader'
     }
     {
       test: /\.(gif|png|eot|ttf)?$/
@@ -20,15 +20,6 @@ module.exports =
     {
       test: /\.(woff|woff2|eot|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/
       loader: 'url-loader'
-    }
-    # This is for using packaged jquery
-    #{
-    #  test: require.resolve 'jquery'
-    #  loader: "expose?$!expose?jQuery"
-    #}
-    {
-      test: require.resolve 'rangy'
-      loader: "expose?rangy"
     }
     {
       test: /jquery\/src\/selector\.js$/
@@ -52,6 +43,6 @@ module.exports =
     }
     {
       test: /masonry-layout/,
-      loader: 'imports?define=>false&this=>window'
+      loader: 'imports-loader?define=>false&this=>window'
     }
   ]

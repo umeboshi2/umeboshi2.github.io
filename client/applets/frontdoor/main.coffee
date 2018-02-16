@@ -1,23 +1,18 @@
-BootStrapAppRouter = require 'agate/src/bootstrap_router'
+Backbone = require 'backbone'
+Marionette = require 'backbone.marionette'
+TkApplet = require 'tbirds/tkapplet'
 
 Controller = require './controller'
 
-
 MainChannel = Backbone.Radio.channel 'global'
+AppChannel = Backbone.Radio.channel 'frontdoor'
 
-
-class Router extends BootStrapAppRouter
+class Router extends Marionette.AppRouter
   appRoutes:
-    '': 'frontdoor'
-    'frontdoor': 'frontdoor'
-    'frontdoor/view': 'frontdoor'
-    'frontdoor/view/:name': 'view_page'
-    'frontdoor/login': 'show_login'
-    #FIXME
-    'pages/:name': 'view_page'
+    'frontdoor': 'view_index'
     
-MainChannel.reply 'applet:frontdoor:route', () ->
-  controller = new Controller MainChannel
-  router = new Router
-    controller: controller
+class Applet extends TkApplet
+  Controller: Controller
+  Router: Router
 
+module.exports = Applet

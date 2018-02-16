@@ -1,17 +1,19 @@
 path = require 'path'
-os = require 'os'
-
 
 webpack = require 'webpack'
 
 ManifestPlugin = require 'webpack-manifest-plugin'
 StatsPlugin = require 'stats-webpack-plugin'
+GoogleFontsPlugin = require 'google-fonts-webpack-plugin'
+BundleTracker = require 'webpack-bundle-tracker'
 
-loaders = require './webpack-config/loaders'
-entries = require './webpack-config/entries'
+#loaders = require 'tbirds/src/webpack/loaders'
+vendor = require 'tbirds/src/webpack/vendor'
 resolve = require './webpack-config/resolve'
+loaders = require './webpack-config/loaders'
 
-local_build_dir = "build"
+
+local_build_dir = "assets/client"
 
 BuildEnvironment = 'dev'
 if process.env.PRODUCTION_BUILD
@@ -19,17 +21,28 @@ if process.env.PRODUCTION_BUILD
   Clean = require 'clean-webpack-plugin'
   CompressionPlugin = require 'compression-webpack-plugin'
   ChunkManifestPlugin = require 'chunk-manifest-webpack-plugin'
+  # FIXME this is only needed until uglify can parse es6
+  # coffee-loader is always top
+  cl = loaders[0]
+  cl.options = transpile: presets: ['env']
   console.log "==============PRODUCTION BUILD=============="
   
 WebPackOutputFilename =
   dev: '[name].js'
   production: '[name]-[chunkhash].js'
-  
+
+localBuildDir =
+  dev: "assets/client-dev"
+  production: "assets/client"
+
+publicPath = localBuildDir[BuildEnvironment] + '/'
+if BuildEnvironment is 'dev'
+  publicPath = "http://localhost:8081/#{publicPath}"
 WebPackOutput =
   filename: WebPackOutputFilename[BuildEnvironment]
-  path: path.join __dirname, local_build_dir
-  publicPath: 'build/'
-
+  path: path.join __dirname, localBuildDir[BuildEnvironment]
+  publicPath: publicPath
+    
 DefinePluginOpts =
   dev:
     __DEV__: 'true'
@@ -44,24 +57,30 @@ StatsPluginFilename =
   dev: 'stats-dev.json'
   production: 'stats.json'
 
-MultiFilename =
-  dev: '[name].js'
-  production: '[name]-[chunkhash].js'
-
 common_plugins = [
   new webpack.DefinePlugin DefinePluginOpts[BuildEnvironment]
   # FIXME common chunk names in reverse order
   # https://github.com/webpack/webpack/issues/1016#issuecomment-182093533
   new webpack.optimize.CommonsChunkPlugin
-    names: ['agate', 'vendor']
-    filename: MultiFilename[BuildEnvironment]
-  new webpack.optimize.OccurenceOrderPlugin true
+    names: ['common', 'vendor']
+    filename: WebPackOutputFilename[BuildEnvironment]
   new webpack.optimize.AggressiveMergingPlugin()
   new StatsPlugin StatsPluginFilename[BuildEnvironment], chunkModules: true
   new ManifestPlugin()
   # This is to ignore moment locales with fullcalendar
   # https://github.com/moment/moment/issues/2416#issuecomment-111713308
   new webpack.IgnorePlugin /^\.\/locale$/, /moment$/
+  # google fonts
+  #new GoogleFontsPlugin
+  #  fonts: [
+  #    {family: 'Play'}
+  #    {family: 'Rambla'}
+  #    {family: 'Architects Daughter'}
+  #    {family: 'Source Sans Pro'}
+  #    ]
+  new BundleTracker
+    filename: "./#{localBuildDir[BuildEnvironment]}/bundle-stats.json"
+
   ]
 
 if BuildEnvironment is 'dev'
@@ -70,11 +89,12 @@ if BuildEnvironment is 'dev'
 else if BuildEnvironment is 'production'
   prod_only_plugins = [
     # production only plugins below
-    new webpack.optimize.DedupePlugin()
+    new webpack.HashedModuleIdsPlugin()
     new webpack.optimize.UglifyJsPlugin
       compress:
         warnings: true
-    new CompressionPlugin()
+    # FIXME restore CompressionPlugin!!!!!
+    #new CompressionPlugin()
     #new ChunkManifestPlugin
     #  filename: 'chunk-manifest.json'
     #  manifestVariable: 'webpackManifest'
@@ -87,7 +107,9 @@ else
 
 
 WebPackConfig =
-  entry: entries
+  entry:
+    vendor: vendor
+    index: './client/entries/index.coffee'
   output: WebPackOutput
   plugins: AllPlugins
   module:
@@ -95,23 +117,16 @@ WebPackConfig =
   resolve: resolve
 
 if BuildEnvironment is 'dev'
-  #proxy = require './webpack-config/devserver-proxies'
+  WebPackConfig.devtool = 'source-map'
   WebPackConfig.devServer =
     host: 'localhost'
     port: 8081
-    #proxy: proxy
-    historyApiFallback:
-      index: 'index-dev.html'
-  WebPackConfig.devtool = 'source-map'
-
-  # http://stackoverflow.com/a/11276104
-  #console.log JSON.stringify proxy, null, 4
-  # http://stackoverflow.com/a/33707230
-  #console.dir proxy, { depth:null, colors:true}
-
-  #console.log "=====================WEBPACK PROXY CONFIG================="
-  #prettyjson = require 'prettyjson'
-  #console.log prettyjson.render proxy
-  #console.log "=====================WEBPACK PROXY CONFIG================="
-  
+    historyApiFallback: true
+    stats:
+      colors: true
+      modules: false
+      chunks: true
+      maxModules: 9999
+      #reasons: true
+      
 module.exports = WebPackConfig

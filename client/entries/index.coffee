@@ -1,89 +1,55 @@
-{ start_with_user } = require './base'
+Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
-prepare_app = require 'agate/src/app-prepare'
+tc = require 'teacup'
+ms = require 'ms'
 
-appmodel = require './base-appmodel'
+navigate_to_url = require 'tbirds/util/navigate-to-url'
+TopApp = require 'tbirds/top-app'
+objectEmpty = require 'tbirds/util/object-empty'
 
-applets = 
-  [
-    {
-      appname: 'hubby'
-      name: 'Hubby'
-      url: '#hubby'
-      needUser: false
-    }
-    {
-      appname: 'bumblr'
-      name: 'Bumblr'
-      url: '#bumblr'
-      needUser: false
-    }
-  ]
+require './base'
+FooterView = require './footerview'
 
-if __DEV__
-  applets.push
-    appname: 'msleg'
-    name: 'MSLeg'
-    url: '#msleg'
-    needUser: false
+pkg = require '../../package.json'
+pkgmodel = new Backbone.Model pkg
 
-appmodel.set 'applets', applets
+MainAppConfig = require './index-config'
 
-brand = appmodel.get 'brand'
-brand.url = '#'
-appmodel.set brand: brand
-  
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
-DocChannel = Backbone.Radio.channel 'static-documents'
 
-applet_menus = [
-  {
-    label: 'Hubby'
-    single_applet: 'hubby'
-    url: '#hubby'
-  }
-  {
-    label: 'Stuff'
-    single_applet: false
-    applets: ['bumblr']
-  }
-  ]
+show_footer = ->
+  view = new FooterView
+    model: pkgmodel
+  footer_region = app.getView().getRegion 'footer'
+  footer_region.show view
 
-if __DEV__
-  applet_menus[1].applets = ['bumblr', 'msleg']
-
-appmodel.set 'applet_menus', applet_menus
-
-#applets = {}
-#for applet in appmodel.get 'applets'
-#  applets[applet.appname] = applet
-  
-
-# use a signal to request appmodel
-MainChannel.reply 'main:app:appmodel', ->
-  appmodel
-
-######################
-# require applets
-#require 'agate/src/applets/frontdoor/main'
-require '../applets/frontdoor/main'
-require '../applets/bumblr/main'
-require '../applets/hubby/main'
-if __DEV__
-  require '../applets/msleg/main'
-
-#app = new Marionette.Application()
-
-app = prepare_app appmodel
+app = new TopApp
+  appConfig: MainAppConfig
 
 if __DEV__
   # DEBUG attach app to window
   window.App = app
 
-# start the app
-app.start()
+# register the main router
+MainChannel.request 'main:app:route'
 
+app.on 'before:start', ->
+  theme = MainChannel.request 'main:app:get-theme'
+  theme = if theme then theme else 'vanilla'
+  MainChannel.request 'main:app:switch-theme', theme
+
+app.on 'start', ->
+  #doSomething = ->
+  #  console.log "Doing something"
+  #setInterval doSomething, ms, '10s'
+  if __DEV__
+    console.log "app.on start called"
+    
+app.start
+  state:
+    currentUser: null
+  
 module.exports = app
 
 

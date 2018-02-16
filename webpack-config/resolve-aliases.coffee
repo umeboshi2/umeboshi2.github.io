@@ -14,8 +14,10 @@ module.exports =
   tablednd: 'TableDnD/js/jquery.tablednd.js'
   request: 'browser-request'
   'tag-it': 'tag-it/js/tag-it.js'
-  common: path.join __dirname, '../coffee/common'
+  applets: path.join __dirname, '..', 'client/applets'
   phaser: phaser
   pixi: pixi
   p2: p2
-  
+  tbirds: 'tbirds/src'
+  # https://github.com/wycats/handlebars.js/issues/953
+  handlebars: 'handlebars/dist/handlebars'
