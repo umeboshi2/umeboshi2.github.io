@@ -9,6 +9,7 @@ AppChannel = Backbone.Radio.channel 'frontdoor'
 
 class Router extends Marionette.AppRouter
   appRoutes:
+    '': 'view_index'
     'frontdoor': 'view_index'
     
 class Applet extends TkApplet

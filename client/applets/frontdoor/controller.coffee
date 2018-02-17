@@ -41,8 +41,7 @@ class Controller extends MainController
     toolbar = new ToolbarView
       collection: toolbarEntryCollection
     @layout.showChildView 'toolbar', toolbar
-  start: ->
-    @view_index()
+    return
     
   view_index: ->
     @setup_layout_if_needed()
@@ -52,8 +51,11 @@ class Controller extends MainController
       View = require './views/index-view.coffee'
       view = new View
       @layout.showChildView 'content', view
+      return
     # name the chunk
     , 'frontdoor-view-index'
+    return
+    
       
 module.exports = Controller
 
