@@ -8,9 +8,14 @@ marked = require 'marked'
 view_template = tc.renderable (model) ->
   tc.div '.row.listview-list-entry', ->
     tc.raw marked '# Hello World!!'
+
+DefaultStaticDocumentTemplate = tc.renderable (post) ->
+  tc.article '.document-view.content', ->
+    tc.div '.body', ->
+      tc.raw marked post.content
     
 class MainView extends Backbone.Marionette.View
-  template: view_template
+  template: DefaultStaticDocumentTemplate
     
 module.exports = MainView
 

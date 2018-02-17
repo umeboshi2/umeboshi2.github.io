@@ -11,7 +11,7 @@ scroll_top_fast = require 'tbirds/util/scroll-top-fast'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
-ResourceChannel = Backbone.Radio.channel 'resources'
+DocChannel = Backbone.Radio.channel 'static-documents'
 AppChannel = Backbone.Radio.channel 'todos'
 
 toolbarEntries = [
@@ -34,28 +34,43 @@ toolbarEntryCollection = new Backbone.Collection toolbarEntries
 AppChannel.reply 'get-toolbar-entries', ->
   toolbarEntryCollection
 
+
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
-  setup_layout_if_needed: ->
+
+  setup_layout_if_neededTB: ->
     super()
     toolbar = new ToolbarView
       collection: toolbarEntryCollection
     @layout.showChildView 'toolbar', toolbar
     return
     
-  view_index: ->
-    @setup_layout_if_needed()
-    # https://jsperf.com/bool-to-int-many
-    completed = completed ^ 0
+  _viewResource: (doc) ->
     require.ensure [], () =>
-      View = require './views/index-view.coffee'
+      View = require './views/index-view'
       view = new View
+        model: doc
       @layout.showChildView 'content', view
-      return
     # name the chunk
-    , 'frontdoor-view-index'
+    , 'frontdoor-view-page'
+    
+  viewPage: (name) ->
+    @setup_layout_if_needed()
+    doc = DocChannel.request 'get-document', name
+    response = doc.fetch()
+    response.done =>
+      console.warn  "DOC", doc
+      @_viewResource doc
+      return
+    response.fail =>
+      MessageChannel.request 'danger', 'Failed to get document'
+      return
     return
     
+  viewIndex: ->
+    #@setupLayoutIfNeeded()
+    @viewPage 'intro'
+    return
       
 module.exports = Controller
 

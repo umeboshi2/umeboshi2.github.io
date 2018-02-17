@@ -12,6 +12,9 @@ if __DEV__
 require 'tbirds/applet-router'
 IsEscapeModal = require 'tbirds/behaviors/is-escape-modal'
 
+
+require '../static-documents'
+
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 
