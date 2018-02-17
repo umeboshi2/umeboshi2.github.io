@@ -26,9 +26,6 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 
-# compass
-.sass-cache
-bower_components
 
 # maybe include later?
 stylesheets
@@ -37,5 +34,6 @@ stats-dev.json
 
 /assets/client/stats.json
 /assets/client-dev
+/index-dev.html
 
 
