@@ -51,6 +51,7 @@ class Controller extends MainController
       view = new View
         model: doc
       @layout.showChildView 'content', view
+      scroll_top_fast()
     # name the chunk
     , 'frontdoor-view-page'
     
@@ -59,7 +60,6 @@ class Controller extends MainController
     doc = DocChannel.request 'get-document', name
     response = doc.fetch()
     response.done =>
-      console.warn  "DOC", doc
       @_viewResource doc
       return
     response.fail =>
@@ -71,6 +71,16 @@ class Controller extends MainController
     #@setupLayoutIfNeeded()
     @viewPage 'intro'
     return
-      
+
+  themeSwitcher: ->
+    @setup_layout_if_needed()
+    require.ensure [], () =>
+      View = require './views/theme-switch'
+      view = new View
+      @layout.showChildView 'content', view
+      scroll_top_fast()
+    # name the chunk
+    , 'frontdoor-view-switch-theme'
+    
 module.exports = Controller
 

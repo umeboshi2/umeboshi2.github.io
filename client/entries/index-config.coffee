@@ -4,21 +4,19 @@ misc_menu =
   label: 'Misc Applets'
   menu: [
     {
-      label: 'Applet'
-      url: '#applet'
-    }
-    {
-      label: 'Applet 2'
-      url: '#applet2'
-    }
-    {
-      label: 'User Profile'
-      url: '#profile'
-      needUser: true
+      label: 'Themes'
+      url: '#frontdoor/themes'
     }
   ]
 
 #config.navbarEntries = [ misc_menu ]
-config.navbarEntries = []
+config.navbarEntries = [
+  {
+    label: "Bumblr"
+    url: '#bumblr'
+  }
+  misc_menu
+  ]
+  
 
 module.exports = config

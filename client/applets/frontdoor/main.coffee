@@ -11,6 +11,7 @@ class Router extends Marionette.AppRouter
   appRoutes:
     '': 'viewIndex'
     'frontdoor': 'viewIndex'
+    'frontdoor/themes': 'themeSwitcher'
     'pages/:name': 'viewPage'
     
 class Applet extends TkApplet
