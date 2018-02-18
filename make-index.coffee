@@ -22,7 +22,7 @@ create_page_html = (name, manifest, theme, clients) ->
 
 make_page_html = (name) ->
   # FIXME make a site config
-  theme = 'vanilla'
+  theme = 'cornsilk'
   manifest = get_manifest name
   page = create_page_html name, manifest, theme
   return page

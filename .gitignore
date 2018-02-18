@@ -28,7 +28,7 @@ node_modules
 
 
 # maybe include later?
-stylesheets
+#stylesheets
 manifest.json
 stats-dev.json
 
