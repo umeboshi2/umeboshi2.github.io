@@ -109,6 +109,7 @@ else
 WebPackConfig =
   entry:
     vendor: vendor
+    fa: 'font-awesome-sass-loader'
     index: './client/entries/index.coffee'
   output: WebPackOutput
   plugins: AllPlugins

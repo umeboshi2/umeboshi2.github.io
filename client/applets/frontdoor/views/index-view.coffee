@@ -12,6 +12,7 @@ view_template = tc.renderable (model) ->
 DefaultStaticDocumentTemplate = tc.renderable (post) ->
   tc.article '.document-view.content', ->
     tc.div '.body', ->
+      tc.i '.fa.fa-spinner.fa-spin'
       tc.raw marked post.content
     
 class MainView extends Backbone.Marionette.View

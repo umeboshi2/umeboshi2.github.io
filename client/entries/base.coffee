@@ -3,6 +3,8 @@ _ = require 'underscore'
 Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
 
+require 'font-awesome-sass-loader'
+require 'bootstrap-loader'
 require 'bootstrap'
 
 if __DEV__
