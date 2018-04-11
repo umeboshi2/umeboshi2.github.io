@@ -1,8 +1,8 @@
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-TkApplet = require 'tbirds/tkapplet'
+import Backbone from 'backbone'
+import Marionette from 'backbone.marionette'
+import TkApplet from 'tbirds/tkapplet'
 
-Controller = require './controller'
+import Controller from './controller'
 
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'frontdoor'
@@ -18,4 +18,4 @@ class Applet extends TkApplet
   Controller: Controller
   Router: Router
 
-module.exports = Applet
+export default Applet
