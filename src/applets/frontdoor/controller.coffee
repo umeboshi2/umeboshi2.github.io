@@ -7,42 +7,31 @@ import ToolbarView from 'tbirds/views/button-toolbar'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 navigate_to_url = require 'tbirds/util/navigate-to-url'
-scroll_top_fast = require 'tbirds/util/scroll-top-fast'
+import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 DocChannel = Backbone.Radio.channel 'static-documents'
+ResourceChannel = Backbone.Radio.channel 'resources'
 AppChannel = Backbone.Radio.channel 'todos'
 
-toolbarEntries = [
-  {
-    button: '#list-button'
-    label: 'List'
-    url: '#frontdoor'
-    icon: '.fa.fa-list'
-  }
-  {
-    button: '#calendar-button'
-    label: 'Calendar'
-    url: '#frontdoor/calendar'
-    icon: '.fa.fa-calendar'
-  }
-  ]
-
+toolbarEntries = []
 
 toolbarEntryCollection = new Backbone.Collection toolbarEntries
 AppChannel.reply 'get-toolbar-entries', ->
   toolbarEntryCollection
 
-
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
-
-  setup_layout_if_neededTB: ->
+  setupLayoutIfNeeded: ->
     super()
     toolbar = new ToolbarView
       collection: toolbarEntryCollection
     @layout.showChildView 'toolbar', toolbar
+    return
+    
+  start: ->
+    @viewIndex()
     return
     
   _viewResource: (doc) ->
@@ -56,24 +45,28 @@ class Controller extends MainController
     , 'frontdoor-view-page'
     
   viewPage: (name) ->
-    @setup_layout_if_needed()
+    @setupLayoutIfNeeded()
     doc = DocChannel.request 'get-document', name
     response = doc.fetch()
     response.done =>
       @_viewResource doc
       return
-    response.fail =>
+    response.fail ->
       MessageChannel.request 'danger', 'Failed to get document'
       return
     return
     
+  view_index: ->
+    @setupLayoutIfNeeded()
+    # https://jsperf.com/bool-to-int-many
+    completed = completed ^ 0
   viewIndex: ->
     #@setupLayoutIfNeeded()
     @viewPage 'intro'
     return
 
   themeSwitcher: ->
-    @setup_layout_if_needed()
+    @setupLayoutIfNeeded()
     require.ensure [], () =>
       View = require './views/theme-switch'
       view = new View

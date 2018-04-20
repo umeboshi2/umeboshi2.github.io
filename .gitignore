@@ -37,3 +37,7 @@ stats-dev.json
 /index-dev.html
 
 
+/dist/stats.json
+/dist/stats-dev.json
+/dist/manifest.json
+/dist/bundle-stats.json
