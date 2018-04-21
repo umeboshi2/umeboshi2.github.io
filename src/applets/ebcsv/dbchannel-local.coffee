@@ -1,8 +1,8 @@
 import $ from 'jquery'
 import Backbone from 'backbone'
 
+import 'backbone.localstorage.async'
 import { make_dbchannel } from 'tbirds/crud/basecrudchannel'
-import { BaseLocalStorageCollection } from './lscollection'
 
 AppChannel = Backbone.Radio.channel 'ebcsv'
 
@@ -26,23 +26,38 @@ class BaseLocalStorageModel extends Backbone.Model
     _.size @attributes <= 1
 
 
-class LocalCfgCollection extends BaseLocalStorageCollection
-  local_storage_key: 'csv_configlist'
-  model: BaseLocalStorageModel
-   # FIXME: This is ugly!
-  add_cfg: (name) ->
-    model = new BaseLocalStorageModel
-      id: name
-    model.set 'name', name
-    @add model
-    @save()
-    model.fetch()
-    return model
+configStore = new Backbone.LocalStorage 'configs'
+descStore = new Backbone.LocalStorage 'descriptions'
+
+class LocalConfig extends Backbone.Model
+  localStorage: configStore
+  sync: Backbone.LocalStorage.sync
   
-local_configs = new LocalCfgCollection
+class LocalConfigCollection extends Backbone.Collection
+  localStorage: configStore
+  model: LocalConfig
+  sync: Backbone.LocalStorage.sync
+  
+class LocalDescription extends Backbone.Model
+  localStorage: descStore
+  sync: Backbone.LocalStorage.sync
+
+class LocalDescCollection extends Backbone.Collection
+  localStorage: descStore
+  model: LocalDescription
+  sync: Backbone.LocalStorage.sync
+  
+
+
+  
+local_configs = new LocalConfigCollection
+local_descriptions = new LocalDescCollection
 AppChannel.reply 'get_local_configs', ->
   local_configs
+AppChannel.reply 'get_local_descriptions', ->
+  local_descriptions
       
+
 ReqFieldNames = [
   'format'
   'location'
@@ -134,14 +149,4 @@ AppChannel.reply 'get-current-csv-dsc', ->
   AppChannel.request 'applet:local:get', 'currentCsvDsc'
 
 
-
-class LocalDscCollection extends BaseLocalStorageCollection
-  local_storage_key: 'csv_desclist'
-  model: BaseLocalStorageModel
-
-  
-local_descriptions = new LocalDscCollection
-AppChannel.reply 'get_local_descriptions', ->
-  local_descriptions
-      
 

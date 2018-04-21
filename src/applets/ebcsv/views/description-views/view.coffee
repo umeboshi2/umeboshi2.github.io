@@ -3,8 +3,7 @@ Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 marked = require 'marked'
 
-BootstrapFormView = require 'tbirds/views/bsformview'
-navigate_to_url = require 'tbirds/util/navigate-to-url'
+navigate_to_url = require('tbirds/util/navigate-to-url').default
 { form_group_input_div } = require 'tbirds/templates/forms'
 
 MessageChannel = Backbone.Radio.channel 'messages'
@@ -43,7 +42,7 @@ class DscView extends Backbone.Marionette.View
     'click @ui.copy_btn': 'copy_description'
     'click @ui.edit_btn': 'edit_description'
   edit_description: ->
-    navigate_to_url "#ebcsv/dsc/edit/#{@model.id}"
+    navigate_to_url "#ebcsv/descriptions/edit/#{@model.id}"
   copy_description: ->
     foo = 'bar'
     destname = @ui.destname_input.val()
@@ -62,7 +61,7 @@ class DscView extends Backbone.Marionette.View
     response.done ->
       msg = "Copied new description #{ndsc.get 'name'}"
       MessageChannel.request 'success', msg
-      navigate_to_url "#ebcsv/dsc/view/#{ndsc.id}"
+      navigate_to_url "#ebcsv/descriptions/view/#{ndsc.id}"
     
 module.exports = DscView
 

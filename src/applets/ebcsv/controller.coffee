@@ -111,8 +111,8 @@ class Controller extends MainController
       
   create_csv: =>
     @setupLayoutIfNeeded()
-    cfgs = AppChannel.request 'ebcfg-collection'
-    dscs = AppChannel.request 'ebdsc-collection'
+    cfgs = AppChannel.request 'get_local_configs'
+    dscs = AppChannel.request 'get_local_descriptions'
     cfgs.fetch().then =>
       dscs.fetch().then =>
         @_needComicsView @_show_create_csv_view
@@ -242,7 +242,6 @@ class Controller extends MainController
     
   add_new_description: ->
     @setupLayoutIfNeeded()
-    dscs = AppChannel.request 'get_local_descriptions'
     require.ensure [], () =>
       Views = require './views/description-views/edit'
       view = new Views.NewFormView
@@ -253,32 +252,26 @@ class Controller extends MainController
 
   view_description: (id) ->
     @setupLayoutIfNeeded()
+    dscs = AppChannel.request 'get_local_descriptions'
     require.ensure [], () =>
       View = require './views/description-views/view'
-      model = AppChannel.request 'get-ebdsc', id
-      response = model.fetch()
-      response.done =>
-        view = new View
-          model: model
-        @layout.showChildView 'content', view
-        scroll_top_fast()
-      response.fail ->
-        MessageChannel.request 'danger', 'Failed to get descriptions'
+      model = dscs.get id
+      view = new View
+        model: model
+      @layout.showChildView 'content', view
+      scroll_top_fast()
     # name the chunk
     , 'ebcsv-view-description'
     
   edit_description: (id) ->
     @setupLayoutIfNeeded()
+    dscs = AppChannel.request 'get_local_descriptions'
     require.ensure [], () =>
       Views = require './views/description-views/edit'
-      model = AppChannel.request 'get-ebdsc', id
-      response = model.fetch()
-      response.done =>
-        view = new Views.EditFormView
-          model: model
-        @layout.showChildView 'content', view
-      response.fail ->
-        MessageChannel.request 'danger', 'Failed to get descriptions'
+      model = dscs.get id
+      view = new Views.EditFormView
+        model: model
+      @layout.showChildView 'content', view
     # name the chunk
     , 'ebcsv-edit-description'
 

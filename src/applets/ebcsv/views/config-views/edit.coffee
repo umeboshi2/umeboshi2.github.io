@@ -111,7 +111,7 @@ class NewFormView extends BaseFormDataView
 
   saveModel: ->
     #collection = AppChannel.request 'ebcfg-collection'
-    @model.set 'id', @model.get 'name'
+    #@model.set 'id', @model.get 'name'
     collection = AppChannel.request 'get_local_configs'
     collection.add @model
     return super arguments

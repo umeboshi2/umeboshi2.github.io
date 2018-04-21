@@ -13,9 +13,9 @@ Templates = require 'tbirds/templates/basecrud'
 
 Views = require '../basecrudviews'
 
-ItemTemplate = Templates.base_item_template 'ebdsc', 'ebcsv'
+ItemTemplate = Templates.base_item_template 'description', 'ebcsv'
         
-ListTemplate = Templates.base_list_template 'ebdsc'
+ListTemplate = Templates.base_list_template 'description'
 
 class ItemView extends Views.BaseItemView
   route_name: 'ebcsv'

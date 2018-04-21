@@ -80,10 +80,10 @@ class BaseFormView extends BootstrapFormView
 class NewFormView extends BaseFormView
   createModel: ->
     collection = AppChannel.request 'get_local_descriptions'
-    return new collection.model
+    model = new collection.model
+    return model
 
   saveModel: ->
-    @model.set 'id', @model.get 'name'
     collection = AppChannel.request 'get_local_descriptions'
     collection.add @model
     return super arguments
