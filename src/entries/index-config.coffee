@@ -14,6 +14,9 @@ config.navbarEntries = [
   {
     label: "Bumblr"
     url: '#bumblr'
+  },{
+    label: "EbCsv"
+    url: "#ebcsv"
   }
   misc_menu
   ]
