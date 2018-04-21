@@ -18,7 +18,7 @@ config.navbarEntries = [
     label: "EbCsv"
     url: "#ebcsv"
   }
-  misc_menu
+  #misc_menu
   ]
   
 
