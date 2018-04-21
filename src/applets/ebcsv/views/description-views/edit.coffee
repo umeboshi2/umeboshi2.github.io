@@ -1,11 +1,11 @@
 _ = require 'underscore'
 Backbone = require 'backbone'
 
-BootstrapFormView = require 'tbirds/views/bsformview'
+BootstrapFormView = require('tbirds/views/bsformview').default
 
-make_field_input_ui = require 'tbirds/util/make-field-input-ui'
-navigate_to_url = require 'tbirds/util/navigate-to-url'
-HasAceEditor = require 'tbirds/behaviors/ace'
+make_field_input_ui = require('tbirds/util/make-field-input-ui').default
+navigate_to_url = require('tbirds/util/navigate-to-url').default
+HasAceEditor = require('tbirds/behaviors/ace').default
 
 markdown_mode = require 'brace/mode/markdown'
 hb_mode = require 'brace/mode/handlebars'
@@ -75,19 +75,21 @@ class BaseFormView extends BootstrapFormView
   onSuccess: (model) ->
     name = @model.get 'name'
     MessageChannel.request 'success', "#{name} saved successfully."
-    navigate_to_url "#ebcsv/dsc/view/#{@model.id}"
+    navigate_to_url "#ebcsv/descriptions/view/#{@model.id}"
     
 class NewFormView extends BaseFormView
   createModel: ->
-    AppChannel.request 'new-ebdsc'
+    collection = AppChannel.request 'get_local_descriptions'
+    return new collection.model
 
   saveModel: ->
-    collection = AppChannel.request 'ebdsc-collection'
+    @model.set 'id', @model.get 'name'
+    collection = AppChannel.request 'get_local_descriptions'
     collection.add @model
-    super arguments
+    return super arguments
     
   onSuccess: (model) ->
-    navigate_to_url "#ebcsv/dsc/view/#{model.id}"
+    navigate_to_url "#ebcsv/descriptions/view/#{model.id}"
     
 
 class EditFormView extends BaseFormView

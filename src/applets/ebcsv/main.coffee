@@ -27,7 +27,7 @@ menuEntries = [
   {
     id: 'dsclist'
     label: 'Descriptions'
-    url: '#ebcsv/dsc/list'
+    url: '#ebcsv/descriptions/list'
     icon: '.fa.fa-list'
   }
   {
@@ -73,11 +73,11 @@ class Router extends Marionette.AppRouter
     'ebcsv/configs/edit/:name': 'edit_config'
 
 
-    'ebcsv/dsc': 'list_descriptions'
-    'ebcsv/dsc/list': 'list_descriptions'
-    'ebcsv/dsc/add': 'add_new_description'
-    'ebcsv/dsc/view/:name': 'view_description'
-    'ebcsv/dsc/edit/:name': 'edit_description'
+    'ebcsv/descriptions': 'list_descriptions'
+    'ebcsv/descriptions/list': 'list_descriptions'
+    'ebcsv/descriptions/add': 'add_new_description'
+    'ebcsv/descriptions/view/:name': 'view_description'
+    'ebcsv/descriptions/edit/:name': 'edit_description'
 
 class Applet extends TkApplet
   Controller: Controller
@@ -90,6 +90,11 @@ class Applet extends TkApplet
       id: 'addcfg'
       label: 'Create Cfg'
       url: '#ebcsv/configs/add'
+      icon: '.fa.fa-plus'
+    },{
+      id: 'adddsc'
+      label: 'Create Description'
+      url: '#ebcsv/descriptions/add'
       icon: '.fa.fa-plus'
     }
   ]

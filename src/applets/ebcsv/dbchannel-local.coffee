@@ -2,7 +2,7 @@ import $ from 'jquery'
 import Backbone from 'backbone'
 
 import { make_dbchannel } from 'tbirds/crud/basecrudchannel'
-import { BaseLocalStorageCollection } from 'tbirds/lscollection'
+import { BaseLocalStorageCollection } from './lscollection'
 
 AppChannel = Backbone.Radio.channel 'ebcsv'
 
@@ -80,14 +80,6 @@ class BaseOptFieldsModel extends BaseCsvFieldsModel
 
 
 
-AppChannel.reply 'get-ebcsv-config', (name) ->
-  model = new BaseLocalStorageModel
-    id: "cfg_#{name}"
-  model.fetch()
-  return model
-  
-
-
 AppChannel.reply 'get-comic-image-urls', ->
   comic_image_urls = new BaseLocalStorageModel
     id: 'comic-image-urls'
@@ -140,4 +132,16 @@ AppChannel.reply 'set-current-csv-dsc', (dsc) ->
 AppChannel.reply 'get-current-csv-dsc', ->
   #current_csv_dsc
   AppChannel.request 'applet:local:get', 'currentCsvDsc'
+
+
+
+class LocalDscCollection extends BaseLocalStorageCollection
+  local_storage_key: 'csv_desclist'
+  model: BaseLocalStorageModel
+
+  
+local_descriptions = new LocalDscCollection
+AppChannel.reply 'get_local_descriptions', ->
+  local_descriptions
+      
 

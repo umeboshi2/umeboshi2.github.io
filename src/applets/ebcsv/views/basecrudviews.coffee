@@ -2,7 +2,7 @@ Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 
-navigate_to_url = require 'tbirds/util/navigate-to-url'
+navigate_to_url = require('tbirds/util/navigate-to-url').default
 require 'tbirds/regions/bsmodal'
 { modal_close_button } = require 'tbirds/templates/buttons'
 
@@ -38,9 +38,9 @@ class ConfirmDeleteModal extends Backbone.Marionette.View
   confirm_delete: ->
     name = @model.get 'name'
     response = @model.destroy()
-    response.done =>
+    response.done ->
       MessageChannel.request 'success', "#{name} deleted.",
-    response.fail =>
+    response.fail ->
       MessageChannel.request 'danger', "#{name} NOT deleted."
       
 class BaseItemView extends Backbone.Marionette.View

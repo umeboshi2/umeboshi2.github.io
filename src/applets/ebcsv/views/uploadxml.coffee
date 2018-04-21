@@ -17,7 +17,9 @@ dropzone_template = tc.renderable (model) ->
   tc.article '.document-view.content', ->
     tc.div '.body', ->
       tc.div '.card', ->
-        tc.div '.card-header', 'Drop an xml file.'
+        tc.div '.card-header', ->
+          tc.text 'Drop an xml file, or use the '
+          tc.button '.sample-comics-button.btn.btn-default', "Example data."
         tc.div '.card-body', ->
           tc.div '.parse-btn.btn.btn-default', style:'display:none', ->
             tc.text 'Parse Dropped File'
@@ -26,7 +28,15 @@ dropzone_template = tc.renderable (model) ->
           style:'display:none', ->
             tc.text 'Parse input file.'
   
-          
+class SampleComicsModel extends Backbone.Model
+  url: '/assets/documents/sample-comics.xml'
+  fetch: (options) ->
+    options = options or {}
+    options.dataType = 'text'
+    return super options
+  parse: (response, options) ->
+    return content: response
+            
 class DropZoneView extends Backbone.Marionette.View
   template: dropzone_template
   droppedFile: null
@@ -35,6 +45,7 @@ class DropZoneView extends Backbone.Marionette.View
     file_input: '.xml-file-input'
     parse_btn: '.parse-btn'
     chosen_btn: '.parse-chosen-button'
+    sampleComicsBtn: '.sample-comics-button'
   events:
     'dragover': 'handle_dragOver'
     'dragenter': 'handle_dragEnter'
@@ -43,6 +54,8 @@ class DropZoneView extends Backbone.Marionette.View
     'click @ui.file_input': 'file_input_clicked'
     'change @ui.file_input': 'file_input_changed'
     'click @ui.chosen_btn': 'parse_chosen_xml'
+    'click @ui.sampleComicsBtn': 'parse_sample_xml'
+    
     
 
   # https://stackoverflow.com/a/12102992
@@ -104,6 +117,19 @@ class DropZoneView extends Backbone.Marionette.View
     reader.onload = @xmlReaderOnLoad
     reader.readAsText(@droppedFile)
     @ui.parse_btn.hide()
+    
+  parse_sample_xml: ->
+    model = new SampleComicsModel()
+    response = model.fetch()
+    @ui.status_msg.text "Retrieving xml...."
+    response.done =>
+      @ui.status_msg.text "Parsing xml...."
+      xml = model.get 'content'
+      AppChannel.request 'parse-comics-xml', xml, @successfulParse
+    response.fail =>
+      @ui.status_msg.text "Something failed."
+      MessageChannel.danger "Failed to parse sample comics"
+      
     
 module.exports = DropZoneView
 

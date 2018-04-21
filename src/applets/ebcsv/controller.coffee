@@ -58,7 +58,7 @@ class Controller extends MainController
   ############################################
   # ebcsv main views
   ############################################
-  _show_main_view: =>
+  _showMainView: =>
     require.ensure [], () =>
       comics = AppChannel.request 'get-comics'
       View = require './views/mainview'
@@ -88,7 +88,7 @@ class Controller extends MainController
     # name the chunk
     , 'ebcsv-view-csvpreview-view-helper'
     
-  _need_comics_view: (cb) ->
+  _needComicsView: (cb) ->
     comics = AppChannel.request 'get-comics'
     if not comics.length
       if __DEV__ and false
@@ -101,7 +101,6 @@ class Controller extends MainController
         xhr.done ->
           content = xhr.responseText
           AppChannel.request 'parse-comics-xml', content, (err, json) ->
-            #@_show_main_view()
             cb()
         xhr.fail ->
           navigate_to_url '#ebcsv/xml/upload'
@@ -116,7 +115,7 @@ class Controller extends MainController
     dscs = AppChannel.request 'ebdsc-collection'
     cfgs.fetch().then =>
       dscs.fetch().then =>
-        @_need_comics_view @_show_create_csv_view
+        @_needComicsView @_show_create_csv_view
     
   preview_csv: ->
     @setupLayoutIfNeeded()
@@ -140,11 +139,11 @@ class Controller extends MainController
       cfg.fetch().then =>
         dsc.fetch().then =>
           hlist.fetch().then =>
-            @_need_comics_view @_show_preview_csv_view
+            @_needComicsView @_show_preview_csv_view
     
   main_view: ->
     @setupLayoutIfNeeded()
-    @_need_comics_view @_show_main_view
+    @_needComicsView @_showMainView
     
   upload_xml: ->
     @setupLayoutIfNeeded()
@@ -173,14 +172,13 @@ class Controller extends MainController
   list_configs: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      #cfgs = AppChannel.request 'ebcfg-collection'
-      #
       cfgs = AppChannel.request "get_local_configs"
-      window.cfgs = cfgs
-      View = require './views/cfglist'
-      view = new View
-        collection: cfgs
-      @layout.showChildView 'content', view
+      response = cfgs.fetch()
+      response.done =>
+        View = require './views/config-views/list'
+        view = new View
+          collection: cfgs
+        @layout.showChildView 'content', view
     # name the chunk
     , 'ebcsv-view-list-configs'
     
@@ -188,7 +186,7 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     cfgs = AppChannel.request "get_local_configs"
     require.ensure [], () =>
-      Views = require './views/cfgedit'
+      Views = require './views/config-views/edit'
       view = new Views.NewFormView
       @layout.showChildView 'content', view
       scroll_top_fast()
@@ -198,10 +196,8 @@ class Controller extends MainController
   view_config: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/cfgview'
+      View = require './views/config-views/view'
       cfgs = AppChannel.request "get_local_configs"
-      #model = AppChannel.request 'get-ebcfg', id
-      #model.fetch()
       model = cfgs.get id
       console.log "view_config", model, cfgs
       view = new View
@@ -214,9 +210,9 @@ class Controller extends MainController
   edit_config: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      Views = require './views/cfgedit'
-      model = AppChannel.request 'get-ebcfg', id
-      model.fetch()
+      Views = require './views/config-views/edit'
+      cfgs = AppChannel.request "get_local_configs"
+      model = cfgs.get id
       view = new Views.EditFormView
         model: model
       @layout.showChildView 'content', view
@@ -232,10 +228,10 @@ class Controller extends MainController
   list_descriptions: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      dscs = AppChannel.request 'ebdsc-collection'
+      dscs = AppChannel.request 'get_local_descriptions'
       response = dscs.fetch()
       response.done =>
-        View = require './views/dsclist'
+        View = require './views/description-views/list'
         view = new View
           collection: dscs
         @layout.showChildView 'content', view
@@ -246,8 +242,9 @@ class Controller extends MainController
     
   add_new_description: ->
     @setupLayoutIfNeeded()
+    dscs = AppChannel.request 'get_local_descriptions'
     require.ensure [], () =>
-      Views = require './views/dscedit'
+      Views = require './views/description-views/edit'
       view = new Views.NewFormView
       @layout.showChildView 'content', view
       scroll_top_fast()
@@ -257,7 +254,7 @@ class Controller extends MainController
   view_description: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/dscview'
+      View = require './views/description-views/view'
       model = AppChannel.request 'get-ebdsc', id
       response = model.fetch()
       response.done =>
@@ -273,7 +270,7 @@ class Controller extends MainController
   edit_description: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      Views = require './views/dscedit'
+      Views = require './views/description-views/edit'
       model = AppChannel.request 'get-ebdsc', id
       response = model.fetch()
       response.done =>

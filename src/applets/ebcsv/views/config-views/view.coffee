@@ -52,7 +52,7 @@ class CfgView extends Backbone.Marionette.View
     'click @ui.copy_btn': 'copy_config'
     'click @ui.edit_btn': 'edit_config'
   edit_config: ->
-    navigate_to_url "#ebcsv/cfg/edit/#{@model.id}"
+    navigate_to_url "#ebcsv/configs/edit/#{@model.id}"
   copy_config: ->
     foo = 'bar'
     destname = @ui.destname_input.val()
@@ -70,7 +70,7 @@ class CfgView extends Backbone.Marionette.View
     response.done ->
       msg = "Copied new config #{ncfg.get 'name'}"
       MessageChannel.request 'success', msg
-      navigate_to_url "#ebcsv/cfg/view/#{ncfg.id}"
+      navigate_to_url "#ebcsv/configs/view/#{ncfg.id}"
     
 module.exports = CfgView
 

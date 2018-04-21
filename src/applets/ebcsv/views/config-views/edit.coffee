@@ -98,7 +98,7 @@ class EditFormView extends BaseFormDataView
     @model
 
   onSuccess: (model) ->
-    navigate_to_url "#ebcsv/config/view/#{@model.id}"
+    navigate_to_url "#ebcsv/configs/view/#{@model.id}"
     
 class NewFormView extends BaseFormDataView
   template: csvfields_form
@@ -114,7 +114,6 @@ class NewFormView extends BaseFormDataView
     @model.set 'id', @model.get 'name'
     collection = AppChannel.request 'get_local_configs'
     collection.add @model
-    collection.save()
     return super arguments
     
   onSuccess: (model) ->
