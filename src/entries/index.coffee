@@ -13,6 +13,7 @@ import FooterView from './footerview'
 pkg = require '../../package.json'
 pkgmodel = new Backbone.Model pkg
 
+import schemaBuilder from './schema-builder'
 import MainAppConfig from './index-config'
 
 MainChannel = Backbone.Radio.channel 'global'
@@ -46,11 +47,18 @@ app.on 'start', ->
   #setInterval doSomething, ms, '10s'
   if __DEV__
     console.log "app.on start called"
-    
-app.start
-  state:
-    currentUser: null
+
   
+schemaBuilder.connect().then (db) ->
+  console.log "schemaBuilder.connect() connected", db
+  MainChannel.reply 'main:app:dbConn', ->
+    return app.getState 'dbConn'
+  app.start
+    state:
+      currentUser: null
+      dbConn: db
+      dbSchemaBuilder: schemaBuilder
+      
 export default app
 
 

@@ -2,9 +2,8 @@ import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import TkApplet from 'tbirds/tkapplet'
 
-require './dbchannel-local'
+require './dbchannel'
 require './ebutils'
-
 
 import Controller from './controller'
 
@@ -86,22 +85,11 @@ class Applet extends TkApplet
     {
       label: "Ebcsv Menu"
       menu: menuEntries
-    },{
-      id: 'addcfg'
-      label: 'Create Cfg'
-      url: '#ebcsv/configs/add'
-      icon: '.fa.fa-plus'
-    },{
-      id: 'adddsc'
-      label: 'Create Description'
-      url: '#ebcsv/descriptions/add'
-      icon: '.fa.fa-plus'
     }
   ]
   state:
     currentCsvAction: undefined
     currentCsvConfig: undefined
     currentCsvDsc: undefined
-    
-#module.exports = Applet
+       
 export default Applet

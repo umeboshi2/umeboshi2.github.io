@@ -9,6 +9,7 @@ navigate_to_url = require('tbirds/util/navigate-to-url').default
 { make_field_input
   make_field_select } = require 'tbirds/templates/forms'
 
+MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'ebcsv'
 
 ReqFieldNames = AppChannel.request 'csv-req-fieldnames'
@@ -98,7 +99,9 @@ class EditFormView extends BaseFormDataView
     @model
 
   onSuccess: (model) ->
-    navigate_to_url "#ebcsv/configs/view/#{@model.id}"
+    name = model.get 'name'
+    MessageChannel.request 'success', "#{name} saved successfully."
+    navigate_to_url "#ebcsv/configs/view/#{model.id}"
     
 class NewFormView extends BaseFormDataView
   template: csvfields_form
@@ -109,14 +112,9 @@ class NewFormView extends BaseFormDataView
     cfgs = AppChannel.request 'get_local_configs'
     return new cfgs.model
 
-  saveModel: ->
-    #collection = AppChannel.request 'ebcfg-collection'
-    #@model.set 'id', @model.get 'name'
-    collection = AppChannel.request 'get_local_configs'
-    collection.add @model
-    return super arguments
-    
   onSuccess: (model) ->
+    name = model.get 'name'
+    MessageChannel.request 'success', "#{name} saved successfully."
     navigate_to_url "#ebcsv/configs/view/#{model.id}"
     
     

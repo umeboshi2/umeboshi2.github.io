@@ -11,14 +11,12 @@ navigate_to_url = require 'tbirds/util/navigate-to-url'
 
 JsonView = require './comicjson'
 HasImageModal = require './has-image-modal'
-console.log "HasImageModal", HasImageModal
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'ebcsv'
 
 BaseModalView = MainChannel.request 'main:app:BaseModalView'
-console.log "BaseModalView", BaseModalView
 
 class IFrameModalView extends BaseModalView
   template: tc.renderable (model) ->

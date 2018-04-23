@@ -73,9 +73,9 @@ class BaseFormView extends BootstrapFormView
     @model.set 'content', @editor.getValue()
 
   onSuccess: (model) ->
-    name = @model.get 'name'
+    name = model.get 'name'
     MessageChannel.request 'success', "#{name} saved successfully."
-    navigate_to_url "#ebcsv/descriptions/view/#{@model.id}"
+    navigate_to_url "#ebcsv/descriptions/view/#{model.id}"
     
 class NewFormView extends BaseFormView
   createModel: ->
@@ -83,12 +83,9 @@ class NewFormView extends BaseFormView
     model = new collection.model
     return model
 
-  saveModel: ->
-    collection = AppChannel.request 'get_local_descriptions'
-    collection.add @model
-    return super arguments
-    
   onSuccess: (model) ->
+    name = @model.get 'name'
+    MessageChannel.request 'success', "#{name} saved successfully."
     navigate_to_url "#ebcsv/descriptions/view/#{model.id}"
     
 

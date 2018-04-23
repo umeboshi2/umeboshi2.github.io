@@ -15,10 +15,20 @@ import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 ResourceChannel = Backbone.Radio.channel 'resources'
+NavbarChannel = Backbone.Radio.channel 'navbar'
 
 import AppChannel from './app-channel'
 
-
+addCfgEntry =
+      id: 'addcfg'
+      label: 'Create Cfg'
+      url: '#ebcsv/configs/add'
+      icon: '.fa.fa-plus'
+addDscEntry =
+      id: 'adddsc'
+      label: 'Create Description'
+      url: '#ebcsv/descriptions/add'
+      icon: '.fa.fa-plus'
 
 
 class ToolbarAppletLayout extends Backbone.Marionette.View
@@ -169,12 +179,18 @@ class Controller extends MainController
   ############################################
   # ebcsv configs
   ############################################
+  _setCfgEntries: ->
+    collection = NavbarChannel.request 'get-entries', 'view'
+    collection.set [addCfgEntry]
   list_configs: ->
     @setupLayoutIfNeeded()
+    @_setCfgEntries()
     require.ensure [], () =>
       cfgs = AppChannel.request "get_local_configs"
       response = cfgs.fetch()
-      response.done =>
+      response.done (rows) =>
+        console.log "ROWS", rows, cfgs
+        cfgs.set rows
         View = require './views/config-views/list'
         view = new View
           collection: cfgs
@@ -184,7 +200,7 @@ class Controller extends MainController
     
   add_new_config: ->
     @setupLayoutIfNeeded()
-    cfgs = AppChannel.request "get_local_configs"
+    @_setCfgEntries()
     require.ensure [], () =>
       Views = require './views/config-views/edit'
       view = new Views.NewFormView
@@ -195,42 +211,52 @@ class Controller extends MainController
 
   view_config: (id) ->
     @setupLayoutIfNeeded()
+    @_setCfgEntries()
     require.ensure [], () =>
       View = require './views/config-views/view'
       cfgs = AppChannel.request "get_local_configs"
-      model = cfgs.get id
-      console.log "view_config", model, cfgs
-      view = new View
-        model: model
-      @layout.showChildView 'content', view
-      scroll_top_fast()
+      model = new cfgs.model id: id
+      response = model.fetch()
+      response.done (rows) =>
+        view = new View
+          model: new cfgs.model rows[0]
+        @layout.showChildView 'content', view
+        scroll_top_fast()
     # name the chunk
     , 'ebcsv-view-config'
     
   edit_config: (id) ->
     @setupLayoutIfNeeded()
+    @_setCfgEntries()
     require.ensure [], () =>
       Views = require './views/config-views/edit'
       cfgs = AppChannel.request "get_local_configs"
-      model = cfgs.get id
-      view = new Views.EditFormView
-        model: model
-      @layout.showChildView 'content', view
+      model = new cfgs.model id: id
+      response = model.fetch()
+      response.done (rows) =>
+        view = new Views.EditFormView
+          model: new cfgs.model rows[0]
+        @layout.showChildView 'content', view
+        scroll_top_fast()
     # name the chunk
     , 'ebcsv-edit-config'
-
 
 
 
   ############################################
   # ebcsv descriptions
   ############################################
+  _setDscEntries: ->
+    collection = NavbarChannel.request 'get-entries', 'view'
+    collection.set [addDscEntry]
   list_descriptions: ->
     @setupLayoutIfNeeded()
+    @_setDscEntries()
     require.ensure [], () =>
       dscs = AppChannel.request 'get_local_descriptions'
       response = dscs.fetch()
-      response.done =>
+      response.done (rows) =>
+        dscs.set rows
         View = require './views/description-views/list'
         view = new View
           collection: dscs
@@ -242,6 +268,7 @@ class Controller extends MainController
     
   add_new_description: ->
     @setupLayoutIfNeeded()
+    @_setDscEntries()
     require.ensure [], () =>
       Views = require './views/description-views/edit'
       view = new Views.NewFormView
@@ -252,26 +279,34 @@ class Controller extends MainController
 
   view_description: (id) ->
     @setupLayoutIfNeeded()
-    dscs = AppChannel.request 'get_local_descriptions'
+    @_setDscEntries()
     require.ensure [], () =>
       View = require './views/description-views/view'
-      model = dscs.get id
-      view = new View
-        model: model
-      @layout.showChildView 'content', view
-      scroll_top_fast()
+      dscs = AppChannel.request 'get_local_descriptions'
+      model = new dscs.model id: id
+      response = model.fetch()
+      response.done (rows) =>
+        view = new View
+          model: new dscs.model rows[0]
+        @layout.showChildView 'content', view
+        scroll_top_fast()
     # name the chunk
     , 'ebcsv-view-description'
     
   edit_description: (id) ->
     @setupLayoutIfNeeded()
+    @_setDscEntries()
     dscs = AppChannel.request 'get_local_descriptions'
     require.ensure [], () =>
       Views = require './views/description-views/edit'
-      model = dscs.get id
-      view = new Views.EditFormView
-        model: model
-      @layout.showChildView 'content', view
+      dscs = AppChannel.request 'get_local_descriptions'
+      model = new dscs.model id: id
+      response = model.fetch()
+      response.done (rows) =>
+        view = new Views.EditFormView
+          model: new dscs.model rows[0]
+        @layout.showChildView 'content', view
+        scroll_top_fast()
     # name the chunk
     , 'ebcsv-edit-description'
 
