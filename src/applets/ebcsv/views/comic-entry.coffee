@@ -100,12 +100,24 @@ class ComicEntryView extends Backbone.Marionette.View
         model: new Backbone.Model src:target.href
       MainChannel.request 'show-modal', view
       
-  onDomRefresh: ->
-    @ui.info_btn.hide()
-    links = @model.get 'links'
-    url = links.link.url
-    #console.log "Links", links
-    #console.log "Link url", url
+  _handleComicImage: (url) ->
+    Model = AppChannel.request 'get-comic-url-model'
+    model = new Model
+      url: url
+    response = model.fetch
+      data:
+        url: url
+    response.then (results) =>
+      imageSrc = model.get 'image_src'
+      if not imageSrc
+        @_get_comic_data url, @_parse_html
+      else
+        @_show_comic_image model, false
+    response.fail =>
+      @_get_comic_data url, @_parse_html
+    return
+
+  _handleLocalUrls: (url) ->
     urls = AppChannel.request 'get-comic-image-urls'
     if urls[url]
       model = new Backbone.Model
@@ -116,7 +128,16 @@ class ComicEntryView extends Backbone.Marionette.View
       #@_get_comic_from_db()
       if url
         @_get_comic_data url, @_parse_html
-      
+    
+  onDomRefresh: ->
+    @ui.info_btn.hide()
+    links = @model.get 'links'
+    url = links.link.url
+    #console.log "Links", links
+    #console.log "Link url", url
+    #@_handleLocalUrls url
+    @_handleComicImage url
+    
   _get_comic_data: (url, cb) ->
     console.log "_get_comic_data", url
     u = new URL url
@@ -130,7 +151,7 @@ class ComicEntryView extends Backbone.Marionette.View
     xhr.fail ->
       MessageChannel.request 'warning', "Couldn't get the info"
 
-  _parse_html: (url, content) ->
+  _parse_html: (url, content) =>
     cdoc = $.parseHTML content
     links = []
     for e in cdoc
@@ -140,8 +161,15 @@ class ComicEntryView extends Backbone.Marionette.View
       MessageChannel.request 'warning', 'Too many links for this comic.'
     link = links[0]
     image_src = link.href
-    AppChannel.request 'add-comic-image-url', url, image_src
-    
+    #AppChannel.request 'add-comic-image-url', url, image_src
+    Model = AppChannel.request 'get-comic-url-model'
+    model = new Model
+      url: url
+      image_src: image_src
+    response = model.save()
+    response.done =>
+      @_show_comic_image model, false
+      
   _set_local_images_url: (clzpage) ->
     url = clzpage.get 'url'
     image_src = clzpage.get 'image_src'

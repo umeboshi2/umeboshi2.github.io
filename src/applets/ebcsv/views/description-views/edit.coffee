@@ -83,12 +83,6 @@ class NewFormView extends BaseFormView
     model = new collection.model
     return model
 
-  onSuccess: (model) ->
-    name = @model.get 'name'
-    MessageChannel.request 'success', "#{name} saved successfully."
-    navigate_to_url "#ebcsv/descriptions/view/#{model.id}"
-    
-
 class EditFormView extends BaseFormView
   # the model should be assigned in the controller
   createModel: ->

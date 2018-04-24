@@ -13,7 +13,9 @@ import FooterView from './footerview'
 pkg = require '../../package.json'
 pkgmodel = new Backbone.Model pkg
 
-import schemaBuilder from './schema-builder'
+import ebcsvSchema from '../schema/ebcsv'
+import bumblrSchema from '../schema/bumblr'
+
 import MainAppConfig from './index-config'
 
 MainChannel = Backbone.Radio.channel 'global'
@@ -48,17 +50,25 @@ app.on 'start', ->
   if __DEV__
     console.log "app.on start called"
 
-  
-schemaBuilder.connect().then (db) ->
-  console.log "schemaBuilder.connect() connected", db
-  MainChannel.reply 'main:app:dbConn', ->
-    return app.getState 'dbConn'
+
+schemas =
+  ebcsv: ebcsvSchema
+  bumblr: bumblrSchema
+
+dbConns = {}
+
+promises = Object.keys(schemas).map (key, index, array) ->
+  schemas[key].connect().then (db) ->
+    dbConns[key] = db
+    
+Promise.all(promises).then ->
   app.start
     state:
       currentUser: null
-      dbConn: db
-      dbSchemaBuilder: schemaBuilder
-      
+      dbConn: dbConns
+  MainChannel.reply 'main:app:dbConn', (name) ->
+    console.warn "main:app:dbConn", name
+    return app.getState('dbConn')[name]
 export default app
 
 

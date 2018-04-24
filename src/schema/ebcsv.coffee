@@ -7,7 +7,7 @@ import lf from 'lovefield'
 
 MainChannel = Backbone.Radio.channel 'global'
 
-schemaBuilder = lf.schema.create('ebcsv-database', 1)
+schemaBuilder = lf.schema.create('ebcsv-database', 2)
 
 schemaBuilder.createTable('Config')
 .addColumn('id', lf.Type.STRING)
@@ -22,6 +22,10 @@ schemaBuilder.createTable('Description')
 .addColumn('content', lf.Type.STRING)
 .addPrimaryKey(['id'])
 
+schemaBuilder.createTable('ComicUrl')
+.addColumn('url', lf.Type.STRING)
+.addColumn('image_src', lf.Type.STRING)
+.addPrimaryKey(['url'])
 
 console.log "schemaBuilder", schemaBuilder
 

@@ -190,7 +190,7 @@ class Controller extends MainController
       response = cfgs.fetch()
       response.done (rows) =>
         console.log "ROWS", rows, cfgs
-        cfgs.set rows
+        #cfgs.set rows
         View = require './views/config-views/list'
         view = new View
           collection: cfgs
@@ -219,7 +219,7 @@ class Controller extends MainController
       response = model.fetch()
       response.done (rows) =>
         view = new View
-          model: new cfgs.model rows[0]
+          model: model
         @layout.showChildView 'content', view
         scroll_top_fast()
     # name the chunk
@@ -235,7 +235,7 @@ class Controller extends MainController
       response = model.fetch()
       response.done (rows) =>
         view = new Views.EditFormView
-          model: new cfgs.model rows[0]
+          model: model
         @layout.showChildView 'content', view
         scroll_top_fast()
     # name the chunk
@@ -256,7 +256,7 @@ class Controller extends MainController
       dscs = AppChannel.request 'get_local_descriptions'
       response = dscs.fetch()
       response.done (rows) =>
-        dscs.set rows
+        #dscs.set rows
         View = require './views/description-views/list'
         view = new View
           collection: dscs
@@ -287,7 +287,7 @@ class Controller extends MainController
       response = model.fetch()
       response.done (rows) =>
         view = new View
-          model: new dscs.model rows[0]
+          model: model
         @layout.showChildView 'content', view
         scroll_top_fast()
     # name the chunk
@@ -304,7 +304,7 @@ class Controller extends MainController
       response = model.fetch()
       response.done (rows) =>
         view = new Views.EditFormView
-          model: new dscs.model rows[0]
+          model: model
         @layout.showChildView 'content', view
         scroll_top_fast()
     # name the chunk

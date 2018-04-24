@@ -88,6 +88,11 @@ class BaseFormDataView extends BootstrapFormView
     @model.set 'name', @ui.name.val()
     console.log "@model", @model
     
+  onSuccess: (model) ->
+    name = model.get 'name'
+    MessageChannel.request 'success', "#{name} saved successfully."
+    navigate_to_url "#ebcsv/configs/view/#{model.id}"
+    
 
 ########################################
 class EditFormView extends BaseFormDataView
@@ -98,26 +103,14 @@ class EditFormView extends BaseFormDataView
   createModel: ->
     @model
 
-  onSuccess: (model) ->
-    name = model.get 'name'
-    MessageChannel.request 'success', "#{name} saved successfully."
-    navigate_to_url "#ebcsv/configs/view/#{model.id}"
-    
 class NewFormView extends BaseFormDataView
   template: csvfields_form
   form_data: csvfields_form_data
   
   createModel: ->
-    #AppChannel.request 'new-ebcfg'
     cfgs = AppChannel.request 'get_local_configs'
     return new cfgs.model
 
-  onSuccess: (model) ->
-    name = model.get 'name'
-    MessageChannel.request 'success', "#{name} saved successfully."
-    navigate_to_url "#ebcsv/configs/view/#{model.id}"
-    
-    
 module.exports =
   EditFormView: EditFormView
   NewFormView: NewFormView
