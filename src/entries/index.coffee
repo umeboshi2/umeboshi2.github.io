@@ -13,8 +13,9 @@ import FooterView from './footerview'
 pkg = require '../../package.json'
 pkgmodel = new Backbone.Model pkg
 
-import ebcsvSchema from '../schema/ebcsv'
-import bumblrSchema from '../schema/bumblr'
+import ebcsvSchema from '../applets/ebcsv/dbschema'
+import bumblrSchema from '../applets/bumblr/dbschema'
+import tvmazeSchema from '../applets/tvmaze/dbschema'
 
 import MainAppConfig from './index-config'
 
@@ -54,7 +55,8 @@ app.on 'start', ->
 schemas =
   ebcsv: ebcsvSchema
   bumblr: bumblrSchema
-
+  tvmaze: tvmazeSchema
+  
 dbConns = {}
 
 promises = Object.keys(schemas).map (key, index, array) ->
@@ -67,7 +69,6 @@ Promise.all(promises).then ->
       currentUser: null
       dbConn: dbConns
   MainChannel.reply 'main:app:dbConn', (name) ->
-    console.warn "main:app:dbConn", name
     return app.getState('dbConn')[name]
 export default app
 
