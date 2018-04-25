@@ -26,7 +26,7 @@
     "html-webpack-plugin": "^3.2.0",
     "imports-loader": "^0.8.0",
     "js-beautify": "^1.7.5",
-    "json-view": "^0.4.0",
+    "json-view": "github:umeboshi2/json-view",
     "lovefield": "^2.1.12",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.8.3",
