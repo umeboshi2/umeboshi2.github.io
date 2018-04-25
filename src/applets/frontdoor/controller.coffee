@@ -75,5 +75,16 @@ class Controller extends MainController
     # name the chunk
     , 'frontdoor-view-switch-theme'
     
+  viewDbAdmin: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require './views/idbview'
+      view = new View
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'frontdoor-view-dbadmin'
+    
+    
+    
 export default Controller
 
