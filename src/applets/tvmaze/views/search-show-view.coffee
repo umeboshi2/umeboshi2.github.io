@@ -4,7 +4,6 @@ Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 marked = require 'marked'
-axios = require 'axios'
 
 BootstrapFormView = require('tbirds/views/bsformview').default
 navigate_to_url = require('tbirds/util/navigate-to-url').default
