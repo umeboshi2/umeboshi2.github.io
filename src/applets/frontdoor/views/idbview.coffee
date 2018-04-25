@@ -23,6 +23,24 @@ importExportTemplate = tc.renderable (model) ->
       tc.button '.import.btn.btn-info', type:'button', 'Import'
     tc.div '.dbview'
 
+importExportTemplate = tc.renderable (model) ->
+  tc.div '.card', ->
+    tc.div '.card-header', ->
+      tc.h2 model.name
+    tc.div '.card-body', ->
+      tc.div '.file-status', ->
+        tc.text "Drop a .json exported database to import."
+      tc.button '.view.btn.btn-success', type:'button', 'View'
+      tc.button '.export.btn.btn-primary', type:'button', 'Export'
+      tc.div '.import.btn.btn-info',
+      type:'button', style:'display:none', ->
+        tc.text "Import Database"
+      tc.input '.db-file-input.input', type:'file'
+      tc.button '.import-chosen.btn.btn-info', style:'display:none', ->
+        tc.text 'Import input file'
+      tc.div '.dbview'
+      
+
 class DatabaseView extends Marionette.View
   template: tc.renderable (model) ->
     tc.div ->
@@ -31,7 +49,6 @@ class DatabaseView extends Marionette.View
     body: '.body'
   onDomRefresh: ->
     data = @model.toJSON()
-    console.log "data is", data
     @jsonView = new JView data
     @ui.body.prepend @jsonView.dom
     #@jsonView.expand true
@@ -43,39 +60,97 @@ class ImportExportView extends Marionette.View
     exportButton: '.export'
     importButton: '.import'
     dbView: '.dbview'
+    fileInput: '.db-file-input'
+    importChosenButton: '.import-chosen'
+    fileStatus: '.file-status'
   regions:
     dbView: '@ui.dbView'
+    #fileStatus: '@ui.fileStatus'
   events:
+    'dragover': 'handleDragOver'
+    'dragenter': 'handleDragEnter'
+    'dragexit': 'handleDragExit'
+    'drop': 'handleDrop'
     'click @ui.viewButton': 'viewDatabase'
     'click @ui.exportButton': 'exportDatabase'
     'click @ui.importButton': 'importDatabase'
+    'click @ui.importChosenButton': 'importChosenFile'
+    'click @ui.fileInput': 'fileInputClicked'
+    'change @ui.fileInput': 'fileInputChanged'
 
+  # https://stackoverflow.com/a/12102992
+  fileInputClicked: (event) ->
+    @ui.fileInput.val null
+    @ui.importChosenButton.hide()
+
+  fileInputChanged: (event) ->
+    @ui.importChosenButton.show()
+
+  handleDrop: (event) ->
+    event.preventDefault()
+    @$el.css 'border', '0px'
+    dt = event.originalEvent.dataTransfer
+    file = dt.files[0]
+    @droppedFile = file
+    text = "File: #{file.name}"
+    @ui.fileStatus.text text
+    @ui.importButton.show()
+    
+  handleDragOver: (event) ->
+    event.preventDefault()
+    event.stopPropagation()
+    
+  handleDragEnter: (event) ->
+    event.stopPropagation()
+    event.preventDefault()
+    @$el.css 'border', '2px dotted'
+  
+  handleDragExit: (event) ->
+    event.stopPropagation()
+    event.preventDefault()
+    @$el.css 'border', '0px'
+      
   _exportDatabase: ->
     conn = @model.get 'conn'
     return conn.export()
+    
   viewDatabase: ->
     @_exportDatabase().then (data) =>
       view = new DatabaseView
         model: new Backbone.Model data: data
       @showChildView 'dbView', view
       @ui.viewButton.hide()
+      
   exportDatabase: ->
     p = @_exportDatabase()
     p.then (data) =>
+      name = @model.get 'name'
       options =
         type: 'data:text/json;charset=utf-8'
         data: JSON.stringify data
-        filename: "#{@model.get 'name'}-idb.json"
+        filename: "#{@name}-idb.json"
       exportToFile options
-      console.log "DATA", data
-      MessageChannel.request 'primary', "Exported Database #{@model.get 'name'}"
+      MessageChannel.request 'primary', "Exported Database #{@name}"
+
+  fileReaderOnLoad: (event) =>
+    content = JSON.parse event.target.result
+    @ui.fileStatus.text "Database file loaded, now importing...."
+    conn = @model.get 'conn'
+    conn.import(content).then =>
+      @viewDatabase()
+      
+    
   importDatabase: ->
     MessageChannel.request 'info', "Import Database #{@model.get 'name'}"
+    @ui.fileStatus.text 'Reading dabase file.....'
+    reader = new FileReader()
+    reader.onload = @fileReaderOnLoad
+    reader.readAsText(@droppedFile)
+    @ui.importButton.hide()
     
 
-class ComicsView extends Backbone.Marionette.View
+class MainView extends Backbone.Marionette.View
   regions:
-    #list: '#comiclist-container'
     body: '.body'
   template: tc.renderable (model) ->
     tc.div '.listview-header', ->
@@ -96,6 +171,6 @@ class ComicsView extends Backbone.Marionette.View
         conn: dbConn[key]
     
       
-module.exports = ComicsView
+module.exports = MainView
 
 
