@@ -37,10 +37,16 @@ class EpisodeListView extends Marionette.View
 
 class ShowView extends Marionette.View
   template: tc.renderable (model) ->
+    D = model.content
     tc.div '.card.bg-secondary.text-white', ->
       tc.div '.row', ->
         tc.div '.col-sm-2', ->
-          tc.img '.card-img-bottom', src:model.content.image.medium
+          if D.image?.medium
+            tc.img '.card-img-bottom', src:model.content.image.medium
+          else
+            tc.span '.fa-stack.fa-5x', ->
+              tc.i '.fa.fa-image.fa-stack-1x'
+              tc.i '.fa.fa-ban.fa-stack-2x.text-danger'
         tc.div '.col-sm-9', ->
           tc.div '.card-block', ->
             tc.h3 '.card-title', model.content.name
