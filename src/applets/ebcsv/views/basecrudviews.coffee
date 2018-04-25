@@ -12,25 +12,30 @@ MessageChannel = Backbone.Radio.channel 'messages'
 
 
 ConfirmDeleteTemplate = tc.renderable (model) ->
-  tc.div '.modal-dialog', ->
-    tc.div '.modal-content', ->
-      tc.h3 "Do you really want to delete #{model.name}?"
-      tc.div '.modal-body', ->
-        tc.div '#selected-children'
-      tc.div '.modal-footer', ->
-        tc.ul '.list-inline', ->
-          btnclass = 'btn.btn-default.btn-sm'
-          tc.li "#confirm-delete-button", ->
-            modal_close_button 'OK', 'check'
-          tc.li "#cancel-delete-button", ->
-            modal_close_button 'Cancel'
-    
+  tc.div '.modal-content', ->
+    tc.div '.modal-header', ->
+      tc.h3 '.modal-title', "Do you really want to delete #{model.name}?"
+      tc.button '.close', type:'button', data:{dismiss:'modal'}, ->
+        tc.span "aria-hidden":"true", ->
+          tc.raw '&times'
+    tc.div '.modal-body', ->
+      tc.div '#selected-children'
+    tc.div '.modal-footer', ->
+      tc.button '.confirm-delete.btn.btn-primary',
+      type:'button', data:{dismiss:'modal'}, ->
+        tc.i '.fa.fa-check'
+        tc.text "OK"
+      tc.button '.cancel-delete.btn.btn-danger',
+      type:'button', data:{dismiss:'modal'}, ->
+        tc.i '.fa.fa-close'
+        tc.text "Cancel"
 
 class ConfirmDeleteModal extends Backbone.Marionette.View
   template: ConfirmDeleteTemplate
+  className: 'modal-dialog'
   ui:
-    confirm_delete: '#confirm-delete-button'
-    cancel_button: '#cancel-delete-button'
+    confirm_delete: '.confirm-delete'
+    cancel_button: '.cancel-delete'
     
   events: ->
     'click @ui.confirm_delete': 'confirm_delete'
