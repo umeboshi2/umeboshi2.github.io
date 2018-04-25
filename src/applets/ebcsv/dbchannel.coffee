@@ -28,8 +28,8 @@ class LocalDescCollection extends Backbone.Collection
   
 class ComicImageUrl extends Backbone.Model
   loveStore: ComicUrlStore
-  idAttrubute: 'url'
-  
+  idAttrubute: -> return 'url'
+
 class ComicImageUrlCollection extends Backbone.Collection
   loveStore: ComicUrlStore
   model: ComicImageUrl

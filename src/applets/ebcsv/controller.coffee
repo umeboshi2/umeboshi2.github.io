@@ -174,8 +174,7 @@ class Controller extends MainController
       @layout.showChildView 'content', view
     # name the chunk
     , 'ebcsv-view-cached-comics-view'
-    
-    
+
   ############################################
   # ebcsv configs
   ############################################

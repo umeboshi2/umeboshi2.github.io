@@ -16,38 +16,32 @@ menuEntries = [
     label: 'Main View'
     url: '#ebcsv'
     icon: '.fa.fa-eye'
-  }
-  {
+  },{
     id: 'cfglist'
     label: 'Configs'
     url: '#ebcsv/configs/list'
     icon: '.fa.fa-list'
-  }
-  {
+  },{
     id: 'dsclist'
     label: 'Descriptions'
     url: '#ebcsv/descriptions/list'
     icon: '.fa.fa-list'
-  }
-  {
+  },{
     id: 'uploadxml'
     label: 'Upload CLZ/XML'
     url: '#ebcsv/xml/upload'
     icon: '.fa.fa-upload'
-  }
-  {
+  },{
     id: 'mkcsv'
     label: 'Create CSV'
     url: '#ebcsv/csv/create'
     icon: '.fa.fa-cubes'
-  }
-  {
+  },{
     id: 'cached'
     label: 'Cached Images'
     url: '#ebcsv/clzpage'
     icon: '.fa.fa-image'
-  }
-  {
+  },{
     id: 'addcfg'
     label: 'Create Cfg'
     url: '#ebcsv/configs/add'
