@@ -12,9 +12,6 @@ misc_menu =
 #config.navbarEntries = [ misc_menu ]
 config.navbarEntries = [
   {
-    label: "Bumblr"
-    url: '#bumblr'
-  },{
     label: "EbCsv"
     url: "#ebcsv"
   },{
