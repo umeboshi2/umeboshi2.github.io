@@ -11,6 +11,16 @@ if not __useCssModules__
 else
   require '../../node_modules/tbirds/sass/initial.scss'
   
+import stringEndsWith from 'tbirds/util/polyfills/str-endswith'
+import stringStartsWith from 'tbirds/util/polyfills/str-startswith'
+# use polyfill for String.endsWith if needed
+if not String.prototype?.endsWith
+  String.prototype.endsWith = stringEndsWith
+if not String.prototype.startsWith
+  String.prototype.startsWith = stringStartsWith
+  
+
+
 
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
