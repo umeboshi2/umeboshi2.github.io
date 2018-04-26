@@ -20,7 +20,8 @@ itemTemplate = tc.renderable (model) ->
     tc.span ->
       tc.a href:"#tvmaze/view/show/#{model.id}", model.content.name
     tc.span '.btn-group.pull-right', ->
-      tc.button '.delete-item.btn.btn-sm.btn-danger.fa.fa-close', 'delete'
+      tc.button '.delete-item.btn.btn-sm.btn-danger.fa.fa-close',
+      style:'display:none', 'delete'
     
 listTemplate = tc.renderable ->
   tc.div '.listview-header', ->
