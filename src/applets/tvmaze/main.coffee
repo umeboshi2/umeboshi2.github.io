@@ -13,11 +13,14 @@ AppChannel = Backbone.Radio.channel appName
 
 appletMenu = [
   {
+    label: 'List Shows'
+    url: '#tvmaze/shows'
+    icon: '.fa.fa-list'
+  },{
     label: 'Search Show'
     url: '#tvmaze/searchshow'
     icon: '.fa.fa-search'
-  }
-  {
+  },{
     label: 'Calendar'
     url: '#tvmaze/calendar'
     icon: '.fa.fa-calendar'
@@ -26,9 +29,11 @@ appletMenu = [
 
 class Router extends Marionette.AppRouter
   appRoutes:
-    'tvmaze': 'view_index'
+    'tvmaze': 'viewIndex'
     'tvmaze/searchshow': 'viewSearchShow'
-    'tvmaze/view/show/:id' : 'viewShow'
+    'tvmaze/shows': 'viewShowList'
+    'tvmaze/shows/view/:id' : 'viewShow'
+    'tvmaze/view/show/:id' : 'viewShowNoNo'
     
 class Applet extends TkApplet
   Controller: Controller

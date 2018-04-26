@@ -40,7 +40,7 @@ class SearchFormView extends BootstrapFormView
     response.done ->
       p = AppChannel.request 'save-local-show', rmodel.toJSON()
       p.then (result) ->
-        navigate_to_url "#tvmaze/view/show/#{rmodel.id}"
+        navigate_to_url "#tvmaze/shows/view/#{rmodel.id}"
     response.fail =>
       MessageChannel.request 'warning', "#{@tvshow} not found."
       @trigger 'save:form:failure', @model

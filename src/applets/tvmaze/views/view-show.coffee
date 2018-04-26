@@ -10,15 +10,35 @@ BootstrapFormView = require('tbirds/views/bsformview').default
 { navigate_to_url } = require 'tbirds/util/navigate-to-url'
 { form_group_input_div } = require 'tbirds/templates/forms'
 
+noImage = require('tbirds/templates/no-image-span').default
 
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'tvmaze'
 
 class EpisodeView extends Marionette.View
   template: tc.renderable (model) ->
+    content = model.content
     tc.div '.listview-list-entry.bg-secondary', ->
-      tc.span model.name
-
+      #tc.span model.content.name
+      if content.summary
+        tc.a '.episode-anchor.text-light', href:"#", content.name
+      else
+        tc.span '.text-warning', content.name
+      if content.season
+        tc.span '.bg-primary.pull-right', "Season #{content.season}"
+      tc.div '.summary', style:'display:none', ->
+        tc.raw model.content.summary
+  ui:
+    episodeAnchor: '.episode-anchor'
+    summary: '.summary'
+  regions:
+    summary: '@ui.summary'
+  events:
+    'click @ui.episodeAnchor': 'showEpisodeSummary'
+  showEpisodeSummary: (event) ->
+    event.preventDefault()
+    @ui.summary.toggle()
+      
 class EpisodeListView extends Marionette.View
   template: tc.renderable (model) ->
     tc.div '.listview-header', ->
@@ -44,40 +64,71 @@ class ShowView extends Marionette.View
           if D.image?.medium
             tc.img '.card-img-bottom', src:model.content.image.medium
           else
-            tc.span '.fa-stack.fa-5x', ->
-              tc.i '.fa.fa-image.fa-stack-1x'
-              tc.i '.fa.fa-ban.fa-stack-2x.text-danger'
+            noImage '5x'
         tc.div '.col-sm-9', ->
           tc.div '.card-block', ->
             tc.h3 '.card-title', model.content.name
             tc.raw model.content.summary
       tc.div '.row', ->
         tc.div '.col-sm-8', ->
-          tc.button '.episodes-button.btn.btn-primary', 'Get Episodes'
+          tc.button '.episodes-button.btn.btn-primary',
+          style: 'display:none', 'Get Episodes'
+          tc.button '.save-episodes.btn.btn-info',
+          style: 'display:none', 'Save Episodes'
           tc.div '.episode-list-region'
     tc.div '.jsonview', "hello world"
   ui:
     body: '.jsonview'
     episodesButton: '.episodes-button'
+    saveEpisodesButton: '.save-episodes'
     episodesList: '.episode-list-region'
   regions:
     episodes: '@ui.episodesList'
   events:
     'click @ui.episodesButton': 'showEpisodes'
+    'click @ui.saveEpisodesButton': 'saveEpisodes'
   onDomRefresh: ->
     data = @model.toJSON()
     @jsonView = new JView data
     @ui.body.prepend @jsonView.dom
-  showEpisodes: ->
-    console.log "showEpisodes", @model.id
-    emodel = AppChannel.request 'get-remote-episodes', @model.id
-    response = emodel.fetch()
+    EpisodeCollection = AppChannel.request 'get-local-episode-collection'
+    @localEpisodes = new EpisodeCollection
+    console.log "@localEpisodes", @localEpisodes
+    @showLocalEpisodes()
+
+  showLocalEpisodes: ->
+    response = @localEpisodes.fetch data: show_id: @model.get 'id'
+    console.log "RESPONSE", response
     response.done =>
-      view = new EpisodeListView
-        collection: emodel
-      @showChildView 'episodes', view
-      console.log "emodel", emodel
-      window.emodel = emodel
-    
+      console.log "@localEpisodes", @localEpisodes
+      if @localEpisodes.isEmpty()
+        MessageChannel.request "info", "Retrieving episodes..."
+        ecoll = AppChannel.request 'get-remote-episodes', @model.id
+        response = ecoll.fetch()
+        response.done =>
+          @saveEpisodes ecoll
+          console.log "Save episodes"
+      else
+        view = new EpisodeListView
+          collection: @localEpisodes
+        @showChildView 'episodes', view
+
+
+  saveEpisodes: (collection) ->
+    showID = @model.get 'id'
+    console.log "save the episodes for", showID, collection
+    promises = []
+    collection.models.forEach (model) ->
+      data =
+        id: model.get 'id'
+        show_id: showID
+        content: model.toJSON()
+      p = AppChannel.request 'save-local-episode', data
+      promises.push p
+    Promise.all(promises).then (data) =>
+      console.log "ALL DONE", data
+      if promises.length
+        @showLocalEpisodes()
+      MessageChannel.request 'success', "Retrieved #{promises.length} episodes."
 module.exports = ShowView
 

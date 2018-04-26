@@ -19,17 +19,25 @@ AppChannel = Backbone.Radio.channel 'tvmaze'
 
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
-  view_index: ->
+  viewIndex: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require './views/index-view'
+      @layout.showChildView 'content', new View
+    # name the chunk
+    , 'tvmaze-view-index'
+    
+  viewShowList: ->
     @setupLayoutIfNeeded()
     collection = AppChannel.request 'get-local-tvshows'
     
     # https://jsperf.com/bool-to-int-many
     completed = completed ^ 0
     require.ensure [], () =>
-      View = require './views/index-view'
+      View = require './views/flat-show-list'
       @_loadView View, collection, 'tvshow'
     # name the chunk
-    , 'tvmaze-view-index'
+    , 'tvmaze-view-show-list'
       
   viewSearchShow: ->
     @setupLayoutIfNeeded()
@@ -40,8 +48,12 @@ class Controller extends MainController
       view = new View
       @layout.showChildView 'content', view
     # name the chunk
-    , 'tvmaze-view-index'
+    , 'tvmaze-view-search-show'
 
+  viewShowNoNo: (id) ->
+    console.warn "Don't use this path"
+    return @viewShow id
+    
   viewShow: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
@@ -51,29 +63,8 @@ class Controller extends MainController
       model = new LModel id: id
       @_loadView View, model, 'tvshow'
     # name the chunk
-    , 'tvmaze-view-remote-show'
+    , 'tvmaze-view-local-show'
     
-  viewShowLocal: (id) ->
-    @setupLayoutIfNeeded()
-    require.ensure [], () =>
-      View = require './views/view-show'
-      Tmodel = AppChannel.request 'get-local-tvshow-model'
-      console.log "Tmodel", Tmodel
-      model = new Tmodel
-        id: id
-      console.log "model", model
-      response = model.fetch()
-      console.log "response", response
-      response.then =>
-        if 'content' in Object.keys(model.attributes)
-          view = new View
-            model: model
-          @layout.showChildView 'content', view
-        else
-          MessageChannel.request 'danger', 'no model'
-          navigate_to_url '#tvmaze/searchshow'
-    # name the chunk
-    , 'tvmaze-view-index'
       
 export default Controller
 
