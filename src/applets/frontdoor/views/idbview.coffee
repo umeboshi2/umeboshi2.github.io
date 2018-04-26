@@ -4,6 +4,7 @@ Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 JView = require 'json-view'
 require 'json-view/devtools.css'
+FileSaver = require 'file-saver'
 
 exportToFile = require('tbirds/util/export-to-file').default
 
@@ -128,9 +129,11 @@ class ImportExportView extends Marionette.View
       options =
         type: 'data:text/json;charset=utf-8'
         data: JSON.stringify data
-        filename: "#{@name}-idb.json"
-      exportToFile options
-      MessageChannel.request 'primary', "Exported Database #{@name}"
+        filename: "#{name}-idb.json"
+      #exportToFile options
+      blob = new Blob([options.data], type:options.type)
+      FileSaver.saveAs(blob, options.filename)
+      MessageChannel.request 'primary', "Exported Database #{name}"
 
   fileReaderOnLoad: (event) =>
     content = JSON.parse event.target.result
