@@ -32,6 +32,7 @@ class Router extends Marionette.AppRouter
     'tvmaze': 'viewIndex'
     'tvmaze/searchshow': 'viewSearchShow'
     'tvmaze/shows': 'viewShowList'
+    'tvmaze/shows/flat': 'viewShowListFlat'
     'tvmaze/shows/view/:id' : 'viewShow'
     'tvmaze/view/show/:id' : 'viewShowNoNo'
     

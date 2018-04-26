@@ -18,14 +18,14 @@ AppChannel = Backbone.Radio.channel 'tvmaze'
 class EpisodeView extends Marionette.View
   template: tc.renderable (model) ->
     content = model.content
-    tc.div '.listview-list-entry.bg-secondary', ->
+    tc.div '.listview-list-entry.bg-body-d10', ->
       #tc.span model.content.name
       if content.summary
-        tc.a '.episode-anchor.text-light', href:"#", content.name
+        tc.a '.episode-anchor.text-local-secondary', href:"#", content.name
       else
-        tc.span '.text-warning', content.name
+        tc.span '.text-dark', content.name
       if content.season
-        tc.span '.bg-primary.pull-right', "Season #{content.season}"
+        tc.span '.bg-body-d5.pull-right', "Season #{content.season}"
       tc.div '.summary', style:'display:none', ->
         tc.raw model.content.summary
   ui:
@@ -58,7 +58,8 @@ class EpisodeListView extends Marionette.View
 class ShowView extends Marionette.View
   template: tc.renderable (model) ->
     D = model.content
-    tc.div '.card.bg-secondary.text-white', ->
+    #tc.div '.card.bg-secondary.text-white', ->
+    tc.div '.card.bg-body-d5', ->
       tc.div '.row', ->
         tc.div '.col-sm-2', ->
           if D.image?.medium
@@ -71,12 +72,10 @@ class ShowView extends Marionette.View
             tc.raw model.content.summary
       tc.div '.row', ->
         tc.div '.col-sm-8', ->
-          tc.button '.episodes-button.btn.btn-primary',
-          style: 'display:none', 'Get Episodes'
-          tc.button '.save-episodes.btn.btn-info',
-          style: 'display:none', 'Save Episodes'
           tc.div '.episode-list-region'
-    tc.div '.jsonview', "hello world"
+        tc.div '.col-sm-3', ->
+          tc.div '.listview-header', "ShowObject"
+          tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   ui:
     body: '.jsonview'
     episodesButton: '.episodes-button'

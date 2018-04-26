@@ -34,10 +34,22 @@ class Controller extends MainController
     # https://jsperf.com/bool-to-int-many
     completed = completed ^ 0
     require.ensure [], () =>
+      View = require './views/masonry-show-list'
+      @_loadView View, collection, 'tvshow'
+    # name the chunk
+    , 'tvmaze-view-show-list-masonry'
+      
+  viewShowListFlat: ->
+    @setupLayoutIfNeeded()
+    collection = AppChannel.request 'get-local-tvshows'
+    
+    # https://jsperf.com/bool-to-int-many
+    completed = completed ^ 0
+    require.ensure [], () =>
       View = require './views/flat-show-list'
       @_loadView View, collection, 'tvshow'
     # name the chunk
-    , 'tvmaze-view-show-list'
+    , 'tvmaze-view-show-list-flat'
       
   viewSearchShow: ->
     @setupLayoutIfNeeded()
