@@ -8,9 +8,11 @@ navigate_to_url = require('tbirds/util/navigate-to-url').default
 
 ConfirmDeleteModal = require('./confirm-delete-modal').default
 SearchFormView = require './search-show-view'
+SearchResultsView = require './show-search-results'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
+AppChannel = Backbone.Radio.channel 'tvmaze'
 
 mainText = require 'raw-loader!../index-doc.md'
 
@@ -34,11 +36,8 @@ DefaultStaticDocumentTemplate = tc.renderable (post) ->
     tc.div '.body', ->
       #
       tc.h1 'TV Maze API Demo'
-      #tc.p ->
-      #  tc.text "Search for a TV show or go directly to the "
-      #  tc.a href:"#tvmaze/view/shows", "list of shows"
-      #  tc.text '.'
       tc.div '.search-form.listview-list-entry'
+      tc.div '.search-results'
       tc.raw marked mainText
       
 class MainView extends Marionette.View
@@ -47,11 +46,25 @@ class MainView extends Marionette.View
     appName: 'tvmaze'
   ui:
     searchForm: '.search-form'
+    searchResults: '.search-results'
+  childViewEvents:
+    'save:form:success': 'doSomething'
+  doSomething: (model) ->
+    rview = @getChildView 'searchResults'
+    if not rview.ui.header.is ':visible'
+      rview.ui.header.show()
+    msg = "#{rview.collection.length}  results for \"#{model.get 'tvshow'}\""
+    rview.triggerMethod 'set:header', msg
   regions:
     searchForm: '@ui.searchForm'
+    searchResults: '@ui.searchResults'
   onRender: ->
     view = new SearchFormView
+      collection: @collection
     @showChildView 'searchForm', view
-    
+    rview = new SearchResultsView
+      collection: @collection
+    @showChildView 'searchResults', rview
+
 module.exports = MainView
 

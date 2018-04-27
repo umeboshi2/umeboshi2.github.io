@@ -22,16 +22,18 @@ itemTemplate = tc.renderable (model) ->
   tc.div '.show-item.card.col-sm-3.bg-body-d5',
   style:'width:20%;border-style: solid;border-width:3px', ->
     tc.div '.card-header', ->
-      tc.small -> tc.strong '.card-title', model.content.name
+      #console.log "MODEL", model
+      tc.strong '.card-title', model?.content?.name
       #tc.a href:"#tvmaze/view/show/#{model.id}", model.content.name
       #tc.button '.delete-item.btn.btn-sm.btn-danger.fa.fa-close', 'delete'
     tc.div '.card-block', ->
       tc.a href:viewLink, ->
-        img = model.content.image?.medium
+        img = model.content?.image?.medium
         if img
-          tc.img '.card-img-bottom', src:model.content.image?.medium
+          tc.img '.card-img-bottom', src:model.content?.image?.medium
         else
           noImage '4x'
+
 listTemplate = tc.renderable ->
   console.log "SHOW ME"
   tc.div '.listview-header', ->

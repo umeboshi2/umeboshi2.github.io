@@ -10,6 +10,7 @@ navigate_to_url = require('tbirds/util/navigate-to-url').default
 
 { form_group_input_div } = require 'tbirds/templates/forms'
 
+
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'tvmaze'
 
@@ -20,30 +21,35 @@ searchForm = tc.renderable ->
     input_attributes:
       name: 'tv_show'
       placeholder: 'tiny toons'
-      
-  tc.input '.btn.btn-primary.btn-sm', type:'submit', value:'Search'
-  tc.div '.spinner.fa.fa-spinner.fa-spin.text-primary'
+  tc.input '.btn.btn-default.btn-sm', type:'submit', value:'Search'
+  tc.div '.spinner.fa.fa-spinner.fa-spin'
 
 class SearchFormView extends BootstrapFormView
   template: searchForm
   ui:
     tvShow: '[name="tv_show"]'
   createModel: ->
-    collection = @getOption 'collection'
-    return new Backbone.Model
+    MClass = AppChannel.request 'get-local-tvshow-model'
+    return new MClass
   updateModel: ->
     @tvshow = @ui.tvShow.val()
-    @model.set 'tvshow', @tvshow
+    
   saveModel: ->
-    response = @collection.fetch
-      data:
-        q: @tvshow
-    response.done =>
-      @trigger 'save:form:success', @model
+    rmodel = AppChannel.request 'single-show-search', @tvshow
+    response = rmodel.fetch()
+    response.done ->
+      p = AppChannel.request 'save-local-show', rmodel.toJSON()
+      p.then (result) ->
+        navigate_to_url "#tvmaze/shows/view/#{rmodel.id}"
     response.fail =>
       MessageChannel.request 'warning', "#{@tvshow} not found."
       @trigger 'save:form:failure', @model
           
+
+      
+    #@model.save {}, callbacks
+    
+    
     
 module.exports = SearchFormView
 

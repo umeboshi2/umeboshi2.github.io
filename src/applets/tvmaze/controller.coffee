@@ -22,8 +22,13 @@ class Controller extends MainController
   viewIndex: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
+      lcollection = AppChannel.request 'get-local-tvshows'
+      Collection = AppChannel.request 'tv-show-search-collection'
       View = require './views/index-view'
-      @layout.showChildView 'content', new View
+      lcollection.fetch().then =>
+        view = new View
+          collection: new Collection
+        @layout.showChildView 'content', view
     # name the chunk
     , 'tvmaze-view-index'
     
@@ -56,7 +61,7 @@ class Controller extends MainController
     # https://jsperf.com/bool-to-int-many
     completed = completed ^ 0
     require.ensure [], () =>
-      View = require './views/search-show-view'
+      View = require './views/single-search-show-view'
       view = new View
       @layout.showChildView 'content', view
     # name the chunk
