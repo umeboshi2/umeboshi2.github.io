@@ -19,9 +19,10 @@ listContainer = '.show-list'
 itemTemplate = tc.renderable (model) ->
   viewLink = "#tvmaze/view/show/#{model.id}"
   itemBtn = '.btn.btn-sm'
-  tc.div '.show-item.card', ->
+  tc.div '.show-item.card.col-sm-3.bg-body-d5',
+  style:'width:20%;border-style: solid;border-width:3px', ->
     tc.div '.card-header', ->
-      tc.h4 '.card-title', model.content.name
+      tc.small -> tc.strong '.card-title', model.content.name
       #tc.a href:"#tvmaze/view/show/#{model.id}", model.content.name
       #tc.button '.delete-item.btn.btn-sm.btn-danger.fa.fa-close', 'delete'
     tc.div '.card-block', ->
@@ -30,7 +31,7 @@ itemTemplate = tc.renderable (model) ->
         if img
           tc.img '.card-img-bottom', src:model.content.image?.medium
         else
-          noImage '5x'
+          noImage '4x'
 listTemplate = tc.renderable ->
   console.log "SHOW ME"
   tc.div '.listview-header', ->
@@ -85,7 +86,7 @@ class ListView extends Marionette.View
         itemSelector: '.show-item'
         isInitLayout: false
         horizontalOrder: false
-        columnWidth: 100
+        columnWidth: 10
   onRender: ->
     view = new ItemCollectionView
       collection: @collection

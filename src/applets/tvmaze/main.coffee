@@ -34,7 +34,6 @@ class Router extends Marionette.AppRouter
     'tvmaze/shows': 'viewShowList'
     'tvmaze/shows/flat': 'viewShowListFlat'
     'tvmaze/shows/view/:id' : 'viewShow'
-    'tvmaze/view/show/:id' : 'viewShowNoNo'
     
 class Applet extends TkApplet
   Controller: Controller
@@ -43,7 +42,10 @@ class Applet extends TkApplet
     {
       label: "#{capitalize appName} Menu"
       menu: appletMenu
-    }
+    },{
+      label: "List Shows"
+      url: "#tvmaze/shows"
+    } 
   ]
 
 export default Applet

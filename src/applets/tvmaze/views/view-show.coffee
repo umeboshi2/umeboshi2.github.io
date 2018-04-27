@@ -12,48 +12,10 @@ BootstrapFormView = require('tbirds/views/bsformview').default
 
 noImage = require('tbirds/templates/no-image-span').default
 
+EpisodeListView = require './show-episodes'
+
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'tvmaze'
-
-class EpisodeView extends Marionette.View
-  template: tc.renderable (model) ->
-    content = model.content
-    tc.div '.listview-list-entry.bg-body-d10', ->
-      #tc.span model.content.name
-      if content.summary
-        tc.a '.episode-anchor.text-local-secondary', href:"#", content.name
-      else
-        tc.span '.text-dark', content.name
-      if content.season
-        tc.span '.bg-body-d5.pull-right', "Season #{content.season}"
-      tc.div '.summary', style:'display:none', ->
-        tc.raw model.content.summary
-  ui:
-    episodeAnchor: '.episode-anchor'
-    summary: '.summary'
-  regions:
-    summary: '@ui.summary'
-  events:
-    'click @ui.episodeAnchor': 'showEpisodeSummary'
-  showEpisodeSummary: (event) ->
-    event.preventDefault()
-    @ui.summary.toggle()
-      
-class EpisodeListView extends Marionette.View
-  template: tc.renderable (model) ->
-    tc.div '.listview-header', ->
-      tc.text "Episodes"
-    tc.div '.episode-list'
-  ui:
-    header: '.listview-header'
-    itemList: '.episode-list'
-  regions:
-    itemList: '@ui.itemList'
-  onRender: ->
-    view = new Marionette.CollectionView
-      collection: @collection
-      childView: EpisodeView
-    @showChildView 'itemList', view
 
 class ShowView extends Marionette.View
   template: tc.renderable (model) ->
@@ -73,7 +35,7 @@ class ShowView extends Marionette.View
       tc.div '.row', ->
         tc.div '.col-sm-8', ->
           tc.div '.episode-list-region'
-        tc.div '.col-sm-3', ->
+        tc.div '.col-sm-4', ->
           tc.div '.listview-header', "ShowObject"
           tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   ui:
@@ -87,26 +49,21 @@ class ShowView extends Marionette.View
     'click @ui.episodesButton': 'showEpisodes'
     'click @ui.saveEpisodesButton': 'saveEpisodes'
   onDomRefresh: ->
-    data = @model.toJSON()
-    @jsonView = new JView data
+    @jsonView = new JView @model.toJSON().content
     @ui.body.prepend @jsonView.dom
     EpisodeCollection = AppChannel.request 'get-local-episode-collection'
     @localEpisodes = new EpisodeCollection
-    console.log "@localEpisodes", @localEpisodes
     @showLocalEpisodes()
 
   showLocalEpisodes: ->
     response = @localEpisodes.fetch data: show_id: @model.get 'id'
-    console.log "RESPONSE", response
     response.done =>
-      console.log "@localEpisodes", @localEpisodes
       if @localEpisodes.isEmpty()
         MessageChannel.request "info", "Retrieving episodes..."
         ecoll = AppChannel.request 'get-remote-episodes', @model.id
         response = ecoll.fetch()
         response.done =>
           @saveEpisodes ecoll
-          console.log "Save episodes"
       else
         view = new EpisodeListView
           collection: @localEpisodes
@@ -115,7 +72,6 @@ class ShowView extends Marionette.View
 
   saveEpisodes: (collection) ->
     showID = @model.get 'id'
-    console.log "save the episodes for", showID, collection
     promises = []
     collection.models.forEach (model) ->
       data =
@@ -125,7 +81,6 @@ class ShowView extends Marionette.View
       p = AppChannel.request 'save-local-episode', data
       promises.push p
     Promise.all(promises).then (data) =>
-      console.log "ALL DONE", data
       if promises.length
         @showLocalEpisodes()
       MessageChannel.request 'success', "Retrieved #{promises.length} episodes."

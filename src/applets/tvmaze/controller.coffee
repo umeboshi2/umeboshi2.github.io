@@ -62,10 +62,6 @@ class Controller extends MainController
     # name the chunk
     , 'tvmaze-view-search-show'
 
-  viewShowNoNo: (id) ->
-    console.warn "Don't use this path"
-    return @viewShow id
-    
   viewShow: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>

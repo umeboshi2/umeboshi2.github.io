@@ -9,16 +9,19 @@ AppChannel = Backbone.Radio.channel 'tvmaze'
 
 dbConn = MainChannel.request 'main:app:dbConn', 'tvmaze'
 
-TvShowStore = new LoveStore dbConn, 'ShowObject'
-TvEpisodeStore = new LoveStore dbConn, 'ShowEpisode'
+TvShowStore = new LoveStore dbConn, 'TVMazeShow'
+TvEpisodeStore = new LoveStore dbConn, 'TVMazeEpisode'
 
-
+showFields = [ 'id', 'name', 'url', 'self', 'premiered',
+  'runtime', 'network_name', 'imdb', 'status', 'summary',
+  'img_med', 'img_orig', 'content'
+  ]
 class LocalTvShow extends Backbone.Model
   loveStore: TvShowStore
   toJSON: ->
-    data =
-      id: @get 'id'
-      content: @get 'content'
+    data = {}
+    showFields.forEach (field) =>
+      data[field] = @get field
     return data
     
 class LocalTvShowCollection extends Backbone.Collection
@@ -36,6 +39,17 @@ AppChannel.reply 'get-local-tvshow-collection', ->
 AppChannel.reply 'save-local-show', (data) ->
   model = new LocalTvShow
     id: data.id
+    name: data.name
+    url: data.url
+    self: data._links.self.href
+    premiered: new Date data.premiered
+    runtime: data.runtime
+    network_name: data?.network?.name or 'NO NETWORK'
+    imdb: data.externals.imdb
+    status: data.status
+    summary: data.summary
+    img_med: data.image?.medium
+    img_orig: data.image?.original
     content: data
   renewed = true
   model.isNew = ->
@@ -86,13 +100,16 @@ AppChannel.reply 'get-remote-episodes', (id) ->
 
 
 
+episodeFields = [ 'id', 'show_id', 'name', 'url', 'self', 'season',
+  'number', 'airdate', 'airtime', 'runtime', 'summary', 'img_med',
+  'img_orig', 'content'
+  ]
 class LocalTvEpisode extends Backbone.Model
   loveStore: TvEpisodeStore
   toJSON: ->
-    data =
-      id: @get 'id'
-      show_id: @get 'show_id'
-      content: @get 'content'
+    data = {}
+    episodeFields.forEach (field) =>
+      data[field] = @get field
     return data
 
 class LocalTvEpisodeCollection extends Backbone.Collection
@@ -109,7 +126,21 @@ AppChannel.reply 'get-local-episode-collection', ->
 
 # data is id, show_id, content
 AppChannel.reply 'save-local-episode', (data) ->
-  model = new LocalTvEpisode data
+  model = new LocalTvEpisode
+    id: data.id
+    show_id: data.show_id
+    name: data.content.name
+    url: data.content.url
+    self: data.content._links?.self.href
+    season: data.content.season
+    number: data.content.number
+    airdate: new Date data.content.airdate
+    airtime: data.content.airtime
+    runtime: data.content.runtime
+    summary: data.content?.summary or ''
+    img_med: data.content?.image?.medium or ''
+    img_orig: data.content?.image?.original or ''
+    content: data.content
   renewed = true
   model.isNew = ->
     if renewed
