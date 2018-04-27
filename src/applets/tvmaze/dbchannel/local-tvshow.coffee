@@ -39,13 +39,13 @@ AppChannel.reply 'save-local-show', (data) ->
     url: data.url
     self: data._links.self.href
     premiered: new Date data.premiered
-    runtime: data.runtime
+    runtime: data?.runtime or ''
     network_name: data?.network?.name or 'NO NETWORK'
     imdb: data.externals?.imdb or ''
-    status: data.status
-    summary: data.summary
-    img_med: data.image?.medium
-    img_orig: data.image?.original
+    status: data?.status or ''
+    summary: data?.summary or ''
+    img_med: data?.image?.medium or ''
+    img_orig: data?.image?.original or ''
     content: data
   renewed = true
   model.isNew = ->
