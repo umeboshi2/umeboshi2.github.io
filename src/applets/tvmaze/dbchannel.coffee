@@ -136,7 +136,7 @@ AppChannel.reply 'save-local-episode', (data) ->
     number: data.content.number
     airdate: new Date data.content.airdate
     airtime: data.content.airtime
-    runtime: data.content.runtime
+    runtime: data.content?.runtime or ''
     summary: data.content?.summary or ''
     img_med: data.content?.image?.medium or ''
     img_orig: data.content?.image?.original or ''
