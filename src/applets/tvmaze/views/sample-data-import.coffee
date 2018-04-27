@@ -29,13 +29,34 @@ class ImportManager extends Marionette.Object
   initialize: (options) =>
     @progressModel = options.progressModel
     
+saveRemoteShow = (id) ->
+  show = AppChannel.request 'get-remote-show', id
+  response = show.fetch()
+  response.done ->
+    p = AppChannel.request 'save-local-show', show.toJSON()
+    return p
+  return response
 
+saveEpisodes = (collection, showID, navigate) ->
+  promises = []
+  collection.models.forEach (model) ->
+    data =
+      id: model.get 'id'
+      show_id: showID
+      content: model.toJSON()
+    p = AppChannel.request 'save-local-episode', data
+    promises.push p
+  Promise.all(promises).then (data) ->
+    if promises.length and navigate
+      navigate_to_url "#tvmaze/shows/view/#{showID}"
+    MessageChannel.request 'success', "Retrieved #{promises.length} episodes."
+  
 
 itemTemplate = tc.renderable (model) ->
   itemBtn = '.btn.btn-sm'
   tc.li '.list-group-item', ->
     tc.span ->
-      tc.a href:"#tvmaze/view/show/#{model.id}", model.name
+      tc.a '.import-single-show', href:"#", model.name
     tc.span '.btn-group.pull-right', ->
       tc.button '.delete-item.btn.btn-sm.btn-danger.fa.fa-close', 'delete'
     
@@ -43,7 +64,11 @@ itemTemplate = tc.renderable (model) ->
 mainTemplate = tc.renderable (post) ->
   tc.div '.body.col-sm-6', ->
     tc.h1 'TV Maze Sample Data'
-    tc.button '.import-button.btn.btn-primary', 'Import Data'
+    tc.div '.form-inline', ->
+      tc.div '.form-check', ->
+        tc.input '#include-episodes.form-check-input', type:'checkbox'
+        tc.label '.form-check-label', for:'include-episodes', 'Include episodes'
+      tc.button '.import-button.btn.btn-primary.btn-sm', 'Import Data'
     tc.div '.status-div.alert.alert-info', style:'display:none'
     tc.div '.import-progress'
     tc.ul '.show-list.list-group'
@@ -53,15 +78,19 @@ class ShowView extends Marionette.View
   template: itemTemplate
   ui:
     deleteButton: '.delete-item'
+    importSingleAnchor: '.import-single-show'
   events:
     'click @ui.deleteButton': 'deleteItem'
+    'click @ui.importSingleAnchor': 'importShow'
   triggers:
     'click @ui.deleteButton': 'item:deleted'
+    'click @ui.importSingleAnchor': 'import:show'
   deleteItem: ->
     @trigger 'item:deleted', @model
     @triggerMethod 'item:deleted', @model
     @model.collection.remove @model
-
+  importShow: (event) ->
+    event.preventDefault()
     
 class MainView extends Marionette.View
   channelName: 'tvmaze'
@@ -71,16 +100,12 @@ class MainView extends Marionette.View
     statusDiv: '.status-div'
     importProgress: '.import-progress'
     importButton: '.import-button'
+    includeEpisodes: '#include-episodes'
   regions:
     showList: '@ui.showList'
     importProgress: '@ui.importProgress'
   events:
     'click @ui.importButton': 'importShows'
-  helloThere: ->
-    console.log "helloThere"
-  onChildItemDeleted: ->
-    console.log "onChildviewItemDeleted"
-    @importProgressModel.set 'valuemax', shows.length
   onRender: ->
     local_shows = AppChannel.request 'get-local-tvshows'
     models = shows.models
@@ -107,8 +132,28 @@ class MainView extends Marionette.View
       childView: ShowView
       childViewTriggers:
         'item:deleted': 'child:item:deleted'
+        'import:show': 'child:import:show'
       onChildItemDeleted: =>
         @importProgressModel.set 'valuemax', shows.length
+      onChildImportShow: (view) =>
+        console.log "onChildImportShow", view
+        id = view.model.id
+        includeEpisodes = @ui.includeEpisodes.prop 'checked'
+        show = AppChannel.request 'get-remote-show', id
+        response = show.fetch()
+        response.done ->
+          p = AppChannel.request 'save-local-show', show.toJSON()
+          p.then (result) ->
+            if includeEpisodes
+              console.log "get episodes too"
+              console.log show
+              MessageChannel.request "info", "Retrieving episodes...."
+              ecoll = AppChannel.request 'get-remote-episodes', id
+              response = ecoll.fetch()
+              response.done ->
+                saveEpisodes ecoll, id
+        
+    
     @showChildView 'showList', view
     view = new ProgressView
       model: @importProgressModel
@@ -127,12 +172,28 @@ class MainView extends Marionette.View
     response.done =>
       p = AppChannel.request 'save-local-show', rshow.toJSON()
       p.then (result) =>
-        shows.remove show
-        @importProgressModel.set 'valuenow', shows.length
-        if shows.length
-          setTimeout =>
-            @importAnotherShow()
-          , 500
+        includeEpisodes = @ui.includeEpisodes.prop 'checked'
+        if includeEpisodes
+          console.log "get episodes too"
+          console.log rshow
+          MessageChannel.request "info", "Retrieving episodes...."
+          ecoll = AppChannel.request 'get-remote-episodes', id
+          response = ecoll.fetch()
+          response.done =>
+            saveEpisodes ecoll, id, false
+            shows.remove show
+            @importProgressModel.set 'valuenow', shows.length
+            if shows.length
+              setTimeout =>
+                @importAnotherShow()
+              , 500
+        else
+          shows.remove show
+          @importProgressModel.set 'valuenow', shows.length
+          if shows.length
+            setTimeout =>
+              @importAnotherShow()
+            , 500
   importAnotherShow: ->
     show = shows.models[0]
     @importShow show

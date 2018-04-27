@@ -45,9 +45,6 @@ class ShowView extends Marionette.View
     episodesList: '.episode-list-region'
   regions:
     episodes: '@ui.episodesList'
-  events:
-    'click @ui.episodesButton': 'showEpisodes'
-    'click @ui.saveEpisodesButton': 'saveEpisodes'
   onDomRefresh: ->
     @jsonView = new JView @model.toJSON().content
     @ui.body.prepend @jsonView.dom

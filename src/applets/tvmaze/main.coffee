@@ -4,6 +4,7 @@ import TkApplet from 'tbirds/tkapplet'
 import capitalize from 'tbirds/util/capitalize'
 
 import Controller from './controller'
+import Worker from 'worker-loader!./worker'
 
 appName = 'tvmaze'
 
@@ -21,12 +22,21 @@ appletMenu = [
     url: '#tvmaze/searchshow'
     icon: '.fa.fa-search'
   },{
+    label: 'Import Sample Data'
+    url: '#tvmaze/import-sample-data'
+    icon: '.fa.fa-download'
+  },{
     label: 'Calendar'
     url: '#tvmaze/calendar'
     icon: '.fa.fa-calendar'
   }
   ]
 
+if __DEV__
+  worker = new Worker()
+  worker.onmessage = (event) ->
+    console.log event.data
+  
 class Router extends Marionette.AppRouter
   appRoutes:
     'tvmaze': 'viewIndex'
@@ -34,6 +44,7 @@ class Router extends Marionette.AppRouter
     'tvmaze/shows': 'viewShowList'
     'tvmaze/shows/flat': 'viewShowListFlat'
     'tvmaze/shows/view/:id' : 'viewShow'
+    'tvmaze/import-sample-data': 'importSampleData'
     
 class Applet extends TkApplet
   Controller: Controller
@@ -45,7 +56,7 @@ class Applet extends TkApplet
     },{
       label: "List Shows"
       url: "#tvmaze/shows"
-    } 
+    }
   ]
 
 export default Applet

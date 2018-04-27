@@ -17,6 +17,7 @@ MessageChannel = Backbone.Radio.channel 'messages'
 ResourceChannel = Backbone.Radio.channel 'resources'
 AppChannel = Backbone.Radio.channel 'tvmaze'
 
+
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
   viewIndex: ->
@@ -47,7 +48,6 @@ class Controller extends MainController
   viewShowListFlat: ->
     @setupLayoutIfNeeded()
     collection = AppChannel.request 'get-local-tvshows'
-    
     # https://jsperf.com/bool-to-int-many
     completed = completed ^ 0
     require.ensure [], () =>
@@ -78,6 +78,17 @@ class Controller extends MainController
     # name the chunk
     , 'tvmaze-view-local-show'
     
-      
+  importSampleData: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      lcollection = AppChannel.request 'get-local-tvshows'
+      Collection = AppChannel.request 'tv-show-search-collection'
+      View = require './views/sample-data-import'
+      lcollection.fetch().then =>
+        view = new View
+        @layout.showChildView 'content', view
+    # name the chunk
+    , 'tvmaze-import-sample-data'
+    
 export default Controller
 
