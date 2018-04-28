@@ -1,5 +1,6 @@
 import Backbone from 'backbone'
 import { LoveStore } from 'backbone.lovefield'
+import PageableCollection from 'backbone.paginator'
 
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'tvmaze'
@@ -20,10 +21,12 @@ class LocalTvShow extends Backbone.Model
       data[field] = @get field
     return data
     
-class LocalTvShowCollection extends Backbone.Collection
+#class LocalTvShowCollection extends Backbone.Collection
+class LocalTvShowCollection extends PageableCollection
   loveStore: TvShowStore
   model: LocalTvShow
-
+  mode: 'client'
+  
 local_shows = new LocalTvShowCollection
 AppChannel.reply 'get-local-tvshows', ->
   return local_shows

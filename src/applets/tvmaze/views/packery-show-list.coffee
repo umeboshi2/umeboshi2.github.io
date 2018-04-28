@@ -5,6 +5,8 @@ tc = require 'teacup'
 marked = require 'marked'
 
 HasMasonryView = require('tbirds/behaviors/has-masonry').default
+HasPackeryView = require('tbirds/behaviors/has-packery').default
+
 noImage = require('tbirds/templates/no-image-span').default
 PaginateBar = require('tbirds/views/paginate-bar').default
 
@@ -68,11 +70,11 @@ class ListView extends Marionette.View
   events:
     'click @ui.flatListButton': 'showFlatList'
   behaviors:
-    HasMasonryView:
-      behaviorClass: HasMasonryView
+    HasPackeryView:
+      behaviorClass: HasPackeryView
       listContainer: listContainer
       hasPageableCollection: true
-      masonryOptions:
+      packeryOptions:
         itemSelector: '.show-item'
         isInitLayout: false
         horizontalOrder: true

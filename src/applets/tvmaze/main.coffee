@@ -1,3 +1,4 @@
+import $ from 'jquery'
 import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import TkApplet from 'tbirds/tkapplet'
@@ -45,6 +46,7 @@ class Router extends Marionette.AppRouter
     'tvmaze/shows/flat': 'viewShowListFlat'
     'tvmaze/shows/view/:id' : 'viewShow'
     'tvmaze/import-sample-data': 'importSampleData'
+    'tvmaze/calendar': 'viewCalendar'
     
 class Applet extends TkApplet
   Controller: Controller
@@ -58,5 +60,14 @@ class Applet extends TkApplet
       url: "#tvmaze/shows"
     }
   ]
+
+
+current_calendar_date = undefined
+current_calendar_date = new Date '2016-10-15'
+AppChannel.reply 'maincalendar:set-date', (cal) ->
+  current_calendar_date = cal.fullCalendar 'getDate'
+
+AppChannel.reply 'maincalendar:get-date', () ->
+  current_calendar_date
 
 export default Applet

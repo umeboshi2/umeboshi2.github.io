@@ -5,6 +5,7 @@ tc = require 'teacup'
 marked = require 'marked'
 
 navigate_to_url = require('tbirds/util/navigate-to-url').default
+PaginateBar = require('tbirds/views/paginate-bar').default
 
 ConfirmDeleteModal = require('./confirm-delete-modal').default
 
@@ -23,9 +24,14 @@ itemTemplate = tc.renderable (model) ->
       tc.button '.delete-item.btn.btn-sm.btn-danger.fa.fa-close',
       style:'display:none', 'delete'
     
-listTemplate = tc.renderable ->
+listTemplate = tc.renderable (model) ->
+  console.log "listTemplate", model
+  totalPages = model.collection.state.totalPages
+  firstPage = model.collection.state.firstPage
+  lastPage = model.collection.state.lastPage
   tc.div '.listview-header', ->
     tc.text "TV Shows"
+  tc.nav '.paginate-bar'
   tc.ul ".list-group"
 
 
@@ -57,16 +63,23 @@ class ItemCollectionView extends Marionette.CollectionView
 
 class ListView extends Marionette.View
   template: listTemplate
-  regions:
-    itemList: '.list-group'
-    navBox: '.navbox'
+  templateContext: ->
+    collection: @collection
   ui:
     header: '.listview-header'
+    paginateBar: '.paginate-bar'
+    itemList: '.list-group'
+  regions:
+    paginateBar: '@ui.paginateBar'
+    itemList: '@ui.itemList'
   onRender: ->
     view = new ItemCollectionView
       collection: @collection
     @showChildView 'itemList', view
-
+    view = new PaginateBar
+      collection: @collection
+    @showChildView 'paginateBar', view
+    
 view_template = tc.renderable (model) ->
   tc.div '.row.listview-list-entry', ->
     tc.raw marked "# #{model.appName} started."

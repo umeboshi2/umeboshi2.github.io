@@ -4,7 +4,6 @@ Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 marked = require 'marked'
 
-HasMasonryView = require('tbirds/behaviors/has-masonry').default
 noImage = require('tbirds/templates/no-image-span').default
 PaginateBar = require('tbirds/views/paginate-bar').default
 
@@ -27,8 +26,15 @@ listTemplate = tc.renderable ->
   tc.div listContainer
 
 
+divStyle = 'width:20%;border-style:solid;border-width:3px'
+cardClasses = 'col-sm-3.bg-body-d5'
+
 class ItemView extends Marionette.View
   template: itemTemplate
+  templateContext:
+    divStyle: 'border-style:solid;border-width:3px'
+    cardClasses: '.bg-body-d5'
+  className: 'col-md-2'
   ui:
     item: '.show-item'
     link: 'a'
@@ -52,6 +58,7 @@ class ItemView extends Marionette.View
     
 class ItemCollectionView extends Marionette.CollectionView
   childView: ItemView
+  className: 'row'
 
 class ListView extends Marionette.View
   template: listTemplate
@@ -67,17 +74,6 @@ class ListView extends Marionette.View
     itemList: '@ui.itemList'
   events:
     'click @ui.flatListButton': 'showFlatList'
-  behaviors:
-    HasMasonryView:
-      behaviorClass: HasMasonryView
-      listContainer: listContainer
-      hasPageableCollection: true
-      masonryOptions:
-        itemSelector: '.show-item'
-        isInitLayout: false
-        horizontalOrder: true
-        columnWidth: 100
-        stagger: 30
   onRender: ->
     view = new ItemCollectionView
       collection: @collection
@@ -89,15 +85,6 @@ class ListView extends Marionette.View
     @collection.off 'pageable:state:change'
   showFlatList: ->
     navigate_to_url '#tvmaze/shows/flat'
-    
-view_template = tc.renderable (model) ->
-  tc.div '.row.listview-list-entry', ->
-    tc.raw marked "# #{model.appName} started."
-    
-class MainView extends Marionette.View
-  template: view_template
-  templateContext:
-    appName: 'tvmaze'
     
 module.exports = ListView
 

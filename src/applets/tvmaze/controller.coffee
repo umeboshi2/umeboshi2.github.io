@@ -32,13 +32,31 @@ class Controller extends MainController
         @layout.showChildView 'content', view
     # name the chunk
     , 'tvmaze-view-index'
-    
+
   viewShowList: ->
+    return @viewShowListCards()
+    
+  viewShowListCards: ->
     @setupLayoutIfNeeded()
     collection = AppChannel.request 'get-local-tvshows'
-    
-    # https://jsperf.com/bool-to-int-many
-    completed = completed ^ 0
+    require.ensure [], () =>
+      View = require './views/card-show-list'
+      @_loadView View, collection, 'tvshow'
+    # name the chunk
+    , 'tvmaze-view-show-list-cards'
+      
+  viewShowListPackery: ->
+    @setupLayoutIfNeeded()
+    collection = AppChannel.request 'get-local-tvshows'
+    require.ensure [], () =>
+      View = require './views/packery-show-list'
+      @_loadView View, collection, 'tvshow'
+    # name the chunk
+    , 'tvmaze-view-show-list-packery'
+      
+  viewShowListMasonry: ->
+    @setupLayoutIfNeeded()
+    collection = AppChannel.request 'get-local-tvshows'
     require.ensure [], () =>
       View = require './views/masonry-show-list'
       @_loadView View, collection, 'tvshow'
@@ -48,18 +66,19 @@ class Controller extends MainController
   viewShowListFlat: ->
     @setupLayoutIfNeeded()
     collection = AppChannel.request 'get-local-tvshows'
-    # https://jsperf.com/bool-to-int-many
-    completed = completed ^ 0
+    window.tvshows = collection
     require.ensure [], () =>
       View = require './views/flat-show-list'
-      @_loadView View, collection, 'tvshow'
+      response = collection.fetch()
+      response.done =>
+        view = new View
+          collection: collection
+        @layout.showChildView 'content', view
     # name the chunk
     , 'tvmaze-view-show-list-flat'
       
   viewSearchShow: ->
     @setupLayoutIfNeeded()
-    # https://jsperf.com/bool-to-int-many
-    completed = completed ^ 0
     require.ensure [], () =>
       View = require './views/single-search-show-view'
       view = new View
@@ -71,7 +90,6 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       View = require './views/view-show'
-      #model = AppChannel.request 'get-remote-show', id
       LModel = AppChannel.request 'get-local-tvshow-model'
       model = new LModel id: id
       @_loadView View, model, 'tvshow'
@@ -89,6 +107,18 @@ class Controller extends MainController
         @layout.showChildView 'content', view
     # name the chunk
     , 'tvmaze-import-sample-data'
+    
+  viewCalendar: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      lcollection = AppChannel.request 'get-local-tvshows'
+      Collection = AppChannel.request 'tv-show-search-collection'
+      View = require './views/calendar-view'
+      lcollection.fetch().then =>
+        view = new View
+        @layout.showChildView 'content', view
+    # name the chunk
+    , 'tvmaze-view-calendar'
     
 export default Controller
 
