@@ -29,7 +29,6 @@ class SearchFormView extends BootstrapFormView
   ui:
     tvShow: '[name="tv_show"]'
   createModel: ->
-    collection = @getOption 'collection'
     return new Backbone.Model
   updateModel: ->
     @tvshow = @ui.tvShow.val()

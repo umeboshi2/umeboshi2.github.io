@@ -27,8 +27,5 @@ schemaBuilder.createTable('ComicUrl')
 .addColumn('image_src', lf.Type.STRING)
 .addPrimaryKey(['url'])
 
-console.log "schemaBuilder", schemaBuilder
-
-
 export default schemaBuilder
 

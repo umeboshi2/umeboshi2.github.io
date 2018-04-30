@@ -84,16 +84,5 @@ schemaBuilder.createTable('TVMazeEpisode')
   timing: lf.ConstraintTiming.IMMEDIATE
 )
 
-
-
-#schemaBuilder.createTable('SimpleTvShow')
-#.addColumn('id', lf.Type.INTEGER)
-#.addColumn('content', lf.Type.OBJECT)
-#.addPrimaryKey(['id'])
-
-
-console.log "schemaBuilder", schemaBuilder
-
-
 export default schemaBuilder
 

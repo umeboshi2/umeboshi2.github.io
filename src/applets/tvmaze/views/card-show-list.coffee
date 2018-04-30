@@ -18,7 +18,6 @@ MessageChannel = Backbone.Radio.channel 'messages'
 listContainer = '.show-list'
 
 listTemplate = tc.renderable ->
-  console.log "SHOW ME"
   tc.div '.listview-header', ->
     tc.text "TV Shows"
   tc.nav '.paginate-bar'

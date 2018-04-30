@@ -63,7 +63,6 @@ class Applet extends TkApplet
 
 
 current_calendar_date = undefined
-current_calendar_date = new Date '2016-10-15'
 AppChannel.reply 'maincalendar:set-date', (cal) ->
   current_calendar_date = cal.fullCalendar 'getDate'
 
