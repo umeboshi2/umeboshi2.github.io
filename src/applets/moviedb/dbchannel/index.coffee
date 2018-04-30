@@ -1,6 +1,6 @@
 import Backbone from 'backbone'
 import PageableCollection from 'backbone.paginator'
-import {Configuration, TvSearch} from 'backbone.themoviedb'
+import {Configuration, TvSearch} from 'backbone.themoviedb/src'
 
 import {
   TvDetails as BaseTvDetails

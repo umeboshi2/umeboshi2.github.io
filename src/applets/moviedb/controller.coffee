@@ -37,7 +37,7 @@ class Controller extends MainController
       View = require './views/tvshow'
       response = model.fetch
         data:
-          append_to_response: 'images'
+          append_to_response: 'images,externals'
       response.done =>
         view = new View
           model: model

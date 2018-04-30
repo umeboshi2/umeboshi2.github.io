@@ -21,7 +21,7 @@ searchForm = tc.renderable ->
     label: 'TV Show'
     input_attributes:
       name: 'tv_show'
-      placeholder: 'tiny toons'
+      placeholder: 'Enter a tv show'
   tc.input '.submit-btn.btn.btn-primary.btn-sm', type:'submit', value:'Search'
   tc.div '.spinner.fa.fa-spinner.fa-spin.text-primary'
 
@@ -45,10 +45,11 @@ class SearchFormView extends BootstrapFormView
     response.fail =>
       MessageChannel.request 'warning', "#{@tvshow} not found."
       @trigger 'save:form:failure', @model
-  onDomRefresh: ->
-    #_.once @ui.submitButton.click()
-    
-    
+
+  autoClickSubmit: =>
+    @ui.submitButton.click()
+    console.log "Submit clicked"
+          
     
 module.exports = SearchFormView
 

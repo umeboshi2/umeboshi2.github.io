@@ -45,10 +45,10 @@ DefaultStaticDocumentTemplate = tc.renderable (post) ->
           tc.h1 '.d-inline.color-moviedb-logo', 'TheMovieDb API Demo'
           tc.img '.bg-moviedb-logo.d-inline', src:tmdIcon,
           style:"max-width:4rem;"
+      tc.raw marked mainText
       tc.div '.search-form.listview-list-entry'
       tc.div '.paginate-bar'
       tc.div '.search-results'
-      tc.raw marked mainText
       
 class MainView extends Marionette.View
   template: DefaultStaticDocumentTemplate
@@ -58,10 +58,10 @@ class MainView extends Marionette.View
     searchForm: '.search-form'
     paginateBar: '.paginate-bar'
     searchResults: '.search-results'
+    sampleListAnchor: '.sample-list-anchor'
   childViewEvents:
     'save:form:success': 'doSomething'
   doSomething: (model) ->
-    console.log "doSomething!!!", model
     rview = @getChildView 'searchResults'
     if not rview.ui.header.is ':visible'
       rview.ui.header.show()
@@ -86,6 +86,8 @@ class MainView extends Marionette.View
     rview = new SearchResultsView
       collection: @collection
     @showChildView 'searchResults', rview
-
+    window.listAnchor = @ui.sampleListAnchor
+    console.log "sampleListAnchor", @ui.sampleListAnchor
+    
 module.exports = MainView
 
