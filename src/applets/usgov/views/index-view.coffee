@@ -4,20 +4,22 @@ Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 marked = require 'marked'
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
+navigate_to_url = require('tbirds/util/navigate-to-url').default
+PaginateBar = require('tbirds/views/paginate-bar').default
 
 
 MessageChannel = Backbone.Radio.channel 'messages'
 
 itemTemplate = tc.renderable (model) ->
   itemBtn = '.btn.btn-sm'
-  tc.li '.list-group-item', ->
+  tc.li '.list-group-item.bg-body-d5', ->
     tc.span ->
       tc.a href:"", model.person.name
 
 listTemplate = tc.renderable ->
   tc.div '.listview-header', ->
     tc.text "US Gov Roles"
+  tc.div '.paginate-bar'
   tc.div '.navbox'
   tc.ul ".list-group"
 
@@ -111,19 +113,26 @@ class ItemCollectionView extends Marionette.CollectionView
 
 class ListView extends Marionette.View
   template: listTemplate
-  regions:
-    itemList: '.list-group'
-    navBox: '.navbox'
   ui:
     header: '.listview-header'
+    itemList: '.list-group'
+    paginateBar: '.paginate-bar'
+  regions:
+    itemList: '@ui.itemList'
+    paginateBar: '@ui.paginateBar'
+    navBox: '.navbox'
   onRender: ->
     view = new ItemCollectionView
       collection: @collection
     @showChildView 'itemList', view
-    view = new NavigateBox
+    view = new PaginateBar
       collection: @collection
-    @showChildView 'navBox', view
-
+      setKeyHandler: true
+    @showChildView 'paginateBar', view
+    #view = new NavigateBox
+    #  collection: @collection
+    #@showChildView 'navBox', view
+    
 view_template = tc.renderable (model) ->
   tc.div '.row.listview-list-entry', ->
     tc.raw marked "# #{model.appName} started."

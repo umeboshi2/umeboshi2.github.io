@@ -45,13 +45,17 @@ class UsGovRoles extends PageableCollection
 
   parse: (response) ->
     console.log "parse(response)", response
+    @state.pageSize = response.meta.limit
     @state.totalRecords = response.meta.total_count
-    console.log "@state.totalRecords", @state.totalRecords
+    @state.totalPages = Math.ceil @state.totalRecords / @state.pageSize
+    # subtract one since firstPage is zero
+    @state.lastPage = @state.totalPages - 1
+    console.log "@state.totalRecords", @state.totalRecords, @state.totalPages
     super response.objects
     
   state:
     firstPage: 0
-    pageSize: 10
+    pageSize: 20
     
   queryParams:
     pageSize: 'limit'

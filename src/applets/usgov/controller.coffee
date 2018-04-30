@@ -24,9 +24,14 @@ class Controller extends MainController
     # https://jsperf.com/bool-to-int-many
     completed = completed ^ 0
     require.ensure [], () =>
-      collection  = AppChannel.request 'get-roles-collection'
       View = require './views/index-view.coffee'
-      @_loadView View, collection, 'role'
+      collection  = AppChannel.request 'get-roles-collection'
+      response = collection.fetch()
+      response.done =>
+        view = new View
+          collection: collection
+        @layout.showChildView 'content', view
+      #@_loadView View, collection, 'role'
     # name the chunk
     , 'usgov-view-index'
       
