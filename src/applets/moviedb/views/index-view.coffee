@@ -17,7 +17,11 @@ AppChannel = Backbone.Radio.channel 'tvmaze'
 
 mainText = require 'raw-loader!../index-doc.md'
 
-tmdIcon = require '../../../../bower_components/themoviedb-powered-green/index.svg' #noqa
+if __DEV__
+  tmdIcon = require '../../../../bower_components/themoviedb-powered-green/index.svg' #noqa
+
+else
+  tmdIcon = "https://www.themoviedb.org/static_cache/v4/logos/powered-by-square-green-11c0c7f8e03c4f44aa54d5e91d9531aa9860a9161c49f5fa741b730c5b21a1f2.svg" #noqa
 
 require '../styles.scss'
 
