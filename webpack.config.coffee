@@ -7,7 +7,7 @@ StatsPlugin = require 'stats-webpack-plugin'
 BundleTracker = require 'webpack-bundle-tracker'
 MiniCssExtractPlugin = require 'mini-css-extract-plugin'
 HtmlPlugin = require 'html-webpack-plugin'
-
+FaviconPlugin = require 'favicons-webpack-plugin'
 
 BuildEnvironment = process.env.NODE_ENV or 'development'
 if BuildEnvironment not in ['development', 'production']
@@ -127,6 +127,19 @@ common_plugins = [
   new HtmlPlugin
     template: './index.coffee'
     filename: 'index.html'
+  new FaviconPlugin
+    logo: './assets/zuki.png'
+    title: 'Zuki'
+    icons:
+      android: false
+      appleIcon: false
+      appleStartup: false
+      favicons: true
+      # https://github.com/jantimon/favicons-webpack-plugin/issues/103
+      opengraph: false
+      twitter: false
+      yandex: false
+      windows: false
   ]
     
 
@@ -201,6 +214,12 @@ WebPackConfig =
           }
         ]
       }
+      {
+        test: /\.js#/
+        #exclude: /(node_modules|bower_components)/
+        use:
+          loader: 'babel-loader'
+      }
     ]
   resolve:
     extensions: [".wasm", ".mjs", ".js", ".json", ".coffee"]
@@ -223,6 +242,8 @@ if BuildEnvironment is 'development'
   WebPackConfig.devtool = 'source-map'
   WebPackConfig.devServer =
     host: 'localhost'
+    #host: '0.0.0.0'
+    disableHostCheck: true
     port: 8080
     historyApiFallback: true
     # cors for using a server on another port
