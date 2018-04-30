@@ -10,7 +10,8 @@ if not __useCssModules__
   require '../../node_modules/tbirds/sass/cornsilk.scss'
 else
   require '../../node_modules/tbirds/sass/initial.scss'
-  
+
+import "es6-promise/auto"
 import stringEndsWith from 'tbirds/util/polyfills/str-endswith'
 import stringStartsWith from 'tbirds/util/polyfills/str-startswith'
 # use polyfill for String.endsWith if needed
