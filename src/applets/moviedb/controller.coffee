@@ -34,7 +34,7 @@ class Controller extends MainController
       id: id
     console.log "MODEL", model
     require.ensure [], () =>
-      View = require './views/view-show.coffee'
+      View = require './views/tvshow'
       response = model.fetch
         data:
           append_to_response: 'images'
@@ -42,6 +42,7 @@ class Controller extends MainController
         view = new View
           model: model
         @layout.showChildView 'content', view
+        @scrollTop()
     # name the chunk
     , 'moviedb-view-tv-show'
       

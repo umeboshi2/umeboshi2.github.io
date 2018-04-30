@@ -40,11 +40,11 @@ DefaultStaticDocumentTemplate = tc.renderable (post) ->
   tc.article '.document-view.content', ->
     tc.div '.body', ->
       tc.div '.listview-header.bg-moviedb-logo', ->
-        tc.a href:'https://developers.themoviedb.org', ->
+        tc.a href:'https://developers.themoviedb.org',
+        target:"_blank", ->
+          tc.h1 '.d-inline.color-moviedb-logo', 'TheMovieDb API Demo'
           tc.img '.bg-moviedb-logo.d-inline', src:tmdIcon,
           style:"max-width:4rem;"
-        tc.h1 '.d-inline.color-moviedb-logo', 'TheMovieDb API Demo'
-
       tc.div '.search-form.listview-list-entry'
       tc.div '.paginate-bar'
       tc.div '.search-results'
@@ -67,10 +67,14 @@ class MainView extends Marionette.View
       rview.ui.header.show()
     msg = "#{rview.collection.length}  results for \"#{model.get 'tvshow'}\""
     rview.triggerMethod 'set:header', msg
+    region = @getRegion 'paginateBar'
     if @collection.state.totalPages > 1
       pview = new PaginateBar
         collection: @collection
-      @showChildView 'paginateBar', pview
+        setKeyHandler: true
+      region.show pview
+    else if region.hasView()
+      region.empty()
   regions:
     searchForm: '@ui.searchForm'
     paginateBar: '@ui.paginateBar'

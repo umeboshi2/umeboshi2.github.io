@@ -12,7 +12,7 @@ BootstrapFormView = require('tbirds/views/bsformview').default
 
 noImage = require('tbirds/templates/no-image-span').default
 
-SeasonsView = require './view-season'
+SeasonsView = require './seasons'
 
 
 MessageChannel = Backbone.Radio.channel 'messages'
@@ -20,21 +20,12 @@ AppChannel = Backbone.Radio.channel 'moviedb'
 
 baseImageUrl = "https://image.tmdb.org/t/p/"
 
-oldSeasonsList = tc.renderable (model) ->
-  tc.div '.listview-header', 'Seasons'
-  for s in model.seasons
-    if s.season_number
-      seasonEntryTemplate s
-  for s in model.seasons
-    if not s.season_number
-      seasonEntryTemplate s
-
 class ShowView extends Marionette.View
   template: tc.renderable (model) ->
     tc.div '.card.bg-body-d5', ->
       tc.div '.row', ->
         tc.div '.col-sm-2', ->
-          if model?.images?.posters
+          if model?.images?.posters.length
             path = model.images.posters[0].file_path
             url = "#{baseImageUrl}w200#{path}"
             tc.img '.card-img-bottom', src:url
@@ -68,4 +59,5 @@ class ShowView extends Marionette.View
     @ui.jsonView.prepend @jsonView.dom
 
 module.exports = ShowView
+
 

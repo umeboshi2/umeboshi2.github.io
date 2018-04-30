@@ -16,8 +16,24 @@ AppChannel = Backbone.Radio.channel 'tvmaze'
 #theMovieDb.common.api_key = "6c56481572fd1c226e63a946e759f3a6"
 #theMovieDb.common.base_uri = "https://api.themoviedb.org/3/"
 baseImageUrl = "https://image.tmdb.org/t/p/"
-
-showTemplate = tc.renderable (model) ->
+showTemplateMedia = tc.renderable (model) ->
+  tc.div '.media.listview-list-entry', ->
+    if model?.poster_path
+      url = "#{baseImageUrl}w200#{model.poster_path}"
+      console.log "image URL", url
+      tc.img '.mr-3', src:url
+    else
+      noImage '5x'
+    tc.div '.media-body', ->
+      tc.h3 '.mt-0', model.name
+      premiered = new Date(model.first_air_date).toDateString()
+      if premiered isnt "Invalid Date"
+        tc.h4 "Premiered: #{premiered}"
+      tc.p model.overview
+      tc.button '.select-show.btn.btn-primary',
+      style:'display:none', "Select this show"
+    
+showTemplateCard = tc.renderable (model) ->
   #console.log "Showtemplate", model
   tc.div '.card.bg-body-d5', ->
     tc.div '.row', ->
@@ -36,7 +52,9 @@ showTemplate = tc.renderable (model) ->
         tc.button '.select-show.btn.btn-primary',
         style:'display:none', "Select this show"
 
+  
 
+showTemplate = showTemplateMedia
 class ShowResultView extends Marionette.View
   template: showTemplate
   ui:
@@ -60,19 +78,9 @@ class ShowResultView extends Marionette.View
   viewShow: ->
     id = @model.toJSON().id
     navigate_to_url "#moviedb/tv/shows/view/#{id}"
-    
+
   selectShow: ->
-    id = @model.toJSON().show.id
-    show = AppChannel.request 'get-remote-show', id
-    response = show.fetch()
-    response.done ->
-      p = AppChannel.request 'save-local-show', show.toJSON()
-      p.then (result) ->
-        navigate_to_url "#tvmaze/shows/view/#{id}"
-    response.fail ->
-      MessageChannel.request 'danger', "Bad move"
-      
-  
+    @viewShow()
 
 class SearchResultsView extends Marionette.View
   template: tc.renderable (model) ->

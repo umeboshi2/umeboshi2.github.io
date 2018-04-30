@@ -2,7 +2,10 @@ import Backbone from 'backbone'
 import PageableCollection from 'backbone.paginator'
 import {Configuration, TvSearch} from 'backbone.themoviedb'
 
-import {TvDetails as BaseTvDetails} from 'backbone.themoviedb/src/tv'
+import {
+  TvDetails as BaseTvDetails
+  TvSeasonDetails as BaseTvSeasonDetails
+  } from 'backbone.themoviedb/src/tv'
 
 import theMovieDb from 'themoviedb-javascript-library'
 
@@ -65,4 +68,10 @@ class TvDetails extends BaseTvDetails
 
 AppChannel.reply 'TvDetails', ->
   return TvDetails
+
+class TvSeasonDetails extends BaseTvSeasonDetails
+  apiKey: apiKey
+
+AppChannel.reply 'TvSeasonDetails', ->
+  return TvSeasonDetails
   

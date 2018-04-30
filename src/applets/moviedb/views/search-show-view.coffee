@@ -22,7 +22,6 @@ searchForm = tc.renderable ->
     input_attributes:
       name: 'tv_show'
       placeholder: 'tiny toons'
-      value: 'simon'
   tc.input '.submit-btn.btn.btn-primary.btn-sm', type:'submit', value:'Search'
   tc.div '.spinner.fa.fa-spinner.fa-spin.text-primary'
 
