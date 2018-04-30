@@ -15,11 +15,14 @@ config.navbarEntries = [
     label: "EbCsv"
     url: "#ebcsv"
   },{
-    label: "usgov"
-    url: "#usgov"
+    label: "moviedb"
+    url: "#moviedb"
   },{
     label: "tvmaze"
     url: "#tvmaze"
+  },{
+    label: "usgov"
+    url: "#usgov"
   }
   #misc_menu
   ]
