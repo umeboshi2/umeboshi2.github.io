@@ -98,7 +98,7 @@ class SeasonEntry extends Marionette.View
     @showChildView 'seasonContainer', view
     
 class SeasonsView extends Marionette.View
-  className: 'col-sm-12'
+  className: 'col-md-12'
   template: tc.renderable (model) ->
     tc.div '.listview-header', "Seasons"
     tc.div '.season-list'

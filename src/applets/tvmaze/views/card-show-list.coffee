@@ -26,7 +26,7 @@ listTemplate = tc.renderable ->
 
 
 divStyle = 'width:20%;border-style:solid;border-width:3px'
-cardClasses = 'col-sm-3.bg-body-d5'
+cardClasses = 'col-md-3.bg-body-d5'
 
 class ItemView extends Marionette.View
   template: itemTemplate

@@ -33,20 +33,20 @@ class ShowView extends Marionette.View
   template: tc.renderable (model) ->
     tc.div '.card.bg-body-d5', ->
       tc.div '.row', ->
-        tc.div '.col-sm-2', ->
+        tc.div '.col-md-2', ->
           if model?.images?.posters
             path = model.images.posters[0].file_path
             url = "#{baseImageUrl}w200#{path}"
             tc.img '.card-img-bottom', src:url
           else
             noImage '5x'
-        tc.div '.col-sm-9', ->
+        tc.div '.col-md-9', ->
           tc.div '.card-block', ->
             tc.h3 '.card-title', model.name
             tc.raw model.overview
       tc.div '.seasons-row.row'
       tc.div '.row', ->
-        tc.div '.col-sm-12', ->
+        tc.div '.col-md-12', ->
           tc.div '.listview-header', "ShowObject"
           tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
           

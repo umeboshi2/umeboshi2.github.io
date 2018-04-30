@@ -17,12 +17,12 @@ showTemplate = tc.renderable (model) ->
   show = model.show
   tc.div '.card.bg-body-d5', ->
     tc.div '.row', ->
-      tc.div '.col-sm-2', ->
+      tc.div '.col-md-2', ->
         if show.image?.medium
           tc.img '.main-image.card-img-bottom', src:show.image.medium
         else
           noImage '5x'
-      tc.div '.col-sm-9', ->
+      tc.div '.col-md-9', ->
         tc.div '.card-block.bg-body-d10', ->
           tc.h3 '.card-title', show.name
           tc.h4 "Premiered: #{new Date(show.premiered).toDateString()}"

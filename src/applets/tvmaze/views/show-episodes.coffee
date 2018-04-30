@@ -28,12 +28,12 @@ episodeTemplate = tc.renderable (model) ->
     tc.div '.card-block', ->
       tc.div '.summary.row', style:'display:none', ->
         if model?.img_med
-          tc.div '.col-sm-7', ->
+          tc.div '.col-md-7', ->
             tc.raw model.summary
-          tc.div '.col-sm-5', ->
+          tc.div '.col-md-5', ->
             tc.img '.card-img-bottom.pull-right', src:model.img_med
         else
-          tc.div '.col-sm-12', ->
+          tc.div '.col-md-12', ->
             tc.raw model.summary
       tc.div '.jsonview'
           

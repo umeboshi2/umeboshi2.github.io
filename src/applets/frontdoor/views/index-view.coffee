@@ -10,8 +10,8 @@ view_template = tc.renderable (model) ->
     tc.raw marked '# Hello World!!'
 
 DefaultStaticDocumentTemplate = tc.renderable (post) ->
-  tc.article '.document-view.content', ->
-    tc.div '.body', ->
+  tc.article '.document-view.content.row', ->
+    tc.div '.body.col-lg-10.col-lg-offset-1', ->
       tc.raw marked post.content
     
 class MainView extends Backbone.Marionette.View

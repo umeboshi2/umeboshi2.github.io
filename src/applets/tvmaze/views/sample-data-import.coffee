@@ -62,7 +62,7 @@ itemTemplate = tc.renderable (model) ->
     
 
 mainTemplate = tc.renderable (post) ->
-  tc.div '.body.col-sm-6', ->
+  tc.div '.body.col-md-6', ->
     tc.h1 'TV Maze Sample Data'
     tc.div '.form-inline', ->
       tc.div '.form-check', ->

@@ -23,19 +23,19 @@ class ShowView extends Marionette.View
     #tc.div '.card.bg-secondary.text-white', ->
     tc.div '.card.bg-body-d5', ->
       tc.div '.row', ->
-        tc.div '.col-sm-2', ->
+        tc.div '.col-md-2', ->
           if D.image?.medium
             tc.img '.card-img-bottom', src:model.content.image.medium
           else
             noImage '5x'
-        tc.div '.col-sm-9', ->
+        tc.div '.col-md-9', ->
           tc.div '.card-block', ->
             tc.h3 '.card-title', model.content.name
             tc.raw model.content.summary
       tc.div '.row', ->
-        tc.div '.col-sm-8', ->
+        tc.div '.col-md-8', ->
           tc.div '.episode-list-region'
-        tc.div '.col-sm-4', ->
+        tc.div '.col-md-4', ->
           tc.div '.listview-header', "ShowObject"
           tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   ui:

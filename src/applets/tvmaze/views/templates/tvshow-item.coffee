@@ -4,7 +4,7 @@ marked = require 'marked'
 noImage = require('tbirds/templates/no-image-span').default
 
 divStyle = 'width:20%;border-style:solid;border-width:3px'
-cardClasses = 'col-sm-3.bg-body-d5'
+cardClasses = 'col-md-3.bg-body-d5'
 
 itemTemplate = tc.renderable (model) ->
   divStyle = model.divStyle or divStyle

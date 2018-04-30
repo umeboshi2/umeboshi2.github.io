@@ -50,7 +50,7 @@ class ComicImageView extends Backbone.Marionette.View
 class ComicEntryView extends Backbone.Marionette.View
   template: tc.renderable (model) ->
     main = model.mainsection
-    tc.div '.item.listview-list-entry.thumbnail.col-sm-2', ->
+    tc.div '.item.listview-list-entry.thumbnail.col-md-2', ->
       tc.div '.comic-image', ->
         tc.i '.fa.fa-spinner.fa-spin'
         tc.text 'loading'

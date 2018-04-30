@@ -36,11 +36,11 @@ class ToolbarAppletLayout extends Backbone.Marionette.View
     ShowInitialEmptyContent:
       behaviorClass: ShowInitialEmptyContent
   template: tc.renderable (model) ->
-    tc.div '.col-sm-12', ->
+    tc.div '.col-md-12', ->
       tc.div '.row', ->
-        tc.div  '#main-toolbar.col-sm-10.col-sm-offset-1'
+        tc.div  '#main-toolbar.col-md-10.col-md-offset-1'
       tc.div '.row', ->
-        tc.div '#main-content.col-sm-10.col-sm-offset-1'
+        tc.div '#main-content.col-md-10.col-md-offset-1'
   regions: ->
     region = new SlideDownRegion
       el: '#main-content'

@@ -38,11 +38,11 @@ class EpisodeView extends Marionette.View
   className: 'card bg-body-d5'
   template: tc.renderable (model) ->
     tc.div '.row', ->
-      tc.div '.col-sm-2', ->
+      tc.div '.col-md-2', ->
         if model.still_path
           tc.img src:"#{baseImageUrl}w200#{model.still_path}"
         else noImage '4x'
-      tc.div '.col-sm-9', ->
+      tc.div '.col-md-9', ->
         tc.span model.overview
 
 class EpisodeEntry extends Marionette.View
