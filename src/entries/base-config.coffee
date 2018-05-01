@@ -32,7 +32,7 @@ config.navbarBrandTemplate = tc.renderable (model) ->
   tc.a ".navbar-brand.bg-body-d5#{padding}", href:model.url, ->
     tc.img src:"/assets/zuki.png", width:"30", height:"30"
     tc.span '.ml-2', model.label
-  tc.span '.toggle-button'
+  tc.span '.toggle-container'
   
 
 config.authToken = {}
