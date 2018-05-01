@@ -31,6 +31,7 @@ class Router extends Marionette.AppRouter
     'moviedb/search/tv': 'viewIndex'
     'moviedb/search/movies': 'searchMovies'
     'moviedb/tv/shows/view/:id': 'viewTvShow'
+    'moviedb/movies/view/:id': 'viewMovie'
     
 class Applet extends TkApplet
   Controller: Controller

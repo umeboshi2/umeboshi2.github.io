@@ -22,7 +22,21 @@ tvShowDescription = tc.renderable (model) ->
   tc.h3 '.mt-0', model.name
   premiered = new Date(model.first_air_date).toDateString()
   if premiered isnt "Invalid Date"
-    tc.h4 "Premiered: #{premiered}"
+    tc.h5 "Premiered: #{premiered}"
+  ended = new Date(model.last_air_date).toDateString()
+  if ended isnt "Invalid Date"
+    tc.h5 "Ended: #{ended}"
+  tc.input '.rating', type:'number',
+  style:'display:none', value:model.vote_average
+  tc.p model.overview
+
+movieDescription = tc.renderable (model) ->
+  tc.h3 '.mt-0', model.title
+  if model?.tagline
+    tc.h5 "#{model.tagline}"
+  released = new Date(model.release_date).toDateString()
+  if released isnt "Invalid Date"
+    tc.h5 "Released: #{released}"
   ended = new Date(model.last_air_date).toDateString()
   if ended isnt "Invalid Date"
     tc.h4 "Ended: #{ended}"
@@ -30,8 +44,8 @@ tvShowDescription = tc.renderable (model) ->
   style:'display:none', value:model.vote_average
   tc.p model.overview
 
+
 objectJsonTemplate = tc.renderable ->
-  tc.div '.listview-header', "ShowObject"
   tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
     
     
@@ -50,14 +64,30 @@ showTemplate = tc.renderable (model) ->
   tc.div '.row', ->
     tc.div '.col-md-12', ->
       objectJsonTemplate()
-      
+
+
+
+movieTemplateCard = tc.renderable (model) ->
+  tc.div '.card.bg-body-d5', ->
+    tc.div '.row', ->
+      tc.div '.col-lg-3', ->
+        posterImage model
+      tc.div '.card-block.col-lg-8', ->
+        movieDescription model
     
+movieTemplate = tc.renderable (model) ->
+  movieTemplateCard model
+  tc.div '.row', ->
+    tc.div '.col-md-12', ->
+      objectJsonTemplate()
+
 module.exports =
   posterImage: posterImage
   tvShowDescription: tvShowDescription
   objectJsonTemplate: objectJsonTemplate
   showTemplateCard: showTemplateCard
   showTemplate: showTemplate
-  
+  movieTemplateCard: movieTemplateCard
+  movieTemplate: movieTemplate
 
 

@@ -11,6 +11,11 @@ import {
   TvSeasonDetails as BaseTvSeasonDetails
   } from 'backbone.themoviedb/src/tv'
 
+import {
+  MovieDetails as BaseMovieDetails
+  MovieCredits as BaseMovieCredits
+  } from 'backbone.themoviedb/src/movie'
+  
 import theMovieDb from 'themoviedb-javascript-library'
 
 theMovieDb.common.api_key = "6c56481572fd1c226e63a946e759f3a6"
@@ -84,6 +89,18 @@ class TvDetails extends BaseTvDetails
 AppChannel.reply 'TvDetails', ->
   return TvDetails
 
+class MovieDetails extends BaseMovieDetails
+  apiKey: apiKey
+
+AppChannel.reply 'MovieDetails', ->
+  return MovieDetails
+
+class MovieCredits extends BaseMovieCredits
+  apiKey: apiKey
+
+AppChannel.reply 'MovieCredits', ->
+  return MovieCredits
+  
 class TvSeasonDetails extends BaseTvSeasonDetails
   apiKey: apiKey
 

@@ -17,45 +17,58 @@ AppChannel = Backbone.Radio.channel 'moviedb'
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
   viewIndex: ->
-    @setupLayoutIfNeeded()
+    return @searchTvShows()
+    
+  searchTvShows: ->
     Collection = AppChannel.request "SearchTvCollection"
     require.ensure [], () =>
       View = require './views/index-view'
-      view = new View
-        collection: new Collection
-      @layout.showChildView 'content', view
+      return @_viewSearch Collection, View
     # name the chunk
     , 'moviedb-view-index'
     
   searchMovies: ->
-    @setupLayoutIfNeeded()
     Collection = AppChannel.request "SearchMovieCollection"
     require.ensure [], () =>
       View = require './views/search/movies'
-      view = new View
-        collection: new Collection
-      @layout.showChildView 'content', view
+      return @_viewSearch Collection, View
     # name the chunk
     , 'moviedb-search-movies'
+
+  _viewSearch: (Collection, View) ->
+    @setupLayoutIfNeeded()
+    view = new View
+      collection: new Collection
+    @layout.showChildView 'content', view
+    
+  _viewEntity: (id, Model, View) ->
+    @setupLayoutIfNeeded()
+    model = new Model
+      id: id
+    response = model.fetch
+      data:
+        append_to_response: 'images,externals'
+    response.done =>
+      view = new View
+        model: model
+      @layout.showChildView 'content', view
+      @scrollTop()
     
   viewTvShow: (id) ->
-    @setupLayoutIfNeeded()
-    TvDetails = AppChannel.request 'TvDetails'
-    model = new TvDetails
-      id: id
-    console.log "MODEL", model
+    Model = AppChannel.request 'TvDetails'
     require.ensure [], () =>
       View = require './views/tvshow'
-      response = model.fetch
-        data:
-          append_to_response: 'images,externals'
-      response.done =>
-        view = new View
-          model: model
-        @layout.showChildView 'content', view
-        @scrollTop()
+      return @_viewEntity id, Model, View
     # name the chunk
     , 'moviedb-view-tv-show'
+
+  viewMovie: (id) ->
+    Model = AppChannel.request 'MovieDetails'
+    require.ensure [], () =>
+      View = require './views/movies'
+      return @_viewEntity id, Model, View
+    # name the chunk
+    , 'moviedb-view-movie'
   
 export default Controller
 
