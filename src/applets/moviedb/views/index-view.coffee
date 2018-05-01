@@ -69,7 +69,8 @@ class MainView extends Marionette.View
     rview = @getChildView 'searchResults'
     if not rview.ui.header.is ':visible'
       rview.ui.header.show()
-    msg = "#{rview.collection.length}  results for \"#{model.get 'tvshow'}\""
+    total = rview.collection.state.totalRecords
+    msg = "#{total}  results for \"#{model.get 'tvshow'}\""
     rview.triggerMethod 'set:header', msg
     region = @getRegion 'paginateBar'
     if @collection.state.totalPages > 1

@@ -13,6 +13,8 @@ BootstrapFormView = require('tbirds/views/bsformview').default
 noImage = require('tbirds/templates/no-image-span').default
 PointerOnHover = require('tbirds/behaviors/pointer-on-hover').default
 
+{ posterImage } = require '../templates'
+
 SeasonView = require './episodes'
 
 
@@ -23,8 +25,19 @@ baseImageUrl = "https://image.tmdb.org/t/p/"
 
 class InfoView extends Marionette.View
   template: tc.renderable (model) ->
+    posterImage model
     tc.div ->
       tc.text model.overview
+    if model.air_date
+      date = new Date(model.air_date).toDateString()
+      tc.span "Season started #{date}"
+    tc.div '.jview'
+  ui:
+    jsonView: '.jview'
+  onDomRefresh: ->
+    @jsonView = new JView @model.toJSON()
+    @ui.jsonView.prepend @jsonView.dom
+    
 
 class SeasonEntry extends Marionette.View
   className: 'season-entry listview-list-entry'
@@ -34,7 +47,7 @@ class SeasonEntry extends Marionette.View
   template: tc.renderable (season) ->
     tc.div '.entry-header', ->
       tc.div '.btn-group', ->
-        tc.button '.info-button.btn.btn-primary', type:'button', ->
+        tc.button '.info-button.btn.btn-info', type:'button', ->
           tc.i '.fa.fa-info.mr-1'
           tc.span 'info'
         tc.button '.episodes-button.btn.btn-primary', type:'button', ->
@@ -80,9 +93,8 @@ class SeasonEntry extends Marionette.View
           @ui.entryHeader.addClass 'bg-dark text-white'
       else
         @showSeasonView()
-
+      
   infoClicked: ->
-    console.log 'infoClicked'
     region = @getRegion 'infoContainer'
     if region.hasView()
       @ui.infoContainer.toggle()
@@ -90,8 +102,13 @@ class SeasonEntry extends Marionette.View
       view = new InfoView
         model: @model
       region.show view
-      console.log "VIEW", view
-      
+    span = @ui.infoButton.children 'span'
+    text = span.text()
+    if text is 'info'
+      span.text 'hide'
+    else
+      span.text 'info'
+     
   showSeasonView: =>
     view = new SeasonView
       model: @detailsModel
@@ -100,7 +117,12 @@ class SeasonEntry extends Marionette.View
 class SeasonsView extends Marionette.View
   className: 'col-md-12'
   template: tc.renderable (model) ->
-    tc.div '.listview-header', "Seasons"
+    count = model.number_of_seasons or 0
+    seasons = "Seasons"
+    if count == 1
+      seasons = "Season"
+      
+    tc.div '.listview-header', " #{count} #{seasons}"
     tc.div '.season-list'
   ui: ->
     seasonList: '.season-list'

@@ -30,6 +30,16 @@ class SearchFormView extends BootstrapFormView
   ui:
     tvShow: '[name="tv_show"]'
     submitButton: '.submit-btn'
+  initialize: (options) ->
+    if false
+      @initializeAutoSubmit()
+    return super options
+    
+  initializeAutoSubmit: (options) ->
+    @autoClickSubmitOnce = _.once @autoClickSubmit
+    setTimeout =>
+      @autoClickSubmitOnce()
+    , 1000
   createModel: ->
     return new Backbone.Model
   updateModel: ->

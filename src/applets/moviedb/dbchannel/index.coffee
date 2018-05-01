@@ -1,7 +1,8 @@
 import Backbone from 'backbone'
 import PageableCollection from 'backbone.paginator'
-import {Configuration, TvSearch} from 'backbone.themoviedb/src'
 
+import Configuration from 'backbone.themoviedb/src/configuration'
+import {TvSearch} from 'backbone.themoviedb/src/search'
 import {
   TvDetails as BaseTvDetails
   TvSeasonDetails as BaseTvSeasonDetails
@@ -42,7 +43,9 @@ apiKey = "6c56481572fd1c226e63a946e759f3a6"
 class ConfigModel extends Configuration
   apiKey: apiKey
 
-config = JSON.parse localStorage.themoviedb_config
+config = false
+if localStorage.hasOwnProperty('themoviedb_config')
+  config = JSON.parse localStorage.themoviedb_config
 if not config
   cmodel = new ConfigModel
   r = cmodel.fetch()

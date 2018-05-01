@@ -18,6 +18,9 @@ noImage = require('tbirds/templates/no-image-span').default
 #PointerOnHover = require('tbirds/behaviors/pointer-on-hover').default
 HasHeader = require('tbirds/behaviors/has-header').default
 
+{ posterImage
+  tvShowDescription } = require './templates'
+  
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'tvmaze'
 
@@ -26,27 +29,24 @@ AppChannel = Backbone.Radio.channel 'tvmaze'
 baseImageUrl = "https://image.tmdb.org/t/p/"
 showTemplateMedia = tc.renderable (model) ->
   tc.div '.media.listview-list-entry', ->
-    if model?.poster_path
-      url = "#{baseImageUrl}w200#{model.poster_path}"
-      tc.img '.mr-3', src:url
-    else
-      noImage '5x'
+    posterImage model
     tc.div '.media-body', ->
-      tc.h3 '.mt-0', model.name
-      premiered = new Date(model.first_air_date).toDateString()
-      if premiered isnt "Invalid Date"
-        tc.h4 "Premiered: #{premiered}"
-      ended = new Date(model.last_air_date).toDateString()
-      if ended isnt "Invalid Date"
-        tc.h4 "Ended: #{ended}"
-      tc.input '.rating', type:'number',
-      style:'display:none', value:model.vote_average
-      tc.p model.overview
+      tvShowDescription model
       tc.button '.select-show.btn.btn-primary',
       style:'display:none', "Select this show"
-    
+
+showTemplateCard = tc.renderable (model) ->
+  tc.div '.card.bg-body-d10', ->
+    tc.div '.row', ->
+      tc.div '.col-lg-3', ->
+        posterImage model
+        tc.button '.select-show.btn.btn-primary',
+        style:'display:none', "Select this show"
+      tc.div '.card-block.col-lg-8.ml-2', ->
+        tvShowDescription model
+
 class ShowResultView extends Marionette.View
-  template: showTemplateMedia
+  template: showTemplateCard
   ui:
     selectShow: '.select-show'
     rating: '.rating'

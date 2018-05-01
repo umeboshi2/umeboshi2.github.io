@@ -14,13 +14,11 @@ AppChannel = Backbone.Radio.channel appName
 
 appletMenu = [
   {
-    button: '#list-button'
-    label: 'List'
+    label: 'TV Search'
     url: '#moviedb'
-    icon: '.fa.fa-list'
+    icon: '.fa.fa-search'
   }
   {
-    button: '#calendar-button'
     label: 'Calendar'
     url: '#moviedb/calendar'
     icon: '.fa.fa-calendar'
