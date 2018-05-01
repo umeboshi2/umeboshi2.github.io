@@ -8,28 +8,16 @@ PageableCollection = require 'backbone.paginator'
 
 
 BootstrapFormView = require('tbirds/views/bsformview').default
-navigate_to_url = require('tbirds/util/navigate-to-url').default
-
 { form_group_input_div } = require 'tbirds/templates/forms'
+
+QueryModel = require './query-model'
 
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'moviedb'
 
-searchForm = tc.renderable ->
-  form_group_input_div
-    input_id: 'input_show'
-    label: 'TV Show'
-    input_attributes:
-      name: 'tv_show'
-      placeholder: 'Enter a tv show'
-  tc.input '.submit-btn.btn.btn-primary.btn-sm', type:'submit', value:'Search'
-  tc.div '.spinner.fa.fa-spinner.fa-spin.text-primary'
-
 class SearchFormView extends BootstrapFormView
-  template: searchForm
-  ui:
-    tvShow: '[name="tv_show"]'
-    submitButton: '.submit-btn'
+  ui: ->
+    query: '[name="query"]'
   initialize: (options) ->
     if false
       @initializeAutoSubmit()
@@ -41,13 +29,13 @@ class SearchFormView extends BootstrapFormView
       @autoClickSubmitOnce()
     , 1000
   createModel: ->
-    return new Backbone.Model
+    console.log "UIUI", @ui
+    return new QueryModel
   updateModel: ->
-    @tvshow = @ui.tvShow.val()
-    @model.set 'tvshow', @tvshow
+    @model.set 'query', @ui.query.val()
   saveModel: ->
-    #@collection.state.query = @tvshow
-    @collection.queryParams.query = @tvshow
+    query = @model.get 'query'
+    @collection.queryParams.query = @model.get 'query'
     response = @collection.fetch()
     response.done =>
       console.log "saveModel response", response, @collection

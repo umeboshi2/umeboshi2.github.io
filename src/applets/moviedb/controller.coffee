@@ -16,16 +16,27 @@ AppChannel = Backbone.Radio.channel 'moviedb'
 
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
-  view_index: ->
+  viewIndex: ->
     @setupLayoutIfNeeded()
     Collection = AppChannel.request "SearchTvCollection"
     require.ensure [], () =>
-      View = require './views/index-view.coffee'
+      View = require './views/index-view'
       view = new View
         collection: new Collection
       @layout.showChildView 'content', view
     # name the chunk
     , 'moviedb-view-index'
+    
+  searchMovies: ->
+    @setupLayoutIfNeeded()
+    Collection = AppChannel.request "SearchMovieCollection"
+    require.ensure [], () =>
+      View = require './views/search/movies'
+      view = new View
+        collection: new Collection
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'moviedb-search-movies'
     
   viewTvShow: (id) ->
     @setupLayoutIfNeeded()
@@ -45,6 +56,6 @@ class Controller extends MainController
         @scrollTop()
     # name the chunk
     , 'moviedb-view-tv-show'
-      
+  
 export default Controller
 

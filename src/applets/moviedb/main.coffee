@@ -15,19 +15,21 @@ AppChannel = Backbone.Radio.channel appName
 appletMenu = [
   {
     label: 'TV Search'
-    url: '#moviedb'
+    url: '#moviedb/search/tv'
     icon: '.fa.fa-search'
   }
   {
-    label: 'Calendar'
-    url: '#moviedb/calendar'
-    icon: '.fa.fa-calendar'
+    label: 'Movie Search'
+    url: '#moviedb/search/movies'
+    icon: '.fa.fa-search'
   }
   ]
 
 class Router extends Marionette.AppRouter
   appRoutes:
-    'moviedb': 'view_index'
+    'moviedb': 'viewIndex'
+    'moviedb/search/tv': 'viewIndex'
+    'moviedb/search/movies': 'searchMovies'
     'moviedb/tv/shows/view/:id': 'viewTvShow'
     
 class Applet extends TkApplet

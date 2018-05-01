@@ -7,26 +7,25 @@ marked = require 'marked'
 navigate_to_url = require('tbirds/util/navigate-to-url').default
 PaginateBar = require('tbirds/views/paginate-bar').default
 
-ConfirmDeleteModal = require('./confirm-delete-modal').default
-SearchFormView = require './search/query-form'
-SearchResultsView = require './search/query-results'
-{ tvSearchForm } = require './search/templates'
+SearchFormView = require './query-form'
+SearchResultsView = require './query-results'
+{ movieSearchForm } = require './templates'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'moviedb'
 
-mainText = require 'raw-loader!../index-doc.md'
+mainText = require 'raw-loader!./movies-doc.md'
 
 if __DEV__
-  tmdIcon = require '../../../../bower_components/themoviedb-powered-green/index.svg' #noqa
+  tmdIcon = require '../../../../../bower_components/themoviedb-powered-green/index.svg' #noqa
 
 else
   tmdIcon = "https://www.themoviedb.org/static_cache/v4/logos/powered-by-square-green-11c0c7f8e03c4f44aa54d5e91d9531aa9860a9161c49f5fa741b730c5b21a1f2.svg" #noqa
 
-require '../styles.scss'
+require '../../styles.scss'
 
-{ posterImage, tvShowDescription } = require './templates'
+{ posterImage, tvShowDescription } = require '../templates'
 showTemplateCard = tc.renderable (model) ->
   tc.div '.card.bg-body-d10', ->
     tc.div '.row', ->
@@ -36,7 +35,6 @@ showTemplateCard = tc.renderable (model) ->
         style:'display:none', "Select this show"
       tc.div '.card-block.col-lg-8.ml-2', ->
         tvShowDescription model
-
 
 
 DefaultTemplate = tc.renderable (post) ->
@@ -56,7 +54,7 @@ DefaultTemplate = tc.renderable (post) ->
 class MainView extends Marionette.View
   template: DefaultTemplate
   templateContext:
-    appName: 'moviedb'
+    appName: 'tvmaze'
   ui:
     searchForm: '.search-form'
     paginateBar: '.paginate-bar'
@@ -86,12 +84,12 @@ class MainView extends Marionette.View
   onRender: ->
     view = new SearchFormView
       collection: @collection
-      template: tvSearchForm
+      template: movieSearchForm
     @showChildView 'searchForm', view
     rview = new SearchResultsView
       collection: @collection
       entryTemplate: showTemplateCard
-      entryUrlRoot: "#moviedb/tv/shows/view"
+      entryUrlRoot: "#moviedb/movies/view"
     @showChildView 'searchResults', rview
     window.listAnchor = @ui.sampleListAnchor
     console.log "sampleListAnchor", @ui.sampleListAnchor
