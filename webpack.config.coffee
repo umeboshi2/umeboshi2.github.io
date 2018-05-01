@@ -60,10 +60,22 @@ StatsPluginFilename =
   development: 'stats-dev.json'
   production: 'stats.json'
 
-coffeeLoaderRule =
+coffeeLoaderTranspileRule =
   test: /\.coffee$/
-  use: ['coffee-loader']
+  loader: 'coffee-loader'
+  options:
+    transpile:
+      presets: ['env']
+      plugins: ["dynamic-import-webpack"]
 
+coffeeLoaderDevRule =
+  test: /\.coffee$/
+  loader: 'coffee-loader'
+
+coffeeLoaderRule =
+  development: coffeeLoaderDevRule
+  production: coffeeLoaderTranspileRule
+  
 loadCssRule =
   test: /\.css$/
   use: ['style-loader', 'css-loader']
@@ -182,7 +194,7 @@ WebPackConfig =
         test: /\.scss$/
         use: buildCssLoader[BuildEnvironment]
       }
-      coffeeLoaderRule
+      coffeeLoaderRule[BuildEnvironment]
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/
         use: [

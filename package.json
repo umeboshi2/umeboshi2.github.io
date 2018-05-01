@@ -12,6 +12,10 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "applet-bumblr": "github:umeboshi2/applet-bumblr",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-dynamic-import-webpack": "^1.0.2",
+    "babel-preset-env": "^1.6.1",
     "backbone.lovefield": "^0.1.5",
     "backbone.themoviedb": "github:umeboshi2/backbone.themoviedb",
     "bootstrap": "^4.1.1",
