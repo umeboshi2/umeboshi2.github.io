@@ -155,11 +155,12 @@ if BuildEnvironment is 'production'
   UglifyJsPlugin = require 'uglifyjs-webpack-plugin'
   OptimizeCssAssetsPlugin = require 'optimize-css-assets-webpack-plugin'
   extraPlugins.push new CleanPlugin(localBuildDir[BuildEnvironment])
-  extraPlugins.push new CompressionPlugin()
+  #extraPlugins.push new CompressionPlugin()
   WebPackOptimization.minimizer = [
-    new OptimizeCssAssetsPlugin()
-    new UglifyJsPlugin()
-    ]
+   new OptimizeCssAssetsPlugin()
+   new UglifyJsPlugin
+     sourceMap: true
+   ]
   
 
 
@@ -167,6 +168,7 @@ AllPlugins = common_plugins.concat extraPlugins
 
 
 WebPackConfig =
+  devtool: 'source-map'
   mode: BuildEnvironment
   optimization: WebPackOptimization
   entry:
@@ -189,7 +191,7 @@ WebPackConfig =
             options:
               limit: 10000
               mimetype: "application/font-woff"
-              name: "[path][name].[ext]?[hash]"
+              name: "[name]-[hash].[ext]"
           }
         ]
       }
@@ -205,7 +207,8 @@ WebPackConfig =
         ]
       }
       {
-        test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/
+        #test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/
+        test: /\.(ttf|eot|svg)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/
         use: [
           {
             loader: 'file-loader'
