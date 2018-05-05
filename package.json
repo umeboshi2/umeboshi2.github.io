@@ -12,6 +12,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "applet-bumblr": "github:umeboshi2/applet-bumblr",
+    "applet-moviedb": "github:umeboshi2/applet-moviedb",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-dynamic-import-webpack": "^1.0.2",
