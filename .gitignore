@@ -43,6 +43,9 @@ stats-dev.json
 /dist/stats-dev.json.gz
 /dist/manifest.json
 /dist/bundle-stats.json
+/dist/*.map
+/dist/*.map.gz
+
 
 /dist/icons-*/.cache*
 
