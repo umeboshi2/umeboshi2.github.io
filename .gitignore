@@ -66,3 +66,7 @@ stats-dev.json
 /dist/icons-*/*x128.png
 /dist/icons-*/*x120.png
 /dist/icons-*/*x114.png
+
+# ignore symlinked applets
+/src/applets/bumblr
+/src/applets/moviedb

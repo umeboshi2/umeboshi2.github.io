@@ -172,6 +172,11 @@ if BuildEnvironment is 'production'
    new OptimizeCssAssetsPlugin()
    new UglifyJsPlugin
      sourceMap: true
+     uglifyOptions:
+       compress:
+         warnings: true
+       warnings: true
+        
    ]
   
 
