@@ -17,11 +17,8 @@ MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'tvmaze'
 
 data = require '../../../../assets/dev/myshows.json'
-console.log data
 
 shows = new Backbone.Collection data
-console.log "Shows", shows
-
 
 class ImportManager extends Marionette.Object
   channelName: 'tvmaze'
@@ -107,15 +104,13 @@ class MainView extends Marionette.View
   events:
     'click @ui.importButton': 'importShows'
   onRender: ->
-    local_shows = AppChannel.request 'get-local-tvshows'
+    local_shows = AppChannel.request 'get-all-local-tvshows'
     models = shows.models
     console.log "SHOWS", shows, shows.models[0]
     counter = 0
     removals = []
     while counter < shows.length
       model = shows.models[counter]
-      if model.id == 6544
-        console.log "MODEL". model
       lmodel = local_shows.get model.id
       if lmodel
         removals.push model

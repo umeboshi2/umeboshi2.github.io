@@ -99,7 +99,7 @@ class Controller extends MainController
   importSampleData: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      lcollection = AppChannel.request 'get-local-tvshows'
+      lcollection = AppChannel.request 'get-all-local-tvshows'
       Collection = AppChannel.request 'tv-show-search-collection'
       View = require './views/sample-data-import'
       lcollection.fetch().then =>

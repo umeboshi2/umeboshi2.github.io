@@ -26,8 +26,15 @@ class LocalTvShowCollection extends PageableCollection
   loveStore: TvShowStore
   model: LocalTvShow
   mode: 'client'
+
+class AllShowsCollection extends Backbone.Collection
+  loveStore: TvShowStore
+  model: LocalTvShow
   
+all_shows = new AllShowsCollection
 local_shows = new LocalTvShowCollection
+AppChannel.reply 'get-all-local-tvshows', ->
+  return all_shows
 AppChannel.reply 'get-local-tvshows', ->
   return local_shows
 AppChannel.reply 'get-local-tvshow-model', ->
