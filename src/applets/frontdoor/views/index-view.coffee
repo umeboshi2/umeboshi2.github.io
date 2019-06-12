@@ -14,7 +14,7 @@ DefaultStaticDocumentTemplate = tc.renderable (post) ->
     tc.div '.body.col-lg-10.col-lg-offset-1', ->
       tc.raw marked post.content
     
-class MainView extends Backbone.Marionette.View
+class MainView extends Marionette.View
   template: DefaultStaticDocumentTemplate
     
 module.exports = MainView

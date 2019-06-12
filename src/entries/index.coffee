@@ -5,6 +5,7 @@ import ms from 'ms'
 
 import navigate_to_url from 'tbirds/util/navigate-to-url'
 import TopApp from 'tbirds/top-app'
+import createMainApp from 'tbirds/start-main-app'
 import objectEmpty from 'tbirds/util/object-empty'
 
 import './base'
@@ -28,8 +29,7 @@ show_footer = ->
   footer_region = app.getView().getRegion 'footer'
   footer_region.show view
 
-app = new TopApp
-  appConfig: MainAppConfig
+app = createMainApp MainAppConfig
 
 if __DEV__
   # DEBUG attach app to window
