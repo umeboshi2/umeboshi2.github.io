@@ -13,6 +13,15 @@ BuildEnvironment = process.env.NODE_ENV or 'development'
 if BuildEnvironment not in ['development', 'production']
   throw new Error "Undefined environment #{BuildEnvironment}"
 
+BuildEnvironment = require 'tbirds/webpack-config/buildenv'
+DefinePluginOpts = require 'tbirds/webpack-config/define-opts'
+coffeeLoaderRule = require 'tbirds/webpack-config/coffee-loader-rule'
+buildCssLoader = require 'tbirds/webpack-config/sass-loader-chain'
+woffRule = require 'tbirds/webpack-config/woff-rule'
+imgVersionedRule = require 'tbirds/webpack-config/img-file-loader-versioned'
+
+
+
 # handles output filename for js and css
 outputFilename = (ext) ->
   d = "[name].#{ext}"
@@ -80,49 +89,6 @@ loadCssRule =
   test: /\.css$/
   use: ['style-loader', 'css-loader']
 
-sassOptions =
-  includePaths: [
-    'node_modules/compass-mixins/lib'
-    'node_modules/bootstrap/scss'
-  ]
-    
-devCssLoader = [
-  {
-    loader: 'style-loader'
-  },{
-    loader: 'css-loader'
-  },{
-    loader: 'sass-loader'
-    options: sassOptions
-  }
-]
-
-
-miniCssLoader =
-  [
-    MiniCssExtractPlugin.loader
-    {
-      loader: 'css-loader'
-      options:
-        minimize:
-          safe: true
-    #},{
-    #  loader: 'postcss-loader'
-    #  options:
-    #    autoprefixer:
-    #      browsers: ["last 2 versions"]
-    #    plugins: () =>
-    #      [ autoprefixer ]
-    },{
-      loader: "sass-loader"
-      options: sassOptions
-    }
-  ]
-
-buildCssLoader =
-  development: devCssLoader
-  production: miniCssLoader
-  
 common_plugins = [
   new webpack.DefinePlugin DefinePluginOpts[BuildEnvironment]
   # FIXME common chunk names in reverse order
@@ -161,21 +127,22 @@ WebPackOptimization =
   splitChunks:
     chunks: 'all'
 
+terserPluginOptions =
+  sourceMap: true
+  parallel: true
+  terserOptions:
+    warnings: true
+
 if BuildEnvironment is 'production'
   CleanPlugin = require 'clean-webpack-plugin'
   CompressionPlugin = require 'compression-webpack-plugin'
-  UglifyJsPlugin = require 'uglifyjs-webpack-plugin'
   OptimizeCssAssetsPlugin = require 'optimize-css-assets-webpack-plugin'
+  TerserPlugin = require 'terser-webpack-plugin'
   extraPlugins.push new CleanPlugin(localBuildDir[BuildEnvironment])
   #extraPlugins.push new CompressionPlugin()
   WebPackOptimization.minimizer = [
    new OptimizeCssAssetsPlugin()
-   new UglifyJsPlugin
-     sourceMap: true
-     uglifyOptions:
-       compress:
-         warnings: true
-       warnings: true
+   new TerserPlugin terserPluginOptions
         
    ]
   
@@ -199,19 +166,8 @@ WebPackConfig =
         test: /\.scss$/
         use: buildCssLoader[BuildEnvironment]
       }
-      coffeeLoaderRule[BuildEnvironment]
-      {
-        test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/
-        use: [
-          {
-            loader: 'url-loader'
-            options:
-              limit: 10000
-              mimetype: "application/font-woff"
-              name: "[name]-[hash].[ext]"
-          }
-        ]
-      }
+      coffeeLoaderRule.production
+      woffRule
       # FIXME combine next two rules
       {
         test: /\.(gif|png|eot|ttf)?$/
