@@ -46,7 +46,7 @@ class Controller extends MainController
     
   viewPage: (name) ->
     @setupLayoutIfNeeded()
-    doc = DocChannel.request 'get-document', name
+    doc = MainChannel.request 'main:app:get-document', name
     response = doc.fetch()
     response.done =>
       @_viewResource doc
