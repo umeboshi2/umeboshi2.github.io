@@ -2,7 +2,7 @@
 
 ## Tourism Promotion Tax
 
-[details](./taxes/tourism-tax)
+[details](#taxes/pages/taxes/tourism-tax)
 
 
 ## One Percent Hotel and Restaurant Tax
