@@ -133,13 +133,16 @@ terserPluginOptions =
   terserOptions:
     warnings: true
 
+cleanWebpackOpts =
+  verbose: true
+
 if BuildEnvironment is 'production'
-  CleanPlugin = require 'clean-webpack-plugin'
+  { CleanWebpackPlugin } = require 'clean-webpack-plugin'
   CompressionPlugin = require 'compression-webpack-plugin'
   OptimizeCssAssetsPlugin = require 'optimize-css-assets-webpack-plugin'
   TerserPlugin = require 'terser-webpack-plugin'
-  extraPlugins.push new CleanPlugin(localBuildDir[BuildEnvironment])
-  #extraPlugins.push new CompressionPlugin()
+
+  extraPlugins.push new CleanWebpackPlugin(cleanWebpackOpts)
   WebPackOptimization.minimizer = [
    new OptimizeCssAssetsPlugin()
    new TerserPlugin terserPluginOptions
