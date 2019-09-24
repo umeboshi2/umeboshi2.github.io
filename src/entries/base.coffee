@@ -36,9 +36,20 @@ require '../common/static-documents'
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 
+
+
 if __DEV__
   require '../inspector'
   
+currentUser = new Backbone.Model
+  isGuest: true
+  name: 'Guest'
+  fullname: 'Guest User'
+  groups: []
+    
+MainChannel.reply 'main:app:currentUser', ->
+  return currentUser
+
 class BaseModalView extends Marionette.View
   behaviors: [IsEscapeModal]
   ui:
