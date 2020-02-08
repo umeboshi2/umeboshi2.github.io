@@ -31,7 +31,7 @@ class Controller extends MainController
       MessageChannel.request 'warning', "failed to get #{name}"
 
   viewIndex: ->
-    @viewPage 'taxes/index'
+    @viewPage 'govt/index'
       
 export default Controller
 
