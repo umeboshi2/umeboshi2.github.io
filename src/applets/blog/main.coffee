@@ -6,7 +6,7 @@ import AppRouter from 'marionette.approuter'
 
 import Controller from './controller'
 
-appName = 'govt'
+appName = 'blog'
 
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel appName
@@ -14,7 +14,7 @@ AppChannel = Backbone.Radio.channel appName
 appletMenu = [
   {
     label: 'Main Tax Page'
-    url: '#govt'
+    url: '#blog'
     icon: '.fa.fa-newspaper-o'
   }
   ]
@@ -22,8 +22,8 @@ appletMenu = [
 class Router extends AppRouter
   channelName: appName
   appRoutes:
-    'govt': 'viewIndex'
-    'govt/pages/*name': 'viewPage'
+    'blog': 'viewIndex'
+    'blog/pages/*name': 'viewPage'
     
     
 class Applet extends TkApplet

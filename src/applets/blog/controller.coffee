@@ -13,7 +13,7 @@ import FrontDoorMainView from '../frontdoor/views/docview'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'taxes'
+AppChannel = Backbone.Radio.channel 'blog'
 
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
@@ -31,7 +31,7 @@ class Controller extends MainController
       MessageChannel.request 'warning', "failed to get #{name}"
 
   viewIndex: ->
-    @viewPage 'govt/index'
+    @viewPage 'blog/index'
       
 export default Controller
 
