@@ -1,8 +1,8 @@
-# [Taxes](#taxes)
+# [Taxes](#pages/blog/govt/taxes/index)
 
 ## Tourism Promotion Tax
 
-[details](#taxes/pages/taxes/tourism-tax)
+[details](#pages/blog/govt/taxes/tourism-tax)
 
 
 ## One Percent Hotel and Restaurant Tax
@@ -52,4 +52,4 @@ imposing the tax.
 
 ## Two percent Convention Commission Tax
 
-## [Facebook Posts](#taxes/pages/taxes/fbposts/index)
+## [Facebook Posts](#pages/blog/govt/taxes/fbposts/index)

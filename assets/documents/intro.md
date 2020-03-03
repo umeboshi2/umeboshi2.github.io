@@ -15,7 +15,7 @@
 	Search for television shows and store the results in 
 	a local browser database.
 	
-1. [Blog](#blog)
+1. [Blog](#pages/blog/index)
 
 
 This site is running:

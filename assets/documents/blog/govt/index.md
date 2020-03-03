@@ -1,19 +1,21 @@
 
-# [Government](#blog/pages/blog/govt/index)
+## [Government](#pages/blog/govt/index)
 
-## United States
+### United States
 
-### [Waco Hearings](#blog/pages/blog/govt/waco-hearings)
+#### [Waco Hearings](#pages/blog/govt/waco-hearings)
 
-## Mississippi
-
-
-### [Insurrection](#blog/pages/blog/govt/insurrection)
-
-### Hattiesburg
-
-#### [Project NOLA](#blog/pages/blog/govt/nola)
+### Mississippi
 
 
-#### [Taxes](#blog/pages/blog/govt/taxes/index)
+#### [Insurrection](#pages/blog/govt/insurrection)
+
+#### Hattiesburg
+
+##### [Project NOLA](#pages/blog/govt/nola)
+
+##### [Council Minutes](#pages/blog/govt/council-minutes)
+
+
+##### [Taxes](#pages/blog/govt/taxes/index)
 

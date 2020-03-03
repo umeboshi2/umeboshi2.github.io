@@ -1,6 +1,6 @@
 
-## [Government](#blog/pages/blog/govt/index)
+## [Government](#pages/blog/govt/index)
 
-## [Reinforcement Learning](#blog/pages/blog/RL)
+## [Reinforcement Learning](#pages/blog/RL)
 
 
