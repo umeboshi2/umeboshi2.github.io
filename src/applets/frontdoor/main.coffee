@@ -21,7 +21,7 @@ class Router extends Marionette.AppRouter
     # handle empty route
     '': 'viewIndex'
     'frontdoor': 'viewIndex'
-    'pages/:name': 'viewPage'
+    'pages/*name': 'viewPage'
     'frontdoor/dbadmin': 'viewDbAdmin'
     
 class Applet extends TkApplet

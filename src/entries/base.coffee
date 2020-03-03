@@ -7,7 +7,10 @@ import 'bootstrap'
 import 'font-awesome/scss/font-awesome.scss'
 # FIXME need better way to resolve tbirds sass
 if not __useCssModules__
-  require '../../node_modules/tbirds/sass/cornsilk.scss'
+  if __DEV__
+    require '../../node_modules/tbirds/sass/dark.scss'
+  else
+    require '../../node_modules/tbirds/sass/cornsilk-purple.scss'
 else
   require '../../node_modules/tbirds/sass/initial.scss'
 

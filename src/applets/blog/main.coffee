@@ -13,7 +13,7 @@ AppChannel = Backbone.Radio.channel appName
 
 appletMenu = [
   {
-    label: 'Main Tax Page'
+    label: 'Main Blog Page'
     url: '#blog'
     icon: '.fa.fa-newspaper-o'
   }
