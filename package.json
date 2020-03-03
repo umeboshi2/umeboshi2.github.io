@@ -54,7 +54,7 @@
     "sass-loader": "^7.3.1",
     "stats-webpack-plugin": "^0.7.0",
     "style-loader": "^1.0.0",
-    "tbirds": "^0.4.52",
+    "tbirds": "^0.4.57",
     "terser": "^4.3.1",
     "terser-webpack-plugin": "^2.1.0",
     "themoviedb-javascript-library": "^3.0.3",
