@@ -1,6 +1,8 @@
 
 ## [Government](#pages/blog/govt/index)
 
+### [Covid-19](#pages/blog/govt/covid)
+
 ### United States
 
 #### [Waco Hearings](#pages/blog/govt/waco-hearings)
