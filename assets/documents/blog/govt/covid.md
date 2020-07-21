@@ -7,10 +7,23 @@
 
 [Forrest General Hospital](https://fhcovid19.com/)
 
+[Mask Up HBurg](http://maskuphburg.com/index.html)
 
-https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/
 
-https://www.ncbi.nlm.nih.gov/sars-cov-2/
+# Genome Data 
+
+[Novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/)
+
+[NCBI SARS-CoV-2 Resources](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
+
+
+# CDC Pages
+
+[Recent Studies Concerning Cloth Face Masks](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies)
+
+
+# Research Papers
+
 
 https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext
 
