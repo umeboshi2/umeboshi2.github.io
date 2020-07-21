@@ -1,9 +1,13 @@
 
 # Local Data
 
-[Forrest County](https://covidactnow.org/us/ms/county/forrest_county?s=647107)
+MSDH is the source of authority for the information provided to the CDC 
+or whatever federal agency who is currently in charge of receiving the
+data.
 
 [MSDH](https://msdh.ms.gov/msdhsite/_static/14,0,420.html)
+
+[Forrest County](https://covidactnow.org/us/ms/county/forrest_county?s=647107)
 
 [Forrest General Hospital](https://fhcovid19.com/)
 
