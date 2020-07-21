@@ -1,8 +1,12 @@
-https://covidactnow.org/us/ms/county/forrest_county?s=647107
 
-https://msdh.ms.gov/msdhsite/_static/14,0,420.html
+# Local Data
 
-https://fhcovid19.com/
+[Forrest County](https://covidactnow.org/us/ms/county/forrest_county?s=647107)
+
+[MSDH](https://msdh.ms.gov/msdhsite/_static/14,0,420.html)
+
+[Forrest General Hospital](https://fhcovid19.com/)
+
 
 https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/
 
@@ -28,6 +32,7 @@ https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true
 
 https://pubmed.ncbi.nlm.nih.gov/32087116/
 
+https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf
 
 
 
