@@ -16,3 +16,22 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
 
+https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+
+https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true
+
+https://pubmed.ncbi.nlm.nih.gov/32003551/
+
+https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+
+https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true
+
+https://pubmed.ncbi.nlm.nih.gov/32087116/
+
+
+
+
+
+
+http://www.orthodoxytoday.org/articles/SolhenitsynLies.php
+
