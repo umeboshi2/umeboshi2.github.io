@@ -17,6 +17,10 @@ buisiness partners encourage participation in a COVID action platform.
 data on bed usage is provided by this site, but it is unknown how accurate this 
 data is.
 
+[State Executive Orders](https://www.sos.ms.gov/content/executiveorders/) don't
+even exist unless they are published here first.
+
+
 # Genome Data 
 
 [Novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/)
