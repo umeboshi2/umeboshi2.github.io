@@ -1,18 +1,21 @@
 
 # Local Data
 
-MSDH is the source of authority for the information provided to the CDC 
-or whatever federal agency who is currently in charge of receiving the
-data.
+[MSDH](https://msdh.ms.gov/msdhsite/_static/14,0,420.html ) is the source 
+of authority for the information provided to the CDC  or whatever federal 
+agency who is currently in charge of receiving the data.
 
-[MSDH](https://msdh.ms.gov/msdhsite/_static/14,0,420.html)
+[Forrest General Hospital](https://fhcovid19.com/) used to provide local 
+daily data, but decided to stop on June 2, 2020 to inspire and encourage 
+the reopening of our economy.
+
+[Mask Up HBurg](http://maskuphburg.com/index.html) is a local site where 
+buisiness partners encourage participation in a COVID action platform.
+
 
 [Forrest County](https://covidactnow.org/us/ms/county/forrest_county?s=647107)
-
-[Forrest General Hospital](https://fhcovid19.com/)
-
-[Mask Up HBurg](http://maskuphburg.com/index.html)
-
+data on bed usage is provided by this site, but it is unknown how accurate this 
+data is.
 
 # Genome Data 
 
