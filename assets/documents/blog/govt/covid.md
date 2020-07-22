@@ -66,4 +66,8 @@ https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-e
 [Nonpharmaceutical Measures for Pandemic Influenza in Nonhealthcare Settings—Personal Protective and Environmental Measures](https://wwwnc.cdc.gov/eid/article/26/5/19-0994_article)
 
 
+[5G Technology and induction of coronavirus in skin cells](https://pubmed.ncbi.nlm.nih.gov/32668870/)  [full article(pdf)](https://www.biolifesas.org/biolife/wp-content/uploads/2020/07/FIORANELLI.pdf)
+
+[Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
+
 
