@@ -59,6 +59,11 @@ https://pubmed.ncbi.nlm.nih.gov/32087116/
 https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf
 
 
+https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/
+
+
+
+[Nonpharmaceutical Measures for Pandemic Influenza in Nonhealthcare Settings—Personal Protective and Environmental Measures](https://wwwnc.cdc.gov/eid/article/26/5/19-0994_article)
 
 
 
