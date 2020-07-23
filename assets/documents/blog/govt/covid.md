@@ -123,7 +123,8 @@ challenge."
 In their [2018: End of Year Letter](https://medium.com/id2020/2018-end-of-year-letter-b740a83e9df3),
 they stated that "[d]igital identity was a hot topic at the 
 World Economic Forum
-annual meeting in Davos, Switzerland in January."
+annual meeting in [Davos](https://en.wikipedia.org/wiki/Davos), Switzerland 
+in January."
 
 [Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
 
