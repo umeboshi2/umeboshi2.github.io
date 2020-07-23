@@ -52,6 +52,10 @@ Feb 20, 2020
 Feb 21, 2020
 [Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/)
 
+Mar 26, 2020
+[Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/)
+
+May 27, 2020
 [Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext)
 
 
@@ -80,17 +84,16 @@ Feb 21, 2020
 
 
 
-
-https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/
-
+[Ofofecal Transmission Evidence Brief](https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/)
 
 
+## EMF Papers
 
-[5G Technology and induction of coronavirus in skin cells](https://pubmed.ncbi.nlm.nih.gov/32668870/)  [full article(pdf)](https://www.biolifesas.org/biolife/wp-content/uploads/2020/07/FIORANELLI.pdf)
+[5G Technology and induction of coronavirus in skin cells](https://pubmed.ncbi.nlm.nih.gov/32668870/)  [(full article pdf)](https://www.biolifesas.org/biolife/wp-content/uploads/2020/07/FIORANELLI.pdf)
 
 [Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
 
 
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
+
 
