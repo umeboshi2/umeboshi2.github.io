@@ -101,6 +101,8 @@ and under-served groups like refugees. Dakota Gruener is the executive director
 of ID2020. The NGO was relatively unknown before being publicized because of 
 misinformation related to the COVID-19 pandemic by conspiracy theorists."
 
+[Manifesto](https://id2020.org/manifesto)
+
 
 [Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
 
@@ -110,6 +112,7 @@ misinformation related to the COVID-19 pandemic by conspiracy theorists."
 [Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
 
 [ID2020: Digital Identity with Blockchain](https://www.accenture.com/us-en/insight-blockchain-id2020)
+
 
 ## World Economic Forum
 
