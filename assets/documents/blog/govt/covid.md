@@ -93,8 +93,25 @@ Jul 16, 2020
 
 #  Other Stuff
 
+## ID2020
+
+The [ID2020 Digital Identity Alliance](https://id2020.org/), as told by [Wikipedia](https://en.wikipedia.org/wiki/ID2020) "is a nongovernmental organization 
+which advocates for digital ID for the billion undocumented people worldwide 
+and under-served groups like refugees. Dakota Gruener is the executive director 
+of ID2020. The NGO was relatively unknown before being publicized because of 
+misinformation related to the COVID-19 pandemic by conspiracy theorists."
+
+
+[Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
+
+[2018: End of Year Letter](https://medium.com/id2020/2018-end-of-year-letter-b740a83e9df3)
+
+
+[Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
+
 
 ## World Economic Forum
 
 ### AI and Government
+
 https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-procurement-standards-regulation-economic-growth-covid-19-response
