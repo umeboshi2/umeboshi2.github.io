@@ -142,7 +142,10 @@ world's largest corporations."  Their new [manifesto](https://www.weforum.org/ag
 Purpose of a Company in the Fourth Industrial Revolution.*  They have a 
 [strategic intelligence](https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications&type=Global+Issues) page for COVID-19.
 
-
+In a recent video titled, 
+[Creating a Credible and Trusted Digital Currency | DAVOS 2020](https://www.youtube.com/watch?v=mzkU1RHovgQ), speakers explore "[t]he possibility of a trusted 
+*global digital currency* [which] has sparked political, economic and 
+regulatory discussions worldwide."
 
 
 
