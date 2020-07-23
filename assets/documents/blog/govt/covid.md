@@ -70,9 +70,7 @@ May 27, 2020
 
 [Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
 
-[Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
-
-
+## [Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
 
 Jul 16, 2020
 [SARS-CoV-2 and the Role of Orofecal Transmission: Evidence Brief](https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/) [(PDF)](https://www.cebm.net/wp-content/uploads/2020/07/SARS-CoV-2-and-the-Role-of-Orofecal-Transmission-Evidence-Brief-2.pdf)
