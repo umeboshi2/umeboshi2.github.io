@@ -21,11 +21,6 @@ data is.
 even exist unless they are published here first.
 
 
-# Genome Data 
-
-NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
-
-
 # CDC Pages
 
 [Recent Studies Concerning Cloth Face Masks](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies)
@@ -35,6 +30,19 @@ NCBI announces that the [novel coronavirus complete genome from the Wuhan outbre
 [Targeted Social Distancing Designs for Pandemic Influenza](https://wwwnc.cdc.gov/eid/article/12/11/06-0255_article)
 
 [CDC First travel-related case of 2019 novel coronavirus detected in United States. Jan 21, 2020.](https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html)
+
+
+# Virus Nanotechnology
+
+[Virus Nanotechnology on Wikipedia](https://en.wikipedia.org/wiki/Virus_nanotechnology)
+
+
+[Design of virus-based nanomaterials for medicine, biotechnology, and energy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/)
+
+
+#@ Genome Data 
+
+NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
 
 
 # Research Papers
@@ -83,6 +91,10 @@ Jul 16, 2020
 [Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
 
 
+#  Other Stuff
 
 
+## World Economic Forum
 
+### AI and Government
+https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-procurement-standards-regulation-economic-growth-covid-19-response
