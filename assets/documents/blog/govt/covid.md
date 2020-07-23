@@ -109,6 +109,7 @@ misinformation related to the COVID-19 pandemic by conspiracy theorists."
 
 [Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
 
+[ID2020: Digital Identity with Blockchain](https://www.accenture.com/us-en/insight-blockchain-id2020)
 
 ## World Economic Forum
 
