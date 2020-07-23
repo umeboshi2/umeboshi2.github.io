@@ -35,22 +35,21 @@ even exist unless they are published here first.
 
 # Research Papers
 
+[Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext)
 
-https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext
+[Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges](https://pubmed.ncbi.nlm.nih.gov/32081636/)
 
-https://pubmed.ncbi.nlm.nih.gov/32081636/
+[Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/)
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/
+[SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+[PDF](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
 
-https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://pubmed.ncbi.nlm.nih.gov/32003551/)
 
-https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true
+This is the full article.
+[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 
-https://pubmed.ncbi.nlm.nih.gov/32003551/
-
-https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
 
 https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true
 
@@ -70,8 +69,8 @@ https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-e
 
 [Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
 
+[Targeted Social Distancing Designs for Pandemic Influenza](https://wwwnc.cdc.gov/eid/article/12/11/06-0255_article)
 
-https://www.facebook.com/umeboshi3/posts/3093764577405960
 
-
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
 
