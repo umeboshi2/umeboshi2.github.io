@@ -138,8 +138,15 @@ annual meeting in Davos, Switzerland in January."
 The [World Economic Forum](https://www.weforum.org/), according to
 [wikipedia](https://en.wikipedia.org/wiki/World_Economic_Forum),
 "is a membership-based organization, and membership is made up of the 
-world's largest corporations."  Their new [manifesto](https://www.weforum.org/agenda/2019/12/davos-manifesto-2020-the-universal-purpose-of-a-company-in-the-fourth-industrial-revolution/) is titled: The Universal 
-Purpose of a Company in the Fourth Industrial Revolution.
+world's largest corporations."  Their new [manifesto](https://www.weforum.org/agenda/2019/12/davos-manifesto-2020-the-universal-purpose-of-a-company-in-the-fourth-industrial-revolution/) is titled: *The Universal 
+Purpose of a Company in the Fourth Industrial Revolution.*  They have a 
+[strategic intelligence](https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications&type=Global+Issues) page for COVID-19.
+
+
+
+
+
+
 
 ### AI and Government
 
