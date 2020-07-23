@@ -44,7 +44,7 @@ Jan 21, 2020
 
 Feb 17, 2020
 [Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/) Int J Antimicrob Agents. 2020 Mar; 55(3): 105924.
-Published online 2020 Feb 17. [pubmed](https://pubmed.ncbi.nlm.nih.gov/32081636/)
+Published online 2020 Feb 17. [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32081636/)
 
 Feb 20, 2020
 [A Novel Coronavirus from Patients with Pneumonia in China, 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092803/)
@@ -58,13 +58,13 @@ Feb 21, 2020
 
 
 [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
-[PDF](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
+[(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
 
 
-[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [pubmed](https://pubmed.ncbi.nlm.nih.gov/32003551/) [PDF](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
+[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
 
 
-[Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [PDF](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [supplement pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
+[Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
 
 
 
