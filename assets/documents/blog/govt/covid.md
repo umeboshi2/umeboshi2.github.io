@@ -71,3 +71,7 @@ https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-e
 [Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
 
 
+https://www.facebook.com/umeboshi3/posts/3093764577405960
+
+
+
