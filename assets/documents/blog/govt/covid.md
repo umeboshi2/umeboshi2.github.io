@@ -102,7 +102,7 @@ Jul 16, 2020
 
 #  Other Stuff
 
-## ID2020
+## ID2020 Digital Identity Alliance
 
 The [ID2020 Digital Identity Alliance](https://id2020.org/), as told by [Wikipedia](https://en.wikipedia.org/wiki/ID2020) "is a nongovernmental organization 
 which advocates for digital ID for the billion undocumented people worldwide 
@@ -115,15 +115,17 @@ The [partnership](https://id2020.org/alliance) consists of
 [GAVI](https://en.wikipedia.org/wiki/GAVI), 
 [The Rockefeller Foundation](https://en.wikipedia.org/wiki/Rockefeller_Foundation), 
 [Microsoft](https://en.wikipedia.org/wiki/Microsoft), 
-and [IDEO](https://en.wikipedia.org/wiki/IDEO)). They 
+and [IDEO](https://en.wikipedia.org/wiki/IDEO). They 
 have a [manifesto](https://id2020.org/manifesto) and "[a]n approach that is 
-*holistic*, *market-based* and addresses the full scope and scale of the 
+**holistic, market-based** and addresses the full scope and scale of the 
 challenge."
-
+In their [2018: End of Year Letter](https://medium.com/id2020/2018-end-of-year-letter-b740a83e9df3),
+they stated that "[d]igital identity was a hot topic at the 
+World Economic Forum
+annual meeting in Davos, Switzerland in January."
 
 [Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
 
-[2018: End of Year Letter](https://medium.com/id2020/2018-end-of-year-letter-b740a83e9df3)
 
 
 [Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
@@ -132,6 +134,12 @@ challenge."
 
 
 ## World Economic Forum
+
+The [World Economic Forum](https://www.weforum.org/), according to
+[wikipedia](https://en.wikipedia.org/wiki/World_Economic_Forum),
+"is a membership-based organization, and membership is made up of the 
+world's largest corporations."  Their new [manifesto](https://www.weforum.org/agenda/2019/12/davos-manifesto-2020-the-universal-purpose-of-a-company-in-the-fourth-industrial-revolution/) is titled: The Universal 
+Purpose of a Company in the Fourth Industrial Revolution.
 
 ### AI and Government
 
