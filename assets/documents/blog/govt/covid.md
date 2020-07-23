@@ -40,7 +40,7 @@ even exist unless they are published here first.
 [Design of virus-based nanomaterials for medicine, biotechnology, and energy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/)
 
 
-#@ Genome Data 
+## Genome Data 
 
 NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
 
@@ -60,8 +60,14 @@ Feb 20, 2020
 Feb 21, 2020
 [Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/)
 
+Mar 20, 2020
+[What we know so far: COVID-19 current clinical knowledge and research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7081812/)
+
 Mar 26, 2020
 [Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/)
+
+May 11, 2020
+[Melatonin Inhibits COVID-19-induced Cytokine Storm by Reversing Aerobic Glycolysis in Immune Cells: A Mechanistic Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7211589/)
 
 May 27, 2020
 [Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext)
@@ -78,6 +84,7 @@ May 27, 2020
 
 [Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
 
+
 ## [Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
 
 Jul 16, 2020
@@ -90,6 +97,8 @@ Jul 16, 2020
 
 [Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
 
+[Protection of the population health from electromagnetic hazards - challenges resulting from the implementation of the 5G network planned in Poland](https://pubmed.ncbi.nlm.nih.gov/31793559/)
+
 
 #  Other Stuff
 
@@ -101,7 +110,15 @@ and under-served groups like refugees. Dakota Gruener is the executive director
 of ID2020. The NGO was relatively unknown before being publicized because of 
 misinformation related to the COVID-19 pandemic by conspiracy theorists."
 
-[Manifesto](https://id2020.org/manifesto)
+The [partnership](https://id2020.org/alliance) consists of 
+[Accenture](https://en.wikipedia.org/wiki/Accenture), 
+[GAVI](https://en.wikipedia.org/wiki/GAVI), 
+[The Rockefeller Foundation](https://en.wikipedia.org/wiki/Rockefeller_Foundation), 
+[Microsoft](https://en.wikipedia.org/wiki/Microsoft), 
+and [IDEO](https://en.wikipedia.org/wiki/IDEO)). They 
+have a [manifesto](https://id2020.org/manifesto) and "[a]n approach that is 
+*holistic*, *market-based* and addresses the full scope and scale of the 
+challenge."
 
 
 [Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
