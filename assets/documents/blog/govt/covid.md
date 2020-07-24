@@ -157,7 +157,9 @@ that the COVID-19 pandemic is linked to the destruction of nature."
 ### Covid-19
 
 The WEF has a [focus](https://www.weforum.org/focus/coronavirus-covid-19) on the 
-COVID-19 crisis.
+COVID-19 crisis. They have a 
+[transformation map](https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications&type=Global+Issues) to respond to the COVID-19 pandemic..
+
 
 
 In a recent video titled, 
