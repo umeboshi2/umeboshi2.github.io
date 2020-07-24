@@ -143,6 +143,8 @@ The [World Economic Forum](https://www.weforum.org/), according to
 world's largest corporations."  Their new [manifesto](https://www.weforum.org/agenda/2019/12/davos-manifesto-2020-the-universal-purpose-of-a-company-in-the-fourth-industrial-revolution/) is titled: *The Universal 
 Purpose of a Company in the Fourth Industrial Revolution.*  They have a 
 [strategic intelligence](https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications&type=Global+Issues) page for COVID-19.
+"In April 2020, the forum published an article that postulates 
+that the COVID-19 pandemic is linked to the destruction of nature."
 
 In a recent video titled, 
 [Creating a Credible and Trusted Digital Currency | DAVOS 2020](https://www.youtube.com/watch?v=mzkU1RHovgQ), speakers explore "[t]he possibility of a trusted 
