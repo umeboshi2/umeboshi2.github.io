@@ -126,8 +126,12 @@ World Economic Forum
 annual meeting in [Davos](https://en.wikipedia.org/wiki/Davos), Switzerland 
 in January."
 
-[Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
+### Partners
 
+
+### Links
+
+[Dakota Gruener Of ID2020 At The 2017 World Economic Forum](https://www.salesforce.com/video/449313/)
 
 
 [Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
