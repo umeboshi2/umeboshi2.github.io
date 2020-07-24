@@ -154,12 +154,21 @@ Purpose of a Company in the Fourth Industrial Revolution.*  They have a
 "In April 2020, the forum published an article that postulates 
 that the COVID-19 pandemic is linked to the destruction of nature."
 
+### Covid-19
+
+The WEF has a [focus](https://www.weforum.org/focus/coronavirus-covid-19) on the 
+COVID-19 crisis.
+
+
 In a recent video titled, 
 [Creating a Credible and Trusted Digital Currency | DAVOS 2020](https://www.youtube.com/watch?v=mzkU1RHovgQ), speakers explore "[t]he possibility of a trusted 
 *global digital currency* [which] has sparked political, economic and 
 regulatory discussions worldwide."
 
 
+### The Great Reset
+
+[The Great Reset requires FinTechs – and FinTechs require a common approach to cybersecurity](https://www.weforum.org/agenda/2020/07/great-reset-fintech-financial-technology-cybersecurity-controls-cyber-resilience-businesses-consumers/)
 
 
 
