@@ -130,11 +130,27 @@ in January."
 
 #### Accenture
 
-[ID2020: Digital Identity with Blockchain](https://www.accenture.com/us-en/insight-blockchain-id2020)
+“Everyone shall have the right to recognition everywhere as a person before 
+the law.” Article 6 of the Universal Declaration of Human Rights
+
+"Our solution is personal, private and portable, empowering individuals to 
+access and share appropriate information when convenient and without the worry 
+of using or losing paper documentation. To solve problems faced by people who 
+lack official identities face, Accenture leverages its Unique Identity Service 
+Platform to deploy a breakthrough **biometrics system that can manage 
+fingerprints, iris scans and other data.**" (emphasis added)
+"Accenture has joined the ID2020 Alliance with partners like Microsoft to 
+create an open, human-centric approach to identity. The alliance draws on 
+advances in biometrics and innovative technologies and brings together 
+expertise from business, government and non-government agencies. Our experts 
+at the Dublin Innovation Center contribute cross-functional and cross-cultural 
+expertise to drive it forward in collaboration with both UN and other global 
+humanitarian organizations. Get in touch with us."
+[ID2020: Digital Identity with Blockchain](https://www.accenture.com/us-en/insight-blockchain-id2020) 
 
 #### GAVI
 
-"GAVI's approach to public health has been described as business-oriented and technology-focused, using market-oriented measures, and seeking quantifiable results. This model, termed the "Gates approach" or US-type approach, GAVI is taken to exemplify." [wikipedia](https://en.wikipedia.org/wiki/GAVI) 
+"GAVI's approach to public health has been described as business-oriented and technology-focused, using market-oriented measures, and seeking quantifiable results. This model, termed the "Gates approach" or US-type approach, GAVI is taken to exemplify." [(wikipedia)](https://en.wikipedia.org/wiki/GAVI) 
 
 ##### Global Vaccine Summit 2020
 
@@ -144,7 +160,8 @@ immunisation coverage and global health security in the face of the COVID-19
 pandemic. The virtual event raised US$ 8.8 billion from 32 donor governments 
 and 12 foundations, corporations and organisations to immunise 300 million 
 children and support the global fight against 
-COVID-19." [youtube](https://www.youtube.com/watch?v=_pV1U9s3vJ0)
+COVID-19." 
+[(youtube of Trump supporting GAVI)](https://www.youtube.com/watch?v=_pV1U9s3vJ0)
 
 
 
