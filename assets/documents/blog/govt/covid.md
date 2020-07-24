@@ -126,6 +126,12 @@ World Economic Forum
 annual meeting in [Davos](https://en.wikipedia.org/wiki/Davos), Switzerland 
 in January."
 
+"In May 2016, at the United Nations Headquarters in New York, PwC was, along 
+with Microsoft, one of the principal sponsors of the inaugural ID2020 Summit."
+[(wikipedia)](https://en.wikipedia.org/wiki/PricewaterhouseCoopers#ID2020)
+
+
+
 ### Partners
 
 #### Accenture
@@ -150,7 +156,19 @@ humanitarian organizations. Get in touch with us."
 
 #### GAVI
 
-"GAVI's approach to public health has been described as business-oriented and technology-focused, using market-oriented measures, and seeking quantifiable results. This model, termed the "Gates approach" or US-type approach, GAVI is taken to exemplify." [(wikipedia)](https://en.wikipedia.org/wiki/GAVI) 
+"GAVI's approach to public health has been described as business-oriented and 
+technology-focused, using market-oriented measures, and seeking quantifiable 
+results. This model, termed the "Gates approach" or US-type approach, GAVI is 
+taken to exemplify." 
+"GAVI brings together developing country and donor governments, the 
+World Health Organization, UNICEF, the World Bank, the vaccine industry in 
+both industrialised and developing countries, research and technical 
+agencies, civil society, the Bill & Melinda Gates Foundation and other 
+private philanthropists. GAVI has observer status at the World Health Assembly.
+"The [Bill and Melinda Gates Foundation](https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation)
+has donated $1.56 billion to the 
+alliance's 2016-2020 strategic period, as of March 2019."
+[(wikipedia)](https://en.wikipedia.org/wiki/GAVI) 
 
 ##### Global Vaccine Summit 2020
 
@@ -172,6 +190,8 @@ COVID-19."
 
 [Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
 
+This article covers the inaugural ID2020 summit.
+[Fighting for a Secure Digital Identity for All](https://redmondmag.com/articles/2016/07/01/common-cause.aspx)
 
 ## World Economic Forum
 
