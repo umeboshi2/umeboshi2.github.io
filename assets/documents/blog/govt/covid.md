@@ -1,4 +1,5 @@
-#### [Parent](#pages/blog/govt/index)
+This page no longer updated, go [here](#pages/blog/cv19/general-info)
+instead.
 
 # Local Data
 
