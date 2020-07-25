@@ -16,8 +16,6 @@ focus on the transmission of the infection.
 
 1. Bai: [Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
 
-	1. [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
-
 1. Kimball: [Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a Long-Term Care Skilled Nursing Facility — King County, Washington, March 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7119514/)
 
 1. Wei: [Presymptomatic Transmission of SARS-CoV-2 — Singapore, January 23–March 16, 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/)
@@ -32,13 +30,22 @@ focus on the transmission of the infection.
 
 1. Schwartz: [Lack of COVID-19 transmission on an international flight](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7162437/)
 
+
+## Extra Research
+
+1. [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
+   This paper discusses false negative and false positive rates of RT-PCR 
+   tests.
+   
+
 # Notes
 
-**Rothe:**  In Germany, patient A becomes ill on Jan 24.  Before symptoms, he meets with patient B on Jan 21 and Jan 22.  She is in Germany between Jan 19 
-and 22,  with no symptoms, but becomes ill on her flight back to China.  Other 
-patients were found to be infected later.  This paper suggests that Patient A 
-transitted the virus to Patient B.  If this is true, it idicates transmission 
-prior to developing symptoms.
+**Rothe:**  In Germany, patient A becomes ill on Jan 24.  Before symptoms, 
+he meets with patient B on Jan 21 and Jan 22.  Patient B is in Germany between 
+Jan 19 and 22,  with no symptoms, but becomes ill on her flight back to China.  
+Other patients were found to be infected later.  This paper suggests that 
+Patient A transitted the virus to Patient B.  If this is true, it idicates 
+transmission prior to developing symptoms.
 
 **Zou:**  This paper reports on 18 patients, with a single patient, Z, being
 completely asymptomatic.  Patient Z tested positive and a viral load was 
@@ -53,6 +60,21 @@ tested positive for the virus.  The paper acknowledges that any one of those
 patients could have been the first one, then presumes that one of them must 
 have infected the other two.  The paper expresses concern that asymptomatic 
 people may be unaware of their infection.
+
+**Bai:**  This paper concerns six patients, with patient A being asymptomatic.  
+The five patients did not come into known contact with any person who tested 
+positive for covid, except patient A.  The timeline is difficult to review for 
+a person with poor eyesight, but the paper indicates a lengty incubation period. 
+While asymptomatic tranmission is also presumed in this paper, this paper 
+provides better support for the premise of asymptomatic transmission than the 
+other papers so far.  Even so, as with the other papers reviewed, there remains 
+the possibility that infections originated in another person with mild symptoms 
+who was never known about or identified.  Also, the paper hints at being 
+inconclusive and requests further study of "[t]he mechanism by which 
+asymptomatic carriers could acquire and transmit the coronavirus that causes 
+COVID-19."
+
+
 
 
 
