@@ -24,8 +24,8 @@
 	1. [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
 
 
+# More Research Papers
 
-##############################################
 Feb 20, 2020
 [A Novel Coronavirus from Patients with Pneumonia in China, 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092803/)
 
