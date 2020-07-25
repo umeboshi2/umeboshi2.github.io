@@ -18,3 +18,5 @@ a global pandemic.
 1. [World Economic Forum](#pages/blog/cv19/wef)
 
 1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
+
+1. [The Johns Hopkins Center for Health Security (JHCHS)](#pages/blog/cv19/jhchs)
