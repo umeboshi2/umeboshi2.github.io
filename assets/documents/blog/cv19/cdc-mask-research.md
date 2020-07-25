@@ -12,12 +12,17 @@
 
 # Research Papers
 
-Jan 21, 2020
-[Notes from the Field: A Novel Coronavirus Genome Identified in a Cluster of Pneumonia Cases — Wuhan, China 2019−2020](http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e-4253b453d10c)
 
-Feb 17, 2020
-[Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/) Int J Antimicrob Agents. 2020 Mar; 55(3): 105924.
-Published online 2020 Feb 17. [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32081636/)
+[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
+
+[SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+[(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
+
+[Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
+
+[Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
+
+
 
 Feb 20, 2020
 [A Novel Coronavirus from Patients with Pneumonia in China, 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092803/)
@@ -44,19 +49,12 @@ June 26, 2020
 [Ensuring Uptake of Vaccines against SARS-CoV-2](https://www.nejm.org/doi/full/10.1056/NEJMp2020926)
 
 
-[SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
-[(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
 
 
-[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
+Jan 21, 2020
+[Notes from the Field: A Novel Coronavirus Genome Identified in a Cluster of Pneumonia Cases — Wuhan, China 2019−2020](http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e-4253b453d10c)
 
-
-[Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
-
-
-## [Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
-
-Jul 16, 2020
-[SARS-CoV-2 and the Role of Orofecal Transmission: Evidence Brief](https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/) [(PDF)](https://www.cebm.net/wp-content/uploads/2020/07/SARS-CoV-2-and-the-Role-of-Orofecal-Transmission-Evidence-Brief-2.pdf)
-
+Feb 17, 2020
+[Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/) Int J Antimicrob Agents. 2020 Mar; 55(3): 105924.
+Published online 2020 Feb 17. [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32081636/)
 
