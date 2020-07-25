@@ -21,7 +21,7 @@
 
 1. [Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
 
-[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
+	1, [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
 
 
 Feb 20, 2020
