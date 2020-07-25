@@ -1,4 +1,4 @@
-#### [Parent](#pages/blog/govt/index)
+#### [Parent](#pages/blog/cv19/index)
 
 # CDC Pages
 
