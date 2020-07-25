@@ -12,16 +12,16 @@
 
 # Research Papers
 
+1, [Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
 
-[Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
-
-[SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+1. [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
 
-[Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
+1. [Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
 
-[Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
+1. [Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
 
+[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
 
 
 Feb 20, 2020
