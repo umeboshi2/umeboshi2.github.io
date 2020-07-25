@@ -40,6 +40,8 @@ even exist unless they are published here first.
 
 [Design of virus-based nanomaterials for medicine, biotechnology, and energy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/)
 
+Dec 17, 2010
+[The Art of Engineering Viral Nanoparticles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3156490/)
 
 ## Genome Data 
 
@@ -76,7 +78,8 @@ May 11, 2020
 May 27, 2020
 [Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext)
 
-
+June 26, 2020
+[Ensuring Uptake of Vaccines against SARS-CoV-2](https://www.nejm.org/doi/full/10.1056/NEJMp2020926)
 
 
 [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
@@ -238,6 +241,18 @@ regulatory discussions worldwide."
 https://www.msn.com/en-us/news/politics/introducing-the-great-reset-world-leaders-radical-plan-to-transform-the-economy/ar-BB15XGsU
 
 
+"In the latest Great Reset dialogue, John Kerry, Jan Vapaavuori, Hilary Cottam, 
+Mohammad Jaafar, Bob Moritz, Geraldine Matchett, Dr Phillip Atiba Goff, 
+discuss how to rebuild the ‘social contract’ in a world where millions of 
+people have lost their jobs and faith in democracy is under extreme pressure.
+
+The World Economic Forum is the International Organization for Public-Private 
+Cooperation. The Forum engages the foremost political, business, cultural and 
+other leaders of society to shape global, regional and industry agendas. We 
+believe that progress happens by bringing together people from all walks of 
+life who have the drive and the influence to make positive change."
+[Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](https://www.youtube.com/watch?v=ddGQTcuV-eg)
+
 
 ### AI and Government
 
@@ -267,3 +282,21 @@ https://www.facebook.com/umeboshi3/posts/3066824053433346
 https://www.facebook.com/umeboshi3/posts/3065542266894858
 
 https://www.facebook.com/umeboshi3/posts/3064885813627170
+
+https://www.facebook.com/umeboshi3/posts/3056227214493030
+
+https://www.facebook.com/umeboshi3/posts/3046089582173460
+
+https://www.facebook.com/umeboshi3/posts/3038445932937825
+
+https://www.facebook.com/umeboshi3/posts/3036001356515616
+
+https://www.facebook.com/umeboshi3/posts/3035901196525632
+
+https://www.facebook.com/umeboshi3/posts/3035837379865347
+
+https://www.facebook.com/umeboshi3/posts/3035700676545684
+
+https://www.facebook.com/ana.chaopalanca/posts/1428060934046365
+
+
