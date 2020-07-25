@@ -6,7 +6,7 @@ a global pandemic.
 1. [General Information](#pages/blog/cv19/general-info)
 
 1. [CDC Mask Research](#pages/blog/cv19/cdc-mask-research)
-   Papwrs on the ability to transmit an infection.
+   Papers on the ability to transmit an infection.
 
 ## Related Topics
 
