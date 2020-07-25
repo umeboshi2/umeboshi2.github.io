@@ -1,6 +1,6 @@
 [Parent](#pages/blog/cv19/index)
 
-# Data for Mississippi and Forrest County
+# Data for Mississippi
 
 [MSDH](https://msdh.ms.gov/msdhsite/_static/14,0,420.html ) is the source 
 of authority for the information provided to the CDC  or whatever federal 
@@ -14,7 +14,7 @@ the reopening of our economy.
 data on bed usage is provided by this site, but it is unknown how accurate this 
 data is.
 
-# Resources for Mississippi and Forrest County
+# Resources for Mississippi
 
 [State Executive Orders](https://www.sos.ms.gov/content/executiveorders/) don't
 even exist unless they are published here first.
