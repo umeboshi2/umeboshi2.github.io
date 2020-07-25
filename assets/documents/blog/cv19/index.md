@@ -3,6 +3,7 @@
 This is an exploration into some of the topics encountered during
 a global pandemic.
 
+1. [General Information](#pages/blog/cv19/general-info)
 
 1. [CDC Mask Research](#pages/blog/cv19/cdc-mask-research)
 

@@ -1,4 +1,4 @@
-#### [Parent](#pages/blog/cv19/index)
+[Parent](#pages/blog/cv19/index)
 
 ## World Economic Forum
 
