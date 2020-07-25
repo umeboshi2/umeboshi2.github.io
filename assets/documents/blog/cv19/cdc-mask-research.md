@@ -61,7 +61,7 @@ patients could have been the first one, then presumes that one of them must
 have infected the other two.  The paper expresses concern that asymptomatic 
 people may be unaware of their infection.
 
-**Bai:**  This paper concerns six patients, with patient A being asymptomatic.  
+**Bai:**  This paper concerns six patients, with patient A being asymptomatic.
 The five patients did not come into known contact with any person who tested 
 positive for covid, except patient A.  The timeline is difficult to review for 
 a person with poor eyesight, but the paper indicates a lengty incubation period. 
