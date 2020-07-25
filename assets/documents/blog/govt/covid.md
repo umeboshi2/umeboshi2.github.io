@@ -67,6 +67,9 @@ Mar 20, 2020
 Mar 26, 2020
 [Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/)
 
+April 1, 2020
+[Universal Masking in Hospitals in the Covid-19 Era](https://www.nejm.org/doi/full/10.1056/NEJMp2006372)
+
 May 11, 2020
 [Melatonin Inhibits COVID-19-induced Cytokine Storm by Reversing Aerobic Glycolysis in Immune Cells: A Mechanistic Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7211589/)
 
@@ -181,6 +184,8 @@ children and support the global fight against
 COVID-19." 
 [(youtube of Trump supporting GAVI)](https://www.youtube.com/watch?v=_pV1U9s3vJ0)
 
+#### The Rockefeller Foundation
+
 
 
 ### Links
@@ -190,8 +195,16 @@ COVID-19."
 
 [Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
 
-This article covers the inaugural ID2020 summit.
+This article from June 23, 2016 covers the inaugural ID2020 summit.
 [Fighting for a Secure Digital Identity for All](https://redmondmag.com/articles/2016/07/01/common-cause.aspx)
+
+## Bill and Melinda Gates Foundation
+
+The Bill and Melinda Gates Foundation "is reported to be the largest private foundation in the world, holding $46.8 billion in assets. The primary goals of the 
+foundation are, globally, to enhance healthcare and reduce extreme poverty, 
+and, in the U.S., to expand educational opportunities and access to information 
+technology."
+[(wikipedia)](https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation)
 
 ## World Economic Forum
 
@@ -222,8 +235,35 @@ regulatory discussions worldwide."
 
 [The Great Reset requires FinTechs – and FinTechs require a common approach to cybersecurity](https://www.weforum.org/agenda/2020/07/great-reset-fintech-financial-technology-cybersecurity-controls-cyber-resilience-businesses-consumers/)
 
+https://www.msn.com/en-us/news/politics/introducing-the-great-reset-world-leaders-radical-plan-to-transform-the-economy/ar-BB15XGsU
+
 
 
 ### AI and Government
 
 https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-procurement-standards-regulation-economic-growth-covid-19-response
+
+
+## Unsorted FB posts
+
+https://www.facebook.com/umeboshi3/posts/3075619119220506
+
+https://www.facebook.com/umeboshi3/posts/3075587569223661
+
+https://www.facebook.com/umeboshi3/posts/3072614586187626
+
+https://www.facebook.com/umeboshi3/posts/3072495412866210
+
+https://www.facebook.com/umeboshi3/posts/3070183903097361
+
+https://www.facebook.com/umeboshi3/posts/3070141243101627
+
+https://www.facebook.com/umeboshi3/posts/3069903593125392
+
+https://www.facebook.com/umeboshi3/posts/3067384423377309
+
+https://www.facebook.com/umeboshi3/posts/3066824053433346
+
+https://www.facebook.com/umeboshi3/posts/3065542266894858
+
+https://www.facebook.com/umeboshi3/posts/3064885813627170
