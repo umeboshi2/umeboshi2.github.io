@@ -22,6 +22,10 @@ even exist unless they are published here first.
 [Mask Up HBurg](http://maskuphburg.com/index.html) is a local site where 
 buisiness partners encourage participation in a COVID action platform.
 
+# Genome Data 
+
+NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
+
 # CDC Pages
 
 [Recent Studies Concerning Cloth Face Masks](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies)
@@ -31,22 +35,6 @@ buisiness partners encourage participation in a COVID action platform.
 [Targeted Social Distancing Designs for Pandemic Influenza](https://wwwnc.cdc.gov/eid/article/12/11/06-0255_article)
 
 [CDC First travel-related case of 2019 novel coronavirus detected in United States. Jan 21, 2020.](https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html)
-
-
-# Virus Nanotechnology
-
-[Virus Nanotechnology on Wikipedia](https://en.wikipedia.org/wiki/Virus_nanotechnology)
-
-
-[Design of virus-based nanomaterials for medicine, biotechnology, and energy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/)
-
-Dec 17, 2010
-[The Art of Engineering Viral Nanoparticles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3156490/)
-
-## Genome Data 
-
-NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
-
 
 # Research Papers
 
