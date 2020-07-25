@@ -3,10 +3,8 @@
 # CDC Mask Research
 
 The CDC recommendation for cloth mask usage by the general public is based on 
-[recent studies](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies).  The focus will be on the 
-transmission of the infection; the first eleven papers were chosen for their
-potetial to be in focus.
-
+[recent studies](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies).  The first eleven papers help
+focus on the transmission of the infection.
 
 1. Rothe: [Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7120970/)
 
