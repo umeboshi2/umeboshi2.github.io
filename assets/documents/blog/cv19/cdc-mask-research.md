@@ -47,6 +47,12 @@ is no indication that patient Z ever transmitted an infection, but the viral
 load present in patient Z, along with a reference to *Rothe,* is the basis for
 a call to further research on the potential of asymptomatic transmission.
 
+**Pan:**  In this paper, a man, his wife, and his son traveled by train from 
+Wuhan to Guangzhou.  The man develops symptoms four days later.  All three 
+tested positive for the virus.  The paper acknowledges that any one of those
+patients could have been the first one, then presumes that one of them must 
+have infected the other two.  The paper expresses concern that asymptomatic 
+people may be unaware of their infection.
 
 
 
