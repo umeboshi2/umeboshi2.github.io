@@ -16,6 +16,11 @@ a global pandemic.
    This amazing technology uses viral nanoparticles to accomplish very 
    interesting things that would be difficult to do using traditional
    technology.
+   
+1. [Radio Frequency Technology](#pages/blog/cv19/emf)
+   The pandemic is contemporary to a massive rollout of RF technology where
+   the United States and China compete in a race to develop an artificial
+   intelligence infrastructure.
 
 1. [ID2020](#pages/blog/cv19/id2020) is a public-private consortium in 
    service of the United Nations 2030 Sustainable Development Goal of 
