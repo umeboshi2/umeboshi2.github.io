@@ -31,3 +31,9 @@ a global pandemic.
 
 1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
 
+## Topics Indirectly Related to Covid 19
+
+1. [Miscellaneous](#pages/blog/cv19/misc)
+
+
+
