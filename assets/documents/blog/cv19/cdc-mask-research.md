@@ -23,6 +23,8 @@
 
 	1. [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
 
+1. [Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a Long-Term Care Skilled Nursing Facility — King County, Washington, March 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7119514/)
+
 
 # More Research Papers
 
