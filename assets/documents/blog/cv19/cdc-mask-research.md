@@ -29,7 +29,7 @@
 
 1. Li: [Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164387/)
 
-1. Furukawa: [Evidence Supporting Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 While Presymptomatic or Asymptomatic](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article)
+1. Furukawa: [Evidence Supporting Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 While Presymptomatic or Asymptomatic](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article) [(pubmed archive)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323549/?report=classic)
 
 
 
