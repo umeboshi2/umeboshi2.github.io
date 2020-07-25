@@ -34,11 +34,18 @@ focus on the transmission of the infection.
 
 # Notes
 
-**Rothe**:  In Germany, patient A becomes ill on Jan 24.  Before symptoms, he meets with patient B on Jan 21 and Jan 22.  She is in Germany between Jan 19 
+**Rothe:**  In Germany, patient A becomes ill on Jan 24.  Before symptoms, he meets with patient B on Jan 21 and Jan 22.  She is in Germany between Jan 19 
 and 22,  with no symptoms, but becomes ill on her flight back to China.  Other 
 patients were found to be infected later.  This paper suggests that Patient A 
 transitted the virus to Patient B.  If this is true, it idicates transmission 
 prior to developing symptoms.
+
+**Zou:**  This paper reports on 18 patients, with a single patient, Z, being
+completely asymptomatic.  Patient Z tested positive and a viral load was 
+detected in his nose and throat swabs for three different days.  While there
+is no indication that patient Z ever transmitted an infection, but the viral 
+load present in patient Z, along with a reference to *Rothe,* is the basis for
+a call to further research on the potential of asymptomatic transmission.
 
 
 
