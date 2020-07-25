@@ -85,13 +85,3 @@ June 26, 2020
 Jul 16, 2020
 [SARS-CoV-2 and the Role of Orofecal Transmission: Evidence Brief](https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/) [(PDF)](https://www.cebm.net/wp-content/uploads/2020/07/SARS-CoV-2-and-the-Role-of-Orofecal-Transmission-Evidence-Brief-2.pdf)
 
-
-## EMF Papers
-
-[5G Technology and induction of coronavirus in skin cells](https://pubmed.ncbi.nlm.nih.gov/32668870/)  [(full article pdf)](https://www.biolifesas.org/biolife/wp-content/uploads/2020/07/FIORANELLI.pdf)
-
-[Exposure to a 50 Hz electromagnetic field induces activation of the Epstein-Barr virus genome in latently infected human lymphoid cells](https://pubmed.ncbi.nlm.nih.gov/9276003/)
-
-[Protection of the population health from electromagnetic hazards - challenges resulting from the implementation of the 5G network planned in Poland](https://pubmed.ncbi.nlm.nih.gov/31793559/)
-
-
