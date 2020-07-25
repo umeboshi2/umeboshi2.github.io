@@ -12,7 +12,7 @@
 
 # Research Papers
 
-1, [Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
+1. [Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true)
 
 1. [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)
