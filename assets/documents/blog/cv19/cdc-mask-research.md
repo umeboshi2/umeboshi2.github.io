@@ -42,7 +42,7 @@ focus on the transmission of the infection.
 
 **Rothe:**  In Germany, patient A becomes ill on Jan 24.  Before symptoms, 
 he meets with patient B on Jan 21 and Jan 22.  Patient B is in Germany between 
-Jan 19 and 22,  with no symptoms, but becomes ill on her flight back to China.  
+Jan 19 and 22,  with no symptoms, but becomes ill on her flight back to China. 
 Other patients were found to be infected later.  This paper suggests that 
 Patient A transitted the virus to Patient B.  If this is true, it idicates 
 transmission prior to developing symptoms.
