@@ -18,7 +18,7 @@ focus on the transmission of the infection.
 
 1. Kimball: March 27  [Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a Long-Term Care Skilled Nursing Facility — King County, Washington, March 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7119514/) [(CDC Original)](https://www.cdc.gov/mmwr/volumes/69/wr/mm6913e1.htm?s_cid=mm6913e1_w)
 
-1. Wei: March 16  [Presymptomatic Transmission of SARS-CoV-2 — Singapore, January 23–March 16, 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/)
+1. Wei: April 1  [Presymptomatic Transmission of SARS-CoV-2 — Singapore, January 23–March 16, 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/)
 
 1. Li: [Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164387/)
 
@@ -95,21 +95,7 @@ seven different clusters of patients.  *Kimball* is one of the three papers
 relied upon to support the suggestion of presymptomatic transmission.  The other 
 two papers are listed in the "Extra Research" section of this page.  This 
 study is concerned solely with the possibility of presymptomatic transmission, 
-while asymptomatic transmission is never touched upon in the report.  **This 
-paper seems to be published in March, yet relies on a paper reported to be 
-published on April 3.  The original publish date for Kimball needs to be 
-found for clarity.**
-
-
-
-
-
-
-
-
-
-
-
+while asymptomatic transmission is never touched upon in the report.
 
 
 
