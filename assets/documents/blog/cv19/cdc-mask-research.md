@@ -90,6 +90,16 @@ interpretation of *Zou* by presuming that  "asymptomatic adults in China
 the possibility that patient Z may have been able to transmit the virus due 
 to the viral load present in a positive PCR test result.
 
+**Bei:**  This study looks at possibility of presymptomatic transmissions in 
+seven different clusters of patients.  *Kimball* is one of the three papers 
+relied upon to support the suggestion of presymptomatic transmission.  The other 
+two papers are listed in the "Extra Research" section of this page.  This 
+study is concerned solely with the possibility of presymptomatic transmission, 
+while asymptomatic transmission is never touched upon in the report.
+
+
+
+
 
 
 
