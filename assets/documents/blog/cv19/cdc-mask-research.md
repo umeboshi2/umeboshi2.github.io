@@ -6,19 +6,19 @@ The CDC recommendation for cloth mask usage by the general public is based on
 [recent studies](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies).  The first eleven papers help
 focus on the transmission of the infection.
 
-1. Rothe: [Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7120970/)
+1. Rothe: January 30  [Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany](https://www.nejm.org/doi/full/10.1056/NEJMc2001468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32003551/) [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7120970/)
 
-1. Zou: [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+1. Zou: February 19  [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true) 
 [(Supplementary Appendix)](https://www.nejm.org/doi/suppl/10.1056/NEJMc2001737/suppl_file/nejmc2001737_appendix.pdf)
 
-1. Pan: [Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/32087116/)
+1. Pan: February 19  [Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/32087116/)
 
-1. Bai: [Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
+1. Bai: February 21  [Presumed Asymptomatic Carrier Transmission of COVID-19](https://pubmed.ncbi.nlm.nih.gov/32083643/)  [(Full Article)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042844/)
 
-1. Kimball: [Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a Long-Term Care Skilled Nursing Facility — King County, Washington, March 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7119514/)
+1. Kimball: March 27  [Asymptomatic and Presymptomatic SARS-CoV-2 Infections in Residents of a Long-Term Care Skilled Nursing Facility — King County, Washington, March 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7119514/) [(CDC Original)](https://www.cdc.gov/mmwr/volumes/69/wr/mm6913e1.htm?s_cid=mm6913e1_w)
 
-1. Wei: [Presymptomatic Transmission of SARS-CoV-2 — Singapore, January 23–March 16, 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/)
+1. Wei: March 16  [Presymptomatic Transmission of SARS-CoV-2 — Singapore, January 23–March 16, 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/)
 
 1. Li: [Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164387/)
 
@@ -90,12 +90,17 @@ interpretation of *Zou* by presuming that  "asymptomatic adults in China
 the possibility that patient Z may have been able to transmit the virus due 
 to the viral load present in a positive PCR test result.
 
-**Bei:**  This study looks at possibility of presymptomatic transmissions in 
+**Wei:**  This study looks at possibility of presymptomatic transmissions in 
 seven different clusters of patients.  *Kimball* is one of the three papers 
 relied upon to support the suggestion of presymptomatic transmission.  The other 
 two papers are listed in the "Extra Research" section of this page.  This 
 study is concerned solely with the possibility of presymptomatic transmission, 
-while asymptomatic transmission is never touched upon in the report.
+while asymptomatic transmission is never touched upon in the report.  **This 
+paper seems to be published in March, yet relies on a paper reported to be 
+published on April 3.  The original publish date for Kimball needs to be 
+found for clarity.**
+
+
 
 
 
