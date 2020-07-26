@@ -36,6 +36,11 @@ NCBI announces that the [novel coronavirus complete genome from the Wuhan outbre
 
 [CDC First travel-related case of 2019 novel coronavirus detected in United States. Jan 21, 2020.](https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html)
 
+[SARS-CoV-2 CDC assay protocol](https://www.cdc.gov/coronavirus/2019-nCoV/lab/guidelines-clinical-specimens.html) is titled by the CDC as "Interim Guidelines 
+for Collecting, Handling, and Testing Clinical Specimens from Persons for 
+Coronavirus Disease 2019 (COVID-19)"
+
+
 # Research Papers
 
 Jan 21, 2020

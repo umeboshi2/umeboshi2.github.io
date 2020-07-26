@@ -8,3 +8,9 @@ and, in the U.S., to expand educational opportunities and access to information
 technology."
 [(wikipedia)](https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation)
 
+
+### notes
+
+#### find later
+
+Helped fund Event 201

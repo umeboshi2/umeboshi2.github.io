@@ -74,7 +74,8 @@ inconclusive and requests further study of "[t]he mechanism by which
 asymptomatic carriers could acquire and transmit the coronavirus that causes 
 COVID-19."
 
-
+**Kimball:**  In this study, a worker at a nursing home was the symptomatic 
+index patient.
 
 
 
