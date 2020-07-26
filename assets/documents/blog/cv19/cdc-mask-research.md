@@ -75,7 +75,14 @@ asymptomatic carriers could acquire and transmit the coronavirus that causes
 COVID-19."
 
 **Kimball:**  In this study, a worker at a nursing home was the symptomatic 
-index patient.
+index patient.  "[T]hese findings do not quantify the relative contributions of 
+asymptomatic or presymptomatic residents to SARS-CoV-2 transmission in facility 
+A, [however] they suggest that these residents have the potential for 
+substantial viral shedding."  The paper also relies upon a mistaken 
+interpretation of *Zou* by presuming that  "asymptomatic adults in China 
+[...] were known to transmit SARS-CoV-2."
+
+
 
 
 
