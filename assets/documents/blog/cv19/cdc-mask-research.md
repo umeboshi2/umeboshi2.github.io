@@ -36,7 +36,13 @@ focus on the transmission of the infection.
 1. [Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
    This paper discusses false negative and false positive rates of RT-PCR 
    tests.
+
+1. [COVID-19 Transmission Within a Family Cluster by Presymptomatic Carriers in China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7184331/)
+   This paper is relied upon by *Wei* to support presymptomatic transmission.
    
+1. [Serial Interval of COVID-19 among Publicly Reported Confirmed Cases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258488/)
+   This paper is relied upon by *Wei* to support presymptomatic transmission.
+
 
 # Notes
 
@@ -80,7 +86,11 @@ asymptomatic or presymptomatic residents to SARS-CoV-2 transmission in facility
 A, [however] they suggest that these residents have the potential for 
 substantial viral shedding."  The paper also relies upon a mistaken 
 interpretation of *Zou* by presuming that  "asymptomatic adults in China 
-[...] were known to transmit SARS-CoV-2."
+[...] were *known* to transmit SARS-CoV-2."  However, *Zou* merely suggested 
+the possibility that patient Z may have been able to transmit the virus due 
+to the viral load present in a positive PCR test result.
+
+
 
 
 
