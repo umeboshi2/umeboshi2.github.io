@@ -24,7 +24,7 @@ focus on the transmission of the infection.
 
 1. Furukawa: May 4  [Evidence Supporting Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 While Presymptomatic or Asymptomatic](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article) [(pubmed archive)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323549/?report=classic) [(CDC article)](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article)
 
-1. Oran: [Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281624/)
+1. Oran: June 3  [Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281624/)
 
 1. Fineberg: [Rapid Expert Consultation on the Possibility of Bioaerosol Spread of SARS-CoV-2 for the COVID-19 Pandemic (April 1, 2020)](https://www.nap.edu/read/25769/chapter/1)
 
@@ -118,6 +118,8 @@ RT-PCR Ct values (i.e., high viral load) and ability to isolate infectious
 SARS-CoV-2 provide plausible virologic evidence for SARS-CoV-2 transmission 
 by persons not demonstrating symptoms."
 
+**Oran:**  This study is similar to the *Furukawa* study in that it is a review 
+of prior literature available on Pubmed.
 
 
 
