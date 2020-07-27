@@ -20,7 +20,7 @@ focus on the transmission of the infection.
 
 1. Wei: April 1  [Presymptomatic Transmission of SARS-CoV-2 — Singapore, January 23–March 16, 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/)
 
-1. Li: February 17  [Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164387/)  [(Original preprint)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7239048/) [(Supplementary Materials)](https://science.sciencemag.org/highwire/filestream/740947/field_highwire_adjunct_files/3/abb3221_Li_SM_rev.pdf)
+1. Li: February 17  [Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164387/)  [(Original preprint)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7239048/) [(Supplementary Materials Page)](https://science.sciencemag.org/content/suppl/2020/03/13/science.abb3221.DC1)  [(Supplementary Materials PDF)](https://science.sciencemag.org/highwire/filestream/740947/field_highwire_adjunct_files/3/abb3221_Li_SM_rev.pdf)
 
 1. Furukawa: [Evidence Supporting Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 While Presymptomatic or Asymptomatic](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article) [(pubmed archive)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323549/?report=classic)
 
@@ -99,7 +99,15 @@ while asymptomatic transmission is never touched upon in the report.
 
 **Li:**  This study uses "a model-inference framework to estimate the 
 contagiousness and proportion of undocumented infections in China during the 
-weeks before and after the shutdown of travel in and out of Wuhan."
+weeks before and after the shutdown of travel in and out of Wuhan."  The paper 
+presumes that "that 86% of all infections were undocumented [95% credible 
+interval (CI): 82–90%] before the 23 January 2020 travel restrictions."  This 
+paper presumes transmission and attempts to measure the effect of those 
+transmissions on populations.
+
+
+
+
 
 
 
