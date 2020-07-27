@@ -96,3 +96,4 @@ June 26, 2020
 Jul 16, 2020
 [SARS-CoV-2 and the Role of Orofecal Transmission: Evidence Brief](https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/) [(PDF)](https://www.cebm.net/wp-content/uploads/2020/07/SARS-CoV-2-and-the-Role-of-Orofecal-Transmission-Evidence-Brief-2.pdf)
 
+[Excess Deaths From COVID-19 and Other Causes, March-April 2020](https://jamanetwork.com/journals/jama/fullarticle/2768086)
