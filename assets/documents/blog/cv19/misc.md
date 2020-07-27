@@ -20,6 +20,7 @@
 
 [The 19th-Century Crank Who Tried to Tell Us About the Microbiome](https://www.wired.com/story/the-19th-century-crank-who-tried-to-tell-us-about-the-microbiome/)
 
+[Germ theory denialism](https://en.wikipedia.org/wiki/Germ_theory_denialism)
 
 
 ### [Misinformation related to the COVID-19 pandemic](https://en.wikipedia.org/wiki/Misinformation_related_to_the_COVID-19_pandemic)

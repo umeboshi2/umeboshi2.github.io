@@ -22,7 +22,7 @@ focus on the transmission of the infection.
 
 1. Li: February 17  [Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7164387/)  [(Original preprint)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7239048/) [(Supplementary Materials Page)](https://science.sciencemag.org/content/suppl/2020/03/13/science.abb3221.DC1)  [(Supplementary Materials PDF)](https://science.sciencemag.org/highwire/filestream/740947/field_highwire_adjunct_files/3/abb3221_Li_SM_rev.pdf)
 
-1. Furukawa: [Evidence Supporting Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 While Presymptomatic or Asymptomatic](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article) [(pubmed archive)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323549/?report=classic)
+1. Furukawa: May 4  [Evidence Supporting Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 While Presymptomatic or Asymptomatic](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article) [(pubmed archive)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323549/?report=classic) [(CDC article)](https://wwwnc.cdc.gov/eid/article/26/7/20-1595_article)
 
 1. Oran: [Prevalence of Asymptomatic SARS-CoV-2 Infection: A Narrative Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281624/)
 
@@ -105,7 +105,18 @@ interval (CI): 82–90%] before the 23 January 2020 travel restrictions."  This
 paper presumes transmission and attempts to measure the effect of those 
 transmissions on populations.
 
-
+**Furukawa:**  This study reviewed "the literature in PubMed [on] articles 
+that were published from January 1 through April 2, 2020, and pertained to 
+presymptomatic or asymptomatic SARS-CoV-2 transmission."  The study notes that 
+"[a]n inherent confounder to these reports from China is the inability to 
+entirely rule out alternative SARS-CoV-2 exposure in the community early in 
+the outbreak, when transmission in the community may have been undetected."
+The study also notes how viral load has been interpreted as an indicator of 
+possible transmission, stating that "[a]lthough these reports did not identify 
+actual virus transmission while presymptomatic or asymptomatic, the low 
+RT-PCR Ct values (i.e., high viral load) and ability to isolate infectious 
+SARS-CoV-2 provide plausible virologic evidence for SARS-CoV-2 transmission 
+by persons not demonstrating symptoms."
 
 
 
