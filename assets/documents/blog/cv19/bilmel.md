@@ -11,6 +11,8 @@ technology."
 
 ### notes
 
+[Bill Gates says a COVID-vaccine maker he backed can produce 200 million doses by June](https://fortune.com/2020/07/27/bill-gates-covid-vaccine-sk-bioscience/)
+
 #### find later
 
 Helped fund Event 201

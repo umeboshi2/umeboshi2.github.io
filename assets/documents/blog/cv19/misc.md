@@ -40,3 +40,14 @@ affinity binding of its peplomers to human angiotensin-converting enzyme 2
 (ACE2) was shown to be "most likely the result of natural selection on a human 
 or human-like ACE2 that permits another optimal binding solution to arise"
 
+
+
+### Other Interesting Topics
+
+[In-Q-Tel](https://en.wikipedia.org/wiki/In-Q-Tel) "invests in high-tech 
+companies for the sole purpose of keeping the Central Intelligence Agency, and 
+other intelligence agencies, equipped with the latest in information technology 
+in support of United States intelligence capability."
+
+
+[DARPA SBIR - Profusa Implantable Biosensors - COL Matt Hepburn](https://en.wikipedia.org/wiki/Luciana_Borio)

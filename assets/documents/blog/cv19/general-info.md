@@ -40,6 +40,12 @@ NCBI announces that the [novel coronavirus complete genome from the Wuhan outbre
 for Collecting, Handling, and Testing Clinical Specimens from Persons for 
 Coronavirus Disease 2019 (COVID-19)"
 
+[Weekly Counts of Deaths by State and Select Causes, 2019-2020](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muzy-jte6)
+
+# Other Articles
+
+[We Thought It Was Just a Respiratory Virus](https://www.ucsf.edu/magazine/covid-body)
+
 
 # Research Papers
 
