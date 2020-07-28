@@ -71,6 +71,8 @@ The links below are taken from [here](https://www.corbettreport.com/mybody/).
 
 [Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
 
+### America's Frontline Doctors
+
 
 [America's Frontline Doctors](https://www.americasfrontlinedoctors.com/)
 
@@ -104,3 +106,6 @@ https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-gove
 
 https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq
 
+https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
+
+https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
