@@ -115,4 +115,13 @@ https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refu
 
 https://sciencewithdrdoug.wordpress.com/2020/07/27/enzymes-in-humans-are-mutating-the-novel-coronavirus-in-an-accelerated-fashion-to-make-it-less-harmful/
 
+https://academic.oup.com/mbe/article/doi/10.1093/molbev/msaa188/5873882
+
+
+
+Many links in the comments
+https://www.facebook.com/stacey.davis.1401/posts/4426321314075855
+
+
+https://www.youtube.com/watch?v=CJrJG9xymts
 
