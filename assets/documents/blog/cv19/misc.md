@@ -109,3 +109,10 @@ https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq
 https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
 
 https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
+
+
+https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm
+
+https://sciencewithdrdoug.wordpress.com/2020/07/27/enzymes-in-humans-are-mutating-the-novel-coronavirus-in-an-accelerated-fashion-to-make-it-less-harmful/
+
+
