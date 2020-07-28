@@ -51,3 +51,56 @@ in support of United States intelligence capability."
 
 
 [DARPA SBIR - Profusa Implantable Biosensors - COL Matt Hepburn](https://en.wikipedia.org/wiki/Luciana_Borio)
+
+
+### Vaccine Hesitancy
+
+The links below are taken from [here](https://www.corbettreport.com/mybody/).
+
+
+[New COVID-19 restrictions will be needed for anti-vaxxers](https://www.theage.com.au/national/victoria/new-covid-19-restrictions-will-be-needed-for-anti-vaxxers-20200616-p55330.html)
+
+[WHO: Anti-vaccination campaigns threaten global health](https://www.dw.com/en/who-anti-vaccination-campaigns-threaten-global-health/a-47167570)
+
+[SAGE working group dealing with vaccine hesitancy (March 2012 to November 2014)](https://www.who.int/immunization/sage/sage_wg_vaccine_hesitancy_apr12/en/)
+
+[REPORT OF THE SAGE WORKING GROUP ON VACCINE HESITANCY (PDF)](https://www.who.int/immunization/sage/meetings/2014/october/1_Report_WORKING_GROUP_vaccine_hesitancy_final.pdf)
+
+
+[Amid COVID-19 Vaccine Race, Sabin Vaccine Institute and the Aspen Institute Release Report on Vaccine Hesitancy; A Call to Improve Vaccine Acceptance (Gates funding)](https://www.aspeninstitute.org/news/press-release/sabin-aspen-report-vaccine-hesitancy/)
+
+[Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
+
+
+[America's Frontline Doctors](https://www.americasfrontlinedoctors.com/)
+
+https://www.youtube.com/channel/UCBDFIhJatqK77qLyA0r-yVg
+
+[session 1](https://www.youtube.com/watch?v=cKbQbcInHnA)
+
+[session 2](https://www.youtube.com/watch?v=aX_Q1FaY9pI)
+
+[session 3]
+
+https://www.facebook.com/daniel.wood.338/posts/10214462924361608
+
+
+
+[Frontline Doctors Press Conference Video](https://www.bitchute.com/video/HeC0tHZDX7dk/?fbclid=IwAR2lI5-EL8InuuY6v-Bt_o6lUbg30TLBnwXUCbqASnPhdCmTJOEyDUfLSUQ)
+
+[America’s Frontline Doctors SCOTUS Press Conference Transcript](https://www.rev.com/blog/transcripts/americas-frontline-doctors-scotus-press-conference-transcript)
+
+
+https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
+
+https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
+
+https://www.reuters.com/article/us-health-coronavirus-indonesia-chloroqu/exclusive-indonesia-major-advocate-of-hydroxychloroquine-told-by-who-to-stop-using-it-idUSKBN23227L
+
+
+https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html
+
+https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-governments-ban-malaria-drug-for-covid-19-trial-paused-as-safety-fears-grow-idUSKBN2340A6
+
+https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq
+
