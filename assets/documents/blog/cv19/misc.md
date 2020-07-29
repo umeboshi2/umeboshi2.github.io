@@ -57,6 +57,7 @@ in support of United States intelligence capability."
 
 The links below are taken from [here](https://www.corbettreport.com/mybody/).
 
+[Forced Vaccination: The Tragic Legacy of Jacobson v. Massachusetts](https://www.nvic.org/NVIC-Vaccine-News/November-2016/forced-vaccination-the-tragic-legacy.aspx) [(youtube)](https://www.youtube.com/watch?v=kUBBQSKCceM)
 
 [New COVID-19 restrictions will be needed for anti-vaxxers](https://www.theage.com.au/national/victoria/new-covid-19-restrictions-will-be-needed-for-anti-vaxxers-20200616-p55330.html)
 

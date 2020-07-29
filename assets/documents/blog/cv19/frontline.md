@@ -2,13 +2,15 @@
 
 ## America's Frontline Doctors
 
+On July 28-29, 2020, a group of doctors held a press conference in front 
+of the Supreme Court building in Washington D.C.
+
 
 [America's Frontline Doctors](https://www.americasfrontlinedoctors.com/)
 
 
-[TPPatriots youtube channel](https://www.youtube.com/channel/UCBDFIhJatqK77qLyA0r-yVg)
-
-The TPPatriots posted some videos on youtube.
+The [TPPatriots youtube channel](https://www.youtube.com/channel/UCBDFIhJatqK77qLyA0r-yVg)
+posted some videos on youtube.
 The first session, [session 1](https://www.youtube.com/watch?v=cKbQbcInHnA),
 is still available but [session 2](https://www.youtube.com/watch?v=aX_Q1FaY9pI)
 has been removed.  A third session was planned for today, but it also seems
