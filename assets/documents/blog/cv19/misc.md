@@ -125,3 +125,12 @@ https://www.facebook.com/stacey.davis.1401/posts/4426321314075855
 
 https://www.youtube.com/watch?v=CJrJG9xymts
 
+https://www.facebook.com/maryjosperry/posts/10222725059930764
+
+https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
+
+
+
+[Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19](https://www.nejm.org/doi/full/10.1056/NEJMoa2019014) [supplementary appendix](nejmoa2019014_appendix.pdf)
+
+
