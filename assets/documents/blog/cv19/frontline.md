@@ -46,6 +46,7 @@ Dr. Ron Paul asks
 
 [Deliverance From Spirit Husbands and Spirit Wives (Incubus and Succubus) Part one](https://www.youtube.com/watch?v=CJrJG9xymts)
 
+[local WDAM article](https://www.wdam.com/2020/07/29/misinformation-virus-is-proving-highly-contagious/)
 
 ### Doctors
 

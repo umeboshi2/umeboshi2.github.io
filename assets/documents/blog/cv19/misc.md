@@ -124,8 +124,6 @@ Many links in the comments
 https://www.facebook.com/stacey.davis.1401/posts/4426321314075855
 
 
-https://www.youtube.com/watch?v=CJrJG9xymts
-
 https://www.facebook.com/maryjosperry/posts/10222725059930764
 
 https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
