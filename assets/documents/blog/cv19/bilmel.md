@@ -17,6 +17,9 @@ technology."
 
 [A Bill Gates-Backed Accelerator For COVID-19 Therapeutics Treatment Partners With Madonna And Mark Zuckerberg’s Chan Zuckerberg Initiative](https://www.forbes.com/sites/angelauyeung/2020/04/03/a-bill-gates-backed-accelerator-for-covid-19-coronavirus-therapeutics-treatment-partners-with-madonna-and-mark-zuckerbergs-chan-zuckerberg-initiative/)
 
+[Three Weeks, Two Drug Trials: An update on the Therapeutics Accelerator with Trevor Mundel](https://www.gatesfoundation.org/TheOptimist/Articles/coronavirus-interview-trevor-mundel-drug-trials)
+
+
 #### find later
 
 Helped fund Event 201
