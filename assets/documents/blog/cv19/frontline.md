@@ -80,3 +80,40 @@ Dr. Ron Paul asks
 
 [Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
 
+
+
+### Doctors
+
+Simone Gold, MD - Emergency Medicine Specialist in Los Angeles, CA and has 
+over 31 years of experience in the medical field. She graduated from Rosalind 
+Franklin University Of Medicine Science/The Chicago Medical School medical 
+school in 1989. She is affiliated with Centinela Hospital Medical Center.
+
+Dr. Bob Hamilton - pediatrician from Santa Monica, California. Medical School 
+UCLA Geffen School of Medicine, Los Angeles, CA. Internship UCLA Geffen School 
+of Medicine, Los Angeles, CA. Residency UCLA Geffen School of Medicine, Los 
+Angeles, CA.
+
+Dr. Stella Immanuel - primary care doctor in Houston, Tx. Went to medical 
+school in West Africa, Nigeria. Has practiced in Louisiana and now resides 
+in Texas where she has treated more than 350 Covid patients.
+
+Dr. Dan Erickson, DO - Emergency Medicine Specialist in Bakersfield, CA and 
+has over 16 years of experience in the medical field. He graduated from Western 
+Univ Of Health Sciences/College Of Osteopathic Medicine Of The Pacific, Western 
+University Of Health Sciences medical school in 2004. (While both degrees mean 
+your doctor is a licensed physician, their training differs slightly, and each 
+has a unique perspective on care. “An M.D. follows an allopathic medical 
+training path, whereas a D.O. follows osteopathic,”)
+
+Dr. James Todaro, MD - a Ophthalmology Specialist received his medical degree 
+from Columbia University, Vagelos College of Physicians and Surgeons in NY, 
+and completed his surgical training with four additional years of residency in 
+ophthalmology.
+
+Dr. Joe Ladapo MD, PhD - Physician at UCLA and clinical researcher. Internal 
+Medicine, American Board of Internal Medicine, 2011. 
+Residency Internal Medicine, Beth Israel Deaconess Med Ctr-East Campus, 2009-2011. 
+Internship Internal Medicine, Beth Israel Deaconess Med Ctr-East Campus, 
+2008-2009. Degree Harvard Medical School, MD, 2008 Harvard University Grad. 
+School of Arts, Sciences, PhD, 2008.

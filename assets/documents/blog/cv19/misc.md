@@ -144,3 +144,4 @@ Dr. Ron Paul asks
 
 [Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
 
+[Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
