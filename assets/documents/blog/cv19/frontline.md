@@ -5,21 +5,27 @@
 
 [America's Frontline Doctors](https://www.americasfrontlinedoctors.com/)
 
-https://www.youtube.com/channel/UCBDFIhJatqK77qLyA0r-yVg
 
-[session 1](https://www.youtube.com/watch?v=cKbQbcInHnA)
+[TPPatriots youtube channel](https://www.youtube.com/channel/UCBDFIhJatqK77qLyA0r-yVg)
 
-[session 2](https://www.youtube.com/watch?v=aX_Q1FaY9pI)
+The TPPatriots posted some videos on youtube.
+The first session, [session 1](https://www.youtube.com/watch?v=cKbQbcInHnA),
+is still available but [session 2](https://www.youtube.com/watch?v=aX_Q1FaY9pI)
+has been removed.  A third session was planned for today, but it also seems
+to be unavailable on the channel.
 
-[session 3]
 
-https://www.facebook.com/daniel.wood.338/posts/10214462924361608
 
 
 
 [Frontline Doctors Press Conference Video](https://www.bitchute.com/video/HeC0tHZDX7dk/?fbclid=IwAR2lI5-EL8InuuY6v-Bt_o6lUbg30TLBnwXUCbqASnPhdCmTJOEyDUfLSUQ)
 
 [America’s Frontline Doctors SCOTUS Press Conference Transcript](https://www.rev.com/blog/transcripts/americas-frontline-doctors-scotus-press-conference-transcript)
+
+
+
+
+https://www.facebook.com/daniel.wood.338/posts/10214462924361608
 
 
 https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
