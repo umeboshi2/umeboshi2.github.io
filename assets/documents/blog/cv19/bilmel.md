@@ -15,6 +15,8 @@ technology."
 
 [Zuckerberg, Gates team up to contribute $25M for research into coronavirus treatments](https://thehill.com/homenews/news/489995-zuckerberg-gates-team-up-to-contribute-25m-for-research-into-coronavirus)
 
+[A Bill Gates-Backed Accelerator For COVID-19 Therapeutics Treatment Partners With Madonna And Mark Zuckerberg’s Chan Zuckerberg Initiative](https://www.forbes.com/sites/angelauyeung/2020/04/03/a-bill-gates-backed-accelerator-for-covid-19-coronavirus-therapeutics-treatment-partners-with-madonna-and-mark-zuckerbergs-chan-zuckerberg-initiative/)
+
 #### find later
 
 Helped fund Event 201
