@@ -72,3 +72,5 @@ https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-dis
 https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-as-world-reserve-currency-is-at-risk
 
 
+[old research map](https://en.wikipedia.org/wiki/User:Umeboshi/research_map)
+

@@ -29,6 +29,9 @@ to be unavailable on the channel.
 Dr. Ron Paul asks
 [Why Did They Censor 'America's Frontline Doctors'?](https://www.youtube.com/watch?v=rTfZyRrADdA)
 
+Facebook's Andy Stone tells Kevin Roose on 
+[Twitter](https://twitter.com/kevinroose/status/1287906751069581318) 
+that they removed the video.
 
 
 [dtube link](https://d.tube/?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0#!/v/videostorage2020/QmWHnWJ4A2LZsmLBP8HeYrpcHhfFgTvPV8R4kitEcz9LgH?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0)

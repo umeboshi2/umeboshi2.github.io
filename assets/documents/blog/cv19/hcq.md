@@ -27,3 +27,4 @@ https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa09
 
 [Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
 
+[Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)

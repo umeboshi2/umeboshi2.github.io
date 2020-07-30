@@ -91,6 +91,9 @@ June 26, 2020
 [Asymptomatic cases in a family cluster with SARS-CoV-2 infection](https://pubmed.ncbi.nlm.nih.gov/32087116/)  [(PDF)](https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf) [(supplement pdf)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf)
 
 
+[Persistent hiccups as an atypical presenting complaint of COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165082/)
+
+
 ## [Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
 
 Jul 16, 2020
