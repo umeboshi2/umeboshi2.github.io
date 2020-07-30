@@ -48,8 +48,8 @@ a global pandemic.
    the United States and China compete in a race to develop an artificial
    intelligence infrastructure.
 
+1. [Wikipedia's Misinformation Collection](#pages/blog/cv19/bad-info)
 
-1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
 
 ## Topics Indirectly Related to Covid 19
 
