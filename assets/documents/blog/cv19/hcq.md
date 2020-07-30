@@ -42,11 +42,17 @@ Available from: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
 
 ### News Articles
 
+April 2, 2020
+[Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)
+
 April 7, 2020
 [How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump](https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/)
 
 April 14, 2020
 [A Detailed Coronavirus Treatment Plan from Dr. Vladimir Zelenko](https://internetprotocol.co/hype-news/2020/04/14/a-detailed-coronavirus-treatment-plan-from-dr-zelenko/)
+
+May 21, 2020
+[NY doctor who promoted COVID-19 drug cocktail leaves Jewish community](https://nypost.com/2020/05/21/doctor-who-promoted-covid-cocktail-leaves-jewish-community/)
 
 May 25, 2020
 [WHO suspends hydroxychloroquine trial as COVID-19 treatment](https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html)
@@ -57,17 +63,12 @@ May 26, 2020
 May 27, 2020
 [EU governments ban malaria drug for COVID-19, trial paused as safety fears grow](https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-governments-ban-malaria-drug-for-covid-19-trial-paused-as-safety-fears-grow-idUSKBN2340A6)
 
+June 17, 2020
+[The Politicization of HCQ](https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq)
+
 July 13, 2020 Updated July 16, 2020
 [Local doctor pushing proven treatment of COVID into national debate](https://www.thedesertreview.com/opinion/letters_to_editor/local-doctor-pushing-proven-treatment-of-covid-into-national-debate/article_ca59497a-c539-11ea-8943-4f707d6ebc1a.html)
 
-
-[The Politicization of HCQ](https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq)
-
-
-[Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)
-
-May 21, 2020
-[NY doctor who promoted COVID-19 drug cocktail leaves Jewish community](https://nypost.com/2020/05/21/doctor-who-promoted-covid-cocktail-leaves-jewish-community/)
 
 
 
