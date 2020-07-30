@@ -17,6 +17,8 @@ a global pandemic.
 
 ## Related Topics
 
+1. [Vaccination](#pages/blog/cv19/vx/index)
+
 1. [Virus Nanotechnology](#pages/blog/cv19/nanotech)
    This amazing technology uses viral nanoparticles to accomplish very 
    interesting things that would be difficult to do using traditional
@@ -37,8 +39,6 @@ a global pandemic.
 1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
 
 ## Topics Indirectly Related to Covid 19
-
-1. [Vaccination](#pages/blog/cv19/vx/index)
 
 1. [Miscellaneous](#pages/blog/cv19/misc)
 
