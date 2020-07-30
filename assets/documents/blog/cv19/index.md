@@ -19,6 +19,23 @@ a global pandemic.
 
 1. [Deleted People](#pages/blog/cv19/deleted-people)
 
+1. Artificial Persons
+
+	1. [World Economic Forum](#pages/blog/cv19/wef)
+
+	1. [ID2020](#pages/blog/cv19/id2020) is a public-private consortium in 
+		service of the United Nations 2030 Sustainable Development Goal of 
+		providing legal identity for all people, including the world's most 
+		vulnerable populations.
+
+	1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
+
+	1. [Ipsos MORI](#pages/blog/cv19/ipso)
+	
+	1. [In-Q-Tel](#pages/blog/cv19/nqtel)
+	
+	1. [DARPA](#pages/blog/cv19/darpa)
+	
 1. [Vaccination](#pages/blog/cv19/vx/index)
 
 1. [Virus Nanotechnology](#pages/blog/cv19/nanotech)
@@ -31,12 +48,6 @@ a global pandemic.
    the United States and China compete in a race to develop an artificial
    intelligence infrastructure.
 
-1. [ID2020](#pages/blog/cv19/id2020) is a public-private consortium in 
-   service of the United Nations 2030 Sustainable Development Goal of 
-   providing legal identity for all people, including the world's most 
-   vulnerable populations.
-
-1. [World Economic Forum](#pages/blog/cv19/wef)
 
 1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
 
