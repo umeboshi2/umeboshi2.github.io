@@ -38,6 +38,8 @@ a global pandemic.
 
 ## Topics Indirectly Related to Covid 19
 
+1. [Vaccination](#pages/blog/cv19/vx/index)
+
 1. [Miscellaneous](#pages/blog/cv19/misc)
 
 
