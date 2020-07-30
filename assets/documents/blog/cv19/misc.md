@@ -53,25 +53,6 @@ in support of United States intelligence capability."
 [DARPA SBIR - Profusa Implantable Biosensors - COL Matt Hepburn](https://en.wikipedia.org/wiki/Luciana_Borio)
 
 
-### Vaccine Hesitancy
-
-The links below are taken from [here](https://www.corbettreport.com/mybody/).
-
-[Forced Vaccination: The Tragic Legacy of Jacobson v. Massachusetts](https://www.nvic.org/NVIC-Vaccine-News/November-2016/forced-vaccination-the-tragic-legacy.aspx) [(youtube)](https://www.youtube.com/watch?v=kUBBQSKCceM)
-
-[New COVID-19 restrictions will be needed for anti-vaxxers](https://www.theage.com.au/national/victoria/new-covid-19-restrictions-will-be-needed-for-anti-vaxxers-20200616-p55330.html)
-
-[WHO: Anti-vaccination campaigns threaten global health](https://www.dw.com/en/who-anti-vaccination-campaigns-threaten-global-health/a-47167570)
-
-[SAGE working group dealing with vaccine hesitancy (March 2012 to November 2014)](https://www.who.int/immunization/sage/sage_wg_vaccine_hesitancy_apr12/en/)
-
-[REPORT OF THE SAGE WORKING GROUP ON VACCINE HESITANCY (PDF)](https://www.who.int/immunization/sage/meetings/2014/october/1_Report_WORKING_GROUP_vaccine_hesitancy_final.pdf)
-
-
-[Amid COVID-19 Vaccine Race, Sabin Vaccine Institute and the Aspen Institute Release Report on Vaccine Hesitancy; A Call to Improve Vaccine Acceptance (Gates funding)](https://www.aspeninstitute.org/news/press-release/sabin-aspen-report-vaccine-hesitancy/)
-
-[Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
-
 ### More stuff
 
 

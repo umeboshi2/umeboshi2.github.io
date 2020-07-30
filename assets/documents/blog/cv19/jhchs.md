@@ -35,11 +35,12 @@ by the Center and shared broadly." [(Youtube Playlist)](https://www.youtube.com/
 ### [Event 201](https://www.centerforhealthsecurity.org/event201/)
 
 "The Event 201 pandemic tabletop exercise [was] hosted by The Johns Hopkins 
-Center for Health Security in partnership with the World Economic Forum and 
-the Bill and Melinda Gates Foundation on October 18, 2019, in New York, 
-NY.  The exercise illustrated the pandemic preparedness efforts needed to 
-diminish the large-scale economic and societal consequences of a severe 
-pandemic.
+Center for Health Security in partnership with the 
+[World Economic Forum](#pages/blog/cv19/wef) and 
+the [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel) on 
+October 18, 2019, in New York, NY.  The exercise illustrated the pandemic 
+preparedness efforts needed to diminish the large-scale economic and 
+societal consequences of a severe pandemic.
  
 Drawing from actual events, Event 201 identifies important policy issues and 
 preparedness challenges that could be solved with sufficient political will 
