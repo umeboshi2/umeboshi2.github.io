@@ -1,6 +1,7 @@
 [Parent](#pages/blog/cv19/index)
 
 ## Vernon Coleman
+
 ### Galoshes
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/h-JmhZ0YGQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
