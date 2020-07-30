@@ -7,6 +7,27 @@ companies for the sole purpose of keeping the Central Intelligence Agency, and
 other intelligence agencies, equipped with the latest in information technology 
 in support of United States intelligence capability."
 
-[Luciana Borio](https://en.wikipedia.org/wiki/Luciana_Borio)
+[Luciana Borio](https://en.wikipedia.org/wiki/Luciana_Borio) "was senior 
+associate at the UPMC Center for Health Security and assistant professor of 
+medicine at the University of Pittsburgh (2003-2008). Borio served at the 
+United States Department of Health and Human Services as an advisor on 
+biodefense programs (2001 to 2008), where she implemented and managed 
+mathematical modeling projects to assess the health effects of bioterrorism on 
+civilians and to inform medical countermeasures procurement activities for the 
+Office of Preparedness and Response."
 
 [Gilman Louie](https://en.wikipedia.org/wiki/Gilman_Louie)
+
+[Tara O'Toole](https://en.wikipedia.org/wiki/Tara_O%27Toole) was a 
+former director for the [Center for Health Security](#pages/blog/cv19/jhchs). 
+Her profile is also avaiable 
+[there](https://www.centerforhealthsecurity.org/our-people/otoole/)
+
+
+BIOSECURITY AND BIOTERRORISM: BIODEFENSE STRATEGY, PRACTICE, AND SCIENCE
+Volume 4, Number 4, 2006
+© Mary Ann Liebert, Inc.
+Disease Mitigation Measures in the Control
+of Pandemic Influenza
+THOMAS V. INGLESBY, JENNIFER B. NUZZO, TARA O’TOOLE, and D. A. HENDERSON
+[(PDF)](https://www.aier.org/wp-content/uploads/2020/05/10.1.1.552.1109.pdf)
