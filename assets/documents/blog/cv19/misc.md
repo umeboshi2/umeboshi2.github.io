@@ -74,3 +74,5 @@ https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-a
 
 [old research map](https://en.wikipedia.org/wiki/User:Umeboshi/research_map)
 
+https://www.facebook.com/HighWireTalk/
+
