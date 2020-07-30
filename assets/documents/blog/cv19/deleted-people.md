@@ -4,5 +4,6 @@
 
 [America's Frontline Doctors](#pages/blog/cv19/frontline)
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/fYtSSg_98Hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## People who have been censored
 
+[Vernon Coleman](#pages/blog/cv19/vernon-coleman)
