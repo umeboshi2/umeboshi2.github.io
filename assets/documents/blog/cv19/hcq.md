@@ -21,8 +21,8 @@ Reuters World News, May 26, 2020
 Reuters May 27, 2020
 [EU governments ban malaria drug for COVID-19, trial paused as safety fears grow](https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-governments-ban-malaria-drug-for-covid-19-trial-paused-as-safety-fears-grow-idUSKBN2340A6)
 
+[The Politicization of HCQ](https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq)
 
-https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq
 
 https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
 
