@@ -17,6 +17,8 @@ a global pandemic.
 
 ## Related Topics
 
+! [Deleted People](#pages/blog/cv19/deleted-people)
+
 1. [Vaccination](#pages/blog/cv19/vx/index)
 
 1. [Virus Nanotechnology](#pages/blog/cv19/nanotech)
