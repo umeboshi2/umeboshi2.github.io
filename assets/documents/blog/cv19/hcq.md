@@ -40,6 +40,8 @@ COVID-19. Indian J Med Res [serial online]
 2020 [cited 2020 Jul 30];151:459-67. 
 Available from: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
 
+[Hydroxychloroquine in Nonhospitalized Adults With Early COVID-19](https://www.acpjournals.org/doi/10.7326/M20-4207) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384270/)
+
 ### News Articles
 
 April 2, 2020
@@ -66,10 +68,11 @@ May 27, 2020
 June 17, 2020
 [The Politicization of HCQ](https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq)
 
+June 20, 2020
+[NIH halts clinical trial of hydroxychloroquine](https://www.nih.gov/news-events/news-releases/nih-halts-clinical-trial-hydroxychloroquine)
+
 July 13, 2020 Updated July 16, 2020
 [Local doctor pushing proven treatment of COVID into national debate](https://www.thedesertreview.com/opinion/letters_to_editor/local-doctor-pushing-proven-treatment-of-covid-into-national-debate/article_ca59497a-c539-11ea-8943-4f707d6ebc1a.html)
-
-
 
 
 ### Mississippi Board of Pharmacy
