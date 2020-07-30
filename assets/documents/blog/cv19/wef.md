@@ -44,7 +44,22 @@ believe that progress happens by bringing together people from all walks of
 life who have the drive and the influence to make positive change."
 [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](https://www.youtube.com/watch?v=ddGQTcuV-eg)
 
+#### The Great Reset | Launch session 3 June 2020
+
+"The Great Reset” will be the theme of a unique twin summit to be convened by 
+the World Economic Forum in January 2021. In-person and virtual dialogues will 
+address the need for a more fair, sustainable and resilient future, and a new 
+social contract centred on human dignity, social justice and where societal 
+progress does not fall behind economic development."
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/pfVdMWzKwjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Family Business: Relic or Role Model? | DAVOS 2020
+
+"Successful family businesses are rooted in tradition, yet vested in the 
+future thanks to an intergenerational mindset and culture. What can other 
+businesses learn from them about sustainable, profitable and equitable business 
+practice?"
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/6bwJFeQqGMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
