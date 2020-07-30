@@ -36,6 +36,11 @@ Published: 27 May 2020
 
 ### News Articles
 
+April 7, 2020
+[How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump](https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/)
+
+April 14, 2020
+[A Detailed Coronavirus Treatment Plan from Dr. Vladimir Zelenko](https://internetprotocol.co/hype-news/2020/04/14/a-detailed-coronavirus-treatment-plan-from-dr-zelenko/)
 
 May 25, 2020
 [WHO suspends hydroxychloroquine trial as COVID-19 treatment](https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html)
@@ -57,11 +62,6 @@ Reuters May 27, 2020
 May 21, 2020
 [NY doctor who promoted COVID-19 drug cocktail leaves Jewish community](https://nypost.com/2020/05/21/doctor-who-promoted-covid-cocktail-leaves-jewish-community/)
 
-
-[How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump](https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/)
-
-April 14, 2020
-[A Detailed Coronavirus Treatment Plan from Dr. Vladimir Zelenko](https://internetprotocol.co/hype-news/2020/04/14/a-detailed-coronavirus-treatment-plan-from-dr-zelenko/)
 
 
 ### Mississippi Board of Pharmacy
