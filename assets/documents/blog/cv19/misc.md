@@ -44,14 +44,14 @@ or human-like ACE2 that permits another optimal binding solution to arise"
 
 ### Other Interesting Topics
 
+#### In-Q-Tel
+
 [In-Q-Tel](https://en.wikipedia.org/wiki/In-Q-Tel) "invests in high-tech 
 companies for the sole purpose of keeping the Central Intelligence Agency, and 
 other intelligence agencies, equipped with the latest in information technology 
 in support of United States intelligence capability."
 
-
-[DARPA SBIR - Profusa Implantable Biosensors - COL Matt Hepburn](https://en.wikipedia.org/wiki/Luciana_Borio)
-
+#### Ipsos MORI
 
 [Ipsos MORI](https://en.wikipedia.org/wiki/Ipsos_MORI)
 [Ipsos](https://en.wikipedia.org/wiki/Ipsos)
@@ -62,6 +62,11 @@ in support of United States intelligence capability."
 [COVID-19 Swab and Saliva Test FAQs](https://www.ipsos.com/ipsos-mori/en-uk/covid-19-swab-and-saliva-test-faqs)
 
 [Covid-Inspired Lessons Learned for Brands](https://www.ipsos.com/en-us/knowledge/media-brand-communication/Covid-Inspired-Lessons-Learned-for-Brands) [(Webinar Slides)](https://www.ipsos.com/sites/default/files/ct/publication/documents/2020-07/ipsos_webinar_-_crisis_averted_final_handout.pdf)
+
+#### DARPA
+
+[DARPA SBIR - Profusa Implantable Biosensors - COL Matt Hepburn](https://en.wikipedia.org/wiki/Luciana_Borio)
+
 
 ### More stuff
 
