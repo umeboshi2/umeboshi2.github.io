@@ -44,6 +44,11 @@ believe that progress happens by bringing together people from all walks of
 life who have the drive and the influence to make positive change."
 [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](https://www.youtube.com/watch?v=ddGQTcuV-eg)
 
+
+#### name it
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### The Great Reset | Launch session 3 June 2020
 
 "The Great Reset” will be the theme of a unique twin summit to be convened by 
