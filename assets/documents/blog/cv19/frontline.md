@@ -2,7 +2,7 @@
 
 ## America's Frontline Doctors
 
-On July 28-29, 2020, a group of doctors held a press conference in front 
+On July 27-28, 2020, a group of doctors held a press conference in front 
 of the Supreme Court building in Washington D.C.
 
 
