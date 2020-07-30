@@ -27,6 +27,9 @@ regulatory discussions worldwide."
 
 ### The Great Reset
 
+[Official Video](https://www.weforum.org/great-reset)
+
+
 [The Great Reset requires FinTechs – and FinTechs require a common approach to cybersecurity](https://www.weforum.org/agenda/2020/07/great-reset-fintech-financial-technology-cybersecurity-controls-cyber-resilience-businesses-consumers/)
 
 https://www.msn.com/en-us/news/politics/introducing-the-great-reset-world-leaders-radical-plan-to-transform-the-economy/ar-BB15XGsU
@@ -45,7 +48,20 @@ life who have the drive and the influence to make positive change."
 [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](https://www.youtube.com/watch?v=ddGQTcuV-eg)
 
 
-#### name it
+#### What is the Fourth Industrial Revolution?
+
+"Ubiquitous, mobile supercomputing. Artificially-intelligent robots. 
+Self-driving cars. Neuro-technological brain enhancements. Genetic editing. 
+The evidence of dramatic change is all around us and it’s happening at 
+exponential speed. 
+
+Previous industrial revolutions liberated humankind from animal power, made 
+mass production possible and brought digital capabilities to billions of 
+people. This Fourth Industrial Revolution is, however, fundamentally 
+different. It is characterized by a range of new technologies that are fusing 
+the physical, digital and biological worlds, impacting all disciplines, 
+economies and industries, and even challenging ideas about what it means to be 
+human."
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
