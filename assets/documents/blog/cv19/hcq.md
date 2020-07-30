@@ -2,6 +2,12 @@
 
 ## HCQ Treatment Platform
 
+"On 17 March 2020, 
+[[Didier] Raoult](https://en.wikipedia.org/wiki/Didier_Raoult) 
+announced in an online video that a trial involving 24 patients from southeast 
+France supported the claim that hydroxychloroquine and azithromycin were 
+effective in treating for COVID-19." [(Wikipedia)](https://en.wikipedia.org/wiki/Didier_Raoult#COVID-19)
+
 [America's Frontline Doctors](#pages/blog/cv19/frontline)
 
 A small section on
@@ -48,6 +54,16 @@ Reuters May 27, 2020
 
 [Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)
 
+May 21, 2020
+[NY doctor who promoted COVID-19 drug cocktail leaves Jewish community](https://nypost.com/2020/05/21/doctor-who-promoted-covid-cocktail-leaves-jewish-community/)
 
+
+[How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump](https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/)
+
+April 14, 2020
+[A Detailed Coronavirus Treatment Plan from Dr. Vladimir Zelenko](https://internetprotocol.co/hype-news/2020/04/14/a-detailed-coronavirus-treatment-plan-from-dr-zelenko/)
+
+
+### Mississippi Board of Pharmacy
 
 [Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
