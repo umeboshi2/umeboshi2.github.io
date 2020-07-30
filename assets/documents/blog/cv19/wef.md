@@ -44,6 +44,8 @@ believe that progress happens by bringing together people from all walks of
 life who have the drive and the influence to make positive change."
 [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](https://www.youtube.com/watch?v=ddGQTcuV-eg)
 
+<iframe width="320" height="160" src="https://www.youtube.com/embed/pfVdMWzKwjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/6bwJFeQqGMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### AI and Government
