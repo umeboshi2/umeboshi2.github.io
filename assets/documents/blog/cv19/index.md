@@ -17,7 +17,7 @@ a global pandemic.
 
 ## Related Topics
 
-1  [Deleted People](#pages/blog/cv19/deleted-people)
+1. [Deleted People](#pages/blog/cv19/deleted-people)
 
 1. [Vaccination](#pages/blog/cv19/vx/index)
 
