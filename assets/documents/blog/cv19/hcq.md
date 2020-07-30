@@ -20,19 +20,6 @@ https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
 https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
 
 
-https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm
-
-https://sciencewithdrdoug.wordpress.com/2020/07/27/enzymes-in-humans-are-mutating-the-novel-coronavirus-in-an-accelerated-fashion-to-make-it-less-harmful/
-
-https://academic.oup.com/mbe/article/doi/10.1093/molbev/msaa188/5873882
-
-
-
-Many links in the comments
-https://www.facebook.com/stacey.davis.1401/posts/4426321314075855
-
-
-https://www.facebook.com/maryjosperry/posts/10222725059930764
 
 https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
 

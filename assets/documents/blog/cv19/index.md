@@ -12,6 +12,7 @@ a global pandemic.
 
 1. [America's Frontline Doctors](#pages/blog/cv19/frontline)
 
+1. [HCQ Treatment Platform](#pages/blog/cv19/hcq)
 
 
 ## Related Topics

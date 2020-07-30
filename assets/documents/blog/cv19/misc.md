@@ -72,29 +72,8 @@ The links below are taken from [here](https://www.corbettreport.com/mybody/).
 
 [Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
 
-### America's Frontline Doctors
+### More stuff
 
-
-
-
-
-
-https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
-
-https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
-
-https://www.reuters.com/article/us-health-coronavirus-indonesia-chloroqu/exclusive-indonesia-major-advocate-of-hydroxychloroquine-told-by-who-to-stop-using-it-idUSKBN23227L
-
-
-https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html
-
-https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-governments-ban-malaria-drug-for-covid-19-trial-paused-as-safety-fears-grow-idUSKBN2340A6
-
-https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq
-
-https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
-
-https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
 
 
 https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm
@@ -113,9 +92,6 @@ https://www.facebook.com/maryjosperry/posts/10222725059930764
 
 https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
 
-
-
-[Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19](https://www.nejm.org/doi/full/10.1056/NEJMoa2019014) [supplementary appendix](nejmoa2019014_appendix.pdf)
 
 
 https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-as-world-reserve-currency-is-at-risk
