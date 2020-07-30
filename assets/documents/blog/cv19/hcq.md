@@ -10,7 +10,26 @@ discussing treatment policy and posture.
 
 The [Covid 19 section](https://en.wikipedia.org/wiki/Hydroxychloroquine#COVID-19) of the Hydroxychloroquine article.
 
+### Medical Papers
+
+
+Harvey A Risch
+American Journal of Epidemiology, kwaa093, https://doi.org/10.1093/aje/kwaa093
+Published: 27 May 2020
+[Early Outpatient Treatment of Symptomatic, High-Risk Covid-19 Patients that Should be Ramped-Up Immediately as Key to the Pandemic Crisis](https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586) [(PDF)](https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf)
+
+
+
+[Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19](https://www.nejm.org/doi/full/10.1056/NEJMoa2019014) [supplementary appendix](nejmoa2019014_appendix.pdf)
+
+
+[Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
+
 [Effect of High vs Low Doses of Chloroquine Diphosphate as Adjunctive Therapy for Patients Hospitalized With Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection: A Randomized Clinical Trial](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499)
+
+
+### News Articles
+
 
 May 25, 2020
 [WHO suspends hydroxychloroquine trial as COVID-19 treatment](https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html)
@@ -24,16 +43,8 @@ Reuters May 27, 2020
 [The Politicization of HCQ](https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq)
 
 
-https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
-
-https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
+[Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)
 
 
-[Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19](https://www.nejm.org/doi/full/10.1056/NEJMoa2019014) [supplementary appendix](nejmoa2019014_appendix.pdf)
-
-
-[Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
 
 [Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
-
-[Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)
