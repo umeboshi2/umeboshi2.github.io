@@ -53,6 +53,16 @@ in support of United States intelligence capability."
 [DARPA SBIR - Profusa Implantable Biosensors - COL Matt Hepburn](https://en.wikipedia.org/wiki/Luciana_Borio)
 
 
+[Ipsos MORI](https://en.wikipedia.org/wiki/Ipsos_MORI)
+[Ipsos](https://en.wikipedia.org/wiki/Ipsos)
+
+
+[Ipsos Mori in English](https://translate.google.com/#view=home&op=translate&sl=la&tl=en&text=ipsos%20mori)
+
+[COVID-19 Swab and Saliva Test FAQs](https://www.ipsos.com/ipsos-mori/en-uk/covid-19-swab-and-saliva-test-faqs)
+
+
+
 ### More stuff
 
 

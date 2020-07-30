@@ -4,6 +4,8 @@
 
 [Hattiesburg Clinic to participate in COVID-19 vaccine trial](https://www.wdam.com/2020/07/28/hattiesburg-clinic-participating-covid-vaccine-trial/)
 
+[HATTIESBURG CLINIC PARTICIPATES IN COVID-19 VACCINE TRIAL](https://www.hubcityspokes.com/news-hattiesburg/hattiesburg-clinic-participates-covid-19-vaccine-trial)
+
 [mRNA-1273 Approval Status](https://www.drugs.com/history/mrna-1273.html)
 
 [COVID-19 vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
@@ -30,3 +32,4 @@ The links below are taken from [here](https://www.corbettreport.com/mybody/).
 
 [Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
 
+https://www.facebook.com/HighWireTalk/videos/291320525305679/
