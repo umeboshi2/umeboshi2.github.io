@@ -33,6 +33,12 @@ Published: 27 May 2020
 
 [Effect of High vs Low Doses of Chloroquine Diphosphate as Adjunctive Therapy for Patients Hospitalized With Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection: A Randomized Clinical Trial](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499)
 
+Chatterjee P, Anand T, Singh KJ, Rasaily R, Singh R, Das S, Singh H, 
+Praharaj I, Gangakhedkar RR, Bhargava B, Panda S. Healthcare workers & 
+SARS-CoV-2 infection in India: A case-control investigation in the time of 
+COVID-19. Indian J Med Res [serial online] 
+2020 [cited 2020 Jul 30];151:459-67. 
+Available from: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
 
 ### News Articles
 
@@ -45,12 +51,13 @@ April 14, 2020
 May 25, 2020
 [WHO suspends hydroxychloroquine trial as COVID-19 treatment](https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html)
 
-Reuters World News, May 26, 2020
+May 26, 2020
 [Exclusive: Indonesia, major advocate of hydroxychloroquine, told by WHO to stop using it](https://www.reuters.com/article/us-health-coronavirus-indonesia-chloroqu/exclusive-indonesia-major-advocate-of-hydroxychloroquine-told-by-who-to-stop-using-it-idUSKBN23227L)
 
-Reuters May 27, 2020
+May 27, 2020
 [EU governments ban malaria drug for COVID-19, trial paused as safety fears grow](https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-governments-ban-malaria-drug-for-covid-19-trial-paused-as-safety-fears-grow-idUSKBN2340A6)
 
+July 13, 2020 Updated July 16, 2020
 [Local doctor pushing proven treatment of COVID into national debate](https://www.thedesertreview.com/opinion/letters_to_editor/local-doctor-pushing-proven-treatment-of-covid-into-national-debate/article_ca59497a-c539-11ea-8943-4f707d6ebc1a.html)
 
 

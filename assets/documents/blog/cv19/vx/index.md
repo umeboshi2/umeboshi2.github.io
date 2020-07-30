@@ -8,6 +8,8 @@
 
 [COVID-19 vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
 
+[Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial, Part 1](https://clinicaltrials.gov/ct2/show/NCT04460703)
+
 
 ### Vaccine Hesitancy
 
