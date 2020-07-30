@@ -20,21 +20,10 @@ https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
 https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
 
 
-
-https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
-
-
-
 [Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19](https://www.nejm.org/doi/full/10.1056/NEJMoa2019014) [supplementary appendix](nejmoa2019014_appendix.pdf)
-
-
-https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-as-world-reserve-currency-is-at-risk
-
-
-Dr. Ron Paul asks
-[Why Did They Censor 'America's Frontline Doctors'?](https://www.youtube.com/watch?v=rTfZyRrADdA)
 
 
 [Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
 
 [Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
+

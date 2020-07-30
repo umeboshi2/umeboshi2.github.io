@@ -30,8 +30,6 @@ Dr. Ron Paul asks
 [Why Did They Censor 'America's Frontline Doctors'?](https://www.youtube.com/watch?v=rTfZyRrADdA)
 
 
-[Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
-
 
 [dtube link](https://d.tube/?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0#!/v/videostorage2020/QmWHnWJ4A2LZsmLBP8HeYrpcHhfFgTvPV8R4kitEcz9LgH?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0?fbclid=IwAR25IdNZyoE-Czh7YewP-R1NjDNQF-ItB1toUKUWqvYO7HbXEI76D3O83y0)
 

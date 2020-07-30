@@ -84,12 +84,6 @@ https://academic.oup.com/mbe/article/doi/10.1093/molbev/msaa188/5873882
 
 
 
-Many links in the comments
-https://www.facebook.com/stacey.davis.1401/posts/4426321314075855
-
-
-https://www.facebook.com/maryjosperry/posts/10222725059930764
-
 https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
 
 
@@ -97,10 +91,3 @@ https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-dis
 https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-as-world-reserve-currency-is-at-risk
 
 
-Dr. Ron Paul asks
-[Why Did They Censor 'America's Frontline Doctors'?](https://www.youtube.com/watch?v=rTfZyRrADdA)
-
-
-[Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
-
-[Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
