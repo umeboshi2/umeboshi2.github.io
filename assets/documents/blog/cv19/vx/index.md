@@ -1,5 +1,14 @@
 [Parent](#pages/blog/cv19/index)
 
+### Vaccine Trials
+
+[Hattiesburg Clinic to participate in COVID-19 vaccine trial](https://www.wdam.com/2020/07/28/hattiesburg-clinic-participating-covid-vaccine-trial/)
+
+[mRNA-1273 Approval Status](https://www.drugs.com/history/mrna-1273.html)
+
+[COVID-19 vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
+
+
 ### Vaccine Hesitancy
 
 The links below are taken from [here](https://www.corbettreport.com/mybody/).
