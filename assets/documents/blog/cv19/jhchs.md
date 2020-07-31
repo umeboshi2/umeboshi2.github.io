@@ -49,11 +49,25 @@ by the Center and shared broadly." [(Youtube Playlist)](https://www.youtube.com/
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/tqa7NHq73xM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-##### Clade X foobar
+##### Clade X pandemic exercise short movie
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/4grOOGZryFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### Clade X Pandemic Simulation 2018
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/H_rt6pXO-9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### United States Plan for a Pandemic
+
+"The mutated virus dubbed 'Clade X'  is born and spreading across the globe 
+fast. What's the United States' plan for this sweeping pandemic? In today's 
+educational video we're going to see exactly how the US would handle this new 
+virus "Clade X" and you can see the safety protocols that would be put in 
+place, like quarantine and isolation. And for the sake of all of humanity, 
+wash your hands, and if you can, stay home."
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/HVpz19qvllQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### [Event 201](https://www.centerforhealthsecurity.org/event201/)
 
