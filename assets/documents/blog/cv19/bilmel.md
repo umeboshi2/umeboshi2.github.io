@@ -4,6 +4,7 @@
 
 - [Bill and Melinda Gates Foundation](#bill-and-melinda-gates-foundation)
   - [News Articles](#news-articles)
+  - [Corbett Report on Bill Gates](#corbett-report-on-bill-gates)
     - [find later](#find-later)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

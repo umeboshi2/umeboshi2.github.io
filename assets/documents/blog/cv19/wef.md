@@ -4,6 +4,7 @@
 
 - [World Economic Forum](#world-economic-forum)
   - [Covid-19](#covid-19)
+    - [Covid Action Platform](#covid-action-platform)
   - [The Great Reset](#the-great-reset)
     - [What is the Fourth Industrial Revolution?](#what-is-the-fourth-industrial-revolution)
     - [The Great Reset | Launch session 3 June 2020](#the-great-reset--launch-session-3-june-2020)
