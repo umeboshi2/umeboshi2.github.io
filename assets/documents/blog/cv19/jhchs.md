@@ -32,10 +32,25 @@ attention. These issues were designed in a narrative to engage and educate the
 participants and the audience. Lessons learned from Clade X will be distilled 
 by the Center and shared broadly." [(Youtube Playlist)](https://www.youtube.com/watch?v=sJ1x8SlNxj0&list=PL9-oVXQX88etOom0YJndz0xw21AnQmfvV)
 
+##### Clade X Pandemic Exercise: Segment 1
 <iframe width="320" height="160" src="https://www.youtube.com/embed/sJ1x8SlNxj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### Clade X Pandemic Exercise: Segment 2
+
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/-4xiQHv4Y20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+##### Clade X Pandemic Exercise: Segment 3
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/QeRAb5JE1Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### Clade X Pandemic Exercise: Segment 4
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/tqa7NHq73xM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### Clade X foobar
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/4grOOGZryFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/H_rt6pXO-9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/HVpz19qvllQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
