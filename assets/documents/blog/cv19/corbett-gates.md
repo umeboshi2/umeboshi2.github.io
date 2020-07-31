@@ -10,3 +10,8 @@
 
 ## Corbett Report on Bill Gates
 
+<iframe width="320" height="160" src="https://www.youtube.com/embed/DawyMdbRQSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="160" src="https://www.youtube.com/embed/HfqdSG4dtsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="160" src="https://www.youtube.com/embed/3Jg4jzDmMac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="160" src="https://www.youtube.com/embed/k1trzdmwR2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="160" src="https://www.youtube.com/embed/8lh-HGcXE1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
