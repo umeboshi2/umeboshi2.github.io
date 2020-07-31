@@ -20,18 +20,6 @@ produce effective antidotes."
 
 
 
-
-Don Craig Wiley
-https://en.wikipedia.org/wiki/Don_Craig_Wiley
-
-Dr LEE Jong-wook
-https://www.who.int/dg/lee/biography/en/
-https://en.wikipedia.org/wiki/Lee_Jong-wook
-
-
-
-
-
 [List of over 100 Dead Microbiologists](https://prepareforchange.net/2016/02/20/list-of-over-100-dead-microbiologists/)
 
 
@@ -113,7 +101,8 @@ https://en.wikipedia.org/wiki/Lee_Jong-wook
 	classic doomsday plagues of HIV, ebola and influenza.
   - Circumstance of Death: Police found his rental car on a bridge outside 
 	Memphis, Tenn. His body was found Dec. 20 in the Mississippi River.
- 
+  - [Wikipedia](https://en.wikipedia.org/wiki/Don_Craig_Wiley)
+
  
 **Nov. 21, 2001:** Vladimir Pasechnik, 64
 
@@ -566,4 +555,13 @@ threats from bird flu, AIDS and other infectious diseases. WHO director-general
 since 2003, Lee was his country’s top international official. The affable South 
 Korean, who liked to lighten his press conferences with jokes, was a keen 
 sportsman with no history of ill-health, according to officials.
+
+
+Dr Lee Jong-wook
+https://www.who.int/dg/lee/biography/en/
+https://en.wikipedia.org/wiki/Lee_Jong-wook
+
+
+
+
 
