@@ -233,7 +233,7 @@ bioterrorism."
 	inquest returned a verdict of death by natural causes.
  
  
-**April 2003:** Carlo Urbani, 46
+**April 2003:** [Carlo Urbani](https://en.wikipedia.org/wiki/Carlo_Urbani), 46
 
   - Expertise: A dedicated and internationally respected Italian 
 	epidemiologist, who did work of enduring value combating infectious 
@@ -244,7 +244,8 @@ bioterrorism."
 	close daily contact with SARS patients, he contracted the infection. On 
 	March 11, he was admitted to a hospital in Bangkok and isolated. Less 
 	than three weeks later he died.
- 
+  - [WHO](https://www.who.int/csr/sars/urbani/en/)
+
  
 **June 24, 2003:** Dr. Leland Rickman of UCSD, 47
 A resident of Carmel Valley
@@ -256,9 +257,11 @@ A resident of Carmel Valley
 	AIDS patients. Dr. Rickman had complained of a headache and had gone to 
 	lie down. When he didn't appear for dinner, Mathews checked on him and 
 	found him dead. A cause has not yet been determined.
+  - [SF Gate](https://www.sfgate.com/health/article/Leland-Rickman-UC-consultant-on-bioterrorism-2605395.php)
+  - [ResearchGate](https://www.researchgate.net/scientific-contributions/76355505_Leland_S_Rickman)
+  
  
- 
-**July 18, 2003:** Dr. David Kelly, 59
+**July 18, 2003:** [Dr. David Kelly](https://en.wikipedia.org/wiki/David_Kelly_(weapons_expert)), 59
 
   - Expertise: Biological warfare weapons specialist, senior post at the 
 	Ministry of Defense, an expert on DNA sequencing when he was head of 
