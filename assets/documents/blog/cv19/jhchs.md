@@ -35,7 +35,7 @@ This symposium focused on the future of U.S. biosecurity policy."
 
 [Clade X page](#pages/blog/cv19/clade-x)
 
-### #[Event 201](#pages/blog/cv19/event-201)
+### [Event 201](#pages/blog/cv19/event-201)
 
 [Event 201 page](#pages/blog/cv19/event-201)
 
