@@ -17,6 +17,14 @@ through pandemic scare tactics and, worse yet from their standpoint, be able to
 produce effective antidotes."
 
 
+"Eleven microbiologists mysteriously dead over the span of just five 
+months. Some of them world leaders in developing weapons-grade biological 
+plagues. Others the best in figuring out how to stop millions from dying 
+because of biological weapons. Still others, experts in the theory of 
+bioterrorism."
+[The Globe and Mail](https://www.theglobeandmail.com/news/world/scientists-deaths-are-under-the-microscope/article4134797/)
+
+
 
 **April 15, 2000:** Walter W. Shervington, M.D., 62
   
@@ -134,7 +142,6 @@ produce effective antidotes."
   - [Wikipedia](https://en.wikipedia.org/wiki/Murder_of_Robert_Schwartz)
   
  
- 
 **Dec. 14, 2001:** Nguyen Van Set, 44
 
   - Expertise: animal diseases facility of the Commonwealth Scientific and 
@@ -143,7 +150,7 @@ produce effective antidotes."
   - Circumstance of Death: died at work in Geelong, Australia, in a laboratory 
 	accident. He entered an airlocked storage lab and died from exposure to 
 	nitrogen.
- 
+  - [Sydney Morning Herald](https://www.smh.com.au/national/csiro-lab-death-blamed-on-complacency-20070424-gdpz92.html) 
  
 **January 2002:** Ivan Glebov and Alexi Brushlinski.
 
@@ -158,13 +165,17 @@ produce effective antidotes."
   - Expertise: Scientist who codiscovered AZT, the antiviral drug that is 
 	considered the first effective treatment for AIDS.
   - Circumstance of Death: unknown
+  - [Wall Street Bio](https://www.twst.com/bio/david-w-barry-m-d/)
+  - [Washington Post](https://www.washingtonpost.com/archive/local/2002/01/31/david-w-barry-58/92b2c34a-7549-4e49-8444-f9fb9250eded/)
+  
  
  
 **Feb. 9, 2002:** Victor Korshunov, 56
 
   - Expertise: Expert in intestinal bacteria of children around the world
   - Circumstance of Death: bashed over the head near his home in Moscow.
- 
+  - [ResearchGate](https://www.researchgate.net/profile/Victor_Korshunov)
+  
  
 **Feb. 14, 2002:** Ian Langford, 40
 
@@ -573,3 +584,7 @@ http://www.911research.wtc7.net/post911/attacks/killings.html
 
 
 https://www.healthnutnews.com/recap-full-list-of-80-dead-scientists-with-photos-and-shocking-details/
+
+
+https://decryptedmatrix.com/category/government-agenda/scientists-rebooted/
+

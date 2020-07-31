@@ -14,8 +14,11 @@
 On July 27-28, 2020, a group of doctors held a press conference in front 
 of the Supreme Court building in Washington D.C.
 
+White Coat Summit, Capitol Hill Washington D.C. July 27- 28, 2020.
 
 [America's Frontline Doctors](https://www.americasfrontlinedoctors.com/)
+
+[America's Frontline Doctors](https://americasfrontlinedoctorsummit.com/)
 
 
 The [TPPatriots youtube channel](https://www.youtube.com/channel/UCBDFIhJatqK77qLyA0r-yVg)
