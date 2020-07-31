@@ -56,15 +56,20 @@ the participants and the audience." [(Youtube playlist)](https://www.youtube.com
 <iframe width="320" height="160" src="https://www.youtube.com/embed/QkGNvWflCNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-##### the rest
-##### the rest
-##### the rest
-##### the rest
-
+##### Event 201 Pandemic Exercise: Segment 3, Finance Discussion
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/rWRmlumcN_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+##### Event 201 Pandemic Exercise: Segment 4, Communications Discussion and Epilogue Video
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/LBuP40H4Tko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+##### Event 201 Pandemic Exercise: Segment 5, Hotwash and Conclusion
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/0-_FAjNSd58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### [Atlantic Storm](https://en.wikipedia.org/wiki/Atlantic_Storm)
 
