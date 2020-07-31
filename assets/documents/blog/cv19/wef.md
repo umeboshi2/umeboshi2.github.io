@@ -54,6 +54,8 @@ The new COVID Action Platform will focus on three priorities:
 
 [Official Video](https://www.weforum.org/great-reset)
 
+[Transformation Map](https://intelligence.weforum.org/topics/a1G0X000006OLciUAG?tab=publications)
+
 #### [About](https://www.weforum.org/great-reset/about)
 The Great Reset: A Unique Twin Summit to Begin 2021
 
