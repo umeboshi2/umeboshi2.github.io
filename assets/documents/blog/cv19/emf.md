@@ -10,6 +10,15 @@
 
 ## Video
 
+### Cell Phone Radiation Controversy - Part 1
+
+In Dr. Devra Lee Davis's latest book, she argues that the most popular gadget of our age has now been shown to damage DNA, break down the brain's defenses, and reduce sperm count while increasing memory loss, the risk of Alzheimer's disease, and even cancer. As this eye-opening call to action shows, we can make safer cell phones now.
+
+**Speaker:**
+Devra Lee Davis, PhD, MPH, Founder and President, Environmental Health Trust, Professor, Department of Epidemiology, University of Pittsburgh, Graduate School of Public Health
+
+**Event Date:** Tuesday, April 12, 2011
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/X8-sT-spd2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## EMF Papers
