@@ -63,8 +63,9 @@ produce effective antidotes."
   - Circumstance of Death: Professors Yaacov Matzner and Amiram Eldor were on 
 	their way back to Israel via Switzerland when their plane came down in 
 	dense forest three kilometres short of the landing field.
- 
- 
+  - [CNN](https://www.cnn.com/2001/WORLD/europe/11/25/singer.dead/)
+  - [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1122534/)
+  
 **November 2001:** Professor Amiram Eldor, 59
 
   - Expertise: Head of the haematology institute, Tel Aviv's Ichilov Hospital 
@@ -77,7 +78,10 @@ produce effective antidotes."
   - Circumstance of Death: Professors Yaacov Matzner and Amiram Eldor were on 
 	their way back to Israel via Switzerland when their plane came down in 
 	dense forest three kilometres short of the landing field.
- 
+  - [CNN](https://www.cnn.com/2001/WORLD/europe/11/25/singer.dead/)
+  - [Patents](https://patents.justia.com/inventor/amiram-eldor)
+  - [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1122534/)
+  
  
 **November 6, 2001:** Jeffrey Paris Wall, 41
 
@@ -96,7 +100,7 @@ produce effective antidotes."
 	classic doomsday plagues of HIV, ebola and influenza.
   - Circumstance of Death: Police found his rental car on a bridge outside 
 	Memphis, Tenn. His body was found Dec. 20 in the Mississippi River.
-  - [Wikipedia]
+  - [CNN](https://www.cnn.com/2001/US/12/22/missing.scientist/)
 
  
 **Nov. 21, 2001:** [Vladimir Pasechnik](https://en.wikipedia.org/wiki/Vladimir_Pasechnik), 64
@@ -568,3 +572,4 @@ http://www.911research.wtc7.net/post911/attacks/killings.html
 [List of over 100 Dead Microbiologists](https://prepareforchange.net/2016/02/20/list-of-over-100-dead-microbiologists/)
 
 
+https://www.healthnutnews.com/recap-full-list-of-80-dead-scientists-with-photos-and-shocking-details/
