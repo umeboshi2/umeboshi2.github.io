@@ -30,6 +30,8 @@ July 27, 2020
 
 [Three Weeks, Two Drug Trials: An update on the Therapeutics Accelerator with Trevor Mundel](https://www.gatesfoundation.org/TheOptimist/Articles/coronavirus-interview-trevor-mundel-drug-trials)
 
+### [Corbett Report on Bill Gates](#pages/blog/cv19/corbett-gates)
+
 
 #### find later
 

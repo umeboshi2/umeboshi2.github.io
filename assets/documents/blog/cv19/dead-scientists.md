@@ -110,7 +110,7 @@ bioterrorism."
   - Circumstance of Death: Police found his rental car on a bridge outside 
 	Memphis, Tenn. His body was found Dec. 20 in the Mississippi River.
   - [CNN](https://www.cnn.com/2001/US/12/22/missing.scientist/)
-
+  - [FOX News](https://www.foxnews.com/story/authorities-search-for-missing-harvard-virus-specialist)
  
 **Nov. 21, 2001:** [Vladimir Pasechnik](https://en.wikipedia.org/wiki/Vladimir_Pasechnik), 64
 
@@ -218,7 +218,8 @@ bioterrorism."
 	a noted expert in bioterrorism of the Colorado Health Sciences Centre.
   - Circumstance of Death: died when the airplane he was piloting crashed near 
 	Denver.
- 
+  - [The Denver Post](https://www.denverpost.com/2005/08/13/plane-crash-kills-four/)
+  
  
 **Nov. 12, 2002:** Benito Que, 52
 
