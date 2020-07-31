@@ -107,9 +107,10 @@ https://en.wikipedia.org/wiki/Lee_Jong-wook
 
 
 **April 15, 2000:** Walter W. Shervington, M.D., 62
-	Expertise: An extensive writer/ lecturer/ researcher about mental 
+  
+  - Expertise: An extensive writer/ lecturer/ researcher about mental 
 	health and AIDS in the African American community.
-	Circumstance of Death: Died of cancer at Tulane Medical Hospital.
+  - Circumstance of Death: Died of cancer at Tulane Medical Hospital.
  
  
 **July 16, 2000:** Mike Thomas, 35
