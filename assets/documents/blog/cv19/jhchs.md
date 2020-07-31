@@ -55,6 +55,11 @@ by the Center and shared broadly." [(Youtube Playlist)](https://www.youtube.com/
 
 ##### Clade X Pandemic Simulation 2018
 
+"In this simulation of May 2018 by the John Hopkins Center for Health Security, a scenario is being played out where a terrorist group has been able to create and spread a flu virus that killed 2% of the global population and crashed the global economy (90% crash) within 20 months, with no vaccine successfully developed within 20 months. The simulation was called Clade X. 
+The complete simulation is available on YouTube 
+[here](https://www.youtube.com/results?search_query=Clade+X)."
+
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/H_rt6pXO-9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##### United States Plan for a Pandemic
