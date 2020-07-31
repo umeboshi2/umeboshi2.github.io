@@ -5,7 +5,7 @@
 - [The Johns Hopkins Center for Health Security (JHCHS)](#the-johns-hopkins-center-for-health-security-jhchs)
   - [Charting the Future of Biosecurity](#charting-the-future-of-biosecurity)
   - [Clade X](#clade-x)
-  - [#Event 201](#event-201)
+  - [Event 201](#event-201)
   - [Atlantic Storm](#atlantic-storm)
   - [Related Links](#related-links)
 
