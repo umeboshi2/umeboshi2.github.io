@@ -24,7 +24,7 @@ because of biological weapons. Still others, experts in the theory of
 bioterrorism."
 [The Globe and Mail](https://www.theglobeandmail.com/news/world/scientists-deaths-are-under-the-microscope/article4134797/)
 
-
+[Dead And Missing Scientists, Armageddon, Genetic Bioweapons And The Return Of The Lost Tribes Of Israel](https://rense.com/general18/returb.htm)
 
 
 **April 15, 2000:** Walter W. Shervington, M.D., 62

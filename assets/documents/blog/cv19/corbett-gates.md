@@ -10,7 +10,26 @@
 
 ## Corbett Report on Bill Gates
 
-### Fact Check: Bill Gates and the "God Gene" Vaccine
+[Who Is Bill Gates?](https://www.corbettreport.com/gates/)
+
+### Part One: How Bill Gates Monopolized Global Health
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/wQSYdAX_9JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Part Two: Bill Gates’ Plan to Vaccinate the World
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/o7A_cMpKm6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Part Three: Bill Gates and the Population Control Grid
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/igx86PoU7v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Part Four: Meet Bill Gates
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/DSvhPnUgyz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Fact Check: Bill Gates and the "God Gene" Vaccine
 
 [Show Notes](https://www.corbettreport.com/fact-check-bill-gates-and-the-god-gene-vaccine/)
 
