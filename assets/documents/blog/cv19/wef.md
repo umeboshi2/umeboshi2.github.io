@@ -6,6 +6,7 @@
   - [Covid-19](#covid-19)
     - [Covid Action Platform](#covid-action-platform)
   - [The Great Reset](#the-great-reset)
+    - [Creating a Credible and Trusted Digital Currency](#creating-a-credible-and-trusted-digital-currency)
     - [What is the Fourth Industrial Revolution?](#what-is-the-fourth-industrial-revolution)
     - [The Great Reset | Launch session 3 June 2020](#the-great-reset--launch-session-3-june-2020)
     - [Family Business: Relic or Role Model? | DAVOS 2020](#family-business-relic-or-role-model--davos-2020)
@@ -49,13 +50,6 @@ The new COVID Action Platform will focus on three priorities:
   1. Mobilize cooperation and business support for the COVID-19 response
 
 
-
-In a recent video titled, 
-[Creating a Credible and Trusted Digital Currency | DAVOS 2020](https://www.youtube.com/watch?v=mzkU1RHovgQ), speakers explore "[t]he possibility of a trusted 
-*global digital currency* [which] has sparked political, economic and 
-regulatory discussions worldwide."
-
-
 ### The Great Reset
 
 [Official Video](https://www.weforum.org/great-reset)
@@ -77,6 +71,14 @@ other leaders of society to shape global, regional and industry agendas. We
 believe that progress happens by bringing together people from all walks of 
 life who have the drive and the influence to make positive change."
 [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](https://www.youtube.com/watch?v=ddGQTcuV-eg)
+
+#### Creating a Credible and Trusted Digital Currency
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/mzkU1RHovgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In this video, speakers explore "[t]he possibility of a trusted  *global 
+digital currency* [which] has sparked political, economic and regulatory 
+discussions worldwide."
 
 
 #### What is the Fourth Industrial Revolution?
