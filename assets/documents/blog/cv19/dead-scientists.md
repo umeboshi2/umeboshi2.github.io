@@ -153,97 +153,186 @@ https://en.wikipedia.org/wiki/Lee_Jong-wook
 	dense forest three kilometres short of the landing field.
  
  
-November 2001: Professor Amiram Eldor, 59
---Expertise: Head of the haematology institute, Tel Aviv's Ichilov Hospital and worked for years at Hadassah-University Hospital's haematology department but left for his native Tel Aviv in 1993 to head the haematology institute at Ichilov Hospital. He was an internationally known expert on blood clotting especially in women who had repeated miscarriages and was a member of a team that identified eight new anti-clotting agents in the saliva of leeches.
---Circumstance of Death: Professors Yaacov Matzner and Amiram Eldor were on their way back to Israel via Switzerland when their plane came down in dense forest three kilometres short of the landing field.
+**November 2001:** Professor Amiram Eldor, 59
+
+  - Expertise: Head of the haematology institute, Tel Aviv's Ichilov Hospital 
+	and worked for years at Hadassah-University Hospital's haematology 
+	department but left for his native Tel Aviv in 1993 to head the haematology 
+	institute at Ichilov Hospital. He was an internationally known expert on 
+	blood clotting especially in women who had repeated miscarriages and was a 
+	member of a team that identified eight new anti-clotting agents in the 
+	saliva of leeches.
+  - Circumstance of Death: Professors Yaacov Matzner and Amiram Eldor were on 
+	their way back to Israel via Switzerland when their plane came down in 
+	dense forest three kilometres short of the landing field.
  
  
-November 6, 2001: Jeffrey Paris Wall, 41
---Expertise: He was a biomedical expert who held a medical degree, and he also specialized in patent and intellectual property.
---Circumstance of Death: Mr. Walls body was found sprawled next to a three-story parking structure near his office. He had studied at the University of California, Los Angeles.
+**November 6, 2001:** Jeffrey Paris Wall, 41
+
+  - Expertise: He was a biomedical expert who held a medical degree, and he 
+	also specialized in patent and intellectual property.
+  - Circumstance of Death: Mr. Walls body was found sprawled next to a 
+	three-story parking structure near his office. He had studied at the 
+	University of California, Los Angeles.
  
  
-Nov. 16, 2001: Don C. Wiley, 57
---Expertise: One of the foremost microbiologists in the United States. Dr. Wiley, of the Howard Hughes Medical Institute at Harvard University, was an expert on how the immune system responds to viral attacks such as the classic doomsday plagues of HIV, ebola and influenza.
---Circumstance of Death: Police found his rental car on a bridge outside Memphis, Tenn. His body was found Dec. 20 in the Mississippi River.
+**Nov. 16, 2001:** Don C. Wiley, 57
+
+  - Expertise: One of the foremost microbiologists in the United States. Dr. 
+	Wiley, of the Howard Hughes Medical Institute at Harvard University, was 
+	an expert on how the immune system responds to viral attacks such as the 
+	classic doomsday plagues of HIV, ebola and influenza.
+  - Circumstance of Death: Police found his rental car on a bridge outside 
+	Memphis, Tenn. His body was found Dec. 20 in the Mississippi River.
  
  
-Nov. 21, 2001: Vladimir Pasechnik, 64
---Expertise: World-class microbiologist and high-profile Russian defector; defected to the United Kingdom in 1989, played a huge role in Russian biowarfare and helped to figure out how to modify cruise missiles to deliver the agents of mass biological destruction.
---Background: founded Regma Biotechnologies company in Britain, a laboratory at Porton Down, the country´s chem-bio warfare defense establishment. Regma currently has a contract with the U.S. Navy for "the diagnostic and therapeutic treatment of anthrax".
---Circumstance of Death: The pathologist who did the autopsy, and who also happened to be associated with Britain´s spy agency, concluded he died of a stroke. Details of the postmortem were not revealed at an inquest, in which the press was given no prior notice. Colleagues who had worked with Pasechnik said he was in good health.
+**Nov. 21, 2001:** Vladimir Pasechnik, 64
+
+  - Expertise: World-class microbiologist and high-profile Russian defector; 
+	defected to the United Kingdom in 1989, played a huge role in Russian 
+	biowarfare and helped to figure out how to modify cruise missiles to 
+	deliver the agents of mass biological destruction.
+  - Background: founded Regma Biotechnologies company in Britain, a laboratory 
+	at Porton Down, the country´s chem-bio warfare defense establishment. 
+	Regma currently has a contract with the U.S. Navy for "the diagnostic and 
+	therapeutic treatment of anthrax".
+  - Circumstance of Death: The pathologist who did the autopsy, and who also 
+	happened to be associated with Britain´s spy agency, concluded he died of 
+	a stroke. Details of the postmortem were not revealed at an inquest, in 
+	which the press was given no prior notice. Colleagues who had worked with 
+	Pasechnik said he was in good health.
  
  
-Dec. 10, 2001: Robert M. Schwartz, 57
---Expertise: Expert in DNA sequencing and pathogenic micro-organisms, founding member of the Virginia Biotechnology Association, and the Executive Director of Research and Development at Virginia´s Center for Innovative Technology in Herndon.
---Circumstance of Death: stabbed and slashed with what police believe was a sword in his farmhouse in Leesberg, Va. His daughter, who identifies herself as a pagan high priestess, and several of her fellow pagans have been charged.
+**Dec. 10, 2001:** Robert M. Schwartz, 57
+
+  - Expertise: Expert in DNA sequencing and pathogenic micro-organisms, 
+	founding member of the Virginia Biotechnology Association, and the 
+	Executive Director of Research and Development at Virginia´s Center for 
+	Innovative Technology in Herndon.
+  - Circumstance of Death: stabbed and slashed with what police believe was a 
+	sword in his farmhouse in Leesberg, Va. His daughter, who identifies 
+	herself as a pagan high priestess, and several of her fellow pagans have 
+	been charged.
  
  
-Dec. 14, 2001: Nguyen Van Set, 44
---Expertise: animal diseases facility of the Commonwealth Scientific and Industrial Research Organization had just come to fame for discovering a virulent strain of mousepox, which could be modified to affect smallpox.
---Circumstance of Death: died at work in Geelong, Australia, in a laboratory accident. He entered an airlocked storage lab and died from exposure to nitrogen.
+**Dec. 14, 2001:** Nguyen Van Set, 44
+
+  - Expertise: animal diseases facility of the Commonwealth Scientific and 
+	Industrial Research Organization had just come to fame for discovering a 
+	virulent strain of mousepox, which could be modified to affect smallpox.
+  - Circumstance of Death: died at work in Geelong, Australia, in a laboratory 
+	accident. He entered an airlocked storage lab and died from exposure to 
+	nitrogen.
  
  
-January 2002: Ivan Glebov and Alexi Brushlinski.
---Expertise: Two microbiologists. Both were well known around the world and members of the Russian Academy of Science.
---Circumstance of Death: Glebov died as the result of a bandit attack and Brushlinski was killed in Moscow.
+**January 2002:** Ivan Glebov and Alexi Brushlinski.
+
+  - Expertise: Two microbiologists. Both were well known around the world and 
+	members of the Russian Academy of Science.
+  - Circumstance of Death: Glebov died as the result of a bandit attack 
+	and Brushlinski was killed in Moscow.
  
  
-January 28, 2002: David W. Barry, 58
---Expertise: Scientist who codiscovered AZT, the antiviral drug that is considered the first effective treatment for AIDS.
---Circumstance of Death: unknown
+**January 28, 2002:** David W. Barry, 58
+
+  - Expertise: Scientist who codiscovered AZT, the antiviral drug that is 
+	considered the first effective treatment for AIDS.
+  - Circumstance of Death: unknown
  
  
-Feb. 9, 2002: Victor Korshunov, 56
---Expertise: Expert in intestinal bacteria of children around the world
---Circumstance of Death: bashed over the head near his home in Moscow.
+**Feb. 9, 2002:** Victor Korshunov, 56
+
+  - Expertise: Expert in intestinal bacteria of children around the world
+  - Circumstance of Death: bashed over the head near his home in Moscow.
  
  
-Feb. 14, 2002: Ian Langford, 40
---Expertise: expert in environmental risks and disease.
---Circumstance of Death: found dead in his home near Norwich, England, naked from the waist down and wedged under a chair.
+**Feb. 14, 2002:** Ian Langford, 40
+
+  - Expertise: expert in environmental risks and disease.
+  - Circumstance of Death: found dead in his home near Norwich, England, 
+	naked from the waist down and wedged under a chair.
  
  
-Feb. 28, 2002: Tanya Holzmayer, 46
---Expertise: a Russian who moved to the U.S. in 1989, focused on the part of the human molecular structure that could be affected best by medicine.
---Circumstance of Death: killed by fellow microbiologist Guyang (Matthew) Huang, who shot her seven times when she opened the door to a pizza delivery. Then he shot himself.
+**Feb. 28, 2002:** Tanya Holzmayer, 46
+
+  - Expertise: a Russian who moved to the U.S. in 1989, focused on the part 
+	of the human molecular structure that could be affected best by medicine.
+  - Circumstance of Death: killed by fellow microbiologist Guyang (Matthew) 
+	Huang, who shot her seven times when she opened the door to a pizza 
+	delivery. Then he shot himself.
  
  
-Feb. 28, 2002: Guyang Huang, 38
---Expertise: Microbiologist
---Circumstance of Death: Apparently shot himself after shooting fellow microbiologist, Tanya Holzmayer, seven times.
+**Feb. 28, 2002:** Guyang Huang, 38
+
+  - Expertise: Microbiologist
+  - Circumstance of Death: Apparently shot himself after shooting fellow 
+	microbiologist, Tanya Holzmayer, seven times.
  
  
-March 24, 2002: David Wynn-Williams, 55
---Expertise: Respected astrobiologist with the British Antarctic Survey, who studied the habits of microbes that might survive in outer space.
---Circumstance of Death: Died in a freak road accident near his home in Cambridge, England. He was hit by a car while he was jogging.
+**March 24, 2002:** David Wynn-Williams, 55
+
+  - Expertise: Respected astrobiologist with the British Antarctic Survey, who 
+	studied the habits of microbes that might survive in outer space.
+  - Circumstance of Death: Died in a freak road accident near his home in 
+	Cambridge, England. He was hit by a car while he was jogging.
  
  
-March 25, 2002: Steven Mostow, 63
---Expertise: Known as "Dr. Flu" for his expertise in treating influenza, and a noted expert in bioterrorism of the Colorado Health Sciences Centre.
---Circumstance of Death: died when the airplane he was piloting crashed near Denver.
+**March 25, 2002:** Steven Mostow, 63
+
+  - Expertise: Known as "Dr. Flu" for his expertise in treating influenza, and 
+	a noted expert in bioterrorism of the Colorado Health Sciences Centre.
+  - Circumstance of Death: died when the airplane he was piloting crashed near 
+	Denver.
  
  
-Nov. 12, 2002: Benito Que, 52
---Expertise: Expert in infectious diseases and cellular biology at the Miami Medical School
---Circumstance of Death: Que left his laboratory after receiving a telephone call. Shortly afterward he was found comatose in the parking lot of the Miami Medical School. He died without regaining consciousness. Police said he had suffered a heart attack. His family insisted he had been in perfect health and claimed four men attacked him. But, later, oddly, the family inquest returned a verdict of death by natural causes.
+**Nov. 12, 2002:** Benito Que, 52
+
+  - Expertise: Expert in infectious diseases and cellular biology at the 
+	Miami Medical School
+  - Circumstance of Death: Que left his laboratory after receiving a telephone 
+	call. Shortly afterward he was found comatose in the parking lot of the 
+	Miami Medical School. He died without regaining consciousness. Police said 
+	he had suffered a heart attack. His family insisted he had been in perfect 
+	health and claimed four men attacked him. But, later, oddly, the family 
+	inquest returned a verdict of death by natural causes.
  
  
-April 2003: Carlo Urbani, 46
---Expertise: A dedicated and internationally respected Italian epidemiologist, who did work of enduring value combating infectious illness around the world.
---Circumstance of Death: Died in Bangkok from SARS (severe acute respiratory syndrome) - the new disease that he had helped to identify. Thanks to his prompt action, the epidemic was contained in Vietnam. However, because of close daily contact with SARS patients, he contracted the infection. On March 11, he was admitted to a hospital in Bangkok and isolated. Less than three weeks later he died.
+**April 2003:** Carlo Urbani, 46
+
+  - Expertise: A dedicated and internationally respected Italian 
+	epidemiologist, who did work of enduring value combating infectious 
+	illness around the world.
+  - Circumstance of Death: Died in Bangkok from SARS (severe acute respiratory 
+	syndrome) - the new disease that he had helped to identify. Thanks to his 
+	prompt action, the epidemic was contained in Vietnam. However, because of 
+	close daily contact with SARS patients, he contracted the infection. On 
+	March 11, he was admitted to a hospital in Bangkok and isolated. Less 
+	than three weeks later he died.
  
  
-June 24, 2003: Dr. Leland Rickman of UCSD, 47
+**June 24, 2003:** Dr. Leland Rickman of UCSD, 47
 A resident of Carmel Valley
---Expertise: An expert in infectious disease who helped the county prepare to fight bioterrorism after Sept. 11.
---Circumstance of Death: He was in the African nation of Lesotho with Dr. Chris Mathews of UCSD, the director of the university's Owen Clinic for AIDS patients. Dr. Rickman had complained of a headache and had gone to lie down. When he didn't appear for dinner, Mathews checked on him and found him dead. A cause has not yet been determined.
+
+  - Expertise: An expert in infectious disease who helped the county prepare 
+	to fight bioterrorism after Sept. 11.
+  - Circumstance of Death: He was in the African nation of Lesotho with Dr. 
+	Chris Mathews of UCSD, the director of the university's Owen Clinic for 
+	AIDS patients. Dr. Rickman had complained of a headache and had gone to 
+	lie down. When he didn't appear for dinner, Mathews checked on him and 
+	found him dead. A cause has not yet been determined.
  
  
-July 18, 2003: Dr. David Kelly, 59
---Expertise: Biological warfare weapons specialist, senior post at the Ministry of Defense, an expert on DNA sequencing when he was head of microbiology at Porton Down and worked with two American scientists, Benito Que, 52, and Don Wiley, 57.
---Helped Vladimir Pasechnik found Regma Biotechnologies, which has a contract with the U.S. Navy for "the diagnostic and therapeutic treatment of anthrax"
---Circumstance of Death: He was found dead after seemingly slashing his wrist in a wooded area near his home at Southmoor, Oxfordshire.
+**July 18, 2003:** Dr. David Kelly, 59
+
+  - Expertise: Biological warfare weapons specialist, senior post at the 
+	Ministry of Defense, an expert on DNA sequencing when he was head of 
+	microbiology at Porton Down and worked with two American scientists, 
+	Benito Que, 52, and Don Wiley, 57.
+  - Helped Vladimir Pasechnik found Regma Biotechnologies, which has 
+	a contract with the U.S. Navy for "the diagnostic and therapeutic 
+	treatment of anthrax"
+  - Circumstance of Death: He was found dead after seemingly slashing his 
+	wrist in a wooded area near his home at Southmoor, Oxfordshire.
  
  
 Oct 11 or 24, 2003: Michael Perich, 46
