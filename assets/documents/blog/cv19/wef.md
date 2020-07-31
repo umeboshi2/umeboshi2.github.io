@@ -113,6 +113,8 @@ Self-driving cars. Neuro-technological brain enhancements. Genetic editing.
 The evidence of dramatic change is all around us and it’s happening at 
 exponential speed. 
 
+<iframe width="320" height="160" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Previous industrial revolutions liberated humankind from animal power, made 
 mass production possible and brought digital capabilities to billions of 
 people. This Fourth Industrial Revolution is, however, fundamentally 
@@ -120,8 +122,6 @@ different. It is characterized by a range of new technologies that are fusing
 the physical, digital and biological worlds, impacting all disciplines, 
 economies and industries, and even challenging ideas about what it means to be 
 human."
-
-<iframe width="320" height="160" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### The Great Reset | Launch session 3 June 2020
 
