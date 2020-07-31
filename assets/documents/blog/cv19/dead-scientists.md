@@ -100,14 +100,16 @@ https://en.wikipedia.org/wiki/Lee_Jong-wook
 [List of over 100 Dead Microbiologists](https://prepareforchange.net/2016/02/20/list-of-over-100-dead-microbiologists/)
 
 
-April 15, 2000: Walter W. Shervington, M.D., 62
---Expertise: An extensive writer/ lecturer/ researcher about mental health and AIDS in the African American community.
---Circumstance of Death: Died of cancer at Tulane Medical Hospital.
+**April 15, 2000:** Walter W. Shervington, M.D., 62
+	- Expertise: An extensive writer/ lecturer/ researcher about mental 
+		health and AIDS in the African American community.
+	- Circumstance of Death: Died of cancer at Tulane Medical Hospital.
  
  
-July 16, 2000: Mike Thomas, 35
---Expertise: A microbiologist at the Crestwood Medical Center in Huntsville.
---Circumstance of Death: Died a few days after examining a sample taken from a 12-year-old girl who was diagnosed with meningitis and survived.
+**July 16, 2000:** Mike Thomas, 35
+	- Expertise: A microbiologist at the Crestwood Medical Center in Huntsville.
+	- Circumstance of Death: Died a few days after examining a sample taken 
+		from a 12-year-old girl who was diagnosed with meningitis and survived.
  
  
 December 25, 2000: Linda Reese, 52
