@@ -335,138 +335,262 @@ A resident of Carmel Valley
 	wrist in a wooded area near his home at Southmoor, Oxfordshire.
  
  
-Oct 11 or 24, 2003: Michael Perich, 46
---Expertise: LSU professor who helped fight the spread of the West Nile virus. Perich worked with the East Baton Rouge Parish Mosquito Control and Rodent Abatement District to determine whether mosquitoes in the area carried West Nile.
---Circumstance of Death: Walker Police Chief Elton Burns said Sunday that Perich of 5227 River Bend Blvd., Baton Rouge, crashed his Ford pickup truck about 4:30 a.m. Saturday, while heading west on Interstate 12 in Livingston Parish. Perich's truck veered right off the highway about 3 miles east of Walker, flipped and landed in rainwater, Burns said. Perich, who was wearing his seat belt, drowned. The cause of the crash is under investigation, Burns said.
-"Mike is one of the few entomologists with the experience to go out and save lives today."
-~ Robert A. Wirtz, chief of entomology at the federal Centers for Disease Control and Prevention
+**Oct 11 or 24, 2003:** Michael Perich, 46
+
+  - Expertise: LSU professor who helped fight the spread of the West Nile 
+	virus. Perich worked with the East Baton Rouge Parish Mosquito Control 
+	and Rodent Abatement District to determine whether mosquitoes in the 
+	area carried West Nile.
+  - Circumstance of Death: Walker Police Chief Elton Burns said Sunday 
+	that Perich of 5227 River Bend Blvd., Baton Rouge, crashed his Ford 
+	pickup truck about 4:30 a.m. Saturday, while heading west on Interstate 12 
+	in Livingston Parish. Perich's truck veered right off the highway about 3 
+	miles east of Walker, flipped and landed in rainwater, Burns said. 
+	Perich, who was wearing his seat belt, drowned. The cause of the crash is 
+	under investigation, Burns said. "Mike is one of the few entomologists 
+	with the experience to go out and save lives today." - Robert A. Wirtz, 
+	chief of entomology at the federal Centers for Disease Control and 
+	Prevention
  
  
-November 22, 2003: Robert Leslie Burghoff, 45
---Expertise: He was studying the virus that was plaguing cruise ships until he was killed by a mysterious white van in November of 2003
---Circumstance of Death: Burghoff was walking on a sidewalk along the 1600 block of South Braeswood when a white van jumped the curb and hit him at 1:35 p.m. Thursday, police said. The van then sped away. Burghoff died an hour later at Memorial Hermann Hospital.
+**November 22, 2003:** Robert Leslie Burghoff, 45
+
+  - Expertise: He was studying the virus that was plaguing cruise ships until 
+	he was killed by a mysterious white van in November of 2003
+  - Circumstance of Death: Burghoff was walking on a sidewalk along the 
+	1600 block of South Braeswood when a white van jumped the curb and hit him 
+	at 1:35 p.m. Thursday, police said. The van then sped away. Burghoff died 
+	an hour later at Memorial Hermann Hospital.
  
  
-December 18, 2003: Robert Aranosia, 61
---Expertise: Oakland County deputy medical examiner
---Circumstance of Death: He was driving south on I-75 when his pickup truck went off the freeway near a bridge over the Kawkawlin River. The vehicle rolled over several times before landing in the median. Aranosia was thrown from the vehicle and ended up on the shoulder of the northbound lanes.
+**December 18, 2003:** Robert Aranosia, 61
+
+  - Expertise: Oakland County deputy medical examiner
+  - Circumstance of Death: He was driving south on I-75 when his pickup 
+	truck went off the freeway near a bridge over the Kawkawlin River. The 
+	vehicle rolled over several times before landing in the median. Aranosia 
+	was thrown from the vehicle and ended up on the shoulder of the 
+	northbound lanes.
  
  
-January 6, 2004: Dr Richard Stevens, 54
---Expertise: A haematologist. (Haematologists analyse the cellular composition of blood and blood producing tissues eg bone marrow)
---Circumstance of Death: Disappeared after arriving for work on 21 July, 2003. A doctor whose disappearance sparked a national manhunt, killed himself because he could not cope with the stress of a secret affair, a coroner has ruled.
+**January 6, 2004:** Dr Richard Stevens, 54
+
+  - Expertise: A haematologist. (Haematologists analyse the cellular 
+	composition of blood and blood producing tissues eg bone marrow)
+  - Circumstance of Death: Disappeared after arriving for work 
+	on 21 July, 2003. A doctor whose disappearance sparked a national manhunt, 
+	killed himself because he could not cope with the stress of a secret 
+	affair, a coroner has ruled.
  
  
-January 23 2004: Dr. Robert E. Shope, 74
---Expertise: An expert on viruses who was the principal author of a highly publicized 1992 report by the National Academy of Sciences warning of the possible emergence of new and unsettling infectious illnesses. Dr. Shope had accumulated his own collection of virus samples gathered from all over the world.
---Circumstance of Death: The cause was complications of a lung transplant he received in December, said his daughter Deborah Shope of Galveston. Dr. Shope had pulmonary fibrosis, a disease of unknown origin that scars the lungs.
+**January 23 2004:** Dr. Robert E. Shope, 74
+
+  - Expertise: An expert on viruses who was the principal author of a 
+	highly publicized 1992 report by the National Academy of Sciences warning 
+	of the possible emergence of new and unsettling infectious illnesses. Dr. 
+	Shope had accumulated his own collection of virus samples gathered from 
+	all over the world.
+  - Circumstance of Death: The cause was complications of a lung transplant he 
+	received in December, said his daughter Deborah Shope of Galveston. Dr. 
+	Shope had pulmonary fibrosis, a disease of unknown origin that scars the 
+	lungs.
  
  
-January 24 2004: Dr. Michael Patrick Kiley, 62
---Expertise: Ebola, Mad Cow Expert, top of the line world class.
---Circumstance of Death: Died of massive heart attack. Coincidently, both Dr. Shope and Dr. Kiley were working on the lab upgrade to BSL 4 at the UTMB Galvaston lab for Homeland Security. The lab would have to be secure to house some of the deadliest pathogens of tropical and emerging infectious disease as well as bioweaponized ones.
+**January 24 2004:** Dr. Michael Patrick Kiley, 62
+
+  - Expertise: Ebola, Mad Cow Expert, top of the line world class.
+  - Circumstance of Death: Died of massive heart attack. Coincidently, both 
+	Dr. Shope and Dr. Kiley were working on the lab upgrade to BSL 4 at the 
+	UTMB Galvaston lab for Homeland Security. The lab would have to be secure 
+	to house some of the deadliest pathogens of tropical and emerging 
+	infectious disease as well as bioweaponized ones.
  
  
-March 13, 2004: Vadake Srinivasan
---Expertise: Microbiologist.
---Circumstance of Death: crashed car into guard rail and ruled a stroke.
+**March 13, 2004:** Vadake Srinivasan
+
+  - Expertise: Microbiologist.
+  - Circumstance of Death: crashed car into guard rail and ruled a stroke.
  
  
-April 12, 2004: Ilsley Ingram, 84
---Expertise: Director of the Supraregional Haemophilia Reference Centre and the Supraregional Centre for the Diagnosis of Bleeding Disorders at the St. Thomas Hospital in London.
---Circumstance of Death: unknown
+**April 12, 2004:** Ilsley Ingram, 84
+
+  - Expertise: Director of the Supraregional Haemophilia Reference Centre 
+	and the Supraregional Centre for the Diagnosis of Bleeding Disorders at 
+	the St. Thomas Hospital in London.
+  - Circumstance of Death: unknown
  
  
-May 5, 2004: William T. McGuire, 39
---Expertise: NJ University Professor and Senior programmer analyst and adjunct professor at the New Jersey Institute of Technology in Newark.
---Circumstance of Death: Body found in 3 Suitcases floating in Chesapeake Bay.
+**May 5, 2004:** William T. McGuire, 39
+
+  - Expertise: NJ University Professor and Senior programmer analyst and 
+	adjunct professor at the New Jersey Institute of Technology in Newark.
+  - Circumstance of Death: Body found in 3 Suitcases floating in Chesapeake Bay.
  
  
-May 14, 2004: Dr. Eugene F. Mallove, 56
---Expertise: Mallove was well respected for his knowledge of cold fusion. He had just published an open letter outlining the results of and reasons for his last 15 years in the field of new energy research. Dr. Mallove was convinced it was only a matter of months before the world would actually see a free energy device.
---Circumstance of Death: Died after being beaten to death during an alleged robbery.
+**May 14, 2004:** Dr. Eugene F. Mallove, 56
+
+  - Expertise: Mallove was well respected for his knowledge of cold fusion. 
+	He had just published an open letter outlining the results of and reasons 
+	for his last 15 years in the field of new energy research. Dr. Mallove 
+	was convinced it was only a matter of months before the world would 
+	actually see a free energy device.
+  - Circumstance of Death: Died after being beaten to death during an alleged 
+	robbery.
  
  
-May 25, 2004: Antonina Presnyakova
---Expertise: Former Soviet biological weapons laboratory in Siberia --Circumstance of Death: Died after accidentally sticking herself with a needle laced with Ebola.
+**May 25, 2004:** Antonina Presnyakova
+
+  - Expertise: Former Soviet biological weapons laboratory in Siberia 
+  - Circumstance of Death: Died after accidentally sticking herself with a 
+	needle laced with Ebola.
  
  
-July 21, 2004: Dr. John Badwey 54
---Expertise: Scientist and accidental politician when he opposed disposal of sewage waste program of exposing humans to sludge. Biochemist at Harvard Medical School specializing in infectious diseases.
---Circumstance of Death: Suddenly developed pneumonia like symptoms then died in two weeks.
+**July 21, 2004:** Dr. John Badwey 54
+
+  - Expertise: Scientist and accidental politician when he opposed disposal 
+	of sewage waste program of exposing humans to sludge. Biochemist at 
+	Harvard Medical School specializing in infectious diseases.
+  - Circumstance of Death: Suddenly developed pneumonia like symptoms then 
+	died in two weeks.
  
  
-June 22, 2004: Thomas Gold, 84
---Expertise: He was the founder, and for twenty years the director, of the Cornell Center for Radiophysics and Space Research, where he was a close colleague of Planetary Society co-founder Carl Sagan. Gold was famous for his provocative, controversial, and sometimes outrageous theories. Gold's theory of the deep hot biosphere holds important ramifications for the possibility of life on other planets, including seemingly inhospitable planets within our own solar system. Gold sparked controversy in 1955 when he suggested that the Moon's surface is covered with a fine rock powder.
---Circumstance of Death: Died of heart failure.
+**June 22, 2004:** Thomas Gold, 84
+
+  - Expertise: He was the founder, and for twenty years the director, of the 
+	Cornell Center for Radiophysics and Space Research, where he was a close 
+	colleague of Planetary Society co-founder Carl Sagan. Gold was famous for 
+	his provocative, controversial, and sometimes outrageous theories. 
+	Gold's theory of the deep hot biosphere holds important ramifications for 
+	the possibility of life on other planets, including seemingly 
+	inhospitable planets within our own solar system. Gold sparked controversy 
+	in 1955 when he suggested that the Moon's surface is covered with a fine 
+	rock powder.
+  - Circumstance of Death: Died of heart failure.
  
  
-June 24, 2004: Dr. Assefa Tulu, 45
---Expertise: Dr. Tulu joined the health department in 1997 and served for five years as the county's lone epidemiologist. He was charged with tracking the health of the county, including the spread of diseases, such as syphilis, AIDS and measles. He also designed a system for detecting a bioterrorism attack involving viruses or bacterial agents. Tulu often coordinated efforts to address major health concerns in Dallas County, such as the West Nile virus outbreaks of the past few years, and worked with the media to inform the public.
---Circumstance of Death: Dallas County's chief epidemiologist, was found at his desk, died of a stroke.
+**June 24, 2004:** Dr. Assefa Tulu, 45
+
+  - Expertise: Dr. Tulu joined the health department in 1997 and served for 
+	five years as the county's lone epidemiologist. He was charged with 
+	tracking the health of the county, including the spread of diseases, such 
+	as syphilis, AIDS and measles. He also designed a system for detecting a 
+	bioterrorism attack involving viruses or bacterial agents. Tulu often 
+	coordinated efforts to address major health concerns in Dallas County, such 
+	as the West Nile virus outbreaks of the past few years, and worked with 
+	the media to inform the public.
+  - Circumstance of Death: Dallas County's chief epidemiologist, was found at 
+	his desk, died of a stroke.
  
  
-June 27, 2004: Dr Paul Norman, Of Salisbury, Wiltshire, 52
---Expertise: He was the chief scientist for chemical and biological defence at the Ministry of Defence's laboratory at Porton Down, Wiltshire. He travelled the world lecturing on the subject of weapons of mass destruction.
---Circumstance of Death: Died when the Cessna 206 crashed shortly after taking off from Dunkeswell Airfield on Sunday. A father and daughter also died at the scene, and 44-year-old parachute instructor and Royal Marine Major Mike Wills later died in the hospital.
-http://news.bbc.co.uk/1/hi/england/wiltshire/3860995.stm
+**June 27, 2004:** Dr Paul Norman, Of Salisbury, Wiltshire, 52
+
+  - Expertise: He was the chief scientist for chemical and biological defence 
+	at the Ministry of Defence's laboratory at Porton Down, Wiltshire. He 
+	travelled the world lecturing on the subject of weapons of mass destruction.
+  - Circumstance of Death: Died when the Cessna 206 crashed shortly after 
+	taking off from Dunkeswell Airfield on Sunday. A father and daughter also 
+	died at the scene, and 44-year-old parachute instructor and Royal Marine 
+	Major Mike Wills later died in the hospital.
+  - Webpage: http://news.bbc.co.uk/1/hi/england/wiltshire/3860995.stm
  
  
-June 29, 2004: John Mullen, 67
---Expertise: A nuclear research scientist with McDonnell Douglas.
---Circumstance of Death: Died from a huge dose of poisonous arsenic.
+**June 29, 2004:** John Mullen, 67
+
+  - Expertise: A nuclear research scientist with McDonnell Douglas.
+  - Circumstance of Death: Died from a huge dose of poisonous arsenic.
  
  
-July 1, 2004: Edward Hoffman, 62
---Expertise: Aside from his role as a professor, Hoffman held leadership positions within the UCLA medical community. Worked to develop the first human PET scanner in 1973 at Washington University in St. Louis.
---Circumstance of Death: unknown
+**July 1, 2004:** Edward Hoffman, 62
+
+  - Expertise: Aside from his role as a professor, Hoffman held 
+	leadership positions within the UCLA medical community. Worked to develop 
+	the first human PET scanner in 1973 at Washington University in St. Louis.
+  - Circumstance of Death: unknown
  
  
-July 2, 2004: Larry Bustard, 53
---Expertise: A Sandia scientist who helped develop a foam spray to clean up congressional buildings and media sites during the anthrax scare in 2001. Worked at Sandia National Laboratories in Albuquerque. His team came up with a new technology used against biological and chemical agents.
---Circumstance of Death: unknown
+**July 2, 2004:** Larry Bustard, 53
+
+  - Expertise: A Sandia scientist who helped develop a foam spray to clean 
+	up congressional buildings and media sites during the anthrax scare in 
+	2001. Worked at Sandia National Laboratories in Albuquerque. His team came 
+	up with a new technology used against biological and chemical agents.
+  - Circumstance of Death: unknown
  
  
-July 6, 2004: Stephen Tabet, 42
---Expertise: An associate professor and epidemiologist at the University of Washington. A world-renowned HIV doctor and researcher who worked with HIV patients in a vaccine clinical trial for the HIV Vaccine Trials Network.
---Circumstance of Death: Died of an unknown illness
+**July 6, 2004:** Stephen Tabet, 42
+
+  - Expertise: An associate professor and epidemiologist at the University 
+	of Washington. A world-renowned HIV doctor and researcher who worked with 
+	HIV patients in a vaccine clinical trial for the HIV Vaccine Trials Network.
+  - Circumstance of Death: Died of an unknown illness
  
  
-July 21, 2004: Dr Bassem al-Mudares
---Expertise: He was a phD chemist
---Circumstance of Death: His mutilated body was found in the city of Samarra, Iraq and had been tortured before being killed.
+**July 21, 2004:** Dr Bassem al-Mudares
+
+  - Expertise: He was a phD chemist
+  - Circumstance of Death: His mutilated body was found in the city of 
+	Samarra, Iraq and had been tortured before being killed.
  
  
-August 12, 2004: Professor John Clark
---Expertise: Head of the science lab which created Dolly the sheep. Prof Clark led the Roslin Institute in Midlothian, one of the world's leading animal biotechnology research centres. He played a crucial role in creating the transgenic sheep that earned the institute worldwide fame.
---Circumstance of Death: He was found hanging in his holiday home.
+**August 12, 2004:** Professor John Clark
+
+  - Expertise: Head of the science lab which created Dolly the sheep. 
+	Prof Clark led the Roslin Institute in Midlothian, one of the world's 
+	leading animal biotechnology research centres. He played a crucial role in 
+	creating the transgenic sheep that earned the institute worldwide fame.
+  - Circumstance of Death: He was found hanging in his holiday home.
  
  
-September 5, 2004: Mohammed Toki Hussein al-Talakani
---Expertise: Iraqi nuclear scientist. He was a practising nuclear physicist since 1984.
---Circumstance of Death: He was shot dead in Mahmudiya, south of Baghdad.
+**September 5, 2004:** Mohammed Toki Hussein al-Talakani
+
+  - Expertise: Iraqi nuclear scientist. He was a practising nuclear 
+	physicist since 1984.
+  - Circumstance of Death: He was shot dead in Mahmudiya, south of Baghdad.
  
  
-October 13, 2004: Matthew Allison, 32
-Fatal explosion of a car parked at an Osceola County, Fla., Wal-Mart store was no accident, Local 6 News has learned. Found inside a burned car. Witnesses said the man left the store at about 11 p.m. and entered his Ford Taurus car when it exploded. Investigators said they found a Duraflame log and propane canisters on the front passenger's seat.
+**October 13, 2004:** Matthew Allison, 32
+
+  - Circumstance of Death:  Fatal explosion of a car parked at an Osceola 
+	County, Fla., Wal-Mart store was no accident, Local 6 News has 
+	learned. Found inside a burned car. Witnesses said the man left the store 
+	at about 11 p.m. and entered his Ford Taurus car when it exploded. 
+	Investigators said they found a Duraflame log and propane canisters on 
+	the front passenger's seat.
  
  
-November 2, 2004: John R. La Montagne
---Expertise: Head of US Infectious Diseases unit under Tommie Thompson. Was NIAID Deputy Director.
---Circumstance of Death: Died while in Mexico, no cause stated.
+**November 2, 2004:** John R. La Montagne
+
+  - Expertise: Head of US Infectious Diseases unit under Tommie 
+	Thompson. Was NIAID Deputy Director.
+  - Circumstance of Death: Died while in Mexico, no cause stated.
  
  
-December 21, 2004: Taleb Ibrahim al-Daher
---Expertise: Iraqi nuclear scientist
---Circumstance of Death: He was shot dead north of Baghdad by unknown gunmen. He was on his way to work at Diyala University when armed men opened fire on his car as it was crossing a bridge in Baqouba, 57 km northeast of Baghdad. The vehicle swerved off the bridge and fell into the Khrisan river. Al-Daher, who was a professor at the local university, was removed from the submerged car and rushed to Baqouba hospital where he was pronounced dead.
+**December 21, 2004:** Taleb Ibrahim al-Daher
+
+  - Expertise: Iraqi nuclear scientist
+  - Circumstance of Death: He was shot dead north of Baghdad by unknown 
+	gunmen. He was on his way to work at Diyala University when armed men 
+	opened fire on his car as it was crossing a bridge in Baqouba, 57 km 
+	northeast of Baghdad. The vehicle swerved off the bridge and fell into 
+	the Khrisan river. Al-Daher, who was a professor at the local university, 
+	was removed from the submerged car and rushed to Baqouba hospital where 
+	he was pronounced dead.
  
  
-December 29, 2004: Tom Thorne and Beth Williams
---Expertise: Two wild life scientists, Husband-and-wife wildlife veterinarians who were nationally prominent experts on chronic wasting disease and brucellosis
---Circumstance of Death: They were killed in a snowy-weather crash on U.S. 287 in northern Colorado.
+**December 29, 2004:** Tom Thorne and Beth Williams
+
+  - Expertise: Two wild life scientists, Husband-and-wife wildlife 
+	veterinarians who were nationally prominent experts on chronic wasting 
+	disease and brucellosis
+  - Circumstance of Death: They were killed in a snowy-weather crash on 
+	U.S. 287 in northern Colorado.
  
  
-January 7, 2005: Jeong H. Im, 72
---Expertise: A retired research assistant professor at the University of Missouri-Columbia. Primarily a protein chemist.
---Circumstance of Death: He was stabbed several times and his body was found in the trunk of his burning white, 1995 Honda inside the Maryland Avenue parking garage.
+**January 7, 2005:** Jeong H. Im, 72
+
+  - Expertise: A retired research assistant professor at the University 
+	of Missouri-Columbia. Primarily a protein chemist.
+  - Circumstance of Death: He was stabbed several times and his body was 
+	found in the trunk of his burning white, 1995 Honda inside the Maryland 
+	Avenue parking garage.
  
