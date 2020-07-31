@@ -183,7 +183,8 @@ bioterrorism."
   - Expertise: expert in environmental risks and disease.
   - Circumstance of Death: found dead in his home near Norwich, England, 
 	naked from the waist down and wedged under a chair.
- 
+  - [The Guardian](https://www.theguardian.com/education/2002/feb/13/highereducation.uk)
+  
  
 **Feb. 28, 2002:** Tanya Holzmayer, 46
 
@@ -192,13 +193,14 @@ bioterrorism."
   - Circumstance of Death: killed by fellow microbiologist Guyang (Matthew) 
 	Huang, who shot her seven times when she opened the door to a pizza 
 	delivery. Then he shot himself.
- 
+  - [SF Gate](https://www.sfgate.com/bayarea/article/Firing-may-have-spurred-slaying-suicide-2868478.php)
  
 **Feb. 28, 2002:** Guyang Huang, 38
 
   - Expertise: Microbiologist
   - Circumstance of Death: Apparently shot himself after shooting fellow 
 	microbiologist, Tanya Holzmayer, seven times.
+  - [SF Gate](https://www.sfgate.com/bayarea/article/Firing-may-have-spurred-slaying-suicide-2868478.php)
  
  
 **March 24, 2002:** David Wynn-Williams, 55
@@ -207,7 +209,8 @@ bioterrorism."
 	studied the habits of microbes that might survive in outer space.
   - Circumstance of Death: Died in a freak road accident near his home in 
 	Cambridge, England. He was hit by a car while he was jogging.
- 
+  - [The Independent](https://www.independent.co.uk/news/obituaries/david-wynn-williams-9240433.html)
+  
  
 **March 25, 2002:** Steven Mostow, 63
 
