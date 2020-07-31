@@ -290,6 +290,9 @@ A resident of Carmel Valley
 	with the experience to go out and save lives today." - Robert A. Wirtz, 
 	chief of entomology at the federal Centers for Disease Control and 
 	Prevention
+  - [Farm Progress](https://www.farmprogress.com/lsu-entomologist-dies-accident)
+  - [LSU Ag Center](https://www.lsuagcenter.com/portals/communications/publications/agmag/archive/2004/winter/two-researchers-die-in-2003)
+  
  
  
 **November 22, 2003:** Robert Leslie Burghoff, 45
@@ -300,7 +303,8 @@ A resident of Carmel Valley
 	1600 block of South Braeswood when a white van jumped the curb and hit him 
 	at 1:35 p.m. Thursday, police said. The van then sped away. Burghoff died 
 	an hour later at Memorial Hermann Hospital.
- 
+  - [Chron](https://www.chron.com/neighborhood/article/Woodlands-man-killed-in-Houston-hit-and-run-9819166.php)
+  
  
 **December 18, 2003:** Robert Aranosia, 61
 
