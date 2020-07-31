@@ -71,6 +71,13 @@ unlock the secrets of a spiral-shaped bacteria that causes stomach disease. He
 was a professor who challenged his students with real-life exercises in 
 bioterrorism. He was married to Dr. Sherry Nordstrom..
 
+Leonid Strachunsky. Died: June 8, 2005 after being hit on the head with a 
+champagne bottle. Strachunsky specialized in creating microbes resistant to 
+biological weapons. Strachunsky was found dead in his hotel room in Moscow, 
+where hed come from Smolensk en route to the United States. Investigators are 
+looking for a connection between the murder of this leading bio weapons 
+researcher and the hepatitis outbreak in Tver, Russia.
+
 
 
 Don Craig Wiley
