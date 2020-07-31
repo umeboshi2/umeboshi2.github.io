@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [World Economic Forum](#world-economic-forum)
+  - [Covid-19](#covid-19)
+  - [The Great Reset](#the-great-reset)
+    - [What is the Fourth Industrial Revolution?](#what-is-the-fourth-industrial-revolution)
+    - [The Great Reset | Launch session 3 June 2020](#the-great-reset--launch-session-3-june-2020)
+    - [Family Business: Relic or Role Model? | DAVOS 2020](#family-business-relic-or-role-model--davos-2020)
+  - [AI and Government](#ai-and-government)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 [Parent](#pages/blog/cv19/index)
 
 ## World Economic Forum

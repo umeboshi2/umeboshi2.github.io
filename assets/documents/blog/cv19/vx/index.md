@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Vaccine Trials](#vaccine-trials)
+- [Vaccine Hesitancy](#vaccine-hesitancy)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 [Parent](#pages/blog/cv19/index)
 
 ### Vaccine Trials

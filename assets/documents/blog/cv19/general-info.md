@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Data for Mississippi](#data-for-mississippi)
+- [Resources for Mississippi](#resources-for-mississippi)
+- [Genome Data](#genome-data)
+- [CDC Pages](#cdc-pages)
+- [Other Articles](#other-articles)
+- [Research Papers](#research-papers)
+  - [Transmission Dynamics of COVID-19](#transmission-dynamics-of-covid-19)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 [Parent](#pages/blog/cv19/index)
 
 # Data for Mississippi
