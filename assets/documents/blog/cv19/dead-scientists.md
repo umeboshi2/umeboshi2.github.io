@@ -13,6 +13,12 @@
 [Dead Scientists And Microbiologists - Master List](https://rense.com/general62/list.htm)
 
 [Dead Microbiologists](https://rense.com/general96/deadmicro.html)
+"This compilation of biologist and microbiologist deaths indeed causes one to 
+wonder if someone, somewhere does not want men and women alive who may see 
+through pandemic scare tactics and, worse yet from their standpoint, be able to 
+produce effective antidotes."
+
+
 
 Dr. Larry Bustard
 Dr. Larry Bustard, age 53. Died July 2, 2004 from unknown causes. He was a 
