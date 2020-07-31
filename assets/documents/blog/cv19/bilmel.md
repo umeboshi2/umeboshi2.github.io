@@ -9,8 +9,9 @@ technology."
 [(wikipedia)](https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation)
 
 
-### notes
+### News Articles
 
+July 27, 2020
 [Bill Gates says a COVID-vaccine maker he backed can produce 200 million doses by June](https://fortune.com/2020/07/27/bill-gates-covid-vaccine-sk-bioscience/)
 
 [Zuckerberg, Gates team up to contribute $25M for research into coronavirus treatments](https://thehill.com/homenews/news/489995-zuckerberg-gates-team-up-to-contribute-25m-for-research-into-coronavirus)
