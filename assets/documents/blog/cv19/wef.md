@@ -6,6 +6,8 @@
   - [Covid-19](#covid-19)
     - [Covid Action Platform](#covid-action-platform)
   - [The Great Reset](#the-great-reset)
+    - [About](#about)
+    - [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](#great-reset-dialogues--six-leaders-discuss-why-we-must-reform-the-social-contract-after-covid-19)
     - [Creating a Credible and Trusted Digital Currency](#creating-a-credible-and-trusted-digital-currency)
     - [What is the Fourth Industrial Revolution?](#what-is-the-fourth-industrial-revolution)
     - [The Great Reset | Launch session 3 June 2020](#the-great-reset--launch-session-3-june-2020)

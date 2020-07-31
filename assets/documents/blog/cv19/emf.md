@@ -2,6 +2,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
+- [Video](#video)
+  - [Cell Phone Radiation Controversy - Part 1](#cell-phone-radiation-controversy---part-1)
 - [EMF Papers](#emf-papers)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

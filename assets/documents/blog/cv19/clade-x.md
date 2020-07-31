@@ -2,24 +2,14 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [The Johns Hopkins Center for Health Security (JHCHS)](#the-johns-hopkins-center-for-health-security-jhchs)
-  - [Charting the Future of Biosecurity](#charting-the-future-of-biosecurity)
-  - [Clade X](#clade-x)
-      - [Clade X Pandemic Exercise: Segment 1](#clade-x-pandemic-exercise-segment-1)
-      - [Clade X Pandemic Exercise: Segment 2](#clade-x-pandemic-exercise-segment-2)
-      - [Clade X Pandemic Exercise: Segment 3](#clade-x-pandemic-exercise-segment-3)
-      - [Clade X Pandemic Exercise: Segment 4](#clade-x-pandemic-exercise-segment-4)
-      - [Clade X pandemic exercise short movie](#clade-x-pandemic-exercise-short-movie)
-      - [Clade X Pandemic Simulation 2018](#clade-x-pandemic-simulation-2018)
+- [Clade X](#clade-x)
+  - [Clade X Pandemic Exercise: Segment 1](#clade-x-pandemic-exercise-segment-1)
+  - [Clade X Pandemic Exercise: Segment 2](#clade-x-pandemic-exercise-segment-2)
+  - [Clade X Pandemic Exercise: Segment 3](#clade-x-pandemic-exercise-segment-3)
+  - [Clade X Pandemic Exercise: Segment 4](#clade-x-pandemic-exercise-segment-4)
+  - [Clade X pandemic exercise short movie](#clade-x-pandemic-exercise-short-movie)
+  - [Clade X Pandemic Simulation 2018](#clade-x-pandemic-simulation-2018)
       - [United States Plan for a Pandemic](#united-states-plan-for-a-pandemic)
-  - [Event 201](#event-201)
-      - [Event 201 Pandemic Exercise: Segment 1, Intro and Medical Countermeasures (MCM) Discussion](#event-201-pandemic-exercise-segment-1-intro-and-medical-countermeasures-mcm-discussion)
-      - [Event 201 Pandemic Exercise: Segment 2, Trade and Travel Discussion](#event-201-pandemic-exercise-segment-2-trade-and-travel-discussion)
-      - [Event 201 Pandemic Exercise: Segment 3, Finance Discussion](#event-201-pandemic-exercise-segment-3-finance-discussion)
-      - [Event 201 Pandemic Exercise: Segment 4, Communications Discussion and Epilogue Video](#event-201-pandemic-exercise-segment-4-communications-discussion-and-epilogue-video)
-      - [Event 201 Pandemic Exercise: Segment 5, Hotwash and Conclusion](#event-201-pandemic-exercise-segment-5-hotwash-and-conclusion)
-  - [Atlantic Storm](#atlantic-storm)
-  - [Related Links](#related-links)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
