@@ -7,7 +7,6 @@
 - [Genome Data](#genome-data)
 - [CDC Pages](#cdc-pages)
 - [Other Articles](#other-articles)
-  - [test me again](#test-me-again)
 - [Research Papers](#research-papers)
   - [Transmission Dynamics of COVID-19](#transmission-dynamics-of-covid-19)
 
@@ -60,8 +59,6 @@ Coronavirus Disease 2019 (COVID-19)"
 # Other Articles
 
 [We Thought It Was Just a Respiratory Virus](https://www.ucsf.edu/magazine/covid-body)
-
-## test me again
 
 # Research Papers
 
