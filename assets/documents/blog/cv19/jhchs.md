@@ -47,8 +47,21 @@ preparedness challenges that could be solved with sufficient political will
 and attention. These issues were designed in a narrative to engage and educate 
 the participants and the audience." [(Youtube playlist)](https://www.youtube.com/watch?v=AoLw-Q8X174&list=PL9-oVXQX88esnrdhaiuRdXGG7XOVYB9Xm)
 
+##### Event 201 Pandemic Exercise: Segment 1, Intro and Medical Countermeasures (MCM) Discussion
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/Vm1-DnxRiPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### Event 201 Pandemic Exercise: Segment 2, Trade and Travel Discussion
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/QkGNvWflCNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+##### the rest
+##### the rest
+##### the rest
+##### the rest
+
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/rWRmlumcN_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/LBuP40H4Tko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/0-_FAjNSd58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
