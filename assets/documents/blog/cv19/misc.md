@@ -54,5 +54,5 @@ https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-a
 
 [old research map](https://en.wikipedia.org/wiki/User:Umeboshi/research_map)
 
-https://www.facebook.com/HighWireTalk/
 
+[You Must Not ‘Do Your Own Research’ When It Comes To Science](https://www.forbes.com/sites/startswithabang/2020/07/30/you-must-not-do-your-own-research-when-it-comes-to-science/#25253cfe535e)

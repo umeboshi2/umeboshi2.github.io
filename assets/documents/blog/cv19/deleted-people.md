@@ -16,3 +16,7 @@
 ## People who have been censored
 
 [Vernon Coleman](#pages/blog/cv19/vernon-coleman)
+
+
+[Del Bigtree](https://www.facebook.com/HighWireTalk/)
+
