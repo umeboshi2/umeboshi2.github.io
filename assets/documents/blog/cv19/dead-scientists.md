@@ -324,9 +324,11 @@ A resident of Carmel Valley
 	on 21 July, 2003. A doctor whose disappearance sparked a national manhunt, 
 	killed himself because he could not cope with the stress of a secret 
 	affair, a coroner has ruled.
+  - [BBC News](http://news.bbc.co.uk/2/hi/uk_news/england/manchester/3936725.stm)
+  
  
  
-**January 23 2004:** Dr. Robert E. Shope, 74
+**January 23 2004:** [Dr. Robert E. Shope](https://en.wikipedia.org/wiki/Robert_Shope), 74
 
   - Expertise: An expert on viruses who was the principal author of a 
 	highly publicized 1992 report by the National Academy of Sciences warning 
@@ -353,7 +355,8 @@ A resident of Carmel Valley
 
   - Expertise: Microbiologist.
   - Circumstance of Death: crashed car into guard rail and ruled a stroke.
- 
+  - [Patents](https://patents.justia.com/inventor/vadake-r-srinivasan)
+  
  
 **April 12, 2004:** Ilsley Ingram, 84
 
@@ -361,16 +364,18 @@ A resident of Carmel Valley
 	and the Supraregional Centre for the Diagnosis of Bleeding Disorders at 
 	the St. Thomas Hospital in London.
   - Circumstance of Death: unknown
- 
+  - [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC478242/)
+  
  
 **May 5, 2004:** William T. McGuire, 39
 
   - Expertise: NJ University Professor and Senior programmer analyst and 
 	adjunct professor at the New Jersey Institute of Technology in Newark.
   - Circumstance of Death: Body found in 3 Suitcases floating in Chesapeake Bay.
+  - [Wikipedia article of wife](https://en.wikipedia.org/wiki/Melanie_McGuire)
+  
  
- 
-**May 14, 2004:** Dr. Eugene F. Mallove, 56
+**May 14, 2004:** [Dr. Eugene F. Mallove](https://en.wikipedia.org/wiki/Eugene_Mallove), 56
 
   - Expertise: Mallove was well respected for his knowledge of cold fusion. 
 	He had just published an open letter outlining the results of and reasons 
@@ -386,6 +391,8 @@ A resident of Carmel Valley
   - Expertise: Former Soviet biological weapons laboratory in Siberia 
   - Circumstance of Death: Died after accidentally sticking herself with a 
 	needle laced with Ebola.
+  - [Science Mag](https://science.sciencemag.org/content/304/5675/1225.2.full)
+  
  
  
 **July 21, 2004:** Dr. John Badwey 54
@@ -397,7 +404,7 @@ A resident of Carmel Valley
 	died in two weeks.
 
  
-**June 22, 2004:** Thomas Gold, 84
+**June 22, 2004:** [Thomas Gold](https://en.wikipedia.org/wiki/Thomas_Gold), 84
 
   - Expertise: He was the founder, and for twenty years the director, of the 
 	Cornell Center for Radiophysics and Space Research, where he was a close 
