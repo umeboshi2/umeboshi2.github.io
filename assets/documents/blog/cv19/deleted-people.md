@@ -26,7 +26,19 @@
 
 From Bitchute
 
+Jul 29, 2020
+Media Manipulation In Preparation for the Coming Purge
+
 <iframe width="320" height="160" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/SLPiOX3QMa4/"></iframe>
+
+
+Jul 28, 2020
+We Are Now Entering the Twilight Zone
+
+<iframe width="320" height="160" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/3N5DXcKmC9o/"></iframe>
+
+
+https://www.bitchute.com/video/
 
 
 
