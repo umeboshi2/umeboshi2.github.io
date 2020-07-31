@@ -13,7 +13,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-[Parent](#pages/blog/cv19/index)
+[Parent](#pages/blog/cv19/bilmel)
 
 ## Corbett Report on Bill Gates
 
