@@ -10,7 +10,13 @@
 
 ## Corbett Report on Bill Gates
 
+### Fact Check: Bill Gates and the "God Gene" Vaccine
+
+[Show Notes](https://www.corbettreport.com/fact-check-bill-gates-and-the-god-gene-vaccine/)
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/DawyMdbRQSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/HfqdSG4dtsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/3Jg4jzDmMac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/k1trzdmwR2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
