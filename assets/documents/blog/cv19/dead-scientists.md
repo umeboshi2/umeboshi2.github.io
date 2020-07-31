@@ -10,17 +10,12 @@
 
 ## Dead Scientists
 
-[Dead Scientists And Microbiologists - Master List](https://rense.com/general62/list.htm)
-
 [Dead Microbiologists](https://rense.com/general96/deadmicro.html)
 "This compilation of biologist and microbiologist deaths indeed causes one to 
 wonder if someone, somewhere does not want men and women alive who may see 
 through pandemic scare tactics and, worse yet from their standpoint, be able to 
 produce effective antidotes."
 
-
-
-[List of over 100 Dead Microbiologists](https://prepareforchange.net/2016/02/20/list-of-over-100-dead-microbiologists/)
 
 
 **April 15, 2000:** Walter W. Shervington, M.D., 62
@@ -93,7 +88,7 @@ produce effective antidotes."
 	University of California, Los Angeles.
  
  
-**Nov. 16, 2001:** Don C. Wiley, 57
+**Nov. 16, 2001:** [Don C. Wiley](https://en.wikipedia.org/wiki/Don_Craig_Wiley), 57
 
   - Expertise: One of the foremost microbiologists in the United States. Dr. 
 	Wiley, of the Howard Hughes Medical Institute at Harvard University, was 
@@ -101,10 +96,10 @@ produce effective antidotes."
 	classic doomsday plagues of HIV, ebola and influenza.
   - Circumstance of Death: Police found his rental car on a bridge outside 
 	Memphis, Tenn. His body was found Dec. 20 in the Mississippi River.
-  - [Wikipedia](https://en.wikipedia.org/wiki/Don_Craig_Wiley)
+  - [Wikipedia]
 
  
-**Nov. 21, 2001:** Vladimir Pasechnik, 64
+**Nov. 21, 2001:** [Vladimir Pasechnik](https://en.wikipedia.org/wiki/Vladimir_Pasechnik), 64
 
   - Expertise: World-class microbiologist and high-profile Russian defector; 
 	defected to the United Kingdom in 1989, played a huge role in Russian 
@@ -131,6 +126,9 @@ produce effective antidotes."
 	sword in his farmhouse in Leesberg, Va. His daughter, who identifies 
 	herself as a pagan high priestess, and several of her fellow pagans have 
 	been charged.
+  - [Washington Post](https://www.washingtonpost.com/archive/local/2001/12/12/scientist-found-slain-in-va-home/08ba4fba-709b-4702-87e9-b440ac66f966/)
+  - [Wikipedia](https://en.wikipedia.org/wiki/Murder_of_Robert_Schwartz)
+  
  
  
 **Dec. 14, 2001:** Nguyen Van Set, 44
@@ -563,5 +561,10 @@ https://en.wikipedia.org/wiki/Lee_Jong-wook
 
 
 
+http://www.911research.wtc7.net/post911/attacks/killings.html
+
+[Dead Scientists And Microbiologists - Master List](https://rense.com/general62/list.htm)
+
+[List of over 100 Dead Microbiologists](https://prepareforchange.net/2016/02/20/list-of-over-100-dead-microbiologists/)
 
 
