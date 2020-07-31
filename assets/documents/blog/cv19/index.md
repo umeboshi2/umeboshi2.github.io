@@ -29,6 +29,9 @@ a global pandemic.
 
 1. [Deleted People](#pages/blog/cv19/deleted-people)
 
+	1. [Dead Scientists](#pages/blog/cv19/dead-scientists)
+	
+
 1. Artificial Persons
 
 	1. [World Economic Forum](#pages/blog/cv19/wef)
