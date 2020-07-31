@@ -439,10 +439,10 @@ A resident of Carmel Valley
  
 **July 2, 2004:** Larry Bustard, 53
 
-  - Expertise: A Sandia scientist who helped develop a foam spray to clean 
-	up congressional buildings and media sites during the anthrax scare in 
-	2001. Worked at Sandia National Laboratories in Albuquerque. As an expert 
-	in bioterrorism, his team came up with a new technology used against 
+  - Expertise: A Sandia scientist who helped develop a foam spray to clean up 
+	congressional buildings and media sites during the anthrax scare in 2001. 
+	Worked at Sandia National Laboratories in Albuquerque. As an expert in 
+	bioterrorism, his team came up with a new technology used against 
 	biological and chemical agents.
   - Circumstance of Death: unknown
   - [Anthrax Roudup: New anti-bacterial foam to coat D.C. mailrooms](https://www.seattlepi.com/news/article/Anthrax-Roudup-New-anti-bacterial-foam-to-coat-1069942.php)
