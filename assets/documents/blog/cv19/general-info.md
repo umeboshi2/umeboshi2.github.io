@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+**[Home](#pages/blog/cv19/index)**
 
 - [Data for Mississippi](#data-for-mississippi)
 - [Resources for Mississippi](#resources-for-mississippi)

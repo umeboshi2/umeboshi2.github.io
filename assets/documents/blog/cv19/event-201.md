@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+**[Home](#pages/blog/cv19/index)**
 
 - [Event 201](#event-201)
   - [Event 201 Pandemic Exercise: Segment 1, Intro and Medical Countermeasures (MCM) Discussion](#event-201-pandemic-exercise-segment-1-intro-and-medical-countermeasures-mcm-discussion)

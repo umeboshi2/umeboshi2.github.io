@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+**[Home](#pages/blog/cv19/index)**
 
 - [Corbett Report on Bill Gates](#corbett-report-on-bill-gates)
   - [Part One: How Bill Gates Monopolized Global Health](#part-one-how-bill-gates-monopolized-global-health)

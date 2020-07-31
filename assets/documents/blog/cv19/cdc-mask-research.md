@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+**[Home](#pages/blog/cv19/index)**
 
 - [CDC Mask Research](#cdc-mask-research)
   - [Extra Research](#extra-research)
