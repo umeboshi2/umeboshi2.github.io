@@ -20,17 +20,12 @@ a global pandemic.
 
 1. [The Johns Hopkins Center for Health Security (JHCHS)](#pages/blog/cv19/jhchs)
 
-1. [America's Frontline Doctors](#pages/blog/cv19/frontline)
-
 1. [HCQ Treatment Platform](#pages/blog/cv19/hcq)
 
 
 ## Related Topics
 
 1. [Deleted People](#pages/blog/cv19/deleted-people)
-
-	1. [Dead Scientists](#pages/blog/cv19/dead-scientists)
-	
 
 1. Artificial Persons
 

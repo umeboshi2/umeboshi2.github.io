@@ -37,6 +37,10 @@
 
 ### Other Interesting Topics
 
+1. [Dead Scientists](#pages/blog/cv19/dead-scientists)
+	
+
+
 https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm
 
 https://sciencewithdrdoug.wordpress.com/2020/07/27/enzymes-in-humans-are-mutating-the-novel-coronavirus-in-an-accelerated-fashion-to-make-it-less-harmful/
