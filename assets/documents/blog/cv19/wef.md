@@ -66,11 +66,11 @@ The Great Reset: A Unique Twin Summit to Begin 2021
 	foundations of our economic and social system for a more fair, sustainable 
 	and resilient future.
 
-  - It requires a new social contract centred on human dignity, social justice 
-	and where societal progress does not fall behind economic development. The 
-	global health crisis has laid bare longstanding ruptures in our economies 
-	and societies, and created a social crisis that urgently requires decent, 
-	meaningful jobs.
+  - It **requires a new social contract** centred on human dignity, social 
+	justice and where societal progress does not fall behind economic 
+	development. The global health crisis has laid bare longstanding ruptures 
+	in our economies and societies, and created a social crisis that urgently 
+	requires decent, meaningful jobs. (Emphasis added)
 
   - The twin summit will be both in-person and virtual, connecting key 
 	global governmental and business leaders in Davos with a global 
