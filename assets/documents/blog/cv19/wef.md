@@ -31,6 +31,22 @@ The WEF has a [focus](https://www.weforum.org/focus/coronavirus-covid-19) on the
 COVID-19 crisis. They have a 
 [transformation map](https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications&type=Global+Issues) to respond to the COVID-19 pandemic..
 
+#### Covid Action Platform
+
+The [Covid Action Platform](https://www.weforum.org/covid-action-platform)
+"demands global cooperation among governments, international organizations 
+and the business community. This multistakeholder cooperation is at the 
+centre of the World Economic Forum’s mission as the International Organization 
+for Public-Private Cooperation."
+
+The new COVID Action Platform will focus on three priorities:
+
+	1. Galvanize the global business community for collective action
+
+	1. Protect people’s livelihoods and facilitate business continuity
+
+	1. Mobilize cooperation and business support for the COVID-19 response
+
 
 
 In a recent video titled, 
