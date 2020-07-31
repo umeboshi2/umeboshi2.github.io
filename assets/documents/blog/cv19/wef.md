@@ -54,6 +54,26 @@ The new COVID Action Platform will focus on three priorities:
 
 [Official Video](https://www.weforum.org/great-reset)
 
+#### [About](https://www.weforum.org/great-reset/about)
+The Great Reset: A Unique Twin Summit to Begin 2021
+
+  - “The Great Reset” will be the theme of a unique twin summit in January 
+	2021, convened by the World Economic Forum.
+
+  - “The Great Reset” is a commitment to jointly and urgently build the 
+	foundations of our economic and social system for a more fair, sustainable 
+	and resilient future.
+
+  - It requires a new social contract centred on human dignity, social justice 
+	and where societal progress does not fall behind economic development. The 
+	global health crisis has laid bare longstanding ruptures in our economies 
+	and societies, and created a social crisis that urgently requires decent, 
+	meaningful jobs.
+
+  - The twin summit will be both in-person and virtual, connecting key 
+	global governmental and business leaders in Davos with a global 
+	multistakeholder network in 400 cities around the world for a 
+	forward-oriented dialogue driven by the younger generation.
 
 [The Great Reset requires FinTechs – and FinTechs require a common approach to cybersecurity](https://www.weforum.org/agenda/2020/07/great-reset-fintech-financial-technology-cybersecurity-controls-cyber-resilience-businesses-consumers/)
 
