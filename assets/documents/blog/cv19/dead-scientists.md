@@ -120,17 +120,37 @@ https://en.wikipedia.org/wiki/Lee_Jong-wook
 	from a 12-year-old girl who was diagnosed with meningitis and survived.
  
  
-December 25, 2000: Linda Reese, 52
---Expertise: Microbiologist working with victims of meningitis.
---Circumstance of Death: Died three days after she studied a sample from Tricia Zailo, 19, a Fairfield, N.J., resident who was a sophomore at Michigan State University. Tricia Zailo died Dec. 18, a few days after she returned home for the holidays.
+**December 25, 2000:** Linda Reese, 52
+
+  - Expertise: Microbiologist working with victims of meningitis.
+  - Circumstance of Death: Died three days after she studied a sample from 
+	Tricia Zailo, 19, a Fairfield, N.J., resident who was a sophomore 
+	at Michigan State University. Tricia Zailo died Dec. 18, a few days after 
+	she returned home for the holidays.
  
  
-May 7 2001: Professor Janusz Jeljaszewicz
---Expertise: Expert in Staphylococci and Staphylococcal Infections. His main scientific interests and achievements were in the mechanism of action and biological properties of staphylococcal toxins, and included the immunomodulatory properties and experimental treatment of tumours by Propionibacterium.
+**May 7 2001:** Professor Janusz Jeljaszewicz
+
+  - Expertise: Expert in Staphylococci and Staphylococcal Infections. His main 
+	scientific interests and achievements were in the mechanism of action and 
+	biological properties of staphylococcal toxins, and included the 
+	immunomodulatory properties and experimental treatment of tumours by 
+	Propionibacterium.
  
  
-November 2001: Yaacov Matzner, 54 --Expertise: Dean of the Hebrew University-Hadassah Medical School in Jerusalem and chairman of the Israel Society of Hematology and Blood Transfusions, was the son of Holocaust survivors. One of the world's experts on blood diseases including familiar Mediterranean fever (FMF), Matzner conducted research that led to a genetic test for FMF. He was working on cloning the gene connected to FMF and investigating the normal physiological function of amyloid A, a protein often found in high levels in people with blood cancer.
---Circumstance of Death: Professors Yaacov Matzner and Amiram Eldor were on their way back to Israel via Switzerland when their plane came down in dense forest three kilometres short of the landing field.
+**November 2001:** Yaacov Matzner, 54 
+
+  - Expertise: Dean of the Hebrew University-Hadassah Medical School in 
+	Jerusalem and chairman of the Israel Society of Hematology and Blood 
+	Transfusions, was the son of Holocaust survivors. One of the world's 
+	experts on blood diseases including familiar Mediterranean fever (FMF), 
+	Matzner conducted research that led to a genetic test for FMF. He was 
+	working on cloning the gene connected to FMF and investigating the normal 
+	physiological function of amyloid A, a protein often found in high levels 
+	in people with blood cancer.
+  - Circumstance of Death: Professors Yaacov Matzner and Amiram Eldor were on 
+	their way back to Israel via Switzerland when their plane came down in 
+	dense forest three kilometres short of the landing field.
  
  
 November 2001: Professor Amiram Eldor, 59
