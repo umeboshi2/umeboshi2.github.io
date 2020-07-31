@@ -42,11 +42,11 @@ for Public-Private Cooperation."
 
 The new COVID Action Platform will focus on three priorities:
 
-	1. Galvanize the global business community for collective action
+  1. Galvanize the global business community for collective action
 
-	1. Protect people’s livelihoods and facilitate business continuity
+  1. Protect people’s livelihoods and facilitate business continuity
 
-	1. Mobilize cooperation and business support for the COVID-19 response
+  1. Mobilize cooperation and business support for the COVID-19 response
 
 
 
