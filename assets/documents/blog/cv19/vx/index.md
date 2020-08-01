@@ -4,6 +4,7 @@
 
 - [Vaccine Trials](#vaccine-trials)
 - [Vaccine Hesitancy](#vaccine-hesitancy)
+- [Vaccine Liability](#vaccine-liability)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -42,3 +43,8 @@ The links below are taken from [here](https://www.corbettreport.com/mybody/).
 [Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
 
 https://www.facebook.com/HighWireTalk/videos/291320525305679/
+
+### Vaccine Liability
+
+[AstraZeneca to be exempt from coronavirus vaccine liability claims in most countries](https://www.reuters.com/article/us-astrazeneca-results-vaccine-liability-idUSKCN24V2EN)
+
