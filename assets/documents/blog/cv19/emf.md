@@ -5,6 +5,7 @@
 - [Video](#video)
   - [Cell Phone Radiation Controversy - Part 1](#cell-phone-radiation-controversy---part-1)
   - ["The truth about mobile phone and wireless radiation" -- Dr Devra Davis](#the-truth-about-mobile-phone-and-wireless-radiation----dr-devra-davis)
+  - [5G Wireless Safety](#5g-wireless-safety)
 - [EMF Papers](#emf-papers)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -78,6 +79,10 @@ Medical Association as well as the Scientific American and the New York Times.
 Dr Devra Davis is an internationally recognised expert on electromagnetic 
 radiation from mobile phones and other wireless transmitting devices.
 
+### 5G Wireless Safety
+
+
+5G Wireless Safety - Former President Of Microsoft Canada Frank Clegg & 5G 4G 3G Technologies
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/h4TdY344Now" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
