@@ -25,6 +25,19 @@ In early April, 2020, "[a] 46-year-old Ukrainian, Vladimir (Zev) Zelenko, who
 has been working as a doctor in the United States for the past 16 years, claims 
 to have developed a drug regimen for treating coronavirus that has cured at 
 least 700 people." [(How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump)](https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/)
+In his letter to President Trump, he stated that
+
+  1. "We need an immediate supply of 1.5 billion pills of HCQ 200mg, 500 
+  million pills of Azithromycin 500mg, 500 million pills of zinc sulfate 
+  220mg (or its equivalent - we need 50mg elemental zinc)."
+  
+  1. "I suggest the following prophylactic regimen for very high risk patients
+      1. Hydroxychloroquine 200mg once a day for 5 days, and then 1 pill 
+		 a week until immunity can be shown or a vaccine becomes available.
+      1. Zinc Sulfate 220mg once a day for 5 days, and then 1 pill a week 
+		 until immunity can be shown or a vaccine becomes available."
+
+
 
 Dr. Zelenko recommended using [zinc](https://en.wikipedia.org/wiki/Zinc) as a
 viral blocking agent, inhibiting reproduction.
