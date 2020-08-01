@@ -43,10 +43,23 @@ This symposium focused on the future of U.S. biosecurity policy."
 
   - Panel 1: Present and Future Biothreats
 
+    This panel discussion was one of several at a special symposium, Charting 
+	the Future of Biosecurity: Ten Years after the Anthrax Attacks, held 
+	October 4, 2011, in Washington, DC. 
+	
+	The panel was made up of Randall 
+	Larsen, CEO, WMD Center, moderator; D.A. Henderson, Distinguished Scholar, 
+	Center for Biosecurity of UPMC; and Richard J. Danzig, Chairman of the 
+	Board, Center for a New American Security.
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Panel 2: Looking Ahead in U.S. Health Security
 	
+	The panel was made up of Richard Besser, Chief Health and Medical 
+	Editor, ABC News, moderator; Thomas R. Frieden, Director, CDC; 
+	Andrew C. Weber, Assistant Secretary of Defense for Nuclear, 
+	Chemical, and Biological Defense Programs, DoD; and Nicole Lurie, 
+	Assistant Secretary for Preparedness and Response, HHS.
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Panel 3: Transformative Science in Biosecurity
