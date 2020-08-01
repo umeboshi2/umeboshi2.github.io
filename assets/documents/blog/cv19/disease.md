@@ -15,7 +15,9 @@
 
 The Covid-19 pandemic on [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic). The [Coronavirus disease 2019 page](https://en.wikipedia.org/wiki/Coronavirus_disease_2019) is the article covering the disease.  The [SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2) virus 
 that causes the disease has its own page. There is also a page for the 
-coronavirus [family](https://en.wikipedia.org/wiki/Coronavirus),
+coronavirus [family](https://en.wikipedia.org/wiki/Coronavirus), There is also 
+a [testing](https://en.wikipedia.org/wiki/COVID-19_testing) page.
+
 
 
 
