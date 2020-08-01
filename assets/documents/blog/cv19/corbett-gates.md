@@ -21,6 +21,12 @@
 
 ### Part One: How Bill Gates Monopolized Global Health
 
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria [was created] in 
+2002 with seed money from software mogul Bill Gates, the Fund accounted in 
+2009 for 20 percent of international public funding for HIV, 65 percent for 
+TB and 65 percent for malaria."
+[Global Fund faces billion-dollar gap](https://archive.fo/20130124180843/http://www.google.com/hostednews/afp/article/ALeqM5h6Ih8CYz1SqAKYjI-SiowJgu8BSA?docId=CNG.07d4a47a8ce76f0e07e322726bdf65a2.6f1)
+
 <iframe width="320" height="160" src="https://www.youtube.com/embed/wQSYdAX_9JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Part Two: Bill Gates’ Plan to Vaccinate the World

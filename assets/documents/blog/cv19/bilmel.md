@@ -37,6 +37,10 @@ July 27, 2020
 
 [NewsHour gets $3.5 million from Gates Foundation](http://blogs.reuters.com/mediafile/2008/12/01/newshour-gets-35-million-from-gates-foundation/)
 
+[Bill & Melinda Gates Foundation Expands Commitment to Global COVID-19 Response, Calls for International Collaboration to Protect People Everywhere from the Virus](https://www.gatesfoundation.org/Media-Center/Press-Releases/2020/04/Gates-Foundation-Expands-Commitment-to-COVID-19-Response-Calls-for-International-Collaboration)
+
+
+
 ### [Corbett Report on Bill Gates](#pages/blog/cv19/corbett-gates)
 
 
