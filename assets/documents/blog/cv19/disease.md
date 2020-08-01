@@ -3,6 +3,7 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [Disease and Infection](#disease-and-infection)
+  - [Papers](#papers)
   - [Theories](#theories)
   - [Bechamp](#bechamp)
 
@@ -12,7 +13,16 @@
 
 ## Disease and Infection
 
-The Covid-19 pandemic on [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic).
+The Covid-19 pandemic on [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic). The [Coronavirus disease 2019 page](https://en.wikipedia.org/wiki/Coronavirus_disease_2019) is the article covering the disease.  The [SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2) virus 
+that causes the disease has its own page.
+
+
+### Papers
+
+D Baltimore
+
+Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
+[Expression of animal virus genomes](https://mmbr.asm.org/content/mmbr/35/3/235.full-text.pdf)
 
 
 
