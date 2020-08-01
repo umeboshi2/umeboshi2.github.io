@@ -20,6 +20,8 @@
 Alfred, Lord Tennyson wrote a [poem](https://en.wikipedia.org/wiki/Locksley_Hall)
 [celebrating](https://en.wikipedia.org/wiki/World_government#Alfred,_Lord_Tennyson) a world government.
 
+[New World Order (conspiracy theory)](https://en.wikipedia.org/wiki/New_World_Order_(conspiracy_theory))
+
 
 [World Passport](https://en.wikipedia.org/wiki/World_Passport)
 
