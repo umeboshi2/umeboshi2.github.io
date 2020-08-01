@@ -21,12 +21,9 @@ coronavirus [family](https://en.wikipedia.org/wiki/Coronavirus),
 
 ### Papers
 
-D Baltimore
-
-
 [A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/)
 
-
+D Baltimore
 Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
 [Expression of animal virus genomes](https://mmbr.asm.org/content/mmbr/35/3/235.full-text.pdf)
 
