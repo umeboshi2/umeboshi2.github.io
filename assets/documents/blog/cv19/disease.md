@@ -12,6 +12,10 @@
 
 ## Disease and Infection
 
+The Covid-19 pandemic on [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic).
+
+
+
 ### Theories
 
 [Koch's postulates](https://en.wikipedia.org/wiki/Koch%27s_postulates)

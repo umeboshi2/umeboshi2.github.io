@@ -22,6 +22,8 @@ a global pandemic.
 
 1. [HCQ Treatment Platform](#pages/blog/cv19/hcq)
 
+1. [PCR Testing](#pages/blog/cv19/pcr-testing)
+
 1. [Disease and Infection](#pages/blog/cv19/disease)
 
 ## Related Topics
