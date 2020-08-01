@@ -19,6 +19,9 @@ and, in the U.S., to expand educational opportunities and access to information
 technology."
 [(wikipedia)](https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation)
 
+The Foundation, along with the [World Economic Forum](#pages/blog/cv19/wef),
+hosted the [Event 201](#pages/blog/cv19/event-201) pandemic tabletop exercise.
+
 
 ### News Articles
 

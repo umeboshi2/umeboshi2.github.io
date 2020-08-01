@@ -51,6 +51,10 @@ The new COVID Action Platform will focus on three priorities:
 
   1. Mobilize cooperation and business support for the COVID-19 response
 
+##### Articles
+
+July 20, 2020
+[What COVID-19 taught 10 startups about pivoting, problem solving and tackling the unknown](https://www.weforum.org/covid-action-platform/articles/what-covid-19-taught-10-startups-about-pivoting-problem-solving-and-tackling-the-unknown)
 
 ### The Great Reset
 
@@ -78,6 +82,11 @@ The Great Reset: A Unique Twin Summit to Begin 2021
 	global governmental and business leaders in Davos with a global 
 	multistakeholder network in 400 cities around the world for a 
 	forward-oriented dialogue driven by the younger generation.
+
+"The World Economic Forum will draw on thousands of young people in more than 
+400 cities around the world (the Global Shapers Community) who will be 
+interconnected with a powerful virtual hub network to interact with the 
+leaders in Davos."
 
 [The Great Reset requires FinTechs – and FinTechs require a common approach to cybersecurity](https://www.weforum.org/agenda/2020/07/great-reset-fintech-financial-technology-cybersecurity-controls-cyber-resilience-businesses-consumers/)
 
