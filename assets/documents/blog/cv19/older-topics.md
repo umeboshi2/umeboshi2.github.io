@@ -21,15 +21,15 @@
 Alfred, Lord Tennyson wrote a [poem](https://en.wikipedia.org/wiki/Locksley_Hall)
 [celebrating](https://en.wikipedia.org/wiki/World_government#Alfred,_Lord_Tennyson) a world government.
 
-[New World Order (conspiracy theory)](https://en.wikipedia.org/wiki/New_World_Order_(conspiracy_theory))
+Wikipedia Pages:
 
+  1. [New World Order (conspiracy theory)](https://en.wikipedia.org/wiki/New_World_Order_(conspiracy_theory))
 
-[World Passport](https://en.wikipedia.org/wiki/World_Passport)
+  1. [World Passport](https://en.wikipedia.org/wiki/World_Passport)
 
+  1. [Kakistocracy](https://en.wikipedia.org/wiki/Kakistocracy)
 
-[Kakistocracy](https://en.wikipedia.org/wiki/Kakistocracy)
-
-[Aristocracy](https://en.wikipedia.org/wiki/Aristocracy)
+  1. [Aristocracy](https://en.wikipedia.org/wiki/Aristocracy)
 
 ## Shadow Government
 
@@ -70,7 +70,7 @@ she quit her job as a lawyer in Indianapolis, Indiana to start the American
 Justice Federation,[3] a non-profit group that promoted pro-gun causes 
 through a shortwave radio program, a computer bulletin board system, and 
 sales of its newsletter and videos.[4][5] She died of a prescription drug 
-overdose in 2009.
+overdose in 2009."
 
 #### America Under Siege
 
