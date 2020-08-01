@@ -6,7 +6,6 @@
   - [News Articles](#news-articles)
   - [COVID-19 Therapeutics Accelerator](#covid-19-therapeutics-accelerator)
   - [Corbett Report on Bill Gates](#corbett-report-on-bill-gates)
-    - [find later](#find-later)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -53,6 +52,3 @@ July 27, 2020
 ### [Corbett Report on Bill Gates](#pages/blog/cv19/corbett-gates)
 
 
-#### find later
-
-Helped fund Event 201
