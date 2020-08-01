@@ -40,6 +40,8 @@ hearings on the Iran-Contra affair.
 Senator Inouye, summarizes here the coverup of the US Shadowy Government 
 involvement; by saying:
 
+<iframe width="320" height="240" src="https://www.youtube.com/embed/EbFphX5zb8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 "There exists a shadowy Government with its own Air Force, its own Navy, its 
 own fundraising mechanism, and the ability to pursue its own ideas of the 
 national interest, free from all checks and balances, and free from the law 
@@ -49,7 +51,6 @@ For more context and perspective, please check the PBS documentary by Bill
 Moyers "The Secret Government: The Constitution in Crises", which was broadcast 
 in 1987; the full documentary could be watched on Google Video.
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/EbFphX5zb8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Older Topics
