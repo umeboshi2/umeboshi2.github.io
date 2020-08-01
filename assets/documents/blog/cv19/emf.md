@@ -23,7 +23,7 @@ Devra Lee Davis, PhD, MPH, Founder and President, Environmental Health Trust, Pr
 
 **Event Date:** Tuesday, April 12, 2011
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/X8-sT-spd2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/X8-sT-spd2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### "The truth about mobile phone and wireless radiation" -- Dr Devra Davis
 
@@ -46,7 +46,7 @@ international legislation. New global studies on the health consequences of
 mobile/wireless radiation will be presented, including children’s exposure and 
 risks.
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/BwyDCHf5iCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/BwyDCHf5iCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The Speaker
 Dr Devra Davis is an internationally recognised expert on electromagnetic 
@@ -84,7 +84,7 @@ radiation from mobile phones and other wireless transmitting devices.
 
 5G Wireless Safety - Former President Of Microsoft Canada Frank Clegg & 5G 4G 3G Technologies
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/h4TdY344Now" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/h4TdY344Now" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 5G Summit [5G Summit](https://the5gsummit.com/) looks like sales gimmick.

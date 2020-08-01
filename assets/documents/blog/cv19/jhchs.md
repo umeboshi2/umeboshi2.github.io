@@ -39,7 +39,7 @@ This symposium focused on the future of U.S. biosecurity policy."
 	gives welcome and opening remarks for a special symposium, Charting the 
 	Future of Biosecurity: Ten Years after the Anthrax Attacks, held October 
 	4, 2011, in Washington, DC.
-	<iframe width="320" height="160" src="https://www.youtube.com/embed/AOafUygnsZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/AOafUygnsZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Panel 1: Present and Future Biothreats
 
@@ -51,7 +51,7 @@ This symposium focused on the future of U.S. biosecurity policy."
 	Larsen, CEO, WMD Center, moderator; D.A. Henderson, Distinguished Scholar, 
 	Center for Biosecurity of UPMC; and Richard J. Danzig, Chairman of the 
 	Board, Center for a New American Security.
-	<iframe width="320" height="160" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Panel 2: Looking Ahead in U.S. Health Security
 	
@@ -60,7 +60,7 @@ This symposium focused on the future of U.S. biosecurity policy."
 	Andrew C. Weber, Assistant Secretary of Defense for Nuclear, 
 	Chemical, and Biological Defense Programs, DoD; and Nicole Lurie, 
 	Assistant Secretary for Preparedness and Response, HHS.
-	<iframe width="320" height="160" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Panel 3: Transformative Science in Biosecurity
   
@@ -69,15 +69,15 @@ This symposium focused on the future of U.S. biosecurity policy."
 	DHS; Margaret A. Hamburg, Commissioner, FDA; J. Craig Venter, Founder, 
 	Chairman, and President, J. Craig Venter Institute; and George Poste, 
 	Chief Scientist, Complex Adaptive Systems Initiative
-	<iframe width="320" height="160" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - The Outlook for Biosecurity, Thomas V. Inglesby
 
-	<iframe width="320" height="160" src="https://www.youtube.com/embed/bYC1bhrElwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/bYC1bhrElwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - The Impact of the Anthrax Letter Attacks, Jeanne Meserve
 
-	<iframe width="320" height="160" src="https://www.youtube.com/embed/yTMNB78XJ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/yTMNB78XJ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

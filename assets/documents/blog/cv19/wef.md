@@ -101,7 +101,7 @@ Mohammad Jaafar, Bob Moritz, Geraldine Matchett, Dr Phillip Atiba Goff,
 discuss how to rebuild the ‘social contract’ in a world where millions of 
 people have lost their jobs and faith in democracy is under extreme pressure.
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/ddGQTcuV-eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/ddGQTcuV-eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The World Economic Forum is the International Organization for Public-Private 
 Cooperation. The Forum engages the foremost political, business, cultural and 
@@ -111,7 +111,7 @@ life who have the drive and the influence to make positive change."
 
 #### Creating a Credible and Trusted Digital Currency
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/mzkU1RHovgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/mzkU1RHovgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this video, speakers explore "[t]he possibility of a trusted  *global 
 digital currency* [which] has sparked political, economic and regulatory 
@@ -125,7 +125,7 @@ Self-driving cars. Neuro-technological brain enhancements. Genetic editing.
 The evidence of dramatic change is all around us and it’s happening at 
 exponential speed. 
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Previous industrial revolutions liberated humankind from animal power, made 
 mass production possible and brought digital capabilities to billions of 
@@ -143,7 +143,7 @@ address the need for a more fair, sustainable and resilient future, and a new
 social contract centred on human dignity, social justice and where societal 
 progress does not fall behind economic development."
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/pfVdMWzKwjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/pfVdMWzKwjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Family Business: Relic or Role Model? | DAVOS 2020
 
@@ -152,7 +152,7 @@ future thanks to an intergenerational mindset and culture. What can other
 businesses learn from them about sustainable, profitable and equitable business 
 practice?"
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/6bwJFeQqGMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/6bwJFeQqGMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### AI and Government
 
