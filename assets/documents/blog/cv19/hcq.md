@@ -4,6 +4,7 @@
 
 - [HCQ Treatment Platform](#hcq-treatment-platform)
   - [Medical Papers](#medical-papers)
+  - [Medical Papers Concerning Zinc and Polymerase](#medical-papers-concerning-zinc-and-polymerase)
   - [News Articles](#news-articles)
   - [Mississippi Board of Pharmacy](#mississippi-board-of-pharmacy)
 
@@ -20,6 +21,16 @@ that a trial involving 24 patients from southeast
 France supported the claim that hydroxychloroquine and azithromycin were 
 effective in treating for COVID-19." [(Wikipedia)](https://en.wikipedia.org/wiki/Didier_Raoult#COVID-19)
 
+In early April, 2020, "[a] 46-year-old Ukrainian, Vladimir (Zev) Zelenko, who 
+has been working as a doctor in the United States for the past 16 years, claims 
+to have developed a drug regimen for treating coronavirus that has cured at 
+least 700 people." [(How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump)](https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/)
+
+Dr. Zelenko recommended using [zinc](https://en.wikipedia.org/wiki/Zinc) as a
+viral blocking agent, inhibiting reproduction.
+
+
+
 [America's Frontline Doctors](#pages/blog/cv19/frontline)
 
 A small section on
@@ -34,7 +45,6 @@ Dr. Vladimir Zelenko is barely mentioned [here](https://en.wikipedia.org/wiki/CO
 
 
 ### Medical Papers
-
 
 Harvey A Risch
 American Journal of Epidemiology, kwaa093, https://doi.org/10.1093/aje/kwaa093
@@ -58,6 +68,17 @@ COVID-19. Indian J Med Res [serial online]
 Available from: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
 
 [Hydroxychloroquine in Nonhospitalized Adults With Early COVID-19](https://www.acpjournals.org/doi/10.7326/M20-4207) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384270/)
+
+### Medical Papers Concerning Zinc and Polymerase
+
+November 4, 2010
+[Zn2+ Inhibits Coronavirus and Arterivirus RNA Polymerase Activity In Vitro and Zinc Ionophores Block the Replication of These Viruses in Cell Culture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2973827/)
+
+September 27, 2013
+[Zinc'ing down RNA polymerase I](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4114658/)
+
+
+
 
 ### News Articles
 

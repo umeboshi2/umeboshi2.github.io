@@ -89,6 +89,11 @@ an Amtrak repair facility in Beech Grove, Indiana.
 
 ### [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
 
+G Edward Griffin "is an American author, filmmaker, and conspiracy theorist. 
+Griffin's writings promote a number of views and conspiracy theories regarding 
+various of his political, defense and health care interests."
+
+
 #### Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/0qqL7CcNoZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
