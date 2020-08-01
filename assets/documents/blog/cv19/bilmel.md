@@ -51,4 +51,5 @@ July 27, 2020
 
 ### [Corbett Report on Bill Gates](#pages/blog/cv19/corbett-gates)
 
+[Kid Genius Cartoons](#pages/blog/cv19/kidgenius)
 

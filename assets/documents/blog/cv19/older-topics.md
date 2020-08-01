@@ -3,6 +3,7 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [Cosmocracy](#cosmocracy)
+  - [Shadow Government](#shadow-government)
   - [Older Topics](#older-topics)
     - [Dead Scientists](#dead-scientists)
     - [Linda Thompson](#linda-thompson)
@@ -30,6 +31,23 @@ Alfred, Lord Tennyson wrote a [poem](https://en.wikipedia.org/wiki/Locksley_Hall
 
 [Aristocracy](https://en.wikipedia.org/wiki/Aristocracy)
 
+## Shadow Government
+
+Senator Daniel K. Inouye in 1987 Chaired the Senate Select Committee on Secret 
+Military Assistance to Iran and the Nicaraguan Opposition, which held public 
+hearings on the Iran-Contra affair.
+
+Senator Inouye, summarizes here the coverup of the US Shadowy Government 
+involvement; by saying:
+
+"There exists a shadowy Government with its own Air Force, its own Navy, its 
+own fundraising mechanism, and the ability to pursue its own ideas of the 
+national interest, free from all checks and balances, and free from the law 
+itself."
+
+For more context and perspective, please check the PBS documentary by Bill 
+Moyers "The Secret Government: The Constitution in Crises", which was broadcast 
+in 1987; the full documentary could be watched on Google Video.
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/EbFphX5zb8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
