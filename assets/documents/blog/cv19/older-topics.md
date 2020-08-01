@@ -17,6 +17,17 @@
 
 # [Cosmocracy](https://en.wikipedia.org/wiki/World_government)
 
+Alfred, Lord Tennyson wrote a poem (https://en.wikipedia.org/wiki/World_government#Alfred,_Lord_Tennyson) celebrating a world government.
+
+
+[World Passport](https://en.wikipedia.org/wiki/World_Passport)
+
+
+[Kakistocracy](https://en.wikipedia.org/wiki/Kakistocracy)
+
+[Aristocracy](https://en.wikipedia.org/wiki/Aristocracy)
+
+
 ## Older Topics
 
 ### Dead Scientists

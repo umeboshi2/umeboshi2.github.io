@@ -28,6 +28,11 @@ discussing treatment policy and posture.
 
 The [Covid 19 section](https://en.wikipedia.org/wiki/Hydroxychloroquine#COVID-19) of the Hydroxychloroquine article.
 
+Dr. Vladimir Zelenko is barely mentioned [here](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_New_York_(state)#Implementation_in_Hasidic_communities).
+
+
+
+
 ### Medical Papers
 
 
