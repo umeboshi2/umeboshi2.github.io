@@ -14,15 +14,26 @@
 ## Disease and Infection
 
 The Covid-19 pandemic on [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic). The [Coronavirus disease 2019 page](https://en.wikipedia.org/wiki/Coronavirus_disease_2019) is the article covering the disease.  The [SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2) virus 
-that causes the disease has its own page.
+that causes the disease has its own page. There is also a page for the 
+coronavirus [family](https://en.wikipedia.org/wiki/Coronavirus),
+
 
 
 ### Papers
 
 D Baltimore
 
+
+[A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/)
+
+
 Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
 [Expression of animal virus genomes](https://mmbr.asm.org/content/mmbr/35/3/235.full-text.pdf)
+
+[Visualizing Speech-Generated Oral Fluid Droplets with Laser Light Scattering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7179962/)
+
+[The airborne lifetime of small speech droplets and their potential importance in SARS-CoV-2 transmission](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7275719/)
+
 
 
 
