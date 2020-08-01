@@ -5,6 +5,7 @@
 - [World Economic Forum](#world-economic-forum)
   - [Covid-19](#covid-19)
     - [Covid Action Platform](#covid-action-platform)
+      - [Articles](#articles)
   - [The Great Reset](#the-great-reset)
     - [About](#about)
     - [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](#great-reset-dialogues--six-leaders-discuss-why-we-must-reform-the-social-contract-after-covid-19)
