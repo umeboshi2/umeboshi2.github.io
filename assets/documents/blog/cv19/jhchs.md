@@ -63,7 +63,12 @@ This symposium focused on the future of U.S. biosecurity policy."
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - Panel 3: Transformative Science in Biosecurity
-	
+  
+    The panel was made up of Thomas V. Inglesby, CEO, Center for Biosecurity 
+	of UPMC, moderator; Tara O'Toole, Under Secretary for Science & Technology, 
+	DHS; Margaret A. Hamburg, Commissioner, FDA; J. Craig Venter, Founder, 
+	Chairman, and President, J. Craig Venter Institute; and George Poste, 
+	Chief Scientist, Complex Adaptive Systems Initiative
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   - The Outlook for Biosecurity, Thomas V. Inglesby
