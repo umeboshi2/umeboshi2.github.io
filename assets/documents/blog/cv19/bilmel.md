@@ -26,6 +26,9 @@ hosted the [Event 201](#pages/blog/cv19/event-201) pandemic tabletop exercise. T
 
 ### News Articles
 
+April 15, 2020 
+[Bill & Melinda Gates Foundation Expands Commitment to Global COVID-19 Response, Calls for International Collaboration to Protect People Everywhere from the Virus](https://www.gatesfoundation.org/Media-Center/Press-Releases/2020/04/Gates-Foundation-Expands-Commitment-to-COVID-19-Response-Calls-for-International-Collaboration)
+
 July 27, 2020
 [Bill Gates says a COVID-vaccine maker he backed can produce 200 million doses by June](https://fortune.com/2020/07/27/bill-gates-covid-vaccine-sk-bioscience/)
 
@@ -36,8 +39,6 @@ July 27, 2020
 [Three Weeks, Two Drug Trials: An update on the Therapeutics Accelerator with Trevor Mundel](https://www.gatesfoundation.org/TheOptimist/Articles/coronavirus-interview-trevor-mundel-drug-trials)
 
 [NewsHour gets $3.5 million from Gates Foundation](http://blogs.reuters.com/mediafile/2008/12/01/newshour-gets-35-million-from-gates-foundation/)
-
-[Bill & Melinda Gates Foundation Expands Commitment to Global COVID-19 Response, Calls for International Collaboration to Protect People Everywhere from the Virus](https://www.gatesfoundation.org/Media-Center/Press-Releases/2020/04/Gates-Foundation-Expands-Commitment-to-COVID-19-Response-Calls-for-International-Collaboration)
 
 
 
