@@ -31,17 +31,14 @@ Years after the Anthrax Attacks," held October 4, 2011, in Washington, DC.
 This symposium focused on the future of U.S. biosecurity policy."
 [(Youtube playlist)](https://www.youtube.com/playlist?list=PL894DCBC7B3A3E4FF)
 
-#### Panel 1: Present and Future Biothreats
+- Exercise
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-#### Panel 2: Looking Ahead in U.S. Health Security
-
-<iframe width="320" height="160" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-#### Panel 3: Transformative Science in Biosecurity
-
-<iframe width="320" height="160" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - Panel 1: Present and Future Biothreats
+	<iframe width="320" height="160" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - Panel 2: Looking Ahead in U.S. Health Security
+	<iframe width="320" height="160" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - Panel 3: Transformative Science in Biosecurity
+	<iframe width="320" height="160" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/AOafUygnsZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
