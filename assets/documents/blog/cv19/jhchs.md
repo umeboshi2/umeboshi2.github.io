@@ -42,17 +42,21 @@ This symposium focused on the future of U.S. biosecurity policy."
 
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	- Panel 2: Looking Ahead in U.S. Health Security
+  - Panel 2: Looking Ahead in U.S. Health Security
 	
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/Kwh1NXt19GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	- Panel 3: Transformative Science in Biosecurity
+  - Panel 3: Transformative Science in Biosecurity
 	
 	<iframe width="320" height="160" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+  - The Outlook for Biosecurity, Thomas V. Inglesby
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/bYC1bhrElwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="320" height="160" src="https://www.youtube.com/embed/yTMNB78XJ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="160" src="https://www.youtube.com/embed/bYC1bhrElwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  - The Impact of the Anthrax Letter Attacks, Jeanne Meserve
+
+	<iframe width="320" height="160" src="https://www.youtube.com/embed/yTMNB78XJ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
