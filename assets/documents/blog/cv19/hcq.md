@@ -15,7 +15,8 @@
 
 "On 17 March 2020, 
 [[Didier] Raoult](https://en.wikipedia.org/wiki/Didier_Raoult) 
-announced in an online video that a trial involving 24 patients from southeast 
+announced in an [online video](https://www.youtube.com/watch?v=n4J8kydOvbc)
+that a trial involving 24 patients from southeast 
 France supported the claim that hydroxychloroquine and azithromycin were 
 effective in treating for COVID-19." [(Wikipedia)](https://en.wikipedia.org/wiki/Didier_Raoult#COVID-19)
 
