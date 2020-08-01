@@ -43,6 +43,14 @@ This symposium focused on the future of U.S. biosecurity policy."
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/qDMCLeMy9Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/AOafUygnsZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="160" src="https://www.youtube.com/embed/bYC1bhrElwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="160" src="https://www.youtube.com/embed/yTMNB78XJ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
 ### [Clade X](#pages/blog/cv19/clade-x)
 
 [Clade X page](#pages/blog/cv19/clade-x)
