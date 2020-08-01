@@ -56,6 +56,10 @@ Available from: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
 
 ### News Articles
 
+March 17, 2020
+[French researcher posts successful Covid-19 drug trial](https://www.connexionfrance.com/French-news/French-researcher-in-Marseille-posts-successful-Covid-19-coronavirus-drug-trial-results)
+
+
 April 2, 2020
 [Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds](https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/)
 
