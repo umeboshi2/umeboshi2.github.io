@@ -87,6 +87,11 @@ radiation from mobile phones and other wireless transmitting devices.
 <iframe width="320" height="160" src="https://www.youtube.com/embed/h4TdY344Now" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+5G Summit [5G Summit](https://the5gsummit.com/) looks like sales gimmick.
+
+
+
+
 ## EMF Papers
 
 [5G Technology and induction of coronavirus in skin cells](https://pubmed.ncbi.nlm.nih.gov/32668870/)  [(full article pdf)](https://www.biolifesas.org/biolife/wp-content/uploads/2020/07/FIORANELLI.pdf) [(backup link)](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A0fcac023-4c5f-4a57-96db-3b475987e68a)
