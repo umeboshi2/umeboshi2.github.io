@@ -45,5 +45,8 @@ June 4, 2020
 July 10, 2020
 [Africa to Become Testing Ground for “Trust Stamp” Vaccine Record and Payment System](https://www.mintpressnews.com/africa-trust-stamp-covid-19-vaccine-record-payment-system/269346/)
 
+[Mastercard Donor Profile](https://www.gavi.org/investing-gavi/funding/donor-profiles/mastercard)
+Funds are being "matched by the 
+[Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)."
 
 
