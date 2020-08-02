@@ -17,7 +17,7 @@
    providing legal identity for all people, including the world's most 
    vulnerable populations.
 
-   1. [GAVI](@pages/blog/cv19/gavi)
+   1. [GAVI](#pages/blog/cv19/gavi)
    
 1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
 
