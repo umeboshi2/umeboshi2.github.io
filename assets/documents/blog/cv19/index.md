@@ -26,14 +26,14 @@ a global pandemic.
 
 1. [Disease and Infection](#pages/blog/cv19/disease)
 
+1. [Vaccination](#pages/blog/cv19/vx/index)
+
 ## Related Topics
 
 1. [Deleted People](#pages/blog/cv19/deleted-people)
 
 1. [Artificial Persons](#pages/blog/cv19/artificial)
 	
-1. [Vaccination](#pages/blog/cv19/vx/index)
-
 1. [Virus Nanotechnology](#pages/blog/cv19/nanotech)
    This amazing technology uses viral nanoparticles to accomplish very 
    interesting things that would be difficult to do using traditional
