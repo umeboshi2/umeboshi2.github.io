@@ -39,6 +39,9 @@ COVID-19."
 
 ### News Articles about GAVI
 
+June 3, 2020
+[Private sector partners strengthen Gavi programmes with more than US$ 70 million in contributions](https://www.gavi.org/news/media-room/private-sector-partners-strengthen-gavi-programmes-more-us-70-million-contributions)
+
 June 4, 2020
 [Here’s everything we did to support Gavi this year](https://www.one.org/international/blog/gavi-funding-one-campaign/)
 
@@ -48,5 +51,7 @@ July 10, 2020
 [Mastercard Donor Profile](https://www.gavi.org/investing-gavi/funding/donor-profiles/mastercard)
 Funds are being "matched by the 
 [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)."
+
+
 
 

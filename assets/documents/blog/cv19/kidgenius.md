@@ -6,7 +6,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-[Parent](#pages/blog/cv19/index)
+[Parent](#pages/blog/cv19/bilmel)
 
 ## Bill Gates and Warren Buffet in Kid Genius Cartoon
 
