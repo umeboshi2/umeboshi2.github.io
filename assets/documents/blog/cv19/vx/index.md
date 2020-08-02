@@ -49,6 +49,33 @@ https://www.facebook.com/HighWireTalk/videos/291320525305679/
 
 [AstraZeneca to be exempt from coronavirus vaccine liability claims in most countries](https://www.reuters.com/article/us-astrazeneca-results-vaccine-liability-idUSKCN24V2EN)
 
+[Removed Slideshow Page](https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html)
+
+
+[Removed Slides on Wayback Machine](https://web.archive.org/web/20200730163428/https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html)
+
+
 ### Articles and Studies
 
 [Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination](https://stm.sciencemag.org/content/11/523/eaay7162.short)[(PubMed)](https://pubmed.ncbi.nlm.nih.gov/31852802/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
