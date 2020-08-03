@@ -42,3 +42,8 @@ https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-a
 May 15, 2020
 [The 2006 Origins of the Lockdown Idea](https://www.aier.org/article/the-2006-origins-of-the-lockdown-idea/)
 
+
+[Cookies](chrome://settings/content/cookies)
+
+[Manage Cookies](chrome://settings/siteData)
+

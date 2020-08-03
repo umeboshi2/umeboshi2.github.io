@@ -82,6 +82,11 @@ Available from: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
 
 [Hydroxychloroquine in Nonhospitalized Adults With Early COVID-19](https://www.acpjournals.org/doi/10.7326/M20-4207) [(PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384270/)
 
+[ Rationale and Design of ORCHID: A Randomized Placebo-Controlled Trial of Hydroxychloroquine for Adults Hospitalized with COVID-19](https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202005-478SD) [(Clinical Trial Page)](https://clinicaltrials.gov/ct2/show/NCT04332991) [(PDF)](http://www.atsjournals.org/doi/pdf/10.1513/AnnalsATS.202005-478SD)
+
+
+
+
 ### Medical Papers Concerning Zinc and Polymerase
 
 November 4, 2010
