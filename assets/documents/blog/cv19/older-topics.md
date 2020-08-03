@@ -101,6 +101,16 @@ an Amtrak repair facility in Beech Grove, Indiana.
 
 [Herbert Yardley](https://en.wikipedia.org/wiki/Herbert_Yardley)
 
+[NSA](https://en.wikipedia.org/wiki/National_Security_Agency)
+
+[NSC](https://en.wikipedia.org/wiki/United_States_National_Security_Council)
+
+"The Black Chamber (1919–1929), also known as The Cipher Bureau, was the 
+United States' first peacetime cryptanalytic organization, and a forerunner of 
+the National Security Agency." [(Wikipedia)](https://en.wikipedia.org/wiki/Black_Chamber) [(PDF)](https://cryptome.org/2015/04/nsa-friedman-black-chamber.pdf)
+
+
+
 National Security Agency by William (Bill) Cooper- The Hour Of The Time 788
 
   1. Episode 1
