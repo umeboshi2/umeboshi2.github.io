@@ -4,6 +4,7 @@
 
 - [Vaccine Trials](#vaccine-trials)
 - [Vaccine Hesitancy](#vaccine-hesitancy)
+  - [Video](#video)
 - [Vaccine Liability](#vaccine-liability)
 - [Articles and Studies](#articles-and-studies)
 
@@ -44,6 +45,19 @@ The links below are taken from [here](https://www.corbettreport.com/mybody/).
 [Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
 
 https://www.facebook.com/HighWireTalk/videos/291320525305679/
+
+#### Video
+
+**Vaccination refusal, hesitancy, acceptance and demand | Robb Butler**
+February 28, 2020
+
+Did vaccination refusal and hesitancy contribute to a resurgence of multiple outbreaks of measles in the European Region? Dr Robb Butler (WHO Regional Office for Europe) presents the status of measles elimination, how vaccine hesitancy manifests itself in the European Region, and the tools we have available to combat it.
+
+Learn more about ESCAIDE: escaide.eu
+Visit ECDC website: ecdc.europa.eu
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/1LCcaYoaZWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Vaccine Liability
 
