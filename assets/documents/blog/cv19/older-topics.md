@@ -8,6 +8,7 @@
     - [Dead Scientists](#dead-scientists)
     - [Linda Thompson](#linda-thompson)
       - [America Under Siege](#america-under-siege)
+    - [Bill Cooper](#bill-cooper)
     - [G. E. Griffin](#g-e-griffin)
       - [Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)](#conspiracy---a-powerful-documentary-by-g-edward-griffin-1969)
       - [Norman Dodd On Tax Exempt Foundations](#norman-dodd-on-tax-exempt-foundations)
@@ -85,7 +86,9 @@ an Amtrak repair facility in Beech Grove, Indiana.
 
 [FEMA camps conspiracy theory](https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory)
 
+### [Bill Cooper](https://en.wikipedia.org/wiki/Milton_William_Cooper)
 
+foobar
 
 ### [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
 
