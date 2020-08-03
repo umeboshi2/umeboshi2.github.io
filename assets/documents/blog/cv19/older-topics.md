@@ -9,6 +9,7 @@
     - [Linda Thompson](#linda-thompson)
       - [America Under Siege](#america-under-siege)
     - [Bill Cooper](#bill-cooper)
+      - [Behold A Pale Horse - William (Bill) Cooper (Full Lecture)](#behold-a-pale-horse---william-bill-cooper-full-lecture)
     - [G. E. Griffin](#g-e-griffin)
       - [Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)](#conspiracy---a-powerful-documentary-by-g-edward-griffin-1969)
       - [Norman Dodd On Tax Exempt Foundations](#norman-dodd-on-tax-exempt-foundations)
@@ -88,7 +89,12 @@ an Amtrak repair facility in Beech Grove, Indiana.
 
 ### [Bill Cooper](https://en.wikipedia.org/wiki/Milton_William_Cooper)
 
-foobar
+[Behold A Pale Horse - William (Bill) Cooper (Full Lecture)](https://www.youtube.com/watch?v=pE3nOrDEOzQ)
+
+
+#### Behold A Pale Horse - William (Bill) Cooper (Full Lecture)
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/pE3nOrDEOzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
 
