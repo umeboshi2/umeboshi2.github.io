@@ -24,6 +24,8 @@ a global pandemic.
 
 1. [PCR Testing](#pages/blog/cv19/pcr-testing)
 
+1. [Social Distancing](#pages/blog/cv19/social-distance)
+
 1. [Disease and Infection](#pages/blog/cv19/disease)
 
 1. [Vaccination](#pages/blog/cv19/vx/index)
