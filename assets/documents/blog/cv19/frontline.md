@@ -61,6 +61,8 @@ that they removed the video.
 
 [local WDAM article](https://www.wdam.com/2020/07/29/misinformation-virus-is-proving-highly-contagious/)
 
+[Squarespace shuts down America’s Frontline Doctors website over hydroxychloroquine claims](https://reclaimthenet.org/squarespace-shuts-down-americas-frontline-doctors-website/)
+
 ### Doctors
 
 Simone Gold, MD - Emergency Medicine Specialist in Los Angeles, CA and has 
