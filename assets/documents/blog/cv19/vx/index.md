@@ -77,22 +77,18 @@ Visit ECDC website: ecdc.europa.eu
 
 ###  ACIP
 
-The ACIP just recently met on July 29: Advisory Committee on Immunization Practices (ACIP)
-https://www.cdc.gov/vaccines/acip/meetings/index.html
-They had some slides for the meeting:
-https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html
-The page of slides was removed on July 31, but is still available on wayback machine:
-https://web.archive.org/web/20200730163428/https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html
-Here is a link to Fink's presentation which contains a very likely reason:
-https://web.archive.org/web/20200730163601/https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2020-07/COVID-04-Fink-508.pdf
-On the fifth page of the slideshow, we can see that the criteria for an EUA on a vaccine requires that there be " [n]o adequate, approved, and available alternative" to a vaccine.
-HCQ + zinc is an obstacle to authorize the emergency use of a vaccine, and will likely be further discredited to provide a better opportunity to authorize emergency vaccination.
+The [Advisory Committee on Immunization Practices (ACIP)](https://www.cdc.gov/vaccines/acip/meetings/index.html) just recently met on July 29: 
 
-
-
-
-
-
+They had some [slides](https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html) for the meeting. The page of slides was removed on July 31, but is still available on 
+the [wayback machine](https://web.archive.org/web/20200730163428/https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html).
+[Fink's prescription](https://web.archive.org/web/20200730163601/https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2020-07/COVID-04-Fink-508.pdf)
+contains a very likely reason why the 
+[HCQ treatment platform](#pages/blog/cv19/hcq) is an obstacle to authorize 
+the emergency use of a vaccine, and will likely be further discredited to 
+provide a better opportunity to authorize emergency vaccination.  On the 
+fifth page of the slideshow, we can see that the criteria for an EUA on 
+a vaccine requires that there be " [n]o adequate, approved, and available 
+alternative" to a vaccine.
 
 
 
