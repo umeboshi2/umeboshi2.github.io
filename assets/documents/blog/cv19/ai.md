@@ -12,6 +12,9 @@
 
 ## Artificial Intelligence
 
+https://www.youtube.com/watch?v=5dZ_lvDgevk
+
+
 ### Reinforcement Learning
 
 - [RL POST #1](https://www.facebook.com/umeboshi3/posts/2593422917440131)
