@@ -56,3 +56,5 @@ July 1, 2020
 [The effects of skin tone on race-related amygdala activity: an fMRI investigation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2555431/)
 
 [A review of neuroimaging studies of race-related prejudice: does amygdala response reflect threat?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3973920/)
+
+[COVI-PASS](https://covipass.com)
