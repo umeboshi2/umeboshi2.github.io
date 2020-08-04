@@ -25,9 +25,10 @@ WHO
 
 World Health Organization. Infection prevention and control of epidemic- and pandemic-prone acute respiratory infections in health care. Geneva: World Health Organization; 2014 Available from: https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf?sequence=1
 
-Liu J, Liao X, Qian S et al. Community transmission of severe acute respiratory syndrome coronavirus 2, Shenzhen, China, 2020. Emerg Infect Dis 2020 doi.org/10.3201/eid2606.200239
+Liu J, Liao X, Qian S et al. [Community Transmission of Severe Acute Respiratory Syndrome Coronavirus 2, Shenzhen, China, 2020](https://wwwnc.cdc.gov/eid/article/26/6/20-0239_article). Emerg Infect Dis 2020 doi.org/10.3201/eid2606.200239
 
-Chan J, Yuan S, Kok K et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 2020 doi: 10.1016/S0140-6736(20)30154-9
+
+Chan J, Yuan S, Kok K et al. [A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/). Lancet 2020 doi: 10.1016/S0140-6736(20)30154-9
 
 Li Q, Guan X, Wu P, et al. Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N Engl J Med 2020; doi:10.1056/NEJMoa2001316.
 
