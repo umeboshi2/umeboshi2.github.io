@@ -102,7 +102,24 @@ employ.  Learn the history, open you eyes, then make a choice!
 
 
 
+**Rockefeller's Double Game in GMO Foods and Depopulation**
+
+https://www.youtube.com/watch?v=bZsazm0VCXA
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/bZsazm0VCXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
 http://www.youtube.com/watch?v=l6WvjS_6xvk
 
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/l6WvjS_6xvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
