@@ -14,6 +14,7 @@
     - [G. E. Griffin](#g-e-griffin)
       - [Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)](#conspiracy---a-powerful-documentary-by-g-edward-griffin-1969)
       - [Norman Dodd On Tax Exempt Foundations](#norman-dodd-on-tax-exempt-foundations)
+    - [Eustace Mullins](#eustace-mullins)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -148,3 +149,10 @@ doing in the United States - their attempt to merge the Soviet System of
 Government with the USA.
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/YUYCBfmIcHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### [Eustace Mullins](https://en.wikipedia.org/wiki/Eustace_Mullins)
+
+[The World Order, Our Secret Rulers, 2nd Edition (PDF)](https://archive.org/download/EustaceMullinsTheWorldOrderOurSecretRulers2ndEdition1992/Eustace%20Mullins%20-%20The%20World%20Order%2C%20Our%20Secret%20Rulers%2C%202nd%20edition%2C%201992.pdf) (1992)
+
+
+
