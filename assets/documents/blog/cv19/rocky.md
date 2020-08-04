@@ -82,6 +82,9 @@ black doctors. They did not apologize for this for over 150 years, until July
 
 [Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf)
 
+[Rockefeller medicine men : medicine and capitalism in America (PDF)](https://archive.org/download/rockefellermedic00browrich/rockefellermedic00browrich.pdf)
+by Brown, E. Richard (1979)
+
 
 #### Video
 
