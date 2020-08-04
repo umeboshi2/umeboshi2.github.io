@@ -94,4 +94,15 @@ employ.  Learn the history, open you eyes, then make a choice!
 
 
 
+**Rockefeller Medicine - Corbett Report**
+
+[report](https://www.corbettreport.com/episode-286-rockefeller-medicine/)
+
 <iframe width="320" height="240" src="https://www.youtube.com/embed/X6J_7PvWoMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+http://www.youtube.com/watch?v=l6WvjS_6xvk
+
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/l6WvjS_6xvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
