@@ -26,6 +26,8 @@ a global pandemic.
 
 1. [Social Distancing](#pages/blog/cv19/social-distance)
 
+1. [Transmission](#pages/blog/cv19/covid-transmission)
+
 1. [Disease and Infection](#pages/blog/cv19/disease)
 
 1. [Vaccination](#pages/blog/cv19/vx/index)
