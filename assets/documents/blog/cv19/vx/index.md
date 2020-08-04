@@ -8,6 +8,7 @@
 - [Vaccine Liability](#vaccine-liability)
 - [Articles and Studies](#articles-and-studies)
 - [ACIP](#acip)
+- [More Stuff](#more-stuff)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -89,6 +90,11 @@ provide a better opportunity to authorize emergency vaccination.  On the
 fifth page of the slideshow, we can see that the criteria for an EUA on 
 a vaccine requires that there be "[n]o adequate, approved, and available 
 alternative" to a vaccine.
+
+###  More Stuff
+
+[Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/)
+
 
 
 
