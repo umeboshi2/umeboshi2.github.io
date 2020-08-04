@@ -16,7 +16,7 @@
     - [Linda Thompson](#linda-thompson)
       - [America Under Siege](#america-under-siege)
     - [Stanley Monteith](#stanley-monteith)
-    - [[Myron Fagan]](#myron-fagan)
+    - [Myron Fagan](#myron-fagan)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -160,8 +160,10 @@ an Amtrak repair facility in Beech Grove, Indiana.
 
 ### [Stanley Monteith](https://en.wikipedia.org/wiki/Stan_Monteith)
 
-### [Myron Fagan]
+### [Myron Fagan](https://en.wikipedia.org/wiki/Myron_Coureval_Fagan)
 
 https://www.youtube.com/watch?v=KrUXPn7HCjM
+
+**Myron Fagan exposes the Illuminati/CFR [1967]**
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/KrUXPn7HCjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
