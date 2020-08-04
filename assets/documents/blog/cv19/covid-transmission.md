@@ -30,11 +30,12 @@ Liu J, Liao X, Qian S et al. [Community Transmission of Severe Acute Respiratory
 
 Chan J, Yuan S, Kok K et al. [A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/). Lancet 2020 doi: 10.1016/S0140-6736(20)30154-9
 
-Li Q, Guan X, Wu P, et al. Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N Engl J Med 2020; doi:10.1056/NEJMoa2001316.
+Li Q, Guan X, Wu P, et al. [Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/). N Engl J Med 2020; doi:10.1056/NEJMoa2001316.
 
-Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 2020; 395: 497–506. 
+Huang C, Wang Y, Li X, et al. [Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/). Lancet 2020; 395: 497–506. 
 
-Burke RM, Midgley CM, Dratch A, Fenstersheib M, Haupt T, Holshue M,et al. Active monitoring of persons exposed to patients with confirmed COVID-19 — United States, January–February 2020. MMWR Morb Mortal Wkly Rep. 2020 doi : 10.15585/mmwr.mm6909e1external icon
+
+Burke RM, Midgley CM, Dratch A, Fenstersheib M, Haupt T, Holshue M,et al. [Active monitoring of persons exposed to patients with confirmed COVID-19 — United States, January–February 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7367094/). MMWR Morb Mortal Wkly Rep. 2020 doi : 10.15585/mmwr.mm6909e1external icon
 
 World Health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020 [Internet]. Geneva: World Health Organization; 2020 Available from: https://www.who.int/docs/default- source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
 
