@@ -7,6 +7,7 @@
   - [Video](#video)
 - [Vaccine Liability](#vaccine-liability)
 - [Articles and Studies](#articles-and-studies)
+- [ACIP](#acip)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -74,7 +75,18 @@ Visit ECDC website: ecdc.europa.eu
 [Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination](https://stm.sciencemag.org/content/11/523/eaay7162.short)[(PubMed)](https://pubmed.ncbi.nlm.nih.gov/31852802/)
 
 
+###  ACIP
 
+The ACIP just recently met on July 29: Advisory Committee on Immunization Practices (ACIP)
+https://www.cdc.gov/vaccines/acip/meetings/index.html
+They had some slides for the meeting:
+https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html
+The page of slides was removed on July 31, but is still available on wayback machine:
+https://web.archive.org/web/20200730163428/https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html
+Here is a link to Fink's presentation which contains a very likely reason:
+https://web.archive.org/web/20200730163601/https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2020-07/COVID-04-Fink-508.pdf
+On the fifth page of the slideshow, we can see that the criteria for an EUA on a vaccine requires that there be " [n]o adequate, approved, and available alternative" to a vaccine.
+HCQ + zinc is an obstacle to authorize the emergency use of a vaccine, and will likely be further discredited to provide a better opportunity to authorize emergency vaccination.
 
 
 
