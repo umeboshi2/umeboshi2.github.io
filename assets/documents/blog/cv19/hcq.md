@@ -7,6 +7,7 @@
   - [Medical Papers Concerning Zinc and Polymerase](#medical-papers-concerning-zinc-and-polymerase)
   - [News Articles](#news-articles)
   - [Mississippi Board of Pharmacy](#mississippi-board-of-pharmacy)
+  - [More](#more)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -139,3 +140,7 @@ July 13, 2020 Updated July 16, 2020
 ### Mississippi Board of Pharmacy
 
 [Chloroquine and Hydroxychloroquine Information](https://www.mbp.ms.gov/Pages/Chloroquine-and-Hydroxychloroquine-Information.aspx)
+
+### More
+
+[HCQ and Death](#pages/blog/cv19/hcq-and-death)

@@ -4,6 +4,8 @@
 
 - [The Rockefeller Foundation](#the-rockefeller-foundation)
   - [Links](#links)
+  - [Carnegie Flexner Report](#carnegie-flexner-report)
+    - [Video](#video)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -47,3 +49,45 @@ economic and social vitality." [Foundation Action Plan](https://www.rockefellerf
 [Western Medicine is Rockefeller Medicine – All The Way](https://thefreedomarticles.com/western-medicine-rockefeller-medicine/)
 
 [How Rockefeller Founded Modern Medicine and Killed Natural Cures](https://worldaffairs.blog/2015/10/20/how-rockefeller-founded-modern-medicine-and-killed-natural-cures/)
+
+
+### Carnegie Flexner Report
+
+This is the Abraham Flexner report of 1910.
+
+In the early half of the 20th century, a coup was organized on the medical 
+research facilities, hospitals and universities. The Rockefeller family, ye 
+ole step-n-fetch-its of the actual slavemasters, sponsored research and 
+donated sums to universities and medical schools which had drug based 
+research. Establishments and research which were were not drug based were 
+refused funding and soon dissolved in favor of the lucrative pharmaceutical 
+industry.
+
+The Rockefeller Institute for Medical Research was founded in 1901. Simon 
+Flexner headed the Rockefeller Institute of Medical Research. Simon Flexner 
+appointed his brother, Abraham Flexner, to survey medical schools throughout 
+America.
+
+Abraham Flexner was empowered to investigate the quality of medical education 
+in all 161 medical schools that existed in 1910. He helped destroy the 
+credibility and funding sources for nearly all schools using non-drug based 
+medicine. 161 medical schools dwindled down to 81 by 1919 and medical graduates 
+declined from 5,747 to 2,658. "Overcrowding" of the profession became the 
+public AMA theme for the "opportunities of those already in the profession to 
+acquire a livelihood." said one AMA President at the time.
+
+The AMA also practiced severe discrimination against black medical schools and 
+black doctors. They did not apologize for this for over 150 years, until July 
+2008. (Exploring the AMA's History of Discrimination, 2008)
+
+[Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf)
+
+
+#### Video
+
+**Rockefeller Medicine - History of how holistic medicine was removed.**
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/3Ju2VmVVX2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Many people don't know how we ended up with the health care system we currently 
+employ.  Learn the history, open you eyes, then make a choice!
