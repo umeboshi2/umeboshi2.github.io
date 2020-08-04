@@ -6,15 +6,15 @@
   - [Shadow Government](#shadow-government)
   - [Older Topics](#older-topics)
     - [Dead Scientists](#dead-scientists)
-    - [Linda Thompson](#linda-thompson)
-      - [America Under Siege](#america-under-siege)
-    - [Bill Cooper](#bill-cooper)
-      - [Behold A Pale Horse - William (Bill) Cooper (Full Lecture)](#behold-a-pale-horse---william-bill-cooper-full-lecture)
-      - [National Security Agency](#national-security-agency)
     - [G. E. Griffin](#g-e-griffin)
       - [Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)](#conspiracy---a-powerful-documentary-by-g-edward-griffin-1969)
       - [Norman Dodd On Tax Exempt Foundations](#norman-dodd-on-tax-exempt-foundations)
+    - [Bill Cooper](#bill-cooper)
+      - [Behold A Pale Horse - William (Bill) Cooper (Full Lecture)](#behold-a-pale-horse---william-bill-cooper-full-lecture)
+      - [National Security Agency](#national-security-agency)
     - [Eustace Mullins](#eustace-mullins)
+    - [Linda Thompson](#linda-thompson)
+      - [America Under Siege](#america-under-siege)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -65,29 +65,30 @@ The [Dead Scientists](#pages/blog/cv19/dead-scientists) page lists
 a large number of scientists, mainly microbiologists, who passed away 
 within a short number of years.
 
+### [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
+
+G Edward Griffin "is an American author, filmmaker, and conspiracy theorist. 
+Griffin's writings promote a number of views and conspiracy theories regarding 
+various of his political, defense and health care interests."
 
 
-### [Linda Thompson](https://en.wikipedia.org/wiki/Linda_Thompson_(attorney))
+#### Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)
 
-Linda Thompson "was an American lawyer and militia movement supporter. In 1993, 
-she quit her job as a lawyer in Indianapolis, Indiana to start the American 
-Justice Federation,[3] a non-profit group that promoted pro-gun causes 
-through a shortwave radio program, a computer bulletin board system, and 
-sales of its newsletter and videos.[4][5] She died of a prescription drug 
-overdose in 2009."
+<iframe width="320" height="160" src="https://www.youtube.com/embed/0qqL7CcNoZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### America Under Siege
 
-Linda Thompson "made a third film in 1994, America Under Siege accusing the 
-government of using "black helicopters" against patriots, and the Federal 
-Emergency Management Agency of establishing concentration camps, facilities she 
-claimed were to prevent patriots from interfering with plans to establish a 
-"New World Order".[4][5][9] The supposed FEMA Camp was the Beech Grove Shops, 
-an Amtrak repair facility in Beech Grove, Indiana.
+#### Norman Dodd On Tax Exempt Foundations
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/SpzxUqYEzwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Norman Dodd was interviewed in 1982 by G. Edward Griffin regarding the time 
+he spent as the head researcher for the Reece Committee.
 
-[FEMA camps conspiracy theory](https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory)
+This is a truly eye opening look into what the tax exempt foundations are 
+doing in the United States - their attempt to merge the Soviet System of 
+Government with the USA.
+
+<iframe width="320" height="160" src="https://www.youtube.com/embed/YUYCBfmIcHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 ### [Bill Cooper](https://en.wikipedia.org/wiki/Milton_William_Cooper)
 
@@ -127,32 +128,31 @@ National Security Agency by William (Bill) Cooper- The Hour Of The Time 788
 	 <iframe width="320" height="240" src="https://www.youtube.com/embed/S_9M-JwGmaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
-
-G Edward Griffin "is an American author, filmmaker, and conspiracy theorist. 
-Griffin's writings promote a number of views and conspiracy theories regarding 
-various of his political, defense and health care interests."
-
-
-#### Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)
-
-<iframe width="320" height="160" src="https://www.youtube.com/embed/0qqL7CcNoZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-#### Norman Dodd On Tax Exempt Foundations
-
-Norman Dodd was interviewed in 1982 by G. Edward Griffin regarding the time 
-he spent as the head researcher for the Reece Committee.
-
-This is a truly eye opening look into what the tax exempt foundations are 
-doing in the United States - their attempt to merge the Soviet System of 
-Government with the USA.
-
-<iframe width="320" height="160" src="https://www.youtube.com/embed/YUYCBfmIcHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### [Eustace Mullins](https://en.wikipedia.org/wiki/Eustace_Mullins)
 
 [The World Order, Our Secret Rulers, 2nd Edition (PDF)](https://archive.org/download/EustaceMullinsTheWorldOrderOurSecretRulers2ndEdition1992/Eustace%20Mullins%20-%20The%20World%20Order%2C%20Our%20Secret%20Rulers%2C%202nd%20edition%2C%201992.pdf) (1992)
 
 [The Secrets of the Federal Reserve (PDF)](https://archive.org/download/TheSecretsOfTheFederalReserve_294/0388.Mullins.The.Secrets.of.the.Federal.Reserve.pdf)
+
+### [Linda Thompson](https://en.wikipedia.org/wiki/Linda_Thompson_(attorney))
+
+Linda Thompson "was an American lawyer and militia movement supporter. In 1993, 
+she quit her job as a lawyer in Indianapolis, Indiana to start the American 
+Justice Federation,[3] a non-profit group that promoted pro-gun causes 
+through a shortwave radio program, a computer bulletin board system, and 
+sales of its newsletter and videos.[4][5] She died of a prescription drug 
+overdose in 2009."
+
+#### America Under Siege
+
+Linda Thompson "made a third film in 1994, America Under Siege accusing the 
+government of using "black helicopters" against patriots, and the Federal 
+Emergency Management Agency of establishing concentration camps, facilities she 
+claimed were to prevent patriots from interfering with plans to establish a 
+"New World Order".[4][5][9] The supposed FEMA Camp was the Beech Grove Shops, 
+an Amtrak repair facility in Beech Grove, Indiana.
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/SpzxUqYEzwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[FEMA camps conspiracy theory](https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory)
 
