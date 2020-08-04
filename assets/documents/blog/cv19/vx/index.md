@@ -81,7 +81,7 @@ The [Advisory Committee on Immunization Practices (ACIP)](https://www.cdc.gov/va
 
 They had some [slides](https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html) for the meeting. The page of slides was removed on July 31, but is still available on 
 the [wayback machine](https://web.archive.org/web/20200730163428/https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html).
-[Fink's prescription](https://web.archive.org/web/20200730163601/https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2020-07/COVID-04-Fink-508.pdf)
+[Fink's presentation](https://web.archive.org/web/20200730163601/https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2020-07/COVID-04-Fink-508.pdf)
 contains a very likely reason why the 
 [HCQ treatment platform](#pages/blog/cv19/hcq) is an obstacle to authorize 
 the emergency use of a vaccine, and will likely be further discredited to 
