@@ -90,9 +90,11 @@ May 11, 2020
 May 27, 2020
 [Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext)
 
+June 15, 2020
+[Novel SARS-CoV-2/COVID-19: Origin, pathogenesis, genes and genetic variations, immune responses and phylogenetic analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7295489/)
+
 June 26, 2020
 [Ensuring Uptake of Vaccines against SARS-CoV-2](https://www.nejm.org/doi/full/10.1056/NEJMp2020926)
-
 
 [SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients](https://www.nejm.org/doi/full/10.1056/NEJMc2001737?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 [(PDF)](https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true)

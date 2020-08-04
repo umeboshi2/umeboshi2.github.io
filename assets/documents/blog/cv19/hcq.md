@@ -136,6 +136,8 @@ June 20, 2020
 July 13, 2020 Updated July 16, 2020
 [Local doctor pushing proven treatment of COVID into national debate](https://www.thedesertreview.com/opinion/letters_to_editor/local-doctor-pushing-proven-treatment-of-covid-into-national-debate/article_ca59497a-c539-11ea-8943-4f707d6ebc1a.html)
 
+July 16, 2020
+[The Saga of Hydroxychloroquine and COVID-19: A Cautionary Tale](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384271/)
 
 ### Mississippi Board of Pharmacy
 

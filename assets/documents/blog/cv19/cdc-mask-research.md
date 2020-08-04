@@ -54,6 +54,9 @@ focus on the transmission of the infection.
 1. [Serial Interval of COVID-19 among Publicly Reported Confirmed Cases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258488/)
    This paper is relied upon by *Wei* to support presymptomatic transmission.
 
+1. [Risk of SARS-CoV-2 transmission by aerosols, the rational use of masks, and protection of healthcare workers from COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7336106/)
+   July 6, 2020
+
 
 # Notes
 
