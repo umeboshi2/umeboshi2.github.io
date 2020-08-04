@@ -45,7 +45,7 @@ Zhang Y, Chen C, Zhu S et al. [Isolation of 2019-nCoV from a stool specimen of a
 
 van Doremalen N, Morris D, Bushmaker T et al. [Aerosol and Surface Stability of SARS-CoV-2 as compared with SARS-CoV-1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121658/). New Engl J Med 2020 doi: 10.1056/NEJMc2004973
 
-Cheng V, Wong S-C, Chen J, Yip C, Chuang V, Tsang O, et al. Escalating infection control response to the rapidly evolving epidemiology of the Coronavirus disease 2019 (COVID-19) due to SARS-CoV-2 in Hong Kong. Infect Control Hosp Epidemiol. 2020 Mar 5 [Epub ahead of print]. 
+Cheng V, Wong S-C, Chen J, Yip C, Chuang V, Tsang O, et al. [Escalating infection control response to the rapidly evolving epidemiology of the Coronavirus disease 2019 (COVID-19) due to SARS-CoV-2 in Hong Kong](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7137535/). Infect Control Hosp Epidemiol. 2020 Mar 5 [Epub ahead of print]. 
 
 Ong SW, Tan YK, Chia PY, Lee TH, Ng OT, Wong MS, et al. Air, surface environmental, and personal protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient. JAMA. 2020
 
