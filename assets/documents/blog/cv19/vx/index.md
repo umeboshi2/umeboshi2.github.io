@@ -87,7 +87,7 @@ contains a very likely reason why the
 the emergency use of a vaccine, and will likely be further discredited to 
 provide a better opportunity to authorize emergency vaccination.  On the 
 fifth page of the slideshow, we can see that the criteria for an EUA on 
-a vaccine requires that there be " [n]o adequate, approved, and available 
+a vaccine requires that there be "[n]o adequate, approved, and available 
 alternative" to a vaccine.
 
 
