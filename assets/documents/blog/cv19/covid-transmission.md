@@ -47,7 +47,7 @@ van Doremalen N, Morris D, Bushmaker T et al. [Aerosol and Surface Stability of 
 
 Cheng V, Wong S-C, Chen J, Yip C, Chuang V, Tsang O, et al. [Escalating infection control response to the rapidly evolving epidemiology of the Coronavirus disease 2019 (COVID-19) due to SARS-CoV-2 in Hong Kong](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7137535/). Infect Control Hosp Epidemiol. 2020 Mar 5 [Epub ahead of print]. 
 
-Ong SW, Tan YK, Chia PY, Lee TH, Ng OT, Wong MS, et al. Air, surface environmental, and personal protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient. JAMA. 2020
+Ong SW, Tan YK, Chia PY, Lee TH, Ng OT, Wong MS, et al. [Air, surface environmental, and personal protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7057172/). JAMA. 2020
 
 WHO Infection Prevention and Control Guidance for COVID-19 available at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/infection-prevention-and-control
 
