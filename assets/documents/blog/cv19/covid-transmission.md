@@ -37,13 +37,13 @@ Huang C, Wang Y, Li X, et al. [Clinical features of patients infected with 2019 
 
 Burke RM, Midgley CM, Dratch A, Fenstersheib M, Haupt T, Holshue M,et al. [Active monitoring of persons exposed to patients with confirmed COVID-19 — United States, January–February 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7367094/). MMWR Morb Mortal Wkly Rep. 2020 doi : 10.15585/mmwr.mm6909e1external icon
 
-World Health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020 [Internet]. Geneva: World Health Organization; 2020 Available from: https://www.who.int/docs/default- source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
+World Health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020 [Internet]. Geneva: World Health Organization; 2020 Available as a [PDF](https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf)
 
-Ong SW, Tan YK, Chia PY, Lee TH, Ng OT, Wong MS, et al. Air, surface environmental, and personal protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient. JAMA. 2020 Mar 4 [Epub ahead of print].
+Ong SW, Tan YK, Chia PY, Lee TH, Ng OT, Wong MS, et al. [Air, surface environmental, and personal protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7057172/). JAMA. 2020 Mar 4 [Epub ahead of print].
 
 Zhang Y, Chen C, Zhu S et al. [Isolation of 2019-nCoV from a stool specimen of a laboratory-confirmed case of the coronavirus disease 2019 (COVID-19)]. China CDC Weekly. 2020;2(8):123–4. (In Chinese)
 
-van Doremalen N, Morris D, Bushmaker T et al. Aerosol and Surface Stability of SARS-CoV-2 as compared with SARS-CoV-1. New Engl J Med 2020 doi: 10.1056/NEJMc2004973
+van Doremalen N, Morris D, Bushmaker T et al. [Aerosol and Surface Stability of SARS-CoV-2 as compared with SARS-CoV-1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121658/). New Engl J Med 2020 doi: 10.1056/NEJMc2004973
 
 Cheng V, Wong S-C, Chen J, Yip C, Chuang V, Tsang O, et al. Escalating infection control response to the rapidly evolving epidemiology of the Coronavirus disease 2019 (COVID-19) due to SARS-CoV-2 in Hong Kong. Infect Control Hosp Epidemiol. 2020 Mar 5 [Epub ahead of print]. 
 
