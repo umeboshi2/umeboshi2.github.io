@@ -58,3 +58,11 @@ July 1, 2020
 [A review of neuroimaging studies of race-related prejudice: does amygdala response reflect threat?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3973920/)
 
 [COVI-PASS](https://covipass.com)
+
+"The team also discovered evidence of down-regulated genes in COVID patients 
+that might otherwise have kept hyaluronic acid levels in check. So with fluid 
+inundating the lungs and gels that absorb those fluids being over-produced as 
+well, a coronavirus patient’s lung, Jacobson said, 'fills up with a jello-like 
+hydrogel.'" 
+[Has the Summit Supercomputer Cracked COVID's Code?](https://spectrum.ieee.org/the-human-os/computing/hardware/has-the-summit-supercomputer-cracked-the-covid-code)
+[Wikipedia hydrogel article](https://en.wikipedia.org/wiki/Hydrogel)
