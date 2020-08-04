@@ -15,6 +15,7 @@
     - [Eustace Mullins](#eustace-mullins)
     - [Linda Thompson](#linda-thompson)
       - [America Under Siege](#america-under-siege)
+    - [Stanley Monteith](#stanley-monteith)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -155,4 +156,6 @@ an Amtrak repair facility in Beech Grove, Indiana.
 <iframe width="320" height="240" src="https://www.youtube.com/embed/SpzxUqYEzwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [FEMA camps conspiracy theory](https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory)
+
+### [Stanley Monteith](https://en.wikipedia.org/wiki/Stan_Monteith)
 
