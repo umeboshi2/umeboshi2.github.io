@@ -4,6 +4,7 @@
 
 - [Vaccine Trials](#vaccine-trials)
 - [Vaccine Hesitancy](#vaccine-hesitancy)
+  - [Your Body, Their Choice](#your-body-their-choice)
   - [Video](#video)
 - [Vaccine Liability](#vaccine-liability)
 - [Articles and Studies](#articles-and-studies)
@@ -29,7 +30,13 @@
 
 ### Vaccine Hesitancy
 
+#### Your Body, Their Choice
+
 The links below are taken from [here](https://www.corbettreport.com/mybody/).
+
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/iOuihO6b2SI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 [Forced Vaccination: The Tragic Legacy of Jacobson v. Massachusetts](https://www.nvic.org/NVIC-Vaccine-News/November-2016/forced-vaccination-the-tragic-legacy.aspx) [(youtube)](https://www.youtube.com/watch?v=kUBBQSKCceM)
 
