@@ -166,8 +166,6 @@ https://www.youtube.com/watch?v=KrUXPn7HCjM
 
 **Myron Fagan exposes the Illuminati/CFR [1967]**
 
-Vinyl rip from my personal collection. Best audio on the net.
-
 This 3x LP record set documents the activities of a secret society known as 
 The Illuminati, and their New World Order.
 
