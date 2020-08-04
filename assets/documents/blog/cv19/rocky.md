@@ -91,3 +91,7 @@ black doctors. They did not apologize for this for over 150 years, until July
 
 Many people don't know how we ended up with the health care system we currently 
 employ.  Learn the history, open you eyes, then make a choice!
+
+
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/X6J_7PvWoMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
