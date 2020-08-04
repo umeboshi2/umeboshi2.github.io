@@ -5,6 +5,7 @@
 - [Vaccine Trials](#vaccine-trials)
 - [Vaccine Hesitancy](#vaccine-hesitancy)
 - [Vaccine Liability](#vaccine-liability)
+- [Articles and Studies](#articles-and-studies)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -48,3 +49,6 @@ https://www.facebook.com/HighWireTalk/videos/291320525305679/
 
 [AstraZeneca to be exempt from coronavirus vaccine liability claims in most countries](https://www.reuters.com/article/us-astrazeneca-results-vaccine-liability-idUSKCN24V2EN)
 
+### Articles and Studies
+
+[Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination](https://stm.sciencemag.org/content/11/523/eaay7162.short)[(PubMed)](https://pubmed.ncbi.nlm.nih.gov/31852802/)
