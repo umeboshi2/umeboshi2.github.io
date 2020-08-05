@@ -3,7 +3,6 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [The Rockefeller Foundation](#the-rockefeller-foundation)
-  - [Links](#links)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -25,8 +24,5 @@ Its overall philanthropic activity has been divided into five main subject areas
   - Agricultural and natural sciences
   - Arts and humanities
   - Social sciences
-  - International relations
-
-### Links
-
+  - International relations"
 [Wikipedia](https://en.wikipedia.org/wiki/Rockefeller_Foundation), 
