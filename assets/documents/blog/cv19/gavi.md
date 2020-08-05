@@ -53,5 +53,6 @@ Funds are being "matched by the
 [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)."
 
 
+[Vaccine Companies Partner with Mastercard to Merge Vaccines with Cashless Money System](https://davidicke.com/2020/07/29/vaccine-companies-partner-with-mastercard-to-merge-vaccines-with-cashless-money-system/)
 
 
