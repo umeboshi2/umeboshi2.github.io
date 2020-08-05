@@ -68,10 +68,5 @@ hydrogel.'"
 [Wikipedia hydrogel article](https://en.wikipedia.org/wiki/Hydrogel)
 
 
-[Albert Pike](https://en.wikipedia.org/wiki/Albert_Pike)
-
-[Giuseppe Mazzini](https://en.wikipedia.org/wiki/Giuseppe_Mazzini)
-
-August 15, 1871
-[Letter](https://www.bibliotecapleyades.net/sociopolitica/sociopol_masonsknightstemplar15.htm)
+[Will Travel be Safer by 2022?](http://www.bbc.com/travel/story/20200621-will-travel-be-safer-by-2022)
 

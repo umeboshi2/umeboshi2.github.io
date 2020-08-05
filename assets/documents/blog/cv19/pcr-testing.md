@@ -86,3 +86,8 @@ temperature (Tm) of the primers."
 <iframe width="320" height="240" src="https://www.youtube.com/embed/Vd38iS_W7ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="240" src="https://www.youtube.com/embed/TdIsTLg7RQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+Meet the One-Minute Coronavirus Breath Test
+:See how BGU's Prof. Gabby Sarusi's 60-second COVID-19 breath test works 
+using chip technology, developed at Ben-Gurion University of the Negev."
+https://www.youtube.com/watch?v=BGOzDvC6U7c
