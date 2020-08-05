@@ -75,6 +75,12 @@ Feb 20, 2020
 Feb 21, 2020
 [Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/)
 
+Feb 27, 2020
+[Emergence of a novel human coronavirus threatening human health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7095779/)
+
+Feb 2020
+[Identification of Coronavirus Isolated from a Patient in Korea with COVID-19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7045880/)
+
 Mar 20, 2020
 [What we know so far: COVID-19 current clinical knowledge and research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7081812/)
 

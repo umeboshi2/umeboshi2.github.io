@@ -40,6 +40,9 @@ Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
 
 [Koch's postulates](https://en.wikipedia.org/wiki/Koch%27s_postulates)
 
+[Scientists Have Utterly Failed to Prove that the Coronavirus Fulfills Koch’s Postulates](https://off-guardian.org/2020/06/09/scientists-have-utterly-failed-to-prove-that-the-coronavirus-fulfills-kochs-postulates/)
+
+
 [Terrain theory](https://en.wikipedia.org/wiki/Terrain_theory)
 
 [Germ theory](https://en.wikipedia.org/wiki/Germ_theory)
