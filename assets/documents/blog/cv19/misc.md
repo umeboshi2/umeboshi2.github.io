@@ -66,3 +66,12 @@ well, a coronavirus patient’s lung, Jacobson said, 'fills up with a jello-like
 hydrogel.'" 
 [Has the Summit Supercomputer Cracked COVID's Code?](https://spectrum.ieee.org/the-human-os/computing/hardware/has-the-summit-supercomputer-cracked-the-covid-code)
 [Wikipedia hydrogel article](https://en.wikipedia.org/wiki/Hydrogel)
+
+
+[Albert Pike](https://en.wikipedia.org/wiki/Albert_Pike)
+
+[Giuseppe Mazzini](https://en.wikipedia.org/wiki/Giuseppe_Mazzini)
+
+August 15, 1871
+[Letter](https://www.bibliotecapleyades.net/sociopolitica/sociopol_masonsknightstemplar15.htm)
+

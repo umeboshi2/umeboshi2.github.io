@@ -12,7 +12,11 @@
 
 ## Artificial Intelligence
 
-https://www.youtube.com/watch?v=5dZ_lvDgevk
+
+Frontline: In the Age of AI
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/5dZ_lvDgevk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ### Reinforcement Learning

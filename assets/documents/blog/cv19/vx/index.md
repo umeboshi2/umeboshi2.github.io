@@ -82,6 +82,8 @@ Visit ECDC website: ecdc.europa.eu
 
 [Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination](https://stm.sciencemag.org/content/11/523/eaay7162.short)[(PubMed)](https://pubmed.ncbi.nlm.nih.gov/31852802/)
 
+[Robert F. Kennedy](https://www.instagram.com/p/B_q1jv_nmiX/)
+talks about the new Moderna vaccine.
 
 ###  ACIP
 

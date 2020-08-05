@@ -199,3 +199,13 @@ Each record has some descriptive notes on the back of each jacket such as...
 
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/KrUXPn7HCjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Albert Pike](https://en.wikipedia.org/wiki/Albert_Pike)
+
+[Giuseppe Mazzini](https://en.wikipedia.org/wiki/Giuseppe_Mazzini)
+
+August 15, 1871
+[Letter Excerpt](https://www.bibliotecapleyades.net/sociopolitica/sociopol_masonsknightstemplar15.htm)
+
+
