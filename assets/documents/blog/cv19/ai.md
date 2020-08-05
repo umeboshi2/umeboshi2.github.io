@@ -32,6 +32,8 @@
 
 
 
+1. [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
+
 ### Reinforcement Learning
 
 - [RL POST #1](https://www.facebook.com/umeboshi3/posts/2593422917440131)
