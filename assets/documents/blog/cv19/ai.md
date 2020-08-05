@@ -46,19 +46,19 @@ making."
 
 But what is a Neural Network? | Deep learning, chapter 1
 
-https://www.youtube.com/watch?v=aircAruvnKk
+<iframe width="320" height="240" src="https://www.youtube.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Gradient descent, how neural networks learn | Deep learning, chapter 2
 
-https://www.youtube.com/watch?v=IHZwWFHWa-w
+<iframe width="320" height="240" src="https://www.youtube.com/embed/IHZwWFHWa-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 What is backpropagation really doing? | Deep learning, chapter 3
 
-https://www.youtube.com/watch?v=Ilg3gGewQ5U
+<iframe width="320" height="240" src="https://www.youtube.com/embed/Ilg3gGewQ5U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Backpropagation calculus | Deep learning, chapter 4
 
-https://www.youtube.com/watch?v=tIeHLnjs5U8
+<iframe width="320" height="240" src="https://www.youtube.com/embed/tIeHLnjs5U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
