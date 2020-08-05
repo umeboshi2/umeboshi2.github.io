@@ -2,6 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **[Home](#pages/blog/cv19/index)**
 
+- [Articles](#articles)
 - [Notes](#notes)
 - [Video](#video)
   - [PCR - Polymerase Chain Reaction Simplified](#pcr---polymerase-chain-reaction-simplified)
@@ -11,6 +12,23 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 [Parent](#pages/blog/cv19/index)
+
+## Articles
+
+May 12, 2020
+[Interpreting a covid-19 test result](https://www.bmj.com/content/369/bmj.m1808)
+[(PDF)](https://www.bmj.com/content/369/bmj.m1808.full.pdf)
+
+
+[Was the COVID-19 Test Meant to Detect a Virus?](https://uncoverdc.com/2020/04/07/was-the-covid-19-test-meant-to-detect-a-virus/)
+
+[WHO Director-General's opening remarks at the media briefing on COVID-19 - 16 March 2020](https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---16-march-2020)
+
+[Faith in Quick Test Leads to Epidemic That Wasn’t](https://www.nytimes.com/2007/01/22/health/22whoop.html)
+
+[COVID19 PCR Tests are Scientifically Meaningless](https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/)
+
+
 
 ## Notes
 
@@ -68,18 +86,3 @@ temperature (Tm) of the primers."
 <iframe width="320" height="240" src="https://www.youtube.com/embed/Vd38iS_W7ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="240" src="https://www.youtube.com/embed/TdIsTLg7RQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-[COVID19 PCR Tests are Scientifically Meaningless](https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/)
-
-[WHO Director-General's opening remarks at the media briefing on COVID-19 - 16 March 2020](https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---16-march-2020)
-
-[Was the COVID-19 Test Meant to Detect a Virus?](https://uncoverdc.com/2020/04/07/was-the-covid-19-test-meant-to-detect-a-virus/)
-
-
-[Faith in Quick Test Leads to Epidemic That Wasn’t](https://www.nytimes.com/2007/01/22/health/22whoop.html)
-
-May 12, 2020
-[Interpreting a covid-19 test result](https://www.bmj.com/content/369/bmj.m1808)
-
-
-https://www.bmj.com/content/369/bmj.m1808.full.pdf
