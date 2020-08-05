@@ -5,6 +5,8 @@
 - [Artificial Intelligence](#artificial-intelligence)
   - [Introduction](#introduction)
   - [Deep Learning](#deep-learning)
+    - [Reinforcement Learning](#reinforcement-learning)
+  - [A Math Example](#a-math-example)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -51,15 +53,12 @@ Backpropagation calculus
 
 
 
-2. **But what is a Fourier series? From heat flow to circle drawings**
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/r6sGWTCMz2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+#### [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
 
-3. [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
 
-4. [Microsoft Jericho Project]
+[Microsoft Jericho Project](https://github.com/microsoft/jericho)
 
 "A hallmark of human intelligence is the ability to understand and communicate 
 with language."  Also, from the introduction:  "Beyond [interactive fiction], 
@@ -67,5 +66,12 @@ real-world applications such as voice-activated personal assistants can also
 benefit from advances in these capabilities at the intersection of natural 
 language understanding, natural language generation, and sequential decision 
 making."
+[Interactive Fiction Games: A Colossal Adventure](https://arxiv.org/abs/1909.05398) [(PDF)](https://arxiv.org/pdf/1909.05398)
 
+
+### A Math Example
+
+**But what is a Fourier series? From heat flow to circle drawings**
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/r6sGWTCMz2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
