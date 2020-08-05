@@ -12,6 +12,9 @@
 
 ## GAVI
 
+Wikipedia [page](https://en.wikipedia.org/wiki/GAVI), 
+ for GAVI.
+
 "GAVI's approach to public health has been described as business-oriented and 
 technology-focused, using market-oriented measures, and seeking quantifiable 
 results. This model, termed the "Gates approach" or US-type approach, GAVI is 
