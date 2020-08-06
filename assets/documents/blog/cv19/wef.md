@@ -57,6 +57,8 @@ The new COVID Action Platform will focus on three priorities:
 July 20, 2020
 [What COVID-19 taught 10 startups about pivoting, problem solving and tackling the unknown](https://www.weforum.org/covid-action-platform/articles/what-covid-19-taught-10-startups-about-pivoting-problem-solving-and-tackling-the-unknown)
 
+[Here are 3 ways to close digital gaps and kickstart recovery](https://www.weforum.org/agenda/2020/07/here-are-3-ways-to-close-digital-gaps-and-kickstart-recovery)
+
 ### The Great Reset
 
 [Official Video](https://www.weforum.org/great-reset)
@@ -117,6 +119,9 @@ In this video, speakers explore "[t]he possibility of a trusted  *global
 digital currency* [which] has sparked political, economic and regulatory 
 discussions worldwide."
 
+[6 ways the COVID-19 pandemic could change our approach to human capital](https://www.weforum.org/agenda/2020/08/6-ways-covid-19-will-advance-human-capital-strategies-and-governance)
+
+[Human Capital](https://en.wikipedia.org/wiki/Human_capital)
 
 #### What is the Fourth Industrial Revolution?
 
@@ -155,6 +160,8 @@ practice?"
 <iframe width="320" height="240" src="https://www.youtube.com/embed/6bwJFeQqGMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### AI and Government
+
+[Better conversations can help reimagine AI regulation. These steps can help.](https://www.weforum.org/agenda/2020/07/6-steps-to-better-conversations-that-reimagine-ai-regulation)
 
 https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-procurement-standards-regulation-economic-growth-covid-19-response
 

@@ -38,6 +38,9 @@ Its overall philanthropic activity has been divided into five main subject areas
 virus, protect the most vulnerable in our communities, and preserve our 
 economic and social vitality." [Foundation Action Plan](https://www.rockefellerfoundation.org/national-covid-19-testing-and-tracing-action-plan/)
 
+"In 1901, Gates designed the Rockefeller Institute for Medical Research (now Rockefeller University), of which he was board president. He then designed the Rockefeller Foundation, becoming a trustee upon its creation in 1913. Gates served as president of the General Education Board, which became the leading foundation in the field of education." [Frederick Taylor Gates](https://en.wikipedia.org/wiki/Frederick_Taylor_Gates)
+
+
 
 ### Links
 
@@ -52,7 +55,9 @@ economic and social vitality." [Foundation Action Plan](https://www.rockefellerf
 [How Rockefeller Founded Modern Medicine and Killed Natural Cures](https://worldaffairs.blog/2015/10/20/how-rockefeller-founded-modern-medicine-and-killed-natural-cures/)
 
 
-### Carnegie Flexner Report
+### [Carnegie Flexner Report](https://en.wikipedia.org/wiki/Flexner_Report)
+
+
 
 This is the Abraham Flexner report of 1910.
 
@@ -77,9 +82,9 @@ declined from 5,747 to 2,658. "Overcrowding" of the profession became the
 public AMA theme for the "opportunities of those already in the profession to 
 acquire a livelihood." said one AMA President at the time.
 
-The AMA also practiced severe discrimination against black medical schools and 
-black doctors. They did not apologize for this for over 150 years, until July 
-2008. (Exploring the AMA's History of Discrimination, 2008)
+The AMA also practiced **severe** discrimination against black medical schools 
+and black doctors. They did not apologize for this for over 150 years, until 
+July 2008. (Exploring the AMA's History of Discrimination, 2008)
 
 [Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf) [(Archive.org Details)](https://archive.org/details/carnegieflexnerreport)
 

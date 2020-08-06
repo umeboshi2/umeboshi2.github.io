@@ -28,6 +28,11 @@ May 12, 2020
 
 [COVID19 PCR Tests are Scientifically Meaningless](https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/)
 
+[Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988269/)
+
+
+[Altona Diagnostics PCR Instructions (PDF)](https://altona-diagnostics.com/files/public/Content%20Homepage/-%2002%20RealStar/INS%20-%20RUO%20-%20EN/RealStar%20SARS-CoV-2%20RT-PCR%20Kit%201.0_WEB_RUO_EN-S02.pdf)
+
 
 
 ## Notes

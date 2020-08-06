@@ -131,8 +131,9 @@ various of his political, defense and health care interests."
 
 #### Norman Dodd On Tax Exempt Foundations
 
-Norman Dodd was interviewed in 1982 by G. Edward Griffin regarding the time 
-he spent as the head researcher for the Reece Committee.
+[Norman Dodd](https://en.wikipedia.org/wiki/Norman_Dodd) was interviewed in 
+1982 by G. Edward Griffin regarding the time he spent as the head researcher 
+for the [Reece Committee](https://en.wikipedia.org/wiki/United_States_House_Select_Committee_to_Investigate_Tax-Exempt_Foundations_and_Comparable_Organizations).
 
 This is a truly eye opening look into what the tax exempt foundations are 
 doing in the United States - their attempt to merge the Soviet System of 
@@ -140,6 +141,7 @@ Government with the USA.
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/YUYCBfmIcHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[The Dodd Report (PDF)](https://ia800304.us.archive.org/19/items/DoddReportToTheReeceCommitteeOnFoundations-1954-RobberBaron/Dodd-Report-to-the-Reece-Committee-on-Foundations-1954.pdf)
 
 
 ### [Bill Cooper](https://en.wikipedia.org/wiki/Milton_William_Cooper)
