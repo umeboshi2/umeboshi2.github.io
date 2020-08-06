@@ -27,6 +27,7 @@
 
 [Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial, Part 1](https://clinicaltrials.gov/ct2/show/NCT04460703)
 
+[US Government & Yale Hold Trials On How Best To ‘Persuade’ Americans To Take COVID-19 Vaccine](http://www.alt-market.com/index.php/articles/4293-us-government-a-yale-hold-trials-on-how-best-to-persuade-americans-to-take-covid-19-vaccine?utm_source=whatfinger)
 
 ### Vaccine Hesitancy
 

@@ -42,6 +42,7 @@ Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
 
 [Scientists Have Utterly Failed to Prove that the Coronavirus Fulfills Koch’s Postulates](https://off-guardian.org/2020/06/09/scientists-have-utterly-failed-to-prove-that-the-coronavirus-fulfills-kochs-postulates/)
 
+[The pathogenicity of SARS-CoV-2 in hACE2 transgenic mice](https://www.nature.com/articles/s41586-020-2312-y)
 
 [Terrain theory](https://en.wikipedia.org/wiki/Terrain_theory)
 
