@@ -5,6 +5,7 @@
 - [The Rockefeller Foundation](#the-rockefeller-foundation)
   - [Links](#links)
   - [Carnegie Flexner Report](#carnegie-flexner-report)
+  - [Rockefeller Medicine Men](#rockefeller-medicine-men)
     - [Video](#video)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -82,7 +83,7 @@ black doctors. They did not apologize for this for over 150 years, until July
 
 [Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf)
 
-
+### Rockefeller Medicine Men
 
 "By the 1930s, however, medicine was firmly in the hands of an organized 
 profession that controlled entry into the field through licensure and 
