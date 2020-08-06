@@ -5,7 +5,7 @@
 - [The Rockefeller Foundation](#the-rockefeller-foundation)
   - [Links](#links)
   - [Carnegie Flexner Report](#carnegie-flexner-report)
-  - [Rockefeller Medicine Men](#rockefeller-medicine-men)
+  - [Rockefeller Medicine Men (1979)](#rockefeller-medicine-men-1979)
     - [Video](#video)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -81,9 +81,9 @@ The AMA also practiced severe discrimination against black medical schools and
 black doctors. They did not apologize for this for over 150 years, until July 
 2008. (Exploring the AMA's History of Discrimination, 2008)
 
-[Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf)
+[Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf) [(Archive.org Details)](https://archive.org/details/carnegieflexnerreport)
 
-### Rockefeller Medicine Men
+### Rockefeller Medicine Men (1979)
 
 "By the 1930s, however, medicine was firmly in the hands of an organized 
 profession that controlled entry into the field through licensure and 
