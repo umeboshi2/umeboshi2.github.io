@@ -82,8 +82,23 @@ black doctors. They did not apologize for this for over 150 years, until July
 
 [Carnegie Flexner Report (PDF)](https://archive.org/download/carnegieflexnerreport/Carnegie_Flexner_Report.pdf)
 
+
+
+"By the 1930s, however, medicine was firmly in the hands of an organized 
+profession that controlled entry into the field through licensure and 
+accreditation of medical schools and teaching hospitals. The profession also 
+controlled the practice and economics of medicine through local medical 
+societies. "Medicine" had come to mean the field of clinical practice by 
+graduates of schools that followed the scientific, clinical, and research 
+orientations laid down by the American Medical Association (AMA) and by 
+Abraham Flexner in a famous report for the Carnegie Foundation. All other 
+healers were being excluded from practice."
 [Rockefeller medicine men : medicine and capitalism in America (PDF)](https://archive.org/download/rockefellermedic00browrich/rockefellermedic00browrich.pdf)
 by Brown, E. Richard (1979)
+[(Archive.org Details)](https://archive.org/details/rockefellermedic00browrich)
+
+
+
 
 
 #### Video
