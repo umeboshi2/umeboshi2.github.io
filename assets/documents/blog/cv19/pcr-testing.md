@@ -33,7 +33,10 @@ May 12, 2020
 
 [Altona Diagnostics PCR Instructions (PDF)](https://altona-diagnostics.com/files/public/Content%20Homepage/-%2002%20RealStar/INS%20-%20RUO%20-%20EN/RealStar%20SARS-CoV-2%20RT-PCR%20Kit%201.0_WEB_RUO_EN-S02.pdf)
 
+[An analysis of SARS-CoV-2 viral load by patient age (PDF)](https://virologie-ccm.charite.de/fileadmin/user_upload/microsites/m_cc05/virologie-ccm/dateien_upload/Weitere_Dateien/Charite_SARS-CoV-2_viral_load_2020-06-02.pdf)
 
+April 8, 2020
+[Corona: creating the illusion of a pandemic through diagnostic tests](https://blog.nomorefakenews.com/2020/04/08/corona-creating-illusion-of-pandemic-through-diagnostic-test/)
 
 ## Notes
 
@@ -50,6 +53,9 @@ completely unreproducible by other scientists."
 [DNA Sequencing](https://en.wikipedia.org/wiki/DNA_sequencing)
 
 [Isothermal amplification methods](https://en.wikipedia.org/wiki/Variants_of_PCR#Isothermal_amplification_methods)
+
+[MIQE (PDF)](https://www.gene-quantification.de/miqe-bustin-et-al-clin-chem-2009.pdf)
+
 
 ## Video
 

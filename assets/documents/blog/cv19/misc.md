@@ -78,3 +78,6 @@ MAY 17, 2018
 Stretchable hydrogel electronics
 
 https://www.youtube.com/watch?v=T3TqCrLUgC0
+
+
+[Conflicts of interest and pandemic flu](https://www.bmj.com/content/340/bmj.c2947) [(PDF)](https://childrenshealthdefense.org/wp-content/uploads/Godlee-2010-Conflicts-of-interest-and-pandemic-flu.pdf)
