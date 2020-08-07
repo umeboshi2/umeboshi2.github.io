@@ -19,6 +19,10 @@ of [ID2020](#pages/blog/cv19/id2020).
 
 [Official Site](https://www.rockefellerfoundation.org/)
 
+[A Digital history](https://rockfound.rockarch.org/home)
+
+
+
 
 "Through the years the foundation has expanded greatly in scope. Historically, 
 it has given more than $14 billion in current dollars to thousands of grantees 
@@ -57,6 +61,11 @@ economic and social vitality." [Foundation Action Plan](https://www.rockefellerf
 
 ### [Carnegie Flexner Report](https://en.wikipedia.org/wiki/Flexner_Report)
 
+Although the report is over 100 years old, many of its recommendations are 
+still relevant—particularly those concerning the physician as a "**social 
+instrument**... whose function is fast becoming *social and preventive*, 
+rather than *individual and curative*." 
+[(Wikipedia)](https://en.wikipedia.org/wiki/Flexner_Report)
 
 
 This is the Abraham Flexner report of 1910.
