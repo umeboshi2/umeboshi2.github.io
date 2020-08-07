@@ -10,6 +10,7 @@
 - [Fact Check: Bill Gates and the "God Gene" Vaccine](#fact-check-bill-gates-and-the-god-gene-vaccine)
   - [How Governments Are Hunting the Infected - #NewWorldNextWeek](#how-governments-are-hunting-the-infected---newworldnextweek)
   - [The rest](#the-rest)
+  - [More Stuff](#more-stuff)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -26,6 +27,17 @@
 2009 for 20 percent of international public funding for HIV, 65 percent for 
 TB and 65 percent for malaria."
 [Global Fund faces billion-dollar gap](https://archive.fo/20130124180843/http://www.google.com/hostednews/afp/article/ALeqM5h6Ih8CYz1SqAKYjI-SiowJgu8BSA?docId=CNG.07d4a47a8ce76f0e07e322726bdf65a2.6f1)
+
+"Bill Gates has spent much of the past two decades transforming 
+himself from software magnate into a benefactor of humanity through his own 
+Bill & Melinda Gates Foundation. In fact, Gates has surpassed Rockefeller’s 
+legacy with the Bill & Melinda Gates Foundation long having eclipsed The 
+Rockefeller Foundation as the largest private foundation in the world, with 
+$46.8 billion of assets on its books that it wields in its stated program areas 
+of global health and development, global growth, and global policy advocacy."
+
+"Indeed, it would be almost impossible to find any area of global health that 
+has been left untouched by the tentacles of the Bill & Melinda Gates Foundation."
 
 <iframe width="320" height="160" src="https://www.youtube.com/embed/wQSYdAX_9JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -87,3 +99,20 @@ https://bit.ly/2ZtEjyV
 <iframe width="320" height="160" src="https://www.youtube.com/embed/3Jg4jzDmMac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/k1trzdmwR2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="320" height="160" src="https://www.youtube.com/embed/8lh-HGcXE1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### More Stuff
+
+"Microsoft founder and philanthropist Bill Gates had an informative 
+conversation with Ellen about his foundation’s efforts to help find a vaccine 
+and therapeutics for COVID-19, the effect the pandemic is having on the 
+economy, when we can expect to get back to “normal life,” and what gives him 
+hope during these uncertain times."
+[Bill Gates on Finding a Vaccine for COVID-19, the Economy, and Returning to ‘Normal Life’](https://www.youtube.com/watch?v=5oEcxMfwJnw)
+
+"Microsoft co-founder Bill Gates has spent the last few decades working to 
+improve global health through his philanthropic organization, the Bill & 
+Melinda Gates Foundation. One area of focus has been reducing the spread of 
+infectious disease -- a mission taking on new significance amid the global 
+COVID-19 pandemic. Gates joins Judy Woodruff to discuss vaccine outlook, 
+economic impact and more."
+[Bill Gates on where the COVID-19 pandemic will hurt the most](https://www.youtube.com/watch?v=W3qz9-bxljA)

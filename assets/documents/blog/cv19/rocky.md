@@ -50,12 +50,12 @@ economic and social vitality." [Foundation Action Plan](https://www.rockefellerf
 
 [Covid-19 National Testing & Tracing Action Plan](https://www.rockefellerfoundation.org/national-covid-19-testing-and-tracing-action-plan/) [(PDF)](https://www.rockefellerfoundation.org/wp-content/uploads/2020/07/TheRockefellerFoundation_TestingEcosystem_7_23.pdf)
 
-20 October 2015
 [How Rockefeller Founded Modern Medicine and Killed Natural Cures](https://www.globalresearch.ca/how-rockefeller-founded-modern-medicine-killed-natural-cures/5711818)
 
 
 [Western Medicine is Rockefeller Medicine – All The Way](https://thefreedomarticles.com/western-medicine-rockefeller-medicine/)
 
+20 October 2015
 [How Rockefeller Founded Modern Medicine and Killed Natural Cures](https://worldaffairs.blog/2015/10/20/how-rockefeller-founded-modern-medicine-and-killed-natural-cures/)
 
 

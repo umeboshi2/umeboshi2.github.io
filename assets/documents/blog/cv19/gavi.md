@@ -4,6 +4,7 @@
 
 - [GAVI](#gavi)
   - [Global Vaccine Summit 2020](#global-vaccine-summit-2020)
+  - [Market Shaping](#market-shaping)
   - [News Articles about GAVI](#news-articles-about-gavi)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -29,6 +30,14 @@ has donated $1.56 billion to the
 alliance's 2016-2020 strategic period, as of March 2019."
 [(wikipedia)](https://en.wikipedia.org/wiki/GAVI) 
 
+"It was Gates who sponsored the meeting that led to the creation of Gavi, the 
+Vaccine Alliance, a global public-private partnership bringing together state 
+sponsors and big pharmaceutical companies, whose specific goals include the 
+creation of 'healthy markets for vaccines and other immunisation products.' As 
+a founding partner of the alliance, the Gates Foundation provided $750 million 
+in seed funding and has gone on to make over $4.1 billion in commitments to the 
+group." *[Who Is Bill Gates?](https://www.corbettreport.com/gates/)
+
 ### Global Vaccine Summit 2020
 
 "The UK-hosted Global Vaccine Summit heralds a new era of global health 
@@ -39,6 +48,15 @@ and 12 foundations, corporations and organisations to immunise 300 million
 children and support the global fight against 
 COVID-19." 
 [(youtube of Trump supporting GAVI)](https://www.youtube.com/watch?v=_pV1U9s3vJ0)
+
+### [Market Shaping](https://www.gavi.org/our-alliance/market-shaping)
+
+"VIPS represents an unprecedented three-year collaboration between the Gavi 
+Secretariat, World Health Organization (WHO), Bill & Melinda Gates 
+Foundation (BMGF), United Nations Children’s Fund (UNICEF) and PATH– known 
+as the VIPS Alliance - to develop a single integrated framework to evaluate and 
+prioritise vaccine product innovations and to drive these innovations forward."
+[The Vaccine Innovation Prioritisation Strategy (VIPS)](https://www.gavi.org/our-alliance/market-shaping/vaccine-innovation-prioritisation-strategy)
 
 ### News Articles about GAVI
 
