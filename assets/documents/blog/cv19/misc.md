@@ -70,3 +70,11 @@ hydrogel.'"
 
 [Will Travel be Safer by 2022?](http://www.bbc.com/travel/story/20200621-will-travel-be-safer-by-2022)
 
+MAY 17, 2018
+[Ellen DeGeneres Grills Sandra Bullock Over "Penis Facials"](https://www.eonline.com/news/936261/ellen-degeneres-grills-sandra-bullock-over-quot-penis-facials-quot)
+
+
+
+Stretchable hydrogel electronics
+
+https://www.youtube.com/watch?v=T3TqCrLUgC0
