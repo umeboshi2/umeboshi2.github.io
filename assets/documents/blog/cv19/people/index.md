@@ -11,3 +11,5 @@
 ### People
 
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
+
+1. [Bill Cooper](#pages/blog/cv19/people/bill-cooper)

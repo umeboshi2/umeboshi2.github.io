@@ -10,8 +10,6 @@
 
 # [Myron Fagan](https://en.wikipedia.org/wiki/Myron_Coureval_Fagan)
 
-https://www.youtube.com/watch?v=KrUXPn7HCjM
-
 **Myron Fagan exposes the Illuminati/CFR [1967]**
 
 This 3x LP record set documents the activities of a secret society known as 
@@ -30,6 +28,8 @@ stories of some of the most sensational plots in the history of the world.
 The findings by Mr. Fagan were split into 6 parts, between these 3 records 
 and are presented to you here, in full.
 
+<iframe width="320" height="240" src="https://www.youtube.com/embed/KrUXPn7HCjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Each record has some descriptive notes on the back of each jacket such as...
 
 - Eliminate the Illuminati...see that this message is heard!!!
@@ -46,7 +46,6 @@ Each record has some descriptive notes on the back of each jacket such as...
   substitute - America no equal!
 
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/KrUXPn7HCjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Myron Fagan discusses a letter written by  
 [Albert Pike](https://en.wikipedia.org/wiki/Albert_Pike)
