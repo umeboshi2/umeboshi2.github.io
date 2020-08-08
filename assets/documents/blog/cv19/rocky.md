@@ -44,9 +44,20 @@ economic and social vitality." [Foundation Action Plan](https://www.rockefellerf
 
 "In 1901, Gates designed the Rockefeller Institute for Medical Research (now Rockefeller University), of which he was board president. He then designed the Rockefeller Foundation, becoming a trustee upon its creation in 1913. Gates served as president of the General Education Board, which became the leading foundation in the field of education." [Frederick Taylor Gates](https://en.wikipedia.org/wiki/Frederick_Taylor_Gates)
 
+"The so-called morning-after pill has not yet been tested in human beings; 
+its effectiveness and the hazards of its use are unknown. The male pill is 
+being very little investigated; several types of drugs are known to diminish 
+male fertility, but those that have been tested have serious problems of 
+toxicity. Very little work is in progress on immunological methods, such as 
+vaccines, to reduce fertility, and much more research is required if a solution 
+is to be found here."
+[Annual Report 1968 (PDF)](https://www.rockefellerfoundation.org/wp-content/uploads/Annual-Report-1968-1.pdf)
+
 
 
 ### Links
+
+[Annual Report 1968 (PDF)](https://www.rockefellerfoundation.org/wp-content/uploads/Annual-Report-1968-1.pdf)
 
 [Covid-19 National Testing & Tracing Action Plan](https://www.rockefellerfoundation.org/national-covid-19-testing-and-tracing-action-plan/) [(PDF)](https://www.rockefellerfoundation.org/wp-content/uploads/2020/07/TheRockefellerFoundation_TestingEcosystem_7_23.pdf)
 

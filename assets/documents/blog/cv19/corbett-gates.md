@@ -116,3 +116,7 @@ infectious disease -- a mission taking on new significance amid the global
 COVID-19 pandemic. Gates joins Judy Woodruff to discuss vaccine outlook, 
 economic impact and more."
 [Bill Gates on where the COVID-19 pandemic will hurt the most](https://www.youtube.com/watch?v=W3qz9-bxljA)
+
+
+
+[The Long, Strange History of Bill Gates Population Control Conspiracy Theories](https://www.huffpost.com/entry/bill-gates-coronavirus-vaccine-conspiracy_n_5eb9ab7ac5b69358ef8a9803)

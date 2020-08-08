@@ -29,6 +29,13 @@
 
 [US Government & Yale Hold Trials On How Best To ‘Persuade’ Americans To Take COVID-19 Vaccine](http://www.alt-market.com/index.php/articles/4293-us-government-a-yale-hold-trials-on-how-best-to-persuade-americans-to-take-covid-19-vaccine?utm_source=whatfinger)
 
+"As a result of this international, collaborative effort, a prototype 
+anti-HCG vaccine is now undergoing clinical testing, raising the prospect 
+that a totally new family planning method may be available before the end 
+of the current decade."
+[The WHO Task Force on Vaccines for Fertility Regulation. Its formation, objectives and research activities](https://pubmed.ncbi.nlm.nih.gov/1874951/)
+
+
 ### Vaccine Hesitancy
 
 #### Your Body, Their Choice
