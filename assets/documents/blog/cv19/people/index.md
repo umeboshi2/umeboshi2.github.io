@@ -12,4 +12,6 @@
 
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
 
+1. [G. E. Griffin](#pages/blog/cv19/people/griffin)
+
 1. [Bill Cooper](#pages/blog/cv19/people/bill-cooper)
