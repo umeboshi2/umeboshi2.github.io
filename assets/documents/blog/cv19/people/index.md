@@ -20,4 +20,6 @@
 
 1. [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)
 
-1. [Eustace Mullins](@pages/blog/cv19/people/eustace-mullins)
+1. [Eustace Mullins](#pages/blog/cv19/people/eustace-mullins)
+
+1. [Stanley Monteith](#pages/blog/cv19/people/stanley-monteith)
