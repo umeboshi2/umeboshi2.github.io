@@ -85,3 +85,25 @@ https://www.youtube.com/watch?v=T3TqCrLUgC0
 [Billionaire club in bid to curb overpopulation](https://archive.is/RAwFf#selection-697.0-700.0)
 
 
+[Crimson Contagion](https://en.wikipedia.org/wiki/Crimson_Contagion)
+
+[Crimson Contagion Key Findings (pdf)](https://int.nyt.com/data/documenthelper/6824-2019-10-key-findings-and-after/05bd797500ea55be0724/optimized/full.pdf)
+
+Crimson Contagion training listed on CDC website:
+[EOC Training Exercise (12hr) - Crimson Contagion PanFlu Functional Exercise (FE) - August 12-16, 2019 (Recurring Program)](https://tceols.cdc.gov/Course/Detail2/7218?previousPage=search)
+
+
+[Institute for Statecraft](https://en.wikipedia.org/wiki/Institute_for_Statecraft)
+[WikiSpooks](https://wikispooks.com/wiki/Institute_for_Statecraft)
+
+
+Lab Based Cooking with Bill Gates! (Satire) #ExposeBillGates
+https://www.youtube.com/watch?v=tG5-K9bZde4
+
+#ExposeBillGates 2 International Day of Action August 8, 2020
+https://www.youtube.com/watch?v=GVh9NuNc4ck
+
+
+
+"Health officials say there is no returning to 'normal' until there is a 
+vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly effective is ‘not great’](https://www.cnbc.com/2020/08/07/coronavirus-vaccine-dr-fauci-says-chances-of-it-being-highly-effective-is-not-great.html)

@@ -80,6 +80,9 @@ Visit ECDC website: ecdc.europa.eu
 
 [AstraZeneca to be exempt from coronavirus vaccine liability claims in most countries](https://www.reuters.com/article/us-astrazeneca-results-vaccine-liability-idUSKCN24V2EN)
 
+[Red Flags Soar As Big Pharma Will Be Exempt From COVID-19 Vaccine Liability Claims](https://www.zerohedge.com/political/red-flags-soar-big-pharma-will-be-exempt-covid-19-vaccine-liability-claims)
+
+
 [Removed Slideshow Page](https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html)
 
 
