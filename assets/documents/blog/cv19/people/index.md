@@ -19,3 +19,5 @@
 1. [Linda Thompson](#pages/blog/cv19/people/linda-thompson)
 
 1. [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)
+
+1. [Eustace Mullins](@pages/blog/cv19/people/eustace-mullins)
