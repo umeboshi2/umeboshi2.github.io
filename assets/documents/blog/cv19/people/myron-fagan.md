@@ -57,3 +57,12 @@ Here is the
 
 
 
+[Another page on Myron Fagan](http://orbisvitae.com/myron-fagan/index.html#.Xy8b33WYXdo)
+
+[Another page on Myron Fagan](https://fightingmonarch.com/2018/09/15/myron-fagan-his-stand-against-globalism-the-illuminati-rothschild-scum/)
+
+[(PDF) Partial Transcript](https://fightingmonarch.files.wordpress.com/2018/09/myron_fagan-transcript.pdf)
+
+[(PDF) Another Transcript](https://highlander.com/wp-content/uploads/2019/03/Myron-Fagan-The-Illuminati-and-the-Council-on-Foreign-Relations-1.pdf)
+
+
