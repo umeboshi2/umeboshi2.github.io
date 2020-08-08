@@ -16,10 +16,11 @@
 
 1. [Bill Cooper](#pages/blog/cv19/people/bill-cooper)
 
+1. [Eustace Mullins](#pages/blog/cv19/people/eustace-mullins)
+
 1. [Linda Thompson](#pages/blog/cv19/people/linda-thompson)
+
+1. [Stanley Monteith](#pages/blog/cv19/people/stanley-monteith)
 
 1. [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)
 
-1. [Eustace Mullins](#pages/blog/cv19/people/eustace-mullins)
-
-1. [Stanley Monteith](#pages/blog/cv19/people/stanley-monteith)
