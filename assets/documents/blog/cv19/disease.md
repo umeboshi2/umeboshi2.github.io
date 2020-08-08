@@ -40,6 +40,10 @@ Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
 
 [Koch's postulates](https://en.wikipedia.org/wiki/Koch%27s_postulates)
 
+January 1937
+[Viruses and Koch's Postulates (PDF)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC545348/pdf/jbacter00773-0005.pdf)
+
+
 [Scientists Have Utterly Failed to Prove that the Coronavirus Fulfills Koch’s Postulates](https://off-guardian.org/2020/06/09/scientists-have-utterly-failed-to-prove-that-the-coronavirus-fulfills-kochs-postulates/)
 
 [The pathogenicity of SARS-CoV-2 in hACE2 transgenic mice](https://www.nature.com/articles/s41586-020-2312-y)
