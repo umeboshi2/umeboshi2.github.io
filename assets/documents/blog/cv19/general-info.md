@@ -40,6 +40,17 @@ buisiness partners encourage participation in a COVID action platform.
 
 NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
 
+[NextStrain](https://nextstrain.org/)
+
+[Trevor Bedford](https://bedford.io/team/trevor-bedford/)
+
+[sars-like-cov](https://github.com/blab/sars-like-cov)
+
+[sars-like-cov on nextstrain](https://nextstrain.org/groups/blab/sars-like-cov)
+
+[Novel 2019 coronavirus genome](https://virological.org/t/novel-2019-coronavirus-genome/319)
+
+
 # CDC Pages
 
 [Recent Studies Concerning Cloth Face Masks](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies)
@@ -65,6 +76,9 @@ Coronavirus Disease 2019 (COVID-19)"
 Jan 21, 2020
 [Notes from the Field: A Novel Coronavirus Genome Identified in a Cluster of Pneumonia Cases — Wuhan, China 2019−2020](http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e-4253b453d10c)
 
+Jan 24, 2020
+[Return of the Coronavirus: 2019-nCoV](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7077245/)
+
 Feb 17, 2020
 [Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/) Int J Antimicrob Agents. 2020 Mar; 55(3): 105924.
 Published online 2020 Feb 17. [(pubmed)](https://pubmed.ncbi.nlm.nih.gov/32081636/)
@@ -89,6 +103,9 @@ Mar 26, 2020
 
 April 1, 2020
 [Universal Masking in Hospitals in the Covid-19 Era](https://www.nejm.org/doi/full/10.1056/NEJMp2006372)
+
+May 8, 2020
+[The SARS-CoV-2, a new pandemic zoonosis that threatens the world](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7205683/)
 
 May 11, 2020
 [Melatonin Inhibits COVID-19-induced Cytokine Storm by Reversing Aerobic Glycolysis in Immune Cells: A Mechanistic Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7211589/)

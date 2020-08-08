@@ -60,6 +60,15 @@ Dr. Vladimir Zelenko is barely mentioned [here](https://en.wikipedia.org/wiki/CO
 
 ### Medical Papers
 
+October 23, 2003, Lancet Infectious Diseases
+[Effects of chloroquine on viral infections: an old drug against today's diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7128816/)
+
+January 24, 2006 Lancet Infectious Diseases
+[New insights into the antiviral effects of chloroquine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7129107/)
+
+December 4, 2012
+[Anti-malaria drug chloroquine is highly effective in treating avian influenza A H5N1 virus infection in an animal model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3567830/)
+
 Harvey A Risch
 American Journal of Epidemiology, kwaa093, https://doi.org/10.1093/aje/kwaa093
 Published: 27 May 2020
