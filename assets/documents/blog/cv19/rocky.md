@@ -179,3 +179,6 @@ https://www.youtube.com/watch?v=hIBPVKUl52g
 **David Rockefeller speaks about population control.**
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/ClqUcScwnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[NWO - Zitate von Rockefeller & Co. - Neue Weltordnung](https://archive.org/details/nwozitatevonrockefellerco.neueweltordnung)

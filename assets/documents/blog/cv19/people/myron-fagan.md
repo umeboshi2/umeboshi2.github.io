@@ -10,6 +10,17 @@
 
 # [Myron Fagan](https://en.wikipedia.org/wiki/Myron_Coureval_Fagan)
 
+
+"Between 1967 and 1968, Fagan recorded a set of three spoken-word LP records 
+titled The Illuminati and the Council on Foreign Relations. Produced by Anthony 
+Hilder, the records presented the Bavarian Illuminati, the Protocols of Zion, 
+and internationalist politics as faces of a single grand "Luciferian" 
+conspiracy directed by the Rothschild family. In 1968, he recorded another 
+three LP spoken voice recordings, also produced by Anthony Hilder, titled Red 
+Stars Over Hollywood." 
+[(Wikipedia)](https://en.wikipedia.org/wiki/Myron_Coureval_Fagan)
+
+
 **Myron Fagan exposes the Illuminati/CFR [1967]**
 
 This 3x LP record set documents the activities of a secret society known as 
@@ -65,4 +76,7 @@ Here is the
 
 [(PDF) Another Transcript](https://highlander.com/wp-content/uploads/2019/03/Myron-Fagan-The-Illuminati-and-the-Council-on-Foreign-Relations-1.pdf)
 
+[The Myron C. Fagan Files - Satanic Plot to Enslave the World - Audio, PDF](https://archive.org/details/themyronc.faganfiles-satanicplottoenslavetheworld-audiopdf)
+
+[Documentary Evidence The Astonishing Story Of MYRON C. FAGAN](https://archive.org/details/documentaryevidencetheastonishingstoryofmyronc.fagan)
 

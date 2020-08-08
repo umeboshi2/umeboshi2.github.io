@@ -36,3 +36,6 @@ Government with the USA.
 
 [The Dodd Report (PDF)](https://ia800304.us.archive.org/19/items/DoddReportToTheReeceCommitteeOnFoundations-1954-RobberBaron/Dodd-Report-to-the-Reece-Committee-on-Foundations-1954.pdf)
 
+
+[The Subversion of America by Tax Exempt Foundations - 1953 Investigation - The Reece Hearings](https://archive.org/details/TheSubversionOfAmericaByTaxExemptFoundations-1953Investigation-The)
+
