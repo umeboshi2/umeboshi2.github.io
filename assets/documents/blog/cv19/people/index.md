@@ -26,5 +26,5 @@
 
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
-
+[list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
 
