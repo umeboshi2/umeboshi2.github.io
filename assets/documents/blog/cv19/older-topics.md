@@ -17,6 +17,7 @@
     - [Linda Thompson](#linda-thompson)
       - [America Under Siege](#america-under-siege)
     - [Stanley Monteith](#stanley-monteith)
+    - [Michel Chossudovsky](#michel-chossudovsky)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -211,4 +212,8 @@ an Amtrak repair facility in Beech Grove, Indiana.
 [FEMA camps conspiracy theory](https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory)
 
 ### [Stanley Monteith](https://en.wikipedia.org/wiki/Stan_Monteith)
+
+### [Michel Chossudovsky](https://en.wikipedia.org/wiki/Michel_Chossudovsky)
+
+[Global Research Website](https://www.globalresearch.ca/)
 
