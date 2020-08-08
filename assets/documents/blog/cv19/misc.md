@@ -107,3 +107,7 @@ https://www.youtube.com/watch?v=GVh9NuNc4ck
 
 "Health officials say there is no returning to 'normal' until there is a 
 vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly effective is ‘not great’](https://www.cnbc.com/2020/08/07/coronavirus-vaccine-dr-fauci-says-chances-of-it-being-highly-effective-is-not-great.html)
+
+
+[Operation Dark Winter](https://en.wikipedia.org/wiki/Operation_Dark_Winter)
+
