@@ -28,3 +28,4 @@ https://archive.org/details/OAA_2019_-_Dr_Stanley_Monteith_Collection/05.+World+
 
 https://archive.org/details/OAA_2019_-_Dr_Stanley_Monteith_Collection/13.+The+Shadows+Of+Power+%26+Vaccines+(James+Perloff)+%5BBroadcast%5D.mp3#
 
+[The Occult Connection of Public Health Policies](https://www.prlog.org/10541293-the-occult-connection-of-public-health-policies.html)

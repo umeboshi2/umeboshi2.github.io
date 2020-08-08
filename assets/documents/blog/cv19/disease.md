@@ -23,6 +23,16 @@ a [testing](https://en.wikipedia.org/wiki/COVID-19_testing) page.
 
 ### Papers
 
+[Infectious Disease and Social Change (1971, PDF)](http://vaccinesafetycommission.org/pdfs/Kass%201971.pdf)
+
+[The Questionable Contribution of Medical Measures to the Decline of Mortality in the United States in the Twentieth Century (1977, PDF)](http://vaccinesafetycommission.org/pdfs/McKinlay%201977.pdf)
+
+[Annual Summary of Vital Statistics: Trends in the Health of Americans During the 20th Century (2000, PDF)](https://www.factchecker.gr/wp-content/uploads/2017/10/PediatricsDec.2000-VOl-106No.6.pdf) [(Alternate Link)](http://vaccinesafetycommission.org/pdfs/45-2000-Pediatrics-Vital-Statistics.pdf)
+
+
+
+
+
 [A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/)
 
 D Baltimore

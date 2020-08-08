@@ -122,7 +122,9 @@ Wikipedia has a page dedicated to a
 
 [Astrazeneca](#pages/blog/cv19/vx/astra)
 
+[The Impact of Vaccines on Mortality Decline Since 1900—According to Published Science](https://childrenshealthdefense.org/news/the-impact-of-vaccines-on-mortality-decline-since-1900-according-to-published-science/)
 
+[Measles: The New Red Scare](https://www.foreignpolicyjournal.com/2015/07/31/measles-the-new-red-scare/) [(PDF)]https://www.foreignpolicyjournal.com/wp-content/uploads/2015/07/150731-Bystrianyk-Measles.pdf)
 
 
 
