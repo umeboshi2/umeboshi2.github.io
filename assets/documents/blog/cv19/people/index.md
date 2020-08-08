@@ -17,3 +17,5 @@
 1. [Bill Cooper](#pages/blog/cv19/people/bill-cooper)
 
 1. [Linda Thompson](#pages/blog/cv19/people/linda-thompson)
+
+1. [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)
