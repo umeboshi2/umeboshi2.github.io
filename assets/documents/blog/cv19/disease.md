@@ -40,7 +40,7 @@ Microbiology and Molecular Biology Reviews Sep 1971, 35 (3) 235-241; DOI:
 
 [Koch's postulates](https://en.wikipedia.org/wiki/Koch%27s_postulates)
 
-January 1937
+January 1937, Journal of Bacteriology
 [Viruses and Koch's Postulates (PDF)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC545348/pdf/jbacter00773-0005.pdf)
 
 
