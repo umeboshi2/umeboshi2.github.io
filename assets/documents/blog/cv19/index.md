@@ -59,5 +59,7 @@ a global pandemic.
 
 1. [Miscellaneous](#pages/blog/cv19/misc)
 
+1. [People](#pages/blog/cv19/people/index)
+
 
 
