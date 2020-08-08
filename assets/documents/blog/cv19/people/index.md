@@ -9,3 +9,5 @@
 [Parent](#pages/blog/cv19/index)
 
 ### People
+
+1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
