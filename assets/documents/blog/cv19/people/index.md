@@ -15,3 +15,5 @@
 1. [G. E. Griffin](#pages/blog/cv19/people/griffin)
 
 1. [Bill Cooper](#pages/blog/cv19/people/bill-cooper)
+
+1. [Linda Thompson](#pages/blog/cv19/people/linda-thompson)
