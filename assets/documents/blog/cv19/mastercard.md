@@ -63,3 +63,4 @@ verification and payment systems to Developing countries throughout the world."
 
 [MasterCard And Europay Merge To Form a Global Payments Company](https://www.banktech.com/payments/mastercard-and-europay-merge-to-form-a-global-payments-company/d/d-id/1288945.html)
 
+[MasterCard Joins ID2020 Alliance](https://mastercardcontentexchange.com/newsroom/press-releases/2020/may/mastercard-joins-id2020-alliance/)

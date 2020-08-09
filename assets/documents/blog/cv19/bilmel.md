@@ -43,6 +43,7 @@ July 27, 2020
 
 [Three Weeks, Two Drug Trials: An update on the Therapeutics Accelerator with Trevor Mundel](https://www.gatesfoundation.org/TheOptimist/Articles/coronavirus-interview-trevor-mundel-drug-trials)
 
+[Bill Gates AMA on Reddit](https://www.reddit.com/r/Coronavirus/comments/fksnbf/im_bill_gates_cochair_of_the_bill_melinda_gates/)
 
 ### COVID-19 Therapeutics Accelerator
 
