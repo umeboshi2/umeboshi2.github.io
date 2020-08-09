@@ -64,7 +64,7 @@ class Controller extends MainController
     completed = completed ^ 0
   viewIndex: ->
     #@setupLayoutIfNeeded()
-    @viewPage 'intro'
+    @viewPage 'blog/cv19/index'
     return
 
   themeSwitcher: ->
