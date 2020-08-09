@@ -24,6 +24,8 @@
 
 1. [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)
 
+1. [David Icke](#pages/blog/cv19/people/david-icke)
+
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
