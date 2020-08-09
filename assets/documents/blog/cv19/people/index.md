@@ -26,7 +26,12 @@
 
 1. [David Icke](#pages/blog/cv19/people/david-icke)
 
+1. [Jim Keith](https://en.wikipedia.org/wiki/Jim_Keith)
+
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
+[Top 40 list](https://exemplore.com/legends/List-of-Top-Conspiracy-Theorists)
 
+
+[Proofs of a Conspiracy (1798, PDF)](https://archive.org/download/proofsofaconspiracy/PROOFS_OF_A_CONSPIRACY_John_Robison.pdf)
