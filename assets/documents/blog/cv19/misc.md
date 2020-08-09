@@ -116,6 +116,12 @@ vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly eff
 [mighty wurlitzer](https://archive.org/search.php?query=subject%3A%22mighty+wurlitzer%22)
 
 [Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination](https://stm.sciencemag.org/content/11/523/eaay7162)
+[(PubMed)](https://pubmed.ncbi.nlm.nih.gov/31852802/)
+
+[Quantum Dots Deliver Vaccines and Invisibly Encode Vaccination History in Skin](https://www.genengnews.com/topics/drug-discovery/quantum-dots-deliver-vaccines-and-invisibly-encode-vaccination-history-in-skin/)
+
+[Quantum-dot tattoos hold vaccination record](https://news.rice.edu/2019/12/18/quantum-dot-tattoos-hold-vaccination-record/)
+
 
 
 
