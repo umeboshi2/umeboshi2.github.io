@@ -2,15 +2,16 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **[Home](#pages/blog/cv19/index)**
 
-- [Mastercard](#mastercard)
+- [MasterCard](#mastercard)
   - [World Beyond Cash](#world-beyond-cash)
   - [COVID-19 Assistance](#covid-19-assistance)
+  - [Articles](#articles)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 [Parent](#pages/blog/cv19/artificial)
 
-# [Mastercard](https://en.wikipedia.org/wiki/MasterCard)
+# [MasterCard](https://en.wikipedia.org/wiki/MasterCard)
 
 
 
@@ -54,3 +55,11 @@ wellness program was adapted in response to the COVID-19 crisis and now
 Mastercard is working with TrustStamp and GAVI to bring integrated vaccine 
 verification and payment systems to Developing countries throughout the world."
 [(Wikipedia)](https://en.wikipedia.org/wiki/MasterCard)
+
+
+## Articles
+
+[Trust Stamp integrating biometric hash solution with Mastercard on children’s vaccine record system](https://www.biometricupdate.com/202007/trust-stamp-integrating-biometric-hash-solution-with-mastercard-on-childrens-vaccine-record-system)
+
+[MasterCard And Europay Merge To Form a Global Payments Company](https://www.banktech.com/payments/mastercard-and-europay-merge-to-form-a-global-payments-company/d/d-id/1288945.html)
+
