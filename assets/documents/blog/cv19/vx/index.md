@@ -127,10 +127,12 @@ Wikipedia has a page dedicated to a
 [Measles: The New Red Scare](https://www.foreignpolicyjournal.com/2015/07/31/measles-the-new-red-scare/) [(PDF)]https://www.foreignpolicyjournal.com/wp-content/uploads/2015/07/150731-Bystrianyk-Measles.pdf)
 
 
+**60 Minutes Mike Wallace Exposes the 1976 Swine Flu Pandemic Vaccine Injuries**
 
+The Sunday, November 4, 1979 broadcast from the CBS investigative news program 60 Minutes on government propaganda around the 1976 swine flu scare.
 
+Only one person was killed by the actual flu, while hundreds filed claims of death of their loved ones from the massive vaccine campaign which was mounted.  The US Government knew of the potential for damage before the vaccine was given, and failed to tell the public.  Their propaganda campaign included claims that many famous people, including Henry Kissinger and Mary Tyler Moore, had taken the vaccine.  Ms. Moore tells CBS that she refused the shot.
 
+https://www.youtube.com/watch?v=fhiyML3zwkk
 
-
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/67LMv17Kaic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/fhiyML3zwkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
