@@ -182,3 +182,7 @@ https://www.youtube.com/watch?v=hIBPVKUl52g
 
 
 [NWO - Zitate von Rockefeller & Co. - Neue Weltordnung](https://archive.org/details/nwozitatevonrockefellerco.neueweltordnung)
+
+
+
+https://www.corbettreport.com/episode-241-the-truth-about-the-gene-revolution/
