@@ -10,7 +10,8 @@ if not __useCssModules__
   if __DEV__
     require '../../node_modules/tbirds/sass/dark.scss'
   else
-    require '../../node_modules/tbirds/sass/cornsilk-purple.scss'
+    # require '../../node_modules/tbirds/sass/cornsilk-purple.scss'
+    require '../../node_modules/tbirds/sass/dark.scss'
 else
   require '../../node_modules/tbirds/sass/initial.scss'
 
