@@ -20,9 +20,6 @@ config.navbarEntries = [
   },{
     label: "tvmaze"
     url: "#tvmaze"
-  },{
-    label: "hubby"
-    url: "#hubby"
   }
   #misc_menu
   ]
