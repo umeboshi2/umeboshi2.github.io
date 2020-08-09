@@ -79,9 +79,9 @@ Funds are being "matched by the
 **Mid-term review 2018 - Michael Froman and Seth Berkley**
 
 "Live from Abu Dhabi, UAE, we hear from Michael Froman, Vice Chairman and 
-President of MasterCard's Strategic Growth, and Dr Seth Berkley, CEO of Gavi, 
-the Vaccine Alliance discussing why innovation in digital ID is key to Gavi’s 
-mission."
+President of [MasterCard](#pages/blog/cv19/mastercard)'s Strategic Growth, 
+and Dr Seth Berkley, CEO of Gavi, the Vaccine Alliance discussing why 
+innovation in [digital ID](#pages/blog/cv19/id2020) is key to Gavi’s mission."
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/-aBE4JpHzVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
