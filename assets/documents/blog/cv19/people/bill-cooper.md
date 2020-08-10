@@ -15,8 +15,6 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Milton_William_Cooper.png"/>
 
 
-[Behold A Pale Horse - William (Bill) Cooper (Full Lecture)](https://www.youtube.com/watch?v=pE3nOrDEOzQ)
-
 ## Behold A Pale Horse - William (Bill) Cooper (Full Lecture)
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/pE3nOrDEOzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
