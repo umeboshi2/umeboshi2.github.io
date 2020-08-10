@@ -10,5 +10,7 @@
 
 # [Michel Chossudovsky](https://en.wikipedia.org/wiki/Michel_Chossudovsky)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Michel_Chossudovsky_En_direct_d%27Alep.jpg"/>
+
 [Global Research Website](https://www.globalresearch.ca/)
 
