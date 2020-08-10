@@ -25,6 +25,21 @@
 [Developing A Programmable, Self-Assembling Squash Leaf Curl China Virus (SLCCNV) Capsid Proteins Into “Nano-Cargo”-Like Architecture: A Next-Generation “Nanotool” For Biomedical Applications](https://www.biorxiv.org/content/10.1101/338269v1) [{Full Article}](https://www.biorxiv.org/content/10.1101/338269v1.full)
 
 
+[Nanobiotechnology approach using plant rooting hormone synthesized silver nanoparticle as “nanobullets” for the dynamic applications in horticulture – An in vitro and ex vitro study](https://www.sciencedirect.com/science/article/pii/S1878535216301666)
+
+
+[Fabrication of virus metal hybrid nanomaterials: An ideal reference for bio semiconductor](https://www.sciencedirect.com/science/article/pii/S1878535218301540?via%3Dihub)
+
+
+
+May 2009 (Subscriber only)
+[Fabricating Genetically Engineered High-Power Lithium-Ion Batteries Using Multiple Virus Genes](https://science.sciencemag.org/content/324/5930/1051)
+
+
+Raja Muthuramalingam Thangavelu on [Google Scholar](https://scholar.google.com/scholar?q=Raja+Muthuramalingam+Thangavelu+) [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56979919300)
+
+
+
 ## Genome Data 
 
 NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
