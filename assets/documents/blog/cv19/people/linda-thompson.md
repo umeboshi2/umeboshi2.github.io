@@ -11,6 +11,8 @@
 
 # [Linda Thompson](https://en.wikipedia.org/wiki/Linda_Thompson_(attorney))
 
+<img src="https://upload.wikimedia.org/wikipedia/en/7/70/Linda-SM2.jpg"/>
+
 Linda Thompson "was an American lawyer and militia movement supporter. In 1993, 
 she quit her job as a lawyer in Indianapolis, Indiana to start the American 
 Justice Federation,[3] a non-profit group that promoted pro-gun causes 
