@@ -9,3 +9,5 @@
 [Parent](#pages/blog/cv19/people/index)
 
 # [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg"/>

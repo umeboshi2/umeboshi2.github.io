@@ -10,6 +10,8 @@
 
 # [Klaus Schwab](https://en.wikipedia.org/wiki/Klaus_Schwab)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Klaus_Schwab_WEF_2008_%28cropped%29.jpg"/>
+
 "Klaus Martin Schwab (born 30 March 1938) is a German engineer and 
 economist best known as the founder and executive chairman of the 
 [World Economic Forum](#pages/blog/cv19/wef)."
