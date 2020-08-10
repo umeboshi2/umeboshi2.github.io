@@ -12,6 +12,9 @@
 
 # [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/G._Edward_Griffin.jpg"/>
+
+
 G Edward Griffin "is an American author, filmmaker, and conspiracy theorist. 
 Griffin's writings promote a number of views and conspiracy theories regarding 
 various of his political, defense and health care interests."
