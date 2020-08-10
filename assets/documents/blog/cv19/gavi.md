@@ -60,6 +60,9 @@ prioritise vaccine product innovations and to drive these innovations forward."
 
 ### News Articles about GAVI
 
+26-27 January 2015
+[Gavi pledging conference January 2015](https://www.gavi.org/investing-gavi/resource-mobilisation-process/gavi-pledging-conference-january-2015)
+
 June 3, 2020
 [Private sector partners strengthen Gavi programmes with more than US$ 70 million in contributions](https://www.gavi.org/news/media-room/private-sector-partners-strengthen-gavi-programmes-more-us-70-million-contributions)
 

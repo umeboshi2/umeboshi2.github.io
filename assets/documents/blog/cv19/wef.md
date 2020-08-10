@@ -152,6 +152,12 @@ the physical, digital and biological worlds, impacting all disciplines,
 economies and industries, and even challenging ideas about what it means to be 
 human."
 
+To meet the challenges of the fourth revolution, the World Economies Forum 
+updated their [manifesto](https://www.weforum.org/the-davos-manifesto)
+
+[Davos Manifesto 2020: The Universal Purpose of a Company in the Fourth Industrial Revolution](https://www.weforum.org/agenda/2019/12/davos-manifesto-2020-the-universal-purpose-of-a-company-in-the-fourth-industrial-revolution/)
+
+
 #### The Great Reset | Launch session 3 June 2020
 
 "The Great Reset” will be the theme of a unique twin summit to be convened by 
