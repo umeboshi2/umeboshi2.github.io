@@ -23,6 +23,8 @@
    
    1. [The Rockefeller Foundation](#pages/blog/cv19/rocky)
    
+   1. [Microsoft](#pages/blog/cv19/microsoft)
+   
    1. [Mastercard](#pages/blog/cv19/mastercard)
    
 1. [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel)
