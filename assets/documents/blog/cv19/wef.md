@@ -120,9 +120,10 @@ In this video, speakers explore "[t]he possibility of a trusted  *global
 digital currency* [which] has sparked political, economic and regulatory 
 discussions worldwide."
 
-[6 ways the COVID-19 pandemic could change our approach to human capital](https://www.weforum.org/agenda/2020/08/6-ways-covid-19-will-advance-human-capital-strategies-and-governance)
+[Digital Currency](https://en.wikipedia.org/wiki/Digital_currency)
 
-[Human Capital](https://en.wikipedia.org/wiki/Human_capital)
+[WEF’s Sheila Warren: which digital currency use cases can help financial inclusion?](https://ledgerinsights.com/digital-currency-financial-inclusion-world-economic-forum-wef/)
+
 
 #### What is the Fourth Industrial Revolution?
 
@@ -171,4 +172,8 @@ https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-pro
 
 March 26, 2020
 [Known Traveller Digital Identity Specifications Guidance](https://www.weforum.org/whitepapers/known-traveller-digital-identity-specifications-guidance)
+
+[6 ways the COVID-19 pandemic could change our approach to human capital](https://www.weforum.org/agenda/2020/08/6-ways-covid-19-will-advance-human-capital-strategies-and-governance)
+
+[Human Capital](https://en.wikipedia.org/wiki/Human_capital)
 
