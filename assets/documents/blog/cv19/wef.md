@@ -59,12 +59,20 @@ July 20, 2020
 [What COVID-19 taught 10 startups about pivoting, problem solving and tackling the unknown](https://www.weforum.org/covid-action-platform/articles/what-covid-19-taught-10-startups-about-pivoting-problem-solving-and-tackling-the-unknown)
 
 [Here are 3 ways to close digital gaps and kickstart recovery](https://www.weforum.org/agenda/2020/07/here-are-3-ways-to-close-digital-gaps-and-kickstart-recovery)
+George Soros at Davos, Switzerland, January 25, 2018
+[Remarks delivered at the World Economic Forum](https://www.georgesoros.com/2018/01/25/remarks-delivered-at-the-world-economic-forum/)
+
 
 ### The Great Reset
+
+[Now is the time for a 'great reset'](https://www.weforum.org/agenda/2020/06/now-is-the-time-for-a-great-reset/)
+
+
 
 [Official Video](https://www.weforum.org/great-reset)
 
 [Transformation Map](https://intelligence.weforum.org/topics/a1G0X000006OLciUAG?tab=publications)
+
 
 #### [About](https://www.weforum.org/great-reset/about)
 The Great Reset: A Unique Twin Summit to Begin 2021
