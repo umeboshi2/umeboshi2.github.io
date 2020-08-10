@@ -10,6 +10,7 @@
 
 # [Stanley Monteith](https://en.wikipedia.org/wiki/Stan_Monteith)
 
+<img src="http://www.grazingsheep.com/current/2014/Stanley-Monteith-1929-2014.jpg"/>
 
 [Population Control Agenda Stanley Monteith](https://archive.org/details/PopulationControlAgenda_201805)
 
