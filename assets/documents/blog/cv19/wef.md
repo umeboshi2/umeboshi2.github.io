@@ -120,7 +120,7 @@ In this video, speakers explore "[t]he possibility of a trusted  *global
 digital currency* [which] has sparked political, economic and regulatory 
 discussions worldwide."
 
-[Digital Currency](https://en.wikipedia.org/wiki/Digital_currency)
+[Digital Currency](#pages/blog/cv19/digital-currency)
 
 [WEF’s Sheila Warren: which digital currency use cases can help financial inclusion?](https://ledgerinsights.com/digital-currency-financial-inclusion-world-economic-forum-wef/)
 
