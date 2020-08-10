@@ -65,6 +65,8 @@ George Soros at Davos, Switzerland, January 25, 2018
 
 ### The Great Reset
 
+Initial idea from [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab)
+
 [Now is the time for a 'great reset'](https://www.weforum.org/agenda/2020/06/now-is-the-time-for-a-great-reset/)
 
 
