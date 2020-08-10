@@ -28,6 +28,10 @@
 
 1. [Jim Keith](https://en.wikipedia.org/wiki/Jim_Keith)
 
+1. [Bill Gates](#pages/blog/cv19/people/bill-gates)
+
+1. [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab)
+
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
