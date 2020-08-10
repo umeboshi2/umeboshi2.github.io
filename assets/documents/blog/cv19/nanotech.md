@@ -3,6 +3,7 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [Virus Nanotechnology](#virus-nanotechnology)
+  - [Papers and Articles](#papers-and-articles)
   - [Genome Data](#genome-data)
 - [Articles](#articles)
 
@@ -13,6 +14,15 @@
 # Virus Nanotechnology
 
 [Virus Nanotechnology on Wikipedia](https://en.wikipedia.org/wiki/Virus_nanotechnology)
+
+
+## Papers and Articles
+
+[Design of virus-based nanomaterials for medicine, biotechnology, and energy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/)
+
+[Viral nanoparticles as platforms for next-generation therapeutics and imaging devices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2948632/)
+
+[Developing A Programmable, Self-Assembling Squash Leaf Curl China Virus (SLCCNV) Capsid Proteins Into “Nano-Cargo”-Like Architecture: A Next-Generation “Nanotool” For Biomedical Applications](https://www.biorxiv.org/content/10.1101/338269v1) [{Full Article}](https://www.biorxiv.org/content/10.1101/338269v1.full)
 
 
 ## Genome Data 
