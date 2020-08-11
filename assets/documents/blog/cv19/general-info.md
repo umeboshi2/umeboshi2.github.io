@@ -36,20 +36,9 @@ even exist unless they are published here first.
 [Mask Up HBurg](http://maskuphburg.com/index.html) is a local site where 
 buisiness partners encourage participation in a COVID action platform.
 
-# Genome Data 
+# [Genome Data](#pages/blog/cv19/genome-data)
 
-NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
-
-[NextStrain](https://nextstrain.org/)
-
-[Trevor Bedford](https://bedford.io/team/trevor-bedford/)
-
-[sars-like-cov](https://github.com/blab/sars-like-cov)
-
-[sars-like-cov on nextstrain](https://nextstrain.org/groups/blab/sars-like-cov)
-
-[Novel 2019 coronavirus genome](https://virological.org/t/novel-2019-coronavirus-genome/319)
-
+Links for the genome data are [here](#pages/blog/cv19/genome-data).
 
 # CDC Pages
 
@@ -66,6 +55,9 @@ for Collecting, Handling, and Testing Clinical Specimens from Persons for
 Coronavirus Disease 2019 (COVID-19)"
 
 [Weekly Counts of Deaths by State and Select Causes, 2019-2020](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muzy-jte6)
+
+[United States COVID-19 Cases and Deaths by State](https://www.cdc.gov/covid-data-tracker/#cases)
+
 
 # Other Articles
 

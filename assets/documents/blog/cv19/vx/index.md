@@ -61,6 +61,11 @@ The links below are taken from [here](https://www.corbettreport.com/mybody/).
 
 [Reducing SARS‐CoV‐2 transmission in the UK: A behavioural science approach to identifying options for increasing adherence to social distancing and shielding vulnerable people](https://onlinelibrary.wiley.com/doi/full/10.1111/bjhp.12428)
 
+[State Bar Association’s Health Law Section Report Calls for Mandatory COVID-19 Vaccination, Standards for Allocating Ventilators and Personal Protective Equipment](https://nysba.org/state-bar-associations-health-law-section-report-calls-for-mandatory-covid-19-vaccination-standards-for-allocating-ventilators-and-personal-protective-equipment/)
+
+
+
+
 https://www.facebook.com/HighWireTalk/videos/291320525305679/
 
 #### Video
