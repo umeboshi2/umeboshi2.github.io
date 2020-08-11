@@ -29,7 +29,7 @@ opinion piece in the Wall Street Journal titled ["Act Now to Prevent an American
 
 [Gilman Louie](https://en.wikipedia.org/wiki/Gilman_Louie)
 
-[Tara O'Toole](https://en.wikipedia.org/wiki/Tara_O%27Toole) was a 
+[Tara O'Toole](#pages/blog/cv19/people/tara-otoole) was a 
 former director for the [Center for Health Security](#pages/blog/cv19/jhchs). 
 Her profile is also avaiable 
 [there](https://www.centerforhealthsecurity.org/our-people/otoole/)

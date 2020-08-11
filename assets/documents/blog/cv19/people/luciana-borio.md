@@ -18,9 +18,9 @@ Human Services as an advisor on biodefense programs (2001 to 2008), where
 she implemented and managed mathematical modeling projects to assess the 
 health effects of bioterrorism on civilians and to inform medical 
 countermeasures procurement activities for the Office of Preparedness 
-and Response."
-
-
-
+and Response."  On January 28, 2020, she wrote an opinion piece in the 
+Wall Street Journal titled 
+["Act Now to Prevent an American Epidemic"](https://www.wsj.com/articles/act-now-to-prevent-an-american-epidemic-11580255335).  She gave an 
+[interview on NPR](https://www.npr.org/2020/01/30/801118571/expert-says-there-is-time-to-prevent-a-u-s-coronavirus-epidemic) on January 30, 2020.
 
 
