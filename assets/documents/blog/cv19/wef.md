@@ -193,3 +193,20 @@ March 26, 2020
 
 [Human Capital](https://en.wikipedia.org/wiki/Human_capital)
 
+
+**Will the Future Be Human? - Yuval Noah Harari**
+
+What can we learn from a history of the future? Historian Yuval Harari takes 
+us on a journey through technological development and challenges leaders to 
+develop a substantive vision of what it means for society, politics, religion 
+and ideology.
+
+Introduced by
+	Gillian R. Tett, Managing Editor, US, Financial Times, USA
+
+With
+	Yuval Noah Harari, Professor, Department of History, Hebrew University of 
+	Jerusalem, Israel
+
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/hL9uk4hKyg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
