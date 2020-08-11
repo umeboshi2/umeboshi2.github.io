@@ -24,5 +24,9 @@
    [EOC Training Exercise (12hr) - Crimson Contagion PanFlu Functional Exercise (FE) - August 12-16, 2019 (Recurring Program)](https://tceols.cdc.gov/Course/Detail2/7218?previousPage=search)
 
 1. [Operation Dark Winter](https://en.wikipedia.org/wiki/Operation_Dark_Winter)
-
+   "Operation Dark Winter was the code name for a senior-level bio-terrorist 
+   attack simulation conducted from June 22–23, 2001.It was designed to carry 
+   out a mock version of a covert and widespread smallpox attack on the 
+   United States."
+   
 

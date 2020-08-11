@@ -34,6 +34,9 @@
 
 1. [Luciana Borio](#pages/blog/cv19/people/luciana-borio)
 
+1. [Tara O'Toole](#pages/blog/cv19/people/tara-otoole)
+
+
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
 [Top 40 list](https://exemplore.com/legends/List-of-Top-Conspiracy-Theorists)
