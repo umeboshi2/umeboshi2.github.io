@@ -16,7 +16,9 @@
 
 ## [Event 201](https://www.centerforhealthsecurity.org/event201/)
 
-"The Event 201 pandemic tabletop exercise [was] hosted by The Johns Hopkins 
+"The Event 201 pandemic tabletop 
+[exercise](#pages/blog/cv19/biodefense-exercises)
+[was] hosted by The Johns Hopkins 
 Center for Health Security in partnership with the 
 [World Economic Forum](#pages/blog/cv19/wef) and 
 the [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel) on 
