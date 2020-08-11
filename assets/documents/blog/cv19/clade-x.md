@@ -17,8 +17,10 @@
 
 ## [Clade X](https://www.centerforhealthsecurity.org/our-work/events/2018_clade_x_exercise/index.html)
 
-"Clade X is a day-long pandemic tabletop exercise hosted by the Johns Hopkins 
-Center for Health Security on May 15, 2018, in Washington, DC. The exercise 
+"Clade X is a day-long pandemic tabletop 
+[exercise](#pages/blog/cv19/biodefense-exercises)
+hosted by the [Johns Hopkins Center for Health Security](#pages/blog/cv19/jhchs)
+on May 15, 2018, in Washington, DC. The exercise 
 simulates a series of National Security Council-convened meetings of 10 US 
 government leaders, played by individuals prominent in the fields of national 
 security or epidemic response.
