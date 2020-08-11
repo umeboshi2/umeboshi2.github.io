@@ -23,4 +23,6 @@
    Crimson Contagion training listed on CDC website:
    [EOC Training Exercise (12hr) - Crimson Contagion PanFlu Functional Exercise (FE) - August 12-16, 2019 (Recurring Program)](https://tceols.cdc.gov/Course/Detail2/7218?previousPage=search)
 
+1. [Operation Dark Winter](https://en.wikipedia.org/wiki/Operation_Dark_Winter)
+
 

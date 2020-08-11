@@ -96,7 +96,7 @@ This symposium focused on the future of U.S. biosecurity policy."
 
 ### Related Links
 
-[Luciana Borio](https://en.wikipedia.org/wiki/Luciana_Borio) "was senior 
+[Luciana Borio](#pages/blog/cv19/people/luciana-borio) "was senior 
 associate at the UPMC Center for Health Security and assistant professor of 
 medicine at the University of Pittsburgh (2003-2008). Borio served at the 
 United States Department of Health and Human Services as an advisor on 
