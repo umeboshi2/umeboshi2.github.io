@@ -15,3 +15,12 @@
 1. [Event 201](#pages/blog/cv19/event-201)
 
 1. [Atlantic Storm](https://en.wikipedia.org/wiki/Atlantic_Storm)
+
+`. [Crimson Contagion](https://en.wikipedia.org/wiki/Crimson_Contagion)
+
+   [Crimson Contagion Key Findings (pdf)](https://int.nyt.com/data/documenthelper/6824-2019-10-key-findings-and-after/05bd797500ea55be0724/optimized/full.pdf)
+
+   Crimson Contagion training listed on CDC website:
+   [EOC Training Exercise (12hr) - Crimson Contagion PanFlu Functional Exercise (FE) - August 12-16, 2019 (Recurring Program)](https://tceols.cdc.gov/Course/Detail2/7218?previousPage=search)
+
+
