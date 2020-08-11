@@ -48,6 +48,8 @@ a global pandemic.
    the United States and China compete in a race to develop an artificial
    intelligence infrastructure.
 
+1. [Biodefense Exercises](#pages/blog/cv19/biodefense-exercises)
+
 1. [Wikipedia's Misinformation Collection](#pages/blog/cv19/bad-info)
 
 
