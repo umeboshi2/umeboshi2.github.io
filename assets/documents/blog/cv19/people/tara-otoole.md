@@ -10,7 +10,7 @@
 
 # [Tara O'Toole](https://en.wikipedia.org/wiki/Tara_O%27Toole)
 
-Tara O'Toole](https://en.wikipedia.org/wiki/Tara_O%27Toole) "served as the 
+[Tara O'Toole](https://en.wikipedia.org/wiki/Tara_O%27Toole) "served as the 
 Under Secretary of Homeland Security for Science and Technology from 2009 to 
 2013. She is currently a senior fellow and executive vice president at 
 [In-Q-Tel](#pages/blog/cv19/nqtel)."
