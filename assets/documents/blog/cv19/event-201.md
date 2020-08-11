@@ -18,8 +18,8 @@
 
 "The Event 201 pandemic tabletop 
 [exercise](#pages/blog/cv19/biodefense-exercises)
-[was] hosted by The Johns Hopkins 
-Center for Health Security in partnership with the 
+[was] hosted by The [Johns Hopkins 
+Center for Health Security](#pages/blog/cv19/jhchs) in partnership with the 
 [World Economic Forum](#pages/blog/cv19/wef) and 
 the [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel) on 
 October 18, 2019, in New York, NY.  The exercise illustrated the pandemic 
