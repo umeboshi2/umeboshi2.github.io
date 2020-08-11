@@ -10,6 +10,17 @@
 
 # [Luciana Borio](https://en.wikipedia.org/wiki/Luciana_Borio)
 
+[Luciana Borio](https://en.wikipedia.org/wiki/Luciana_Borio) "is an American 
+physician and medical/public health administrator. She is a vice president 
+at [In-Q-Tel](#pages/blog/cv19/nqtel). She previously served as Director for 
+Medical and Biodefense Preparedness at the National Security Council, Acting 
+Chief Scientist of the U.S. Food and Drug Administration (FDA), Assistant 
+Commissioner for Counterterrorism Policy of the FDA, and Director of FDA's 
+Office of Counterterrorism and Emerging Threats.  She is known for her work 
+advancing clinical trials, the development of medical countermeasures for 
+health emergencies, and the public health responses to Ebola and Zika 
+outbreaks."
+
 [Luciana Borio](https://en.wikipedia.org/wiki/Luciana_Borio) "was senior 
 associate at the [UPMC Center for Health Security](#pages/blog/cv19/jhchs)
 and assistant professor of medicine at the University of Pittsburgh 
