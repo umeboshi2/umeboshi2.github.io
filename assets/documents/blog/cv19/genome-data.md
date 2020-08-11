@@ -10,7 +10,7 @@
 
 # Genome Data 
 
-NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/)
+NCBI announces that the [novel coronavirus complete genome from the Wuhan outbreak now available in GenBank](https://ncbiinsights.ncbi.nlm.nih.gov/2020/01/13/novel-coronavirus/).  You can download copies [here](https://www.ncbi.nlm.nih.gov/sars-cov-2/).
 
 [NextStrain](https://nextstrain.org/)
 
@@ -21,3 +21,5 @@ NCBI announces that the [novel coronavirus complete genome from the Wuhan outbre
 [sars-like-cov on nextstrain](https://nextstrain.org/groups/blab/sars-like-cov)
 
 [Novel 2019 coronavirus genome](https://virological.org/t/novel-2019-coronavirus-genome/319)
+
+[Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3?report=genbank)
