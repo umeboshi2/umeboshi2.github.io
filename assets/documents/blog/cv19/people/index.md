@@ -32,6 +32,7 @@
 
 1. [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab)
 
+1. [Luciana Borio](#pages/blog/cv19/people/luciana-borio)
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
