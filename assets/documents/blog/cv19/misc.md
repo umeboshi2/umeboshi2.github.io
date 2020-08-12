@@ -118,3 +118,5 @@ vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly eff
 
 https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
 
+
+https://www.facebook.com/CityofHattiesburg/posts/3188932427843003
