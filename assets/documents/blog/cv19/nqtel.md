@@ -15,30 +15,16 @@ companies for the sole purpose of keeping the Central Intelligence Agency, and
 other intelligence agencies, equipped with the latest in information technology 
 in support of United States intelligence capability."
 
-[Luciana Borio](#pages/blog/cv19/people/luciana-borio) "was senior 
-associate at the UPMC Center for Health Security and assistant professor of 
-medicine at the University of Pittsburgh (2003-2008). Borio served at the 
-United States Department of Health and Human Services as an advisor on 
-biodefense programs (2001 to 2008), where she implemented and managed 
-mathematical modeling projects to assess the health effects of bioterrorism on 
-civilians and to inform medical countermeasures procurement activities for the 
-Office of Preparedness and Response." On January 28, 2020, she wrote an 
-opinion piece in the Wall Street Journal titled ["Act Now to Prevent an American Epidemic"](https://www.wsj.com/articles/act-now-to-prevent-an-american-epidemic-11580255335).  She gave an 
-[interview on NPR](https://www.npr.org/2020/01/30/801118571/expert-says-there-is-time-to-prevent-a-u-s-coronavirus-epidemic) on January 30, 2020.
-
+[Luciana Borio](#pages/blog/cv19/people/luciana-borio) 
+is the current vice president at In-Q-Tel.
 
 [Gilman Louie](https://en.wikipedia.org/wiki/Gilman_Louie)
+"was the first CEO of In-Q-Tel, a non-profit company created to help enhance 
+national security by connecting the United States Intelligence Community with 
+venture-backed entrepreneurial companies and making venture capital style 
+investments in new technologies."
 
 [Tara O'Toole](#pages/blog/cv19/people/tara-otoole) was a 
 former director for the [Center for Health Security](#pages/blog/cv19/jhchs). 
 Her profile is also avaiable 
 [there](https://www.centerforhealthsecurity.org/our-people/otoole/)
-
-
-BIOSECURITY AND BIOTERRORISM: BIODEFENSE STRATEGY, PRACTICE, AND SCIENCE
-Volume 4, Number 4, 2006
-© Mary Ann Liebert, Inc.
-Disease Mitigation Measures in the Control
-of Pandemic Influenza
-THOMAS V. INGLESBY, JENNIFER B. NUZZO, TARA O’TOOLE, and D. A. HENDERSON
-[(PDF)](https://www.aier.org/wp-content/uploads/2020/05/10.1.1.552.1109.pdf)
