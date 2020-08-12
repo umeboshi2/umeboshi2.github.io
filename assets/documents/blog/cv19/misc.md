@@ -112,6 +112,13 @@ vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly eff
 
 [Quantum-dot tattoos hold vaccination record](https://news.rice.edu/2019/12/18/quantum-dot-tattoos-hold-vaccination-record/)
 
+"The work was funded by the 
+[Bill & Melinda Gates Foundation](#pages/blog/cv19/bilmel)
+and came about because of a direct request from Microsoft founder and 
+philanthropist [Bill Gates](#pages/blog/cv19/people/bill-gates)
+himself, who has been supporting efforts to wipe out diseases such as polio 
+and measles across the world, Jaklenec says. “If we don’t have good data, it’s 
+really difficult to eradicate disease,” she says."
 [Invisible Ink Could Reveal whether Kids Have Been Vaccinated](https://www.scientificamerican.com/article/invisible-ink-could-reveal-whether-kids-have-been-vaccinated/)
 
 
