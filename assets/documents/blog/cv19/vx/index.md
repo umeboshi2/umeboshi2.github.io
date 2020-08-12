@@ -155,3 +155,17 @@ Wikipedia has a page dedicated to a
 [Measles: The New Red Scare](https://www.foreignpolicyjournal.com/2015/07/31/measles-the-new-red-scare/) [(PDF)](https://www.foreignpolicyjournal.com/wp-content/uploads/2015/07/150731-Bystrianyk-Measles.pdf)
 
 
+
+[Doctors lay out plan to ‘punish’ people who refuse coronavirus vaccine: ‘There is no alternative’](https://www.lifesitenews.com/news/doctors-lay-out-plan-to-punish-people-who-refuse-coronavirus-vaccine-there-is-no-alternative)
+
+August 6, 2020, USA Today
+["Make vaccines free, don't allow religious or personal objections, and punish those who won't be vaccinated. They are threatening the lives of others."](https://web.archive.org/web/20200806173738if_/https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/)
+
+
+August 10, 2020, USA Today
+["Make vaccines free, don't allow religious or personal objections, and create disincentives for those who refuse vaccines shown to be safe and effective."](https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/)
+
+
+
+
+

@@ -112,6 +112,7 @@ vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly eff
 
 [Quantum-dot tattoos hold vaccination record](https://news.rice.edu/2019/12/18/quantum-dot-tattoos-hold-vaccination-record/)
 
+[Invisible Ink Could Reveal whether Kids Have Been Vaccinated](https://www.scientificamerican.com/article/invisible-ink-could-reveal-whether-kids-have-been-vaccinated/)
 
 
 

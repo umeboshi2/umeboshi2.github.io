@@ -21,3 +21,9 @@ June 20, 2020, Wall Street Journal (archived copy)
 
 
 [This Is #TheGreatReset. You Have Been Warned. #NewWorldNextWeek](https://www.youtube.com/watch?v=8lh-HGcXE1Q)
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/QQxcuHF_QEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/EnF1PIHCYsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
