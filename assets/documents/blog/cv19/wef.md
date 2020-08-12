@@ -14,6 +14,7 @@
     - [The Great Reset | Launch session 3 June 2020](#the-great-reset--launch-session-3-june-2020)
     - [Family Business: Relic or Role Model? | DAVOS 2020](#family-business-relic-or-role-model--davos-2020)
   - [AI and Government](#ai-and-government)
+  - [More Stuff](#more-stuff)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -165,4 +166,9 @@ practice?"
 
 https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-procurement-standards-regulation-economic-growth-covid-19-response
 
+
+### More Stuff
+
+March 26, 2020
+[Known Traveller Digital Identity Specifications Guidance](https://www.weforum.org/whitepapers/known-traveller-digital-identity-specifications-guidance)
 
