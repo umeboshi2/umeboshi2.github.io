@@ -29,4 +29,8 @@
    out a mock version of a covert and widespread smallpox attack on the 
    United States."
    
+   [Dark Winter Script (PDF)](https://www.centerforhealthsecurity.org/our-work/events-archive/2001_dark-winter/Dark%20Winter%20Script.pdf)
 
+
+
+[Public Health Emergency Preparedness Exercises: Lessons Learned](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966651/)

@@ -5,6 +5,7 @@
 - [Covid Transmission](#covid-transmission)
   - [WHO papers](#who-papers)
   - [More WHO Papers](#more-who-papers)
+  - [More Stuff](#more-stuff)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -98,3 +99,9 @@ sings."
 9. Pung R, Chiew CJ, Young BE, Chin S, Chen MIC, Clapham HE, et al. Investigation of three clusters of COVID-19 in Singapore: implications for surveillance and response measures. Lancet. 2020;395:1039-46.
 
 10. Luo L, Liu D, Liao X, Wu X, Jing Q, Zheng J, et al. Modes of contact and risk of transmission in COVID-19 among close contacts (pre-print). MedRxiv. 2020 doi:10.1101/2020.03.24.20042606.
+
+
+### More Stuff
+
+[Viable SARS-CoV-2 in the air of a hospital room with COVID-19 patients](https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1) [(PDF)](https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1.full.pdf)
+
