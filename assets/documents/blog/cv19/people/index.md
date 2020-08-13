@@ -18,8 +18,6 @@
 
 1. [Tara O'Toole](#pages/blog/cv19/people/tara-otoole)
 
-1. [James Corbett](#pages/blog/cv19/people/james-corbett)
-
 1. [Dakota Gruener](#pages/blog/cv19/people/dakota-gruener)
 
 1. [Seth Berkley](#pages/blog/cv19/people/seth-berkley)
@@ -41,6 +39,8 @@
 1. [David Icke](#pages/blog/cv19/people/david-icke)
 
 1. [Jim Keith](https://en.wikipedia.org/wiki/Jim_Keith)
+
+1. [James Corbett](#pages/blog/cv19/people/james-corbett)
 
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
