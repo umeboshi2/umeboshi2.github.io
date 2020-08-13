@@ -40,6 +40,7 @@
 
 1. [Dakota Gruener](#pages/blog/cv19/people/dakota-gruener)
 
+1. [Seth Berkley](#pages/blog/cv19/people/seth-berkley)
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)

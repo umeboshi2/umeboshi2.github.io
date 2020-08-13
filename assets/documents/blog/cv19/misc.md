@@ -116,6 +116,16 @@ will in all likelihood be considered acceptable."
 
 
 
+[Covid-19 and Herd Immunity Without Vaccination—Teaching Modern Vaccine Dogma Old Tricks?](https://www.andrewbostom.org/2020/06/covid-19-and-herd-immunity-without-vaccination-teaching-modern-vaccine-dogma-old-tricks/)
+
+BILL GATES, ROCKEFELLER AND THE GMO GIANTS KNOW SOMETHING WE DON’T
+"Doomsday Seed Vault" in the Arctic
+by F. William Engdahl
+[article](https://www.voltairenet.org/article162545.html)
+
+
+
+
 https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
 
 
