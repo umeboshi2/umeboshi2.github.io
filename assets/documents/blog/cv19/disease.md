@@ -72,4 +72,6 @@ January 1937, Journal of Bacteriology
 
 [Germ theory denialism](https://en.wikipedia.org/wiki/Germ_theory_denialism)
 
+https://www.youtube.com/watch?v=vtKHwBWD1Wc
+
 

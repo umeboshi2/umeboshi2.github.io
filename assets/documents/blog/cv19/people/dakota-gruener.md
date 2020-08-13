@@ -3,6 +3,7 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [Dakota Gruener](#dakota-gruener)
+  - [Links](#links)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -27,5 +28,21 @@ She graduated magna cum laude from Brown University in Providence, RI with
 dual degrees in Biology and Political Science, is a former management 
 consultant with Oliver Wyman, and a proud Californian."
 [Biography](https://www.allamericanspeakers.com/speakers/435721/Dakota-Gruener)
+
+## Links
+
+This article from June 23, 2016 covers the inaugural 
+[ID2020](#pages/blog/cv19/id2020) summit.
+[Fighting for a Secure Digital Identity for All](https://redmondmag.com/articles/2016/07/01/common-cause.aspx)
+
+[Dakota Gruener](#pages/blog/cv19/people/dakota-gruener) speaks at the 
+[World Economic Forum](#pages/blog/cv19/wef) in 2017.
+[(Video)](https://www.salesforce.com/video/449313/)
+
+[Welcome the City of Austin to the ID2020 Alliance!](https://medium.com/id2020/welcome-the-city-of-austin-to-the-id2020-alliance-76b0ebe6776)
+
+
+[Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19](https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/)
+
 
 
