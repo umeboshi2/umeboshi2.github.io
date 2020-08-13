@@ -38,6 +38,9 @@
 
 1. [James Corbett](#pages/blog/cv19/people/james-corbett)
 
+1. [Dakota Gruener](#pages/blog/cv19/people/dakota-gruener)
+
+
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
 [Top 40 list](https://exemplore.com/legends/List-of-Top-Conspiracy-Theorists)
