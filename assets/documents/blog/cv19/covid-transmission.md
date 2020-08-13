@@ -103,5 +103,7 @@ sings."
 
 ### More Stuff
 
+[‘A Smoking Gun’: Infectious Coronavirus Retrieved From Hospital Air](https://www.nytimes.com/2020/08/11/health/coronavirus-aerosols-indoors.html)
+
 [Viable SARS-CoV-2 in the air of a hospital room with COVID-19 patients](https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1) [(PDF)](https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1.full.pdf)
 
