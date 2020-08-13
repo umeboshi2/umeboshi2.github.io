@@ -29,6 +29,9 @@ hosted the [Event 201](#pages/blog/cv19/event-201) pandemic tabletop exercise. T
 August 28, 2010
 [Gates Foundation ties with Monsanto under fire from activists](https://www.seattletimes.com/seattle-news/gates-foundation-ties-with-monsanto-under-fire-from-activists/)
 
+July 12, 2011
+[Monsanto and Gates Foundation Push GE Crops on Africa](https://truthout.org/articles/monsanto-and-gates-foundation-push-ge-crops-on-africa/)
+
 [NewsHour gets $3.5 million from Gates Foundation](http://blogs.reuters.com/mediafile/2008/12/01/newshour-gets-35-million-from-gates-foundation/)
 
 March 28, 2020

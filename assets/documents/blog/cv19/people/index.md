@@ -22,6 +22,8 @@
 
 1. [Seth Berkley](#pages/blog/cv19/people/seth-berkley)
 
+1. [Warren Buffett](#pages/blog/cv19/people/warren-buffett)
+
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
 
 1. [G. E. Griffin](#pages/blog/cv19/people/griffin)

@@ -70,6 +70,8 @@ is to be found here."
 [How Rockefeller Founded Modern Medicine and Killed Natural Cures](https://worldaffairs.blog/2015/10/20/how-rockefeller-founded-modern-medicine-and-killed-natural-cures/)
 
 
+[ Seeds of Destruction: The Hidden Agenda of Genetic Manipulation](https://en.wikipedia.org/wiki/Seeds_of_Destruction_(Book))
+
 ### [Carnegie Flexner Report](https://en.wikipedia.org/wiki/Flexner_Report)
 
 Although the report is over 100 years old, many of its recommendations are 
