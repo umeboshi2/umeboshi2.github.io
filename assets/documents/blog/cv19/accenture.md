@@ -37,3 +37,4 @@ humanitarian organizations. Get in touch with us."
 
 [Wikipedia](https://en.wikipedia.org/wiki/Accenture), 
 
+[Accenture, Microsoft team up on blockchain-based digital ID network](https://www.reuters.com/article/us-microsoft-accenture-digitalid-idUSKBN19A22B)

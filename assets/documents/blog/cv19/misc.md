@@ -106,6 +106,16 @@ vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly eff
 [mighty wurlitzer](https://archive.org/search.php?query=subject%3A%22mighty+wurlitzer%22)
 
 
+"Synthetic biology, it is therefore maintained, does not offend so much the God 
+of the Bible as a deified Nature. While syntheses of artificial life forms 
+cause some vague uneasiness that life may lose its special meaning, most 
+concerns turn out to be narrowly anthropocentric. As long as synthetic biology 
+creates only new microbial life and does not directly affect human life, it 
+will in all likelihood be considered acceptable."
+[Playing God in Frankenstein’s Footsteps: Synthetic Biology and the Meaning of Life](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2837218/)
+
+
+
 https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
 
 

@@ -79,6 +79,14 @@ Funds are being "matched by the
 
 [Vaccine Companies Partner with Mastercard to Merge Vaccines with Cashless Money System](https://davidicke.com/2020/07/29/vaccine-companies-partner-with-mastercard-to-merge-vaccines-with-cashless-money-system/)
 
+"The future prospects of this GAVI and [MasterCard](#pages/blog/cv19/mastercard)
+partnership is worth exploring. This partnership with GAVI signifies a novel 
+strategy aimed towards linking a biometric digital identity system, vaccination 
+records, and a payment system into a single platform that is cohesive, coherent 
+and synergistic."
+[Trust Stamp – Bill Gates Funded Program That Will Create Your Digital Identity Based On Your Vaccination History](https://greatgameindia.com/bill-gates-vaccination-based-digital-identity/)
+
+
 **Mid-term review 2018 - Michael Froman and Seth Berkley**
 
 "Live from Abu Dhabi, UAE, we hear from Michael Froman, Vice Chairman and 
