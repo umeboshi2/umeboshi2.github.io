@@ -14,7 +14,17 @@
 ## GAVI
 
 Wikipedia [page](https://en.wikipedia.org/wiki/GAVI), 
- for GAVI.
+for GAVI. [Seth Berkley](#pages/blog/cv19/people/seth-berkley) is the 
+current CEO of GAVI; he "worked for the 
+[Rockefeller Foundation](#pages/blog/cv19/rocky), initially as program 
+scientist and finally as associate director of the Health Sciences 
+Division. During his eight years with the Rockefeller Foundation, Berkley 
+managed programs in epidemiology, public health, medical and nursing 
+education, vaccination, AIDS and sexually transmitted diseases and 
+reproductive health in Africa, Asia, and Latin America."
+[(Wikipedia)](https://en.wikipedia.org/wiki/Seth_Berkley), 
+
+
 
 "GAVI's approach to public health has been described as business-oriented and 
 technology-focused, using market-oriented measures, and seeking quantifiable 
