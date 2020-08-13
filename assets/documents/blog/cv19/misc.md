@@ -124,6 +124,11 @@ by F. William Engdahl
 [article](https://www.voltairenet.org/article162545.html)
 
 
+Feb 10, 2017
+[Crossing Kingdoms: Using Decellularized Plants as Perfusable Tissue Engineering Scaffolds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388455/)
+
+
+[Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101437/)
 
 
 https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
