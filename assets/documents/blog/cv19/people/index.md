@@ -10,6 +10,20 @@
 
 ### People
 
+1. [Bill Gates](#pages/blog/cv19/people/bill-gates)
+
+1. [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab)
+
+1. [Luciana Borio](#pages/blog/cv19/people/luciana-borio)
+
+1. [Tara O'Toole](#pages/blog/cv19/people/tara-otoole)
+
+1. [James Corbett](#pages/blog/cv19/people/james-corbett)
+
+1. [Dakota Gruener](#pages/blog/cv19/people/dakota-gruener)
+
+1. [Seth Berkley](#pages/blog/cv19/people/seth-berkley)
+
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
 
 1. [G. E. Griffin](#pages/blog/cv19/people/griffin)
@@ -28,19 +42,6 @@
 
 1. [Jim Keith](https://en.wikipedia.org/wiki/Jim_Keith)
 
-1. [Bill Gates](#pages/blog/cv19/people/bill-gates)
-
-1. [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab)
-
-1. [Luciana Borio](#pages/blog/cv19/people/luciana-borio)
-
-1. [Tara O'Toole](#pages/blog/cv19/people/tara-otoole)
-
-1. [James Corbett](#pages/blog/cv19/people/james-corbett)
-
-1. [Dakota Gruener](#pages/blog/cv19/people/dakota-gruener)
-
-1. [Seth Berkley](#pages/blog/cv19/people/seth-berkley)
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
