@@ -63,5 +63,7 @@ a global pandemic.
 
 1. [People](#pages/blog/cv19/people/index)
 
+1. [Population](#pages/blog/cv19/population)
+
 
 
