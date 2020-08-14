@@ -10,7 +10,7 @@
 
 # [Warren Buffett](https://en.wikipedia.org/wiki/Warren_Buffett)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Warren_Buffett_KU_Visit.jpg"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Warren_Buffett_KU_Visit.jpg" width="100px"/>
 
 [Warren Buffett](https://en.wikipedia.org/wiki/Warren_Buffett) is a trustee of 
 the [Bill and Melinda Gates Foundation](#pages/blog/cv19/bilmel).  He is a 

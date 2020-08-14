@@ -12,7 +12,7 @@
 
 # [G. E. Griffin](https://en.wikipedia.org/wiki/G._Edward_Griffin)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/G._Edward_Griffin.jpg"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/G._Edward_Griffin.jpg" width="100px"/>
 
 
 G Edward Griffin "is an American author, filmmaker, and conspiracy theorist. 

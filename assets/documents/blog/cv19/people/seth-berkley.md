@@ -10,7 +10,7 @@
 
 # [Seth Berkley](https://en.wikipedia.org/wiki/Seth_Berkley)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Seth_F._Berkley_-_Annual_Meeting_of_the_New_Champions_2012.jpg"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Seth_F._Berkley_-_Annual_Meeting_of_the_New_Champions_2012.jpg" width="100px"/>
 
 [Seth Berkley](https://en.wikipedia.org/wiki/Seth_Berkley)
 "is the CEO of the [GAVI](#pages/blog/cv19/gavi) Alliance and a global advocate 
