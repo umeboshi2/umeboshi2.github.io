@@ -23,5 +23,34 @@ research programs through the
 reported to be the world's largest private charity.  In 2009, Gates and 
 [Warren Buffett](#pages/blog/cv19/people/warren-buggett) founded 
 The Giving Pledge, whereby they and other billionaires pledge to give at least 
-half of their wealth to philanthropy."
+half of their wealth to philanthropy.
+[...]
+Gates provided his perspective on a range of issues in a substantial interview 
+that was published in the March 27, 2014 issue of Rolling Stone magazine. In 
+the interview, Gates provided his perspective on climate change, his charitable 
+activities, various tech companies and people involved in them, and the state 
+of America. In response to a question about his greatest fear when he looks 
+50 years into the future, Gates stated: '... there'll be some really bad things 
+that'll happen in the next 50 or 100 years, but hopefully none of them on the 
+scale of, say, a million people that you didn't expect to die from a pandemic, 
+or nuclear or bioterrorism.'
+[...]
+In an interview that was held at the TED conference in March 2015, with 
+Baidu's CEO, Robin Li, Gates said he would "highly recommend" Nick Bostrom's 
+recent work, Superintelligence: Paths, Dangers, Strategies.  During the 
+conference, Gates warned that the world was not prepared for the next 
+pandemic, a situation that would come to pass in late 2019 when the 
+COVID-19 pandemic began.
+[...]
+Gates has credited the generosity and extensive 
+[philanthropy](#pages/blog/cv19/philanthropy) of 
+David Rockefeller as a major influence. Gates and his father met with 
+Rockefeller several times, and their charity work is partly modeled on the 
+Rockefeller family's philanthropic focus, whereby they are interested in 
+tackling the global problems that are ignored by governments and other 
+organizations.[99] As of 2007, Bill and Melinda Gates were the second-most 
+generous philanthropists in America, having given over $28 billion to 
+charity; the couple plan to eventually donate 95% of their wealth to 
+charity."
+
 
