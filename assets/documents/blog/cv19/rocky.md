@@ -7,6 +7,7 @@
   - [Carnegie Flexner Report](#carnegie-flexner-report)
   - [Rockefeller Medicine Men (1979)](#rockefeller-medicine-men-1979)
     - [Video](#video)
+  - [The Lockstep Scenario](#the-lockstep-scenario)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -181,6 +182,10 @@ https://www.youtube.com/watch?v=hIBPVKUl52g
 
 
 [NWO - Zitate von Rockefeller & Co. - Neue Weltordnung](https://archive.org/details/nwozitatevonrockefellerco.neueweltordnung)
+
+### The Lockstep Scenario
+
+[Scenarios for the Future of Technology and International Development (PDF)](https://archive.org/download/pdfy-tNG7MjZUicS-wiJb/Scenarios%20for%20the%20Future%20ofTechnology%20and%20International%20Development.pdf)
 
 
 
