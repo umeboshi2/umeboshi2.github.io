@@ -13,11 +13,8 @@
 
 ## The Great Reset
 
-Initial idea from [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab)
-
+Initial idea from [Klaus Schwab](#pages/blog/cv19/people/klaus-schwab):
 [Now is the time for a 'great reset'](https://www.weforum.org/agenda/2020/06/now-is-the-time-for-a-great-reset/)
-
-
 
 [Official Video](https://www.weforum.org/great-reset)
 
