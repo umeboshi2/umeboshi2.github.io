@@ -10,4 +10,4 @@
 
 # [David Icke](https://en.wikipedia.org/wiki/David_Icke)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/David_Icke%2C_7_June_2013_%281%29%2C_cropped.jpg"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/David_Icke%2C_7_June_2013_%281%29%2C_cropped.jpg" width="100px"/>
