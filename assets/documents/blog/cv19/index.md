@@ -65,5 +65,6 @@ a global pandemic.
 
 1. [Population](#pages/blog/cv19/population)
 
+1. [Philanthropy](#pages/blog/cv19/philanthropy)
 
 
