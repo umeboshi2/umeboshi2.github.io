@@ -80,9 +80,6 @@ instrument**... whose function is fast becoming *social and preventive*,
 rather than *individual and curative*." 
 [(Wikipedia)](https://en.wikipedia.org/wiki/Flexner_Report)
 
-
-This is the Abraham Flexner report of 1910.
-
 In the early half of the 20th century, a coup was organized on the medical 
 research facilities, hospitals and universities. The Rockefeller family, ye 
 ole step-n-fetch-its of the actual slavemasters, sponsored research and 
