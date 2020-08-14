@@ -3,6 +3,8 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [Philanthropy](#philanthropy)
+  - [Philanthropy and Charity](#philanthropy-and-charity)
+  - [The Philanthropist](#the-philanthropist)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -22,10 +24,12 @@ Philanthropy is different from charity, though there is some overlap. Charity
 aims to relieve the pain of a particular social problem, whereas philanthropy 
 attempts to address the root cause of the problem."
 
+
+## Philanthropy and Charity
+
 Please note that the Wikipedia authors assign charity as the mere treatment 
 of symptoms, yet elevate philanthropy above charity by describing the works 
 as addressing the root of the problem.
-
 
 "I’m reminded, sadly, of the invidious distinction we sometimes make between 
 charity and philanthropy.  By some accounts, charity represents a kind of weak, 
@@ -72,7 +76,7 @@ cure evils at their source.'”
 [Is There A Difference Between Charity and Philanthropy?](https://brensimon.com/difference-between-charity-and-philanthropy/)
 
 
-
+## The Philanthropist
 
 "A philanthropist is someone who engages in philanthropy; donating his or her 
 time, money, and/or reputation to charitable causes. The term may apply to any 
