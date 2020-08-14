@@ -19,5 +19,5 @@ are billionaires, and their pledges total $1.2 trillion.
 [...]
 In June 2010, the Giving Pledge campaign was formally announced and 
 [Bill Gates](#pages/blog/cv19/people/bill-gates) and 
-[Warren Buffett](#pages/blog/cv19/people/warren-buggett) began recruiting 
+[Warren Buffett](#pages/blog/cv19/people/warren-buffett) began recruiting 
 members."
