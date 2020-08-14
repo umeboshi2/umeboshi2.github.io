@@ -176,7 +176,7 @@ https://www.youtube.com/watch?v=hIBPVKUl52g
 <iframe width="320" height="240" src="https://www.youtube.com/embed/NNm51i2ShQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-**David Rockefeller speaks about population control.**
+**David Rockefeller speaks about [population](#pages/blog/cv19/population) control.**
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/ClqUcScwnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
