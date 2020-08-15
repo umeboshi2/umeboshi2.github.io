@@ -15,6 +15,9 @@ config.navbarEntries = [
     label: "EbCsv"
     url: "#ebcsv"
   },{
+    label: "crown"
+    url: "#crown"
+  },{
     label: "moviedb"
     url: "#moviedb"
   },{

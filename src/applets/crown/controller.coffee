@@ -13,15 +13,24 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+class CvLinks extends Backbone.Model
+  url: '/assets/documents/cvlinks.json'
+
 class Controller extends MainController
   channelName: 'crown'
   layoutClass: ToolbarAppletLayout
   viewIndex: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
+      model = new CvLinks
       View = require('./views/index-view').default
-      view = new View
-      @layout.showChildView 'content', view
+      response = model.fetch()
+      response.done =>
+        view = new View
+          model: model
+        @layout.showChildView 'content', view
+      response.fail ->
+        MessageChannel.request 'info', 'failed to fetch model'
     # name the chunk
     , 'crown-view-index'
       
