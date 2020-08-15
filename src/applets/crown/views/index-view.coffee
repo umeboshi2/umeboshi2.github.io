@@ -14,21 +14,36 @@ makePageLink = (fileName) ->
   return "#pages/blog/cv19/#{name}"
 
 viewTemplate = tc.renderable (model) ->
-  tc.div '.row.listview-list-entry', ->
+  tc.div '.row.listview-header', ->
     tc.h1 "Index"
     tc.div '.jsonview'
-  for page of model
+  tc.div '.index-view'
+
+class PageEntryView extends Marionette.View
+  template: tc.renderable (model) ->
+    console.log "template model", model
     tc.div '.row.listview-list-entry', ->
-      tc.a href:makePageLink(page), makePageName page
-    
+      tc.a href:makePageLink(model.name), makePageName model.name
+      
+  
+
 class MainView extends Marionette.View
   template: viewTemplate
   ui:
     jsonView: '.jsonview'
-  onDomRefresh: ->
+    indexView: '.index-view'
+  regions:
+    indexView: '@ui.indexView'
+  onRender: ->
+    console.log "MODEL IS", @model
+    view = new Marionette.CollectionView
+      childView: PageEntryView
+      collection: new Backbone.Collection @model.get 'pages'
+      #collection: new Backbone.Collection @model.get 'seasons'
+    @showChildView 'indexView', view
+  onDomRefresh2: ->
     @jsonView = new JView @model.toJSON()
     @ui.jsonView.prepend @jsonView.dom
-    console.log "model is", @model
     
 
 export default MainView
