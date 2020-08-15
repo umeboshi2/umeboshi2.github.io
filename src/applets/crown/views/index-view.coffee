@@ -19,12 +19,45 @@ viewTemplate = tc.renderable (model) ->
     tc.div '.jsonview'
   tc.div '.index-view'
 
+class LinksView extends Marionette.View
+  template: tc.renderable (model) ->
+    tc.ul ->
+      for link in model.links
+        tc.li ->
+          if link.startsWith '#pages'
+            tc.span '.badge.badge-dark', ->
+              tc.a href:link, ->
+                tc.text link.split('#pages/blog/cv19/')[1]
+          else
+            tc.a href:link, link
+
 class PageEntryView extends Marionette.View
   template: tc.renderable (model) ->
     console.log "template model", model
     tc.div '.row.listview-list-entry', ->
+      tc.button '.links-btn.btn-info', 'links'
       tc.a href:makePageLink(model.name), makePageName model.name
-      
+    tc.div '.row.links-view'
+  ui:
+    linksBtn: '.links-btn'
+    linksView: '.links-view'
+  regions:
+    linksView: '@ui.linksView'
+  events:
+    'click @ui.linksBtn': 'linkBtnClicked'
+
+  linkBtnClicked: (event) ->
+    links = @model.get 'links'
+    name = @model.get 'name'
+    console.log name, links
+    view = new LinksView
+      model: @model
+    @showChildView 'linksView', view
+    
+    
+    
+    
+    
   
 
 class MainView extends Marionette.View
