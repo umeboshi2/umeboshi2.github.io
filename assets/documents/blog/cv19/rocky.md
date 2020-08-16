@@ -190,3 +190,7 @@ https://www.youtube.com/watch?v=hIBPVKUl52g
 
 
 https://www.corbettreport.com/episode-241-the-truth-about-the-gene-revolution/
+
+
+SEPTEMBER 14, 1994
+[Annual Ambassadors' Dinner (C-SPAN Video)](https://www.c-span.org/video/?60201-1/annual-ambassadors-dinner)
