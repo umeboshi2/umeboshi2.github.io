@@ -45,8 +45,13 @@ class PageEntryView extends Marionette.View
     linksView: '@ui.linksView'
   events:
     'click @ui.linksBtn': 'linkBtnClicked'
-
   linkBtnClicked: (event) ->
+    region = @getRegion('linksView')
+    if region.hasView()
+      region.empty()
+    else
+      @showListView()
+  showListView: ->
     links = @model.get 'links'
     name = @model.get 'name'
     console.log name, links

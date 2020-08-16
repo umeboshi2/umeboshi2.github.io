@@ -12,9 +12,6 @@ misc_menu =
 #config.navbarEntries = [ misc_menu ]
 config.navbarEntries = [
   {
-    label: "EbCsv"
-    url: "#ebcsv"
-  },{
     label: "crown"
     url: "#crown"
   },{
