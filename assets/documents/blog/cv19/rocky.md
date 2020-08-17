@@ -160,28 +160,9 @@ https://www.youtube.com/watch?v=mWB2lotgByI
 **Eustace Mullins The Rockefeller Drug Empire**
 
 
-http://www.youtube.com/watch?v=l6WvjS_6xvk
-
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/l6WvjS_6xvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-https://www.youtube.com/watch?v=hIBPVKUl52g
+<!-- <iframe width="32" height="24" src="https://www.youtube.com/embed/l6WvjS_6xvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>!-->
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/hIBPVKUl52g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**DECLASSIFIED Population Reduction By Government Vaccines Forced Sterilization**
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/NNm51i2ShQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-**David Rockefeller speaks about [population](#pages/blog/cv19/population) control.**
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/ClqUcScwnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-[NWO - Zitate von Rockefeller & Co. - Neue Weltordnung](https://archive.org/details/nwozitatevonrockefellerco.neueweltordnung)
 
 ### The Lockstep Scenario
 

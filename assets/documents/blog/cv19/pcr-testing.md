@@ -15,6 +15,9 @@
 
 ## Articles
 
+[Biography of Dr. Kary Mullis](https://www.karymullis.com/biography.shtml)
+
+
 May 12, 2020
 [Interpreting a covid-19 test result](https://www.bmj.com/content/369/bmj.m1808)
 [(PDF)](https://www.bmj.com/content/369/bmj.m1808.full.pdf)
@@ -56,6 +59,7 @@ completely unreproducible by other scientists."
 
 [MIQE (PDF)](https://www.gene-quantification.de/miqe-bustin-et-al-clin-chem-2009.pdf)
 
+https://www.facebook.com/maryjosperry/posts/10222907343927750
 
 ## Video
 
