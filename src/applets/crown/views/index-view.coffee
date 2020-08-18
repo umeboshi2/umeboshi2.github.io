@@ -33,14 +33,17 @@ class LinksView extends Marionette.View
 
 class PageEntryView extends Marionette.View
   template: tc.renderable (model) ->
-    console.log "template model", model
-    tc.div '.row.listview-list-entry', ->
-      tc.button '.links-btn.btn-info', 'links'
-      tc.a href:makePageLink(model.name), makePageName model.name
-    tc.div '.row.links-view'
+    # console.log "template model", model
+    tc.div '.row.card', ->
+      tc.div '.card-body', ->
+        tc.button '.links-btn.btn.btn-dark.btn-sm', ->
+          tc.i '.fa.fa-toggle-down.toggle-icon'
+        tc.a href:makePageLink(model.name), makePageName model.name
+      tc.div '.links-view'
   ui:
     linksBtn: '.links-btn'
     linksView: '.links-view'
+    toggleIcon: '.toggle-icon'
   regions:
     linksView: '@ui.linksView'
   events:
@@ -49,12 +52,16 @@ class PageEntryView extends Marionette.View
     region = @getRegion('linksView')
     if region.hasView()
       region.empty()
+      @ui.toggleIcon.removeClass 'fa-toggle-up'
+      @ui.toggleIcon.addClass 'fa-toggle-down'
     else
       @showListView()
+      @ui.toggleIcon.removeClass 'fa-toggle-down'
+      @ui.toggleIcon.addClass 'fa-toggle-up'
   showListView: ->
     links = @model.get 'links'
     name = @model.get 'name'
-    console.log name, links
+    # console.log name, links
     view = new LinksView
       model: @model
     @showChildView 'linksView', view
@@ -73,11 +80,10 @@ class MainView extends Marionette.View
   regions:
     indexView: '@ui.indexView'
   onRender: ->
-    console.log "MODEL IS", @model
+    # console.log "MODEL IS", @model
     view = new Marionette.CollectionView
       childView: PageEntryView
       collection: new Backbone.Collection @model.get 'pages'
-      #collection: new Backbone.Collection @model.get 'seasons'
     @showChildView 'indexView', view
   onDomRefresh2: ->
     @jsonView = new JView @model.toJSON()

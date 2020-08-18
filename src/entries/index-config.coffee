@@ -12,7 +12,7 @@ misc_menu =
 #config.navbarEntries = [ misc_menu ]
 config.navbarEntries = [
   {
-    label: "crown"
+    label: "Index"
     url: "#crown"
   },{
     label: "moviedb"
