@@ -1,10 +1,12 @@
 import sys
 import os
 import pathlib
+import subprocess
 import json
 
 from bs4 import BeautifulSoup
 import markdown
+import networkx as nx
 
 
 COMMAND_ARGS = sys.argv
@@ -14,6 +16,26 @@ if not COMMAND_ARGS:
 
 if not os.path.isdir('/'):
     raise RuntimeError("Can't find root directory.")
+
+# doctoc -t '**[Home](#pages/blog/cv19/index)**' assets/documents/blog/cv19
+
+DOCTOC_CMD = ['doctoc', '-t', '**[Home](#pages/blog/cv19/index)**',
+              'assets/documents/blog/cv19']
+
+
+
+def key_from_filename(filename, keep_extension=True):
+    parts = list(filename.parts)
+    top = parts.pop(0)
+    while top != 'cv19':
+        top = parts.pop(0)
+    key = '/'.join(parts)
+    if keep_extension:
+        return key
+    else:
+        return key.split('.md')[0]
+
+
 
 def make_soup(filename):
     text = open(filename).read()
@@ -33,6 +55,9 @@ def get_html_links(soup):
             links.add(a['href'])
     return sorted(list(links))
 
+
+subprocess.run(DOCTOC_CMD)
+
 cvdir = pathlib.Path('assets/documents/blog/cv19')
 
 cvnodes = list(cvdir.glob('**/*'))
@@ -46,11 +71,7 @@ page_data = dict()
 for filename in cvfiles:
     cvcontent[filename] = make_soup(filename)
     all_links[filename] = get_html_links(cvcontent[filename])
-    parts = list(filename.parts)
-    top = parts.pop(0)
-    while top != 'cv19':
-        top = parts.pop(0)
-    key = '/'.join(parts)
+    key = key_from_filename(filename)
     page_data[key] = all_links[filename]
 
 
