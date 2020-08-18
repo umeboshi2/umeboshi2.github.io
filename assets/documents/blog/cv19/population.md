@@ -6,6 +6,7 @@
   - [United Nations Population Fund](#united-nations-population-fund)
   - [Resources](#resources)
   - [Video](#video)
+    - [David Rockefeller](#david-rockefeller)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -27,10 +28,12 @@
 ## Resources
 
 
-A UN report on [World Population to 2300](https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Jan/un_2002_world_population_to_2300.pdf)
+A UN report on [World Population to 2300 (PDF)](https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Jan/un_2002_world_population_to_2300.pdf)
 
 
 ## Video
+
+### David Rockefeller
 
 David Rockefeller talks about population problems at the annual UN ambassador's
 dinner.
@@ -38,15 +41,16 @@ dinner.
 SEPTEMBER 14, 1994
 [Annual Ambassadors' Dinner (C-SPAN Video)](https://www.c-span.org/video/?60201-1/annual-ambassadors-dinner)
 
+**David Rockefeller speaks about population control.**
+
+<iframe width="320" height="240" src="https://www.youtube.com/embed/ClqUcScwnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 **DECLASSIFIED Population Reduction By Government Vaccines Forced Sterilization**
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/NNm51i2ShQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-**David Rockefeller speaks about [population](#pages/blog/cv19/population) control.**
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/ClqUcScwnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [NWO - Zitate von Rockefeller & Co. - Neue Weltordnung](https://archive.org/details/nwozitatevonrockefellerco.neueweltordnung)

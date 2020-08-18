@@ -11,6 +11,9 @@
 ## Miscellaneous
 
 
+[More Mask Papers](#pages/blog/cv19/more-mask-papers)
+
+
 [WHO Mythbusters](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
 
 https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm

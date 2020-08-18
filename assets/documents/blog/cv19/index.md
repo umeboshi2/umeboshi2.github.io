@@ -67,4 +67,5 @@ a global pandemic.
 
 1. [Philanthropy](#pages/blog/cv19/philanthropy)
 
+1. [Prophecy](#pages/blog/cv19/prophecy)
 

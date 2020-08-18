@@ -44,6 +44,8 @@
 
 1. [James Corbett](#pages/blog/cv19/people/james-corbett)
 
+1. [Chuck Missler](#pages/blog/cv19/people/chuck-missler)
+
 
 [conspiracy theory](https://en.wikipedia.org/wiki/Conspiracy_theory)
 [list](https://en.wikipedia.org/wiki/List_of_conspiracy_theories)
