@@ -3,6 +3,7 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [James Corbett](#james-corbett)
+  - [How & Why Big Oil Conquered The World](#how--why-big-oil-conquered-the-world)
   - [Transhumanism](#transhumanism)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -11,6 +12,10 @@
 
 # [James Corbett](https://www.corbettreport.com/)
 
+
+## How & Why Big Oil Conquered The World
+
+[How & Why Big Oil Conquered The World](https://www.corbettreport.com/bigoil/)
 
 ## Transhumanism
 

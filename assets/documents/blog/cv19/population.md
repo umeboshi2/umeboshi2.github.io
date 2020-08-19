@@ -3,6 +3,7 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [Population](#population)
+  - [Population Council](#population-council)
   - [United Nations Population Fund](#united-nations-population-fund)
   - [Resources](#resources)
   - [Video](#video)
@@ -16,9 +17,33 @@
 
 [World Population](https://en.wikipedia.org/wiki/World_population) on Wikipedia.
 
-[Population Council](https://en.wikipedia.org/wiki/Population_Council)
 
 [Human Overpopulation](https://en.wikipedia.org/wiki/Human_overpopulation)
+
+
+## [Population Council](https://en.wikipedia.org/wiki/Population_Council)
+
+The [Population Council](https://en.wikipedia.org/wiki/Population_Council) was 
+established in 1952 by [John D. Rockefeller III](https://en.wikipedia.org/wiki/John_D._Rockefeller_III).
+
+"In the 1960s, the Council played a key role in documenting the large numbers 
+of people in poor countries who lacked access to contraceptives and in 
+conducting research to design and evaluate public family planning programs. 
+This included bringing IUDs to India."
+
+"John D. Rockefeller [III] returned from his trips to Asia convinced that 
+'political stability' and 'economic progress' in that part of the world 
+depended on putting a stop to unrestrained reproduction.
+
+A few years later, the 'population explosion' was a well known concept 
+throughout the rich part of the world.  John D. Rockefeller financed the first 
+academic conference on the subject. He started the American Population Council 
+and contributed to making population control a goal for US politics in the 
+Third World. The financial aristocrat disguised his urge to restrain the Asian 
+masses in campaigns for birth control and family planning.
+[The Green Capitalist (PDF)](http://mikaelnyberg.nu/wp-content/uploads/2015/02/The-Green-Capitalists.pdf)
+
+[The Population Council, World Population Problem, and Contraceptive Studies during the Early Postwar Era](https://web.archive.org/web/20190828160018/https://rockarch.org/publications/resrep/huang2.pdf)
 
 
 ## United Nations Population Fund

@@ -81,16 +81,25 @@ alternative" to a vaccine.
 Wikipedia has a page dedicated to a
 [Covid Vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
 
+[An updated guide to the coronavirus drugs and vaccines in development](https://www.statnews.com/2020/03/19/an-updated-guide-to-the-coronavirus-drugs-and-vaccines-in-development/)
+
+
 
 [Astrazeneca](#pages/blog/cv19/vx/astra)
 
 [Quantum Dots](#pages/blog/cv19/vx/quantum-dots)
+
+[Moderna](#pages/blog/cv19/vx/moderna)
+
+[mRNA Vaccines](#pages/blog/cv19/vx/mrna-vaccine)
 
 
 [The Impact of Vaccines on Mortality Decline Since 1900—According to Published Science](https://childrenshealthdefense.org/news/the-impact-of-vaccines-on-mortality-decline-since-1900-according-to-published-science/)
 
 [Measles: The New Red Scare](https://www.foreignpolicyjournal.com/2015/07/31/measles-the-new-red-scare/) [(PDF)](https://www.foreignpolicyjournal.com/wp-content/uploads/2015/07/150731-Bystrianyk-Measles.pdf)
 
+April 30, 2020
+[What you need to know about the COVID-19 vaccine](https://www.gatesnotes.com/Health/What-you-need-to-know-about-the-COVID-19-vaccine?WT.tsrc=BGEM)
 
 
 [Doctors lay out plan to ‘punish’ people who refuse coronavirus vaccine: ‘There is no alternative’](https://www.lifesitenews.com/news/doctors-lay-out-plan-to-punish-people-who-refuse-coronavirus-vaccine-there-is-no-alternative)
@@ -101,8 +110,5 @@ August 6, 2020, USA Today
 
 August 10, 2020, USA Today
 ["Make vaccines free, don't allow religious or personal objections, and create disincentives for those who refuse vaccines shown to be safe and effective."](https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/)
-
-
-
 
 
