@@ -3,12 +3,24 @@
 **[Home](#pages/blog/cv19/index)**
 
 - [People](#people)
+  - [Rockefeller Family](#rockefeller-family)
+  - [Persons of Interest](#persons-of-interest)
+  - [Other People](#other-people)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 [Parent](#pages/blog/cv19/index)
 
 ### People
+
+#### [Rockefeller Family](https://en.wikipedia.org/wiki/Rockefeller_family)
+
+1. [John D. Rockefeller](#pages/blog/cv19/people/john-d-rockefeller)
+
+1. [David Rockefeller](#pages/blog/cv19/people/david-rockefeller)
+
+
+#### Persons of Interest
 
 1. [Bill Gates](#pages/blog/cv19/people/bill-gates)
 
@@ -23,6 +35,8 @@
 1. [Seth Berkley](#pages/blog/cv19/people/seth-berkley)
 
 1. [Warren Buffett](#pages/blog/cv19/people/warren-buffett)
+
+#### Other People
 
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
 
