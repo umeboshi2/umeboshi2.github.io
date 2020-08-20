@@ -13,12 +13,6 @@ makePageLink = (fileName) ->
   name = makePageName fileName
   return "#pages/blog/cv19/#{name}"
 
-viewTemplate = tc.renderable (model) ->
-  tc.div '.row.listview-header', ->
-    tc.h1 "Index"
-    tc.div '.jsonview'
-  tc.div '.index-view'
-
 class LinksView extends Marionette.View
   template: tc.renderable (model) ->
     tc.ul ->
@@ -71,20 +65,46 @@ class PageEntryView extends Marionette.View
     
     
   
+viewTemplate = tc.renderable (model) ->
+  tc.div '.row.listview-header', ->
+    tc.h1 "Index"
+  tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
+  tc.div '.index-view'
+
 
 class MainView extends Marionette.View
   template: viewTemplate
   ui:
-    jsonView: '.jsonview'
     indexView: '.index-view'
+    refreshBtn: '.refresh-btn'
   regions:
     indexView: '@ui.indexView'
-  onRender: ->
+  events:
+    'click @ui.refreshBtn': 'refreshBtnClicked'
+  showIndexView: ->
     # console.log "MODEL IS", @model
     view = new Marionette.CollectionView
       childView: PageEntryView
       collection: new Backbone.Collection @model.get 'pages'
     @showChildView 'indexView', view
+    
+  onRender: ->
+    @showIndexView()
+    
+  refreshBtnClicked: ->
+    @ui.refreshBtn.removeClass 'btn-link'
+    @ui.refreshBtn.addClass 'btn-warning'
+    response = @model.fetch
+      data:
+        nocache: Date.now()
+    response.done =>
+      region = @getRegion 'indexView'
+      region.empty()
+      @showIndexView()
+      @ui.refreshBtn.removeClass 'btn-warning'
+      @ui.refreshBtn.addClass 'btn-link'
+      
+        
   onDomRefresh2: ->
     @jsonView = new JView @model.toJSON()
     @ui.jsonView.prepend @jsonView.dom
