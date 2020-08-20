@@ -2,42 +2,33 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **[Home](#pages/blog/cv19/index)**
 
-- [Cosmocracy](#cosmocracy)
+- [Older Topics](#older-topics)
   - [Shadow Government](#shadow-government)
-  - [Older Topics](#older-topics)
-    - [Dead Scientists](#dead-scientists)
-    - [Myron Fagan](#myron-fagan)
-    - [G. E. Griffin](#g-e-griffin)
-    - [Bill Cooper](#bill-cooper)
-    - [Eustace Mullins](#eustace-mullins)
-    - [Linda Thompson](#linda-thompson)
-    - [Stanley Monteith](#stanley-monteith)
-    - [Michel Chossudovsky](#michel-chossudovsky)
+  - [Cosmocracy](#cosmocracy)
+  - [Dead Scientists](#dead-scientists)
+  - [Notable Conspiracy Theorists](#notable-conspiracy-theorists)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 [Parent](#pages/blog/cv19/index)
 
-# [Cosmocracy](https://en.wikipedia.org/wiki/World_government)
+# Older Topics
 
-Alfred, Lord Tennyson wrote a [poem](https://en.wikipedia.org/wiki/Locksley_Hall)
-[celebrating](https://en.wikipedia.org/wiki/World_government#Alfred,_Lord_Tennyson) a world government.
+1. [Population](#pages/blog/cv19/population)
 
-Wikipedia Pages:
+1. [Eugenics](#pages/blog/cv19/eugenics)
 
-  1. [New World Order (conspiracy theory)](https://en.wikipedia.org/wiki/New_World_Order_(conspiracy_theory))
+1. [Philanthropy](#pages/blog/cv19/philanthropy)
 
-  1. [World Passport](https://en.wikipedia.org/wiki/World_Passport)
+1. [Prophecy](#pages/blog/cv19/prophecy)
 
-  1. [Kakistocracy](https://en.wikipedia.org/wiki/Kakistocracy)
-
-  1. [Aristocracy](https://en.wikipedia.org/wiki/Aristocracy)
 
 ## Shadow Government
 
-Senator Daniel K. Inouye in 1987 Chaired the Senate Select Committee on Secret 
-Military Assistance to Iran and the Nicaraguan Opposition, which held public 
-hearings on the Iran-Contra affair.
+Senator [Daniel K. Inouye](https://en.wikipedia.org/wiki/Daniel_Inouye) in 
+1987 Chaired the Senate Select Committee on Secret Military Assistance to 
+Iran and the Nicaraguan Opposition, which held public hearings on the 
+[Iran-Contra affair](https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair).
 
 Senator Inouye, summarizes here the coverup of the US Shadowy Government 
 involvement; by saying:
@@ -53,26 +44,44 @@ For more context and perspective, please check the PBS documentary by Bill
 Moyers "The Secret Government: The Constitution in Crises", which was broadcast 
 in 1987; the full documentary could be watched on Google Video.
 
+## [Cosmocracy](https://en.wikipedia.org/wiki/World_government)
+
+Alfred, Lord Tennyson wrote a [poem](https://en.wikipedia.org/wiki/Locksley_Hall)
+[celebrating](https://en.wikipedia.org/wiki/World_government#Alfred,_Lord_Tennyson) a world government.
+
+Wikipedia Pages:
+
+  1. [New World Order (conspiracy theory)](https://en.wikipedia.org/wiki/New_World_Order_(conspiracy_theory))
+
+  1. [World Passport](https://en.wikipedia.org/wiki/World_Passport)
+
+  1. [Kakistocracy](https://en.wikipedia.org/wiki/Kakistocracy)
+
+  1. [Aristocracy](https://en.wikipedia.org/wiki/Aristocracy)
 
 
-## Older Topics
 
-### Dead Scientists
+
+
+## Dead Scientists
 
 The [Dead Scientists](#pages/blog/cv19/dead-scientists) page lists
 a large number of scientists, mainly microbiologists, who passed away 
 within a short number of years.
 
-### [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
 
-### [G. E. Griffin](#pages/blog/cv19/people/griffin)
+## Notable Conspiracy Theorists
 
-### [Bill Cooper](#pages/blog/cv19/people/bill-cooper)
+1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
 
-### [Eustace Mullins](#pages/blog/cv19/people/eustace-mullins)
+1. [G. E. Griffin](#pages/blog/cv19/people/griffin)
 
-### [Linda Thompson](#pages/blog/cv19/people/linda-thompson)
+1. [Bill Cooper](#pages/blog/cv19/people/bill-cooper)
 
-### [Stanley Monteith](#pages/blog/cv19/people/stanley-monteith)
+1. [Eustace Mullins](#pages/blog/cv19/people/eustace-mullins)
 
-### [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)
+1. [Linda Thompson](#pages/blog/cv19/people/linda-thompson)
+
+1. [Stanley Monteith](#pages/blog/cv19/people/stanley-monteith)
+
+1. [Michel Chossudovsky](#pages/blog/cv19/people/michel-chossudovsky)

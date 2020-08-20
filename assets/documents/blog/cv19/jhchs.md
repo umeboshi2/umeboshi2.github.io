@@ -48,7 +48,9 @@ This symposium focused on the future of U.S. biosecurity policy."
 	October 4, 2011, in Washington, DC. 
 	
 	The panel was made up of Randall 
-	Larsen, CEO, WMD Center, moderator; D.A. Henderson, Distinguished Scholar, 
+	Larsen, CEO, WMD Center, moderator; 
+	[D.A. Henderson](https://en.wikipedia.org/wiki/Donald_Henderson), 
+	Distinguished Scholar, 
 	Center for Biosecurity of UPMC; and Richard J. Danzig, Chairman of the 
 	Board, Center for a New American Security.
 	<iframe width="320" height="240" src="https://www.youtube.com/embed/cUJxZr6le-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

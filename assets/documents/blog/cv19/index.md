@@ -63,11 +63,3 @@ a global pandemic.
 
 1. [People](#pages/blog/cv19/people/index)
 
-1. [Population](#pages/blog/cv19/population)
-
-1. [Eugenics](#pages/blog/cv19/eugenics)
-
-1. [Philanthropy](#pages/blog/cv19/philanthropy)
-
-1. [Prophecy](#pages/blog/cv19/prophecy)
-

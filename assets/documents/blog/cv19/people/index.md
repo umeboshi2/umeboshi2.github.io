@@ -67,3 +67,8 @@
 
 
 [Proofs of a Conspiracy (1798, PDF)](https://archive.org/download/proofsofaconspiracy/PROOFS_OF_A_CONSPIRACY_John_Robison.pdf)
+
+
+https://en.wikipedia.org/wiki/Tom_Frieden
+
+https://www.jhsph.edu/faculty/directory/profile/3492/thomas-v-inglesby
