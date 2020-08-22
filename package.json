@@ -67,6 +67,7 @@
     "webpack-dev-server": "^3.8.1",
     "webpack-manifest-plugin": "^2.0.4",
     "worker-loader": "^2.0.0",
+    "x2js": "^3.4.0",
     "xml2js-parseonly": "github:umeboshi2/node-xml2js",
     "xterm": "^3.14.5"
   },
