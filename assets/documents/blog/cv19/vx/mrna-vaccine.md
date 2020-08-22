@@ -15,3 +15,7 @@
 
 [mRNA vaccines — a new era in vaccinology](https://www.nature.com/articles/nrd.2017.243) [(PDF)](https://www.nature.com/articles/nrd.2017.243.pdf)
 
+
+[An mRNA Vaccine against SARS-CoV-2 — Preliminary Report](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7377258/)
+
+https://www.youtube.com/watch?v=ywuCRVJVDqs

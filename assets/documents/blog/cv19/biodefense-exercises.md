@@ -34,3 +34,6 @@
 
 
 [Public Health Emergency Preparedness Exercises: Lessons Learned](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966651/)
+
+
+[Topic Collection: Bioterrorism and High Consequence Biological Threats](https://asprtracie.hhs.gov/technical-resources/41/bioterrorism-and-high-consequence-biological-threats/27)
