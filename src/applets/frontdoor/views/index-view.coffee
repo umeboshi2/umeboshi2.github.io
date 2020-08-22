@@ -2,12 +2,9 @@ Backbone = require 'backbone'
 Marionette = require 'backbone.marionette'
 tc = require 'teacup'
 marked = require 'marked'
+$ = require 'jquery'
 
 { navigate_to_url } = require 'tbirds/util/navigate-to-url'
-
-view_template = tc.renderable (model) ->
-  tc.div '.row.listview-list-entry', ->
-    tc.raw marked '# Hello World!!'
 
 DefaultStaticDocumentTemplate = tc.renderable (post) ->
   tc.article '.document-view.content.row', ->
@@ -16,6 +13,12 @@ DefaultStaticDocumentTemplate = tc.renderable (post) ->
     
 class MainView extends Marionette.View
   template: DefaultStaticDocumentTemplate
+  ui:
+    anchor: 'a'
+  onRender: ->
+    for a in @ui.anchor
+      if a.hash.startsWith '#pages/'
+        $(a).css 'color', 'SkyBlue'
     
 module.exports = MainView
 
