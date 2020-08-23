@@ -33,6 +33,12 @@ class Controller extends MainController
         MessageChannel.request 'info', 'failed to fetch model'
     # name the chunk
     , 'crown-view-index'
-      
+  viewRSS: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/rss-view').default
+      view = new View
+      @layout.showChildView 'content', view
+    
 export default Controller
 

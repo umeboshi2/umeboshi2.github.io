@@ -17,6 +17,10 @@ appletMenu = [
     label: 'Main'
     url: '#crown'
     icon: '.fa.fa-star'
+  },{
+    label: 'RSS'
+    url: '#crown/rss'
+    icon: '.fa.fa-quora'
   }
   ]
 
@@ -24,6 +28,7 @@ class Router extends AppRouter
   channelName: appName
   appRoutes:
     'crown': 'viewIndex'
+    'crown/rss': 'viewRSS'
     
 class Applet extends TkApplet
   Controller: Controller
