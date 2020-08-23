@@ -17,8 +17,11 @@ class MainView extends Marionette.View
     anchor: 'a'
   onRender: ->
     for a in @ui.anchor
-      if a.hash.startsWith '#pages/'
+      hash = a.hash
+      if hash.startsWith '#pages/'
         $(a).css 'color', 'SkyBlue'
-    
+      if hash.startsWith '#crown/'
+        $(a).css 'color', 'SkyBlue'
+        
 module.exports = MainView
 

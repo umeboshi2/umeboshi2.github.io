@@ -18,9 +18,9 @@ appletMenu = [
     url: '#crown'
     icon: '.fa.fa-star'
   },{
-    label: 'RSS'
-    url: '#crown/rss'
-    icon: '.fa.fa-quora'
+    label: 'CoH Calendar'
+    url: '#crown/calendar/coh'
+    icon: '.fa.fa-calendar'
   }
   ]
 
@@ -29,13 +29,14 @@ class Router extends AppRouter
   appRoutes:
     'crown': 'viewIndex'
     'crown/rss': 'viewRSS'
+    'crown/calendar/coh': 'viewCoHCalendar'
     
 class Applet extends TkApplet
   Controller: Controller
   Router: Router
   appletEntries: [
     {
-      label: "#{capitalize appName} Menu"
+      label: "App Menu"
       menu: appletMenu
     }
   ]

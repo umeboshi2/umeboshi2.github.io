@@ -39,6 +39,16 @@ class Controller extends MainController
       View = require('./views/rss-view').default
       view = new View
       @layout.showChildView 'content', view
-    
+    # name the chunk
+    , 'crown-view-rss'
+  viewCoHCalendar: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/coh-calendar').default
+      view = new View
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'crown-view-calendar'
+  
 export default Controller
 
