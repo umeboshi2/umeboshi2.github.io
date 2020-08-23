@@ -36,6 +36,8 @@
 
 1. [Warren Buffett](#pages/blog/cv19/people/warren-buffett)
 
+1. [Ghislaine Maxwell](#pages/blog/cv19/people/ghislaine-maxwell)
+
 #### Other People
 
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
