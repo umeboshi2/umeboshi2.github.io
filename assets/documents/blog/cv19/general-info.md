@@ -33,6 +33,8 @@ data is.
 [State Executive Orders](https://www.sos.ms.gov/content/executiveorders/) don't
 even exist unless they are published here first.
 
+[Hattiesburg Executive Order Calendar](#crown/calendar/coh)
+
 [Mask Up HBurg](http://maskuphburg.com/index.html) is a local site where 
 buisiness partners encourage participation in a COVID action platform.
 
