@@ -171,6 +171,10 @@ WebPackConfig =
       }
       coffeeLoaderRule.production
       woffRule
+      {
+        test: /\.ya?ml$/
+        use: 'js-yaml-loader'
+      }
       # FIXME combine next two rules
       {
         test: /\.(gif|png|eot|ttf)?$/
