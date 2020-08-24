@@ -15,21 +15,31 @@ import '@fullcalendar/list/main.css'
 
 import navigateToUrl from 'tbirds/util/navigate-to-url'
 
-import cityOrders from '../events/coh-orders'
+import someEvents from '../../../../assets/events/main.yml'
+
+console.log "someEvents", someEvents
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
-makeOrderFilename = (id) ->
-  return "exec_order_2020-#{id}.pdf"
-  
-makeOrderUrl = (id) ->
-  base = "http://www.hattiesburgms.com/wp-content/uploads/"
-  return base + makeOrderFilename id
+loadingCalendarEvents = (isTrue) ->
+  console.log "loadingCalendarEvents", isTrue
+  loading = $('loading')
+  header = $('.fc-toolbar')
+  if isTrue
+    loading.show()
+    header.hide()
+  else
+    loading.hide()
+    header.show()
 
 class CalendarView extends Marionette.View
   template: tc.renderable (model) ->
+    tc.div '#loading', style:'display: none;', ->
+      tc.h2 ->
+        tc.i '.fa.fa-spinner.fa-spin'
+        tc.text 'Loading Events'
     tc.div '#maincalendar.col-sm-10.offset-sm-1'
   ui:
     calendar: '#maincalendar'
@@ -57,10 +67,10 @@ class CalendarView extends Marionette.View
         ]
       defaultDate: date
       header:
-        left: 'prev, next'
+        left: 'prevYear, nextYear'
         center: 'title'
-        right: 'dayGridMonth, timeGridWeek, timeGridDay'
-      events: cityOrders
+        right: 'prev, next, dayGridMonth, timeGridWeek, timeGridDay'
+      events: someEvents
       eventClick: calEventClick
     @fullCalendar.render()
     

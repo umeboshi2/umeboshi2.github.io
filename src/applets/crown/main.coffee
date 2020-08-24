@@ -21,6 +21,10 @@ appletMenu = [
     label: 'CoH Calendar'
     url: '#crown/calendar/coh'
     icon: '.fa.fa-calendar'
+  },{
+    label: 'News Calendar'
+    url: '#crown/calendar/news'
+    icon: '.fa.fa-calendar'
   }
   ]
 
@@ -30,6 +34,7 @@ class Router extends AppRouter
     'crown': 'viewIndex'
     'crown/rss': 'viewRSS'
     'crown/calendar/coh': 'viewCoHCalendar'
+    'crown/calendar/news': 'viewNewsCalendar'
     
 class Applet extends TkApplet
   Controller: Controller
