@@ -42,6 +42,7 @@
     "imports-loader": "^0.8.0",
     "jquery-ui": "^1.12.1",
     "js-beautify": "^1.10.2",
+    "js-yaml-loader": "^1.2.2",
     "json-view": "github:umeboshi2/json-view",
     "lovefield": "^2.1.12",
     "mini-css-extract-plugin": "^0.8.0",
@@ -69,7 +70,8 @@
     "worker-loader": "^2.0.0",
     "x2js": "^3.4.0",
     "xml2js-parseonly": "github:umeboshi2/node-xml2js",
-    "xterm": "^3.14.5"
+    "xterm": "^3.14.5",
+    "yaml-js": "^0.2.3"
   },
   "dependencies": {}
 }
