@@ -61,6 +61,16 @@ completely unreproducible by other scientists."
 
 https://www.facebook.com/maryjosperry/posts/10222907343927750
 
+
+[Homo sapiens chromosome 8, GRCh38.p13 Primary Assembly](https://www.ncbi.nlm.nih.gov/nucleotide/NC_000008.11?report=genbank&log%24=nuclalign&from=63648346&to=63648363)
+
+[BOMBSHELL: WHO Coronavirus PCR Test Primer Sequence is Found in All Human DNA](https://pieceofmindful.com/2020/04/06/bombshell-who-coronavirus-pcr-test-primer-sequence-is-found-in-all-human-dna/)
+
+[Real Time RT-PCR Assays for the Detection of Sars-cov2 (PDF)](https://www.who.int/docs/default-source/coronaviruse/real-time-rt-pcr-assays-for-the-detection-of-sars-cov-2-institut-pasteur-paris.pdf?sfvrsn=3662fcb6_2)
+
+[Gene Targets](https://www.who.int/docs/default-source/coronaviruse/whoinhouseassays.pdf?sfvrsn=de3a76aa_2)
+
+
 ## Video
 
 <iframe width="320" height="240" src="https://www.youtube.com/embed/-PQ4CMP72OE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

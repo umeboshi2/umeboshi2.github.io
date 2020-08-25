@@ -23,3 +23,8 @@ NCBI announces that the [novel coronavirus complete genome from the Wuhan outbre
 [Novel 2019 coronavirus genome](https://virological.org/t/novel-2019-coronavirus-genome/319)
 
 [Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3?report=genbank)
+
+
+[Defining “mutation” and “polymorphism” in the era of personal genomics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4502642/)
+
+[A History of the Human Genome Project](https://science.sciencemag.org/content/291/5507/1195.full)

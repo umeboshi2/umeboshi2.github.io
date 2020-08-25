@@ -6,6 +6,7 @@
   - [Shadow Government](#shadow-government)
   - [Cosmocracy](#cosmocracy)
   - [Dead Scientists](#dead-scientists)
+  - [Old News](#old-news)
   - [Notable Conspiracy Theorists](#notable-conspiracy-theorists)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -68,6 +69,11 @@ Wikipedia Pages:
 The [Dead Scientists](#pages/blog/cv19/dead-scientists) page lists
 a large number of scientists, mainly microbiologists, who passed away 
 within a short number of years.
+
+## Old News
+
+[Franklin child prostitution ring allegations](https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations)
+
 
 
 ## Notable Conspiracy Theorists

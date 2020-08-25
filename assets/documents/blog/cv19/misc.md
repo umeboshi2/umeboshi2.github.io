@@ -138,3 +138,6 @@ https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you
 
 
 https://www.facebook.com/CityofHattiesburg/posts/3188932427843003
+
+
+https://acu2020.org/english-versions/
