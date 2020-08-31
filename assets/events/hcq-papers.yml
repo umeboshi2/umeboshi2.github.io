@@ -10,7 +10,7 @@ events:
     title: New insights into the antiviral effects of chloroquine
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7129107/
   - start: 2012-12-04
-    journal: unknown
+    journal: Cell Research
     title: Anti-malaria drug chloroquine is highly effective in treating avian influenza A H5N1 virus infection in an animal model
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3567830/
   - start: 2020-04-24
@@ -19,10 +19,12 @@ events:
     link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
   - start: 2020-05-27
     journal: American Journal of Epidemiology
+    authors: Harvey A Risch
     title: Early Outpatient Treatment of Symptomatic, High-Risk Covid-19 Patients that Should be Ramped-Up Immediately as Key to the Pandemic Crisis
     link: https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
     extra:
-      - pdflink: https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
+      - name: (PDF)
+        link: https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
   - start: 2020-07-02
     title: Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
@@ -31,9 +33,27 @@ events:
     title: Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19
     link: https://www.nejm.org/doi/full/10.1056/NEJMoa2019014
     extra:
-     - supplementary_appendix: nejmoa2019014_appendix.pdf
+     - name: Supplementary Appendix (PDF)
+       link: https://www.nejm.org/doi/suppl/10.1056/NEJMoa2019014/suppl_file/nejmoa2019014_appendix.pdf
   - start: 2020-07-30
     journal: Indian J Med Res
     authors : Chatterjee P, Anand T, Singh KJ, Rasaily R, Singh R, Das S, Singh H, Praharaj I, Gangakhedkar RR, Bhargava B, Panda S. 
     title: "Healthcare workers & SARS-CoV-2 infection in India: A case-control investigation in the time of COVID-19."
     link: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
+  - start: 2020-07-16
+    journal: Ann. Intern. Med.
+    title: Hydroxychloroquine in Nonhospitalized Adults With Early COVID-19
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384270/
+    extra:
+      - name: Original Article
+        link: https://www.acpjournals.org/doi/10.7326/M20-4207
+  - start: 2020-06-03
+    title: "Rationale and Design of ORCHID: A Randomized Placebo-Controlled Trial of Hydroxychloroquine for Adults Hospitalized with COVID-19"
+    link: https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202005-478SD
+    extra:
+      - name: (Clinical Trial Page)
+        link: https://clinicaltrials.gov/ct2/show/NCT04332991
+      - name: (PDF)
+        link: http://www.atsjournals.org/doi/pdf/10.1513/AnnalsATS.202005-478SD
+        
+      
