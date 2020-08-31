@@ -5,25 +5,11 @@ import marked from 'marked'
 import $ from 'jquery'
 import moment from 'moment'
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
+import LinkView from './link-view'
+
 
 MainChannel = Backbone.Radio.channel 'global'
 
-class LinkView extends Marionette.View
-  templateContext: ->
-    viewTitle: @getOption 'title'
-  template: tc.renderable (model) ->
-    tc.div ->
-      tc.h3 '.view-header', model.viewTitle
-      console.log "MODEL", model
-      for event in model.events
-        tc.p ->
-          tc.text moment.utc(event.start).format("MMMM D, YYYY")
-          tc.text " "
-          tc.a href:event.link, event.title
-  ui:
-    viewHeader: '.view-header'
-    
 class MainView extends Marionette.View
   template: tc.renderable (post) ->
     tc.article '.document-view.content.row', ->
