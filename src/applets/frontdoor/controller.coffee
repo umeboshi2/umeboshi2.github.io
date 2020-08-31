@@ -34,11 +34,12 @@ class Controller extends MainController
     @viewIndex()
     return
     
-  _viewResource: (doc) ->
+  _viewResource: (doc, name) ->
     require.ensure [], () =>
       View = require './views/index-view'
       view = new View
         model: doc
+        pageName: name
       @layout.showChildView 'content', view
       scroll_top_fast()
     # name the chunk
@@ -51,7 +52,7 @@ class Controller extends MainController
       data:
         nocache: Date.now()
     response.done =>
-      @_viewResource doc
+      @_viewResource doc, name
       return
     response.fail ->
       MessageChannel.request 'danger', 'Failed to get document'
