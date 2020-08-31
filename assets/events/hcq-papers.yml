@@ -1,7 +1,7 @@
 topic: hcq
 eventType: paper
 events:
-  - start: 2093-10-23
+  - start: 2003-10-23
     journal: Lancet Infectious Diseases
     title: "Effects of chloroquine on viral infections: an old drug against today's diseases"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7128816/
@@ -13,12 +13,27 @@ events:
     journal: unknown
     title: Anti-malaria drug chloroquine is highly effective in treating avian influenza A H5N1 virus infection in an animal model
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3567830/
+  - start: 2020-04-24
+    journal: JAMA
+    title: "Effect of High vs Low Doses of Chloroquine Diphosphate as Adjunctive Therapy for Patients Hospitalized With Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection: A Randomized Clinical Trial"
+    link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
   - start: 2020-05-27
-    journal: unknown
+    journal: American Journal of Epidemiology
     title: Early Outpatient Treatment of Symptomatic, High-Risk Covid-19 Patients that Should be Ramped-Up Immediately as Key to the Pandemic Crisis
     link: https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
-  - start: 2020-05-27
-    journal: unknown
-    title: Early Outpatient Treatment of Symptomatic, High-Risk Covid-19 Patients that Should be Ramped-Up Immediately as Key to the Pandemic Crisis (PDF)
-    link: https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
-    
+    extra:
+      - pdflink: https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
+  - start: 2020-07-02
+    title: Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
+  - start: 2020-07-23
+    journal: NEJM
+    title: Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19
+    link: https://www.nejm.org/doi/full/10.1056/NEJMoa2019014
+    extra:
+     - supplementary_appendix: nejmoa2019014_appendix.pdf
+  - start: 2020-07-30
+    journal: Indian J Med Res
+    authors : Chatterjee P, Anand T, Singh KJ, Rasaily R, Singh R, Das S, Singh H, Praharaj I, Gangakhedkar RR, Bhargava B, Panda S. 
+    title: "Healthcare workers & SARS-CoV-2 infection in India: A case-control investigation in the time of COVID-19."
+    link: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
