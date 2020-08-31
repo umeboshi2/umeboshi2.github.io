@@ -23,6 +23,9 @@ WHO
 29 March 2020
 [Modes of transmission of virus causing COVID-19: implications for IPC precaution recommendations - Scientific brief](https://www.who.int/news-room/commentaries/detail/modes-of-transmission-of-virus-causing-covid-19-implications-for-ipc-precaution-recommendations)
 
+[Temporal dynamics in viral shedding and transmissibility of COVID-19](https://www.nature.com/articles/s41591-020-0869-5)
+
+
 ### WHO papers
 
 World Health Organization. Infection prevention and control of epidemic- and pandemic-prone acute respiratory infections in health care. Geneva: World Health Organization; 2014 Available from: https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf?sequence=1

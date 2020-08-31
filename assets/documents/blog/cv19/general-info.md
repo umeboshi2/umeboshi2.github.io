@@ -5,6 +5,7 @@
 - [Data for Mississippi](#data-for-mississippi)
 - [Resources for Mississippi](#resources-for-mississippi)
 - [Genome Data](#genome-data)
+- [WHO](#who)
 - [CDC Pages](#cdc-pages)
 - [Other Articles](#other-articles)
 - [Research Papers](#research-papers)
@@ -42,6 +43,11 @@ buisiness partners encourage participation in a COVID action platform.
 
 Links for the genome data are [here](#pages/blog/cv19/genome-data).
 
+# WHO
+
+[WHO Press Briefings](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/press-briefings)
+
+
 # CDC Pages
 
 [Recent Studies Concerning Cloth Face Masks](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/cloth-face-cover-guidance.html#recent-studies)
@@ -59,6 +65,10 @@ Coronavirus Disease 2019 (COVID-19)"
 [Weekly Counts of Deaths by State and Select Causes, 2019-2020](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muzy-jte6)
 
 [United States COVID-19 Cases and Deaths by State](https://www.cdc.gov/covid-data-tracker/#cases)
+
+[Testing Overview](https://www.cdc.gov/coronavirus/2019-ncov/hcp/testing-overview.html)
+
+[Violence Prevention: A Public Health Approach](https://www.cdc.gov/violenceprevention/publichealthissue/publichealthapproach.html)
 
 
 # Other Articles

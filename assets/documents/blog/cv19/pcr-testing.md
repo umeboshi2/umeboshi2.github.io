@@ -41,6 +41,9 @@ May 12, 2020
 April 8, 2020
 [Corona: creating the illusion of a pandemic through diagnostic tests](https://blog.nomorefakenews.com/2020/04/08/corona-creating-illusion-of-pandemic-through-diagnostic-test/)
 
+[Are you infectious if you have a positive PCR test result for COVID-19?](https://www.cebm.net/covid-19/infectious-positive-pcr-test-result-covid-19/)
+
+
 ## Notes
 
 [PCR](https://en.wikipedia.org/wiki/Polymerase_chain_reaction)

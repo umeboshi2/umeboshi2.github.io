@@ -7,6 +7,7 @@
 - [Vaccine Liability](#vaccine-liability)
 - [Articles and Studies](#articles-and-studies)
 - [ACIP](#acip)
+- [Vaccine Candidates](#vaccine-candidates)
 - [More Stuff](#more-stuff)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -73,17 +74,13 @@ fifth page of the slideshow, we can see that the criteria for an EUA on
 a vaccine requires that there be "[n]o adequate, approved, and available 
 alternative" to a vaccine.
 
-###  More Stuff
 
-[Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/)
-
+### Vaccine Candidates
 
 Wikipedia has a page dedicated to a
 [Covid Vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
 
 [An updated guide to the coronavirus drugs and vaccines in development](https://www.statnews.com/2020/03/19/an-updated-guide-to-the-coronavirus-drugs-and-vaccines-in-development/)
-
-
 
 [Astrazeneca](#pages/blog/cv19/vx/astra)
 
@@ -93,6 +90,18 @@ Wikipedia has a page dedicated to a
 
 [mRNA Vaccines](#pages/blog/cv19/vx/mrna-vaccine)
 
+[ChAdOx1 and MVA based vaccine candidates against MERS-CoV elicit neutralising antibodies and cellular immune responses in mice](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5516308/)
+
+[A Novel Chimpanzee Adenovirus Vector with Low Human Seroprevalence: Improved Systems for Vector Derivation and Comparative Immunogenicity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3396660/)
+
+
+[University of Oxford coronavirus vaccine: everything we know so far](https://www.telegraph.co.uk/global-health/science-and-disease/oxford-trial-covid-19-coronavirus-vaccine/)
+
+[Merck Supports Jenner Institute to Reach First Milestone in Covid-19 Vaccine Manufacturing](https://www.prnewswire.com/in/news-releases/merck-supports-jenner-institute-to-reach-first-milestone-in-covid-19-vaccine-manufacturing-891225678.html)
+
+###  More Stuff
+
+[Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/)
 
 [The Impact of Vaccines on Mortality Decline Since 1900—According to Published Science](https://childrenshealthdefense.org/news/the-impact-of-vaccines-on-mortality-decline-since-1900-according-to-published-science/)
 
@@ -110,5 +119,10 @@ August 6, 2020, USA Today
 
 August 10, 2020, USA Today
 ["Make vaccines free, don't allow religious or personal objections, and create disincentives for those who refuse vaccines shown to be safe and effective."](https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/)
+
+
+[Aborted Fetal Cell Lines Used In Vaccines](http://nodeception.org/aborted-fetal-cell-lines-used-in-vaccines/)
+
+[The time has come for all schools to require the flu shot](https://www.cnn.com/2020/08/19/health/vaccine-flu-shot-sanchez-opinion-coronavirus/index.html)
 
 

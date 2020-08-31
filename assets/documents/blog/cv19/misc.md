@@ -141,3 +141,15 @@ https://www.facebook.com/CityofHattiesburg/posts/3188932427843003
 
 
 https://acu2020.org/english-versions/
+
+[Questioning the HIV-AIDS Hypothesis: 30 Years of Dissent](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4172096/)
+
+
+https://pieceofmindful.com/2020/04/06/bombshell-who-coronavirus-pcr-test-primer-sequence-is-found-in-all-human-dna/#comment-121824
+
+
+[From Lockdown to Police State: The “Great Reset” Rolls Out](https://ellenbrown.com/2020/08/22/from-lockdown-to-police-state-the-great-reset-rolls-out/)
+
+
+https://duckduckgo.com/?q=game+of+function+with+viruses&ia=web
+
