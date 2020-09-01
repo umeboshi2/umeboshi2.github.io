@@ -6,7 +6,7 @@ import $ from 'jquery'
 import moment from 'moment'
 
 import LinkView from './link-view'
-
+import VideoView from './video-view'
 
 MainChannel = Backbone.Radio.channel 'global'
 
@@ -18,6 +18,7 @@ class MainView extends Marionette.View
   ui:
     anchor: 'a'
     linkView: '.link-view'
+    videoView: '.video-view'
   colorLocalLinks: ->
     for a in @ui.anchor
       hash = a.hash
@@ -25,13 +26,26 @@ class MainView extends Marionette.View
         $(a).css 'color', 'SkyBlue'
       if hash.startsWith '#crown/'
         $(a).css 'color', 'SkyBlue'
+  showVidViews: ->
+    vidViews = @ui.videoView
+    if vidViews.length
+      mainView = @
+      vidViews.each (index) ->
+        jv = $(this)
+        id = jv.attr 'data-id'
+        regionId = "vid-region-#{index}"
+        rname = jv.attr 'id', regionId
+        region = mainView.addRegion "vid-region-#{index}", "##{regionId}"
+        view = new VideoView
+          id: id
+        region.show view
+        
   showLinkViews: ->
     linkViews = @ui.linkView
     if linkViews.length
       mainView = @
       linkViews.each (index) ->
         jv = $(this)
-        element = this
         eventsName = jv.attr('data-events')
         linkInfo = MainChannel.request 'main:app:get-events', eventsName
         response = linkInfo.fetch()
@@ -47,6 +61,7 @@ class MainView extends Marionette.View
   onRender: ->
     @colorLocalLinks()
     @showLinkViews()
+    @showVidViews()
     
           
 module.exports = MainView
