@@ -34,7 +34,7 @@ Iran and the Nicaraguan Opposition, which held public hearings on the
 Senator Inouye, summarizes here the coverup of the US Shadowy Government 
 involvement; by saying:
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/EbFphX5zb8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="EbFphX5zb8w"></div>
 
 "There exists a shadowy Government with its own Air Force, its own Navy, its 
 own fundraising mechanism, and the ability to pursue its own ideas of the 
