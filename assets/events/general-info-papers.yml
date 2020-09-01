@@ -1,0 +1,85 @@
+topic: general
+eventType: papers
+events:
+  - start: 2020-01-21
+    title: "Notes from the Field: A Novel Coronavirus Genome Identified in a Cluster of Pneumonia Cases — Wuhan, China 2019−2020"
+    link: http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e-4253b453d10c
+  - start: 2020-01-24
+    title: "Return of the Coronavirus: 2019-nCoV"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7077245/)
+  - start: 2020-02-17
+    journal: Int J Antimicrob Agents
+    title: "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/
+    extra:
+      - name: (PubMed)
+        link: https://pubmed.ncbi.nlm.nih.gov/32081636/
+  - start: 2020-02-20
+    title: A Novel Coronavirus from Patients with Pneumonia in China, 2019
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092803/
+  - start: 2020-02-21
+    title: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/
+  - start: 2020-02-27
+    title: Emergence of a novel human coronavirus threatening human health
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7095779/
+  - start: 2020-02-19
+    title: Identification of Coronavirus Isolated from a Patient in Korea with COVID-19
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7045880/
+  - start: 2020-03-20
+    title: "What we know so far: COVID-19 current clinical knowledge and research"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7081812/
+  - start: 2020-03-26
+    title: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
+  - start: 2020-04-01
+    title: Universal Masking in Hospitals in the Covid-19 Era
+    link: https://www.nejm.org/doi/full/10.1056/NEJMp2006372
+  - start: 2020-05-08
+    title: The SARS-CoV-2, a new pandemic zoonosis that threatens the world
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7205683/
+  - start: 2020-05-11
+    title: "Melatonin Inhibits COVID-19-induced Cytokine Storm by Reversing Aerobic Glycolysis in Immune Cells: A Mechanistic Analysis"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7211589/
+  - start: 2020-05-27
+    title: Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission
+    link: https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext
+  - start: 2020-06-15
+    title: "Novel SARS-CoV-2/COVID-19: Origin, pathogenesis, genes and genetic variations, immune responses and phylogenetic analysis"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7295489/
+  - start: 2020-06-26
+    title: Ensuring Uptake of Vaccines against SARS-CoV-2
+    link: https://www.nejm.org/doi/full/10.1056/NEJMp2020926
+  - start: 2020-03-19
+    title: SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients
+    link: https://www.nejm.org/doi/full/10.1056/NEJMc2001737
+    extra:
+      - name: (PDF)
+        link: https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true
+  - start: 2020-01-30
+    title: Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany
+    link: https://www.nejm.org/doi/full/10.1056/NEJMc2001468
+    extra:
+      - name: (pubmed)
+        link: https://pubmed.ncbi.nlm.nih.gov/32003551/
+      - name: (PDF)
+        link: https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true
+  - start: 2020-02-19
+    title: Asymptomatic cases in a family cluster with SARS-CoV-2 infection
+    link: https://pubmed.ncbi.nlm.nih.gov/32087116/
+    extra:
+      - name: (PDF)
+        link: https://www.thelancet.com/pdfs/journals/laninf/PIIS1473-3099(20)30114-6.pdf
+      - name: (supplement pdf)
+        link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf
+  - start: 2020-02-19
+    title: Persistent hiccups as an atypical presenting complaint of COVID-19
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165082/
+    
+
+    
+    
+    
+    
+
+    
