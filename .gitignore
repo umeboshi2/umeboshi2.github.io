@@ -70,3 +70,12 @@ stats-dev.json
 # ignore symlinked applets
 /src/applets/bumblr
 /src/applets/moviedb
+
+
+# temporary ignores
+/myshows.json
+/get_showids.py
+/make-time-files.py
+/assets/documents/blog/govt/*cases.md
+/stuff
+
