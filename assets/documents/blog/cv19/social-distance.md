@@ -4,7 +4,6 @@
 
 - [Social Distancing](#social-distancing)
   - [CDC Pages](#cdc-pages)
-  - [News Articles](#news-articles)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -30,20 +29,5 @@
 [The Social Distancing Law Assessment Template](https://www.cdc.gov/phlp/publications/social_distancing.html)
 
 
-### News Articles
+<div class="link-view" data-title="News Articles"  data-events="social-distance"></div>
 
-May 15, 2020
-[The 2006 Origins of the Lockdown Idea](https://www.aier.org/article/the-2006-origins-of-the-lockdown-idea/)
-
-May 21, 2020
-[How a Free Society Deals with Pandemics, According to Legendary Epidemiologist and Smallpox Eradicator Donald Henderson](https://www.aier.org/article/how-a-free-society-deals-with-pandemics-according-to-legendary-epidemiologist-and-smallpox-eradicator-donald-henderson/)
-
-June 15, 2020
-[CDC finally issues social-distancing guidelines as states press forward with reopening plans](https://www.marketwatch.com/story/cdc-finally-issues-social-distancing-guidelines-as-states-press-forward-with-reopening-plans-2020-06-12)
-
-June 24, 2020
-[How to social distance as beauty salons, stores and restaurants reopen](https://www.cnet.com/health/social-distancing-how-to-do-it-who-should-do-it-and-for-how-long/)
-
-
-
-[Disease Mitigation Measures in the Control of Pandemic Influenza](http://www.upmc-biosecurity.org/website/resources/publications/2006/2006-09-15-diseasemitigationcontrolpandemicflu.html) [(PDF)](https://www.aier.org/wp-content/uploads/2020/05/10.1.1.552.1109.pdf)
