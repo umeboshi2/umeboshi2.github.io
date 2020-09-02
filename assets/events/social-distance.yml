@@ -1,0 +1,33 @@
+topic: social-distance
+eventType: papers
+events:
+  - start: 2020-05-15
+    title: The 2006 Origins of the Lockdown Idea
+    link: https://www.aier.org/article/the-2006-origins-of-the-lockdown-idea/
+  - start: 2020-05-21
+    title: How a Free Society Deals with Pandemics, According to Legendary Epidemiologist and Smallpox Eradicator Donald Henderson
+    link: https://www.aier.org/article/how-a-free-society-deals-with-pandemics-according-to-legendary-epidemiologist-and-smallpox-eradicator-donald-henderson/
+  - start: 2020-06-15
+    title: CDC finally issues social-distancing guidelines as states press forward with reopening plans
+    link: https://www.marketwatch.com/story/cdc-finally-issues-social-distancing-guidelines-as-states-press-forward-with-reopening-plans-2020-06-12
+  - start: 2020-06-24
+    title: How to social distance as beauty salons, stores and restaurants reopen
+    link: https://www.cnet.com/health/social-distancing-how-to-do-it-who-should-do-it-and-for-how-long/
+  - start: 2006-09-15
+    journal: Biosecurity and Bioterrorism
+    title: Disease Mitigation Measures in the Control of Pandemic Influenza
+    link: http://www.upmc-biosecurity.org/website/resources/publications/2006/2006-09-15-diseasemitigationcontrolpandemicflu.html
+    extra:
+      - name: (PDF)
+        link: https://www.aier.org/wp-content/uploads/2020/05/10.1.1.552.1109.pdf
+  - start: 2006-11-01
+    pretext: (estimated date)
+    journal: CDC - Emerging Infectious Diseases
+    title: Targeted Social Distancing Designs for Pandemic Influenza
+    link: https://wwwnc.cdc.gov/eid/article/12/11/06-0255_article
+    
+        
+    
+    
+
+    
