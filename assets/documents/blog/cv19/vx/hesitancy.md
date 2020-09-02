@@ -17,8 +17,7 @@
 The links below are taken from [here](https://www.corbettreport.com/mybody/).
 
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/iOuihO6b2SI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="iOuihO6b2SI"></div>
 
 [Forced Vaccination: The Tragic Legacy of Jacobson v. Massachusetts](https://www.nvic.org/NVIC-Vaccine-News/November-2016/forced-vaccination-the-tragic-legacy.aspx) [(youtube)](https://www.youtube.com/watch?v=kUBBQSKCceM)
 
@@ -56,8 +55,7 @@ available to combat it.
 Learn more about ESCAIDE: escaide.eu
 Visit ECDC website: ecdc.europa.eu
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/1LCcaYoaZWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="1LCcaYoaZWg"></div>
 
 **60 Minutes Mike Wallace Exposes the 1976 Swine Flu Pandemic Vaccine Injuries**
 
@@ -73,8 +71,7 @@ Tyler Moore, had taken the vaccine.  Ms. Moore tells CBS that she refused the
 shot.
 
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/fhiyML3zwkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+<div class="video-view" data-id="fhiyML3zwkk"></div>
 
 
 

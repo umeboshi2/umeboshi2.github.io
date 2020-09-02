@@ -131,7 +131,8 @@ by Brown, E. Richard (1979)
 
 **Rockefeller Medicine - History of how holistic medicine was removed.**
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/3Ju2VmVVX2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="3Ju2VmVVX2c"></div>
+
 
 Many people don't know how we ended up with the health care system we currently 
 employ.  Learn the history, open you eyes, then make a choice!
@@ -142,27 +143,29 @@ employ.  Learn the history, open you eyes, then make a choice!
 
 [report](https://www.corbettreport.com/episode-286-rockefeller-medicine/)
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/X6J_7PvWoMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="X6J_7PvWoMw"></div>
 
 **Rockefeller's Double Game in GMO Foods and Depopulation**
 
 https://www.youtube.com/watch?v=bZsazm0VCXA
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/bZsazm0VCXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="bZsazm0VCXA"></div>
 
 
 **The Money Takeover of Medicine**
 
 https://www.youtube.com/watch?v=mWB2lotgByI
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/mWB2lotgByI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="mWB2lotgByI"></div>
 
 **Eustace Mullins The Rockefeller Drug Empire**
 
 
-<!-- <iframe width="32" height="24" src="https://www.youtube.com/embed/l6WvjS_6xvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>!-->
+<!-- 
+<div class="video-view" data-id="l6WvjS_6xvk"></div>
+!-->
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/hIBPVKUl52g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="hIBPVKUl52g"></div>
 
 ### The Lockstep Scenario
 

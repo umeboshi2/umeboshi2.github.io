@@ -29,7 +29,7 @@ claimed were to prevent patriots from interfering with plans to establish a
 "New World Order".[4][5][9] The supposed FEMA Camp was the Beech Grove Shops, 
 an Amtrak repair facility in Beech Grove, Indiana.
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/SpzxUqYEzwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="SpzxUqYEzwU"></div>
 
 [FEMA camps conspiracy theory](https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory)
 

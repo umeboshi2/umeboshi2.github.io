@@ -104,7 +104,7 @@ President of [MasterCard](#pages/blog/cv19/mastercard)'s Strategic Growth,
 and Dr Seth Berkley, CEO of Gavi, the Vaccine Alliance discussing why 
 innovation in [digital ID](#pages/blog/cv19/id2020) is key to Gavi’s mission."
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/-aBE4JpHzVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="-aBE4JpHzVE"></div>
 
 **What Gavi will do now**
 
@@ -112,9 +112,8 @@ Gavi CEO Seth Berkley explains what Gavi will be able to do with $7.5 billion at
 
 "The power of **vaccines**.  No other intervention touches **so many lives**."
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/XsPu-JCR_3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="XsPu-JCR_3w"></div>
 
 **#Coronavirus Global Response International Pledging Conference**
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/ngBTZ4xp3HM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="ngBTZ4xp3HM"></div>

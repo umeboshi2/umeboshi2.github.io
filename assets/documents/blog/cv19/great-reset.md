@@ -59,7 +59,7 @@ Mohammad Jaafar, Bob Moritz, Geraldine Matchett, Dr Phillip Atiba Goff,
 discuss how to rebuild the ‘social contract’ in a world where millions of 
 people have lost their jobs and faith in democracy is under extreme pressure.
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/ddGQTcuV-eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="ddGQTcuV-eg"></div>
 
 The World Economic Forum is the International Organization for Public-Private 
 Cooperation. The Forum engages the foremost political, business, cultural and 
@@ -75,5 +75,4 @@ address the need for a more fair, sustainable and resilient future, and a new
 social contract centred on human dignity, social justice and where societal 
 progress does not fall behind economic development."
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/pfVdMWzKwjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="pfVdMWzKwjc"></div>

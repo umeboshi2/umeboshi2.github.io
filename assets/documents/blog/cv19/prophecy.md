@@ -14,5 +14,4 @@
 
 ## Video
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/v1hc2W2tSUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="v1hc2W2tSUw"></div>

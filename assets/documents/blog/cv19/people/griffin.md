@@ -22,8 +22,7 @@ various of his political, defense and health care interests."
 
 ## Conspiracy - A Powerful Documentary By G. Edward Griffin (1969)
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/0qqL7CcNoZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="0qqL7CcNoZ4"></div>
 
 ## Norman Dodd On Tax Exempt Foundations
 
@@ -35,7 +34,7 @@ This is a truly eye opening look into what the tax exempt foundations are
 doing in the United States - their attempt to merge the Soviet System of 
 Government with the USA.
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/YUYCBfmIcHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="YUYCBfmIcHM"></div>
 
 [The Dodd Report (PDF)](https://ia800304.us.archive.org/19/items/DoddReportToTheReeceCommitteeOnFoundations-1954-RobberBaron/Dodd-Report-to-the-Reece-Committee-on-Foundations-1954.pdf)
 

@@ -29,6 +29,6 @@ by the alias of Dr. William Levingston."
 
 **Meet William Rockefeller, Snake Oil Salesman**
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/xat9xSos_7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="xat9xSos_7g"></div>
 
 [Transcript and Sources](https://www.corbettreport.com/meet-william-rockefeller-snake-oil-salesman/)

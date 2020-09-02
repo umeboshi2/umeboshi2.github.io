@@ -76,7 +76,8 @@ https://www.facebook.com/maryjosperry/posts/10222907343927750
 
 ## Video
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/-PQ4CMP72OE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="-PQ4CMP72OE" ></div>
+
 
 ### PCR - Polymerase Chain Reaction Simplified
 
@@ -89,7 +90,8 @@ in 1983 while he was an employee of the Cetus Corporation. He was awarded the
 Nobel Prize in Chemistry in 1993 (along with Michael Smith) for his work in 
 developing the method."
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/uKeMiAZ8Zu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="uKeMiAZ8Zu4" ></div>
+
 
 "Typically, PCR consists of a series of 20–40 repeated temperature changes, 
 called thermal cycles, with each cycle commonly consisting of two or three 
@@ -104,18 +106,18 @@ temperature (Tm) of the primers."
 
 ### Polymerase chain reaction (PCR)
 
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/aUBJtHwHASA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="aUBJtHwHASA"></div>
 
 
 ### Two more
 
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/Vd38iS_W7ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="320" height="240" src="https://www.youtube.com/embed/TdIsTLg7RQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="Vd38iS_W7ww"></div>
 
 
 Meet the One-Minute Coronavirus Breath Test
 :See how BGU's Prof. Gabby Sarusi's 60-second COVID-19 breath test works 
 using chip technology, developed at Ben-Gurion University of the Negev."
-https://www.youtube.com/watch?v=BGOzDvC6U7c
+
+<div class="video-view" data-id="BGOzDvC6U7c"></div>
+
+

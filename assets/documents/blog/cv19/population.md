@@ -68,15 +68,11 @@ SEPTEMBER 14, 1994
 
 **David Rockefeller speaks about population control.**
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/ClqUcScwnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<div class="video-view" data-id="ClqUcScwnn8"></div>
 
 **DECLASSIFIED Population Reduction By Government Vaccines Forced Sterilization**
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/NNm51i2ShQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<div class="video-view" data-id="NNm51i2ShQE"></div>
 
 [NWO - Zitate von Rockefeller & Co. - Neue Weltordnung](https://archive.org/details/nwozitatevonrockefellerco.neueweltordnung)
 

@@ -17,7 +17,7 @@
 
 ## Behold A Pale Horse - William (Bill) Cooper (Full Lecture)
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/pE3nOrDEOzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="pE3nOrDEOzQ"></div>
 
 ## National Security Agency
 
@@ -36,14 +36,13 @@ the National Security Agency." [(Wikipedia)](https://en.wikipedia.org/wiki/Black
 National Security Agency by William (Bill) Cooper- The Hour Of The Time 788
 
   1. Episode 1
-	 <iframe width="320" height="240" src="https://www.youtube.com/embed/2yYCagMv0Eg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	 <div class="video-view" data-id="2yYCagMv0Eg"></div>
   
   2. Episode 2
-	 <iframe width="320" height="240" src="https://www.youtube.com/embed/ggEsGuBem1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	 <div class="video-view" data-id="ggEsGuBem1M"></div>
 
   3. Episode 3
-	 <iframe width="320" height="240" src="https://www.youtube.com/embed/QgVuB_alArY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	 <div class="video-view" data-id="QgVuB_alArY"></div>
 
   4. Episode 4
-	 <iframe width="320" height="240" src="https://www.youtube.com/embed/S_9M-JwGmaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+	 <div class="video-view" data-id="S_9M-JwGmaM"></div>

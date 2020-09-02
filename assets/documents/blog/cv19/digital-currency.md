@@ -18,7 +18,7 @@
 
 This event was held by the [World Economic Forum](#pages/blog/cv19/wef)
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/mzkU1RHovgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="mzkU1RHovgQ"></div>
 
 In this video, speakers explore "[t]he possibility of a trusted  *global 
 digital currency* [which] has sparked political, economic and regulatory 

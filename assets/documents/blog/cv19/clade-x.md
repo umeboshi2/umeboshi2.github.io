@@ -32,25 +32,25 @@ participants and the audience. Lessons learned from Clade X will be distilled
 by the Center and shared broadly." [(Youtube Playlist)](https://www.youtube.com/watch?v=sJ1x8SlNxj0&list=PL9-oVXQX88etOom0YJndz0xw21AnQmfvV)
 
 ### Clade X Pandemic Exercise: Segment 1
-<iframe width="320" height="240" src="https://www.youtube.com/embed/sJ1x8SlNxj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="video-view" data-id="sJ1x8SlNxj0"></div>
 
 ### Clade X Pandemic Exercise: Segment 2
 
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/-4xiQHv4Y20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="-4xiQHv4Y20"></div>
 
 
 ### Clade X Pandemic Exercise: Segment 3
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/QeRAb5JE1Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="QeRAb5JE1Pw"></div>
 
 ### Clade X Pandemic Exercise: Segment 4
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/tqa7NHq73xM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="tqa7NHq73xM"></div>
 
 ### Clade X pandemic exercise short movie
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/4grOOGZryFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="4grOOGZryFo"></div>
 
 ### Clade X Pandemic Simulation 2018
 
@@ -59,7 +59,7 @@ The complete simulation is available on YouTube
 [here](https://www.youtube.com/results?search_query=Clade+X)."
 
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/H_rt6pXO-9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="H_rt6pXO-9U"></div>
 
 ##### United States Plan for a Pandemic
 
@@ -70,6 +70,5 @@ virus "Clade X" and you can see the safety protocols that would be put in
 place, like quarantine and isolation. And for the sake of all of humanity, 
 wash your hands, and if you can, stay home."
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/HVpz19qvllQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="HVpz19qvllQ"></div>
 

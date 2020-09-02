@@ -66,7 +66,7 @@ The Great Reset [Page](#pages/blog/cv19/great-reset)
 
 #### Creating a Credible and Trusted Digital Currency
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/mzkU1RHovgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="mzkU1RHovgQ"></div>
 
 In this video, speakers explore "[t]he possibility of a trusted  *global 
 digital currency* [which] has sparked political, economic and regulatory 
@@ -84,7 +84,7 @@ Self-driving cars. Neuro-technological brain enhancements. Genetic editing.
 The evidence of dramatic change is all around us and it’s happening at 
 exponential speed. 
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/kpW9JcWxKq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="kpW9JcWxKq0"></div>
 
 Previous industrial revolutions liberated humankind from animal power, made 
 mass production possible and brought digital capabilities to billions of 
@@ -107,7 +107,7 @@ future thanks to an intergenerational mindset and culture. What can other
 businesses learn from them about sustainable, profitable and equitable business 
 practice?"
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/6bwJFeQqGMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="6bwJFeQqGMI"></div>
 
 ### AI and Government
 
@@ -141,6 +141,4 @@ With
 	Jerusalem, Israel
 
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/hL9uk4hKyg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<div class="video-view" data-id="hL9uk4hKyg4"></div>

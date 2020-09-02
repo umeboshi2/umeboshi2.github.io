@@ -25,33 +25,29 @@ FRONTLINE investigates the promise and perils of AI and automation, tracing a
 new industrial revolution that will reshape and disrupt our world, and allow 
 the emergence of a surveillance society.
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/5dZ_lvDgevk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="5dZ_lvDgevk"></div>
 
 ### Deep Learning
 
 Chapter 1
 But what is a Neural Network?
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="aircAruvnKk"></div>
 
 Chapter 2
 Gradient descent, how neural networks learn
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/IHZwWFHWa-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="IHZwWFHWa-w"></div>
 
 Chapter 3
 What is backpropagation really doing?
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/Ilg3gGewQ5U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="Ilg3gGewQ5U"></div>
 
 Chapter 4
 Backpropagation calculus
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/tIeHLnjs5U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
+<div class="video-view" data-id="tIeHLnjs5U8"></div>
 
 
 
@@ -73,5 +69,5 @@ making."
 
 **But what is a Fourier series? From heat flow to circle drawings**
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/r6sGWTCMz2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="r6sGWTCMz2k"></div>
 

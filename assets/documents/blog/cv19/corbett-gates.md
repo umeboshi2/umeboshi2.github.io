@@ -39,26 +39,26 @@ of global health and development, global growth, and global policy advocacy."
 "Indeed, it would be almost impossible to find any area of global health that 
 has been left untouched by the tentacles of the Bill & Melinda Gates Foundation."
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/wQSYdAX_9JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="wQSYdAX_9JY"></div>
+
 
 ### Part Two: Bill Gates’ Plan to Vaccinate the World
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/o7A_cMpKm6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="o7A_cMpKm6w"></div>
 
 ### Part Three: Bill Gates and the Population Control Grid
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/igx86PoU7v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="igx86PoU7v8"></div>
 
 ### Part Four: Meet Bill Gates
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/DSvhPnUgyz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="video-view" data-id="DSvhPnUgyz8"></div>
 
 ## Fact Check: Bill Gates and the "God Gene" Vaccine
 
 [Show Notes](https://www.corbettreport.com/fact-check-bill-gates-and-the-god-gene-vaccine/)
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/DawyMdbRQSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="DawyMdbRQSU"></div>
 
 ### How Governments Are Hunting the Infected - #NewWorldNextWeek
 
@@ -92,13 +92,15 @@ https://bit.ly/2TqqVYh
 https://bit.ly/2ZtEjyV
 
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/HfqdSG4dtsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="HfqdSG4dtsg"></div>
 
 ### The rest
 
-<iframe width="320" height="160" src="https://www.youtube.com/embed/3Jg4jzDmMac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="320" height="160" src="https://www.youtube.com/embed/k1trzdmwR2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="320" height="160" src="https://www.youtube.com/embed/8lh-HGcXE1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="3Jg4jzDmMac"></div>
+
+<div class="video-view" data-id="k1trzdmwR2M"></div>
+
+<div class="video-view" data-id="8lh-HGcXE1Q"></div>
 
 ### More Stuff
 

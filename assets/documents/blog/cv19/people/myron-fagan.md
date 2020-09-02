@@ -39,7 +39,7 @@ stories of some of the most sensational plots in the history of the world.
 The findings by Mr. Fagan were split into 6 parts, between these 3 records 
 and are presented to you here, in full.
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/KrUXPn7HCjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-view" data-id="KrUXPn7HCjM"></div>
 
 Each record has some descriptive notes on the back of each jacket such as...
 
