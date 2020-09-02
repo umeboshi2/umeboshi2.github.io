@@ -59,6 +59,14 @@ children and support the global fight against
 COVID-19." 
 [(youtube of Trump supporting GAVI)](https://www.youtube.com/watch?v=_pV1U9s3vJ0)
 
+[World leaders make historic commitments to provide equal access to vaccines for all](https://www.gavi.org/news/media-room/world-leaders-make-historic-commitments-provide-equal-access-vaccines-all)
+
+
+**Full GVS2020 Video**
+
+<div class="video-view" data-id="fG-td1DwZMw"></div>
+
+
 ### [Market Shaping](https://www.gavi.org/our-alliance/market-shaping)
 
 "VIPS represents an unprecedented three-year collaboration between the Gavi 
