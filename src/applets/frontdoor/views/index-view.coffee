@@ -47,6 +47,7 @@ class MainView extends Marionette.View
       linkViews.each (index) ->
         jv = $(this)
         eventsName = jv.attr('data-events')
+        topics = jv.attr("data-topics")
         linkInfo = MainChannel.request 'main:app:get-events', eventsName
         response = linkInfo.fetch()
         response.done ->
@@ -57,6 +58,7 @@ class MainView extends Marionette.View
           lview = new LinkView
             model: linkInfo
             title: title
+            topics: topics
           region.show lview
   onRender: ->
     @colorLocalLinks()

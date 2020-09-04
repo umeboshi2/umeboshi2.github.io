@@ -4,9 +4,27 @@ import tc from 'teacup'
 import marked from 'marked'
 import $ from 'jquery'
 import moment from 'moment'
+import _ from 'underscore'
 
 MainChannel = Backbone.Radio.channel 'global'
 
+getTopics = (string) ->
+  if not string?
+    return []
+  topics = (item.trim() for item in string.split(','))
+  return topics
+   
+filterEvents = (events, topics) ->
+  filtered = []
+  for e in events
+    if e?.topics
+      etopics = getTopics e.topics
+      everyTopic = _.every topics, (topic) ->
+        return _.contains etopics, topic
+      if everyTopic
+        filtered.push e
+  return filtered
+  
 class LinkEntryView extends Marionette.View
   tagName: 'p'
   template: tc.renderable (event) ->
@@ -31,6 +49,7 @@ class LinkEntryView extends Marionette.View
 class LinkView extends Marionette.View
   templateContext: ->
     viewTitle: @getOption 'title'
+    viewTopics: @getOption 'topics'
   template: tc.renderable (model) ->
     tc.div ->
       tc.h3 '.view-header', model.viewTitle
@@ -41,8 +60,15 @@ class LinkView extends Marionette.View
   regions:
     events: '@ui.events'
   onRender: ->
+    events = @model.get 'events'
+    topics = getTopics @getOption 'topics'
+    if topics.length
+      filtered = filterEvents events, topics
+      collection = new Backbone.Collection filtered
+    else
+      collection = new Backbone.Collection events
     view = new Marionette.CollectionView
-      collection: new Backbone.Collection @model.get('events')
+      collection: collection
       viewComparator: 'start'
       childView: LinkEntryView
     @showChildView 'events', view
