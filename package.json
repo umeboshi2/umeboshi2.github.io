@@ -43,6 +43,7 @@
     "jquery-ui": "^1.12.1",
     "js-beautify": "^1.10.2",
     "js-yaml-loader": "^1.2.2",
+    "js-year-calendar": "^1.0.2",
     "json-view": "github:umeboshi2/json-view",
     "lovefield": "^2.1.12",
     "mini-css-extract-plugin": "^0.8.0",
