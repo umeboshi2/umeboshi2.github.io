@@ -75,6 +75,13 @@ events:
   - start: 2020-02-19
     title: Persistent hiccups as an atypical presenting complaint of COVID-19
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165082/
+  - start: 2020-07-07
+    title: "Compliance with containment measures to the COVID-19 pandemic over time: Do antisocial traits matter?"
+    link: https://www.sciencedirect.com/science/article/pii/S0191886920305377
+    extra:
+      - name: PID-5 (PDF)
+        link: https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Full-Version-Adult.pdf
+        
     
 
     

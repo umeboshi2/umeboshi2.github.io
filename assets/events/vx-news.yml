@@ -1,0 +1,131 @@
+topic: vaccination
+eventType: news
+events:
+  - start: 2017-04-19
+    title: What is vaccine-derived polio?
+    link: https://www.who.int/westernpacific/news/q-a-detail/what-is-vaccine-derived-polio#
+  - start: 2020-07-28
+    topics: trials, local
+    title: Hattiesburg Clinic to participate in COVID-19 vaccine trial
+    link: https://www.wdam.com/2020/07/28/hattiesburg-clinic-participating-covid-vaccine-trial/
+  - start: 2020-07-30
+    topics: trials, local
+    title: HATTIESBURG CLINIC PARTICIPATES IN COVID-19 VACCINE TRIAL
+    link: https://www.hubcityspokes.com/news-hattiesburg/hattiesburg-clinic-participates-covid-19-vaccine-trial
+  - start: 2020-07-27
+    topics: trials, mrna
+    title: mRNA-1273 Approval Status
+    link: https://www.drugs.com/history/mrna-1273.html)
+  - start: 2020-07-21
+    title: "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial, Part 1"
+    link: https://clinicaltrials.gov/ct2/show/NCT04460703
+    topics: trials, uptake
+  - start: 2020-08-04
+    topics: trials, uptake
+    title: US Government & Yale Hold Trials On How Best To ‘Persuade’ Americans To Take COVID-19 Vaccine
+    link: http://www.alt-market.com/index.php/articles/4293-us-government-a-yale-hold-trials-on-how-best-to-persuade-americans-to-take-covid-19-vaccine?utm_source=whatfinger
+  - start: 1991-01-01
+    pretext: '"As a result of this international, collaborative effort, a
+     prototype anti-HCG vaccine is now undergoing clinical testing, raising
+     the prospect that a totally new family planning method may be available
+     before the end of the current decade."'
+    title: The WHO Task Force on Vaccines for Fertility Regulation. Its formation, objectives and research activities
+    link: https://pubmed.ncbi.nlm.nih.gov/1874951/
+  - start: 2020-07-30
+    title: AstraZeneca to be exempt from coronavirus vaccine liability claims in most countries
+    link: https://www.reuters.com/article/us-astrazeneca-results-vaccine-liability-idUSKCN24V2EN    
+  - start: 2020-08-02
+    topics: liability
+    title: Red Flags Soar As Big Pharma Will Be Exempt From COVID-19 Vaccine Liability Claims
+    link: https://www.zerohedge.com/political/red-flags-soar-big-pharma-will-be-exempt-covid-19-vaccine-liability-claims)
+  - start: 2020-09-02
+    topics: trials, local
+    title: HATTIESBURG CLINIC SEEKS PARTICIPANTS FOR CORONAVIRUS VACCINE TRIAL
+    link: https://www.hubcityspokes.com/hattiesburg-clinic-seeks-participants-coronavirus-vaccine-trial
+  - start: 2020-07-31
+    topics: liability
+    title: "Bubble indemnity: Big Pharma firms will NOT be held accountable for side effects of Covid vaccine"
+    link: https://www.rt.com/news/496801-pharma-not-accountable-vaccine-effect/
+  - start: 2019-12-18
+    journal: Science Translational Medicine
+    title: Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination
+    link: https://stm.sciencemag.org/content/11/523/eaay7162.short
+    extra:
+      - name: (PubMed)
+        link: https://pubmed.ncbi.nlm.nih.gov/31852802/ 
+  - start: 2020-03-19
+    title: An updated guide to the coronavirus drugs and vaccines in development
+    link: https://www.statnews.com/2020/03/19/an-updated-guide-to-the-coronavirus-drugs-and-vaccines-in-development/
+  - start: 2017-06-01
+    title: ChAdOx1 and MVA based vaccine candidates against MERS-CoV elicit neutralising antibodies and cellular immune responses in mice
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5516308/
+  - start: 2012-07-13
+    title: "A Novel Chimpanzee Adenovirus Vector with Low Human Seroprevalence: Improved Systems for Vector Derivation and Comparative Immunogenicity"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3396660/)
+  - start: 2020-05-31
+    title: "University of Oxford coronavirus vaccine: everything we know so far"
+    link: https://www.telegraph.co.uk/global-health/science-and-disease/oxford-trial-covid-19-coronavirus-vaccine/
+  - start: 2020-04-14
+    title: Merck Supports Jenner Institute to Reach First Milestone in Covid-19 Vaccine Manufacturing
+    link: https://www.prnewswire.com/in/news-releases/merck-supports-jenner-institute-to-reach-first-milestone-in-covid-19-vaccine-manufacturing-891225678.html
+  - start: 2016-06-28
+    journal: Journal of Controlled Release
+    title: Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/
+  - start: 2019-03-12
+    title: The Impact of Vaccines on Mortality Decline Since 1900—According to Published Science
+    link: https://childrenshealthdefense.org/news/the-impact-of-vaccines-on-mortality-decline-since-1900-according-to-published-science/
+  - start: 2015-07-31
+    title: "Measles: The New Red Scare"
+    link: https://www.foreignpolicyjournal.com/2015/07/31/measles-the-new-red-scare/
+    extra:
+      - name: (PDF)
+        link: https://www.foreignpolicyjournal.com/wp-content/uploads/2015/07/150731-Bystrianyk-Measles.pdf
+  - start: 2020-04-30
+    title: What you need to know about the COVID-19 vaccine
+    link: https://www.gatesnotes.com/Health/What-you-need-to-know-about-the-COVID-19-vaccine?WT.tsrc=BGEM
+  - start: 2020-08-11
+    title: "Doctors lay out plan to ‘punish’ people who refuse coronavirus vaccine: ‘There is no alternative’"
+    link: https://www.lifesitenews.com/news/doctors-lay-out-plan-to-punish-people-who-refuse-coronavirus-vaccine-there-is-no-alternative
+  - start: 2020-08-06
+    journal: USA Today
+    title: "Make vaccines free, don't allow religious or personal objections, and punish those who won't be vaccinated. They are threatening the lives of others."
+    link: https://web.archive.org/web/20200806173738if_/https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/
+  - start: 2020-08-10
+    journal: USA Today
+    title: "Make vaccines free, don't allow religious or personal objections, and create disincentives for those who refuse vaccines shown to be safe and effective."
+    link: https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/
+  - start: 2020-08-12
+    title: Aborted Fetal Cell Lines Used In Vaccines
+    link: http://nodeception.org/aborted-fetal-cell-lines-used-in-vaccines/
+  - start: 2020-08-19
+    title: The time has come for all schools to require the flu shot
+    link: https://www.cnn.com/2020/08/19/health/vaccine-flu-shot-sanchez-opinion-coronavirus/index.html
+  - start: 2020-09-01
+    title: Circulating vaccine-derived poliovirus type 2 – Sudan
+    link: https://www.who.int/csr/don/01-september-2020-polio-sudan/en/
+  - start: 2015-07-22
+    title: DDT and the Rise and Fall of Polio
+    link: https://thevaccinereaction.org/2015/07/ddt-and-the-rise-and-fall-of-polio/
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+        
+    
+
+    
+    
+    
+
+    
+
+
+    
