@@ -18,7 +18,11 @@ filterEvents = (events, topics) ->
   filtered = []
   for e in events
     if e?.topics
-      etopics = getTopics e.topics
+      if e.topics.typeOf is "string"
+        console.warn "Use topic list instead of commas."
+        etopics = getTopics e.topics
+      else
+        etopics = e.topics
       everyTopic = _.every topics, (topic) ->
         return _.contains etopics, topic
       if everyTopic
