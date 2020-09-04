@@ -54,12 +54,12 @@ Dr. Vladimir Zelenko is barely mentioned [here](https://en.wikipedia.org/wiki/CO
 
 [Global HCQ studies. PrEP, PEP, and early treatment studies show efficacy, while late treatment shows mixed results.](https://c19study.com/)
 
-<div class="link-view" data-title="Medical Papers"  data-events="hcq-papers"></div>
+<div class="link-view" data-title="Medical Papers"  data-events="hcq" data-topics="paper"></div>
 
-<div class="link-view" data-title="Medical Papers Concerning Zinc and Polymerase"  data-events="zinc-papers"></div>
+<div class="link-view" data-title="Medical Papers Concerning Zinc and Polymerase"  data-events="hcq" data-topics="paper,zinc"></div>
 
 
-<div class="link-view" data-title="News Articles"  data-events="hcq-news"></div>
+<div class="link-view" data-title="News Articles"  data-events="hcq" data-topics="news"></div>
 
 ### Mississippi Board of Pharmacy
 
