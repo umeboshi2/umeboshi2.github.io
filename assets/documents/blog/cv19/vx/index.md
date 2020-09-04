@@ -2,62 +2,33 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **[Home](#pages/blog/cv19/index)**
 
-- [Vaccine Trials](#vaccine-trials)
-- [Vaccine Hesitancy](#vaccine-hesitancy)
-- [Vaccine Liability](#vaccine-liability)
-- [Articles and Studies](#articles-and-studies)
 - [ACIP](#acip)
 - [Vaccine Candidates](#vaccine-candidates)
-- [More Stuff](#more-stuff)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 [Parent](#pages/blog/cv19/index)
 
-### Vaccine Trials
 
-[Hattiesburg Clinic to participate in COVID-19 vaccine trial](https://www.wdam.com/2020/07/28/hattiesburg-clinic-participating-covid-vaccine-trial/)
 
-[HATTIESBURG CLINIC PARTICIPATES IN COVID-19 VACCINE TRIAL](https://www.hubcityspokes.com/news-hattiesburg/hattiesburg-clinic-participates-covid-19-vaccine-trial)
+<div class="link-view" data-title="Vaccine Trials"  data-events="vx-news" data-topics="trials"></div>
+<div class="link-view" data-title="Local Vaccine Trials"  data-events="vx-news" data-topics="trials,local"></div>
+<div class="link-view" data-title="Vaccine Liability"  data-events="vx-news" data-topics="liability"></div>
+
 
 [mRNA-1273 Approval Status](https://www.drugs.com/history/mrna-1273.html)
 
+Wikipedia has a page dedicated to a
+[Covid Vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
+
 [COVID-19 vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
-
-[Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial, Part 1](https://clinicaltrials.gov/ct2/show/NCT04460703)
-
-[US Government & Yale Hold Trials On How Best To ‘Persuade’ Americans To Take COVID-19 Vaccine](http://www.alt-market.com/index.php/articles/4293-us-government-a-yale-hold-trials-on-how-best-to-persuade-americans-to-take-covid-19-vaccine?utm_source=whatfinger)
-
-"As a result of this international, collaborative effort, a prototype 
-anti-HCG vaccine is now undergoing clinical testing, raising the prospect 
-that a totally new family planning method may be available before the end 
-of the current decade."
-[The WHO Task Force on Vaccines for Fertility Regulation. Its formation, objectives and research activities](https://pubmed.ncbi.nlm.nih.gov/1874951/)
-
-
-### Vaccine Hesitancy
 
 There is a separate page concerning vaccine [hesitancy](#pages/blog/cv19/vx/hesitancy)
 
-### Vaccine Liability
-
-[AstraZeneca to be exempt from coronavirus vaccine liability claims in most countries](https://www.reuters.com/article/us-astrazeneca-results-vaccine-liability-idUSKCN24V2EN)
-
-[Red Flags Soar As Big Pharma Will Be Exempt From COVID-19 Vaccine Liability Claims](https://www.zerohedge.com/political/red-flags-soar-big-pharma-will-be-exempt-covid-19-vaccine-liability-claims)
-
-
-[Removed Slideshow Page](https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html)
-
-
-[Removed Slides on Wayback Machine](https://web.archive.org/web/20200730163428/https://www.cdc.gov/vaccines/acip/meetings/slides-2020-07.html)
-
-
-### Articles and Studies
-
-[Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination](https://stm.sciencemag.org/content/11/523/eaay7162.short)[(PubMed)](https://pubmed.ncbi.nlm.nih.gov/31852802/)
 
 [Robert F. Kennedy](https://www.instagram.com/p/B_q1jv_nmiX/)
 talks about the new Moderna vaccine.
+
 
 ###  ACIP
 
@@ -77,11 +48,6 @@ alternative" to a vaccine.
 
 ### Vaccine Candidates
 
-Wikipedia has a page dedicated to a
-[Covid Vaccine](https://en.wikipedia.org/wiki/COVID-19_vaccine)
-
-[An updated guide to the coronavirus drugs and vaccines in development](https://www.statnews.com/2020/03/19/an-updated-guide-to-the-coronavirus-drugs-and-vaccines-in-development/)
-
 [Astrazeneca](#pages/blog/cv19/vx/astra)
 
 [Quantum Dots](#pages/blog/cv19/vx/quantum-dots)
@@ -90,39 +56,4 @@ Wikipedia has a page dedicated to a
 
 [mRNA Vaccines](#pages/blog/cv19/vx/mrna-vaccine)
 
-[ChAdOx1 and MVA based vaccine candidates against MERS-CoV elicit neutralising antibodies and cellular immune responses in mice](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5516308/)
-
-[A Novel Chimpanzee Adenovirus Vector with Low Human Seroprevalence: Improved Systems for Vector Derivation and Comparative Immunogenicity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3396660/)
-
-
-[University of Oxford coronavirus vaccine: everything we know so far](https://www.telegraph.co.uk/global-health/science-and-disease/oxford-trial-covid-19-coronavirus-vaccine/)
-
-[Merck Supports Jenner Institute to Reach First Milestone in Covid-19 Vaccine Manufacturing](https://www.prnewswire.com/in/news-releases/merck-supports-jenner-institute-to-reach-first-milestone-in-covid-19-vaccine-manufacturing-891225678.html)
-
-###  More Stuff
-
-[Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/)
-
-[The Impact of Vaccines on Mortality Decline Since 1900—According to Published Science](https://childrenshealthdefense.org/news/the-impact-of-vaccines-on-mortality-decline-since-1900-according-to-published-science/)
-
-[Measles: The New Red Scare](https://www.foreignpolicyjournal.com/2015/07/31/measles-the-new-red-scare/) [(PDF)](https://www.foreignpolicyjournal.com/wp-content/uploads/2015/07/150731-Bystrianyk-Measles.pdf)
-
-April 30, 2020
-[What you need to know about the COVID-19 vaccine](https://www.gatesnotes.com/Health/What-you-need-to-know-about-the-COVID-19-vaccine?WT.tsrc=BGEM)
-
-
-[Doctors lay out plan to ‘punish’ people who refuse coronavirus vaccine: ‘There is no alternative’](https://www.lifesitenews.com/news/doctors-lay-out-plan-to-punish-people-who-refuse-coronavirus-vaccine-there-is-no-alternative)
-
-August 6, 2020, USA Today
-["Make vaccines free, don't allow religious or personal objections, and punish those who won't be vaccinated. They are threatening the lives of others."](https://web.archive.org/web/20200806173738if_/https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/)
-
-
-August 10, 2020, USA Today
-["Make vaccines free, don't allow religious or personal objections, and create disincentives for those who refuse vaccines shown to be safe and effective."](https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/)
-
-
-[Aborted Fetal Cell Lines Used In Vaccines](http://nodeception.org/aborted-fetal-cell-lines-used-in-vaccines/)
-
-[The time has come for all schools to require the flu shot](https://www.cnn.com/2020/08/19/health/vaccine-flu-shot-sanchez-opinion-coronavirus/index.html)
-
-
+<div class="link-view" data-title="Full Timeline"  data-events="vx-news"></div>
