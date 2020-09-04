@@ -1,0 +1,155 @@
+topic: hcq
+events:
+  - start: 2003-10-23
+    topics:
+      - paper
+    journal: Lancet Infectious Diseases
+    title: "Effects of chloroquine on viral infections: an old drug against today's diseases"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7128816/
+  - start: 2006-01-24
+    topics:
+      - paper
+    journal: Lancet Infectious Diseases
+    title: New insights into the antiviral effects of chloroquine
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7129107/
+  - start: 2012-12-04
+    topics:
+      - paper
+    journal: Cell Research
+    title: Anti-malaria drug chloroquine is highly effective in treating avian influenza A H5N1 virus infection in an animal model
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3567830/
+  - start: 2020-04-24
+    topics:
+      - paper
+    journal: JAMA
+    title: "Effect of High vs Low Doses of Chloroquine Diphosphate as Adjunctive Therapy for Patients Hospitalized With Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection: A Randomized Clinical Trial"
+    link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2765499
+  - start: 2020-05-27
+    topics:
+      - paper
+    journal: American Journal of Epidemiology
+    authors: Harvey A Risch
+    title: Early Outpatient Treatment of Symptomatic, High-Risk Covid-19 Patients that Should be Ramped-Up Immediately as Key to the Pandemic Crisis
+    link: https://academic.oup.com/aje/article/doi/10.1093/aje/kwaa093/5847586
+    extra:
+      - name: (PDF)
+        link: https://academic.oup.com/aje/article-pdf/doi/10.1093/aje/kwaa093/33381404/kwaa093.pdf
+  - start: 2020-07-02
+    topics:
+      - paper
+    title: Treatment with hydroxychloroquine, azithromycin, and combination in patients hospitalized with COVID-19
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330574/)
+  - start: 2020-07-23
+    topics:
+      - paper
+    journal: NEJM
+    title: Hydroxychloroquine with or without Azithromycin in Mild-to-Moderate Covid-19
+    link: https://www.nejm.org/doi/full/10.1056/NEJMoa2019014
+    extra:
+     - name: Supplementary Appendix (PDF)
+       link: https://www.nejm.org/doi/suppl/10.1056/NEJMoa2019014/suppl_file/nejmoa2019014_appendix.pdf
+  - start: 2020-07-30
+    topics:
+      - paper
+    journal: Indian J Med Res
+    authors : Chatterjee P, Anand T, Singh KJ, Rasaily R, Singh R, Das S, Singh H, Praharaj I, Gangakhedkar RR, Bhargava B, Panda S. 
+    title: "Healthcare workers & SARS-CoV-2 infection in India: A case-control investigation in the time of COVID-19."
+    link: http://www.ijmr.org.in/text.asp?2020/151/5/459/285520
+  - start: 2020-07-16
+    topics:
+      - paper
+    journal: Ann. Intern. Med.
+    title: Hydroxychloroquine in Nonhospitalized Adults With Early COVID-19
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384270/
+    extra:
+      - name: Original Article
+        link: https://www.acpjournals.org/doi/10.7326/M20-4207
+  - start: 2020-06-03
+    topics:
+      - paper
+    title: "Rationale and Design of ORCHID: A Randomized Placebo-Controlled Trial of Hydroxychloroquine for Adults Hospitalized with COVID-19"
+    link: https://www.atsjournals.org/doi/abs/10.1513/AnnalsATS.202005-478SD
+    extra:
+      - name: (Clinical Trial Page)
+        link: https://clinicaltrials.gov/ct2/show/NCT04332991
+      - name: (PDF)
+        link: http://www.atsjournals.org/doi/pdf/10.1513/AnnalsATS.202005-478SD
+  - start: 2020-03-17
+    topics:
+      - news
+    title: French researcher posts successful Covid-19 drug trial
+    link: https://www.connexionfrance.com/French-news/French-researcher-in-Marseille-posts-successful-Covid-19-coronavirus-drug-trial-results
+  - start: 2020-04-02
+    topics:
+      - news
+    title: Hydroxychloroquine rated ‘most effective’ coronavirus treatment, poll of doctors finds
+    link: https://nypost.com/2020/04/02/hydroxychloroquine-most-effective-coronavirus-treatment-poll/
+  - start: 2020-04-07
+    topics:
+      - news
+    title: "How to Cure Coronavirus: an Exclusive Letter From Dr. Zelenko to Donald Trump"
+    link: https://internetprotocol.co/hype-news/2020/04/07/how-to-cure-coronavirus-an-exclusive-letter-to-donald-trump/
+  - start: 2020-04-14
+    topics:
+      - news
+    title: A Detailed Coronavirus Treatment Plan from Dr. Vladimir Zelenko
+    link: https://internetprotocol.co/hype-news/2020/04/14/a-detailed-coronavirus-treatment-plan-from-dr-zelenko/
+  - start: 2020-05-21
+    topics:
+      - news
+    title: NY doctor who promoted COVID-19 drug cocktail leaves Jewish community
+    link: https://nypost.com/2020/05/21/doctor-who-promoted-covid-cocktail-leaves-jewish-community/
+  - start: 2020-05-25
+    topics:
+      - news
+    title: WHO suspends hydroxychloroquine trial as COVID-19 treatment
+    link: https://medicalxpress.com/news/2020-05-trial-hydroxychloroquine-covid-treatment.html
+  - start: 2020-05-26
+    topics:
+      - news
+    title: "Exclusive: Indonesia, major advocate of hydroxychloroquine, told by WHO to stop using it"
+    link: https://www.reuters.com/article/us-health-coronavirus-indonesia-chloroqu/exclusive-indonesia-major-advocate-of-hydroxychloroquine-told-by-who-to-stop-using-it-idUSKBN23227L
+  - start: 2020-05-27
+    topics:
+      - news
+    title: EU governments ban malaria drug for COVID-19, trial paused as safety fears grow
+    link: https://www.reuters.com/article/health-coronavirus-hydroxychloroquine-fr/eu-governments-ban-malaria-drug-for-covid-19-trial-paused-as-safety-fears-grow-idUSKBN2340A6
+  - start: 2020-06-17
+    topics:
+      - news
+    title: The Politicization of HCQ
+    link: https://thegoldopinion.com/blog-1/f/the-politicization-of-hcq
+  - start: 2020-06-20
+    topics:
+      - news
+    title: NIH halts clinical trial of hydroxychloroquine
+    link: https://www.nih.gov/news-events/news-releases/nih-halts-clinical-trial-hydroxychloroquine
+  - start: 2020-07-13
+    title: Local doctor pushing proven treatment of COVID into national debate
+    link: https://www.thedesertreview.com/opinion/letters_to_editor/local-doctor-pushing-proven-treatment-of-covid-into-national-debate/article_ca59497a-c539-11ea-8943-4f707d6ebc1a.html
+    note: Updated July 16, 2020
+  - start: 2020-07-16
+    topics:
+      - news
+    title: "The Saga of Hydroxychloroquine and COVID-19: A Cautionary Tale"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7384271/
+  - start: 2010-11-04
+    topics:
+      - paper
+      - zinc
+    journal: PLoS Pathog.
+    title: Zn2+ Inhibits Coronavirus and Arterivirus RNA Polymerase Activity In Vitro and Zinc Ionophores Block the Replication of These Viruses in Cell Culture
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2973827/
+  - start: 2013-09-27
+    topics:
+      - paper
+      - zinc
+    journal: Transcription
+    authors: Guillaume F Chanfreau
+    title: Zinc'ing down RNA polymerase I
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4114658/
+    
+
+
+        
+      
