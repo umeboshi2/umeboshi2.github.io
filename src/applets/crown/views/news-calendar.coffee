@@ -13,8 +13,6 @@ import '@fullcalendar/daygrid/main.css'
 import '@fullcalendar/timegrid/main.css'
 import '@fullcalendar/list/main.css'
 
-import navigateToUrl from 'tbirds/util/navigate-to-url'
-
 import someEvents from '../../../../assets/events/hcq.yml'
 
 

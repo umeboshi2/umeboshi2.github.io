@@ -16,6 +16,9 @@ AppChannel = Backbone.Radio.channel 'crown'
 class CvLinks extends Backbone.Model
   url: '/assets/documents/cvlinks.json'
 
+class EventIndex extends Backbone.Model
+  url: '/assets/events/index.json'
+  
 class Controller extends MainController
   channelName: 'crown'
   layoutClass: ToolbarAppletLayout
@@ -57,6 +60,22 @@ class Controller extends MainController
       @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-news-calendar'
+
+  viewEvents: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      model = new EventIndex
+      View = require('./views/main-event-viewer').default
+      response = model.fetch()
+      response.done =>
+        view = new View
+          model: model
+        @layout.showChildView 'content', view
+      
+      view = new View
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'crown-view-events'
 
 export default Controller
 
