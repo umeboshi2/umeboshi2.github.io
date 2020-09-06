@@ -148,8 +148,11 @@ events:
     authors: Guillaume F Chanfreau
     title: Zinc'ing down RNA polymerase I
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4114658/
-    
-
-
-        
-      
+  - start: 2020-06-14
+    topics:
+      - news
+    title: Association of American Surgeons & Physicians sues FDA for interfering with availability of hydroxychloroquine
+    link: https://thedailycoin.org/2020/06/14/association-of-american-surgeons-physicians-sues-fda-for-interfering-with-availability-of-hydroxychloroquine/
+    extra:
+      - name: Complaint (PDF)
+        link: https://aapsonline.org/judicial/aaps-v-fda-hcq-6-2-2020.pdf 

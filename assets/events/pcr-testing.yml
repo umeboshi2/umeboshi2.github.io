@@ -1,0 +1,53 @@
+topic: pcr-testing
+events:
+  - start: 2018-08-07
+    topics:
+      - news
+    pretext: (estimated date)
+    title: Biography of Dr. Kary Mullis
+    link: https://www.karymullis.com/biography.shtml
+  - start: 2020-05-12
+    topics:
+      - paper
+    title: Interpreting a covid-19 test result
+    link: https://www.bmj.com/content/369/bmj.m1808
+    extra:
+      - name: (PDF)
+        link: https://www.bmj.com/content/369/bmj.m1808.full.pdf
+  - start: 2020-04-07
+    topics:
+      - news
+    title: Was the COVID-19 Test Meant to Detect a Virus?
+    link: https://uncoverdc.com/2020/04/07/was-the-covid-19-test-meant-to-detect-a-virus/
+  - start: 2020-03-16
+    topics:
+      - news
+    title: WHO Director-General's opening remarks at the media briefing on COVID-19 - 16 March 2020
+    link: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---16-march-2020
+  - start: 2007-01-22
+    topics:
+      - news
+    title: Faith in Quick Test Leads to Epidemic That Wasn’t
+    link: https://www.nytimes.com/2007/01/22/health/22whoop.html
+  - start: 2020-06-27
+    title: COVID19 PCR Tests are Scientifically Meaningless
+    link: https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/
+    
+    
+    
+      
+    
+    
+    
+
+        
+    
+
+    
+    
+    
+
+    
+
+
+    

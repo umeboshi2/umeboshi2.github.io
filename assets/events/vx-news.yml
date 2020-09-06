@@ -151,7 +151,24 @@ events:
   - start: 2015-07-22
     title: DDT and the Rise and Fall of Polio
     link: https://thevaccinereaction.org/2015/07/ddt-and-the-rise-and-fall-of-polio/
+  - start: 2020-06-04
+    topics:
+      - news
+    title: World leaders make historic commitments to provide equal access to vaccines for all
+    link: https://www.gavi.org/news/media-room/world-leaders-make-historic-commitments-provide-equal-access-vaccines-all
+  - start: 2020-04-14
+    topics:
+      - news
+    title: The tainted polio vaccine that sickened and fatally paralyzed children in 1955
+    link: https://www.washingtonpost.com/history/2020/04/14/cutter-polio-vaccine-paralyzed-children-coronavirus/
+  - start: 2020-09-03
+    topics:
+      - news
+    title: Trump’s Vaccine Can’t Be Trusted
+    link: https://foreignpolicy.com/2020/09/03/trumps-vaccine-cant-be-trusted/
     
+      
+
     
     
 

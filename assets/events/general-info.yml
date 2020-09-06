@@ -2,12 +2,18 @@ topic: general
 eventType: papers
 events:
   - start: 2020-01-21
+    topics:
+      - paper
     title: "Notes from the Field: A Novel Coronavirus Genome Identified in a Cluster of Pneumonia Cases — Wuhan, China 2019−2020"
     link: http://weekly.chinacdc.cn/en/article/id/a3907201-f64f-4154-a19e-4253b453d10c
   - start: 2020-01-24
+    topics:
+      - paper
     title: "Return of the Coronavirus: 2019-nCoV"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7077245/)
   - start: 2020-02-17
+    topics:
+      - paper
     journal: Int J Antimicrob Agents
     title: "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/
@@ -15,48 +21,74 @@ events:
       - name: (PubMed)
         link: https://pubmed.ncbi.nlm.nih.gov/32081636/
   - start: 2020-02-20
+    topics:
+      - paper
     title: A Novel Coronavirus from Patients with Pneumonia in China, 2019
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092803/
   - start: 2020-02-21
     title: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/
   - start: 2020-02-27
+    topics:
+      - paper
     title: Emergence of a novel human coronavirus threatening human health
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7095779/
   - start: 2020-02-19
+    topics:
+      - paper
     title: Identification of Coronavirus Isolated from a Patient in Korea with COVID-19
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7045880/
   - start: 2020-03-20
+    topics:
+      - paper
     title: "What we know so far: COVID-19 current clinical knowledge and research"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7081812/
   - start: 2020-03-26
+    topics:
+      - paper
     title: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
   - start: 2020-04-01
+    topics:
+      - paper
     title: Universal Masking in Hospitals in the Covid-19 Era
     link: https://www.nejm.org/doi/full/10.1056/NEJMp2006372
   - start: 2020-05-08
+    topics:
+      - paper
     title: The SARS-CoV-2, a new pandemic zoonosis that threatens the world
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7205683/
   - start: 2020-05-11
+    topics:
+      - paper
     title: "Melatonin Inhibits COVID-19-induced Cytokine Storm by Reversing Aerobic Glycolysis in Immune Cells: A Mechanistic Analysis"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7211589/
   - start: 2020-05-27
+    topics:
+      - paper
     title: Small droplet aerosols in poorly ventilated spaces and SARS-CoV-2 transmission
     link: https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30245-9/fulltext
   - start: 2020-06-15
+    topics:
+      - paper
     title: "Novel SARS-CoV-2/COVID-19: Origin, pathogenesis, genes and genetic variations, immune responses and phylogenetic analysis"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7295489/
   - start: 2020-06-26
+    topics:
+      - paper
     title: Ensuring Uptake of Vaccines against SARS-CoV-2
     link: https://www.nejm.org/doi/full/10.1056/NEJMp2020926
   - start: 2020-03-19
+    topics:
+      - paper
     title: SARS-CoV-2 Viral Load in Upper Respiratory Specimens of Infected Patients
     link: https://www.nejm.org/doi/full/10.1056/NEJMc2001737
     extra:
       - name: (PDF)
         link: https://www.nejm.org/doi/pdf/10.1056/NEJMc2001737?articleTools=true
   - start: 2020-01-30
+    topics:
+      - paper
     title: Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany
     link: https://www.nejm.org/doi/full/10.1056/NEJMc2001468
     extra:
@@ -65,6 +97,8 @@ events:
       - name: (PDF)
         link: https://www.nejm.org/doi/pdf/10.1056/NEJMc2001468?articleTools=true
   - start: 2020-02-19
+    topics:
+      - paper
     title: Asymptomatic cases in a family cluster with SARS-CoV-2 infection
     link: https://pubmed.ncbi.nlm.nih.gov/32087116/
     extra:
@@ -73,6 +107,8 @@ events:
       - name: (supplement pdf)
         link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158985/bin/mmc1.pdf
   - start: 2020-02-19
+    topics:
+      - paper
     title: Persistent hiccups as an atypical presenting complaint of COVID-19
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165082/
   - start: 2020-07-07
@@ -81,6 +117,36 @@ events:
     extra:
       - name: PID-5 (PDF)
         link: https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Full-Version-Adult.pdf
+  - start: 2020-03-17
+    topics:
+      - paper
+    journal: Nature Medicine
+    title: The proximal origin of SARS-CoV-2
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7095063/
+  - start: 2017-11-30
+    topics:
+      - paper
+    journal: PLOS Pathogens
+    title: Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708621/
+  - start: 2007-12-12
+    journal: Journal of Virology
+    title: Difference in Receptor Usage between Severe Acute Respiratory Syndrome (SARS) Coronavirus and SARS-Like Coronavirus of Bat Origin
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2258702/
+  - start: 2014-05-27
+    topics:
+      - paper
+    title: UNDERSTANDING THE RISK OF BAT CORONAVIRUS EMERGENCE
+    link: https://projectreporter.nih.gov/project_info_description.cfm?aid=8674931&icde=49645421
+  - start: 2018-12-10
+    topics:
+      - paper
+    journal: Nature Reviews Microbiology
+    authors: Jie Cui, Fang Li, and Zheng-Li Shi
+    title: Origin and evolution of pathogenic coronaviruses
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7097006/
+    
+    
         
     
 
