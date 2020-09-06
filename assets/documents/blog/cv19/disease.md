@@ -75,3 +75,9 @@ January 1937, Journal of Bacteriology
 https://www.youtube.com/watch?v=vtKHwBWD1Wc
 
 
+[Germ Theory: The Lynchpin Holding the Entire Hoax Together](https://www.facebook.com/notes/tommy-tree-hutchinson/give-me-fever-and-i-can-cure-every-disease-hippocrates/3334207076613717/)
+
+[Chapter 3. The Germ Theory: A Deadly Fallacy: Part 1](https://www.facebook.com/notes/sam-kofalt/chapter-3-the-germ-theory-a-deadly-fallacy-part-1/10158503328418324/)
+
+[Chapter 3. The Germ Theory: A Deadly Fallacy: Part 2: Bacteria](https://www.facebook.com/notes/sam-kofalt/chapter-3-the-germ-theory-a-deadly-fallacy-part-2-bacteria/10158503217823324/)
+

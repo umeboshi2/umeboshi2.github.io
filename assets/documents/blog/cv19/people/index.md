@@ -38,6 +38,8 @@
 
 1. [Ghislaine Maxwell](#pages/blog/cv19/people/ghislaine-maxwell)
 
+1. [Shi Zhengli](#pages/blog/cv19/people/shi-zhengli)
+
 #### Other People
 
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)

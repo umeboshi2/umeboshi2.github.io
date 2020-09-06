@@ -153,3 +153,9 @@ https://pieceofmindful.com/2020/04/06/bombshell-who-coronavirus-pcr-test-primer-
 
 https://duckduckgo.com/?q=game+of+function+with+viruses&ia=web
 
+
+[Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research](https://medium.com/@yurideigin/lab-made-cov2-genealogy-through-the-lens-of-gain-of-function-research-f96dd7413748)
+
+
+
+https://en.wikipedia.org/wiki/Cutter_Laboratories

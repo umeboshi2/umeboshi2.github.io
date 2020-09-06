@@ -124,8 +124,9 @@ by Brown, E. Richard (1979)
 [(Archive.org Details)](https://archive.org/details/rockefellermedic00browrich)
 
 
+[Part I: Saying “No” to vaccines says “No” to Rockefeller social control](https://vactruth.com/2010/05/25/vaccines-rockefeller-social-control/)
 
-
+[Part II: Rockefeller Vaccine Secret Revealed](https://vactruth.com/2010/08/18/rockefeller-vaccine-secret-revealed/)
 
 #### Video
 
