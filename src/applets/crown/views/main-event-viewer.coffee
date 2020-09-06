@@ -16,6 +16,8 @@ MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
 convertDate = (date) ->
+  # A workaround for this issue
+  # https://github.com/year-calendar/js-year-calendar/issues/15
   return new Date moment(date).utc().format('YYYY-MM-DDTHH:mm:ss')
 convertEvent = (event) ->
   event.startDate = convertDate event.start
