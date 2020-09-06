@@ -40,6 +40,11 @@ require '../common/static-documents'
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 
+$(document).ajaxError (event, xhr) ->
+  if __DEV__
+    console.warn "ajaxError event", event
+    console.warn "ajaxError xhr" , xhr
+  MessageChannel.request 'xhr-error', xhr
 
 
 if __DEV__
