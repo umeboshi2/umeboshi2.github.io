@@ -1,0 +1,38 @@
+topic: covid-transmission
+events:
+  - start: 2020-06-01
+    topic:
+      - paper
+    pretext: (estimated date)
+    journal: Emerging Infectious Diseases
+    authors: Liu J, Liao X, Qian S et al.
+    title: Community Transmission of Severe Acute Respiratory Syndrome Coronavirus 2, Shenzhen, China, 2020
+    link: https://wwwnc.cdc.gov/eid/article/26/6/20-0239_article).
+    #Emerg Infect Dis 2020 doi.org/10.3201/eid2606.200239
+    extra:
+      - name: (PMC)
+        link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258448/
+  - start: 2020-01-24
+    topic:
+      - paper
+    journal: Lancet
+    authors: Chan J, Yuan S, Kok K et al.
+    title: "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/
+    #). Lancet 2020 doi: 10.1016/S0140-6736(20)30154-9
+
+
+
+    
+
+        
+    
+
+    
+    
+    
+
+    
+
+
+    

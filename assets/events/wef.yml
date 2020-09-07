@@ -36,8 +36,22 @@ events:
     topic:
       - news
       - great-reset
-    title: Introducing the 'Great Reset,' world leaders' radical plan to transform the economy
+    title: "Introducing the 'Great Reset,' world leaders' radical plan to transform the economy"
     link: https://www.msn.com/en-us/news/politics/introducing-the-great-reset-world-leaders-radical-plan-to-transform-the-economy/ar-BB15XGsU
+  - start: 2020-07-24
+    topic:
+      - news
+      - artificial-intelligence
+    title: Better conversations can help reimagine AI regulation. These steps can help.
+    link: https://www.weforum.org/agenda/2020/07/6-steps-to-better-conversations-that-reimagine-ai-regulation
+  - start: 2020-06-08
+    topic:
+      - news
+      - artificial-intelligence
+    title: "How governments can use public procurement to shape the future of AI regulation – and boost innovation and growth"
+    link: https://www.weforum.org/agenda/2020/06/artificial-intelligence-ai-government-procurement-standards-regulation-economic-growth-covid-19-response
+
+
     
     
 
