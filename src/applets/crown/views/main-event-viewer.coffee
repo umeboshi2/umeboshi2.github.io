@@ -19,6 +19,7 @@ convertDate = (date) ->
   # A workaround for this issue
   # https://github.com/year-calendar/js-year-calendar/issues/15
   return new Date moment(date).utc().format('YYYY-MM-DDTHH:mm:ss')
+
 convertEvent = (event) ->
   event.startDate = convertDate event.start
   if event?.end
@@ -95,7 +96,6 @@ class CalendarView extends Marionette.View
 
   onClickDay: (event) ->
     if event?.events.length
-      console.log "EVENTS", event.events
       view = new ModalEventsView
         model: new Backbone.Model event
       MainChannel.request 'show-modal', view, true
@@ -103,4 +103,5 @@ class CalendarView extends Marionette.View
   onRender: ->
     @calendar = new Calendar @ui.calendar.get(0),
       clickDay: @onClickDay
+
 export default CalendarView

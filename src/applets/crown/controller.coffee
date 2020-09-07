@@ -74,6 +74,8 @@ class Controller extends MainController
       
       view = new View
       @layout.showChildView 'content', view
+      #conn = MainChannel.request 'main:app:dbConn', 'tvmaze'
+      #console.log "conn", conn
     # name the chunk
     , 'crown-view-events'
 

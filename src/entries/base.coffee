@@ -74,7 +74,6 @@ show_modal = (view, backdrop=false) ->
   modal_region.show view
 
 MainChannel.reply 'show-modal', (view, backdrop=false) ->
-  console.warn 'show-modal', backdrop
-  show_modal view, false
+  show_modal view, backdrop
   
 
