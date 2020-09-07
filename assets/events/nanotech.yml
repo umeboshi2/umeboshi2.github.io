@@ -1,0 +1,55 @@
+topic: nanotech
+events:
+  - start: 2016-07-25
+    topic:
+      - paper
+    journal: Chem Soc Rev.
+    authors: Amy M. Wena and Nicole F. Steinmetz
+    title: Design of virus-based nanomaterials for medicine, biotechnology, and energy
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/
+  - start: 2010-04-28
+    topic:
+      - paper
+    journal: Nanomedicine
+    authors: Nicole F. Steinmetz, Ph.D.
+    title: Viral nanoparticles as platforms for next-generation therapeutics and imaging devices
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2948632/
+  - start: 2018-06-04
+    topic:
+      - paper
+    journal: Biorxiv
+    title: "Developing A Programmable, Self-Assembling Squash Leaf Curl China Virus (SLCCNV) Capsid Proteins Into “Nano-Cargo”-Like Architecture: A Next-Generation “Nanotool” For Biomedical Applications"
+    link: https://www.biorxiv.org/content/10.1101/338269v1
+    extra:
+      - name: {Full Article}
+        link: https://www.biorxiv.org/content/10.1101/338269v1.full
+  - start: 2016-10-05
+    topic:
+      - paper
+    journal: Arabian Journal of Chemistry
+    title: Nanobiotechnology approach using plant rooting hormone synthesized silver nanoparticle as “nanobullets” for the dynamic applications in horticulture – An in vitro and ex vitro study
+    link: https://www.sciencedirect.com/science/article/pii/S1878535216301666
+  - start: 2018-07-20
+    topic:
+      - paper
+    title: "Fabrication of virus metal hybrid nanomaterials: An ideal reference for bio semiconductor"
+    link: https://www.sciencedirect.com/science/article/pii/S1878535218301540?via%3Dihub
+  - start: 2009-05-22
+    topic:
+      - paper
+    pretext: (Subscriber only)
+    title: Fabricating Genetically Engineered High-Power Lithium-Ion Batteries Using Multiple Virus Genes
+    link: https://science.sciencemag.org/content/324/5930/1051
+  - start: 2016-07-01
+    topic:
+      - paper
+    pretext: (Estimated date)
+    title: Design of virus-based nanomaterials for medicine, biotechnology, and energy
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068136/
+  - start: 2010-12-17
+    topic:
+      - paper
+    title: The Art of Engineering Viral Nanoparticles
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3156490/
+    
+    
