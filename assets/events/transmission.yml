@@ -1,0 +1,128 @@
+topic: transmission
+events:
+  - start: 2020-06-01
+    topic:
+      - paper
+    pretext: (estimated date)
+    journal: Emerging Infectious Diseases
+    authors: Liu J, Liao X, Qian S et al.
+    title: Community Transmission of Severe Acute Respiratory Syndrome Coronavirus 2, Shenzhen, China, 2020
+    link: https://wwwnc.cdc.gov/eid/article/26/6/20-0239_article).
+    extra:
+      - name: (PMC)
+        link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258448/
+  - start: 2020-01-24
+    topic:
+      - paper
+    journal: Lancet
+    authors: Chan J, Yuan S, Kok K et al.
+    title: "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159286/
+  - start: 2020-03-26
+    topic:
+      - paper
+    journal: New England Journal of Medicine
+    authors: Li Q, Guan X, Wu P, et al.
+    title: Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121484/
+  - start: 2020-01-24
+    topic:
+      - paper
+    journal: Lancet
+    authors: Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, et al.
+    title: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/
+  - start: 2020-03-06
+    topic:
+      - paper
+    journal: MMWR Morb Mortal Wkly Rep.
+    authors: Burke RM, Midgley CM, Dratch A, Fenstersheib M, Haupt T, Holshue M,et al.
+    title: Active monitoring of persons exposed to patients with confirmed COVID-19 — United States, January–February 2020
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7367094/
+  - start: 2020-02-16
+    end: 2020-02-24
+    topic:
+      - paper
+    pretext: "World Health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020 [Internet]. Geneva: World Health Organization; 2020 Available as a"
+    title: [PDF]
+    link: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
+  - start: 2020-03-04
+    topic:
+      - paper
+    journal: JAMA
+    authors: Ong SW, Tan YK, Chia PY, Lee TH, Ng OT, Wong MS, et al.
+    title: Air, surface environmental, and personal protective equipment contamination by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) from a symptomatic patient
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7057172/
+  - start: 2020-02-15
+    topic:
+      - paper
+    journal: China CDC Weekly
+    authors: Zhang Y, Chen C, Zhu S et al.
+    title: "Notes from the Field: Isolation of 2019-nCoV from a Stool Specimen of a Laboratory-Confirmed Case of the Coronavirus Disease 2019 (COVID-19)"
+    link: http://weekly.chinacdc.cn/en/article/id/ffa97a96-db2a-4715-9dfb-ef662660e89d
+  - start: 2020-03-17
+    topic:
+      - paper
+    journal: New England Journal of Medicine
+    authors: van Doremalen N, Morris D, Bushmaker T et al.
+    title: Aerosol and Surface Stability of SARS-CoV-2 as compared with SARS-CoV-1
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121658/
+  - start: 2020-03-05
+    topic:
+      - paper
+    journal: Infect Control Hosp Epidemiol
+    authors: Cheng V, Wong S-C, Chen J, Yip C, Chuang V, Tsang O, et al.
+    title: Escalating infection control response to the rapidly evolving epidemiology of the Coronavirus disease 2019 (COVID-19) due to SARS-CoV-2 in Hong Kong
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7137535/
+  - start: 2020-03-17
+    topic:
+      - paper
+    journal: Clin Infect Dis.
+    title: "Risk Factors of Healthcare Workers with Corona Virus Disease 2019: A Retrospective Cohort Study in a Designated Hospital of Wuhan in China"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7184482/
+  - start: 2020-08-11
+    topic:
+      - news
+    journal: New York Times
+    title: "‘A Smoking Gun’: Infectious Coronavirus Retrieved From Hospital Air"
+    link: https://www.nytimes.com/2020/08/11/health/coronavirus-aerosols-indoors.html
+  - start: 2020-08-04
+    topic:
+      - paper
+    journal: Medrxiv
+    title: Viable SARS-CoV-2 in the air of a hospital room with COVID-19 patients
+    link: https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1
+    extra:
+      - name: (PDF)
+        link: https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1.full.pdf
+  - start: 2020-05-12
+    topic:
+      - paper
+    journal: MMWR Morb Mortal Wkly Rep.
+    authors: Hamner L, Dubbel P, Capron I, Ross A, Jordan A, Lee J, et al.
+    title: High SARS-CoV-2 Attack Rate Following Exposure at a Choir Practice - Skagit County, Washington, March 2020
+    link: https://www.cdc.gov/mmwr/volumes/69/wr/mm6919e6.htm?s_cid=mm6919e6_w
+    extra:
+      - name: PubMed
+        link: https://pubmed.ncbi.nlm.nih.gov/32407303/
+  - start: 2020-03-13
+    topic:
+      - paper
+    journal: Lancet
+    authors: Ghinai I, McPherson TD, Hunter JC, Kirking HL, Christiansen D, Joshi K, et al.
+    title: First known person-to-person transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in the USA
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158585/
+  - start: 2020-03-17
+    topic:
+      - paper
+    journal: Lancet
+    authors: Pung R, Chiew CJ, Young BE, Chin S, Chen MIC, Clapham HE, et al.
+    title: "Investigation of three clusters of COVID-19 in Singapore: implications for surveillance and response measures"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7269710/
+  - start: 2020-03-26
+    topic:
+      - paper
+    journal: Medrxiv
+    authors: Luo L, Liu D, Liao X, Wu X, Jing Q, Zheng J, et al.
+    title: Modes of contact and risk of transmission in COVID-19 among close contacts
+    link: https://www.medrxiv.org/content/10.1101/2020.03.24.20042606v1
