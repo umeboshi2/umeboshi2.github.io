@@ -25,10 +25,9 @@ convertDate = (date) ->
 
 convertEvent = (event) ->
   event.startDate = convertDate event.start
+  event.endDate = event.startDate
   if event?.end
     event.endDate = convertDate event.end
-  else
-    event.endDate = event.startDate
   event.color = "SkyBlue"
   event.name = event.title
 
@@ -79,21 +78,16 @@ class CalendarView extends Marionette.View
       view = new ModalEventsView
         model: new Backbone.Model event
       MainChannel.request 'show-modal', view, true
-    
+
   onRender: ->
     @calendar = new Calendar @ui.calendar.get(0),
       clickDay: @onClickDay
-    currentItems = []
-    collection = AppChannel.request 'get-selected-topics'
-    selected = collection.filter selected:true
-    selected.forEach (item) ->
-      console.log "ITEM", item
-      events = item.get('eventsModel').get 'events'
-      currentItems = currentItems.concat events
+    currentItems = AppChannel.request 'get-current-events'
+    AppChannel.request 'set-current-events'
     currentItems.forEach (item) ->
       convertEvent item
     @calendar.setDataSource currentItems
-    console.log "currentItems", currentItems
+
     
     
 export default CalendarView

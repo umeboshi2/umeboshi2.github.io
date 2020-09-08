@@ -12,7 +12,20 @@ AppChannel.reply 'set-selected-topics', (collection) ->
 AppChannel.reply 'get-selected-topics', ->
   return selectedTopics
 
+currentItems = []
 
+AppChannel.reply 'set-current-events', ->
+  currentItems.length = 0
+  collection = AppChannel.request 'get-selected-topics'
+  selected = collection.filter selected:true
+  selected.forEach (item) ->
+    events = item.get('eventsModel').get 'events'
+    events.forEach (event) ->
+      currentItems.push event
+
+AppChannel.reply 'get-current-events', ->
+  return currentItems
+  
 class CvLinks extends Backbone.Model
   url: '/assets/documents/cvlinks.json'
 

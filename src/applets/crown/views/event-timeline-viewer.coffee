@@ -28,34 +28,11 @@ class TimelineView extends Marionette.View
   clearBtnClicked: ->
     currentItems = []
     @timeline.setItems currentItems
-  topicSelected: (event) ->
-    @ui.loading.show()
-    $(event.target).hide()
-    topic = event.target.getAttribute("data-topic")
-    name = @model.get topic
-    eventModel = MainChannel.request "main:app:get-events", name
-    response = eventModel.fetch()
-    response.done =>
-      @ui.loading.hide()
-      events = eventModel.get 'events'
-      console.log "Events", events
-      @currentItems = @currentItems.concat events
-      @timeline.setItems @currentItems
-      
       
   onRender: ->
     @timeline = new Timeline @ui.timeline.get(0)
-    collection = AppChannel.request 'get-selected-topics'
-    selected = collection.filter selected:true
-    selected.forEach (item) ->
-      events = item.get('eventsModel').get 'events'
-      currentItems = currentItems.concat events
+    currentItems = AppChannel.request 'get-current-events'
+    AppChannel.request 'set-current-events'
     @timeline.setItems currentItems
-    
-    
-    
-    
-    #@calendar = new Calendar @ui.calendar.get(0),
-    #  clickDay: @onClickDay
 
 export default TimelineView
