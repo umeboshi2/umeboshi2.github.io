@@ -9,10 +9,21 @@ AppChannel = Backbone.Radio.channel 'frontdoor'
 
 appletEntries = [
   {
-    id: 'dbadmin'
-    label: 'Db Admin'
-    url: '#frontdoor/dbadmin'
-    icon: '.fa.fa-database'
+    label: "Index"
+    url: "#crown"
+    icon: '.fa.fa-list'
+  },{
+    label: "moviedb"
+    url: "#moviedb"
+    icon: '.fa.fa-video-camera'
+  },{
+    label: "tvmaze"
+    url: "#tvmaze"
+    icon: '.fa.fa-television'
+  },{
+    label: "bumblr"
+    url: "#bumblr"
+    icon: '.fa.fa-photo'
   }
 ]
 

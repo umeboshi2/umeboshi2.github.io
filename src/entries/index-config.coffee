@@ -12,14 +12,13 @@ misc_menu =
 #config.navbarEntries = [ misc_menu ]
 config.navbarEntries = [
   {
+    label: "Events"
+    url: "#crown/events"
+    icon: '.fa.fa-calendar'
+  },{
     label: "Index"
     url: "#crown"
-  },{
-    label: "moviedb"
-    url: "#moviedb"
-  },{
-    label: "tvmaze"
-    url: "#tvmaze"
+    icon: '.fa.fa-list'
   }
   #misc_menu
   ]

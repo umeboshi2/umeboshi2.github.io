@@ -48,7 +48,6 @@ class TimelineView extends Marionette.View
     collection = AppChannel.request 'get-selected-topics'
     selected = collection.filter selected:true
     selected.forEach (item) ->
-      console.log "ITEM", item
       events = item.get('eventsModel').get 'events'
       currentItems = currentItems.concat events
     @timeline.setItems currentItems

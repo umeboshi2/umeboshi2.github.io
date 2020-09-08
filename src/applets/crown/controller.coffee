@@ -9,32 +9,19 @@ import { ToolbarAppletLayout } from 'tbirds/views/layout'
 import navigate_to_url from 'tbirds/util/navigate-to-url'
 import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 
+import './dbchannel'
+
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
-selectedTopics = []
-
-AppChannel.reply 'set-selected-topics', (collection) ->
-  selectedTopics = collection
-
-AppChannel.reply 'get-selected-topics', ->
-  return selectedTopics
-  
-
-class CvLinks extends Backbone.Model
-  url: '/assets/documents/cvlinks.json'
-
-class EventIndex extends Backbone.Model
-  url: '/assets/events/index.json'
-  
 class Controller extends MainController
   channelName: 'crown'
   layoutClass: ToolbarAppletLayout
   viewIndex: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      model = new CvLinks
+      model = AppChannel.request 'get-index-model', 'cvlinks'
       View = require('./views/index-view').default
       response = model.fetch()
       response.done =>
@@ -61,6 +48,7 @@ class Controller extends MainController
       @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-coh-calendar'
+
   viewNewsCalendar: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
@@ -73,7 +61,7 @@ class Controller extends MainController
   viewEvents: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      model = new EventIndex
+      model = AppChannel.request 'get-index-model', 'eventIndex'
       View = require('./views/main-event-viewer').default
       response = model.fetch()
       response.done =>
