@@ -13,6 +13,15 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+selectedTopics = []
+
+AppChannel.reply 'set-selected-topics', (collection) ->
+  selectedTopics = collection
+
+AppChannel.reply 'get-selected-topics', ->
+  return selectedTopics
+  
+
 class CvLinks extends Backbone.Model
   url: '/assets/documents/cvlinks.json'
 
@@ -71,11 +80,6 @@ class Controller extends MainController
         view = new View
           model: model
         @layout.showChildView 'content', view
-      
-      view = new View
-      @layout.showChildView 'content', view
-      #conn = MainChannel.request 'main:app:dbConn', 'tvmaze'
-      #console.log "conn", conn
     # name the chunk
     , 'crown-view-events'
 
