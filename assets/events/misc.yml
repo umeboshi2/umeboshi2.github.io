@@ -59,4 +59,115 @@ events:
       - news
     title: The threat of disinformation looms over the elections
     link: https://www.pbs.org/newshour/show/the-threat-of-disinformation-looms-over-the-elections
-    
+  - start: 2020-08-02
+    topic:
+      - news
+    pretext: "\"The team also discovered evidence of down-regulated genes in 
+     COVID patients that might otherwise have kept hyaluronic acid levels in 
+     check. So with fluid inundating the lungs and gels that absorb those 
+     fluids being over-produced as well, a coronavirus patient’s lung, 
+     Jacobson said, 'fills up with a jello-like hydrogel.'\"" 
+    title: Has the Summit Supercomputer Cracked COVID's Code?
+    link: https://spectrum.ieee.org/the-human-os/computing/hardware/has-the-summit-supercomputer-cracked-the-covid-code
+    extra:
+      - name: (Wikipedia hydrogel article)
+        link: https://en.wikipedia.org/wiki/Hydrogel
+
+  - start: 2020-06-22
+    topic:
+      - news
+    title: Will Travel be Safer by 2022?
+    link: http://www.bbc.com/travel/story/20200621-will-travel-be-safer-by-2022
+  - start: 2018-05-17
+    topic:
+      - news
+    title: Ellen DeGeneres Grills Sandra Bullock Over "Penis Facials"
+    link: https://www.eonline.com/news/936261/ellen-degeneres-grills-sandra-bullock-over-quot-penis-facials-quot
+  - start: 2010-06-04
+    topic:
+      - paper
+    journal: British Medical Journal
+    title: Conflicts of interest and pandemic flu
+    link: https://www.bmj.com/content/340/bmj.c2947
+    extra:
+      - name: (PDF)
+        link: https://childrenshealthdefense.org/wp-content/uploads/Godlee-2010-Conflicts-of-interest-and-pandemic-flu.pdf
+  - start: 2009-05-14
+    topic:
+      - news
+    title: Billionaire club in bid to curb overpopulation
+    link: https://archive.is/RAwFf#selection-697.0-700.0
+  - start: 2020-08-07
+    topic:
+      - news
+    pretext: "\"Health officials say there is no returning to 'normal' until there is a vaccine.\""
+    title: "Dr. Anthony Fauci says chance of coronavirus vaccine being highly effective is ‘not great’"
+    link: https://www.cnbc.com/2020/08/07/coronavirus-vaccine-dr-fauci-says-chances-of-it-being-highly-effective-is-not-great.html
+  - start: 2009-11-29
+    topic:
+      - paper
+    journal: Nanoethics
+    authors: Henk van den Belt
+    pretext: "\"Synthetic biology, it is therefore maintained, does not 
+     offend so much the God of the Bible as a deified Nature. While syntheses 
+     of artificial life forms cause some vague uneasiness that life may lose 
+     its special meaning, most concerns turn out to be narrowly 
+     anthropocentric. As long as synthetic biology creates only new microbial 
+     life and does not directly affect human life, it will in all likelihood be 
+     considered acceptable.\""
+    title: "Playing God in Frankenstein’s Footsteps: Synthetic Biology and the Meaning of Life"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2837218/
+  - start: 2020-06-05
+    topic:
+      - paper
+    title: Covid-19 and Herd Immunity Without Vaccination—Teaching Modern Vaccine Dogma Old Tricks?
+    link: https://www.andrewbostom.org/2020/06/covid-19-and-herd-immunity-without-vaccination-teaching-modern-vaccine-dogma-old-tricks/
+  - start: 2017-02-10
+    topic:
+      - paper
+    journal: Biomaterials
+    title: "Crossing Kingdoms: Using Decellularized Plants as Perfusable Tissue Engineering Scaffolds"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388455/
+  - start: 2018-05-31
+    topic:
+      - paper
+    journal: Journal of Visualized Experiments
+    title: Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101437/
+    extra:
+      - name: (video)
+        link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101437/bin/jove-135-57586.mp4
+  - start: 2020-06-13
+    topic:
+      - news
+    title: Bill Gates Conspiracy Theorists Might Not Be As Crazy As You Think
+    link: https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
+  - start: 2014-09-23
+    topic:
+      - paper
+    pretext: "This article has been retracted. Retraction in: Front Public 
+     Health. 2019 October 29; 7: 334"
+    title: "Questioning the HIV-AIDS Hypothesis: 30 Years of Dissent"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4172096/
+  - start: 2020-04-07
+    topic:
+      - news
+    title: Stepher's comment
+    link: https://pieceofmindful.com/2020/04/06/bombshell-who-coronavirus-pcr-test-primer-sequence-is-found-in-all-human-dna/#comment-121824
+  - start: 2020-08-22
+    topic:
+      - news
+    title: "From Lockdown to Police State: The “Great Reset” Rolls Out"
+    link: https://ellenbrown.com/2020/08/22/from-lockdown-to-police-state-the-great-reset-rolls-out/
+  - start: 2020-04-22
+    topic:
+      - paper
+    authors: Yuri Deigin
+    title: Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research
+    link: https://medium.com/@yurideigin/lab-made-cov2-genealogy-through-the-lens-of-gain-of-function-research-f96dd7413748
+  - start: 2014-03-27
+    topic:
+      - paper
+    journal: Frontiers in Human Neuroscience
+    title: "A review of neuroimaging studies of race-related prejudice: does amygdala response reflect threat?"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3973920/

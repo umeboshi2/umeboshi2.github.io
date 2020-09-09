@@ -13,7 +13,6 @@
 
 [More Mask Papers](#pages/blog/cv19/more-mask-papers)
 
-
 [WHO Mythbusters](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
 
 [old research map](https://en.wikipedia.org/wiki/User:Umeboshi/research_map)
@@ -22,46 +21,15 @@
 
 [Manage Cookies](chrome://settings/siteData)
 
-https://www.virginiabusiness.com/
-
-<div class="link-view" data-title="Papers And Articles"  data-events="misc"></div>
-
 [Cabbage Fact Check](https://factcheck.afp.com/who-did-not-warn-against-eating-cabbage-during-covid-19-pandemic)
 
-July 1, 2020
-[COVID-19 death toll underreported, study finds](https://www.virginiabusiness.com/article/covid-19-death-toll-underreported-study-finds/)
-
-
-[The effects of skin tone on race-related amygdala activity: an fMRI investigation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2555431/)
-
-[A review of neuroimaging studies of race-related prejudice: does amygdala response reflect threat?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3973920/)
-
 [COVI-PASS](https://covipass.com)
-
-"The team also discovered evidence of down-regulated genes in COVID patients 
-that might otherwise have kept hyaluronic acid levels in check. So with fluid 
-inundating the lungs and gels that absorb those fluids being over-produced as 
-well, a coronavirus patient’s lung, Jacobson said, 'fills up with a jello-like 
-hydrogel.'" 
-[Has the Summit Supercomputer Cracked COVID's Code?](https://spectrum.ieee.org/the-human-os/computing/hardware/has-the-summit-supercomputer-cracked-the-covid-code)
-[Wikipedia hydrogel article](https://en.wikipedia.org/wiki/Hydrogel)
-
-
-[Will Travel be Safer by 2022?](http://www.bbc.com/travel/story/20200621-will-travel-be-safer-by-2022)
-
-MAY 17, 2018
-[Ellen DeGeneres Grills Sandra Bullock Over "Penis Facials"](https://www.eonline.com/news/936261/ellen-degeneres-grills-sandra-bullock-over-quot-penis-facials-quot)
 
 
 
 Stretchable hydrogel electronics
 
 https://www.youtube.com/watch?v=T3TqCrLUgC0
-
-
-[Conflicts of interest and pandemic flu](https://www.bmj.com/content/340/bmj.c2947) [(PDF)](https://childrenshealthdefense.org/wp-content/uploads/Godlee-2010-Conflicts-of-interest-and-pandemic-flu.pdf)
-
-[Billionaire club in bid to curb overpopulation](https://archive.is/RAwFf#selection-697.0-700.0)
 
 
 [Institute for Statecraft](https://en.wikipedia.org/wiki/Institute_for_Statecraft)
@@ -75,63 +43,27 @@ https://www.youtube.com/watch?v=tG5-K9bZde4
 https://www.youtube.com/watch?v=GVh9NuNc4ck
 
 
-
-"Health officials say there is no returning to 'normal' until there is a 
-vaccine." [Dr. Anthony Fauci says chance of coronavirus vaccine being highly effective is ‘not great’](https://www.cnbc.com/2020/08/07/coronavirus-vaccine-dr-fauci-says-chances-of-it-being-highly-effective-is-not-great.html)
-
-
 [vaccine on wikispooks](https://wikispooks.com/wiki/COVID-19/Vaccine)
 
 [mighty wurlitzer](https://archive.org/search.php?query=subject%3A%22mighty+wurlitzer%22)
 
 
-"Synthetic biology, it is therefore maintained, does not offend so much the God 
-of the Bible as a deified Nature. While syntheses of artificial life forms 
-cause some vague uneasiness that life may lose its special meaning, most 
-concerns turn out to be narrowly anthropocentric. As long as synthetic biology 
-creates only new microbial life and does not directly affect human life, it 
-will in all likelihood be considered acceptable."
-[Playing God in Frankenstein’s Footsteps: Synthetic Biology and the Meaning of Life](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2837218/)
 
-
-
-[Covid-19 and Herd Immunity Without Vaccination—Teaching Modern Vaccine Dogma Old Tricks?](https://www.andrewbostom.org/2020/06/covid-19-and-herd-immunity-without-vaccination-teaching-modern-vaccine-dogma-old-tricks/)
 
 BILL GATES, ROCKEFELLER AND THE GMO GIANTS KNOW SOMETHING WE DON’T
 "Doomsday Seed Vault" in the Arctic
 by F. William Engdahl
 [article](https://www.voltairenet.org/article162545.html)
 
-
-Feb 10, 2017
-[Crossing Kingdoms: Using Decellularized Plants as Perfusable Tissue Engineering Scaffolds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388455/)
-
-
-[Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101437/)
-
-
-https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
-
-
 https://www.facebook.com/CityofHattiesburg/posts/3188932427843003
 
 
 https://acu2020.org/english-versions/
 
-[Questioning the HIV-AIDS Hypothesis: 30 Years of Dissent](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4172096/)
-
-
-https://pieceofmindful.com/2020/04/06/bombshell-who-coronavirus-pcr-test-primer-sequence-is-found-in-all-human-dna/#comment-121824
-
-
-[From Lockdown to Police State: The “Great Reset” Rolls Out](https://ellenbrown.com/2020/08/22/from-lockdown-to-police-state-the-great-reset-rolls-out/)
-
 
 https://duckduckgo.com/?q=game+of+function+with+viruses&ia=web
 
 
-[Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research](https://medium.com/@yurideigin/lab-made-cov2-genealogy-through-the-lens-of-gain-of-function-research-f96dd7413748)
-
-
-
 https://en.wikipedia.org/wiki/Cutter_Laboratories
+
+<div class="link-view" data-title="Papers And Articles"  data-events="misc"></div>
