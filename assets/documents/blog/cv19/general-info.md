@@ -18,7 +18,8 @@
 
 [MSDH](https://msdh.ms.gov/msdhsite/_static/14,0,420.html ) is the source 
 of authority for the information provided to the CDC  or whatever federal 
-agency who is currently in charge of receiving the data.
+agency who is currently in charge of receiving the data.  Depending on the 
+free procy, you may be able to view their [RSS feed](#crown/rss).
 
 [Forrest General Hospital](https://fhcovid19.com/) used to provide local 
 daily data, but decided to stop on June 2, 2020 to inspire and encourage 
