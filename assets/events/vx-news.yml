@@ -166,27 +166,10 @@ events:
       - news
     title: Trump’s Vaccine Can’t Be Trusted
     link: https://foreignpolicy.com/2020/09/03/trumps-vaccine-cant-be-trusted/
-    
-      
-
-    
-    
-
-    
-    
-    
-
-    
-    
-
-        
-    
-
-    
-    
-    
-
-    
-
-
+  - start: 2020-08-31
+    topics:
+      - news
+    journal: CBS News
+    title: Hundreds protest student flu shot mandate in Massachusetts
+    link: https://www.cbsnews.com/news/massachusetts-flu-shot-mandate-protest/
     
