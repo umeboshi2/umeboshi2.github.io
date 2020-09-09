@@ -65,15 +65,12 @@ class PageEntryView extends Marionette.View
     
     
   
-viewTemplate = tc.renderable (model) ->
-  tc.div '.row.listview-header', ->
-    tc.h1 "Index"
-  tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
-  tc.div '.index-view'
-
-
 class MainView extends Marionette.View
-  template: viewTemplate
+  template: tc.renderable (model) ->
+    tc.div '.row.listview-header', ->
+      tc.h1 "Workshop Index"
+    tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
+    tc.div '.index-view'
   ui:
     indexView: '.index-view'
     refreshBtn: '.refresh-btn'

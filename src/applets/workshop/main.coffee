@@ -21,14 +21,6 @@ appletMenu = [
     label: 'CoH Calendar'
     url: '#workshop/calendar/coh'
     icon: '.fa.fa-calendar'
-  },{
-    label: 'News Calendar'
-    url: '#workshop/calendar/news'
-    icon: '.fa.fa-calendar'
-  },{
-    label: 'Events'
-    url: '#workshop/events'
-    icon: '.fa.fa-calendar'
   }
   ]
 
