@@ -10,8 +10,14 @@ AppChannel = Backbone.Radio.channel 'crown'
 
 import LinkEntryView from '../../frontdoor/views/link-entry'
 
+class LinkItemView extends LinkEntryView
+  className: 'list-group-item'
 
+class ListGroupView extends Marionette.CollectionView
+  className: 'list-group'
+  
 class TopicView extends Marionette.View
+  className: 'list-group-item'
   template: tc.renderable (model) ->
     tc.h4 model.topic
     tc.div '.events-container'
@@ -21,8 +27,8 @@ class TopicView extends Marionette.View
     eventsList: '@ui.eventsList'
   onRender: ->
     events = @model.get('eventsModel').get('events')
-    view = new Marionette.CollectionView
-      childView: LinkEntryView
+    view = new ListGroupView
+      childView: LinkItemView
       collection: new Backbone.Collection events
       viewComparator:  'start'
     @showChildView 'eventsList', view
@@ -43,7 +49,7 @@ class MainView extends Marionette.View
   onRender: ->
     Topics = AppChannel.request 'get-selected-topics'
     selectedTopics = new Backbone.Collection Topics.filter selected:true
-    view = new Marionette.CollectionView
+    view = new ListGroupView
       collection: selectedTopics
       childView: TopicView
       viewComparator: 'topic'
