@@ -60,19 +60,9 @@ class ModalEventsView extends Marionette.View
     
 class CalendarView extends Marionette.View
   template: tc.renderable (model) ->
-    tc.div '.btn-group', role:'group', ->
-      tc.div '.btn.btn-outline-warning.btn-clear', 'Clear'
-    #tc.div '.maincalendar.col-sm-10.offset-sm-1'
     tc.div '.maincalendar'
   ui:
-    clearBtn: '.btn-clear'
     calendar: '.maincalendar'
-  events:
-    'click @ui.clearBtn': 'clearCalendar'
-  clearCalendar: ->
-    currentItems = []
-    @calendar.setDataSource currentItems
-    
   onClickDay: (event) ->
     if event?.events.length
       view = new ModalEventsView
@@ -82,6 +72,9 @@ class CalendarView extends Marionette.View
   onRender: ->
     @calendar = new Calendar @ui.calendar.get(0),
       clickDay: @onClickDay
+    @resetTopics()
+    
+  resetTopics: ->
     currentItems = AppChannel.request 'get-current-events'
     AppChannel.request 'set-current-events'
     currentItems.forEach (item) ->

@@ -1,0 +1,55 @@
+import $ from 'jquery'
+import Backbone from 'backbone'
+import Marionette from 'backbone.marionette'
+import tc from 'teacup'
+import moment from 'moment'
+
+MainChannel = Backbone.Radio.channel 'global'
+MessageChannel = Backbone.Radio.channel 'messages'
+AppChannel = Backbone.Radio.channel 'crown'
+
+import LinkEntryView from '../../frontdoor/views/link-entry'
+
+
+class TopicView extends Marionette.View
+  template: tc.renderable (model) ->
+    tc.h4 model.topic
+    tc.div '.events-container'
+  ui:
+    eventsList: '.events-container'
+  regions:
+    eventsList: '@ui.eventsList'
+  onRender: ->
+    events = @model.get('eventsModel').get('events')
+    view = new Marionette.CollectionView
+      childView: LinkEntryView
+      collection: new Backbone.Collection events
+      viewComparator:  'start'
+    @showChildView 'eventsList', view
+    
+class MainView extends Marionette.View
+  template: tc.renderable (model) ->
+    tc.div '.events-container'
+  ui:
+    clearBtn: '.btn-clear'
+    eventsList: '.events-container'
+    calendar: '.maincalendar'
+  regions:
+    eventsList: '@ui.eventsList'
+  events:
+    'click @ui.clearBtn': 'clearCalendar'
+  clearCalendar: ->
+    currentItems = []
+  onRender: ->
+    Topics = AppChannel.request 'get-selected-topics'
+    selectedTopics = new Backbone.Collection Topics.filter selected:true
+    view = new Marionette.CollectionView
+      collection: selectedTopics
+      childView: TopicView
+      viewComparator: 'topic'
+    @showChildView 'eventsList', view
+  resetTopics: ->
+    console.log "reset topics"
+    @render()
+  
+export default MainView

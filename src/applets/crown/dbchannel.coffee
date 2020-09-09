@@ -4,7 +4,7 @@ import Marionette from 'backbone.marionette'
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'crown'
 
-selectedTopics = []
+selectedTopics = new Backbone.Collection []
 
 AppChannel.reply 'set-selected-topics', (collection) ->
   selectedTopics = collection
