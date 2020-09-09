@@ -26,14 +26,30 @@ class YTIframe extends Marionette.View
 class VideoView extends Marionette.View
   template: tc.renderable (model) ->
     tc.div '.vid-container'
-    tc.button '.video-btn.btn.btn-outline-primary', "Show Video"
+    tc.button '.show-video-btn.btn.btn-outline-warning', ->
+      tc.i '.fa.fa-youtube'
+      tc.text " Show Video"
+    tc.button '.remove-video-btn.btn.btn-outline-danger',
+    style:'display: none;', ->
+      tc.i '.fa.fa-youtube'
+      tc.text " Remove Video"
   ui:
     videoContainer: '.vid-container'
-    videoBtn: '.video-btn'
+    showVideoBtn: '.show-video-btn'
+    removeVideoBtn: '.remove-video-btn'
   regions:
     videoContainer: '@ui.videoContainer'
   events:
-    'click @ui.videoBtn': 'showIframe'
+    'click @ui.showVideoBtn': 'showVideoBtnClicked'
+    'click @ui.removeVideoBtn': 'removeVideoBtnClicked'
+  showVideoBtnClicked: ->
+    @ui.showVideoBtn.hide()
+    @ui.removeVideoBtn.show()
+    @showIframe()
+  removeVideoBtnClicked: ->
+    @ui.removeVideoBtn.hide()
+    @ui.showVideoBtn.show()
+    @getRegion('videoContainer').empty()
   showIframe: ->
     view = new YTIframe
       id: @id
