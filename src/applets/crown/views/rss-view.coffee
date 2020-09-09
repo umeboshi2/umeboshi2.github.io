@@ -3,18 +3,22 @@ import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import X2JS from 'x2js'
+import moment from "moment"
 
 JView = require 'json-view'
 require 'json-view/devtools.css'
 
 import navigate_to_url from 'tbirds/util/navigate-to-url'
 
+class QRSSModel extends Backbone.Model
+  #url: 'https://www.qmap.pub/api/rss?lang=en'
+
 class RSSModel extends Backbone.Model
-  url: 'https://www.qmap.pub/api/rss?lang=en'
+  initialize: (attributes, options) ->
+    @url = options.url
   parse: (data) ->
     x2js = new X2JS()
     return x2js.xml2js data
-    
 
 class HeaderView extends Marionette.View
   template: tc.renderable (model) ->
@@ -25,12 +29,13 @@ class IndexView extends Marionette.View
   template: tc.renderable (model) ->
     channel = model.rss.channel
     for i in channel.item
-      console.log "I", i
-      tc.text new Date i.pubDate
-      tc.text '|'
-      tc.a href:i.link,  i.title
-      tc.div '.listview-list-entry', ->
-        tc.raw i.description
+      tc.div '.list-group-item.card', ->
+        tc.div '.card-title', ->
+          tc.small moment.utc(i.pubDate).format("MMMM D, YYYY")
+          tc.text ' | '
+          tc.a href:i.link,  i.title
+          tc.div '.card-body', ->
+            tc.raw i.description
 
 class MainView extends Marionette.View
   template: tc.renderable (model) ->
@@ -45,7 +50,7 @@ class MainView extends Marionette.View
     indexView: '@ui.indexView'
   events:
     'click @ui.refreshBtn': 'refreshBtnClicked'
-  model: new RSSModel
+  model: new RSSModel {}, url: "https://cors-anywhere.herokuapp.com/https://msdh.ms.gov/msdhsite/rssFeed.xml"  # noqa
   showIndexView: ->
     region = @getRegion 'indexView'
     region.empty()
