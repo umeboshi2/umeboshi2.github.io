@@ -11,12 +11,7 @@
 
 # Virus Nanotechnology
 
-[Virus Nanotechnology on Wikipedia](https://en.wikipedia.org/wiki/Virus_nanotechnology)
-
-
 <div class="link-view" data-title="Papers And Articles"  data-events="nanotech"></div>
-
-
 
 Raja Muthuramalingam Thangavelu on [Google Scholar](https://scholar.google.com/scholar?q=Raja+Muthuramalingam+Thangavelu+) [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56979919300)
 
