@@ -1,48 +1,73 @@
 topic: id2020
-eventType: news
 events:
   - start: 2020-05-21
+    topics:
+      - news
     journal: MasterCard
     title: Mastercard Joins ID2020 Alliance
     link: https://mastercardcontentexchange.com/newsroom/press-releases/2020/may/mastercard-joins-id2020-alliance/
   - start: 2020-05-22
+    topics:
+      - news
     title: Mastercard joins ID2020 Alliance to advance digital identity as a fundamental human right
     link: https://www.biometricupdate.com/202005/mastercard-joins-id2020-alliance-to-advance-digital-identity-as-a-fundamental-human-right
   - start: 2016-06-23
+    topics:
+      - news
     pretext: This article covers the inaugural ID2020 summit.
     title: Fighting for a Secure Digital Identity for All
     link: https://redmondmag.com/articles/2016/07/01/common-cause.aspx
   - start: 2019-09-10
+    topics:
+      - news
     journal: Medium
     title: Welcome the City of Austin to the ID2020 Alliance!
     link: https://medium.com/id2020/welcome-the-city-of-austin-to-the-id2020-alliance-76b0ebe6776
   - start: 2020-06-01
+    topics:
+      - news
     pretext: (estimated date)
     title: Advisor resigns from ID2020 objecting to blockchain immunity passports for COVID-19
     link: https://ledgerinsights.com/id2020-resignation-blockchain-covid-19-immunity-passports/
   - start: 2019-09-20
+    topics:
+      - news
     title: ID2020 and partners launch program to provide digital ID with vaccines
     link: https://www.biometricupdate.com/201909/id2020-and-partners-launch-program-to-provide-digital-id-with-vaccines
   - start: 2019-10-16
+    topics:
+      - news
     title: Mastercard and Mahendra Singh Dhoni come together to build Team Cashless India
     link: https://newsroom.mastercard.com/asia-pacific/press-releases/mastercard-and-mahendra-singh-dhoni-come-together-to-build-team-cashless-india/
   - start: 2020-03-27
+    topics:
+      - news
     title: The very first Wikipedia article devoted to the topic
     link: https://en.wikipedia.org/w/index.php?title=ID2020&oldid=947565717
   - start: 2020-04-15
+    topics:
+      - news
     title: How a tech NGO got sucked into a COVID-19 conspiracy theory
     link: https://www.thenewhumanitarian.org/news/2020/04/15/id2020-coronavirus-vaccine-misinformation
   - start: 2020-04-22
+    topics:
+      - news
     title: Are Bill Gates and the ID2020 Coalition Using COVID-19 To Build Global Surveillance State?
     link: https://www.snopes.com/fact-check/bill-gates-id2020/
   - start: 2020-06-06
+    topics:
+      - news
     title: 'The Coronavirus COVID-19 Pandemic: The Real Danger is “Agenda ID2020”'
     link: https://www.globalresearch.ca/coronavirus-causes-effects-real-danger-agenda-id2020/5706153
   - start: 2020-04-11
+    topics:
+      - paper
     authors: WHO
     title: WHO Novel Coronavirus Landscape (PDF)
     link: https://www.who.int/docs/default-source/coronaviruse/transcripts/novel-coronavirus-landscape-ncov-11april2020.pdf
   - start: 2020-04-20
+    topics:
+      - news
     authors: WHO
     title: "Immunity Certificates:  If We Must Have Them, We Must Do It Right (PDF)"
     link: https://ethics.harvard.edu/files/center-for-ethics/files/12immunitycertificates.pdf

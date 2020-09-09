@@ -172,4 +172,11 @@ events:
     journal: CBS News
     title: Hundreds protest student flu shot mandate in Massachusetts
     link: https://www.cbsnews.com/news/massachusetts-flu-shot-mandate-protest/
+  - start: 2020-09-09
+    topics:
+      - news
+      - trials
+    journal: CNN
+    title: AstraZeneca pauses coronavirus vaccine trial after unexplained illness in volunteer
+    link: https://www.cnn.com/2020/09/08/health/coronavirus-vaccine-astrazeneca-pause/index.html
     

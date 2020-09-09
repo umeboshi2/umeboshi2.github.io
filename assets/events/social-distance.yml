@@ -1,5 +1,4 @@
 topic: social-distance
-eventType: papers
 events:
   - start: 2020-05-15
     topics:
@@ -37,7 +36,7 @@ events:
     journal: CDC - Emerging Infectious Diseases
     title: Targeted Social Distancing Designs for Pandemic Influenza
     link: https://wwwnc.cdc.gov/eid/article/12/11/06-0255_article
-  - start: 2006-11-01
+  - start: 2006-01-01
     topics:
       - paper
     pretext: (estimated date)
