@@ -24,6 +24,10 @@ appletEntries = [
     label: "bumblr"
     url: "#bumblr"
     icon: '.fa.fa-photo'
+  },{
+    label: "workshop"
+    url: "#workshop"
+    icon: '.fa.fa-wrench'
   }
 ]
 
