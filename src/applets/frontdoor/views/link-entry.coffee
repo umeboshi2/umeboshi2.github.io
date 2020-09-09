@@ -14,8 +14,9 @@ class LinkEntryView extends Marionette.View
     tc.text moment.utc(event.start).format("MMMM D, YYYY")
     tc.text ", "
     if event?.pretext
-      tc.text event.pretext
-      tc.text " "
+      tc.small ->
+        tc.text event.pretext
+        tc.text " "
     if event?.journal
       tc.text event.journal
       tc.text ", "
