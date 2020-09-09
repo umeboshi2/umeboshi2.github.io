@@ -32,6 +32,9 @@ events:
   - start: 2018-07-20
     topic:
       - paper
+    journal: Arabian Journal of Chemistry
+    authors: Raja Muthuramalingam Thangavelu, Rajendran Ganapathy,
+     Pandian Ramasamy, and Kathiravan Krishnan
     title: "Fabrication of virus metal hybrid nanomaterials: An ideal reference for bio semiconductor"
     link: https://www.sciencedirect.com/science/article/pii/S1878535218301540?via%3Dihub
   - start: 2009-05-22
