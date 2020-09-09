@@ -19,7 +19,8 @@ class StaticDocument extends Backbone.Model
   fetch: (options) ->
     options = _.extend options || {},
       dataType: 'text'
-      nocache: Date.now()
+      data:
+        nocache: Date.now()
     super options
 
   parse: (response) ->
@@ -32,7 +33,8 @@ class EventData extends Backbone.Model
   fetch: (options) ->
     options = _.extend options || {},
       dataType: 'text'
-      nocache: Date.now()
+      data:
+        nocache: Date.now()
     super options
 
   parse: (data) ->
