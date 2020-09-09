@@ -22,10 +22,6 @@ appletMenu = [
     url: '#crown/calendar/coh'
     icon: '.fa.fa-calendar'
   },{
-    label: 'News Calendar'
-    url: '#crown/calendar/news'
-    icon: '.fa.fa-calendar'
-  },{
     label: 'Events'
     url: '#crown/events'
     icon: '.fa.fa-calendar'
