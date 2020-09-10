@@ -94,11 +94,12 @@ def get_event_topics(parsed_yaml):
             raise RuntimeError("Add a topic list to the event")
         for t in topics:
             topic_set.add(t)
-    main_data['topics'] = list(topic_set)
+    main_data['topics'] = sorted(list(topic_set))
     return main_data
 
 
 def generate_topic_database(yaml_files):
+    yaml_files = sorted(yaml_files)
     main_data = dict()
     main_data['topics'] = dict()
     tdict = main_data['topics']
@@ -112,56 +113,40 @@ def generate_topic_database(yaml_files):
         tdict[topic] = dict(filename=node.name[:-4], name=topic)
         tdict[topic]['topics'] = get_event_topics(parsed)['topics']
     subtopic_dict = collections.defaultdict(list)
-    for topic in tdict:
-        sublist = tdict[topic]['topics']
+    for topic in sorted(tdict.keys()):
+        sublist = sorted(tdict[topic]['topics'])
         for sub in sublist:
             subtopic_dict[sub].append(topic)
     main_data['subtopics'] = subtopic_dict
     return main_data
 
+def generate_pagelink_database(md_files):
+    cvcontent = dict()
+    all_links = dict()
+    page_data = dict()
+    for filename in md_files:
+        cvcontent[filename] = make_soup(filename)
+        all_links[filename] = get_html_links(cvcontent[filename])
+        key = key_from_filename(filename)
+        page_data[key] = all_links[filename]
+
+    jdata = dict()
+    jdata['pages'] = list()
+    for pname in sorted(page_data.keys()):
+        pdata = dict(name=pname)
+        pdata['links'] = page_data[pname]
+        jdata['pages'].append(pdata)
+    return jdata
+
 
 subprocess.run(DOCTOC_CMD)
 
-
 cvnodes = list(cvdir.glob('**/*'))
-
 cvfiles = [n for n in cvnodes if n.is_file()]
-
-cvcontent = dict()
-all_links = dict()
-page_data = dict()
-
-for filename in cvfiles:
-    cvcontent[filename] = make_soup(filename)
-    all_links[filename] = get_html_links(cvcontent[filename])
-    key = key_from_filename(filename)
-    page_data[key] = all_links[filename]
-
-
-jdata = dict()
-jdata['pages'] = list()
-for pname in sorted(page_data.keys()):
-    pdata = dict(name=pname)
-    pdata['links'] = page_data[pname]
-    jdata['pages'].append(pdata)
-
-htmlfiles = [make_soup(f) for f in cvfiles]
-
-create_cvlinks_file(jdata)
+pagelink_data = generate_pagelink_database(cvfiles)
+create_cvlinks_file(pagelink_data)
 
 ev_nodes = list(events_dir.glob('**/*.yml'))
-
-evdata = {}
-for node in ev_nodes:
-    if not node.name.endswith('.yml'):
-        raise RuntimeError("Need yaml file")
-    data = yaml.safe_load(open(node))
-    topic = data['topic']
-    if topic in evdata:
-        raise RuntimeError("Topic {} already exists.",format(topic))
-    evdata[topic] = node.name[:-4]
-
 topic_db = generate_topic_database(ev_nodes)
-
 create_event_index_file(topic_db)
 
