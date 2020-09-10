@@ -3,7 +3,8 @@ import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 
 import JView from 'json-view'
-import './json-view.css'
+import 'common/json-view.css'
+import HasJsonView from 'common/has-jsonview'
 
 class LinksView extends Marionette.View
   template: tc.renderable (model) ->
@@ -35,6 +36,9 @@ class PageEntryView extends Marionette.View
     linksView: '@ui.linksView'
   events:
     'click @ui.linksBtn': 'linkBtnClicked'
+  behaviors:
+    HasJsonView:
+      behaviorClass: HasJsonView
   linkBtnClicked: (event) ->
     region = @getRegion('linksView')
     if region.hasView()
@@ -52,13 +56,6 @@ class PageEntryView extends Marionette.View
     view = new LinksView
       model: @model
     @showChildView 'linksView', view
-  onDomRefresh: ->
-    @jsonView = new JView @model.toJSON()
-    @ui.jsonView.prepend @jsonView.dom
-    
-    
-    
-    
     
   
 class MainView extends Marionette.View
