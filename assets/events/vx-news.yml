@@ -1,5 +1,4 @@
 topic: vaccination
-eventType: news
 events:
   - start: 2017-04-19
     topics:
@@ -35,7 +34,10 @@ events:
       - trials
       - uptake
   - start: 2020-08-04
-    topics: trials, uptake
+    topics:
+      - news
+      - trials
+      - uptake
     title: US Government & Yale Hold Trials On How Best To ‘Persuade’ Americans To Take COVID-19 Vaccine
     link: http://www.alt-market.com/index.php/articles/4293-us-government-a-yale-hold-trials-on-how-best-to-persuade-americans-to-take-covid-19-vaccine?utm_source=whatfinger
   - start: 1991-01-01
@@ -67,7 +69,9 @@ events:
     title: HATTIESBURG CLINIC SEEKS PARTICIPANTS FOR CORONAVIRUS VACCINE TRIAL
     link: https://www.hubcityspokes.com/hattiesburg-clinic-seeks-participants-coronavirus-vaccine-trial
   - start: 2020-07-31
-    topics: liability
+    topics:
+      - news
+      - liability
     title: "Bubble indemnity: Big Pharma firms will NOT be held accountable for side effects of Covid vaccine"
     link: https://www.rt.com/news/496801-pharma-not-accountable-vaccine-effect/
   - start: 2019-12-18
@@ -129,26 +133,40 @@ events:
     title: What you need to know about the COVID-19 vaccine
     link: https://www.gatesnotes.com/Health/What-you-need-to-know-about-the-COVID-19-vaccine?WT.tsrc=BGEM
   - start: 2020-08-11
+    topics:
+      - news
     title: "Doctors lay out plan to ‘punish’ people who refuse coronavirus vaccine: ‘There is no alternative’"
     link: https://www.lifesitenews.com/news/doctors-lay-out-plan-to-punish-people-who-refuse-coronavirus-vaccine-there-is-no-alternative
   - start: 2020-08-06
+    topics:
+      - news
     journal: USA Today
     title: "Make vaccines free, don't allow religious or personal objections, and punish those who won't be vaccinated. They are threatening the lives of others."
     link: https://web.archive.org/web/20200806173738if_/https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/
   - start: 2020-08-10
+    topics:
+      - news
     journal: USA Today
     title: "Make vaccines free, don't allow religious or personal objections, and create disincentives for those who refuse vaccines shown to be safe and effective."
     link: https://www.usatoday.com/story/opinion/2020/08/06/stop-coronavirus-compulsory-universal-vaccination-column/3289948001/
   - start: 2020-08-12
+    topics:
+      - news
     title: Aborted Fetal Cell Lines Used In Vaccines
     link: http://nodeception.org/aborted-fetal-cell-lines-used-in-vaccines/
   - start: 2020-08-19
+    topics:
+      - news
     title: The time has come for all schools to require the flu shot
     link: https://www.cnn.com/2020/08/19/health/vaccine-flu-shot-sanchez-opinion-coronavirus/index.html
   - start: 2020-09-01
+    topics:
+      - news
     title: Circulating vaccine-derived poliovirus type 2 – Sudan
     link: https://www.who.int/csr/don/01-september-2020-polio-sudan/en/
   - start: 2015-07-22
+    topics:
+      - news
     title: DDT and the Rise and Fall of Polio
     link: https://thevaccinereaction.org/2015/07/ddt-and-the-rise-and-fall-of-polio/
   - start: 2020-06-04
