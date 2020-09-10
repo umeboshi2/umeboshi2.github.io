@@ -25,6 +25,10 @@ appletEntries = [
     url: "#bumblr"
     icon: '.fa.fa-photo'
   },{
+    label: "Internet Archive"
+    url: "#netark"
+    icon: '.fa.fa-wrench'
+  },{
     label: "workshop"
     url: "#workshop"
     icon: '.fa.fa-wrench'
