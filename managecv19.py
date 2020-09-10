@@ -2,6 +2,7 @@ import sys
 import os
 import pathlib
 import subprocess
+import collections
 import json
 import yaml
 
@@ -51,8 +52,10 @@ def key_from_filename(filename, keep_extension=True):
     else:
         return key.split('.md')[0]
 
+
 def key_from_link(link):
     print(link)
+
 
 def get_html_links(soup):
     links = set()
@@ -66,14 +69,56 @@ def get_html_links(soup):
             links.add(a['href'])
     return sorted(list(links))
 
+
 def create_cvlinks_file(content):
     with open('assets/documents/cvlinks.json', 'w') as outfile:
         json.dump(content, outfile)
 
+
 def create_event_index_file(content):
     with open('assets/events/index.json', 'w') as outfile:
         json.dump(content, outfile)
-        
+
+
+def get_event_topics(parsed_yaml):
+    main_data = dict(main_topic=parsed_yaml['topic'])
+    events = parsed_yaml['events']
+    # print("Events", events)
+    topic_set = set()
+    for e in events:
+        try:
+            topics = e['topics']
+        except KeyError:
+            print("No topic list in {}".format(parsed_yaml['topic']))
+            print(e)
+            raise RuntimeError("Add a topic list to the event")
+        for t in topics:
+            topic_set.add(t)
+    main_data['topics'] = list(topic_set)
+    return main_data
+
+
+def generate_topic_database(yaml_files):
+    main_data = dict()
+    main_data['topics'] = dict()
+    tdict = main_data['topics']
+    for node in yaml_files:
+        if not node.name.endswith('.yml'):
+            raise RuntimeError("Need yaml file")
+        parsed = yaml.safe_load(open(node))
+        topic = parsed['topic']
+        if topic in tdict:
+            raise RuntimeError("Topic {} already exists.".format(topic))
+        tdict[topic] = dict(filename=node.name[:-4], name=topic)
+        tdict[topic]['topics'] = get_event_topics(parsed)['topics']
+    subtopic_dict = collections.defaultdict(list)
+    for topic in tdict:
+        sublist = tdict[topic]['topics']
+        for sub in sublist:
+            subtopic_dict[sub].append(topic)
+    main_data['subtopics'] = subtopic_dict
+    return main_data
+
 
 subprocess.run(DOCTOC_CMD)
 
@@ -116,4 +161,7 @@ for node in ev_nodes:
         raise RuntimeError("Topic {} already exists.",format(topic))
     evdata[topic] = node.name[:-4]
 
-create_event_index_file(evdata)
+topic_db = generate_topic_database(ev_nodes)
+
+create_event_index_file(topic_db)
+
