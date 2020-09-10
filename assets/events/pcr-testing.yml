@@ -30,6 +30,8 @@ events:
     title: Faith in Quick Test Leads to Epidemic That Wasn’t
     link: https://www.nytimes.com/2007/01/22/health/22whoop.html
   - start: 2020-06-27
+    topics:
+      - news
     title: COVID19 PCR Tests are Scientifically Meaningless
     link: https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/
     

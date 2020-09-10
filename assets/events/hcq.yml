@@ -125,6 +125,8 @@ events:
     title: NIH halts clinical trial of hydroxychloroquine
     link: https://www.nih.gov/news-events/news-releases/nih-halts-clinical-trial-hydroxychloroquine
   - start: 2020-07-13
+    topics:
+      - news
     title: Local doctor pushing proven treatment of COVID into national debate
     link: https://www.thedesertreview.com/opinion/letters_to_editor/local-doctor-pushing-proven-treatment-of-covid-into-national-debate/article_ca59497a-c539-11ea-8943-4f707d6ebc1a.html
     note: Updated July 16, 2020

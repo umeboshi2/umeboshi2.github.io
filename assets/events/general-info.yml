@@ -26,6 +26,8 @@ events:
     title: A Novel Coronavirus from Patients with Pneumonia in China, 2019
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092803/
   - start: 2020-02-21
+    topics:
+      - paper
     title: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159299/
   - start: 2020-02-27
@@ -112,6 +114,8 @@ events:
     title: Persistent hiccups as an atypical presenting complaint of COVID-19
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165082/
   - start: 2020-07-07
+    topics:
+      - paper
     title: "Compliance with containment measures to the COVID-19 pandemic over time: Do antisocial traits matter?"
     link: https://www.sciencedirect.com/science/article/pii/S0191886920305377
     extra:
@@ -130,6 +134,8 @@ events:
     title: Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708621/
   - start: 2007-12-12
+    topics:
+      - paper
     journal: Journal of Virology
     title: Difference in Receptor Usage between Severe Acute Respiratory Syndrome (SARS) Coronavirus and SARS-Like Coronavirus of Bat Origin
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2258702/
