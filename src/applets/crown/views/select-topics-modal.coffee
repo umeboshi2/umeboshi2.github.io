@@ -59,7 +59,7 @@ class ModalTopicsView extends Marionette.View
     collection = AppChannel.request 'get-selected-topics'
     if not collection.length
       topics = []
-      for topic of @model.toJSON()
+      for topic of @model.get('topics')
         topics.push
           topic: topic
           selected: false
@@ -73,13 +73,12 @@ class ModalTopicsView extends Marionette.View
   okBtnClicked: ->
     collection = AppChannel.request 'get-selected-topics'
     selected = collection.filter selected:true
-    topicMap = @model
+    topicMap = @model.get 'topics'
     promises = []
     selected.forEach (model) ->
       topic = model.get 'topic'
       if not model.get('eventsModel')
-        console.log "need to fetch", topic
-        resourceName = topicMap.get topic
+        resourceName = topicMap[topic].filename
         resource = MainChannel.request 'main:app:get-events', resourceName
         promises.push resource.fetch()
         model.set "eventsModel", resource
