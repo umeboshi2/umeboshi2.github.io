@@ -49,5 +49,16 @@ class Controller extends MainController
     # name the chunk
     , 'workshop-view-coh-calendar'
 
+  viewScraperToday: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/scraper-today').default
+      #f = collection.filter stateName:"Mississippi", level:"county"
+      view = new View
+        collection: AppChannel.request 'get-scraper-today'
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'workshop-view-scraper-today'
+
 export default Controller
 

@@ -18,6 +18,10 @@ appletMenu = [
     url: '#workshop'
     icon: '.fa.fa-star'
   },{
+    label: 'Corona Scraper Today'
+    url: '#workshop/scraper/today'
+    icon: '.fa.fa-world'
+  },{
     label: 'CoH Calendar'
     url: '#workshop/calendar/coh'
     icon: '.fa.fa-calendar'
@@ -30,6 +34,7 @@ class Router extends AppRouter
     'workshop': 'viewIndex'
     'workshop/rss': 'viewRSS'
     'workshop/calendar/coh': 'viewCoHCalendar'
+    'workshop/scraper/today': 'viewScraperToday'
     
 class Applet extends TkApplet
   Controller: Controller
