@@ -1,66 +1,66 @@
 topic: miscellaneous
 events:
   - start: 2020-07-23
-    topic:
+    topics:
       - news
     title: "Christians told to renounce Jesus or be refused coronavirus aid - 'Let your God take care of your family'"
     link: https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm
   - start: 2020-07-27
-    topic:
+    topics:
       - news
     title: Enzymes in Humans are Mutating the Novel Coronavirus in an Accelerated Fashion to Make it Less Harmful.
     link: https://sciencewithdrdoug.wordpress.com/2020/07/27/enzymes-in-humans-are-mutating-the-novel-coronavirus-in-an-accelerated-fashion-to-make-it-less-harmful/
   - start: 2020-07-20
-    topic:
+    topics:
       - paper
     journal: Molecular Biology and Evolution
     title: "Evidence for strong mutation bias towards, and selection against, U content in SARS-CoV-2: implications for vaccine design"
     link: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa188/5873882
   - start: 2009-05-06
-    topic:
+    topics:
       - news
     journal: CBS News
     title: Merck Created Hit List to "Destroy," "Neutralize" or "Discredit" Dissenting Doctors
     link: https://www.cbsnews.com/news/merck-created-hit-list-to-destroy-neutralize-or-discredit-dissenting-doctors/
   - start: 2020-07-28
-    topic:
+    topics:
       - news
     journal: Bloomberg
     title: Goldman Warns the Dollar's Grip on Global Markets Might Be Over
     link: https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-as-world-reserve-currency-is-at-risk
   - start: 2020-07-30
-    topic:
+    topics:
       - news
     journal: Forbes
     title: You Must Not ‘Do Your Own Research’ When It Comes To Science
     link: https://www.forbes.com/sites/startswithabang/2020/07/30/you-must-not-do-your-own-research-when-it-comes-to-science/#25253cfe535e
   - start: 2020-07-23
-    topic:
+    topics:
       - news
     title: Pentagon UFO unit to publicly release some findings
     link: https://nypost.com/2020/07/23/pentagon-ufo-unit-to-publicly-release-some-findings/
   - start: 2020-07-09
-    topic:
+    topics:
       - news
     title: 3 States Account for 42 Percent of All COVID-19 Deaths in America. Why?
     link: https://fee.org/articles/3-states-account-for-42-percent-of-all-covid-19-deaths-in-america-why/
   - start: 2020-07-01
-    topic:
+    topics:
       - news
     title: COVID-19 death toll underreported, study finds
     link: https://www.virginiabusiness.com/article/covid-19-death-toll-underreported-study-finds/
   - start: 2007-03-01
-    topic:
+    topics:
       - paper
     title: "The effects of skin tone on race-related amygdala activity: an fMRI investigation"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2555431/
   - start: 2020-09-05
-    topic:
+    topics:
       - news
     title: The threat of disinformation looms over the elections
     link: https://www.pbs.org/newshour/show/the-threat-of-disinformation-looms-over-the-elections
   - start: 2020-08-02
-    topic:
+    topics:
       - news
     pretext: "\"The team also discovered evidence of down-regulated genes in 
      COVID patients that might otherwise have kept hyaluronic acid levels in 
@@ -74,17 +74,17 @@ events:
         link: https://en.wikipedia.org/wiki/Hydrogel
 
   - start: 2020-06-22
-    topic:
+    topics:
       - news
     title: Will Travel be Safer by 2022?
     link: http://www.bbc.com/travel/story/20200621-will-travel-be-safer-by-2022
   - start: 2018-05-17
-    topic:
+    topics:
       - news
     title: Ellen DeGeneres Grills Sandra Bullock Over "Penis Facials"
     link: https://www.eonline.com/news/936261/ellen-degeneres-grills-sandra-bullock-over-quot-penis-facials-quot
   - start: 2010-06-04
-    topic:
+    topics:
       - paper
     journal: British Medical Journal
     title: Conflicts of interest and pandemic flu
@@ -93,18 +93,18 @@ events:
       - name: (PDF)
         link: https://childrenshealthdefense.org/wp-content/uploads/Godlee-2010-Conflicts-of-interest-and-pandemic-flu.pdf
   - start: 2009-05-14
-    topic:
+    topics:
       - news
     title: Billionaire club in bid to curb overpopulation
     link: https://archive.is/RAwFf#selection-697.0-700.0
   - start: 2020-08-07
-    topic:
+    topics:
       - news
     pretext: "\"Health officials say there is no returning to 'normal' until there is a vaccine.\""
     title: "Dr. Anthony Fauci says chance of coronavirus vaccine being highly effective is ‘not great’"
     link: https://www.cnbc.com/2020/08/07/coronavirus-vaccine-dr-fauci-says-chances-of-it-being-highly-effective-is-not-great.html
   - start: 2009-11-29
-    topic:
+    topics:
       - paper
     journal: Nanoethics
     authors: Henk van den Belt
@@ -118,18 +118,18 @@ events:
     title: "Playing God in Frankenstein’s Footsteps: Synthetic Biology and the Meaning of Life"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2837218/
   - start: 2020-06-05
-    topic:
+    topics:
       - paper
     title: Covid-19 and Herd Immunity Without Vaccination—Teaching Modern Vaccine Dogma Old Tricks?
     link: https://www.andrewbostom.org/2020/06/covid-19-and-herd-immunity-without-vaccination-teaching-modern-vaccine-dogma-old-tricks/
   - start: 2017-02-10
-    topic:
+    topics:
       - paper
     journal: Biomaterials
     title: "Crossing Kingdoms: Using Decellularized Plants as Perfusable Tissue Engineering Scaffolds"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388455/
   - start: 2018-05-31
-    topic:
+    topics:
       - paper
     journal: Journal of Visualized Experiments
     title: Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications
@@ -138,36 +138,36 @@ events:
       - name: (video)
         link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101437/bin/jove-135-57586.mp4
   - start: 2020-06-13
-    topic:
+    topics:
       - news
     title: Bill Gates Conspiracy Theorists Might Not Be As Crazy As You Think
     link: https://www.ccn.com/bill-gates-conspiracy-theorists-might-not-be-as-crazy-as-you-think/
   - start: 2014-09-23
-    topic:
+    topics:
       - paper
     pretext: "This article has been retracted. Retraction in: Front Public 
      Health. 2019 October 29; 7: 334"
     title: "Questioning the HIV-AIDS Hypothesis: 30 Years of Dissent"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4172096/
   - start: 2020-04-07
-    topic:
+    topics:
       - news
     title: Stepher's comment
     link: https://pieceofmindful.com/2020/04/06/bombshell-who-coronavirus-pcr-test-primer-sequence-is-found-in-all-human-dna/#comment-121824
   - start: 2020-08-22
-    topic:
+    topics:
       - news
     title: "From Lockdown to Police State: The “Great Reset” Rolls Out"
     link: https://ellenbrown.com/2020/08/22/from-lockdown-to-police-state-the-great-reset-rolls-out/
   - start: 2020-04-22
-    topic:
+    topics:
       - paper
       - great-reset
     authors: Yuri Deigin
     title: Lab-Made? SARS-CoV-2 Genealogy Through the Lens of Gain-of-Function Research
     link: https://medium.com/@yurideigin/lab-made-cov2-genealogy-through-the-lens-of-gain-of-function-research-f96dd7413748
   - start: 2014-03-27
-    topic:
+    topics:
       - paper
     journal: Frontiers in Human Neuroscience
     title: "A review of neuroimaging studies of race-related prejudice: does amygdala response reflect threat?"
