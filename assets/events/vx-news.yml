@@ -197,4 +197,12 @@ events:
     journal: CNN
     title: AstraZeneca pauses coronavirus vaccine trial after unexplained illness in volunteer
     link: https://www.cnn.com/2020/09/08/health/coronavirus-vaccine-astrazeneca-pause/index.html
+  - start: 2020-09-09
+    topics:
+      - news
+      - trials
+    journal: STAT News
+    title: Covid-19 vaccine trial participant had serious neurological symptoms, but could be discharged today, AstraZeneca CEO says
+    link: https://www.statnews.com/2020/09/09/astrazeneca-covid19-vaccine-trial-hold-patient-report/
+
     
