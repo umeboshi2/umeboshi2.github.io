@@ -91,7 +91,7 @@ def get_event_topics(parsed_yaml):
         except KeyError:
             print("No topic list in {}".format(parsed_yaml['topic']))
             print(e)
-            raise RuntimeError("Add a topic list to the event")
+            raise RuntimeError("Add a topic list to the event: {}".format(e))
         for t in topics:
             topic_set.add(t)
     main_data['topics'] = sorted(list(topic_set))
