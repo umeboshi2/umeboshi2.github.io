@@ -71,5 +71,20 @@ class Controller extends MainController
     # name the chunk
     , 'crown-view-events'
 
+  viewRedirectOk: (name) ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/redirect-view').default
+      view = new View
+        model: new Backbone.Model name:name
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'crown-view-redirect'
+
+  viewRedirect: (encoded) ->
+    url = atob(encoded)
+    console.log "URL IS", url
+    window.open url
+    
 export default Controller
 

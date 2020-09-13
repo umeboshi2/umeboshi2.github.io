@@ -36,6 +36,7 @@ class Router extends AppRouter
     'crown/calendar/coh': 'viewCoHCalendar'
     'crown/calendar/news': 'viewNewsCalendar'
     'crown/events': 'viewEvents'
+    'crown/redirect/:name': 'viewRedirect'
     
 class Applet extends TkApplet
   Controller: Controller
