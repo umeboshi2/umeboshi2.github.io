@@ -158,6 +158,13 @@ events:
     authors: Julia Marcus
     title: The Dudes Who Won’t Wear Masks
     link: https://www.theatlantic.com/ideas/archive/2020/06/dudes-who-wont-wear-masks/613375/
+  - start: 2020-06-24
+    topics:
+      - paper
+    journal: Medrxiv
+    title: Estimation of Individual Probabilities of COVID-19 Infection, Hospitalization, and Death From A County-level Contact of Unknown infection Status
+    link: https://www.medrxiv.org/content/10.1101/2020.06.06.20124446v2
+    
     
     
         
