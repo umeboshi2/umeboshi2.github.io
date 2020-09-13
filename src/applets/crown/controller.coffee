@@ -84,7 +84,7 @@ class Controller extends MainController
   viewRedirect: (encoded) ->
     url = atob(encoded)
     console.log "URL IS", url
-    window.open url
+    window.open url, '_blank'
     
 export default Controller
 
