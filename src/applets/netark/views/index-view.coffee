@@ -12,7 +12,8 @@ dangerIcon = require 'node-noto-emoji/dist/radioactive_sign'
 HasJsonView = require 'common/has-jsonview'
 
 showModels = require '../librivox-books'
-headerTemplate = require './header-template'
+headerTemplate = require('./header-template').default
+
 
 searchURl = "https://archive.org/services/search/v1/scrape?q=more_animation&count=100" # noqa
 
@@ -67,7 +68,7 @@ class MainView extends Marionette.View
       text: "Internet Archive"
       leftIcon: scrollIcon
       rightIcon: clockIcon
-    tc.div '.alert.alert-warning', ->
+    tc.div '.row.col-sm-4.offset-sm-4', ->
       tc.img src:dangerIcon
       tc.span warning
     tc.div '.items'
