@@ -38,7 +38,8 @@ class MainView extends Marionette.View
   generateURL: ->
     loc = window.location
     r = btoa @ui.url.val()
-    url = "#{loc.protocol}://#{loc.host}/#crown/redirect/#{r}"
+    path = loc?.path or '/'
+    url = "#{loc.protocol}://#{loc.host}#{path}#crown/redirect/#{r}"
     return url
   updateModel: ->
     url = @generateURL()
