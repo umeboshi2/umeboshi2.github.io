@@ -4,7 +4,6 @@ import tc from 'teacup'
 import $ from 'jquery'
 
 import make_field_input_ui from 'tbirds/util/make-field-input-ui'
-import BootstrapFormView from 'tbirds/views/bsformview'
 { form_group_input_div } = require 'tbirds/templates/forms'
 
 MessageChannel = Backbone.Radio.channel 'messages'
