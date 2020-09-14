@@ -2,6 +2,7 @@ import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
+import { encode } from 'url-safe-base64'
 
 import make_field_input_ui from 'tbirds/util/make-field-input-ui'
 { form_group_input_div } = require 'tbirds/templates/forms'
@@ -37,7 +38,7 @@ class MainView extends Marionette.View
     return new Backbone.Model
   generateURL: ->
     loc = window.location
-    r = btoa @ui.url.val()
+    r = encode btoa @ui.url.val()
     path = loc?.pathname or '/'
     url = "#{loc.protocol}://#{loc.host}#{path}#crown/redirect/#{r}"
     return url
@@ -46,5 +47,5 @@ class MainView extends Marionette.View
     @ui.encoded.text url
   copyBtnClicked: ->
     MessageChannel.request 'info', "Copy to clipboard not enabled yet."
-    
+
 export default MainView
