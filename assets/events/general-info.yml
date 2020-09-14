@@ -164,6 +164,13 @@ events:
     journal: Medrxiv
     title: Estimation of Individual Probabilities of COVID-19 Infection, Hospitalization, and Death From A County-level Contact of Unknown infection Status
     link: https://www.medrxiv.org/content/10.1101/2020.06.06.20124446v2
+  - start: 2020-09-08
+    topics:
+      - paper
+    journal: New England Journal of Medicine
+    authors: Monica Gandhi, M.D., M.P.H., and George W. Rutherford, M.D.
+    title: Facial Masking for Covid-19 — Potential for “Variolation” as We Await a Vaccine
+    link: https://www.nejm.org/doi/full/10.1056/NEJMp2026913
     
     
     
