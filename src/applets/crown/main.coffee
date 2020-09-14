@@ -25,6 +25,10 @@ appletMenu = [
     label: 'Events'
     url: '#crown/events'
     icon: '.fa.fa-calendar'
+  },{
+    label: 'Redirect Link'
+    url: '#crown/make-redirect'
+    icon: '.fa.fa-hand-o-right'
   }
   ]
 
@@ -37,6 +41,7 @@ class Router extends AppRouter
     'crown/calendar/news': 'viewNewsCalendar'
     'crown/events': 'viewEvents'
     'crown/redirect/:name': 'viewRedirect'
+    'crown/make-redirect': 'makeRedirect'
     
 class Applet extends TkApplet
   Controller: Controller

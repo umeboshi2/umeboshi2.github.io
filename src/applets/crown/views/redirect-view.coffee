@@ -2,16 +2,7 @@ import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
-import X2JS from 'x2js'
-import moment from "moment"
 import _ from 'underscore'
-
-class RSSModel extends Backbone.Model
-  initialize: (attributes, options) ->
-    @url = options.url
-  parse: (data) ->
-    x2js = new X2JS()
-    return x2js.xml2js data
 
 class MainView extends Marionette.View
   template: tc.renderable (model) ->
@@ -28,12 +19,13 @@ class MainView extends Marionette.View
     newTab: '.new-windiw-link'
     header: '.listview-header'
   onRender: ->
-    url = @model.get('url')
-    if __DEV__
-      console.log "URL IS", url
+    if @model?
+      url = @model.get('url')
+      if __DEV__
+        console.log "URL IS", url
     # https://stackoverflow.com/questions/5811122/how-to-trigger-a-click-on-a-link-using-jquery#comment32919832_5811122
     # Perform the "click" on the DOM element insteat of the jquery object
-    if url
-      @ui.direct.get(0).click()
-      
+      if url
+        @ui.direct.get(0).click()
+
 export default MainView
