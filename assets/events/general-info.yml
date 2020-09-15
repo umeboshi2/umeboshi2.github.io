@@ -167,6 +167,7 @@ events:
   - start: 2020-09-08
     topics:
       - paper
+      - masks
     journal: New England Journal of Medicine
     authors: Monica Gandhi, M.D., M.P.H., and George W. Rutherford, M.D.
     title: Facial Masking for Covid-19 — Potential for “Variolation” as We Await a Vaccine
@@ -174,6 +175,7 @@ events:
   - start: 2020-07-15
     topics:
       - paper
+      - masks
     journal: Journal of general internal medicine
     authors: Monica Gandhi, MD, MPH,corresponding author Chris Beyrer, MD, MPH, and Eric Goosby, MD
     title: "Masks Do More Than Protect Others During COVID-19: Reducing the Inoculum of SARS-CoV-2 to Protect the Wearer"
@@ -181,7 +183,23 @@ events:
   - start: 2020-06-05
     topics:
       - paper
+      - masks
     journal: World Health Organization
     title: Advice on the use of masks in the context of COVID-19
     link: https://www.who.int/publications/i/item/advice-on-the-use-of-masks-in-the-community-during-home-care-and-in-healthcare-settings-in-the-context-of-the-novel-coronavirus-(2019-ncov)-outbreak
+  - start: 2020-03-05
+    topics:
+      - paper
+      - isolation
+    journal: New England Journal of Medicine
+    title: First Case of 2019 Novel Coronavirus in the United States
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092802/
+  - start: 2020-05-16
+    topics:
+      - paper
+      - isolation
+    pretext: (Estimated date)
+    journal: CDC - Emerging Infectious Diseases
+    title: Severe Acute Respiratory Syndrome Coronavirus 2 from Patient with Coronavirus Disease, United States
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258473/
     
