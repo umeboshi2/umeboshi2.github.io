@@ -5,6 +5,7 @@
 - [Covid 19](#covid-19)
   - [Related Topics](#related-topics)
   - [Topics Indirectly Related to Covid 19](#topics-indirectly-related-to-covid-19)
+- [Tools and Other Services](#tools-and-other-services)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -63,3 +64,10 @@ a global pandemic.
 
 1. [People](#pages/blog/cv19/people/index)
 
+# Tools and Other Services
+
+Here is a list of tools and other services provided by this web application.
+
+1. [Create a Redirect Link](#crown/make-redirect)  This feature can be used to 
+   share links that are otherwise blocked on facebook, or other platforms.
+   
