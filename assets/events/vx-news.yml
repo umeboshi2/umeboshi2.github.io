@@ -204,5 +204,30 @@ events:
     journal: STAT News
     title: Covid-19 vaccine trial participant had serious neurological symptoms, but could be discharged today, AstraZeneca CEO says
     link: https://www.statnews.com/2020/09/09/astrazeneca-covid19-vaccine-trial-hold-patient-report/
+  - start: 2019-10-10
+    topics:
+      - paper
+    title: Influenza vaccination and respiratory virus interference among Department of Defense personnel during the 2017–2018 influenza season
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7126676/
+  - start: 2012-03-15
+    topics:
+      - paper
+    journal: Clinical Infectious Diseases
+    title: Increased Risk of Noninfluenza Respiratory Virus Infections Associated With Receipt of Inactivated Influenza Vaccine
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3404712/
+  - start: 2017-09-25
+    topics:
+      - paper
+    journal: Vaccine
+    title: Association of spontaneous abortion with receipt of inactivated influenza vaccine containing H1N1pdm09 in 2010-11 and 2011-12
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6501798/
+  - start: 2015-06-01
+    topics:
+      - paper
+    pretext: (Estimated date)
+    journal: Canadian family physician
+    title: Vitamin D for influenza
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4463890/
+    
 
     

@@ -202,4 +202,12 @@ events:
     journal: CDC - Emerging Infectious Diseases
     title: Severe Acute Respiratory Syndrome Coronavirus 2 from Patient with Coronavirus Disease, United States
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7258473/
+  - start: 2020-02-18
+    topics:
+      - paper
+    journal: European radiology
+    title: "Outbreak of novel coronavirus (COVID-19): What is the role of radiologists?"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7087878/
+    
+    
     
