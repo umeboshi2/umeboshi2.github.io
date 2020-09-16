@@ -58,30 +58,14 @@ class ModalTopicsView extends Marionette.View
   onRender: ->
     collection = AppChannel.request 'get-selected-topics'
     if not collection.length
-      topics = []
-      for topic of @model.get('topics')
-        topics.push
-          topic: topic
-          selected: false
-      collection = new Backbone.Collection topics
-      AppChannel.request 'set-selected-topics', collection
+      AppChannel.request 'init-selected-topics', @model
     view = new Marionette.CollectionView
       collection: collection
       viewComparator: 'topic'
       childView: TopicEntryView
     @showChildView 'topicsRegion', view
   okBtnClicked: ->
-    collection = AppChannel.request 'get-selected-topics'
-    selected = collection.filter selected:true
-    topicMap = @model.get 'topics'
-    promises = []
-    selected.forEach (model) ->
-      topic = model.get 'topic'
-      if not model.get('eventsModel')
-        resourceName = topicMap[topic].filename
-        resource = MainChannel.request 'main:app:get-events', resourceName
-        promises.push resource.fetch()
-        model.set "eventsModel", resource
+    promises = AppChannel.request 'fetch-event-models', @model
     Promise.all(promises).then =>
       @triggerMethod 'topics:fetched'
   onTopicsFetched: ->
