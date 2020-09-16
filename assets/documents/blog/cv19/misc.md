@@ -66,4 +66,15 @@ https://duckduckgo.com/?q=game+of+function+with+viruses&ia=web
 
 https://en.wikipedia.org/wiki/Cutter_Laboratories
 
+
+
+https://professional.brown.edu/healthcare
+
+
+https://renz-law.com/2020/09/11/covid-19-case/
+
+
+
 <div class="link-view" data-title="Papers And Articles"  data-events="misc"></div>
+
+

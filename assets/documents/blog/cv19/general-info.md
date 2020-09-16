@@ -72,6 +72,7 @@ Coronavirus Disease 2019 (COVID-19)"
 
 [Violence Prevention: A Public Health Approach](https://www.cdc.gov/violenceprevention/publichealthissue/publichealthapproach.html)
 
+[Viral Culturing](https://www.cdc.gov/coronavirus/2019-ncov/lab/grows-virus-cell-culture.html)
 
 # Other Articles
 
