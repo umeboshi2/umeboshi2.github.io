@@ -96,6 +96,19 @@ class Controller extends MainController
     url = atob(encoded)
     console.log "URL IS", url
     window.open url, '_blank'
+
+  viewSubtopics: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      model = AppChannel.request 'get-index-model', 'eventIndex'
+      View = require('./views/subtopics-view').default
+      response = model.fetch()
+      response.done =>
+        view = new View
+          model: model
+        @layout.showChildView 'content', view
+    # name the chunk
+    , 'crown-view-subtopics'
     
 export default Controller
 
