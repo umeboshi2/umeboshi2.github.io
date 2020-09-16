@@ -84,6 +84,11 @@ sampleEvents = [
       title: 'Executive Orders 2020-17'
       start:'2020-08-31 08:00'
       end: '2020-09-14 08:00'
+    },{
+      id: 18
+      title: 'Executive Orders 2020-18'
+      start:'2020-09-15 12:39'
+      end: '2020-10-1 08:00'
     }
   ]
     
