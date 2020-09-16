@@ -7,7 +7,7 @@ import moment from 'moment'
 import Calendar from 'js-year-calendar'
 import 'js-year-calendar/dist/js-year-calendar.css'
 
-import IsEscapeModal from 'tbirds/behaviors/is-escape-modal'
+import BaseModalView from 'common/base-modal-view'
 
 import LinkEntryView from '../../frontdoor/views/link-entry'
 
@@ -31,8 +31,7 @@ convertEvent = (event) ->
   event.color = "SkyBlue"
   event.name = event.title
 
-class ModalEventsView extends Marionette.View
-  behaviors: [IsEscapeModal]
+class ModalEventsView extends BaseModalView
   template: tc.renderable (model) ->
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
@@ -46,11 +45,6 @@ class ModalEventsView extends Marionette.View
     eventsRegion: '@ui.eventsRegion'
   events:
     'click @ui.closeBtn': 'emptyModal'
-  emptyModal: ->
-    app = MainChannel.request 'main:app:object'
-    layout = app.getView()
-    region = layout.getRegion 'modal'
-    region.empty()
   onRender: ->
     view = new Marionette.CollectionView
       collection: new Backbone.Collection @model.get 'events'
