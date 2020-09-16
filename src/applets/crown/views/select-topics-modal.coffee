@@ -19,7 +19,7 @@ class TopicEntryView extends Marionette.View
   className: "form-group form-check"
   template: tc.renderable (model) ->
     tc.input '.form-check-input', type:'checkbox'
-    tc.label '.form-check-label', model.topic
+    tc.label '.form-check-label', model.name
   ui:
     input: 'input'
   events:
@@ -61,7 +61,7 @@ class ModalTopicsView extends Marionette.View
       AppChannel.request 'init-selected-topics', @model
     view = new Marionette.CollectionView
       collection: collection
-      viewComparator: 'topic'
+      viewComparator: 'name'
       childView: TopicEntryView
     @showChildView 'topicsRegion', view
   okBtnClicked: ->

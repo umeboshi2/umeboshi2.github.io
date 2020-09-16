@@ -14,9 +14,9 @@ AppChannel.reply 'get-selected-topics', ->
 
 AppChannel.reply 'init-selected-topics', (model) ->
   topics = []
-  for topic of model.get('topics')
+  for name of model.get('topics')
     selectedTopics.add
-      topic: topic
+      name: name
       selected: false
   
 currentItems = []
@@ -41,7 +41,7 @@ AppChannel.reply 'fetch-event-models', (indexModel) ->
   topicMap = indexModel.get('topics')
   promises = []
   selected.forEach (model) ->
-    topic = model.get('topic')
+    topic = model.get('name')
     if not model.get('eventsModel')
       resourceName = topicMap[topic].filename
       resource = MainChannel.request 'main:app:get-events', resourceName

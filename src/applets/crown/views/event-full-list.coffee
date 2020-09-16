@@ -19,7 +19,7 @@ class ListGroupView extends Marionette.CollectionView
 class TopicView extends Marionette.View
   className: 'list-group-item'
   template: tc.renderable (model) ->
-    tc.h4 model.topic
+    tc.h4 model.name
     tc.div '.events-container'
   ui:
     eventsList: '.events-container'
