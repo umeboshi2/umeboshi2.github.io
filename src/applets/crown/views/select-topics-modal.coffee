@@ -10,28 +10,14 @@ import 'js-year-calendar/dist/js-year-calendar.css'
 import IsEscapeModal from 'tbirds/behaviors/is-escape-modal'
 
 import LinkEntryView from '../../frontdoor/views/link-entry'
+import TopicEntryView from './topic-entry-view'
+import BaseModalView from 'common/base-modal-view'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
-class TopicEntryView extends Marionette.View
-  className: "form-group form-check"
-  template: tc.renderable (model) ->
-    tc.input '.form-check-input', type:'checkbox'
-    tc.label '.form-check-label', model.name
-  ui:
-    input: 'input'
-  events:
-    click: 'toggleInput'
-  onRender: ->
-    @ui.input.prop 'checked', @model.get('selected')
-  toggleInput: ->
-    checked = @ui.input.is ':checked'
-    @ui.input.prop 'checked', not checked
-    @model.set 'selected', not checked
-
-class ModalTopicsView extends Marionette.View
+class ModalTopicsView extends BaseModalView
   behaviors: [IsEscapeModal]
   template: tc.renderable (model) ->
     tc.div '.modal-dialog.modal-md', ->
@@ -50,11 +36,6 @@ class ModalTopicsView extends Marionette.View
   events:
     'click @ui.okBtn': 'okBtnClicked'
     'click @ui.closeBtn': 'emptyModal'
-  emptyModal: ->
-    app = MainChannel.request 'main:app:object'
-    layout = app.getView()
-    region = layout.getRegion 'modal'
-    region.empty()
   onRender: ->
     collection = AppChannel.request 'get-selected-topics'
     if not collection.length
@@ -71,6 +52,5 @@ class ModalTopicsView extends Marionette.View
   onTopicsFetched: ->
     @emptyModal()
     collection = AppChannel.request 'get-selected-topics'
-    
 
 export default ModalTopicsView
