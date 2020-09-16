@@ -15,8 +15,6 @@ import '@fullcalendar/list/main.css'
 
 import navigateToUrl from 'tbirds/util/navigate-to-url'
 
-import cityOrders from '../events/coh-orders'
-
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
@@ -44,9 +42,14 @@ class CalendarView extends Marionette.View
     if __DEV__
       console.log 'calendar destroyed'
   onDomRefresh: ->
+    events = @model.get('events')
+    calEvents = []
+    events.forEach (event) ->
+      event.extendedProps = link: event.link
+      calEvents.push event
     calEventClick = (event) ->
       id = event.event.id
-      url = makeOrderUrl id
+      url = event.event.extendedProps.link
       window.open url, '_blank'
     date = new Date()
     # console.log '@ui.calendar', @ui.calendar.get(0)
@@ -60,7 +63,7 @@ class CalendarView extends Marionette.View
         left: 'prev, next'
         center: 'title'
         right: 'dayGridMonth, timeGridWeek, timeGridDay'
-      events: cityOrders
+      events: calEvents
       eventClick: calEventClick
     @fullCalendar.render()
     

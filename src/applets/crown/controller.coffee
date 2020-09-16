@@ -44,9 +44,13 @@ class Controller extends MainController
   viewCoHCalendar: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
+      model = MainChannel.request 'main:app:get-events', 'coh-orders'
       View = require('./views/coh-calendar').default
-      view = new View
-      @layout.showChildView 'content', view
+      response = model.fetch()
+      response.done =>
+        view = new View
+          model: model
+        @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-coh-calendar'
 
