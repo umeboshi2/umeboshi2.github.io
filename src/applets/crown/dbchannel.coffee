@@ -5,20 +5,82 @@ MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'crown'
 
 selectedTopics = new Backbone.Collection []
+selectedSubtopics = new Backbone.Collection []
 
 AppChannel.reply 'set-selected-topics', (collection) ->
   selectedTopics = collection
-
+  return
+  
+AppChannel.reply 'set-selected-subtopics', (collection) ->
+  selectedSubtopics = collection
+  return
+  
 AppChannel.reply 'get-selected-topics', ->
   return selectedTopics
 
-AppChannel.reply 'init-selected-topics', (model) ->
+AppChannel.reply 'get-selected-subtopics', ->
+  return selectedSubtopics
+
+initSelectedSubtopics = (model) ->
+  stMap = model.get('subtopics')
+  for st of stMap
+    selectedSubtopics.add
+      name: st
+      selected: false
+      topics: stMap[st]
+  return
+
+AppChannel.reply 'init-selected-subtopics', (model) ->
+  return initSelectedSubtopics model
+
+initSelectedTopics = (model) ->
   topics = []
   for name of model.get('topics')
     selectedTopics.add
       name: name
       selected: false
+  return
   
+AppChannel.reply 'init-selected-topics', (model) ->
+  return initSelectedTopics model
+
+fetchEventModels = (indexModel) ->
+  selected = selectedTopics.filter selected:true
+  topicMap = indexModel.get('topics')
+  promises = []
+  selected.forEach (model) ->
+    topic = model.get('name')
+    if not model.get('eventsModel')
+      resourceName = topicMap[topic].filename
+      resource = MainChannel.request 'main:app:get-events', resourceName
+      promises.push resource.fetch()
+      model.set "eventsModel", resource
+  return promises
+  
+  
+AppChannel.reply 'determine-main-topics', (indexModel) ->
+  allTopics = new Backbone.Collection []
+  subtopics = selectedSubtopics.filter selected:true
+  subtopics.forEach (item) ->
+    topics = item.get 'topics'
+    topics.forEach (topic) ->
+      allTopics.add
+        id: topic
+        name: topic
+  if not selectedTopics.length
+    initSelectedTopics indexModel
+  topicArray = allTopics.pluck 'name'
+  topicArray.forEach (topic) ->
+    model = selectedTopics.findWhere name:topic
+    model.set 'selected', true
+  promises = fetchEventModels indexModel
+  return
+    promises: promises
+    allTopics: allTopics
+
+  
+  
+
 currentItems = []
 
 AppChannel.reply 'set-current-events', ->
@@ -37,17 +99,9 @@ AppChannel.reply 'clear-current-events', ->
   currentItems.length = 0
 
 AppChannel.reply 'fetch-event-models', (indexModel) ->
-  selected = selectedTopics.filter selected?true
-  topicMap = indexModel.get('topics')
-  promises = []
-  selected.forEach (model) ->
-    topic = model.get('name')
-    if not model.get('eventsModel')
-      resourceName = topicMap[topic].filename
-      resource = MainChannel.request 'main:app:get-events', resourceName
-      promises.push resource.fetch()
-      model.set "eventsModel", resource
-  return promises
+  console.log "fetch-event-models", indexModel
+  return fetchEventModels indexModel
+  
 
 
 class CvLinks extends Backbone.Model

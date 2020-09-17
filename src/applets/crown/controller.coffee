@@ -105,14 +105,14 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       model = AppChannel.request 'get-index-model', 'eventIndex'
-      View = require('./views/subtopics-view').default
+      View = require('./views/select-subtopics-view').default
       response = model.fetch()
       response.done =>
         view = new View
           model: model
         @layout.showChildView 'content', view
     # name the chunk
-    , 'crown-view-subtopics'
+    , 'crown-view-select-subtopics'
     
 export default Controller
 
