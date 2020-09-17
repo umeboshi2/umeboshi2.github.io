@@ -1,15 +1,7 @@
-import $ from 'jquery'
 import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import tc from 'teacup'
-import moment from 'moment'
 
-import Calendar from 'js-year-calendar'
-import 'js-year-calendar/dist/js-year-calendar.css'
-
-import IsEscapeModal from 'tbirds/behaviors/is-escape-modal'
-
-import LinkEntryView from '../../frontdoor/views/link-entry'
 import TopicEntryView from './topic-entry-view'
 import BaseModalView from 'common/base-modal-view'
 
@@ -18,7 +10,6 @@ MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
 class ModalTopicsView extends BaseModalView
-  behaviors: [IsEscapeModal]
   template: tc.renderable (model) ->
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
