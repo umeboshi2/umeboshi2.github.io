@@ -17,5 +17,7 @@ class TopicEntryView extends Marionette.View
     checked = @ui.input.is ':checked'
     @ui.input.prop 'checked', not checked
     @model.set 'selected', not checked
-
+    @trigger "checked:#{not checked}"
+    @trigger 'toggled'
+    
 export default TopicEntryView
