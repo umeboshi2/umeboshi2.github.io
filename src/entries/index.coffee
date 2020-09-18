@@ -8,11 +8,9 @@ import TopApp from 'tbirds/top-app'
 import createMainApp from 'tbirds/start-main-app'
 import objectEmpty from 'tbirds/util/object-empty'
 
-import './base'
-import FooterView from './footerview'
+import indexModels from 'common/index-models'
 
-pkg = require '../../package.json'
-pkgmodel = new Backbone.Model pkg
+import './base'
 
 import ebcsvSchema from '../applets/ebcsv/dbschema'
 import bumblrSchema from '../applets/bumblr/dbschema'
@@ -58,6 +56,13 @@ promises = Object.keys(schemas).map (key, index, array) ->
     dbConns[key] = db
     if __DEV__ and DEBUG
       console.log "Connected to #{key} database."
+
+# Add fetching index models to app startup
+for name of indexModels
+  response = indexModels[name].fetch()
+  promises.push response
+  
+
 Promise.all(promises).then ->
   app.start
     state:
