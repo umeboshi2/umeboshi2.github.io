@@ -23,30 +23,6 @@ class TopicCollectionView extends Marionette.CollectionView
   childToggled: ->
     @trigger 'child:toggled'
 
-class SelectedTopicsModal extends BaseModalView
-  template: tc.renderable (model) ->
-    tc.div '.modal-dialog.modal-md', ->
-      tc.div '.modal-content', ->
-        tc.div '.topics'
-        tc.div '.row', ->
-          tc.button '.close-btn.btn.btn-warning.fa.fa-close.mr-auto',
-          data:dismiss:'modal', "Close"
-  ui:
-    closeBtn: '.close-btn'
-    topicsRegion: '.topics'
-  regions:
-    topicsRegion: '@ui.topicsRegion'
-  events:
-    'click @ui.closeBtn': 'emptyModal'
-  onRender: ->
-    subtopics = AppChannel.request 'get-selected-subtopics'
-    selectedView = new TopicCollectionView
-      collection: new Backbone.Collection subtopics.filter selected: true
-    @showChildView 'topicsRegion', selectedView
-  onTopicsFetched: ->
-    @emptyModal()
-    collection = AppChannel.request 'get-selected-topics'
-
 class MainTopicEntry extends Marionette.View
   template: tc.renderable (model) ->
     tc.text model.name
@@ -90,24 +66,22 @@ class MainView extends Marionette.View
             tc.text 'Show selected'
           tc.button '.show-maintopics-btn.btn.btn-outline-warning', ->
             tc.text 'Show Main Topics'
-      tc.div '.card-body', ->
-        tc.div '.available-topics'
-    tc.div '.selected-topics'
+          tc.button '.list-events-btn.btn.btn-outline-warning', ->
+            tc.text 'List Events'
+      tc.div '.card-body'
   ui:
-    available: '.available-topics'
-    selected: '.selected-topics'
     cardBody: '.card-body'
     showSelectedBtn: '.show-selected-btn'
     showMainTopicsBtn: '.show-maintopics-btn'
     showAvailBtn: '.show-available-btn'
+    listEventsBtn: '.list-events-btn'
   regions:
     cardBody: '@ui.cardBody'
-    available: '@ui.available'
-    selected: '@ui.selected'
   events:
     'click @ui.showSelectedBtn': 'showSelectedBtnClicked'
     'click @ui.showMainTopicsBtn': 'showMainTopicsBtnClicked'
     'click @ui.showAvailBtn': 'showAvailBtnClicked'
+    'click @ui.listEventsBtn': 'listEventsBtnClicked'
   childViewEvents:
     'child:toggled' : 'childToggled'
   childToggled: ->
@@ -117,6 +91,7 @@ class MainView extends Marionette.View
   cardBodyMap:
     selected: 'showSelectedBtnClicked'
     available: 'showAvailBtnClicked'
+    listEvents: 'listEventsBtnClicked'
   cardBodyTopic: 'available'
   onRender: ->
     method = @cardBodyMap[@cardBodyTopic]
@@ -128,22 +103,28 @@ class MainView extends Marionette.View
       collection: new Backbone.Collection subtopics.filter selected: true
     @showChildView 'cardBody', selectedView
   
-  showSelectedModal: ->
-    view = new SelectedTopicsModal
-    MainChannel.request 'show-modal', view
-    view.on 'destroy', (event) =>
-      @render()
-  showMainTopicsBtnClicked: ->
-    opts = AppChannel.request 'determine-main-topics', @model
-    Promise.all(opts.promises).then ->
-      view = new MainTopicsModal
-        collection: opts.allTopics
-      MainChannel.request 'show-modal', view
   showAvailBtnClicked: ->
     @cardBodyTopic = 'available'
     subtopics = AppChannel.request 'get-selected-subtopics'
     availableView = new TopicCollectionView
       collection: new Backbone.Collection subtopics.filter selected: false
     @showChildView 'cardBody', availableView
-        
+
+  showMainTopicsBtnClicked: ->
+    opts = AppChannel.request 'determine-main-topics', @model
+    Promise.all(opts.promises).then ->
+      view = new MainTopicsModal
+        collection: opts.allTopics
+      MainChannel.request 'show-modal', view
+
+  listEventsBtnClicked: ->
+    @cardBodyTopic = 'listEvents'
+    require.ensure [], () =>
+      View = require('./subtopic-events').default
+      view = new View
+        model: @model
+      @showChildView 'cardBody', view
+    # name the chunk
+    , 'crown-child-view-list-subtopic-events'
+    
 export default MainView

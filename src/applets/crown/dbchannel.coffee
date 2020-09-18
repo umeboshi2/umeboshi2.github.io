@@ -56,7 +56,19 @@ fetchEventModels = (indexModel) ->
       promises.push resource.fetch()
       model.set "eventsModel", resource
   return promises
+
+getSubtopicEvents = (model) ->
+  name = model.get 'name'
+  topics = model.get 'topics'
+  topicEvents = {}
+  topics.forEach (topic) ->
+    tmodel = selectedTopics.findWhere name:topic
+    eventsModel = tmodel.get 'eventsModel'
+    topicEvents[topic] = eventsModel.getSubtopicEvents name
+  return topicEvents
   
+AppChannel.reply 'get-subtopic-events', (model) ->
+  return getSubtopicEvents model
   
 AppChannel.reply 'determine-main-topics', (indexModel) ->
   allTopics = new Backbone.Collection []
