@@ -228,6 +228,31 @@ events:
     journal: Canadian family physician
     title: Vitamin D for influenza
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4463890/
-    
-
+  - start: 2015-03-24
+    topics:
+      - paper
+    journal: Human vaccines & immunotherapeutics
+    title: Characteristics and viral propagation properties of a new human diploid cell line, walvax-2, and its suitability as a candidate cell substrate for vaccine production
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4526020/
+  - start: 2017-04-06
+    topics:
+      - paper
+    journal: Cytotechnology
+    title: "Potential neoplastic evolution of Vero cells: in vivo and in vitro characterization"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5595746/
+  - start: 2014-11-28
+    topics:
+      - paper
+    journal: Vaccine
+    title: Human diploid MRC-5 cells exhibit several critical properties of human umbilical cord-derived mesenchymal stem cells
+    link: https://pubmed.ncbi.nlm.nih.gov/25086263/
+    extra:
+      - name: (full article)
+        link: https://www.sciencedirect.com/science/article/pii/S0264410X14010238?via%3Dihub
+  - start: 2014-02-28
+    topics:
+      - paper
+    journal: Human vaccines & immunotherapeutics
+    title: Comparative study of the immunogenicity in mice and monkeys of an inactivated CA16 vaccine made from a human diploid cell line
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4896597/
     

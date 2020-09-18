@@ -211,3 +211,8 @@ events:
     extra:
       - name: (Complaint PDF)
         link: https://renzlaw.files.wordpress.com/2020/09/case-complaint-final-1.pdf
+  - start: 2020-09-16
+    topics:
+      - news
+    title: COVID-19 emails from Nashville mayor's office show disturbing revelation
+    link: https://fox17.com/news/local/covid-19-emails-from-nashville-mayors-office-show-disturbing-revelation
