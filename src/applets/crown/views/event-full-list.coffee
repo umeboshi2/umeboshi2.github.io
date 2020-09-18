@@ -8,7 +8,7 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
-import LinkEntryView from '../../frontdoor/views/link-entry'
+import LinkEntryView from 'common/link-entry-view'
 
 class LinkItemView extends LinkEntryView
   className: 'list-group-item'

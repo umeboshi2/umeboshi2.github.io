@@ -6,7 +6,7 @@ import $ from 'jquery'
 import moment from 'moment'
 import _ from 'underscore'
 
-import LinkEntryView from './link-entry'
+import LinkEntryView from 'common/link-entry-view'
 
 MainChannel = Backbone.Radio.channel 'global'
 

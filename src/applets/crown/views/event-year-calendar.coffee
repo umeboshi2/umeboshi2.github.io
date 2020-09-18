@@ -8,8 +8,7 @@ import Calendar from 'js-year-calendar'
 import 'js-year-calendar/dist/js-year-calendar.css'
 
 import BaseModalView from 'common/base-modal-view'
-
-import LinkEntryView from '../../frontdoor/views/link-entry'
+import LinkEntryView from 'common/link-entry-view'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
