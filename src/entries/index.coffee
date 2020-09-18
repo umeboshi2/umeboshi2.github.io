@@ -23,12 +23,6 @@ import MainAppConfig from './index-config'
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 
-show_footer = ->
-  view = new FooterView
-    model: pkgmodel
-  footer_region = app.getView().getRegion 'footer'
-  footer_region.show view
-
 app = createMainApp MainAppConfig
 
 if __DEV__
@@ -36,7 +30,7 @@ if __DEV__
   window.App = app
 
 # register the main router
-MainChannel.request 'main:app:route'
+MainChannel.request 'main:app:create-main-router'
 
 app.on 'before:start', ->
   #theme = MainChannel.request 'main:app:get-theme'
@@ -72,5 +66,3 @@ Promise.all(promises).then ->
   MainChannel.reply 'main:app:dbConn', (name) ->
     return app.getState('dbConn')[name]
 export default app
-
-
