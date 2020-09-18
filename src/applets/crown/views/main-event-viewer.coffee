@@ -70,6 +70,6 @@ class MainView extends Marionette.View
         model: @model
       @showChildView 'content', view
     # name the chunk
-    , 'crown-child-view-calendar'
+    , 'crown-child-view-full-list'
 
 export default MainView
