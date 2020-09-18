@@ -3,12 +3,14 @@ events:
   - start: 2020-05-21
     topics:
       - news
+      - mastercard
     journal: MasterCard
     title: Mastercard Joins ID2020 Alliance
     link: https://mastercardcontentexchange.com/newsroom/press-releases/2020/may/mastercard-joins-id2020-alliance/
   - start: 2020-05-22
     topics:
       - news
+      - mastercard
     title: Mastercard joins ID2020 Alliance to advance digital identity as a fundamental human right
     link: https://www.biometricupdate.com/202005/mastercard-joins-id2020-alliance-to-advance-digital-identity-as-a-fundamental-human-right
   - start: 2016-06-23
@@ -32,11 +34,13 @@ events:
   - start: 2019-09-20
     topics:
       - news
+      - vaccination
     title: ID2020 and partners launch program to provide digital ID with vaccines
     link: https://www.biometricupdate.com/201909/id2020-and-partners-launch-program-to-provide-digital-id-with-vaccines
   - start: 2019-10-16
     topics:
       - news
+      - mastercard
     title: Mastercard and Mahendra Singh Dhoni come together to build Team Cashless India
     link: https://newsroom.mastercard.com/asia-pacific/press-releases/mastercard-and-mahendra-singh-dhoni-come-together-to-build-team-cashless-india/
   - start: 2020-03-27
@@ -71,10 +75,3 @@ events:
     authors: WHO
     title: "Immunity Certificates:  If We Must Have Them, We Must Do It Right (PDF)"
     link: https://ethics.harvard.edu/files/center-for-ethics/files/12immunitycertificates.pdf
-    
-    
-    
-    
-    
-    
-    

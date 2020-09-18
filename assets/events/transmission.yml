@@ -56,6 +56,7 @@ events:
   - start: 2020-02-15
     topics:
       - paper
+      - isolation
     journal: China CDC Weekly
     authors: Zhang Y, Chen C, Zhu S et al.
     title: "Notes from the Field: Isolation of 2019-nCoV from a Stool Specimen of a Laboratory-Confirmed Case of the Coronavirus Disease 2019 (COVID-19)"
@@ -83,12 +84,14 @@ events:
   - start: 2020-08-11
     topics:
       - news
+      - isolation
     journal: New York Times
     title: "‘A Smoking Gun’: Infectious Coronavirus Retrieved From Hospital Air"
     link: https://www.nytimes.com/2020/08/11/health/coronavirus-aerosols-indoors.html
   - start: 2020-08-04
     topics:
       - paper
+      - isolation
     journal: Medrxiv
     title: Viable SARS-CoV-2 in the air of a hospital room with COVID-19 patients
     link: https://www.medrxiv.org/content/10.1101/2020.08.03.20167395v1

@@ -24,6 +24,7 @@ events:
   - start: 2020-08-06
     topics:
       - news
+      - digital-identity
     title: 6 ways the COVID-19 pandemic could change our approach to human capital
     link: https://www.weforum.org/agenda/2020/08/6-ways-covid-19-will-advance-human-capital-strategies-and-governance
   - start: 2020-07-23
@@ -36,6 +37,7 @@ events:
     topics:
       - news
       - great-reset
+      - money
     title: "Introducing the 'Great Reset,' world leaders' radical plan to transform the economy"
     link: https://www.msn.com/en-us/news/politics/introducing-the-great-reset-world-leaders-radical-plan-to-transform-the-economy/ar-BB15XGsU
   - start: 2020-07-24

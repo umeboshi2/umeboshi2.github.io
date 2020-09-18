@@ -13,6 +13,7 @@ events:
   - start: 2020-07-20
     topics:
       - paper
+      - vaccination
     journal: Molecular Biology and Evolution
     title: "Evidence for strong mutation bias towards, and selection against, U content in SARS-CoV-2: implications for vaccine design"
     link: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa188/5873882
@@ -31,6 +32,7 @@ events:
   - start: 2020-07-30
     topics:
       - news
+      - money
     journal: Forbes
     title: You Must Not ‘Do Your Own Research’ When It Comes To Science
     link: https://www.forbes.com/sites/startswithabang/2020/07/30/you-must-not-do-your-own-research-when-it-comes-to-science/#25253cfe535e
@@ -62,6 +64,7 @@ events:
   - start: 2020-08-02
     topics:
       - news
+      - artificial-intelligence
     pretext: "\"The team also discovered evidence of down-regulated genes in 
      COVID patients that might otherwise have kept hyaluronic acid levels in 
      check. So with fluid inundating the lungs and gels that absorb those 
@@ -95,17 +98,20 @@ events:
   - start: 2009-05-14
     topics:
       - news
+      - philanthropy
     title: Billionaire club in bid to curb overpopulation
     link: https://archive.is/RAwFf#selection-697.0-700.0
   - start: 2020-08-07
     topics:
       - news
+      - vaccination
     pretext: "\"Health officials say there is no returning to 'normal' until there is a vaccine.\""
     title: "Dr. Anthony Fauci says chance of coronavirus vaccine being highly effective is ‘not great’"
     link: https://www.cnbc.com/2020/08/07/coronavirus-vaccine-dr-fauci-says-chances-of-it-being-highly-effective-is-not-great.html
   - start: 2009-11-29
     topics:
       - paper
+      - nanotechnology
     journal: Nanoethics
     authors: Henk van den Belt
     pretext: "\"Synthetic biology, it is therefore maintained, does not 
