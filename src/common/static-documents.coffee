@@ -41,8 +41,11 @@ class EventData extends Backbone.Model
     obj = yaml.safeLoad data
     return obj
     
-
-
+  getSubtopicEvents: (name) ->
+    events = _.filter @get('events'), (event) ->
+      return name in event.topics
+    return events
+    
 MainChannel.reply 'main:app:get-events', (name) ->
   model = new EventData
     id: name
