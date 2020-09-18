@@ -4,6 +4,9 @@ import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import yaml from 'js-yaml'
 
+import NoCacheModel from './nocache-model'
+
+
 #$ = require 'jquery'
 #_ = require 'underscore'
 #Backbone = require 'backbone'
@@ -12,30 +15,23 @@ import yaml from 'js-yaml'
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 
-class StaticDocument extends Backbone.Model
+class TextModel extends NoCacheModel
+  fetch: (options) ->
+    options = _.extend options || {},
+      dataType: 'text'
+    super options
+  
+
+class StaticDocument extends TextModel
   url: ->
     "/assets/documents/#{@id}.md"
   
-  fetch: (options) ->
-    options = _.extend options || {},
-      dataType: 'text'
-      data:
-        nocache: Date.now()
-    super options
-
   parse: (response) ->
     return content: response
 
-class EventData extends Backbone.Model
+class EventData extends TextModel
   url: ->
     "/assets/events/#{@id}.yml"
-
-  fetch: (options) ->
-    options = _.extend options || {},
-      dataType: 'text'
-      data:
-        nocache: Date.now()
-    super options
 
   parse: (data) ->
     obj = yaml.safeLoad data
