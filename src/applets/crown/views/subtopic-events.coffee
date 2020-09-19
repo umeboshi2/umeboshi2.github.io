@@ -9,6 +9,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventManager = AppChannel.request 'get-event-manager', 'subtopics'
+
 
 class LinkItemView extends LinkEntryView
   tagName: 'li'
@@ -23,7 +25,7 @@ class SubtopicEntry extends Marionette.View
   regions:
     eventsContainer: '@ui.eventsContainer'
   onRender: ->
-    topicEvents = AppChannel.request 'get-subtopic-events', @model
+    topicEvents = eventManager.getSubtopicEvents(@model)
     allEvents = new Backbone.Collection []
     for t of topicEvents
       for e in topicEvents[t]
@@ -36,9 +38,9 @@ class SubtopicEntry extends Marionette.View
     
 class MainView extends Marionette.View
   initialize: ->
-    subtopics = AppChannel.request 'get-selected-subtopics'
+    subtopics = eventManager.collections.subtopics
     if not subtopics.length
-      AppChannel.request 'init-selected-subtopics', @model
+      eventManager.initSubtopics()
     
   template: tc.renderable (model) ->
     tc.div '.card', ->
@@ -50,7 +52,7 @@ class MainView extends Marionette.View
   regions:
     cardBody: '@ui.cardBody'
   onRender: ->
-    subtopics = AppChannel.request 'get-selected-subtopics'
+    subtopics = eventManager.collections.subtopics
     selected = new Backbone.Collection subtopics.filter selected:true
     view = new Marionette.CollectionView
       collection: selected

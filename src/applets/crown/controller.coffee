@@ -7,30 +7,36 @@ import { decode } from 'url-safe-base64'
 import ToolbarView from 'tbirds/views/button-toolbar'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
-import navigate_to_url from 'tbirds/util/navigate-to-url'
-import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 
+import indexModels from 'common/index-models'
+import EventManager from './event-manager'
 import './dbchannel'
 
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventIndex = indexModels.eventIndex
+cvlinks = indexModels.cvlinks
+
+eventManagers =
+  events: new EventManager
+  subtopics: new EventManager
+
+AppChannel.reply 'get-event-manager', (name) ->
+  return eventManagers[name]
+  
+  
 class Controller extends MainController
   channelName: 'crown'
   layoutClass: ToolbarAppletLayout
   viewIndex: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      model = AppChannel.request 'get-index-model', 'cvlinks'
       View = require('./views/index-view').default
-      response = model.fetch()
-      response.done =>
-        view = new View
-          model: model
-        @layout.showChildView 'content', view
-      response.fail ->
-        MessageChannel.request 'info', 'failed to fetch model'
+      view = new View
+        model: cvlinks
+      @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-index'
   viewRSS: ->
@@ -66,16 +72,12 @@ class Controller extends MainController
   viewEvents: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      model = AppChannel.request 'get-index-model', 'eventIndex'
       View = require('./views/main-event-viewer').default
-      response = model.fetch()
-      response.done =>
-        view = new View
-          model: model
-        @layout.showChildView 'content', view
+      view = new View
+        model: eventIndex
+      @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-events'
-
 
   viewRedirect: (encoded) ->
     @setupLayoutIfNeeded()
@@ -104,13 +106,10 @@ class Controller extends MainController
   viewSubtopics: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      model = AppChannel.request 'get-index-model', 'eventIndex'
       View = require('./views/select-subtopics-view').default
-      response = model.fetch()
-      response.done =>
-        view = new View
-          model: model
-        @layout.showChildView 'content', view
+      view = new View
+        model: eventIndex
+      @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-select-subtopics'
     

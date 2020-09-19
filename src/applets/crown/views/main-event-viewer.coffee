@@ -10,6 +10,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventManager = AppChannel.request 'get-event-manager', 'events'
+
     
 class MainView extends Marionette.View
   template: tc.renderable (model) ->
@@ -41,8 +43,6 @@ class MainView extends Marionette.View
       @ui.timelineBtn.show()
       @ui.calendarBtn.show()
       contentView.resetTopics()
-      
-      
   onRender: ->
     @showEventList()
   showTimeline: ->

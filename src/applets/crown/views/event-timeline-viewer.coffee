@@ -10,6 +10,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventManager = AppChannel.request 'get-event-manager', 'events'
+
 currentItems = []
 
 
@@ -20,12 +22,10 @@ class TimelineView extends Marionette.View
     timeline: '.maintimeline'
   onRender: ->
     @timeline = new Timeline @ui.timeline.get(0)
-    currentItems = AppChannel.request 'get-current-events'
-    AppChannel.request 'set-current-events'
-    @timeline.setItems currentItems
+    eventManager.setCurrentEvents()
+    @timeline.setItems eventManager.currentEvents
   resetTopics: ->
-    currentItems = AppChannel.request 'get-current-events'
-    AppChannel.request 'set-current-events'
-    @timeline.setItems currentItems
+    eventManager.setCurrentEvents()
+    @timeline.setItems eventManager.currentEvents
     
 export default TimelineView

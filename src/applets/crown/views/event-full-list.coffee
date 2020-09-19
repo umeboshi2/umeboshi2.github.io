@@ -4,11 +4,13 @@ import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import moment from 'moment'
 
+import LinkEntryView from 'common/link-entry-view'
+
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
-import LinkEntryView from 'common/link-entry-view'
+eventManager = AppChannel.request 'get-event-manager', 'events'
 
 class LinkItemView extends LinkEntryView
   className: 'list-group-item'
@@ -26,7 +28,8 @@ class TopicView extends Marionette.View
   regions:
     eventsList: '@ui.eventsList'
   onRender: ->
-    events = @model.get('eventsModel').get('events')
+    name = @model.get 'name'
+    events = eventManager.getEventData(name).get('events')
     view = new ListGroupView
       childView: LinkItemView
       collection: new Backbone.Collection events
@@ -47,8 +50,7 @@ class MainView extends Marionette.View
   clearCalendar: ->
     currentItems = []
   onRender: ->
-    Topics = AppChannel.request 'get-selected-topics'
-    selectedTopics = new Backbone.Collection Topics.filter selected:true
+    selectedTopics = eventManager.getSelectedTopics()
     view = new ListGroupView
       collection: selectedTopics
       childView: TopicView

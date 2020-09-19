@@ -14,6 +14,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventManager = AppChannel.request 'get-event-manager', 'events'
+
 currentItems = []
 
 
@@ -66,14 +68,11 @@ class CalendarView extends Marionette.View
     @calendar = new Calendar @ui.calendar.get(0),
       clickDay: @onClickDay
     @resetTopics()
-    
   resetTopics: ->
-    currentItems = AppChannel.request 'get-current-events'
-    AppChannel.request 'set-current-events'
-    currentItems.forEach (item) ->
+    eventManager.setCurrentEvents()
+    currentEvents = eventManager.currentEvents
+    currentEvents.forEach (item) ->
       convertEvent item
-    @calendar.setDataSource currentItems
-
-    
+    @calendar.setDataSource currentEvents
     
 export default CalendarView

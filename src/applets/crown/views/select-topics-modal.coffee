@@ -9,6 +9,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventManager = AppChannel.request 'get-event-manager', 'events'
+
 class ModalTopicsView extends BaseModalView
   template: tc.renderable (model) ->
     tc.div '.modal-dialog.modal-md', ->
@@ -28,20 +30,19 @@ class ModalTopicsView extends BaseModalView
     'click @ui.okBtn': 'okBtnClicked'
     'click @ui.closeBtn': 'emptyModal'
   onRender: ->
-    collection = AppChannel.request 'get-selected-topics'
+    collection = eventManager.collections.topics
     if not collection.length
-      AppChannel.request 'init-selected-topics', @model
+      eventManager.initTopics()
     view = new Marionette.CollectionView
       collection: collection
       viewComparator: 'name'
       childView: TopicEntryView
     @showChildView 'topicsRegion', view
   okBtnClicked: ->
-    promises = AppChannel.request 'fetch-event-models', @model
+    promises = eventManager.fetchEventModels()
     Promise.all(promises).then =>
       @triggerMethod 'topics:fetched'
   onTopicsFetched: ->
     @emptyModal()
-    collection = AppChannel.request 'get-selected-topics'
 
 export default ModalTopicsView

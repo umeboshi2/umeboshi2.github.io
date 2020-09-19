@@ -10,6 +10,8 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
+eventManager = AppChannel.request 'get-event-manager', 'subtopics'
+
 isMainTopicLoaded = (options) ->
   o = options
   console.log "topic is ", o.topic
@@ -52,9 +54,9 @@ class MainTopicsModal extends BaseModalView
   
 class MainView extends Marionette.View
   initialize: ->
-    subtopics = AppChannel.request 'get-selected-subtopics'
+    subtopics = eventManager.collections.subtopics
     if not subtopics.length
-      AppChannel.request 'init-selected-subtopics', @model
+      eventManager.initSubtopics()
   template: tc.renderable (model) ->
     tc.div '.text-center.listview-header', ->
       tc.text "Subtopics View"
@@ -85,7 +87,7 @@ class MainView extends Marionette.View
   childViewEvents:
     'child:toggled' : 'childToggled'
   childToggled: ->
-    opts = AppChannel.request 'determine-main-topics', @model
+    opts = eventManager.determineMainTopics()
     Promise.all(opts.promises).then =>
       @render()
   cardBodyMap:
@@ -98,20 +100,20 @@ class MainView extends Marionette.View
     @[method]()
   showSelectedBtnClicked: ->
     @cardBodyTopic = 'selected'
-    subtopics = AppChannel.request 'get-selected-subtopics'
+    subtopics = eventManager.collections.subtopics
     selectedView = new TopicCollectionView
       collection: new Backbone.Collection subtopics.filter selected: true
     @showChildView 'cardBody', selectedView
   
   showAvailBtnClicked: ->
     @cardBodyTopic = 'available'
-    subtopics = AppChannel.request 'get-selected-subtopics'
+    subtopics = eventManager.collections.subtopics
     availableView = new TopicCollectionView
       collection: new Backbone.Collection subtopics.filter selected: false
     @showChildView 'cardBody', availableView
 
   showMainTopicsBtnClicked: ->
-    opts = AppChannel.request 'determine-main-topics', @model
+    opts = eventManager.determineMainTopics()
     Promise.all(opts.promises).then ->
       view = new MainTopicsModal
         collection: opts.allTopics
