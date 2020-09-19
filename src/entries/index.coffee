@@ -68,6 +68,7 @@ Promise.all(promises).then ->
     state:
       currentUser: null
       dbConn: dbConns
+      indexModels: indexModels
   MainChannel.reply 'main:app:dbConn', (name) ->
     return app.getState('dbConn')[name]
 export default app
