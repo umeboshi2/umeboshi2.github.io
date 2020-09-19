@@ -10,7 +10,7 @@ import booksIcon from 'node-noto-emoji/dist/books'
 import HasJsonView from 'common/has-jsonview'
 
 Models = require '../misc-idents'
-headerTemplate = require './header-template'
+import headerTemplate from './header-template'
     
 class Entry extends Marionette.View
   className: 'col-md-4'

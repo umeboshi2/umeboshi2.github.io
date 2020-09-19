@@ -10,7 +10,7 @@ import HasJsonView from 'common/has-jsonview'
 
 
 showModels = require '../radio-shows'
-headerTemplate = require './header-template'
+import headerTemplate from './header-template'
 
 class Entry extends Marionette.View
   className: 'col-md-4'

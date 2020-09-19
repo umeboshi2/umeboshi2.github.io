@@ -1,19 +1,17 @@
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-marked = require 'marked'
+import Backbone from 'backbone'
+import Marionette from 'backbone.marionette'
+import tc from 'teacup'
+import marked from 'marked'
 
-#radioIcon = require 'node-noto-emoji/dist/radio'
-radioIcon = require 'node-noto-emoji/dist/radio'
-micIcon = require 'node-noto-emoji/dist/microphone'
-booksIcon = require 'node-noto-emoji/dist/books'
+import radioIcon from 'node-noto-emoji/dist/radio'
+import micIcon from 'node-noto-emoji/dist/microphone'
+import booksIcon from 'node-noto-emoji/dist/books'
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
-HasJsonView = require 'common/has-jsonview'
+import HasJsonView from 'common/has-jsonview'
 
 showModels = require '../librivox-books'
-headerTemplate = require './header-template'
-    
+import headerTemplate from './header-template'
+
 class Entry extends Marionette.View
   className: 'col-md-4'
   template: tc.renderable (model) ->
@@ -59,5 +57,4 @@ class MainView extends Marionette.View
   templateContext:
     appName: 'netark'
     
-module.exports = MainView
-
+export default MainView

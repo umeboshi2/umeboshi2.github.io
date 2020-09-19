@@ -39,7 +39,7 @@ class Controller extends MainController
   listLibrivox: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/librivox-list'
+      View = require('./views/librivox-list').default
       view = new View
       @layout.showChildView 'content', view
       @scrollTop()
@@ -49,7 +49,7 @@ class Controller extends MainController
   listSciFiMovies: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/scifi-movie-list'
+      View = require('./views/scifi-movie-list').default
       view = new View
       @layout.showChildView 'content', view
       @scrollTop()

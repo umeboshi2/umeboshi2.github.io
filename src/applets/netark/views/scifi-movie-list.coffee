@@ -1,16 +1,15 @@
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-marked = require 'marked'
+import Backbone from 'backbone'
+import Marionette from 'backbone.marionette'
+import tc from 'teacup'
+import marked from 'marked'
 
-spaceInvaderIcon = require 'node-noto-emoji/dist/space_invader'
-alienIcon = require 'node-noto-emoji/dist/alien'
+import spaceInvaderIcon from 'node-noto-emoji/dist/space_invader'
+import alienIcon from 'node-noto-emoji/dist/alien'
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
-HasJsonView = require 'common/has-jsonview'
+import HasJsonView from  'common/has-jsonview'
 
 showModels = require '../scifi-videos'
-headerTemplate = require './header-template'
+import headerTemplate from './header-template'
     
 view_template = tc.renderable (model) ->
   tc.div '.row.listview-list-entry', ->
@@ -60,5 +59,5 @@ class MainView extends Marionette.View
       collection: collection
     @showChildView 'itemList', view
     
-module.exports = MainView
+export default MainView
 
