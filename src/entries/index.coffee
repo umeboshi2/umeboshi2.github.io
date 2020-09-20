@@ -15,6 +15,7 @@ import './base'
 import ebcsvSchema from '../applets/ebcsv/dbschema'
 import bumblrSchema from '../applets/bumblr/dbschema'
 import tvmazeSchema from '../applets/tvmaze/dbschema'
+import pmcSchema from 'applets/pmc/dbschema'
 
 import MainAppConfig from './index-config'
 
@@ -48,6 +49,7 @@ schemas =
   ebcsv: ebcsvSchema
   bumblr: bumblrSchema
   tvmaze: tvmazeSchema
+  pmc: pmcSchema
   
 dbConns = {}
 

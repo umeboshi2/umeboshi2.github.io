@@ -11,10 +11,12 @@ import indexModels from 'common/index-models'
 import HasJsonView from 'common/has-jsonview'
 import JView from 'json-view'
 
-oai_identifier = (id) ->
-  return "oai:pubmedcentral.nih.gov:#{id}"
+AppChannel = Backbone.Radio.channel 'pmc'
+
 
 parseRecord = (record) ->
+  console.log "RECORD", record
+  record = record['OAI-PMH'].GetRecord.record.metadata.article.front
   content = {}
   jmeta = record['journal-meta']
   tprop = 'journal-title'
@@ -33,29 +35,8 @@ parseRecord = (record) ->
   else
     title = tnode
   content.title = title
-  content.abstract = meta.abstract.p
+  content.abstract = meta.abstract?.p
   return content
-
-class PMCModel extends Backbone.Model
-  url: ->
-    data =
-      verb: 'GetRecord'
-      identifier: oai_identifier @id
-      metadataPrefix: 'pmc_fm'
-    query = qs.stringify data
-    url = "https://www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi?#{query}"
-    console.log "URL"
-    prefix = "https://cors-anywhere.herokuapp.com/"
-    return prefix + url
-  parse: (data) ->
-    x2js = new X2JS()
-    parsed = x2js.xml2js data
-    r = parsed['OAI-PMH'].GetRecord.record.metadata.article.front
-    return r
-  fetch: (options) ->
-    options = _.extend options || {},
-      dataType: 'text'
-    super options
 
 class PMCFrontMatter extends Marionette.View
   template: tc.renderable (model) ->
@@ -69,26 +50,40 @@ class PMCFrontMatter extends Marionette.View
 
 class PMCEntry extends Marionette.View
   template: tc.renderable (model) ->
-    tc.button '.show-btn.btn.btn-outline-warning.btn-sm', 'Show Papers'
-    tc.text model.name
+    tc.button '.show-info-btn.btn.btn-outline-warning.btn-sm', 'Info'
+    tc.text model.id
     tc.div '.content'
   ui:
-    showBtn: '.show-btn'
+    showInfoBtn: '.show-info-btn'
     content: '.content'
   regions:
     content: '@ui.content'
+  onRender: ->
+    if @model.get("OAI-PMH")
+      view = new PMCFrontMatter
+        model: @model
+      @showChildView 'content', view
   events:
-    'click @ui.showBtn': 'onClick'
-  onClick: ->
+    'click @ui.showInfoBtn': 'showInfoBtnClicked'
+  showInfoBtnClicked: ->
     if @getRegion('content').hasView()
       console.log "view in region"
     else
       response = @model.fetch()
       response.done =>
-        view = new PMCFrontMatter
-          model: @model
-        @showChildView 'content', view
-
+        id = @model.get('id')
+        content = JSON.stringify @model.toJSON()
+        lpromise = AppChannel.request 'save-fm-content', id, content
+        console.log "lpromise", lpromise
+        lpromise.then =>
+          collection = AppChannel.request 'get-fm-collection'
+          cresponse = collection.fetch()
+          cresponse.done =>
+            lmodel = collection.get id  
+            view = new PMCFrontMatter
+              model: new Backbone.Model lmodel.getContent()
+            @showChildView 'content', view
+      
 class TopicView extends Marionette.View
   tagName: 'li'
   className: 'list-group-item'
@@ -102,20 +97,29 @@ class TopicView extends Marionette.View
   regions:
     papers: '@ui.papers'
   events:
-    'click @ui.showBtn': 'onClick'
-  onClick: ->
+    'click @ui.showBtn': 'showBtnClicked'
+  showBtnClicked: ->
     if @getRegion('papers').hasView()
       console.log "view in region"
     else
       pmcModels = new Backbone.Collection []
-      @model.get('pmc_ids').forEach (pmcid) ->
-        pmcModels.add new PMCModel
-          id: pmcid
-          name: pmcid
-      view = new Marionette.CollectionView
-        collection: pmcModels
-        childView: PMCEntry
-      @showChildView 'papers', view
+      fmCollection = AppChannel.request 'get-fm-collection'
+      response = fmCollection.fetch()
+      response.done =>
+        @model.get('pmc_ids').forEach (pmcid) ->
+          lmodel = fmCollection.get pmcid
+          if lmodel?
+            console.log "lmodel", lmodel
+            model = new Backbone.Model lmodel.getContent()
+          else
+            model = AppChannel.request 'make-remote-model', pmcid
+          console.log "PMCMODEL #{pmcid}", model
+          pmcModels.add model
+        console.log "fmCollection", fmCollection
+        view = new Marionette.CollectionView
+          collection: pmcModels
+          childView: PMCEntry
+        @showChildView 'papers', view
     
     
 class MainView extends Marionette.View
