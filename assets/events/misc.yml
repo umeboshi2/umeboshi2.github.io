@@ -216,3 +216,14 @@ events:
       - news
     title: COVID-19 emails from Nashville mayor's office show disturbing revelation
     link: https://fox17.com/news/local/covid-19-emails-from-nashville-mayors-office-show-disturbing-revelation
+  - start: 2020-09-17
+    topics:
+      - news
+    journal: New York Times
+    title: The Evangelicals Who Are Taking On QAnon
+    link: https://www.nytimes.com/2020/09/17/opinion/evangelicals-qanon.html
+  - start: 2020-08-24
+    topics:
+      - news
+    title: "Q-Anon: The rise of ‘restless evil’"
+    link: https://www.brnow.org/opinions/editorial/q-anon-the-rise-of-restless-evil/

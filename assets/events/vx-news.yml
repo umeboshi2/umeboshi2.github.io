@@ -25,7 +25,7 @@ events:
       - trials
       - mrna
     title: mRNA-1273 Approval Status
-    link: https://www.drugs.com/history/mrna-1273.html)
+    link: https://www.drugs.com/history/mrna-1273.html
   - start: 2020-07-21
     title: "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial, Part 1"
     link: https://clinicaltrials.gov/ct2/show/NCT04460703
@@ -60,7 +60,7 @@ events:
       - news
       - liability
     title: Red Flags Soar As Big Pharma Will Be Exempt From COVID-19 Vaccine Liability Claims
-    link: https://www.zerohedge.com/political/red-flags-soar-big-pharma-will-be-exempt-covid-19-vaccine-liability-claims)
+    link: https://www.zerohedge.com/political/red-flags-soar-big-pharma-will-be-exempt-covid-19-vaccine-liability-claims
   - start: 2020-09-02
     topics:
       - news
@@ -82,7 +82,7 @@ events:
     link: https://stm.sciencemag.org/content/11/523/eaay7162.short
     extra:
       - name: (PubMed)
-        link: https://pubmed.ncbi.nlm.nih.gov/31852802/ 
+        link: https://pubmed.ncbi.nlm.nih.gov/31852802/
   - start: 2020-03-19
     topics:
       - news
@@ -97,7 +97,7 @@ events:
     topics:
       - paper
     title: "A Novel Chimpanzee Adenovirus Vector with Low Human Seroprevalence: Improved Systems for Vector Derivation and Comparative Immunogenicity"
-    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3396660/)
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3396660/
   - start: 2020-05-31
     topics:
       - news
