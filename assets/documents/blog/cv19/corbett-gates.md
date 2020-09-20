@@ -1,20 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Corbett Report on Bill Gates](#corbett-report-on-bill-gates)
-  - [Part One: How Bill Gates Monopolized Global Health](#part-one-how-bill-gates-monopolized-global-health)
-  - [Part Two: Bill Gates’ Plan to Vaccinate the World](#part-two-bill-gates-plan-to-vaccinate-the-world)
-  - [Part Three: Bill Gates and the Population Control Grid](#part-three-bill-gates-and-the-population-control-grid)
-  - [Part Four: Meet Bill Gates](#part-four-meet-bill-gates)
-- [Fact Check: Bill Gates and the "God Gene" Vaccine](#fact-check-bill-gates-and-the-god-gene-vaccine)
-  - [How Governments Are Hunting the Infected - #NewWorldNextWeek](#how-governments-are-hunting-the-infected---newworldnextweek)
-  - [The rest](#the-rest)
-  - [More Stuff](#more-stuff)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/bilmel)
+<div class="menu-data" data-parent="#pages/blog/cv19/bilmel"/>
 
 ## Corbett Report on Bill Gates
 

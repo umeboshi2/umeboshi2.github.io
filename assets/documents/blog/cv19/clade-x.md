@@ -1,19 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Clade X](#clade-x)
-  - [Clade X Pandemic Exercise: Segment 1](#clade-x-pandemic-exercise-segment-1)
-  - [Clade X Pandemic Exercise: Segment 2](#clade-x-pandemic-exercise-segment-2)
-  - [Clade X Pandemic Exercise: Segment 3](#clade-x-pandemic-exercise-segment-3)
-  - [Clade X Pandemic Exercise: Segment 4](#clade-x-pandemic-exercise-segment-4)
-  - [Clade X pandemic exercise short movie](#clade-x-pandemic-exercise-short-movie)
-  - [Clade X Pandemic Simulation 2018](#clade-x-pandemic-simulation-2018)
-      - [United States Plan for a Pandemic](#united-states-plan-for-a-pandemic)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/jhchs)
+<div class="menu-data" data-parent="#pages/blog/cv19/jhchs"/>
 
 ## [Clade X](https://www.centerforhealthsecurity.org/our-work/events/2018_clade_x_exercise/index.html)
 

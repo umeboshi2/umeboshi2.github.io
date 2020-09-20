@@ -1,17 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Event 201](#event-201)
-  - [Event 201 Pandemic Exercise: Segment 1, Intro and Medical Countermeasures (MCM) Discussion](#event-201-pandemic-exercise-segment-1-intro-and-medical-countermeasures-mcm-discussion)
-  - [Event 201 Pandemic Exercise: Segment 2, Trade and Travel Discussion](#event-201-pandemic-exercise-segment-2-trade-and-travel-discussion)
-  - [Event 201 Pandemic Exercise: Segment 3, Finance Discussion](#event-201-pandemic-exercise-segment-3-finance-discussion)
-  - [Event 201 Pandemic Exercise: Segment 4, Communications Discussion and Epilogue Video](#event-201-pandemic-exercise-segment-4-communications-discussion-and-epilogue-video)
-  - [Event 201 Pandemic Exercise: Segment 5, Hotwash and Conclusion](#event-201-pandemic-exercise-segment-5-hotwash-and-conclusion)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/jhchs)
+<div class="menu-data" data-parent="#pages/blog/cv19/jhchs"/>
 
 
 ## [Event 201](https://www.centerforhealthsecurity.org/event201/)

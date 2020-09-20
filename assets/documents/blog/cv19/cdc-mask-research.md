@@ -1,15 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [CDC Mask Research](#cdc-mask-research)
-  - [Extra Research](#extra-research)
-- [Notes](#notes)
-- [Other CDC Pages](#other-cdc-pages)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/index)
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
 
 # CDC Mask Research
 

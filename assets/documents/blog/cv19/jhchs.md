@@ -1,17 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [The Johns Hopkins Center for Health Security (JHCHS)](#the-johns-hopkins-center-for-health-security-jhchs)
-  - [Charting the Future of Biosecurity](#charting-the-future-of-biosecurity)
-  - [Clade X](#clade-x)
-  - [Event 201](#event-201)
-  - [Atlantic Storm](#atlantic-storm)
-  - [Related Links](#related-links)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/index)
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
 
 ## The Johns Hopkins Center for Health Security (JHCHS)
 

@@ -1,15 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [MasterCard](#mastercard)
-  - [World Beyond Cash](#world-beyond-cash)
-  - [COVID-19 Assistance](#covid-19-assistance)
-  - [Articles](#articles)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/artificial)
+<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/>
 
 # [MasterCard](https://en.wikipedia.org/wiki/MasterCard)
 

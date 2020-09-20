@@ -1,18 +1,5 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
 
-- [Data for Mississippi](#data-for-mississippi)
-- [Resources for Mississippi](#resources-for-mississippi)
-- [Genome Data](#genome-data)
-- [WHO](#who)
-- [CDC Pages](#cdc-pages)
-- [Other Articles](#other-articles)
-  - [Transmission Dynamics of COVID-19](#transmission-dynamics-of-covid-19)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/index)
 
 # Data for Mississippi
 
@@ -30,6 +17,8 @@ data on bed usage is provided by this site, but it is unknown how accurate this
 data is.
 
 # Resources for Mississippi
+
+[Developer Resources](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/)
 
 [State Executive Orders](https://www.sos.ms.gov/content/executiveorders/) don't
 even exist unless they are published here first.
@@ -73,6 +62,9 @@ Coronavirus Disease 2019 (COVID-19)"
 [Violence Prevention: A Public Health Approach](https://www.cdc.gov/violenceprevention/publichealthissue/publichealthapproach.html)
 
 [Viral Culturing](https://www.cdc.gov/coronavirus/2019-ncov/lab/grows-virus-cell-culture.html)
+
+[CDC Current Outbreak List](https://www.cdc.gov/outbreaks/index.html)
+
 
 # Other Articles
 

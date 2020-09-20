@@ -1,14 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Covid 19](#covid-19)
-  - [Related Topics](#related-topics)
-  - [Topics Indirectly Related to Covid 19](#topics-indirectly-related-to-covid-19)
-- [Tools and Other Services](#tools-and-other-services)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Covid 19
 
 This is an exploration into some of the topics encountered during

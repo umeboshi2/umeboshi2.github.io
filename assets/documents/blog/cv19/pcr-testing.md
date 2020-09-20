@@ -1,17 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Articles](#articles)
-- [Notes](#notes)
-- [Video](#video)
-  - [PCR - Polymerase Chain Reaction Simplified](#pcr---polymerase-chain-reaction-simplified)
-  - [Polymerase chain reaction (PCR)](#polymerase-chain-reaction-pcr)
-  - [Two more](#two-more)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/index)
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
 
 ## Articles
 

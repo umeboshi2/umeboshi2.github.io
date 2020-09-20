@@ -1,16 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Artificial Intelligence](#artificial-intelligence)
-  - [Introduction](#introduction)
-  - [Deep Learning](#deep-learning)
-    - [Reinforcement Learning](#reinforcement-learning)
-  - [A Math Example](#a-math-example)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/index)
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
 
 ## Artificial Intelligence
 

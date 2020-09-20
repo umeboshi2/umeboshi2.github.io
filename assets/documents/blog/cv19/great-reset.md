@@ -1,15 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [The Great Reset](#the-great-reset)
-  - [About](#about)
-  - [Great Reset Dialogues | Six leaders discuss why we must reform the social contract after COVID-19](#great-reset-dialogues--six-leaders-discuss-why-we-must-reform-the-social-contract-after-covid-19)
-  - [The Great Reset | Launch session 3 June 2020](#the-great-reset--launch-session-3-june-2020)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/wef)
+<div class="menu-data" data-parent="#pages/blog/cv19/wef"/>
 
 ## The Great Reset
 

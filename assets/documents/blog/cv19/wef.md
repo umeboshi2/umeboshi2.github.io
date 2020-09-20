@@ -1,21 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [World Economic Forum](#world-economic-forum)
-  - [Covid-19](#covid-19)
-    - [Covid Action Platform](#covid-action-platform)
-      - [Articles](#articles)
-  - [The Great Reset](#the-great-reset)
-    - [Creating a Credible and Trusted Digital Currency](#creating-a-credible-and-trusted-digital-currency)
-    - [What is the Fourth Industrial Revolution?](#what-is-the-fourth-industrial-revolution)
-    - [Family Business: Relic or Role Model? | DAVOS 2020](#family-business-relic-or-role-model--davos-2020)
-  - [AI and Government](#ai-and-government)
-  - [More Stuff](#more-stuff)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/artificial)
+<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/>
 
 ## World Economic Forum
 

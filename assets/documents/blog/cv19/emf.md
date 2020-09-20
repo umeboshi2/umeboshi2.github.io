@@ -1,16 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [Video](#video)
-  - [Cell Phone Radiation Controversy - Part 1](#cell-phone-radiation-controversy---part-1)
-  - ["The truth about mobile phone and wireless radiation" -- Dr Devra Davis](#the-truth-about-mobile-phone-and-wireless-radiation----dr-devra-davis)
-  - [5G Wireless Safety](#5g-wireless-safety)
-- [EMF Papers](#emf-papers)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/index)
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
 
 ## Video
 

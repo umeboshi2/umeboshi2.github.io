@@ -1,17 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**[Home](#pages/blog/cv19/index)**
-
-- [The Rockefeller Foundation](#the-rockefeller-foundation)
-  - [Links](#links)
-  - [Carnegie Flexner Report](#carnegie-flexner-report)
-  - [Rockefeller Medicine Men (1979)](#rockefeller-medicine-men-1979)
-    - [Video](#video)
-  - [The Lockstep Scenario](#the-lockstep-scenario)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-[Parent](#pages/blog/cv19/artificial)
+<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/>
 
 ## The Rockefeller Foundation
 
