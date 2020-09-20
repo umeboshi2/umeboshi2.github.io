@@ -17,6 +17,11 @@ PMC_URL_PREFIX = "https://www.ncbi.nlm.nih.gov/pmc/articles/"
 
 makePMCurl = (id) ->
   return "#{PMC_URL_PREFIX}PMC#{id}/"
+
+makeDOIurl = (doi) ->
+  prefix = "https://dx.doi.org/"
+  return prefix + doi
+  
   
 parseRecord = (record) ->
   record = record.content['OAI-PMH'].GetRecord.record.metadata.article.front
@@ -49,12 +54,20 @@ parseRecord = (record) ->
 class PMCFrontMatter extends Marionette.View
   behaviors: [HasJsonView]
   template: tc.renderable (model) ->
-    tc.div '.jsonview'
     content = parseRecord model
     href = makePMCurl(model.id)
-    tc.a '.pmc-anchor', href:href, content['title']
-    if __DEV__
-      tc.button '.destroy-btn.btn.btn-outline-danger.btn-sm', 'Delete'
+    tc.div '.card', ->
+      tc.div '.card-body', ->
+        tc.div '.card-title',  content.title
+        tc.div '.small', content.journal
+        tc.a '.pmc-anchor.small', href:href, '(PMC)'
+        if content?.doi
+          tc.a '.small', href:makeDOIurl(content.doi), target:'_blank', ->
+            tc.text " (doi:#{content.doi})"
+        tc.button '.destroy-btn.btn.btn-outline-danger.btn-sm', 'Delete'
+        if content?.abstract
+          tc.p '.card-text.small', content.abstract
+      tc.div '.jsonview'
   ui:
     pmcAnchor: '.pmc-anchor'
     deleteBtn: '.destroy-btn'
@@ -63,7 +76,8 @@ class PMCFrontMatter extends Marionette.View
     'click @ui.pmcAnchor': 'pmcAnchorClicked'
     'click @ui.deleteBtn': 'deleteBtnClicked'
   onRender: ->
-    @ui.jsonView.hide()
+    if not __DEV__
+      @ui.jsonView.hide()
   pmcAnchorClicked: (event) ->
     event.preventDefault()
   deleteBtnClicked: (event) ->
@@ -123,9 +137,9 @@ class PMCEntry extends Marionette.View
               model: lmodel
             thisView.showChildView 'content', view
             thisView.ui.showInfoBtn.hide()
+            
 class TopicView extends Marionette.View
-  tagName: 'li'
-  className: 'list-group-item'
+  className: 'list-group'
   template: tc.renderable (model) ->
     tc.h3 model.name
     tc.div '.papers'
