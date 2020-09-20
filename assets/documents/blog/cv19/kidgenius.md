@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/bilmel"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/bilmel"/></div>
 
 ## Bill Gates and Warren Buffet in Kid Genius Cartoon
 

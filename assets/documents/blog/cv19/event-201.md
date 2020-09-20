@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/jhchs"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/jhchs"/></div>
 
 
 ## [Event 201](https://www.centerforhealthsecurity.org/event201/)

@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/></div>
 
 ## Biodefense Exercises
 

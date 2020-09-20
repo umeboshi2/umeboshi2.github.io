@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/philanthropy"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/philanthropy"/></div>
 
 # The Giving Pledge
 

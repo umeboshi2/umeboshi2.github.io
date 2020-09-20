@@ -1,4 +1,5 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/></div>
+
 
 ## Ipsos MORI
 

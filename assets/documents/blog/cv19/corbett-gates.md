@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/bilmel"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/bilmel"/></div>
 
 ## Corbett Report on Bill Gates
 

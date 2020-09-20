@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/artificial"/></div>
 
 # [MasterCard](https://en.wikipedia.org/wiki/MasterCard)
 

@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/jhchs"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/jhchs"/></div>
 
 ## [Clade X](https://www.centerforhealthsecurity.org/our-work/events/2018_clade_x_exercise/index.html)
 

@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/index"/>
+<div class="menu-data" data-parent="#pages/blog/cv19/index"/></div>
 
 ## [Misinformation related to the COVID-19 pandemic](https://en.wikipedia.org/wiki/Misinformation_related_to_the_COVID-19_pandemic)
 
