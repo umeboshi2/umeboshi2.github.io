@@ -16,9 +16,9 @@ config.navbarEntries = [
     url: "#crown/events"
     icon: '.fa.fa-calendar'
   },{
-    label: "Index"
-    url: "#crown"
-    icon: '.fa.fa-list'
+    label: "PMC"
+    url: "#pmc"
+    icon: '.fa.fa-ambulance'
   }
   #misc_menu
   ]

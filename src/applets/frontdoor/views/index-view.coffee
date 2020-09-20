@@ -8,17 +8,40 @@ import moment from 'moment'
 import LinkView from './link-view'
 import VideoView from './video-view'
 
+import navigateToUrl from 'tbirds/util/navigate-to-url'
 MainChannel = Backbone.Radio.channel 'global'
 
+class MenuBar extends Marionette.View
+  className: 'btn-group'
+  template: tc.renderable (model) ->
+    tc.button '.home-btn.btn.btn-outline-warning.btn-sm.fa.fa-home', 'Home'
+    tc.button '.parent-bnt.btn.btn-outline-warning.btn-sm.fa.fa-arrow-up', 'Up'
+  ui:
+    homeBtn: '.home-btn'
+    parentBtn: '.parent-bnt'
+  events:
+    'click @ui.homeBtn': 'homeBtnClicked'
+    'click @ui.parentBtn': 'parentBtnClicked'
+  homeBtnClicked: ->
+    navigateToUrl '#pages/blog/cv19/index'
+  parentBtnClicked: ->
+    parent = @model.get 'parent'
+    navigateToUrl parent
+    
 class MainView extends Marionette.View
   template: tc.renderable (post) ->
+    tc.div '.menu-bar'
     tc.article '.document-view.content.row', ->
       tc.div '.body.col-lg-10.col-lg-offset-1', ->
         tc.raw marked post.content
   ui:
+    menuBar: '.menu-bar'
+    menuData: '.menu-data'
     anchor: 'a'
     linkView: '.link-view'
     videoView: '.video-view'
+  regions:
+    menuBar: '@ui.menuBar'
   colorLocalLinks: ->
     for a in @ui.anchor
       hash = a.hash
@@ -64,6 +87,11 @@ class MainView extends Marionette.View
     @colorLocalLinks()
     @showLinkViews()
     @showVidViews()
+    if @ui.menuData.length
+      view = new MenuBar
+        model: new Backbone.Model
+          parent: @ui.menuData.attr('data-parent')
+      @showChildView 'menuBar', view
     
           
 module.exports = MainView

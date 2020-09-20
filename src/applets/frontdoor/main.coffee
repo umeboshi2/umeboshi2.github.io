@@ -28,13 +28,16 @@ appletEntries = [
     label: "Internet Archive"
     url: "#netark"
     icon: '.fa.fa-wrench'
-  },{
-    label: "workshop"
-    url: "#workshop"
-    icon: '.fa.fa-wrench'
   }
 ]
 
+
+if __DEV__
+  appletEntries.push
+    label: "workshop"
+    url: "#workshop"
+    icon: '.fa.fa-wrench'
+  
 class Router extends Marionette.AppRouter
   appRoutes:
     # handle empty route
