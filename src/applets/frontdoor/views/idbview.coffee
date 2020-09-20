@@ -1,10 +1,10 @@
-$ = require 'jquery'
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-JView = require 'json-view'
-require 'json-view/devtools.css'
+import $ from 'jquery'
+import Backbone from 'backbone'
+import Marionette from 'backbone.marionette'
+import tc from 'teacup'
 FileSaver = require 'file-saver'
+
+import HasJsonView from 'common/has-jsonview'
 
 exportToFile = require('tbirds/util/export-to-file').default
 
@@ -43,16 +43,9 @@ importExportTemplate = tc.renderable (model) ->
       
 
 class DatabaseView extends Marionette.View
+  behaviors: [HasJsonView]
   template: tc.renderable (model) ->
-    tc.div ->
-      tc.div '.body'
-  ui:
-    body: '.body'
-  onDomRefresh: ->
-    data = @model.toJSON()
-    @jsonView = new JView data
-    @ui.body.prepend @jsonView.dom
-    #@jsonView.expand true
+    tc.div '.jsonview'
     
 class ImportExportView extends Marionette.View
   template: importExportTemplate
@@ -118,7 +111,7 @@ class ImportExportView extends Marionette.View
   viewDatabase: ->
     @_exportDatabase().then (data) =>
       view = new DatabaseView
-        model: new Backbone.Model data: data
+        model: new Backbone.Model data
       @showChildView 'dbView', view
       @ui.viewButton.hide()
       
@@ -161,7 +154,7 @@ class MainView extends Marionette.View
     tc.div '.body'
   onRender: ->
     app = MainChannel.request 'main:app:object'
-    dbConn = app.dbConn
+    dbConn = app.getState('dbConn')
     
     @collection = new Backbone.Collection
     view = new Marionette.CollectionView

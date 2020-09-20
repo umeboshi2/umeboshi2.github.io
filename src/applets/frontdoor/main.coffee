@@ -13,6 +13,10 @@ appletEntries = [
     url: "#crown"
     icon: '.fa.fa-list'
   },{
+    label: 'dbAdmin'
+    url: "#frontdoor/dbadmin"
+    icon: '.fa.fa-database'
+  },{
     label: "moviedb"
     url: "#moviedb"
     icon: '.fa.fa-video-camera'
