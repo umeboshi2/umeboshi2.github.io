@@ -1,0 +1,87 @@
+/*
+  backbone.paginator
+  http://github.com/backbone-paginator/backbone.paginator
+
+  Copyright (c) 2016 Jimmy Yuen Ho Wong and contributors
+
+  @module
+  @license MIT
+*/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+
+/*! no static exports found */
+
+/*!***************************!*\
+  !*** ./src/driver.coffee ***!
+  \***************************/
+
+/*! backbone */
+
+/*! ./sync */
+
+/*! ./store */
+
+/*! ./utils */
+
+/*!**************************!*\
+  !*** ./src/store.coffee ***!
+  \**************************/
+
+/*! underscore */
+
+/*! lovefield */
+
+/*!*************************!*\
+  !*** ./src/sync.coffee ***!
+  \*************************/
+
+/*!**************************!*\
+  !*** ./src/utils.coffee ***!
+  \**************************/
+
+/*! ./../node_modules/webpack/buildin/global.js */
+
+/*!*********************************!*\
+  !*** multi ./src/driver.coffee ***!
+  \*********************************/
+
+/*! ./src/driver.coffee */
+
+/*!**************************************************************************************************!*\
+  !*** external {"amd":"backbone","commonjs":"backbone","commonjs2":"backbone","root":"Backbone"} ***!
+  \**************************************************************************************************/
+
+/*!***********************************************************************************************!*\
+  !*** external {"amd":"lovefield","commonjs":"lovefield","commonjs2":"lovefield","root":"lf"} ***!
+  \***********************************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** external {"amd":"underscore","commonjs":"underscore","commonjs2":"underscore","root":"_"} ***!
+  \*************************************************************************************************/
+
+/**
+ * @module url-safe-base64
+ * @license UNLICENSE
+ * @example
+ * import {
+ *   encode, decode, trim,
+ *   isBase64, isUrlSafeBase64
+ * } from 'url-safe-base64'
+ * const safe = encode('A/B+C==')
+ * // > 'A-B_C..'
+ * trim(safe)
+ * // > 'A-B_C'
+ * const base64 = decode(safe)
+ * // > 'A/B+C=='
+ * isBase64(base64)
+ * // > true
+ * isBase64(safe)
+ * // > false
+ * isUrlSafeBase64(base64)
+ * // > false
+ * isUrlSafeBase64(safe)
+ * // > true
+ */
