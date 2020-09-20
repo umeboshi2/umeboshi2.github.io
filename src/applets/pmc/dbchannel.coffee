@@ -14,15 +14,15 @@ dbConn = MainChannel.request 'main:app:dbConn', 'pmc'
 
 PMCFrontMatterStore = new LoveStore dbConn, 'FrontMatter'
 
+fmFields = ['id', 'content']
+
 class FrontMatterModel extends Backbone.Model
   loveStore: PMCFrontMatterStore
   toJSON: ->
     data = {}
-    data.id = @get('id')
-    data.content = @get('content')
+    fmFields.forEach (field) =>
+      data[field] = @get field
     return data
-  getContent: ->
-    return JSON.parse @get('content')
 
 class FrontMatterCollection extends Backbone.Collection
   loveStore: PMCFrontMatterStore
@@ -49,16 +49,15 @@ class RemoteModel extends Backbone.Model
   parse: (data) ->
     x2js = new X2JS()
     parsed = x2js.xml2js data
+    parsed = JSON.parse(JSON.stringify(parsed))
     #r = parsed['OAI-PMH'].GetRecord.record.metadata.article.front
-    return parsed
-    
+    return
+      id: @get('id')
+      content: parsed
   fetch: (options) ->
     options = _.extend options || {},
       dataType: 'text'
     super options
-  getRecord: ->
-    data = @get('OAI-PMH')
-    return data.GetRecord.record
 
 AppChannel.reply 'make-remote-model', (id) ->
   return new RemoteModel id:id

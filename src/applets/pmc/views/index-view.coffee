@@ -13,10 +13,13 @@ import JView from 'json-view'
 
 AppChannel = Backbone.Radio.channel 'pmc'
 
+PMC_URL_PREFIX = "https://www.ncbi.nlm.nih.gov/pmc/articles/"
 
+makePMCurl = (id) ->
+  return "#{PMC_URL_PREFIX}PMC#{id}/"
+  
 parseRecord = (record) ->
-  console.log "RECORD", record
-  record = record['OAI-PMH'].GetRecord.record.metadata.article.front
+  record = record.content['OAI-PMH'].GetRecord.record.metadata.article.front
   content = {}
   jmeta = record['journal-meta']
   tprop = 'journal-title'
@@ -35,61 +38,96 @@ parseRecord = (record) ->
   else
     title = tnode
   content.title = title
+  articleIds = meta['article-id']
+  articleIds.forEach (obj) ->
+    if obj?['_pub-id-type'] == 'doi'
+      doi = obj.__text
+      content.doi = doi
   content.abstract = meta.abstract?.p
   return content
 
 class PMCFrontMatter extends Marionette.View
+  behaviors: [HasJsonView]
   template: tc.renderable (model) ->
-    console.log "MODEL", model
+    tc.div '.jsonview'
     content = parseRecord model
-    for key of content
-      tc.dt key
-      tc.dd content[key]
-      
-  
+    href = makePMCurl(model.id)
+    tc.a '.pmc-anchor', href:href, content['title']
+    if __DEV__
+      tc.button '.destroy-btn.btn.btn-outline-danger.btn-sm', 'Delete'
+  ui:
+    pmcAnchor: '.pmc-anchor'
+    deleteBtn: '.destroy-btn'
+    jsonView: '.jsonview'
+  events:
+    'click @ui.pmcAnchor': 'pmcAnchorClicked'
+    'click @ui.deleteBtn': 'deleteBtnClicked'
+  onRender: ->
+    @ui.jsonView.hide()
+  pmcAnchorClicked: (event) ->
+    event.preventDefault()
+  deleteBtnClicked: (event) ->
+    fmCollection = AppChannel.request 'get-fm-collection'
+    model = fmCollection.get @model.id
+    response = model.destroy()
+    response.done =>
+      @trigger 'model:destroyed'
 
 class PMCEntry extends Marionette.View
+  templateContext: ->
+    local: @model.isLocal()
   template: tc.renderable (model) ->
-    tc.button '.show-info-btn.btn.btn-outline-warning.btn-sm', 'Info'
-    tc.text model.id
+    tc.text "PMCID: PMC#{model.id} "
+    if not model.local
+      btnClass = '.btn.btn-outline-warning.btn-sm'
+      tc.button ".show-info-btn#{btnClass}.fa.fa-download", ->
+        ' Download Front Matter'
     tc.div '.content'
   ui:
     showInfoBtn: '.show-info-btn'
     content: '.content'
   regions:
     content: '@ui.content'
+  childViewEvents:
+    'model:destroyed': 'onModelDestroyed'
   onRender: ->
-    if @model.get("OAI-PMH")
-      view = new PMCFrontMatter
-        model: @model
-      @showChildView 'content', view
+    content = @model.get 'content'
+    key = "OAI-PMH"
+    if content?
+      if key in _.keys content
+        view = new PMCFrontMatter
+          model: @model
+        @showChildView 'content', view
   events:
     'click @ui.showInfoBtn': 'showInfoBtnClicked'
+  onModelDestroyed: ->
+    @getRegion('content').empty()
+    
   showInfoBtnClicked: ->
-    if @getRegion('content').hasView()
-      console.log "view in region"
-    else
+    if not @getRegion('content').hasView()
+      @model = AppChannel.request 'make-remote-model', Number @model.get('id')
       response = @model.fetch()
-      response.done =>
-        id = @model.get('id')
-        content = JSON.stringify @model.toJSON()
+      thisView = @
+      thisModel = @model
+      response.done ->
+        id = thisModel.get('id')
+        content = thisModel.get('content')
         lpromise = AppChannel.request 'save-fm-content', id, content
-        console.log "lpromise", lpromise
-        lpromise.then =>
+        #console.log "lpromise", lpromise
+        lpromise.then ->
           collection = AppChannel.request 'get-fm-collection'
           cresponse = collection.fetch()
-          cresponse.done =>
-            lmodel = collection.get id  
+          cresponse.done ->
+            lmodel = collection.get id
             view = new PMCFrontMatter
-              model: new Backbone.Model lmodel.getContent()
-            @showChildView 'content', view
-      
+              model: lmodel
+            thisView.showChildView 'content', view
+            thisView.ui.showInfoBtn.hide()
 class TopicView extends Marionette.View
   tagName: 'li'
   className: 'list-group-item'
   template: tc.renderable (model) ->
-    tc.button '.show-btn.btn.btn-outline-warning.btn-sm', 'Show Papers'
-    tc.text "    #{model.name}"
+    tc.h3 model.name
     tc.div '.papers'
   ui:
     showBtn: '.show-btn'
@@ -98,72 +136,63 @@ class TopicView extends Marionette.View
     papers: '@ui.papers'
   events:
     'click @ui.showBtn': 'showBtnClicked'
-  showBtnClicked: ->
-    if @getRegion('papers').hasView()
-      console.log "view in region"
-    else
+  onRender: ->
+    if not @getRegion('papers').hasView()
       pmcModels = new Backbone.Collection []
       fmCollection = AppChannel.request 'get-fm-collection'
-      response = fmCollection.fetch()
-      response.done =>
-        @model.get('pmc_ids').forEach (pmcid) ->
-          lmodel = fmCollection.get pmcid
-          if lmodel?
-            console.log "lmodel", lmodel
-            model = new Backbone.Model lmodel.getContent()
-          else
-            model = AppChannel.request 'make-remote-model', pmcid
-          console.log "PMCMODEL #{pmcid}", model
-          pmcModels.add model
-        console.log "fmCollection", fmCollection
-        view = new Marionette.CollectionView
-          collection: pmcModels
-          childView: PMCEntry
-        @showChildView 'papers', view
+      @model.get('pmc_ids').forEach (pmcid) ->
+        local = false
+        lmodel = fmCollection.get pmcid
+        if lmodel?
+          model = lmodel
+          local = true
+        else
+          model = AppChannel.request 'make-remote-model', pmcid
+        model.isLocal = ->
+          return local
+        pmcModels.add model
+      view = new Marionette.CollectionView
+        collection: pmcModels
+        childView: PMCEntry
+      @showChildView 'papers', view
     
     
 class MainView extends Marionette.View
-  initialize: ->
-    @collection = new Backbone.Collection
-    topics = @model.get 'topics'
-    for topic of topics
-      if topics[topic].pmc_ids.length
-        @collection.add topics[topic]
-        
   template: tc.renderable (model) ->
     tc.div '.jsonview'
-    tc.ul '.topics.list-group'
-
-  templateOrig: tc.renderable (model) ->
-    tc.div '.jsonview'
-    tc.div '.topics'
-    for t of model.topics
-      data = model.topics[t]
-      if data.pmc_ids.length
-        tc.div '.list-group', data:name:data.name, ->
-          tc.text data.name
-          for id in data.pmc_ids
-            tc.div '.list-group-item', data:id:id, id
-            
+    tc.div '.input-group', ->
+      tc.div '.input-group-prepend', ->
+        tc.button '.input-group-text.btn.btn-outline-warning',
+        for:'select-topic', "Topic"
+      tc.select '#select-topic.custom-select', ->
+        tc.option value:'', selected:'', "(no topic)"
+        for name of model.topics
+          if model.topics[name].pmc_ids.length
+            tc.option value:name, name
+    tc.div '.content'
   ui:
     jsonView: '.jsonview'
-    topics: '.topics'
+    option: 'option'
+    select: 'select'
+    content: '.content'
   regions:
-    topics: '@ui.topics'
-  onRender: ->
-    view = new Marionette.CollectionView
-      collection: @collection
-      childView: TopicView
-    @showChildView 'topics', view
-  itemClicked: (event) ->
-    e = $(event.target)
-    id = e.attr('data-id')
-    model = new PMCModel
-      id: id
-    response = model.fetch()
-    response.done =>
-      obj = model.toJSON()
-      @jsonView = new JView obj
-      @ui.jsonView.prepend @jsonView.dom
-
+    content: '@ui.content'
+  events:
+    'change @ui.select': 'selectChanged'
+  selectChanged: (event) ->
+    value = $(event.target).val()
+    region = @getRegion('content')
+    if not value
+      region.empty()
+    else
+      console.log "value", value, @model
+      tdata = @model.get('topics')[value]
+      fmCollection = AppChannel.request 'get-fm-collection'
+      response = fmCollection.fetch()
+      response.done ->
+        view = new TopicView
+          model: new Backbone.Model tdata
+        region.show view
+      
+      
 export default MainView
