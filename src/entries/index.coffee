@@ -12,8 +12,6 @@ import indexModels from 'common/index-models'
 
 import './base'
 
-import ebcsvSchema from '../applets/ebcsv/dbschema'
-import bumblrSchema from '../applets/bumblr/dbschema'
 import tvmazeSchema from '../applets/tvmaze/dbschema'
 import pmcSchema from 'applets/pmc/dbschema'
 
@@ -46,8 +44,6 @@ app.on 'start', ->
 
 
 schemas =
-  ebcsv: ebcsvSchema
-  bumblr: bumblrSchema
   tvmaze: tvmazeSchema
   pmc: pmcSchema
   

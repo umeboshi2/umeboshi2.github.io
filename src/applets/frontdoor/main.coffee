@@ -21,10 +21,6 @@ appletEntries = [
     url: "#tvmaze"
     icon: '.fa.fa-television'
   },{
-    label: "bumblr"
-    url: "#bumblr"
-    icon: '.fa.fa-photo'
-  },{
     label: "Internet Archive"
     url: "#netark"
     icon: '.fa.fa-wrench'
@@ -37,6 +33,10 @@ if __DEV__
     label: "workshop"
     url: "#workshop"
     icon: '.fa.fa-wrench'
+  appletEntries.push
+    label: "bumblr"
+    url: "#bumblr"
+    icon: '.fa.fa-photo'
   
 class Router extends Marionette.AppRouter
   appRoutes:
