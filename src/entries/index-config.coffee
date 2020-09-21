@@ -18,7 +18,7 @@ config.navbarEntries = [
   },{
     label: "PMC"
     url: "#pmc"
-    icon: '.fa.fa-ambulance'
+    icon: '.fa.fa-book'
   }
   #misc_menu
   ]
