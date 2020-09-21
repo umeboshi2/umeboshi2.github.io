@@ -17,6 +17,10 @@ appletMenu = [
     label: 'Main'
     url: '#pmc'
     icon: '.fa.fa-star'
+  },{
+    label: 'Site Topics'
+    url: '#pmc/topics/site'
+    icon: '.fa.fa-sitemap'
   }
   ]
 
@@ -24,6 +28,7 @@ class Router extends AppRouter
   channelName: appName
   appRoutes:
     'pmc': 'viewIndex'
+    'pmc/topics/site': 'viewSiteTopics'
     
 class Applet extends TkApplet
   Controller: Controller

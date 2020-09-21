@@ -25,6 +25,16 @@ class Controller extends MainController
       @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-index'
+
+  viewSiteTopics: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/sitetopics').default
+      view = new View
+        model: indexModels.eventIndex
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'pmc-view-sitetipics'
       
 export default Controller
 
