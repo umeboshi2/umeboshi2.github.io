@@ -210,3 +210,11 @@ events:
     journal: European radiology
     title: "Outbreak of novel coronavirus (COVID-19): What is the role of radiologists?"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7087878/
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Biology of sex differences
+    title: "Sex differences in severity and mortality from COVID-19: are males more vulnerable?"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498997/
+    
+    
