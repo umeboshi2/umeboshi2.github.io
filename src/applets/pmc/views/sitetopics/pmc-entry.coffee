@@ -89,7 +89,8 @@ class PMCFrontMatter extends Marionette.View
 
 class PMCEntry extends Marionette.View
   templateContext: ->
-    local: @model.isLocal()
+    #local: @model.isLocal()
+    local: @model.hasOAIcontent()
   template: tc.renderable (model) ->
     tc.text "PMCID: PMC#{model.id} "
     if not model.local

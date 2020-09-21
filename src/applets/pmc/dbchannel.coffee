@@ -24,7 +24,10 @@ class FrontMatterModel extends Backbone.Model
     fmFields.forEach (field) =>
       data[field] = @get field
     return data
-
+  hasOAIcontent: ->
+    content = @get('content')
+    return _.has content, 'OAI-PMH'
+    
 class FrontMatterCollection extends Backbone.Collection
   loveStore: PMCFrontMatterStore
   model: FrontMatterModel
@@ -59,6 +62,9 @@ class RemoteModel extends Backbone.Model
     options = _.extend options || {},
       dataType: 'text'
     super options
+  hasOAIcontent: ->
+    content = @get('content')
+    return _.has content, 'OAI-PMH'
 
 AppChannel.reply 'make-remote-model', (id) ->
   return new RemoteModel id:id

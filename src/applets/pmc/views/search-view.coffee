@@ -5,54 +5,86 @@ import $ from 'jquery'
 import _ from 'underscore'
 
 import indexModels from 'common/index-models'
-
-import PMCEntry from './pmc-entry'
+import SearchInput from 'common/search-input'
+import PMCFrontMatter from './pmc-front-matter'
 
 AppChannel = Backbone.Radio.channel 'pmc'
 
-class MainView extends Marionette.View
+class SimpleEntry extends Marionette.View
   template: tc.renderable (model) ->
-    tc.div '.input-group', ->
-      tc.div '.input-group-prepend', ->
-        tc.button '.input-group-text.btn.btn-outline-warning',
-        for:'search-pmc', "Search"
-      tc.input '#search-pmc.form-control', type:'text',
-      placeholder:'Enter search term'
+    tc.text "PMCID: PMC#{model.id} "
+    if not model?.content
+      btnClass = '.btn.btn-outline-warning.btn-sm'
+      tc.button ".dl-btn#{btnClass}.fa.fa-download", ->
+        ' Download Front Matter'
     tc.div '.content'
   ui:
+    content: '.content'
+    button: '.dl-btn'
+  regions:
+    content: '@ui.content'
+    searchInput: '@ui.searchInput'
+  events:
+    'click @ui.button': 'buttonClicked'
+  buttonClicked: ->
+    thisView = @
+    remoteModel = @model
+    if not remoteModel.get('content')
+      response = remoteModel.fetch()
+      response.done ->
+        id = Number remoteModel.get('id')
+        content = remoteModel.get('content')
+        lpromise = AppChannel.request 'save-fm-content', id, content
+        lpromise.then ->
+          collection = AppChannel.request 'get-fm-collection'
+          cresponse = collection.fetch()
+          cresponse.done ->
+            lmodel = collection.get id
+            view = new PMCFrontMatter
+              model: lmodel
+            thisView.showChildView 'content', view
+            thisView.ui.button.hide()
+        
+        
+      
+
+class MainView extends Marionette.View
+  template: tc.renderable (model) ->
+    tc.div '.search-input'
+    tc.div '.content'
+  ui:
+    searchInput: '.search-input'
     content: '.content'
     button: 'button'
     input: 'input'
   regions:
     content: '@ui.content'
-  events:
-    'click @ui.button': 'buttonClicked'
-  buttonClicked: ->
-    term = @ui.input.val()
-    console.log 'buttonClicked', term
+    searchInput: '@ui.searchInput'
+  childViewEvents:
+    'search:clicked': 'searchClicked'
+  onRender: ->
+    @showChildView 'searchInput', new SearchInput
+  searchClicked: (options) ->
+    @searchTerm options.term
+  searchTerm: (term) ->
+    console.log 'searchTerm', term
     model = AppChannel.request 'make-search-model', term
     response = model.fetch()
     response.done =>
       pmcModels = new Backbone.Collection []
       fmCollection = AppChannel.request 'get-fm-collection'
-      console.log "model", model
       res = model.get 'eSearchResult'
       ids = _.map res.IdList.Id, Number
-      console.log "IDS", ids
       ids.forEach (pmcid) ->
-        local = false
         lmodel = fmCollection.get pmcid
         if lmodel?
           model = lmodel
-          local = true
         else
           model = AppChannel.request 'make-remote-model', pmcid
-        model.isLocal = ->
-          return local
         pmcModels.add model
       view = new Marionette.CollectionView
         collection: pmcModels
-        childView: PMCEntry
+        childView: SimpleEntry
       @showChildView 'content', view
     
 export default MainView

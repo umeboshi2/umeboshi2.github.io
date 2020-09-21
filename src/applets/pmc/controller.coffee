@@ -36,5 +36,15 @@ class Controller extends MainController
     # name the chunk
     , 'pmc-view-sitetipics'
       
+  viewSearchPMC: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/search-view').default
+      view = new View
+        model: indexModels.eventIndex
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'pmc-view-search-pmc'
+      
 export default Controller
 

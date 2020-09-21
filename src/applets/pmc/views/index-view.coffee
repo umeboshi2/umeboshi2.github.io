@@ -5,14 +5,26 @@ import $ from 'jquery'
 import _ from 'underscore'
 
 import indexModels from 'common/index-models'
+import PMCFrontMatter from './pmc-front-matter'
 
 AppChannel = Backbone.Radio.channel 'pmc'
 
 class SimpleEntry extends Marionette.View
+  templateContext: ->
+    hasOAIcontent: @model.hasOAIcontent()
   template: tc.renderable (model) ->
-    tc.div model.id
+    if not model.hasOAIcontent
+      tc.div model.id
     tc.div '.content'
-  
+  ui:
+    content: '.content'
+  regions:
+    content: '@ui.content'
+  onRender: ->
+    if @model.hasOAIcontent()
+      view = new PMCFrontMatter
+        model: @model
+      @showChildView 'content', view
     
 class MainView extends Marionette.View
   template: tc.renderable (model) ->
