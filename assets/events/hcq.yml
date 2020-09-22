@@ -162,3 +162,9 @@ events:
     extra:
       - name: Complaint (PDF)
         link: https://aapsonline.org/judicial/aaps-v-fda-hcq-6-2-2020.pdf 
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Travel medicine and infectious disease
+    title: Dangers of the Use of hydroxychloroquine and azithromycin combination in COVID-19 patients
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499090/

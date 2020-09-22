@@ -302,3 +302,22 @@ events:
     journal: World journal of urology
     title: Preliminary assessment of patient and physician satisfaction with the use of teleconsultation in urology during the COVID-19 pandemic
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7480659/
+  - start: 2020-08-17
+    topics:
+      - paper
+    journal: Proceedings of the National Academy of Sciences of the United States of America
+    title: The objectivity illusion and voter polarization in the 2016 presidential election
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7474588/
+  - start: 2020-09-17
+    topics:
+      - paper
+      - digital-identity
+    title: "IoT in medical & pharmaceutical: Designing lightweight RFID security protocols for ensuring supply chain integrity"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7497782/
+  - start: 2018-12-01
+    topics:
+      - paper
+      - digital-identity
+    journal: Sensors
+    title: "Identity Management Systems for the Internet of Things: A Survey Towards Blockchain Solutions"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308926/
