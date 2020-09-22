@@ -18,7 +18,9 @@ data is.
 
 # Resources for Mississippi
 
-[Developer Resources](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/)
+[OAI-PMH](https://www.ncbi.nlm.nih.gov/pmc/tools/oai/) is one of the
+[PMC API Services](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/)
+that helps retrieve front matter from PMC articles.
 
 [State Executive Orders](https://www.sos.ms.gov/content/executiveorders/) don't
 even exist unless they are published here first.

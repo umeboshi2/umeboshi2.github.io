@@ -13,6 +13,8 @@
 
 [Manage Cookies](chrome://settings/siteData)
 
+[Using the Mozilla JavaScript interface to XSL Transformations](https://developer.mozilla.org/en-US/docs/Web/XSLT/Using_the_Mozilla_JavaScript_interface_to_XSL_Transformations#transformToDocument)
+
 [Cabbage Fact Check](https://factcheck.afp.com/who-did-not-warn-against-eating-cabbage-during-covid-19-pandemic)
 
 [COVI-PASS](https://covipass.com)
