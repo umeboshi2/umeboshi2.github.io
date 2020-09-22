@@ -42,11 +42,11 @@ class MainView extends Marionette.View
     collection = AppChannel.request 'make-fm-pageable'
     response = collection.fetch()
     response.done =>
+      pbar = new PaginateBar
+        collection: collection
+      @showChildView 'paginateBar', pbar
       view = new Marionette.CollectionView
         collection: collection
         childView: SimpleEntry
       @showChildView 'content', view
-      pbar = new PaginateBar
-        collection: collection
-      @showChildView 'paginateBar', pbar
 export default MainView
