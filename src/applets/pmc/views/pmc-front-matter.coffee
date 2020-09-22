@@ -13,7 +13,10 @@ AppChannel = Backbone.Radio.channel 'pmc'
 
 class PMCFrontMatter extends Marionette.View
   behaviors: [HasJsonView]
+  templateContext: ->
+    articleMeta: @model.getFront()['article-meta']
   template: tc.renderable (model) ->
+    meta = model.articleMeta
     content = parseRecord model
     href = makePMCurl(model.id)
     tc.div '.card', ->
@@ -25,8 +28,16 @@ class PMCFrontMatter extends Marionette.View
           tc.a '.small', href:makeDOIurl(content.doi), target:'_blank', ->
             tc.text " (doi:#{content.doi})"
         tc.button '.destroy-btn.btn.btn-outline-danger.btn-sm', 'Delete'
-        if content?.abstract
-          tc.p '.card-text.small', content.abstract
+        if meta?.abstract
+          abstract = meta.abstract
+          tc.div '.card-text', "Abstract"
+          if abstract?.sec
+            for item in meta.abstract.sec
+              tc.h6 '.card-text.small', item.title
+              tc.p '.card-text.small', item.p
+          else
+            tc.div '.card-text.small', abstract?.p
+          tc.div '.abstract-container'
       tc.div '.jsonview'
   ui:
     pmcAnchor: '.pmc-anchor'

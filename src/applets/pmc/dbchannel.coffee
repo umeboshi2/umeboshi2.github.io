@@ -27,6 +27,17 @@ class FrontMatterModel extends Backbone.Model
   hasOAIcontent: ->
     content = @get('content')
     return _.has content, 'OAI-PMH'
+  getPMH: ->
+    content = @get('content')
+    return content['OAI-PMH']
+  getFront: ->
+    pmh = @getPMH()
+    if pmh?.error
+      #throw error:"error in record"
+      console.log "ERROR IN", @id
+      return {}
+    return pmh.GetRecord.record.metadata.article.front
+    
     
 class FrontMatterCollection extends Backbone.Collection
   loveStore: PMCFrontMatterStore
