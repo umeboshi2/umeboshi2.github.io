@@ -46,4 +46,10 @@ events:
     journal: Breathborne Biomarkers and the Human Volatilome
     title: Breath analysis for respiratory infections
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499076/
-    
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Irish journal of medical science
+    title: Optimal test pooling for efficient PCR testing of SARS-CoV2
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498742/
+

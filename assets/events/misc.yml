@@ -321,3 +321,17 @@ events:
     journal: Sensors
     title: "Identity Management Systems for the Internet of Things: A Survey Towards Blockchain Solutions"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6308926/
+  - start: 2020-09-17
+    topics:
+      - paper
+      - artificial-intelligence
+    journal: Journal of cheminformatics
+    title: "Molecular representations in AI-driven drug discovery: a review and practical guide"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7495975/
+  - start: 2020-09-17
+    topics:
+      - paper
+      - artificial-intelligence
+    journal: Scientific reports
+    title: Diagnosis of thyroid nodules on ultrasonography by a deep convolutional neural network
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498581/
