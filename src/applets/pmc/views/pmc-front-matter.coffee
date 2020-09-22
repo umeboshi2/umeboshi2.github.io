@@ -27,9 +27,11 @@ class PMCFrontMatter extends Marionette.View
         if content?.doi
           tc.a '.small', href:makeDOIurl(content.doi), target:'_blank', ->
             tc.text " (doi:#{content.doi})"
-        tc.button '.destroy-btn.btn.btn-outline-danger.btn-sm', 'Delete'
+        tc.span '.destroy-btn.badge.badge-danger', type:'button', 'Delete'
         if meta?.abstract
           abstract = meta.abstract
+          tc.span '.abstract-btn.badge.badge-dark', type:'button', ->
+            tc.text 'toggle abstract'
           tc.div '.abstract-card.card-text', style:'display: none;', ->
             tc.text "Abstract"
             if abstract?.sec
@@ -40,8 +42,6 @@ class PMCFrontMatter extends Marionette.View
               tc.div '.card-text.small', abstract?.p
         tc.div '.abstract-container'
         tc.div '.card-footer', ->
-          tc.span '.abstract-btn.badge.badge-dark', type:'button', ->
-            tc.text 'toggle abstract'
           tc.span '.topics-btn.badge.badge-dark', type:'button', 'assign topics'
       tc.div '.jsonview'
   ui:
