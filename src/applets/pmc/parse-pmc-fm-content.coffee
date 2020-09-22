@@ -18,10 +18,22 @@ makePMCurl = (id) ->
 makeDOIurl = (doi) ->
   prefix = "https://dx.doi.org/"
   return prefix + doi
-  
+
+# meta is 'article-meta'
+findAbstract = (meta) ->
+  content = "Not Found"
+  if _.has meta, 'abstract'
+    abstract = meta.abstract
+    if abstract?.p
+      content = abstract.p
+    if _.has abstract, 'sec'
+      if __DEV__
+        console.log "abstract", abstract
+  else
+    abstract = "Not Found"
+  return abstract
   
 parseRecord = (record) ->
-  console.log "RECORD", record
   pmh = record.content['OAI-PMH']
   if pmh?.error
     return {}
@@ -49,7 +61,7 @@ parseRecord = (record) ->
     if obj?['_pub-id-type'] == 'doi'
       doi = obj.__text
       content.doi = doi
-  content.abstract = meta.abstract?.p
+  content.abstract = findAbstract meta
   return content
 
 export default parseRecord

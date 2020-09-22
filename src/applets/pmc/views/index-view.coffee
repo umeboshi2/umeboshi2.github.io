@@ -4,6 +4,7 @@ import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
 
+import PaginateBar from 'tbirds/views/paginate-bar'
 import indexModels from 'common/index-models'
 import PMCFrontMatter from './pmc-front-matter'
 
@@ -28,19 +29,24 @@ class SimpleEntry extends Marionette.View
     
 class MainView extends Marionette.View
   template: tc.renderable (model) ->
+    tc.div '.paginate-bar'
     tc.h3 "Local PMC Papers"
     tc.div '.content'
   ui:
     content: '.content'
+    paginateBar: '.paginate-bar'
   regions:
     content: '@ui.content'
+    paginateBar: '@ui.paginateBar'
   onRender: ->
-    collection = AppChannel.request 'get-fm-collection'
+    collection = AppChannel.request 'make-fm-pageable'
     response = collection.fetch()
     response.done =>
       view = new Marionette.CollectionView
         collection: collection
         childView: SimpleEntry
       @showChildView 'content', view
-      
+      pbar = new PaginateBar
+        collection: collection
+      @showChildView 'paginateBar', pbar
 export default MainView

@@ -43,16 +43,25 @@ class FrontMatterCollection extends Backbone.Collection
   loveStore: PMCFrontMatterStore
   model: FrontMatterModel
 
+class FrontMatterPageable extends PageableCollection
+  loveStore: PMCFrontMatterStore
+  model: FrontMatterModel
+  mode: 'client'
+  
 fmCollection = new FrontMatterCollection
 
 AppChannel.reply 'get-fm-collection', ->
   return fmCollection
 
-oaiIdentifier = (id) ->
-  return "oai:pubmedcentral.nih.gov:#{id}"
+AppChannel.reply 'make-fm-pageable', ->
+  return new FrontMatterPageable
+  
+
 
 class RemoteModel extends Backbone.Model
   url: ->
+    oaiIdentifier = (id) ->
+      return "oai:pubmedcentral.nih.gov:#{id}"
     data =
       verb: 'GetRecord'
       identifier: oaiIdentifier @id
