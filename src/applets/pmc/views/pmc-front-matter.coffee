@@ -30,22 +30,32 @@ class PMCFrontMatter extends Marionette.View
         tc.button '.destroy-btn.btn.btn-outline-danger.btn-sm', 'Delete'
         if meta?.abstract
           abstract = meta.abstract
-          tc.div '.card-text', "Abstract"
-          if abstract?.sec
-            for item in meta.abstract.sec
-              tc.h6 '.card-text.small', item.title
-              tc.p '.card-text.small', item.p
-          else
-            tc.div '.card-text.small', abstract?.p
-          tc.div '.abstract-container'
+          tc.div '.abstract-card.card-text', style:'display: none;', ->
+            tc.text "Abstract"
+            if abstract?.sec
+              for item in meta.abstract.sec
+                tc.h6 '.card-text.small', item.title
+                tc.p '.card-text.small', item.p
+            else
+              tc.div '.card-text.small', abstract?.p
+        tc.div '.abstract-container'
+        tc.div '.card-footer', ->
+          tc.span '.abstract-btn.badge.badge-dark', type:'button', ->
+            tc.text 'toggle abstract'
+          tc.span '.topics-btn.badge.badge-dark', type:'button', 'assign topics'
       tc.div '.jsonview'
   ui:
     pmcAnchor: '.pmc-anchor'
     deleteBtn: '.destroy-btn'
     jsonView: '.jsonview'
+    abstractCard: '.abstract-card'
+    abstractBtn: '.abstract-btn'
+    topicsBtn: '.topics-btn'
   events:
     'click @ui.pmcAnchor': 'pmcAnchorClicked'
     'click @ui.deleteBtn': 'deleteBtnClicked'
+    'click @ui.abstractBtn': 'abstractBtnClicked'
+    'click @ui.topicsBtn': 'topicsBtnClicked'
   onRender: ->
     if not __DEV__
       @ui.jsonView.hide()
@@ -55,5 +65,7 @@ class PMCFrontMatter extends Marionette.View
     response = @model.destroy()
     response.done =>
       @trigger 'model:destroyed'
+  abstractBtnClicked: ->
+    @ui.abstractCard.toggle()
 
 export default PMCFrontMatter
