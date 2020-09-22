@@ -34,22 +34,16 @@ events:
       - news
     title: COVID19 PCR Tests are Scientifically Meaningless
     link: https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/
-    
-    
-    
-      
-    
-    
-    
-
-        
-    
-
-    
-    
-    
-
-    
-
-
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Gene technology
+    title: Strategies and Best Practice in Cloning Small RNAs
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7500658/
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Breathborne Biomarkers and the Human Volatilome
+    title: Breath analysis for respiratory infections
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499076/
     
