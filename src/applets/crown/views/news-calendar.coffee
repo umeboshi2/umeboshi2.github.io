@@ -13,11 +13,6 @@ import '@fullcalendar/daygrid/main.css'
 import '@fullcalendar/timegrid/main.css'
 import '@fullcalendar/list/main.css'
 
-import someEvents from '../../../../assets/events/hcq.yml'
-
-
-console.log "someEvents", someEvents
-
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
@@ -69,7 +64,7 @@ class CalendarView extends Marionette.View
         left: 'prevYear, nextYear'
         center: 'title'
         right: 'prev, next, dayGridMonth, timeGridWeek, timeGridDay'
-      events: someEvents
+      events: []
       eventClick: calEventClick
     @fullCalendar.render()
     
