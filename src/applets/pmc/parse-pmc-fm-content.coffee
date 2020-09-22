@@ -3,6 +3,7 @@ import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
+import { JSONPath } from 'jsonpath-plus'
 
 import indexModels from 'common/index-models'
 import HasJsonView from 'common/has-jsonview'
@@ -34,34 +35,21 @@ findAbstract = (meta) ->
   return abstract
   
 parseRecord = (record) ->
-  pmh = record.content['OAI-PMH']
+  pmh = JSONPath('*..OAI-PMH', record)[0]
   if pmh?.error
     return {}
-  record = pmh.GetRecord.record.metadata.article.front
-  content = {}
-  jmeta = record['journal-meta']
-  tprop = 'journal-title'
-  gprop = 'journal-title-group'
-  journal = "Not Found"
-  if gprop of jmeta
-    journal = jmeta[gprop][tprop]
-  else if tprop of jmeta
-    journal = jmeta[tprop]
-  content.journal = journal
-  meta = record['article-meta']
-  tnode = meta['title-group']['article-title']
-  title = "Not Found"
-  if tnode?.__text
-    title = tnode.__text
-  else
-    title = tnode
-  content.title = title
-  articleIds = meta['article-id']
-  articleIds.forEach (obj) ->
-    if obj?['_pub-id-type'] == 'doi'
-      doi = obj.__text
-      content.doi = doi
-  content.abstract = findAbstract meta
-  return content
+  journal = JSONPath('*..journal-title', pmh)[0]
+  tnode = JSONPath('*..article-title', pmh)[0]
+  title = if tnode?.__text then tnode.__text else tnode
+  articleIds = JSONPath('*..article-id[?(@["_pub-id-type"]=="doi")]', pmh)[0]
+  doi = articleIds?.__text
+  meta = JSONPath('*..article-meta', pmh)
+  abstract = findAbstract meta
+  return
+    journal: journal
+    title: title
+    doi: doi
+    abstract: abstract
+    
 
 export default parseRecord
