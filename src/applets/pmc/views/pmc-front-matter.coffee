@@ -3,6 +3,7 @@ import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
+import { JSONPath as jpath } from 'jsonpath-plus'
 
 import HasJsonView from 'common/has-jsonview'
 import parseRecord from '../parse-pmc-fm-content'
@@ -13,10 +14,8 @@ AppChannel = Backbone.Radio.channel 'pmc'
 
 class PMCFrontMatter extends Marionette.View
   behaviors: [HasJsonView]
-  templateContext: ->
-    articleMeta: @model.getFront()['article-meta']
   template: tc.renderable (model) ->
-    meta = model.articleMeta
+    meta = jpath('*..article-meta', model)[0]
     content = parseRecord model
     href = makePMCurl(model.id)
     tc.div '.card', ->
@@ -37,9 +36,19 @@ class PMCFrontMatter extends Marionette.View
             if abstract?.sec
               for item in meta.abstract.sec
                 tc.h6 '.card-text.small', item.title
-                tc.p '.card-text.small', item.p
+                ptext = if item.p?.__text then item.p.__text else item.p
+                tc.p '.card-text.small', ptext
             else
-              tc.div '.card-text.small', abstract?.p
+              ab = abstract
+              atext = if ab.p?.__text then ab.p.__text else ab.p
+              if not atext?.length
+                for item in ab
+                  ptext = item.p
+                  if item.p?.__text
+                    ptext = item.p.__text
+                  tc.p ptext
+              else
+                tc.div '.card-text.small', atext
         tc.div '.abstract-container'
         tc.div '.card-footer', ->
           tc.span '.topics-btn.badge.badge-dark', type:'button', 'assign topics'
