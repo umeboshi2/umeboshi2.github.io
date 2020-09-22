@@ -231,18 +231,21 @@ events:
   - start: 2015-03-24
     topics:
       - paper
+      - fetal-cells
     journal: Human vaccines & immunotherapeutics
     title: Characteristics and viral propagation properties of a new human diploid cell line, walvax-2, and its suitability as a candidate cell substrate for vaccine production
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4526020/
   - start: 2017-04-06
     topics:
       - paper
+      - fetal-cells
     journal: Cytotechnology
     title: "Potential neoplastic evolution of Vero cells: in vivo and in vitro characterization"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5595746/
   - start: 2014-11-28
     topics:
       - paper
+      - fetal-cells
     journal: Vaccine
     title: Human diploid MRC-5 cells exhibit several critical properties of human umbilical cord-derived mesenchymal stem cells
     link: https://pubmed.ncbi.nlm.nih.gov/25086263/
@@ -252,7 +255,19 @@ events:
   - start: 2014-02-28
     topics:
       - paper
+      - fetal-cells
     journal: Human vaccines & immunotherapeutics
     title: Comparative study of the immunogenicity in mice and monkeys of an inactivated CA16 vaccine made from a human diploid cell line
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4896597/
-    
+  - start: 2012-03-15
+    topics:
+      - paper
+    journal: "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America"
+    title: Increased Risk of Noninfluenza Respiratory Virus Infections Associated With Receipt of Inactivated Influenza Vaccine
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3404712/
+  - start: 2015-04-11
+    topics:
+      - paper
+    journal: "Journal of controlled release : official journal of the Controlled Release Society"
+    title: Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/

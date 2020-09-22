@@ -227,3 +227,78 @@ events:
       - news
     title: "Q-Anon: The rise of ‘restless evil’"
     link: https://www.brnow.org/opinions/editorial/q-anon-the-rise-of-restless-evil/
+  - start: 2020-09-10
+    topics:
+      - paper
+    journal: Translational behavioral medicine
+    title: COVID-19 conspiracy beliefs, health behaviors, and policy support
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499784/
+  - start: 2020-09-15
+    topics:
+      - paper
+      - hand-hygiene
+    journal: PLoS One
+    title: Evaluating approaches to designing effective Co-Created hand-hygiene interventions for children in India, Sierra Leone and the UK
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7491735/
+  - start: 2020-05-07
+    topics:
+      - paper
+      - fetal-cells
+    journal: Cell Stem Cell
+    title: GATA3 Mediates a Fast, Irreversible Commitment to BMP4-Driven Differentiation in Human Embryonic Stem Cells
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7487786/
+  - start: 2020-08-26
+    topics:
+      - paper
+    journal: The American journal of gastroenterology
+    title: "Absence of COVID-19 Infection in Patients Accessing IBD Unit at Humanitas, Milan: Implications for Postlockdown Measures"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499879/
+  - start: 2020-08-06
+    topics:
+      - paper
+    journal: The British journal of nutrition
+    title: "Selenium and viral infection: are there lessons for COVID-19?"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7503044/
+  - start: 2019-02-26
+    topics:
+      - paper
+      - disease
+    journal: Social science & medicine
+    title: "Where Culture Meets Genetics: Exploring Latina Immigrants’ Lay Beliefs of Disease Inheritance"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7505090/
+  - start: 2020-08-26
+    topics:
+      - paper
+      - fetal-cells
+    journal: World journal of stem cells
+    title: Stem cell therapy for Alzheimer's disease
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7477654/
+  - start: 2019-05-22
+    topics:
+      - paper
+    journal: Journal of applied statistics
+    title: A semiparametric marginalized zero-inflated model for analyzing healthcare utilization panel data with missingness
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7500577/
+  - start: 2020-09-19
+    topics:
+      - paper
+    journal: Journal of the American Chemical Society
+    title: A general strategy for engineering noncanonical amino acid dependent bacterial growth
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7501724/
+  - start: 2020-09-15
+    topics:
+      - paper
+    title: Static array of droplets and on-demand recovery for biological assays
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494362/
+  - start: 2020-06-25
+    topics:
+      - paper
+    journal: AIDS (London, England)
+    title: Disproportionate burden of coronavirus disease 2019 among racial minorities and those in congregate settings among a large cohort of people with HIV
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499878/
+  - start: 2020-09-09
+    topics:
+      - paper
+    journal: World journal of urology
+    title: Preliminary assessment of patient and physician satisfaction with the use of teleconsultation in urology during the COVID-19 pandemic
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7480659/

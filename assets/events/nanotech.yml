@@ -60,4 +60,77 @@ events:
     authors: Trevor Douglas & Mark Young
     title: Host–guest encapsulation of materials by assembled virus protein cages
     link: https://www.nature.com/articles/30211
-    
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Targeting Chronic Inflammatory Lung Diseases Using Advanced Drug Delivery Systems
+    title: Inhalable hybrid nanocarriers for respiratory disorders
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499343/
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Theory and Applications of Nonparenteral Nanomedicines. 2021
+    title: Challenges in nonparenteral nanomedicine therapy
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499062/
+  - start: 2020-09-18
+    topics:
+      - paper
+    journal: Electrochemistry communications
+    title: Electrochemical removal of anodic aluminium oxide templates for the production of phase-pure cuprous oxide nanorods for antimicrobial surfaces
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498412/
+  - start: 2020-09-17
+    topics:
+      - paper
+    journal: Composites Communications
+    title: A review of smart electrospun fibers toward textiles
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7497400/
+  - start: 2020-09-15
+    topics:
+      - paper
+      - quantum-dot
+    journal: ACS Omega
+    title: Highly Sensitive Fluorescence-Linked Immunosorbent Assay for the Determination of Human IgG in Serum Using Quantum Dot Nanobeads and Magnetic Fe3O4 Nanospheres
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7495760/
+  - start: 2019-12-30
+    topics:
+      - paper
+    journal: Asian journal of pharmaceutical sciences
+    title: Biointerface engineering nanoplatforms for cancer-targeted drug delivery
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7486517/
+  - start: 2020-05-20
+    topics:
+      - paper
+    journal: Journal of dental sciences
+    title: A four-year prospective study of self-assembling nano-modified dental implants in patients with type 2 diabetes mellitus
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7486501/
+  - start: 2020-08-26
+    topics:
+      - paper
+    journal: Beilstein journal of nanotechnology
+    title: An atomic force microscope integrated with a helium ion microscope for correlative nanoscale characterization
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7476598/
+  - start: 2020-09-02
+    topics:
+      - paper
+    journal: Beilstein journal of nanotechnology
+    title: Magnetohydrodynamic stagnation point on a Casson nanofluid flow over a radially stretching sheet
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7476597/
+  - start: 2020-09-01
+    topics:
+      - paper
+    journal: Beilstein journal of nanotechnology
+    title: "Growth of a self-assembled monolayer decoupled from the substrate: nucleation on-command using buffer layers"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7476593/
+  - start: 2020-09-04
+    topics:
+      - paper
+      - quantum-dot
+    journal: ACS applied materials & interfaces\
+    title: Magnetic Bead-Quantum Dot (MB-Qdot) Clustered Regularly Interspaced Short Palindromic Repeat Assay for Simple Viral DNA Detection
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7500431/
+  - start: 2020-08-04
+    topics:
+      - paper
+    journal: Nano letters
+    title: 3D Printing of Ordered Mesoporous Silica Complex Structures
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7496731/
