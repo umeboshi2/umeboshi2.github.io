@@ -27,7 +27,7 @@ findAbstract = (meta) ->
     if abstract?.p
       content = abstract.p
     if _.has abstract, 'sec'
-      if __DEV__
+      if __DEV__ and DEBUG
         console.log "abstract", abstract
   else
     abstract = "Not Found"

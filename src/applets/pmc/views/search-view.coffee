@@ -5,15 +5,17 @@ import $ from 'jquery'
 import _ from 'underscore'
 
 import indexModels from 'common/index-models'
-import SearchInput from 'common/search-input'
+import ButtonInput from 'common/button-input'
 import PMCFrontMatter from './pmc-front-matter'
 
 AppChannel = Backbone.Radio.channel 'pmc'
 
 class SimpleEntry extends Marionette.View
+  templateContext: ->
+    hasOAIcontent: @model.hasOAIcontent()
   template: tc.renderable (model) ->
     tc.text "PMCID: PMC#{model.id} "
-    if not model?.content
+    if not model.hasOAIcontent
       btnClass = '.btn.btn-outline-warning.btn-sm'
       tc.button ".dl-btn#{btnClass}.fa.fa-download", ->
         ' Download Front Matter'
@@ -23,7 +25,6 @@ class SimpleEntry extends Marionette.View
     button: '.dl-btn'
   regions:
     content: '@ui.content'
-    searchInput: '@ui.searchInput'
   events:
     'click @ui.button': 'buttonClicked'
   onRender: ->
@@ -66,11 +67,12 @@ class MainView extends Marionette.View
     content: '@ui.content'
     searchInput: '@ui.searchInput'
   childViewEvents:
-    'search:clicked': 'searchClicked'
+    'input:submit': 'searchClicked'
   onRender: ->
-    @showChildView 'searchInput', new SearchInput
+    view = new ButtonInput
+    @showChildView 'searchInput', view
   searchClicked: (options) ->
-    @searchTerm options.term
+    @searchTerm options.value
   searchTerm: (term) ->
     console.log 'searchTerm', term
     model = AppChannel.request 'make-search-model', term
@@ -83,6 +85,7 @@ class MainView extends Marionette.View
       ids.forEach (pmcid) ->
         lmodel = fmCollection.get pmcid
         if lmodel?
+          console.log "LOCAL model found", lmodel
           model = lmodel
         else
           model = AppChannel.request 'make-remote-model', pmcid

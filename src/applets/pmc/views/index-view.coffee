@@ -29,8 +29,8 @@ class SimpleEntry extends Marionette.View
     
 class MainView extends Marionette.View
   template: tc.renderable (model) ->
+    tc.h3 '.text-center', "Local PMC Papers"
     tc.div '.paginate-bar'
-    tc.h3 "Local PMC Papers"
     tc.div '.content'
   ui:
     content: '.content'
