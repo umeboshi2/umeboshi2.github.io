@@ -46,7 +46,7 @@ class PMCFrontMatter extends Marionette.View
                   ptext = item.p
                   if item.p?.__text
                     ptext = item.p.__text
-                  tc.p ptext
+                  tc.p '.card-text.small', ptext
               else
                 tc.div '.card-text.small', atext
         tc.div '.abstract-container'
