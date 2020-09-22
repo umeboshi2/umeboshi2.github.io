@@ -52,9 +52,7 @@ class PMCFrontMatter extends Marionette.View
   pmcAnchorClicked: (event) ->
     event.preventDefault()
   deleteBtnClicked: (event) ->
-    fmCollection = AppChannel.request 'get-fm-collection'
-    model = fmCollection.get @model.id
-    response = model.destroy()
+    response = @model.destroy()
     response.done =>
       @trigger 'model:destroyed'
 

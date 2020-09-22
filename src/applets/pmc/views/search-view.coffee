@@ -26,6 +26,11 @@ class SimpleEntry extends Marionette.View
     searchInput: '@ui.searchInput'
   events:
     'click @ui.button': 'buttonClicked'
+  onRender: ->
+    if @model.hasOAIcontent()
+      view = new PMCFrontMatter
+        model: @model
+      @showChildView 'content', view
   buttonClicked: ->
     thisView = @
     remoteModel = @model
@@ -40,11 +45,11 @@ class SimpleEntry extends Marionette.View
           cresponse = collection.fetch()
           cresponse.done ->
             lmodel = collection.get id
+            thisView.model = lmodel
             view = new PMCFrontMatter
               model: lmodel
             thisView.showChildView 'content', view
             thisView.ui.button.hide()
-        
         
       
 

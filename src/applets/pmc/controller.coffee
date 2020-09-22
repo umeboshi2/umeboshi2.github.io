@@ -20,12 +20,25 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       View = require('./views/index-view').default
+      collection = AppChannel.request 'get-fm-collection'
+      response = collection.fetch()
+      response.done =>
+        view = new View
+          model: indexModels.eventIndex
+        @layout.showChildView 'content', view
+    # name the chunk
+    , 'pmc-view-index'
+
+  manageTopics: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/manage-topics').default
       view = new View
         model: indexModels.eventIndex
       @layout.showChildView 'content', view
     # name the chunk
-    , 'pmc-view-index'
-
+    , 'pmc-view-sitetipics'
+      
   viewSiteTopics: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
@@ -40,9 +53,12 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       View = require('./views/search-view').default
-      view = new View
-        model: indexModels.eventIndex
-      @layout.showChildView 'content', view
+      collection = AppChannel.request 'get-fm-collection'
+      response = collection.fetch()
+      response.done =>
+        view = new View
+          model: indexModels.eventIndex
+        @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-search-pmc'
       

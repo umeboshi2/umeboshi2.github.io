@@ -22,7 +22,11 @@ appletMenu = [
     url: '#pmc/topics/site'
     icon: '.fa.fa-sitemap'
   },{
-    label: 'Search PMCe'
+    label: 'manageTopics'
+    url: '#pmc/topics/manage'
+    icon: '.fa.fa-sitemap'
+  },{
+    label: 'Search PMC'
     url: '#pmc/search/pmc'
     icon: '.fa.fa-sitemap'
   }
@@ -33,6 +37,7 @@ class Router extends AppRouter
   appRoutes:
     'pmc': 'viewIndex'
     'pmc/topics/site': 'viewSiteTopics'
+    'pmc/topics/manage': 'manageTopics'
     'pmc/search/pmc': 'viewSearchPMC'
     
 class Applet extends TkApplet
