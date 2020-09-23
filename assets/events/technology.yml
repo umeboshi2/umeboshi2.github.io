@@ -1,8 +1,9 @@
-topic: nanotech
+category: technology
 events:
   - start: 2016-07-25
     topics:
       - paper
+      - nanotech
     journal: Chem Soc Rev.
     authors: Amy M. Wena and Nicole F. Steinmetz
     title: Design of virus-based nanomaterials for medicine, biotechnology, and energy
@@ -10,6 +11,7 @@ events:
   - start: 2010-04-28
     topics:
       - paper
+      - nanotech
     journal: Nanomedicine
     authors: Nicole F. Steinmetz, Ph.D.
     title: Viral nanoparticles as platforms for next-generation therapeutics and imaging devices
@@ -17,6 +19,7 @@ events:
   - start: 2018-06-04
     topics:
       - paper
+      - nanotech
     journal: Biorxiv
     title: "Developing A Programmable, Self-Assembling Squash Leaf Curl China Virus (SLCCNV) Capsid Proteins Into “Nano-Cargo”-Like Architecture: A Next-Generation “Nanotool” For Biomedical Applications"
     link: https://www.biorxiv.org/content/10.1101/338269v1
@@ -26,12 +29,14 @@ events:
   - start: 2016-10-05
     topics:
       - paper
+      - nanotech
     journal: Arabian Journal of Chemistry
     title: Nanobiotechnology approach using plant rooting hormone synthesized silver nanoparticle as “nanobullets” for the dynamic applications in horticulture – An in vitro and ex vitro study
     link: https://www.sciencedirect.com/science/article/pii/S1878535216301666
   - start: 2018-07-20
     topics:
       - paper
+      - nanotech
     journal: Arabian Journal of Chemistry
     authors: Raja Muthuramalingam Thangavelu, Rajendran Ganapathy,
      Pandian Ramasamy, and Kathiravan Krishnan
@@ -40,12 +45,14 @@ events:
   - start: 2009-05-22
     topics:
       - paper
+      - nanotech
     pretext: (Subscriber only)
     title: Fabricating Genetically Engineered High-Power Lithium-Ion Batteries Using Multiple Virus Genes
     link: https://science.sciencemag.org/content/324/5930/1051
   - start: 2010-12-17
     topics:
       - paper
+      - nanotech
     journal: Molecular Pharmaceutics
     authors: Jonathan K. Pokorski and Nicole F. Steinmetz
     title: The Art of Engineering Viral Nanoparticles
@@ -56,6 +63,7 @@ events:
   - start: 1998-05-14
     topics:
       - paper
+      - nanotech
     journal: Nature
     authors: Trevor Douglas & Mark Young
     title: Host–guest encapsulation of materials by assembled virus protein cages
@@ -63,30 +71,35 @@ events:
   - start: 2020-09-18
     topics:
       - paper
+      - nanotech
     journal: Targeting Chronic Inflammatory Lung Diseases Using Advanced Drug Delivery Systems
     title: Inhalable hybrid nanocarriers for respiratory disorders
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499343/
   - start: 2020-09-18
     topics:
       - paper
+      - nanotech
     journal: Theory and Applications of Nonparenteral Nanomedicines. 2021
     title: Challenges in nonparenteral nanomedicine therapy
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499062/
   - start: 2020-09-18
     topics:
       - paper
+      - nanotech
     journal: Electrochemistry communications
     title: Electrochemical removal of anodic aluminium oxide templates for the production of phase-pure cuprous oxide nanorods for antimicrobial surfaces
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498412/
   - start: 2020-09-17
     topics:
       - paper
+      - nanotech
     journal: Composites Communications
     title: A review of smart electrospun fibers toward textiles
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7497400/
   - start: 2020-09-15
     topics:
       - paper
+      - nanotech
       - quantum-dot
     journal: ACS Omega
     title: Highly Sensitive Fluorescence-Linked Immunosorbent Assay for the Determination of Human IgG in Serum Using Quantum Dot Nanobeads and Magnetic Fe3O4 Nanospheres
@@ -94,36 +107,42 @@ events:
   - start: 2019-12-30
     topics:
       - paper
+      - nanotech
     journal: Asian journal of pharmaceutical sciences
     title: Biointerface engineering nanoplatforms for cancer-targeted drug delivery
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7486517/
   - start: 2020-05-20
     topics:
       - paper
+      - nanotech
     journal: Journal of dental sciences
     title: A four-year prospective study of self-assembling nano-modified dental implants in patients with type 2 diabetes mellitus
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7486501/
   - start: 2020-08-26
     topics:
       - paper
+      - nanotech
     journal: Beilstein journal of nanotechnology
     title: An atomic force microscope integrated with a helium ion microscope for correlative nanoscale characterization
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7476598/
   - start: 2020-09-02
     topics:
       - paper
+      - nanotech
     journal: Beilstein journal of nanotechnology
     title: Magnetohydrodynamic stagnation point on a Casson nanofluid flow over a radially stretching sheet
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7476597/
   - start: 2020-09-01
     topics:
       - paper
+      - nanotech
     journal: Beilstein journal of nanotechnology
     title: "Growth of a self-assembled monolayer decoupled from the substrate: nucleation on-command using buffer layers"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7476593/
   - start: 2020-09-04
     topics:
       - paper
+      - nanotech
       - quantum-dot
     journal: ACS applied materials & interfaces\
     title: Magnetic Bead-Quantum Dot (MB-Qdot) Clustered Regularly Interspaced Short Palindromic Repeat Assay for Simple Viral DNA Detection
@@ -131,6 +150,7 @@ events:
   - start: 2020-08-04
     topics:
       - paper
+      - nanotech
     journal: Nano letters
     title: 3D Printing of Ordered Mesoporous Silica Complex Structures
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7496731/
