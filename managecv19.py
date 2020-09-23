@@ -27,11 +27,13 @@ DOCTOC_CMD = ['doctoc', '-t', '**[Home](#pages/blog/cv19/index)**',
 cvdir = pathlib.Path('assets/documents/blog/cv19')
 events_dir = pathlib.Path('assets/events')
 
+PMC_URL_PREFIX = "https://www.ncbi.nlm.nih.gov/pmc/articles/"
+
 if not cvdir.is_dir():
     raise RuntimeError("Please run command from the root of the repo.")
 if not events_dir.is_dir():
     raise RuntimeError("Please run command from the root of the repo.")
-    
+
 
 def make_soup(filename):
     "read a markdown file and return soup"
@@ -97,6 +99,37 @@ def get_event_topics(parsed_yaml):
     main_data['topics'] = sorted(list(topic_set))
     return main_data
 
+def check_event_links(parsed_yaml):
+    topic = parsed_yaml['topic']
+    events = parsed_yaml['events']
+    for e in events:
+        link = e['link']
+        if link.endswith(')'):
+            raise RuntimeError("Bad link for {}: {}".format(topic, link))
+        if 'extra' in e:
+            for ex in e['extra']:
+                link = ex['link']
+                if link.endswith(')'):
+                    raise RuntimeError(
+                        "extra Bad link for {}: {}".format(topic, link))
+
+
+def get_pmc_ids(parsed_yaml):
+    pmc_ids = set()
+    events = parsed_yaml['events']
+    for e in events:
+        link = e['link']
+        if '/pmc/' in link:
+            if not link.startswith(PMC_URL_PREFIX):
+                raise RuntimeError("Bad pmc url {}".format(link))
+            dirname = os.path.dirname(link)
+            basename = os.path.basename(dirname)
+            if not basename.startswith('PMC'):
+                raise RuntimeError("problem with {}".format(link))
+            id = int(basename[3:])
+            pmc_ids.add(id)
+    return sorted(list(pmc_ids))
+
 
 def generate_topic_database(yaml_files):
     yaml_files = sorted(yaml_files)
@@ -107,11 +140,13 @@ def generate_topic_database(yaml_files):
         if not node.name.endswith('.yml'):
             raise RuntimeError("Need yaml file")
         parsed = yaml.safe_load(open(node))
+        check_event_links(parsed)
         topic = parsed['topic']
         if topic in tdict:
             raise RuntimeError("Topic {} already exists.".format(topic))
         tdict[topic] = dict(filename=node.name[:-4], name=topic)
         tdict[topic]['topics'] = get_event_topics(parsed)['topics']
+        tdict[topic]['pmc_ids'] = get_pmc_ids(parsed)
     subtopic_dict = collections.defaultdict(list)
     for topic in sorted(tdict.keys()):
         sublist = sorted(tdict[topic]['topics'])
@@ -120,13 +155,15 @@ def generate_topic_database(yaml_files):
     main_data['subtopics'] = subtopic_dict
     return main_data
 
+
 def generate_pagelink_database(md_files):
     cvcontent = dict()
     all_links = dict()
     page_data = dict()
     for filename in md_files:
         cvcontent[filename] = make_soup(filename)
-        all_links[filename] = get_html_links(cvcontent[filename])
+        links = get_html_links(cvcontent[filename])
+        all_links[filename] = links
         key = key_from_filename(filename)
         page_data[key] = all_links[filename]
 
@@ -139,7 +176,7 @@ def generate_pagelink_database(md_files):
     return jdata
 
 
-subprocess.run(DOCTOC_CMD)
+# subprocess.run(DOCTOC_CMD)
 
 cvnodes = list(cvdir.glob('**/*'))
 cvfiles = [n for n in cvnodes if n.is_file()]
