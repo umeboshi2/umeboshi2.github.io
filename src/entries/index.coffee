@@ -12,6 +12,7 @@ import indexModels from 'common/index-models'
 
 import './base'
 
+import commonSchema from 'common/dbschema'
 import tvmazeSchema from '../applets/tvmaze/dbschema'
 import pmcSchema from 'applets/pmc/dbschema'
 
@@ -44,6 +45,7 @@ app.on 'start', ->
 
 
 schemas =
+  common: commonSchema
   tvmaze: tvmazeSchema
   pmc: pmcSchema
   

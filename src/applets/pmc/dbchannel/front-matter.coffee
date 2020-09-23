@@ -11,9 +11,9 @@ import indexModels from 'common/index-models'
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'pmc'
 
-dbConn = MainChannel.request 'main:app:dbConn', 'pmc'
+dbConn = MainChannel.request 'main:app:dbConn', 'common'
 
-PMCFrontMatterStore = new LoveStore dbConn, 'FrontMatter'
+PMCFrontMatterStore = new LoveStore dbConn, 'PMCFrontMatter'
 
 fmFields = ['id', 'content']
 
@@ -43,7 +43,7 @@ export class FrontMatterCollection extends Backbone.Collection
   loveStore: PMCFrontMatterStore
   model: FrontMatterModel
 
-class FrontMatterPageable extends PageableCollection
+export class FrontMatterPageable extends PageableCollection
   loveStore: PMCFrontMatterStore
   model: FrontMatterModel
   mode: 'client'
@@ -58,7 +58,7 @@ AppChannel.reply 'make-fm-pageable', ->
   
 
 
-class RemoteModel extends Backbone.Model
+export class RemoteModel extends Backbone.Model
   url: ->
     oaiIdentifier = (id) ->
       return "oai:pubmedcentral.nih.gov:#{id}"

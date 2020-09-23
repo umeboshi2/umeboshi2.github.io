@@ -13,10 +13,10 @@ eventIndex = indexModels.eventIndex
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'pmc'
 
-dbConn = MainChannel.request 'main:app:dbConn', 'pmc'
+dbConn = MainChannel.request 'main:app:dbConn', 'common'
 
 TopicsStore = new LoveStore dbConn, 'Topics'
-FMTopicsStore = new LoveStore dbConn, 'FMTopics'
+FMTopicsStore = new LoveStore dbConn, 'PMCFMTopics'
 
 TopicFields = ['id', 'name']
 class TopicModel extends Backbone.Model
@@ -44,7 +44,7 @@ AppChannel.reply 'make-topic-pageable', ->
 
 topicResponse = topicCollection.fetch()
 topicResponse.done ->
-  topics = eventIndex.get 'topics'
+  topics = eventIndex.get 'subtopics'
   tlist = _.keys topics
   tlist.forEach (topic) ->
     tmodel = topicCollection.find name:topic
