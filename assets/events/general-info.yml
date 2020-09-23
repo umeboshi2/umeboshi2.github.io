@@ -1,5 +1,4 @@
 topic: general
-eventType: papers
 events:
   - start: 2020-01-21
     topics:
@@ -178,7 +177,7 @@ events:
     topics:
       - paper
       - masks
-    journal: Journal of general internal medicine
+    journal: Journal of General Internal Medicine
     authors: Monica Gandhi, MD, MPH,corresponding author Chris Beyrer, MD, MPH, and Eric Goosby, MD
     title: "Masks Do More Than Protect Others During COVID-19: Reducing the Inoculum of SARS-CoV-2 to Protect the Wearer"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7393808/
@@ -213,8 +212,43 @@ events:
   - start: 2020-09-18
     topics:
       - paper
-    journal: Biology of sex differences
+    journal: Biology of Sex Differences
     title: "Sex differences in severity and mortality from COVID-19: are males more vulnerable?"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498997/
-    
-    
+  - start: 2020-09-20
+    topics:
+      - paper
+      - masks
+    journal: Nano Energy
+    title: Design of a self-powered triboelectric face mask
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7502259/
+  - start: 2020-09-21
+    topics:
+      - paper
+    journal: Social Science & Medicine.
+    title: Conspiracy theories as barriers to controlling the spread of COVID-19 in the U.S.
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7502362/
+  - start: 2020-09-17
+    topics:
+      - paper
+    journal: Postdigital Science and Education
+    title: "The Covid-19 World: Learning or Downfall"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494431/
+  - start: 2020-09-17
+    topics:
+      - paper
+    journal: Personal and Ubiquitous Computing
+    title: "Passive Wi-Fi monitoring in the wild: a long-term study across multiple location typologies"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7495138/
+  - start: 2019-01-28
+    topics:
+      - paper
+    journal: Bulletin of the World Health Organization
+    title: Immunization programmes and notifications of vital events
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6438247/
+  - start: 2020-08-28
+    topics:
+      - paper
+    journal: The Journal of Infection
+    title: SARS-CoV-2 IgG and IgA antibody response is gender dependent; and IgG antibodies rapidly decline early on
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7445467/
