@@ -1080,3 +1080,23 @@ events:
     journal: "Journal of controlled release : official journal of the Controlled Release Society"
     title: Cationic liposome-hyaluronic acid hybrid nanoparticles for intranasal vaccination with subunit antigens
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4430437/
+  - start: 2001-06-22
+    end: 2001-06-23
+    topics:
+      - exercise
+    title: Operation Dark Winter
+    link: https://en.wikipedia.org/wiki/Operation_Dark_Winter
+  - start: 2019-01-01
+    end: 2019-08-30
+    topics:
+      - exercise
+    title: Crimson Contagion
+    link: https://en.wikipedia.org/wiki/Crimson_Contagion
+  - start: 2005-01-14
+    topics:
+      - exercise
+    title: Atlantic Storm
+    link: https://en.wikipedia.org/wiki/Atlantic_Storm
+    
+    
+    
