@@ -47,7 +47,7 @@ class MainView extends Marionette.View
     @showEventList()
   showTimeline: ->
     require.ensure [], () =>
-      View = require('./event-timeline-viewer').default
+      View = require('./timeline').default
       view = new View
         model: @model
       @showChildView 'content', view
@@ -56,7 +56,7 @@ class MainView extends Marionette.View
 
   showCalendar: ->
     require.ensure [], () =>
-      View = require('./event-year-calendar').default
+      View = require('./year-calendar').default
       view = new View
         model: @model
       @showChildView 'content', view
@@ -65,7 +65,7 @@ class MainView extends Marionette.View
 
   showEventList: ->
     require.ensure [], () =>
-      View = require('./event-full-list').default
+      View = require('./full-list').default
       view = new View
         model: @model
       @showChildView 'content', view

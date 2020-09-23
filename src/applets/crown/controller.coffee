@@ -72,7 +72,7 @@ class Controller extends MainController
   viewEvents: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require('./views/main-event-viewer').default
+      View = require('./views/events').default
       view = new View
         model: eventIndex
       @layout.showChildView 'content', view

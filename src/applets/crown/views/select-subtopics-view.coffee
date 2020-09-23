@@ -3,7 +3,7 @@ import Marionette from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 
-import TopicEntryView from './topic-entry-view'
+import TopicEntryView from './events/topic-entry-view'
 import BaseModalView from 'common/base-modal-view'
 
 MainChannel = Backbone.Radio.channel 'global'
