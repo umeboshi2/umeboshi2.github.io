@@ -72,7 +72,7 @@ Coronavirus Disease 2019 (COVID-19)"
 
 [We Thought It Was Just a Respiratory Virus](https://www.ucsf.edu/magazine/covid-body)
 
-<div class="link-view" data-title="Research Papers"  data-events="general-info"></div>
+<div class="link-view" data-title="Research Papers"  data-events="medicine"></div>
 
 ## [Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
 

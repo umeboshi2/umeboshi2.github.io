@@ -20,5 +20,5 @@
 [The Social Distancing Law Assessment Template](https://www.cdc.gov/phlp/publications/social_distancing.html)
 
 
-<div class="link-view" data-title="News Articles"  data-events="social-distance"></div>
+<div class="link-view" data-title="News Articles"  data-events="medicine" data-topics="social-distance"></div>
 

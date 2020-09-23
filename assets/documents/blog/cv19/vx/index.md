@@ -2,9 +2,9 @@
 
 
 
-<div class="link-view" data-title="Vaccine Trials"  data-events="vx-news" data-topics="trials"></div>
-<div class="link-view" data-title="Local Vaccine Trials"  data-events="vx-news" data-topics="trials,local"></div>
-<div class="link-view" data-title="Vaccine Liability"  data-events="vx-news" data-topics="liability"></div>
+<div class="link-view" data-title="Vaccine Trials"  data-events="medicine" data-topics="vaccination,trials"></div>
+<div class="link-view" data-title="Local Vaccine Trials"  data-events="medicine" data-topics="vaccination,trials,local"></div>
+<div class="link-view" data-title="Vaccine Liability"  data-events="medicine" data-topics="vaccination,liability"></div>
 
 
 [mRNA-1273 Approval Status](https://www.drugs.com/history/mrna-1273.html)
@@ -50,5 +50,5 @@ alternative" to a vaccine.
 **watch this**
 [Disease outbreak news for Poliomyelitis](https://www.who.int/csr/don/archive/disease/poliomyelitis/en/?fbclid=IwAR1klOKiOPc0mGuOxOy7NkY6mI7dKy5174o6P94RVNvSnzvZAEcS-qZpGxY)
 
-<div class="link-view" data-title="Full Timeline"  data-events="vx-news"></div>
+<div class="link-view" data-title="Full Timeline"  data-events="medicine" data-topics="vaccination"></div>
 

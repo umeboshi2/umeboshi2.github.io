@@ -57,4 +57,4 @@ sings."
 
 1. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020. Geneva: World Health Organization; 2020 (available at https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf).
 
-<div class="link-view" data-title="Full Timeline"  data-events="transmission"></div>
+<div class="link-view" data-title="Full Timeline"  data-events="medicine" data-topics="transmission"></div>
