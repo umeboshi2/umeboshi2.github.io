@@ -59,5 +59,6 @@ class Applet extends TkApplet
       menu: appletEntries
     }
   ]
+console.log "frontdoor.main imported"
   
 export default Applet

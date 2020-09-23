@@ -10,7 +10,7 @@ MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'crown'
 
-eventManager = AppChannel.request 'get-event-manager', 'subtopics'
+eventManager = AppChannel.request 'get-event-manager', 'topics'
 
 isMainTopicLoaded = (options) ->
   o = options
@@ -54,9 +54,9 @@ class MainTopicsModal extends BaseModalView
   
 class MainView extends Marionette.View
   initialize: ->
-    subtopics = eventManager.collections.subtopics
-    if not subtopics.length
-      eventManager.initSubtopics()
+    topics = eventManager.collections.topics
+    if not topics.length
+      eventManager.initTopics()
   template: tc.renderable (model) ->
     tc.div '.text-center.listview-header', ->
       tc.text "Subtopics View"
@@ -87,7 +87,7 @@ class MainView extends Marionette.View
   childViewEvents:
     'child:toggled' : 'childToggled'
   childToggled: ->
-    opts = eventManager.determineMainTopics()
+    opts = eventManager.determineCategories()
     Promise.all(opts.promises).then =>
       @render()
   cardBodyMap:
@@ -100,20 +100,20 @@ class MainView extends Marionette.View
     @[method]()
   showSelectedBtnClicked: ->
     @cardBodyTopic = 'selected'
-    subtopics = eventManager.collections.subtopics
+    topics = eventManager.collections.topics
     selectedView = new TopicCollectionView
-      collection: new Backbone.Collection subtopics.filter selected: true
+      collection: new Backbone.Collection topics.filter selected: true
     @showChildView 'cardBody', selectedView
   
   showAvailBtnClicked: ->
     @cardBodyTopic = 'available'
-    subtopics = eventManager.collections.subtopics
+    topics = eventManager.collections.topics
     availableView = new TopicCollectionView
-      collection: new Backbone.Collection subtopics.filter selected: false
+      collection: new Backbone.Collection topics.filter selected: false
     @showChildView 'cardBody', availableView
 
   showMainTopicsBtnClicked: ->
-    opts = eventManager.determineMainTopics()
+    opts = eventManager.determineCategories()
     Promise.all(opts.promises).then ->
       view = new MainTopicsModal
         collection: opts.allTopics

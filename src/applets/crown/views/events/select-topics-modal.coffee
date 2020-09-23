@@ -30,9 +30,9 @@ class ModalTopicsView extends BaseModalView
     'click @ui.okBtn': 'okBtnClicked'
     'click @ui.closeBtn': 'emptyModal'
   onRender: ->
-    collection = eventManager.collections.topics
+    collection = eventManager.collections.categories
     if not collection.length
-      eventManager.initTopics()
+      eventManager.initCategories()
     view = new Marionette.CollectionView
       collection: collection
       viewComparator: 'name'
@@ -41,6 +41,7 @@ class ModalTopicsView extends BaseModalView
   okBtnClicked: ->
     promises = eventManager.fetchEventModels()
     Promise.all(promises).then =>
+      console.log "promises complete"
       @triggerMethod 'topics:fetched'
   onTopicsFetched: ->
     @emptyModal()

@@ -21,7 +21,7 @@ cvlinks = indexModels.cvlinks
 
 eventManagers =
   events: new EventManager
-  subtopics: new EventManager
+  topics: new EventManager
 
 AppChannel.reply 'get-event-manager', (name) ->
   return eventManagers[name]

@@ -7,7 +7,7 @@ import lf from 'lovefield'
 
 MainChannel = Backbone.Radio.channel 'global'
 
-schemaBuilder = lf.schema.create('main-database', 1)
+schemaBuilder = lf.schema.create('main-database', 2)
 
 schemaBuilder.createTable('SimpleObject')
 .addColumn('id', lf.Type.STRING)

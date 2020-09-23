@@ -50,9 +50,9 @@ class MainView extends Marionette.View
   clearCalendar: ->
     currentItems = []
   onRender: ->
-    selectedTopics = eventManager.getSelectedTopics()
+    selectedCategories = eventManager.getSelectedCategories()
     view = new ListGroupView
-      collection: selectedTopics
+      collection: selectedCategories
       childView: TopicView
       viewComparator: 'topic'
     @showChildView 'eventsList', view

@@ -12,41 +12,41 @@ eventDataModels = new Collection []
 class EventManager extends MnObject
   initialize: ->
     @collections =
+      categories: new Collection []
       topics: new Collection []
-      subtopics: new Collection []
     @currentEvents = []
     return
   setCollection: (name, collection) ->
     @collections[name].set collection
     return
-  initTopics: ->
-    for name of eventIndex.get('topics')
-      @collections.topics.add
+  initCategories: ->
+    for name of eventIndex.get('categories')
+      @collections.categories.add
         name: name
         selected: false
     return
-  initSubtopics: ->
-    stMap = eventIndex.get('subtopics')
+  initTopics: ->
+    stMap = eventIndex.get('topics')
     for st of stMap
-      @collections.subtopics.add
+      @collections.topics.add
         name: st
         selected: false
         topics: stMap[st]
     return
   fetchEventModels: ->
-    selected = @collections.topics.filter selected:true
-    topicMap = eventIndex.get('topics')
+    selected = @collections.categories.filter selected:true
+    topicMap = eventIndex.get('categories')
     promises = []
     selected.forEach (model) ->
-      topic = model.get('name')
-      model = eventDataModels.get topic
+      category = model.get('name')
+      model = eventDataModels.get category
       if not model?
-        resourceName = topicMap[topic].filename
+        resourceName = topicMap[category].filename
         resource = MainChannel.request 'main:app:get-events', resourceName
         promises.push resource.fetch()
         eventDataModels.add
-          id: topic
-          name: topic
+          id: category
+          name: category
           content: resource
     return promises
   getSubtopicEvents: (model) ->
@@ -58,21 +58,21 @@ class EventManager extends MnObject
       eventsModel = model.get 'content'
       topicEvents[topic] = eventsModel.getSubtopicEvents name
     return topicEvents
-  determineMainTopics: ->
+  determineCategories: ->
     allTopics = new Collection []
-    subtopics = @collections.subtopics.filter selected:true
+    subtopics = @collections.topics.filter selected:true
     subtopics.forEach (item) ->
       topics = item.get 'topics'
       topics.forEach (topic) ->
         allTopics.add
           id: topic
           name: topic
-    if not @collections.topics.length
-      @initTopics eventIndex
+    if not @collections.categories.length
+      @initCategories eventIndex
     topicArray = allTopics.pluck 'name'
-    collection = @collections.topics
+    categories = @collections.categories
     topicArray.forEach (name) ->
-      model = collection.findWhere name:name
+      model = categories.findWhere name:name
       model.set 'selected', true
     promises = @fetchEventModels()
     return
@@ -81,8 +81,8 @@ class EventManager extends MnObject
   setCurrentEvents: ->
     self_events = @currentEvents
     self_events.length = 0
-    collection = @collections.topics
-    selected = collection.filter selected:true
+    categories = @collections.categories
+    selected = categories.filter selected:true
     selected.forEach (item) =>
       eventModel = @getEventData item.get('name')
       events = eventModel.get 'events'
@@ -95,9 +95,9 @@ class EventManager extends MnObject
   getEventData: (name) ->
     m = eventDataModels.get name
     return m.get 'content'
+  getSelectedCategories: ->
+    return new Collection @collections.categories.filter selected:true
   getSelectedTopics: ->
     return new Collection @collections.topics.filter selected:true
-  getSelectedSubtopics: ->
-    return new Collection @collections.subtopics.filter selected:true
     
 export default EventManager
