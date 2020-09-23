@@ -4,9 +4,12 @@ import tc from 'teacup'
 
 import BaseModalView from 'common/base-modal-view'
 import HasJsonView from 'common/has-jsonview'
+import indexModels from 'common/index-models'
+
 MainChannel = Backbone.Radio.channel 'global'
 MessageChannel = Backbone.Radio.channel 'messages'
 AppChannel = Backbone.Radio.channel 'pmc'
+
 
 class SimpleEntry extends Marionette.View
   template: tc.renderable (model) ->
@@ -52,16 +55,19 @@ class ModalTopicsView extends BaseModalView
   onRender: ->
     topics = AppChannel.request 'get-topic-collection'
     fmtopics = AppChannel.request 'get-fmtopic-collection'
+    console.log "topics, fmtopics", topics, fmtopics
     thisView = @
     model = new Backbone.Model
       topics: topics
       fmtopics: fmtopics
+      eventIndex: indexModels.eventIndex
     topics.fetch().then ->
-      fmtopics.fetch().then ->
-        console.log "all fetched", topics, fmtopics
-        view = new SimpleInfoEntry
-          model: model
-        thisView.showChildView 'content', view
+      fmtopics.fetch()
+    .then ->
+      console.log "all fetched", topics, fmtopics
+      view = new SimpleInfoEntry
+        model: model
+      thisView.showChildView 'content', view
     
 
 export default ModalTopicsView

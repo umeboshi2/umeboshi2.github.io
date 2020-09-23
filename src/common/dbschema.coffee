@@ -55,6 +55,15 @@ schemaBuilder.createTable('PMCTopics')
   timing: lf.ConstraintTiming.IMMEDIATE
 )
   
+schemaBuilder.createTable('Events')
+.addColumn('id', lf.Type.STRING)
+.addColumn('title', lf.Type.STRING)
+.addColumn('link', lf.Type.STRING)
+.addColumn('content', lf.Type.STRING)
+.addPrimaryKey(['id'])
+
+
+
 
 
 export default schemaBuilder

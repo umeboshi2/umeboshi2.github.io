@@ -10,7 +10,7 @@ import parseRecord from '../parse-pmc-fm-content'
 import makePMCurl from 'common/make-pmc-url'
 import makeDOIurl from 'common/make-doi-url'
 
-import ModalTopicsView from './manage-topics-nodal'
+import ModalTopicsView from './manage-topics-modal'
 
 MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'pmc'
