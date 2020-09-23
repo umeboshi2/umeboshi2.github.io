@@ -1,14 +1,13 @@
 import { Collection, Model } from 'backbone'
 import { MnObject } from 'backbone.marionette'
 
-import indexModels from 'common/index-models'
+import indexModels from './index-models'
 
 MainChannel = Backbone.Radio.channel 'global'
 
 eventIndex = indexModels.eventIndex
 
 eventDataModels = new Collection []
-
 
 class EventManager extends MnObject
   initialize: ->

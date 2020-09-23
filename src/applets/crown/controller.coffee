@@ -9,7 +9,7 @@ import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
 import indexModels from 'common/index-models'
-import EventManager from './event-manager'
+import EventManager from 'common/event-manager'
 import './dbchannel'
 
 MainChannel = Backbone.Radio.channel 'global'
