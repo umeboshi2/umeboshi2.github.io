@@ -52,4 +52,29 @@ topicResponse.done ->
       console.log "get model for", topic
       model = topicCollection.add name:topic
       model.save()
-      
+
+
+FMTopicFields = ['pmcid', 'topic_id']
+class FMTopicModel extends Backbone.Model
+  loveStore: FMTopicsStore
+  toJSON: ->
+    data = {}
+    FMTopicFields.forEach (field) =>
+      data[field] = @get field
+    return data
+
+class FMTopicCollection extends Backbone.Collection
+  loveStore: FMTopicsStore
+  model: FMTopicModel
+
+class FMTopicPageable extends PageableCollection
+  loveStore: FMTopicsStore
+  model: FMTopicModel
+  mode: 'client'
+  
+fmtopicCollection = new FMTopicCollection
+AppChannel.reply 'get-fmtopic-collection', ->
+  return fmtopicCollection
+AppChannel.reply 'make-fmtopic-pageable', ->
+  return new FMTopicPageable
+

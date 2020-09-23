@@ -17,7 +17,7 @@ PMCFrontMatterStore = new LoveStore dbConn, 'FrontMatter'
 
 fmFields = ['id', 'content']
 
-class FrontMatterModel extends Backbone.Model
+export class FrontMatterModel extends Backbone.Model
   loveStore: PMCFrontMatterStore
   toJSON: ->
     data = {}
@@ -39,7 +39,7 @@ class FrontMatterModel extends Backbone.Model
     return pmh.GetRecord.record.metadata.article.front
     
     
-class FrontMatterCollection extends Backbone.Collection
+export class FrontMatterCollection extends Backbone.Collection
   loveStore: PMCFrontMatterStore
   model: FrontMatterModel
 

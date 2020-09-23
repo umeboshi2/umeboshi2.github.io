@@ -10,6 +10,9 @@ import parseRecord from '../parse-pmc-fm-content'
 import makePMCurl from 'common/make-pmc-url'
 import makeDOIurl from 'common/make-doi-url'
 
+import ModalTopicsView from './manage-topics-nodal'
+
+MainChannel = Backbone.Radio.channel 'global'
 AppChannel = Backbone.Radio.channel 'pmc'
 
 class PMCFrontMatter extends Marionette.View
@@ -76,5 +79,9 @@ class PMCFrontMatter extends Marionette.View
       @trigger 'model:destroyed'
   abstractBtnClicked: ->
     @ui.abstractCard.toggle()
-
+  topicsBtnClicked: ->
+    view = new ModalTopicsView
+      model: @model
+    MainChannel.request 'show-modal', view
+    
 export default PMCFrontMatter
