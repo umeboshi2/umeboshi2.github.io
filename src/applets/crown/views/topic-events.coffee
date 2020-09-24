@@ -16,7 +16,7 @@ class LinkItemView extends LinkEntryView
   tagName: 'li'
   className: 'list-group-item'
 
-class SubtopicEntry extends Marionette.View
+class TopicEntry extends Marionette.View
   template: tc.renderable (model) ->
     tc.text model.name
     tc.div '.events-container'
@@ -57,7 +57,7 @@ class MainView extends Marionette.View
     selected = new Backbone.Collection topics.filter selected:true
     view = new Marionette.CollectionView
       collection: selected
-      childView: SubtopicEntry
+      childView: TopicEntry
       viewComparator: 'name'
     @showChildView 'cardBody', view
 export default MainView

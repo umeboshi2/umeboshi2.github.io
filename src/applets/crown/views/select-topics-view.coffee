@@ -25,31 +25,32 @@ class TopicCollectionView extends Marionette.CollectionView
   childToggled: ->
     @trigger 'child:toggled'
 
-class MainTopicEntry extends Marionette.View
+class CategoryEntry extends Marionette.View
   template: tc.renderable (model) ->
     tc.text model.name
     
 
-class MainTopicsModal extends BaseModalView
+class CategoriesModal extends BaseModalView
   template: tc.renderable (model) ->
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
-        tc.div '.topics'
+        tc.div '.categories'
         tc.div '.row', ->
           tc.button '.close-btn.btn.btn-warning.fa.fa-close.mr-auto',
           data:dismiss:'modal', "Close"
   ui:
     closeBtn: '.close-btn'
-    topicsRegion: '.topics'
+    categories: '.categories'
   regions:
-    topicsRegion: '@ui.topicsRegion'
+    categories: '@ui.categories'
   events:
     'click @ui.closeBtn': 'emptyModal'
   onRender: ->
+    console.log "collection", @collection
     view = new Marionette.CollectionView
       collection: @collection
-      childView: MainTopicEntry
-    @showChildView 'topicsRegion', view
+      childView: CategoryEntry
+    @showChildView 'categories', view
     
   
 class MainView extends Marionette.View
@@ -115,7 +116,7 @@ class MainView extends Marionette.View
   showMainTopicsBtnClicked: ->
     opts = eventManager.determineCategories()
     Promise.all(opts.promises).then ->
-      view = new MainTopicsModal
+      view = new CategoriesModal
         collection: opts.allTopics
       MainChannel.request 'show-modal', view
 
