@@ -60,7 +60,7 @@ class MainView extends Marionette.View
       eventManager.initTopics()
   template: tc.renderable (model) ->
     tc.div '.text-center.listview-header', ->
-      tc.text "Subtopics View"
+      tc.text "Topics View"
     tc.div '.card', ->
       tc.span '.card-title', ->
         tc.div '.btn-group', ->
@@ -123,7 +123,7 @@ class MainView extends Marionette.View
   listEventsBtnClicked: ->
     @cardBodyTopic = 'listEvents'
     require.ensure [], () =>
-      View = require('./subtopic-events').default
+      View = require('./topic-events').default
       view = new View
         model: @model
       @showChildView 'cardBody', view

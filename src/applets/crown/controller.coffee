@@ -103,10 +103,10 @@ class Controller extends MainController
     console.log "URL IS", url
     window.open url, '_blank'
 
-  viewSubtopics: ->
+  viewTopics: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require('./views/select-subtopics-view').default
+      View = require('./views/select-topics-view').default
       view = new View
         model: eventIndex
       @layout.showChildView 'content', view

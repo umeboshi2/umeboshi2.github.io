@@ -31,7 +31,7 @@ appletMenu = [
     icon: '.fa.fa-hand-o-right'
   },{
     label: 'Subtopics'
-    url: '#crown/subtopics'
+    url: '#crown/topics'
     icon: '.fa.fa-globe'
   }
   ]
@@ -46,7 +46,7 @@ class Router extends AppRouter
     'crown/events': 'viewEvents'
     'crown/redirect/:name': 'viewRedirect'
     'crown/make-redirect': 'makeRedirect'
-    'crown/subtopics': 'viewSubtopics'
+    'crown/topics': 'viewTopics'
     
 class Applet extends TkApplet
   Controller: Controller
