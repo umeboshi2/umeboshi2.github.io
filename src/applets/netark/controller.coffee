@@ -9,7 +9,7 @@ class Controller extends MainController
   viewIndex: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/index-view'
+      View = require('./views/index-view').default
       view = new View
       @layout.showChildView 'content', view
       @scrollTop()
@@ -21,7 +21,7 @@ class Controller extends MainController
     require.ensure [], () =>
       View = require('./views/otrr-list').default
       view = new View
-      @layout.showChildView 'content', view
+      @layout.showChialdView 'content', view
       @scrollTop()
     # name the chunk
     , 'netark-view-otrr-list'
@@ -59,7 +59,7 @@ class Controller extends MainController
   searchView: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/search-view'
+      View = require('./views/search-view').default
       view = new View
       @layout.showChildView 'content', view
       @scrollTop()
