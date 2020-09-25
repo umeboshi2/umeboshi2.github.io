@@ -1,5 +1,4 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio, Collection } from 'backbone'
 import tc from 'teacup'
 import ms from 'ms'
 
@@ -9,15 +8,15 @@ import { ToolbarAppletLayout } from 'tbirds/views/layout'
 navigate_to_url = require 'tbirds/util/navigate-to-url'
 import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-DocChannel = Backbone.Radio.channel 'static-documents'
-ResourceChannel = Backbone.Radio.channel 'resources'
-AppChannel = Backbone.Radio.channel 'todos'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+DocChannel = Radio.channel 'static-documents'
+ResourceChannel = Radio.channel 'resources'
+AppChannel = Radio.channel 'todos'
 
 toolbarEntries = []
 
-toolbarEntryCollection = new Backbone.Collection toolbarEntries
+toolbarEntryCollection = new Collection toolbarEntries
 AppChannel.reply 'get-toolbar-entries', ->
   toolbarEntryCollection
 
@@ -79,7 +78,7 @@ class Controller extends MainController
   viewDbAdmin: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/idbview'
+      View = require('./views/idbview').default
       view = new View
       @layout.showChildView 'content', view
     # name the chunk

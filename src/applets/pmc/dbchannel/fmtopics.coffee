@@ -1,6 +1,5 @@
 import _ from 'underscore'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Collection, Radio } from 'backbone'
 import qs from 'qs'
 import X2JS from 'x2js'
 import { LoveStore } from 'backbone.lovefield'
@@ -10,8 +9,8 @@ import indexModels from 'common/index-models'
 
 eventIndex = indexModels.eventIndex
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'pmc'
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'pmc'
 
 dbConn = MainChannel.request 'main:app:dbConn', 'common'
 
@@ -19,7 +18,7 @@ TopicsStore = new LoveStore dbConn, 'Topics'
 FMTopicsStore = new LoveStore dbConn, 'PMCFMTopics'
 
 TopicFields = ['id', 'name']
-class TopicModel extends Backbone.Model
+class TopicModel extends Model
   loveStore: TopicsStore
   toJSON: ->
     data = {}
@@ -27,7 +26,7 @@ class TopicModel extends Backbone.Model
       data[field] = @get field
     return data
 
-class TopicCollection extends Backbone.Collection
+class TopicCollection extends Collection
   loveStore: TopicsStore
   model: TopicModel
 
@@ -55,7 +54,7 @@ topicResponse.done ->
 
 
 FMTopicFields = ['pmcid', 'topic_id']
-class FMTopicModel extends Backbone.Model
+class FMTopicModel extends Model
   loveStore: FMTopicsStore
   toJSON: ->
     data = {}
@@ -63,7 +62,7 @@ class FMTopicModel extends Backbone.Model
       data[field] = @get field
     return data
 
-class FMTopicCollection extends Backbone.Collection
+class FMTopicCollection extends Collection
   loveStore: FMTopicsStore
   model: FMTopicModel
 

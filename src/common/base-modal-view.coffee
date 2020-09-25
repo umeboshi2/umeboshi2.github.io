@@ -1,11 +1,11 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 
 import IsEscapeModal from 'tbirds/behaviors/is-escape-modal'
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
-class BaseModalView extends Marionette.View
+class BaseModalView extends MnView
   behaviors: [IsEscapeModal]
   emptyModal: ->
     app = MainChannel.request 'main:app:object'

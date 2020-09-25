@@ -1,13 +1,12 @@
 import _ from 'underscore'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Radio } from 'backbone'
 import qs from 'qs'
 import X2JS from 'x2js'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'pmc'
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'pmc'
 
-class SearchModel extends Backbone.Model
+class SearchModel extends Model
   url: ->
     data =
       db: 'pmc'

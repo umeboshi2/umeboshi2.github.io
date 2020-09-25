@@ -1,18 +1,15 @@
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-marked = require 'marked'
+import { Collection } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
+import tc from 'teacup'
 
-#radioIcon = require 'node-noto-emoji/dist/radio'
-scrollIcon = require 'node-noto-emoji/dist/scroll'
-clockIcon = require 'node-noto-emoji/dist/mantelpiece_clock'
-dangerIcon = require 'node-noto-emoji/dist/radioactive_sign'
+import scrollIcon from 'node-noto-emoji/dist/scroll'
+import clockIcon from 'node-noto-emoji/dist/mantelpiece_clock'
+import dangerIcon from 'node-noto-emoji/dist/radioactive_sign'
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
-HasJsonView = require 'common/has-jsonview'
+import HasJsonView from 'common/has-jsonview'
 
-showModels = require '../librivox-books'
-headerTemplate = require('./header-template').default
+import showModels from '../librivox-books'
+import headerTemplate from './header-template'
 
 
 searchURl = "https://archive.org/services/search/v1/scrape?q=more_animation&count=100" # noqa
@@ -33,7 +30,7 @@ pages = [
   }
 ]
 
-class Entry extends Marionette.View
+class Entry extends MnView
   className: 'col-md-4'
   template: tc.renderable (model) ->
     tc.div '.listview-list-entry', ->
@@ -46,13 +43,13 @@ class Entry extends Marionette.View
     #event.preventDefault()
     console.log "show", @model.id
 
-class EntryCollectionView extends Marionette.CollectionView
+class EntryCollectionView extends CollectionView
   className: 'row'
   childView: Entry
 
 
 
-class JsonView extends Marionette.View
+class JsonView extends MnView
   template: tc.renderable (model) ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
@@ -62,7 +59,7 @@ class JsonView extends Marionette.View
 warning = "This is an experimental app. Many parts will not \
 work properly."
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable ->
     headerTemplate
       text: "Internet Archive"
@@ -77,7 +74,7 @@ class MainView extends Marionette.View
   regions:
     itemList: '@ui.itemList'
   onRender: ->
-    collection = new Backbone.Collection pages
+    collection = new Collection pages
     console.log "Collection", collection
     view = new EntryCollectionView
       collection: collection

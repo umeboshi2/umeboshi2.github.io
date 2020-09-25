@@ -1,13 +1,15 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+#import { Collection, Radio } from 'backbone'
+#import { View as MnView, CollectionView } from 'backbone.marionette'
+import { Model, Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 
 import LinkEntryView from 'common/link-entry-view'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'topics'
 
@@ -16,7 +18,12 @@ class LinkItemView extends LinkEntryView
   tagName: 'li'
   className: 'list-group-item'
 
-class TopicEntry extends Marionette.View
+class LinkCollectionView extends CollectionView
+  tagName: 'ul'
+  className: 'list-group'
+  childView: LinkItemView
+  
+class TopicEntry extends MnView
   template: tc.renderable (model) ->
     tc.text model.name
     tc.div '.events-container'
@@ -26,18 +33,16 @@ class TopicEntry extends Marionette.View
     eventsContainer: '@ui.eventsContainer'
   onRender: ->
     topicEvents = eventManager.getSubtopicEvents(@model)
-    console.log "topicEvents", topicEvents
-    allEvents = new Backbone.Collection []
+    allEvents = new Collection []
     for t of topicEvents
       for e in topicEvents[t]
         allEvents.add e
-    view = new Marionette.CollectionView
-      childView: LinkItemView
+    view = new LinkCollectionView
       collection: allEvents
       viewComparator: 'start'
     @showChildView 'eventsContainer', view
     
-class MainView extends Marionette.View
+class MainView extends MnView
   initialize: ->
     topics = eventManager.collections.topics
     if not topics.length
@@ -54,8 +59,8 @@ class MainView extends Marionette.View
     cardBody: '@ui.cardBody'
   onRender: ->
     topics = eventManager.collections.topics
-    selected = new Backbone.Collection topics.filter selected:true
-    view = new Marionette.CollectionView
+    selected = new Collection topics.filter selected:true
+    view = new CollectionView
       collection: selected
       childView: TopicEntry
       viewComparator: 'name'

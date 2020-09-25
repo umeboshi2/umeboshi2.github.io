@@ -1,14 +1,11 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio} from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import marked from 'marked'
-import $ from 'jquery'
 import moment from 'moment'
-import _ from 'underscore'
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
-class LinkEntryView extends Marionette.View
+class LinkEntryView extends MnView
   tagName: 'p'
   template: tc.renderable (event) ->
     tc.text moment.utc(event.start).format("MMMM D, YYYY")

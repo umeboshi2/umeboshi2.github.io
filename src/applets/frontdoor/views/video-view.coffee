@@ -1,16 +1,13 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import marked from 'marked'
-import $ from 'jquery'
-import moment from 'moment'
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
 makeEmbedUrl = (id) ->
   return "https://www.youtube.com/embed/#{id}"
   
-class YTIframe extends Marionette.View
+class YTIframe extends MnView
   tagName: 'iframe'
   attributes:
     width: "320"
@@ -23,7 +20,7 @@ class YTIframe extends Marionette.View
     @$el.attr 'src', makeEmbedUrl(@id)
     
 
-class VideoView extends Marionette.View
+class VideoView extends MnView
   template: tc.renderable (model) ->
     tc.div '.vid-container'
     tc.button '.show-video-btn.btn.btn-outline-warning', ->

@@ -1,9 +1,9 @@
-import { Collection, Model } from 'backbone'
+import { Collection, Model, Radio } from 'backbone'
 import { MnObject } from 'backbone.marionette'
 
 import indexModels from './index-models'
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
 eventIndex = indexModels.eventIndex
 

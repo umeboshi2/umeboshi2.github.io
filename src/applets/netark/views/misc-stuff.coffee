@@ -1,7 +1,6 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Collection } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import marked from 'marked'
 
 import radioIcon from 'node-noto-emoji/dist/radio'
 import micIcon from 'node-noto-emoji/dist/studio_microphone'
@@ -12,7 +11,7 @@ import HasJsonView from 'common/has-jsonview'
 Models = require '../misc-idents'
 import headerTemplate from './header-template'
     
-class Entry extends Marionette.View
+class Entry extends MnView
   className: 'col-md-4'
   template: tc.renderable (model) ->
     tc.div '.listview-list-entry', ->
@@ -25,20 +24,20 @@ class Entry extends Marionette.View
     #event.preventDefault()
     console.log "show", @model.id
 
-class EntryCollectionView extends Marionette.CollectionView
+class EntryCollectionView extends CollectionView
   className: 'row'
   childView: Entry
 
 
 
-class JsonView extends Marionette.View
+class JsonView extends MnView
   template: tc.renderable (model) ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
     HasJsonView:
       behaviorClass: HasJsonView
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable ->
     headerTemplate
       text: 'Unsorted Generic Stuff'
@@ -50,7 +49,7 @@ class MainView extends Marionette.View
   regions:
     itemList: '@ui.itemList'
   onRender: ->
-    collection = new Backbone.Collection Models
+    collection = new Collection Models
     view = new EntryCollectionView
       collection: collection
     @showChildView 'itemList', view

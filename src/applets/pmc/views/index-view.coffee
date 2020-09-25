@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
@@ -8,9 +8,9 @@ import PaginateBar from 'tbirds/views/paginate-bar'
 import indexModels from 'common/index-models'
 import PMCFrontMatter from './pmc-front-matter'
 
-AppChannel = Backbone.Radio.channel 'pmc'
+AppChannel = Radio.channel 'pmc'
 
-class SimpleEntry extends Marionette.View
+class SimpleEntry extends MnView
   templateContext: ->
     hasOAIcontent: @model.hasOAIcontent()
   template: tc.renderable (model) ->
@@ -27,7 +27,7 @@ class SimpleEntry extends Marionette.View
         model: @model
       @showChildView 'content', view
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     tc.h3 '.text-center', "Local PMC Papers"
     tc.div '.paginate-bar'
@@ -45,7 +45,7 @@ class MainView extends Marionette.View
       pbar = new PaginateBar
         collection: collection
       @showChildView 'paginateBar', pbar
-      view = new Marionette.CollectionView
+      view = new CollectionView
         collection: collection
         childView: SimpleEntry
       @showChildView 'content', view

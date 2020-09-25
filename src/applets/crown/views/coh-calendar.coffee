@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import { Calendar } from '@fullcalendar/core'
@@ -15,9 +15,9 @@ import '@fullcalendar/list/main.css'
 
 import navigateToUrl from 'tbirds/util/navigate-to-url'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 makeOrderFilename = (id) ->
   return "exec_order_2020-#{id}.pdf"
@@ -26,7 +26,7 @@ makeOrderUrl = (id) ->
   base = "http://www.hattiesburgms.com/wp-content/uploads/"
   return base + makeOrderFilename id
 
-class CalendarView extends Marionette.View
+class CalendarView extends MnView
   template: tc.renderable (model) ->
     tc.div '#maincalendar.col-sm-10.offset-sm-1'
   ui:

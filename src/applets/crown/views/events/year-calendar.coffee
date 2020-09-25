@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import moment from 'moment'
 
@@ -10,9 +10,9 @@ import 'js-year-calendar/dist/js-year-calendar.css'
 import BaseModalView from 'common/base-modal-view'
 import LinkEntryView from 'common/link-entry-view'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
 
@@ -47,13 +47,13 @@ class ModalEventsView extends BaseModalView
   events:
     'click @ui.closeBtn': 'emptyModal'
   onRender: ->
-    view = new Marionette.CollectionView
-      collection: new Backbone.Collection @model.get 'events'
+    view = new CollectionView
+      collection: new Collection @model.get 'events'
       viewComparator: 'start'
       childView: LinkEntryView
     @showChildView 'eventsRegion', view
     
-class CalendarView extends Marionette.View
+class CalendarView extends MnView
   template: tc.renderable (model) ->
     tc.div '.maincalendar'
   ui:
@@ -61,7 +61,7 @@ class CalendarView extends Marionette.View
   onClickDay: (event) ->
     if event?.events.length
       view = new ModalEventsView
-        model: new Backbone.Model event
+        model: new Model event
       MainChannel.request 'show-modal', view, true
 
   onRender: ->

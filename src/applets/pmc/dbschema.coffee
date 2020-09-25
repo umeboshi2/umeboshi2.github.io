@@ -1,11 +1,11 @@
-import Backbone from 'backbone'
+import { Radio } from 'backbone'
 
 import lf from 'lovefield'
 
 # Use yaml to build schema
 # https://groups.google.com/forum/#!topic/lovefield-users/jxIlb7jtiak
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
 schemaBuilder = lf.schema.create('pmc-database', 5)
 

@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
@@ -8,9 +8,9 @@ import indexModels from 'common/index-models'
 import ButtonInput from 'common/button-input'
 import PMCFrontMatter from './pmc-front-matter'
 
-AppChannel = Backbone.Radio.channel 'pmc'
+AppChannel = Radio.channel 'pmc'
 
-class SimpleEntry extends Marionette.View
+class SimpleEntry extends MnView
   templateContext: ->
     hasOAIcontent: @model.hasOAIcontent()
   template: tc.renderable (model) ->
@@ -54,7 +54,7 @@ class SimpleEntry extends Marionette.View
         
       
 
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     tc.div '.search-input'
     tc.div '.content'
@@ -78,7 +78,7 @@ class MainView extends Marionette.View
     model = AppChannel.request 'make-search-model', term
     response = model.fetch()
     response.done =>
-      pmcModels = new Backbone.Collection []
+      pmcModels = new Collection []
       fmCollection = AppChannel.request 'get-fm-collection'
       res = model.get 'eSearchResult'
       ids = _.map res.IdList.Id, Number
@@ -90,7 +90,7 @@ class MainView extends Marionette.View
         else
           model = AppChannel.request 'make-remote-model', pmcid
         pmcModels.add model
-      view = new Marionette.CollectionView
+      view = new CollectionView
         collection: pmcModels
         childView: SimpleEntry
       @showChildView 'content', view

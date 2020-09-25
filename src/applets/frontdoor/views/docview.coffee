@@ -1,13 +1,12 @@
 import path from 'path'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import ms from 'ms'
 import marked from 'marked'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'fromtdoor'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'fromtdoor'
 
 
 
@@ -28,7 +27,7 @@ DefaultStaticDocumentTemplate = tc.renderable (doc) ->
     tc.div '.body', ->
       tc.raw marked doc.content, renderer:renderer
 
-class FrontDoorMainView extends Marionette.View
+class FrontDoorMainView extends MnView
   template: DefaultStaticDocumentTemplate
 
 export default FrontDoorMainView

@@ -1,10 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
-import tc from 'teacup'
-import ms from 'ms'
+import { Radio } from 'backbone'
 
-import navigate_to_url from 'tbirds/util/navigate-to-url'
-import TopApp from 'tbirds/top-app'
 import createMainApp from 'tbirds/start-main-app'
 import objectEmpty from 'tbirds/util/object-empty'
 
@@ -18,8 +13,8 @@ import pmcSchema from 'applets/pmc/dbschema'
 
 import MainAppConfig from './index-config'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
 
 app = createMainApp MainAppConfig
 

@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
 #import { hterm, lib } from 'hterm-umdjs'
@@ -17,8 +17,8 @@ worker = new Worker()
 
 { navigate_to_url } = require 'tbirds/util/navigate-to-url'
 
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'eliza'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'eliza'
 
 toolbarEntries = [
   {
@@ -41,7 +41,7 @@ defaultButtonTemplate = tc.renderable (model) ->
 
 defaultButtonClassName = "btn btn-outline-primary"
 
-class ToolbarButton extends Marionette.View
+class ToolbarButton extends MnView
   tagName: 'button'
   #className: 'btn btn-outline-primary'
   className: ->
@@ -54,7 +54,7 @@ class ToolbarButton extends Marionette.View
   modelEvents:
     change: 'render'
 
-class ToolbarButtonGroup extends Marionette.CollectionView
+class ToolbarButtonGroup extends CollectionView
   childView: ToolbarButton
   childViewOptions: ->
     template: @getOption 'entryTemplate'
@@ -63,7 +63,7 @@ class ToolbarButtonGroup extends Marionette.CollectionView
   childViewTriggers:
     'button:clicked': 'toolbar:entry:clicked'
 
-class ToolbarView extends Marionette.View
+class ToolbarView extends MnView
   template: tc.renderable () ->
     tc.div '.toolbar-entries'
   regions:
@@ -82,7 +82,7 @@ class ToolbarView extends Marionette.View
     
   
 class ElizaToolbar extends ToolbarView
-  collection: new Backbone.Collection toolbarEntries
+  collection: new Collection toolbarEntries
   # bubble up to main view
   childViewTriggers:
     'toolbar:entry:clicked': 'toolbar:entry:clicked'

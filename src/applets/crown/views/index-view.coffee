@@ -1,10 +1,9 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Collection } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-JView = require 'json-view'
-require 'json-view/devtools.css'
 
-import navigate_to_url from 'tbirds/util/navigate-to-url'
+import JView from  'json-view'
+import '../../../common/json-view.css'
 
 makePageName = (fileName) ->
   return fileName.split('.md')[0]
@@ -13,7 +12,7 @@ makePageLink = (fileName) ->
   name = makePageName fileName
   return "#pages/blog/cv19/#{name}"
 
-class LinksView extends Marionette.View
+class LinksView extends MnView
   template: tc.renderable (model) ->
     tc.ul ->
       for link in model.links
@@ -25,7 +24,7 @@ class LinksView extends Marionette.View
           else
             tc.a href:link, link
 
-class PageEntryView extends Marionette.View
+class PageEntryView extends MnView
   template: tc.renderable (model) ->
     # console.log "template model", model
     tc.div '.row.card', ->
@@ -60,20 +59,13 @@ class PageEntryView extends Marionette.View
       model: @model
     @showChildView 'linksView', view
     
-    
-    
-    
-    
-  
-viewTemplate = tc.renderable (model) ->
-  tc.div '.row.listview-header', ->
-    tc.h1 "Index"
-  tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
-  tc.div '.index-view'
 
-
-class MainView extends Marionette.View
-  template: viewTemplate
+class MainView extends MnView
+  template: tc.renderable (model) ->
+    tc.div '.row.listview-header', ->
+      tc.h1 "Index"
+    tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
+    tc.div '.index-view'
   ui:
     indexView: '.index-view'
     refreshBtn: '.refresh-btn'
@@ -83,9 +75,9 @@ class MainView extends Marionette.View
     'click @ui.refreshBtn': 'refreshBtnClicked'
   showIndexView: ->
     # console.log "MODEL IS", @model
-    view = new Marionette.CollectionView
+    view = new CollectionView
       childView: PageEntryView
-      collection: new Backbone.Collection @model.get 'pages'
+      collection: new Collection @model.get 'pages'
     @showChildView 'indexView', view
     
   onRender: ->

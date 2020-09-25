@@ -1,10 +1,8 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
-
+import { Behavior } from 'backbone.marionette'
 import JView from 'json-view'
 import './json-view.css'
 
-class HasJsonView extends Marionette.Behavior
+class HasJsonView extends Behavior
   options: ->
     jviewSelector: '.jsonview'
   ui: ->

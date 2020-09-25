@@ -1,13 +1,9 @@
 $ = require 'jquery'
-Backbone = require 'backbone'
-PageableCollection = require 'backbone.paginator'
+import { Model, Radio } from 'backbone'
+import PageableCollection from 'backbone.paginator'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'netark'
-
-AuthModel = MainChannel.request 'main:app:AuthModel'
-AuthCollection = MainChannel.request 'main:app:AuthCollection'
-
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'netark'
 
 apiroot = "/api/dev/bapi"
 url = "#{apiroot}/todos"
@@ -29,7 +25,7 @@ getImageUrl = (name, options) ->
   return "//#{server}#{dir}/#{name}"
   
 
-class MetadataModel extends Backbone.Model
+class MetadataModel extends Model
   urlRoot: urlRoot
   fileUrl: (name) ->
     return getFileUrl name, @toJSON()
@@ -87,7 +83,3 @@ class SearchResults extends PageableCollection
     
 AppChannel.reply 'SearchResults', ->
   return SearchResults
-  
-    
-module.exports =
-  TodoCollection: MetadataModel

@@ -1,19 +1,19 @@
 import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import moment from 'moment'
 
 import ModalTopicsView from './select-topics-modal'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
 
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     tc.div '.btn-group', role:'group', ->
       tc.button '.topics-button.btn.btn-outline-warning', 'Select Topics'

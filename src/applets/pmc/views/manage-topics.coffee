@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
@@ -10,9 +10,9 @@ import indexModels from 'common/index-models'
 import ButtonInput from 'common/button-input'
 import PMCFrontMatter from './pmc-front-matter'
 
-AppChannel = Backbone.Radio.channel 'pmc'
+AppChannel = Radio.channel 'pmc'
 
-class SimpleEntry extends Marionette.View
+class SimpleEntry extends MnView
   tagName: 'li'
   className: 'list-group-item'
   template: tc.renderable (model) ->
@@ -28,14 +28,14 @@ class SimpleEntry extends Marionette.View
     console.log "delBtnClicked"
     
 
-class TopicCollectionView extends Marionette.CollectionView
+class TopicCollectionView extends CollectionView
   tagName: 'ul'
   className: 'list-group'
   childView: SimpleEntry
   viewComparator: 'name'
   
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     console.log "model", model
     tc.h3 "Manage Topics"

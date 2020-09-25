@@ -1,10 +1,8 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
-
+import { Radio } from 'backbone'
 import indexModels from 'common/index-models'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'crown'
 
 AppChannel.reply 'get-index-model', (name) ->
   return indexModels[name]

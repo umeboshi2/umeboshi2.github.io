@@ -1,21 +1,20 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Collection } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import marked from 'marked'
 
 import spaceInvaderIcon from 'node-noto-emoji/dist/space_invader'
 import alienIcon from 'node-noto-emoji/dist/alien'
 
 import HasJsonView from  'common/has-jsonview'
 
-showModels = require '../scifi-videos'
+import showModels from '../scifi-videos'
 import headerTemplate from './header-template'
     
 view_template = tc.renderable (model) ->
   tc.div '.row.listview-list-entry', ->
-    tc.raw marked "# #{model.appName} started."
+    tc.h1 "#{model.appName} started."
 
-class Entry extends Marionette.View
+class Entry extends MnView
   className: 'col-md-4'
   template: tc.renderable (model) ->
     tc.div '.listview-list-entry', ->
@@ -28,20 +27,20 @@ class Entry extends Marionette.View
     #event.preventDefault()
     console.log "show", @model.id
 
-class EntryCollectionView extends Marionette.CollectionView
+class EntryCollectionView extends CollectionView
   className: 'row'
   childView: Entry
 
 
 
-class JsonView extends Marionette.View
+class JsonView extends MnView
   template: tc.renderable (model) ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
     HasJsonView:
       behaviorClass: HasJsonView
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable ->
     headerTemplate
       text: 'Scifi Movies'
@@ -53,7 +52,7 @@ class MainView extends Marionette.View
   regions:
     itemList: '@ui.itemList'
   onRender: ->
-    collection = new Backbone.Collection showModels
+    collection = new Collection showModels
     console.log "Collection", collection
     view = new EntryCollectionView
       collection: collection

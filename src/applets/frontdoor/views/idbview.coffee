@@ -1,19 +1,17 @@
 import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-FileSaver = require 'file-saver'
-
+import FileSaver from 'file-saver'
 import HasJsonView from 'common/has-jsonview'
+import exportToFile from 'tbirds/util/export-to-file'
 
-exportToFile = require('tbirds/util/export-to-file').default
+#FileSaver = require 'file-saver'
+#exportToFile = require('tbirds/util/export-to-file').default
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'ebcsv'
-
-#class ComicListView extends Marionette.CollectionView
-#  childView: ComicEntryView
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'ebcsv'
 
 importExportTemplate = tc.renderable (model) ->
   tc.div '.listview-list-entry', ->
@@ -42,12 +40,12 @@ importExportTemplate = tc.renderable (model) ->
       tc.div '.dbview'
       
 
-class DatabaseView extends Marionette.View
+class DatabaseView extends MnView
   behaviors: [HasJsonView]
   template: tc.renderable (model) ->
     tc.div '.jsonview'
     
-class ImportExportView extends Marionette.View
+class ImportExportView extends MnView
   template: importExportTemplate
   ui:
     viewButton: '.view'
@@ -111,7 +109,7 @@ class ImportExportView extends Marionette.View
   viewDatabase: ->
     @_exportDatabase().then (data) =>
       view = new DatabaseView
-        model: new Backbone.Model data
+        model: new Model data
       @showChildView 'dbView', view
       @ui.viewButton.hide()
       
@@ -145,7 +143,7 @@ class ImportExportView extends Marionette.View
     @ui.importButton.hide()
     
 
-class MainView extends Marionette.View
+class MainView extends MnView
   regions:
     body: '.body'
   template: tc.renderable (model) ->
@@ -156,8 +154,8 @@ class MainView extends Marionette.View
     app = MainChannel.request 'main:app:object'
     dbConn = app.getState('dbConn')
     
-    @collection = new Backbone.Collection
-    view = new Marionette.CollectionView
+    @collection = new Collection
+    view = new CollectionView
       collection: @collection
       childView: ImportExportView
     @showChildView 'body', view
@@ -167,7 +165,6 @@ class MainView extends Marionette.View
         name: key
         conn: dbConn[key]
     
-      
-module.exports = MainView
+export default MainView
 
 

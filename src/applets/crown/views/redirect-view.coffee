@@ -1,10 +1,9 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
 
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     tc.div '..text-center.listview-header', ->
       tc.text "Redirect View"

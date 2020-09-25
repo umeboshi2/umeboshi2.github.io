@@ -1,21 +1,21 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import BaseModalView from 'common/base-modal-view'
 import HasJsonView from 'common/has-jsonview'
 import indexModels from 'common/index-models'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'pmc'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'pmc'
 
 
-class SimpleEntry extends Marionette.View
+class SimpleEntry extends MnView
   template: tc.renderable (model) ->
     tc.div tc.text model.id
 
-class SimpleInfoEntry extends Marionette.View
+class SimpleInfoEntry extends MnView
   behaviors: [HasJsonView]
   template: tc.renderable (model) ->
     tc.div '.jsonview'
@@ -45,7 +45,7 @@ class ModalTopicsView extends BaseModalView
     collection = eventManager.collections.topics
     if not collection.length
       eventManager.initTopics()
-    view = new Marionette.CollectionView
+    view = new CollectionView
       collection: collection
       viewComparator: 'name'
       childView: TopicEntryView
@@ -57,7 +57,7 @@ class ModalTopicsView extends BaseModalView
     fmtopics = AppChannel.request 'get-fmtopic-collection'
     console.log "topics, fmtopics", topics, fmtopics
     thisView = @
-    model = new Backbone.Model
+    model = new Model
       topics: topics
       fmtopics: fmtopics
       eventIndex: indexModels.eventIndex

@@ -1,7 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Radio } from 'backbone'
 import tc from 'teacup'
-import ms from 'ms'
 import { decode } from 'url-safe-base64'
 
 import ToolbarView from 'tbirds/views/button-toolbar'
@@ -12,9 +10,9 @@ import indexModels from 'common/index-models'
 import EventManager from 'common/event-manager'
 import './dbchannel'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 eventIndex = indexModels.eventIndex
 cvlinks = indexModels.cvlinks
@@ -84,7 +82,7 @@ class Controller extends MainController
     require.ensure [], () =>
       View = require('./views/redirect-view').default
       view = new View
-        model: new Backbone.Model url: atob decode encoded
+        model: new Model url: atob decode encoded
       @layout.showChildView 'content', view
     # name the chunk
     , 'crown-view-redirect'

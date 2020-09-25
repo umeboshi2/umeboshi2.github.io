@@ -1,17 +1,13 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
-import tc from 'teacup'
-import ms from 'ms'
-
+import { Radio } from 'backbone'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
 import indexModels from 'common/index-models'
 import './dbchannel'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'pmc'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'pmc'
 
 class Controller extends MainController
   channelName: 'pmc'

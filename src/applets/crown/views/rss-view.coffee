@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import X2JS from 'x2js'
@@ -8,24 +8,22 @@ import moment from "moment"
 JView = require 'json-view'
 require 'json-view/devtools.css'
 
-import navigate_to_url from 'tbirds/util/navigate-to-url'
-
-class QRSSModel extends Backbone.Model
+class QRSSModel extends Model
   #url: 'https://www.qmap.pub/api/rss?lang=en'
 
-class RSSModel extends Backbone.Model
+class RSSModel extends Model
   initialize: (attributes, options) ->
     @url = options.url
   parse: (data) ->
     x2js = new X2JS()
     return x2js.xml2js data
 
-class HeaderView extends Marionette.View
+class HeaderView extends MnView
   template: tc.renderable (model) ->
     tc.h1 model.rss.channel.description
     
 
-class IndexView extends Marionette.View
+class IndexView extends MnView
   template: tc.renderable (model) ->
     channel = model.rss.channel
     for i in channel.item
@@ -37,7 +35,7 @@ class IndexView extends Marionette.View
           tc.div '.card-body', ->
             tc.raw i.description
 
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     tc.div '.row.listview-header'
     tc.div '.index-view'

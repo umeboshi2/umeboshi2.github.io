@@ -1,27 +1,25 @@
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-marked = require 'marked'
+import { Model, Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
+import tc from 'teacup'
 
-BootstrapFormView = require('tbirds/views/bsformview').default
-{ form_group_input_div } = require 'tbirds/templates/forms'
+import BootstrapFormView from 'tbirds/views/bsformview'
+import { form_group_input_div } from 'tbirds/templates/forms'
+import navigateToUrl from 'tbirds/util/navigate-to-url'
 
 
-scrollIcon = require 'node-noto-emoji/dist/scroll'
-clockIcon = require 'node-noto-emoji/dist/mantelpiece_clock'
+import scrollIcon from 'node-noto-emoji/dist/scroll'
+import clockIcon from 'node-noto-emoji/dist/mantelpiece_clock'
 
-navigate_to_url = require('tbirds/util/navigate-to-url').default
-HasJsonView = require('common/has-jsonview').default
-
-showModels = require '../librivox-books'
+import HasJsonView from 'common/has-jsonview'
+import showModels from '../librivox-books'
     
-AppChannel = Backbone.Radio.channel 'netark'
+AppChannel = Radio.channel 'netark'
 
-class SearchModel extends Backbone.Model
+class SearchModel extends Model
   url: "/api/dev/proxy/https://archive.org/advancedsearch.php"
   
 
-class JsonView extends Marionette.View
+class JsonView extends MnView
   template: tc.renderable (model) ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
@@ -40,7 +38,7 @@ class SearchForm extends BootstrapFormView
   ui:
     query: '#input_query'
   createModel: ->
-    return new Backbone.Model
+    return new Model
 
   updateModel: ->
     console.log "model", @model, @ui
@@ -49,7 +47,7 @@ class SearchForm extends BootstrapFormView
     console.log "model", @model
     @trigger 'save:form:success', @model
 
-class ResultEntry extends Marionette.View
+class ResultEntry extends MnView
   template: tc.renderable (model) ->
     tc.div '.listview-list-entry', ->
       tc.div model.title
@@ -68,10 +66,10 @@ class ResultEntry extends Marionette.View
     @showChildView 'objectView', jview
   buttonClicked: ->
     id = @model.get 'identifier'
-    navigate_to_url "#netark/view/#{id}"
+    navigateToUrl "#netark/view/#{id}"
     
     
-class ResultsView extends Marionette.View
+class ResultsView extends MnView
   template: tc.renderable ->
     tc.div '.items'
   ui:
@@ -79,17 +77,15 @@ class ResultsView extends Marionette.View
   regions:
     itemList: '@ui.itemList'
   onRender: ->
-    #data = @model.toJSON()
-    #collection = new Backbone.Collection data.response.docs
     collection = @collection
-    view = new Marionette.CollectionView
+    view = new CollectionView
       childView: ResultEntry
       collection: collection
     @showChildView 'itemList', view
     
     
   
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable ->
     tc.div '.listview-header', ->
       tc.img '.mr-3.mb-1', src:scrollIcon, style:"height:2rem;width:2rem"
@@ -115,7 +111,6 @@ class MainView extends Marionette.View
     s.query = model.get 'query'
     response = s.fetch()
     response.done =>
-      console.log "SSSSSS", s
       view = new ResultsView
         collection: s
       window.searchResults = s
@@ -126,6 +121,4 @@ class MainView extends Marionette.View
     
 queryPrelingerCollection = "mediatype:collection collection:prelinger "
     
-    
-module.exports = MainView
-
+export default MainView

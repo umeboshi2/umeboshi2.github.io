@@ -1,11 +1,11 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
 
 import Controller from './controller'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'frontdoor'
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'frontdoor'
 
 appletEntries = [
   {
@@ -28,6 +28,10 @@ appletEntries = [
     label: "Internet Archive"
     url: "#netark"
     icon: '.fa.fa-wrench'
+  },{
+    label: "Eliza"
+    url: "#eliza"
+    icon: '.fa.fa-terminal'
   }
 ]
 
@@ -42,7 +46,7 @@ if __DEV__
     url: "#bumblr"
     icon: '.fa.fa-photo'
   
-class Router extends Marionette.AppRouter
+class Router extends AppRouter
   appRoutes:
     # handle empty route
     '': 'viewIndex'

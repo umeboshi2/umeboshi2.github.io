@@ -1,6 +1,5 @@
 import _ from 'underscore'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Collection, Radio } from 'backbone'
 import qs from 'qs'
 import X2JS from 'x2js'
 import { LoveStore } from 'backbone.lovefield'
@@ -8,8 +7,8 @@ import PageableCollection from 'backbone.paginator'
 
 import indexModels from 'common/index-models'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'pmc'
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'pmc'
 
 dbConn = MainChannel.request 'main:app:dbConn', 'common'
 
@@ -17,7 +16,7 @@ PMCFrontMatterStore = new LoveStore dbConn, 'PMCFrontMatter'
 
 fmFields = ['id', 'content']
 
-export class FrontMatterModel extends Backbone.Model
+export class FrontMatterModel extends Model
   loveStore: PMCFrontMatterStore
   toJSON: ->
     data = {}
@@ -39,7 +38,7 @@ export class FrontMatterModel extends Backbone.Model
     return pmh.GetRecord.record.metadata.article.front
     
     
-export class FrontMatterCollection extends Backbone.Collection
+export class FrontMatterCollection extends Collection
   loveStore: PMCFrontMatterStore
   model: FrontMatterModel
 
@@ -58,7 +57,7 @@ AppChannel.reply 'make-fm-pageable', ->
   
 
 
-export class RemoteModel extends Backbone.Model
+export class RemoteModel extends Model
   url: ->
     oaiIdentifier = (id) ->
       return "oai:pubmedcentral.nih.gov:#{id}"

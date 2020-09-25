@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Radio} from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import { encode } from 'url-safe-base64'
@@ -7,9 +7,9 @@ import { encode } from 'url-safe-base64'
 import make_field_input_ui from 'tbirds/util/make-field-input-ui'
 { form_group_input_div } = require 'tbirds/templates/forms'
 
-MessageChannel = Backbone.Radio.channel 'messages'
+MessageChannel = Radio.channel 'messages'
 
-class MainView extends Marionette.View
+class MainView extends MnView
   fieldList: ['url']
   template: tc.renderable (model) ->
     tc.div '.text-center.listview-header', ->
@@ -35,7 +35,7 @@ class MainView extends Marionette.View
     'input @ui.url': 'updateModel'
     'click @ui.copyBtn': 'copyBtnClicked'
   createModel: ->
-    return new Backbone.Model
+    return new Model
   generateURL: ->
     loc = window.location
     r = encode btoa @ui.url.val()

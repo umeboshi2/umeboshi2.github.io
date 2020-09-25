@@ -1,19 +1,11 @@
 import _ from 'underscore'
-import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
 import yaml from 'js-yaml'
 
 import NoCacheModel from './nocache-model'
 
-
-#$ = require 'jquery'
-#_ = require 'underscore'
-#Backbone = require 'backbone'
-#Marionette = require 'backbone.marionette'
-
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
 
 class TextModel extends NoCacheModel
   fetch: (options) ->

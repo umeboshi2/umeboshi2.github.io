@@ -1,8 +1,8 @@
 import 'babel-polyfill'
 import $ from 'jquery'
 import _ from 'underscore'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio, Model } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 
 import 'bootstrap'
 import 'font-awesome/scss/font-awesome.scss'
@@ -30,7 +30,7 @@ if not String.prototype.startsWith
 
 if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
-  Backbone.Radio.DEBUG = true
+  Radio.DEBUG = true
 
 require 'tbirds/applet-router'
 IsEscapeModal = require('tbirds/behaviors/is-escape-modal').default
@@ -38,8 +38,8 @@ IsEscapeModal = require('tbirds/behaviors/is-escape-modal').default
 
 require '../common/static-documents'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
 
 $(document).ajaxError (event, xhr) ->
   if __DEV__
@@ -51,7 +51,7 @@ $(document).ajaxError (event, xhr) ->
 if __DEV__
   require '../inspector'
   
-currentUser = new Backbone.Model
+currentUser = new Model
   isGuest: true
   name: 'Guest'
   fullname: 'Guest User'
@@ -60,7 +60,7 @@ currentUser = new Backbone.Model
 MainChannel.reply 'main:app:currentUser', ->
   return currentUser
 
-class BaseModalView extends Marionette.View
+class BaseModalView extends MnView
   behaviors: [IsEscapeModal]
   ui:
     close_btn: '#close-modal div'

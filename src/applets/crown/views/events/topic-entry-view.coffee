@@ -1,8 +1,7 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
-class TopicEntryView extends Marionette.View
+class TopicEntryView extends MnView
   className: "form-group form-check"
   template: tc.renderable (model) ->
     tc.input '.form-check-input', type:'checkbox'

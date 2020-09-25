@@ -1,25 +1,25 @@
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-marked = require 'marked'
+import { Model, Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
+import tc from 'teacup'
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
-HasJsonView = require('common/has-jsonview').default
-PaginateBar = require('tbirds/views/paginate-bar').default
+import HasJsonView from 'common/has-jsonview'
+import PaginateBar from 'tbirds/views/paginate-bar'
 
-AppChannel = Backbone.Radio.channel 'netark'
+
+AppChannel = Radio.channel 'netark'
     
 view_template = tc.renderable (model) ->
   tc.div '.row.listview-list-entry', ->
-    tc.raw marked "# #{model.appName} started."
+    tc.h1 "#{model.appName} started."
 
-class MediaView extends Marionette.View
+
+class MediaView extends MnView
   template: tc.renderable (model) ->
     tc[model.mediaType] controls:'', autoplay:'', src:model.url
   templateContext: ->
     mediaType: @getOption 'mediaType'
     
-class Entry extends Marionette.View
+class Entry extends MnView
   template: tc.renderable (model) ->
     name = model?.title or model.name
     tc.div '.listview-list-entry', ->
@@ -40,21 +40,21 @@ class Entry extends Marionette.View
     #@playAudio()
     url = @getAudioUrl()
     view = new MediaView
-      model: new Backbone.Model url:url
+      model: new Model url:url
       mediaType: @getOption 'mediaType'
     @showChildView 'mediaView', view
     
     
     
 
-class EntryCollectionView extends Marionette.CollectionView
+class EntryCollectionView extends CollectionView
   childView: Entry
   childViewOptions: ->
     mainModel: @model
     mediaType: @getOption 'mediaType'
     
 
-class MetadataView extends Marionette.View
+class MetadataView extends MnView
   template: tc.renderable (model) ->
     tc.div '.listview-header', model.metadata.title
     files = model.files
@@ -107,7 +107,7 @@ class MetadataView extends Marionette.View
       cfiles = orig
       console.log "CFILES", cfiles
       mediaType = 'video'
-    collection = new Backbone.Collection cfiles
+    collection = new Collection cfiles
     view = new EntryCollectionView
       collection: collection
       model: @model
@@ -119,14 +119,14 @@ class MetadataView extends Marionette.View
     @ui.notes.toggle()
     
     
-class JsonView extends Marionette.View
+class JsonView extends MnView
   template: tc.renderable (model) ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
     HasJsonView:
       behaviorClass: HasJsonView
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable ->
     tc.div '.metadata-view'
     tc.div '.object-view'
@@ -146,5 +146,5 @@ class MainView extends Marionette.View
       model: @model
     @showChildView 'metadataView', mview
     
-module.exports = MainView
+export default MainView
 

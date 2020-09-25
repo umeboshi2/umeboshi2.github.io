@@ -1,10 +1,9 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
 
-class ButtonInput extends Marionette.View
+class ButtonInput extends MnView
   templateContext: ->
     buttonText: @getOption('buttonText') or "Search"
     placeholder: @getOption('placeholder') or "Enter search term"

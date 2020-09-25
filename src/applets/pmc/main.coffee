@@ -1,5 +1,4 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
 import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
 import capitalize from 'tbirds/util/capitalize'
@@ -8,8 +7,8 @@ import Controller from './controller'
 
 appName = 'pmc'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel appName
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel appName
 
 
 appletMenu = [

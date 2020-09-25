@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import { Calendar } from '@fullcalendar/core'
@@ -13,9 +13,9 @@ import '@fullcalendar/daygrid/main.css'
 import '@fullcalendar/timegrid/main.css'
 import '@fullcalendar/list/main.css'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 loadingCalendarEvents = (isTrue) ->
   console.log "loadingCalendarEvents", isTrue
@@ -28,7 +28,7 @@ loadingCalendarEvents = (isTrue) ->
     loading.hide()
     header.show()
 
-class CalendarView extends Marionette.View
+class CalendarView extends MnView
   template: tc.renderable (model) ->
     tc.div '#loading', style:'display: none;', ->
       tc.h2 ->

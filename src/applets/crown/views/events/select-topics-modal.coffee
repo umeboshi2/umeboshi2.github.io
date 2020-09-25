@@ -1,13 +1,13 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import TopicEntryView from './topic-entry-view'
 import BaseModalView from 'common/base-modal-view'
 
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'crown'
+MainChannel = Radio.channel 'global'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
 
@@ -33,7 +33,7 @@ class ModalTopicsView extends BaseModalView
     collection = eventManager.collections.categories
     if not collection.length
       eventManager.initCategories()
-    view = new Marionette.CollectionView
+    view = new CollectionView
       collection: collection
       viewComparator: 'name'
       childView: TopicEntryView

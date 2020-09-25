@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
 import _ from 'underscore'
@@ -12,10 +12,10 @@ import makeDOIurl from 'common/make-doi-url'
 
 import ModalTopicsView from './manage-topics-modal'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel 'pmc'
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'pmc'
 
-class PMCFrontMatter extends Marionette.View
+class PMCFrontMatter extends MnView
   behaviors: [HasJsonView]
   template: tc.renderable (model) ->
     meta = jpath('*..article-meta', model)[0]

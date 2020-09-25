@@ -1,14 +1,11 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import marked from 'marked'
-import $ from 'jquery'
-import moment from 'moment'
 import _ from 'underscore'
 
 import LinkEntryView from 'common/link-entry-view'
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
 getTopics = (string) ->
   if not string?
@@ -31,7 +28,7 @@ filterEvents = (events, topics) ->
         filtered.push e
   return filtered
   
-class LinkView extends Marionette.View
+class LinkView extends MnView
   templateContext: ->
     viewTitle: @getOption 'title'
     viewTopics: @getOption 'topics'
@@ -49,10 +46,10 @@ class LinkView extends Marionette.View
     topics = getTopics @getOption 'topics'
     if topics.length
       filtered = filterEvents events, topics
-      collection = new Backbone.Collection filtered
+      collection = new Collection filtered
     else
-      collection = new Backbone.Collection events
-    view = new Marionette.CollectionView
+      collection = new Collection events
+    view = new CollectionView
       collection: collection
       viewComparator: 'start'
       childView: LinkEntryView

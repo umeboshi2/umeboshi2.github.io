@@ -1,17 +1,17 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
 import $ from 'jquery'
-import moment from 'moment'
 
 import LinkView from './link-view'
 import VideoView from './video-view'
 
 import navigateToUrl from 'tbirds/util/navigate-to-url'
-MainChannel = Backbone.Radio.channel 'global'
 
-class MenuBar extends Marionette.View
+MainChannel = Radio.channel 'global'
+
+class MenuBar extends MnView
   className: 'btn-group'
   template: tc.renderable (model) ->
     tc.button '.home-btn.btn.btn-outline-warning.btn-sm.fa.fa-home', 'Home'
@@ -28,7 +28,7 @@ class MenuBar extends Marionette.View
     parent = @model.get 'parent'
     navigateToUrl parent
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (post) ->
     tc.div '.menu-bar'
     tc.article '.document-view.content.row', ->
@@ -89,7 +89,7 @@ class MainView extends Marionette.View
     @showVidViews()
     if @ui.menuData.length
       view = new MenuBar
-        model: new Backbone.Model
+        model: new Model
           parent: @ui.menuData.attr('data-parent')
       @showChildView 'menuBar', view
     

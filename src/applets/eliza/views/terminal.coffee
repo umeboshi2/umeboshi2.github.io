@@ -1,5 +1,5 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
 #import { hterm, lib } from 'hterm-umdjs'
@@ -16,10 +16,8 @@ import Worker from 'worker-loader!../worker'
 
 worker = new Worker()
 
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
-
-MessageChannel = Backbone.Radio.channel 'messages'
-AppChannel = Backbone.Radio.channel 'eliza'
+MessageChannel = Radio.channel 'messages'
+AppChannel = Radio.channel 'eliza'
 
 class MyTerminal extends Terminal
   prompt: ->
@@ -46,7 +44,7 @@ makeTerm = ->
       currentInput += key
   return term
 
-class TerminalView extends Marionette.View
+class TerminalView extends MnView
   template: false
   className: 'my-xterm'
   ui:
