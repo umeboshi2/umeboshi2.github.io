@@ -48,11 +48,11 @@ class MainView extends Marionette.View
     tc.div '.input-group', ->
       tc.div '.input-group-prepend', ->
         tc.button '.input-group-text.btn.btn-outline-warning',
-        for:'select-topic', "Topic"
-      tc.select '#select-topic.custom-select', ->
-        tc.option value:'', selected:'', "(no topic)"
-        for name of model.topics
-          if model.topics[name].pmc_ids.length
+        for:'select-category', "Category"
+      tc.select '#select-category.custom-select', ->
+        tc.option value:'', selected:'', "(no category)"
+        for name of model.categories
+          if model.categories[name].pmc_ids.length
             tc.option value:name, name
     tc.div '.content'
   ui:
