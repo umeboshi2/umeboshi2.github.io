@@ -13,4 +13,4 @@ globals:
   DEBUG: true
   require: true
   __useCssModules__: true
-  
+  process: true
