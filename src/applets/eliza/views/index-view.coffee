@@ -1,8 +1,7 @@
-import { Model, Collection, Radio } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
-import ToolbarView from 'tbirds/views/button-toolbar'
 import ElizaToolbar from './toolbar'
 
 import TerminalView from './terminal'
@@ -13,20 +12,17 @@ Terminal.applyAddon fit
 
 import Worker from 'worker-loader!../worker'
 
+  
 import Intro from "raw-loader!../intro.md"
 
 worker = new Worker()
+if __DEV__ and DEBUG
+  console.log "worker", worker
 
 MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'eliza'
 
-class IntroView extends MnView
-  template: tc.renderable (model) ->
-    tc.article ->
-      tc.raw marked Intro
-      
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.row.listview-header.justify-content-center', 'ELIZA Terminal'
     tc.div '.row.intro'
     tc.div '.row.justify-content-center', ->
@@ -46,7 +42,7 @@ class MainView extends MnView
     view = new ElizaToolbar
     @showChildView 'toolbar', view
     iview = new MnView
-      template: tc.renderable (model) ->
+      template: tc.renderable ->
         tc.raw marked Intro
     @showChildView 'intro', iview
   childViewEvents:

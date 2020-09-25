@@ -1,10 +1,5 @@
-import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
-import tc from 'teacup'
-import marked from 'marked'
 #import { hterm, lib } from 'hterm-umdjs'
-import ToolbarView from 'tbirds/views/button-toolbar'
-import ElizaToolbar from './toolbar'
 
 import { Terminal } from 'xterm'
 import * as fit from 'xterm/lib/addons/fit/fit'
@@ -15,9 +10,6 @@ Terminal.applyAddon fit
 import Worker from 'worker-loader!../worker'
 
 worker = new Worker()
-
-MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'eliza'
 
 class MyTerminal extends Terminal
   prompt: ->
