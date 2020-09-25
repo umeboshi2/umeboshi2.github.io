@@ -30,7 +30,7 @@ class Controller extends MainController
     
   _viewResource: (doc, name) ->
     require.ensure [], () =>
-      View = require './views/index-view'
+      View = require('./views/index-view').default
       view = new View
         model: doc
         pageName: name
