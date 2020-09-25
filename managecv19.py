@@ -83,7 +83,7 @@ def create_event_index_file(content):
 
 
 def get_event_topics(parsed_yaml):
-    main_data = dict(main_topic=parsed_yaml['topic'])
+    main_data = dict(main_topic=parsed_yaml['category'])
     events = parsed_yaml['events']
     # print("Events", events)
     topic_set = set()
@@ -100,18 +100,18 @@ def get_event_topics(parsed_yaml):
     return main_data
 
 def check_event_links(parsed_yaml):
-    topic = parsed_yaml['topic']
+    category = parsed_yaml['category']
     events = parsed_yaml['events']
     for e in events:
         link = e['link']
         if link.endswith(')'):
-            raise RuntimeError("Bad link for {}: {}".format(topic, link))
+            raise RuntimeError("Bad link for {}: {}".format(category, link))
         if 'extra' in e:
             for ex in e['extra']:
                 link = ex['link']
                 if link.endswith(')'):
                     raise RuntimeError(
-                        "extra Bad link for {}: {}".format(topic, link))
+                        "extra Bad link for {}: {}".format(category, link))
 
 
 def get_pmc_ids(parsed_yaml):
@@ -134,25 +134,25 @@ def get_pmc_ids(parsed_yaml):
 def generate_topic_database(yaml_files):
     yaml_files = sorted(yaml_files)
     main_data = dict()
-    main_data['topics'] = dict()
-    tdict = main_data['topics']
+    main_data['categories'] = dict()
+    tdict = main_data['categories']
     for node in yaml_files:
         if not node.name.endswith('.yml'):
             raise RuntimeError("Need yaml file")
         parsed = yaml.safe_load(open(node))
         check_event_links(parsed)
-        topic = parsed['topic']
-        if topic in tdict:
-            raise RuntimeError("Topic {} already exists.".format(topic))
-        tdict[topic] = dict(filename=node.name[:-4], name=topic)
-        tdict[topic]['topics'] = get_event_topics(parsed)['topics']
-        tdict[topic]['pmc_ids'] = get_pmc_ids(parsed)
-    subtopic_dict = collections.defaultdict(list)
-    for topic in sorted(tdict.keys()):
-        sublist = sorted(tdict[topic]['topics'])
+        category = parsed['category']
+        if category in tdict:
+            raise RuntimeError("Topic {} already exists.".format(category))
+        tdict[category] = dict(filename=node.name[:-4], name=category)
+        tdict[category]['topics'] = get_event_topics(parsed)['topics']
+        tdict[category]['pmc_ids'] = get_pmc_ids(parsed)
+    topic_dict = collections.defaultdict(list)
+    for category in sorted(tdict.keys()):
+        sublist = sorted(tdict[category]['topics'])
         for sub in sublist:
-            subtopic_dict[sub].append(topic)
-    main_data['subtopics'] = subtopic_dict
+            topic_dict[sub].append(category)
+    main_data['topics'] = topic_dict
     return main_data
 
 
