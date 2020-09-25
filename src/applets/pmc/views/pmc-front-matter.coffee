@@ -1,8 +1,6 @@
 import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
-import _ from 'underscore'
 import { JSONPath as jpath } from 'jsonpath-plus'
 
 import HasJsonView from 'common/has-jsonview'
@@ -13,7 +11,6 @@ import makeDOIurl from 'common/make-doi-url'
 import ModalTopicsView from './manage-topics-modal'
 
 MainChannel = Radio.channel 'global'
-AppChannel = Radio.channel 'pmc'
 
 class PMCFrontMatter extends MnView
   behaviors: [HasJsonView]
@@ -73,7 +70,7 @@ class PMCFrontMatter extends MnView
       @ui.jsonView.hide()
   pmcAnchorClicked: (event) ->
     event.preventDefault()
-  deleteBtnClicked: (event) ->
+  deleteBtnClicked: ->
     response = @model.destroy()
     response.done =>
       @trigger 'model:destroyed'

@@ -1,10 +1,8 @@
 import { Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
 import _ from 'underscore'
 
-import indexModels from 'common/index-models'
 import ButtonInput from 'common/button-input'
 import PMCFrontMatter from './pmc-front-matter'
 
@@ -55,7 +53,7 @@ class SimpleEntry extends MnView
       
 
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.search-input'
     tc.div '.content'
   ui:

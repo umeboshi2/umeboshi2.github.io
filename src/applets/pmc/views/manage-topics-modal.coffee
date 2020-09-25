@@ -1,23 +1,20 @@
 import { Model, Radio } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import BaseModalView from 'common/base-modal-view'
 import HasJsonView from 'common/has-jsonview'
 import indexModels from 'common/index-models'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
+#import EventManager from 'common/event-manager'
+#eventManager = new EventManager
+
 AppChannel = Radio.channel 'pmc'
 
 
-class SimpleEntry extends MnView
-  template: tc.renderable (model) ->
-    tc.div tc.text model.id
-
 class SimpleInfoEntry extends MnView
   behaviors: [HasJsonView]
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.jsonview'
 
 class ModalTopicsView extends BaseModalView
@@ -41,15 +38,6 @@ class ModalTopicsView extends BaseModalView
   events:
     'click @ui.okBtn': 'okBtnClicked'
     'click @ui.closeBtn': 'emptyModal'
-  onRenderOrig: ->
-    collection = eventManager.collections.topics
-    if not collection.length
-      eventManager.initTopics()
-    view = new CollectionView
-      collection: collection
-      viewComparator: 'name'
-      childView: TopicEntryView
-    @showChildView 'topicsRegion', view
   okBtnClicked: ->
     console.log "OK clicked"
   onRender: ->
@@ -68,6 +56,5 @@ class ModalTopicsView extends BaseModalView
       view = new SimpleInfoEntry
         model: model
       thisView.showChildView 'content', view
-    
 
 export default ModalTopicsView

@@ -3,7 +3,6 @@ import { Model, Radio } from 'backbone'
 import qs from 'qs'
 import X2JS from 'x2js'
 
-MainChannel = Radio.channel 'global'
 AppChannel = Radio.channel 'pmc'
 
 class SearchModel extends Model

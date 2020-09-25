@@ -1,14 +1,9 @@
 import { Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
-import _ from 'underscore'
 
 import { FrontMatterCollection } from '../dbchannel/front-matter'
-import PaginateBar from 'tbirds/views/paginate-bar'
-import indexModels from 'common/index-models'
 import ButtonInput from 'common/button-input'
-import PMCFrontMatter from './pmc-front-matter'
 
 AppChannel = Radio.channel 'pmc'
 

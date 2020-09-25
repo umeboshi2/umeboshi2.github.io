@@ -5,8 +5,6 @@ import X2JS from 'x2js'
 import { LoveStore } from 'backbone.lovefield'
 import PageableCollection from 'backbone.paginator'
 
-import indexModels from 'common/index-models'
-
 MainChannel = Radio.channel 'global'
 AppChannel = Radio.channel 'pmc'
 

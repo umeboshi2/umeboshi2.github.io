@@ -1,16 +1,13 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Model, Collection, Radio } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import $ from 'jquery'
-import _ from 'underscore'
-
-import indexModels from 'common/index-models'
 
 import PMCEntry from './pmc-entry'
 
-AppChannel = Backbone.Radio.channel 'pmc'
+AppChannel = Radio.channel 'pmc'
 
-class TopicView extends Marionette.View
+class TopicView extends MnView
   className: 'list-group'
   template: tc.renderable (model) ->
     tc.h3 model.name
@@ -24,7 +21,7 @@ class TopicView extends Marionette.View
     'click @ui.showBtn': 'showBtnClicked'
   onRender: ->
     if not @getRegion('papers').hasView()
-      pmcModels = new Backbone.Collection []
+      pmcModels = new Collection []
       fmCollection = AppChannel.request 'get-fm-collection'
       @model.get('pmc_ids').forEach (pmcid) ->
         local = false
@@ -37,13 +34,13 @@ class TopicView extends Marionette.View
         model.isLocal = ->
           return local
         pmcModels.add model
-      view = new Marionette.CollectionView
+      view = new CollectionView
         collection: pmcModels
         childView: PMCEntry
       @showChildView 'papers', view
     
     
-class MainView extends Marionette.View
+class MainView extends MnView
   template: tc.renderable (model) ->
     tc.div '.input-group', ->
       tc.div '.input-group-prepend', ->
@@ -70,12 +67,12 @@ class MainView extends Marionette.View
     if not value
       region.empty()
     else
-      tdata = @model.get('topics')[value]
+      tdata = @model.get('categories')[value]
       fmCollection = AppChannel.request 'get-fm-collection'
       response = fmCollection.fetch()
       response.done ->
         view = new TopicView
-          model: new Backbone.Model tdata
+          model: new Model tdata
         region.show view
       
 export default MainView

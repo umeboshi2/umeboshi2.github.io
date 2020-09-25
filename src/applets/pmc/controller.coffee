@@ -5,8 +5,6 @@ import { ToolbarAppletLayout } from 'tbirds/views/layout'
 import indexModels from 'common/index-models'
 import './dbchannel'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'pmc'
 
 class Controller extends MainController

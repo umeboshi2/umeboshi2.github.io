@@ -1,15 +1,9 @@
 import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
 import _ from 'underscore'
-import qs from 'qs'
-import X2JS from 'x2js'
-import moment from "moment"
 
-import indexModels from 'common/index-models'
 import HasJsonView from 'common/has-jsonview'
-import JView from 'json-view'
 
 AppChannel = Backbone.Radio.channel 'pmc'
 
@@ -80,7 +74,7 @@ class PMCFrontMatter extends Marionette.View
       @ui.jsonView.hide()
   pmcAnchorClicked: (event) ->
     event.preventDefault()
-  deleteBtnClicked: (event) ->
+  deleteBtnClicked: ->
     fmCollection = AppChannel.request 'get-fm-collection'
     model = fmCollection.get @model.id
     response = model.destroy()

@@ -1,4 +1,3 @@
-import { Radio } from 'backbone'
 import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
 import capitalize from 'tbirds/util/capitalize'
@@ -6,10 +5,6 @@ import capitalize from 'tbirds/util/capitalize'
 import Controller from './controller'
 
 appName = 'pmc'
-
-MainChannel = Radio.channel 'global'
-AppChannel = Radio.channel appName
-
 
 appletMenu = [
   {

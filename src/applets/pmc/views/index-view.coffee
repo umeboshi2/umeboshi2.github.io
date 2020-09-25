@@ -1,11 +1,8 @@
 import { Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
-import _ from 'underscore'
 
 import PaginateBar from 'tbirds/views/paginate-bar'
-import indexModels from 'common/index-models'
 import PMCFrontMatter from './pmc-front-matter'
 
 AppChannel = Radio.channel 'pmc'
@@ -28,7 +25,7 @@ class SimpleEntry extends MnView
       @showChildView 'content', view
     
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.h3 '.text-center', "Local PMC Papers"
     tc.div '.paginate-bar'
     tc.div '.content'
