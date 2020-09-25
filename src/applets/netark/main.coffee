@@ -1,4 +1,3 @@
-import { Radio } from 'backbone'
 import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
 import capitalize from 'tbirds/util/capitalize'
@@ -7,9 +6,6 @@ import './dbchannel'
 import Controller from './controller'
 
 appName = 'netark'
-
-MainChannel = Radio.channel 'global'
-AppChannel = Radio.channel appName
 
 appletMenu = [
   {

@@ -2,11 +2,7 @@ $ = require 'jquery'
 import { Model, Radio } from 'backbone'
 import PageableCollection from 'backbone.paginator'
 
-MainChannel = Radio.channel 'global'
 AppChannel = Radio.channel 'netark'
-
-apiroot = "/api/dev/bapi"
-url = "#{apiroot}/todos"
 
 urlRoot = "https://archive.org/metadata"
 

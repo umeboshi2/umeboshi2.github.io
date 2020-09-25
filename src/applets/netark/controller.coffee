@@ -1,13 +1,7 @@
 import { Radio } from 'backbone'
-import tc from 'teacup'
-
-import ToolbarView from 'tbirds/views/button-toolbar'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
-ResourceChannel = Radio.channel 'resources'
 AppChannel = Radio.channel 'netark'
 
 class Controller extends MainController

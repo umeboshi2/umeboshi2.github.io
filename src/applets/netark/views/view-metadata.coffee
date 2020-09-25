@@ -3,16 +3,9 @@ import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import HasJsonView from 'common/has-jsonview'
-import PaginateBar from 'tbirds/views/paginate-bar'
-
 
 AppChannel = Radio.channel 'netark'
     
-view_template = tc.renderable (model) ->
-  tc.div '.row.listview-list-entry', ->
-    tc.h1 "#{model.appName} started."
-
-
 class MediaView extends MnView
   template: tc.renderable (model) ->
     tc[model.mediaType] controls:'', autoplay:'', src:model.url
@@ -87,7 +80,7 @@ class MetadataView extends MnView
   events:
     'click @ui.notesButton': 'notesButtonClicked'
     'click @ui.filesButton': 'filesButtonClicked'
-  filesButtonClicked: (event) ->
+  filesButtonClicked: ->
     files = @model.get 'files'
     mp3s = []
     orig = []
@@ -115,12 +108,12 @@ class MetadataView extends MnView
     @showChildView 'files', view
     @ui.filesButton.hide()
     
-  notesButtonClicked: (event) ->
+  notesButtonClicked: ->
     @ui.notes.toggle()
     
     
 class JsonView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
     HasJsonView:

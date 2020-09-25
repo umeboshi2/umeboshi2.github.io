@@ -1,4 +1,4 @@
-import { Model, Collection, Radio } from 'backbone'
+import { Model, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 
@@ -11,16 +11,17 @@ import scrollIcon from 'node-noto-emoji/dist/scroll'
 import clockIcon from 'node-noto-emoji/dist/mantelpiece_clock'
 
 import HasJsonView from 'common/has-jsonview'
-import showModels from '../librivox-books'
     
 AppChannel = Radio.channel 'netark'
 
 class SearchModel extends Model
   url: "/api/dev/proxy/https://archive.org/advancedsearch.php"
-  
+
+if __DEV__
+  console.log "SearchModel", SearchModel
 
 class JsonView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
   behaviors:
     HasJsonView:
@@ -120,5 +121,7 @@ class MainView extends MnView
 
     
 queryPrelingerCollection = "mediatype:collection collection:prelinger "
-    
+if __DEV__
+  console.log "queryPrelingerCollection", queryPrelingerCollection
+  
 export default MainView

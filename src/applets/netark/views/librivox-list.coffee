@@ -1,13 +1,9 @@
 import { Collection } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import marked from 'marked'
 
-import radioIcon from 'node-noto-emoji/dist/radio'
 import micIcon from 'node-noto-emoji/dist/microphone'
 import booksIcon from 'node-noto-emoji/dist/books'
-
-import HasJsonView from 'common/has-jsonview'
 
 import showModels from '../librivox-books'
 import headerTemplate from './header-template'
@@ -21,7 +17,7 @@ class Entry extends MnView
     link: 'a'
   events:
     'click @ui.link': 'linkClicked'
-  linkClicked: (event) ->
+  linkClicked: ->
     #event.preventDefault()
     console.log "show", @model.id
 
@@ -29,15 +25,6 @@ class EntryCollectionView extends CollectionView
   className: 'row'
   childView: Entry
 
-
-
-class JsonView extends MnView
-  template: tc.renderable (model) ->
-    tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
-  behaviors:
-    HasJsonView:
-      behaviorClass: HasJsonView
-    
 class MainView extends MnView
   template: tc.renderable ->
     headerTemplate

@@ -6,13 +6,10 @@ import scrollIcon from 'node-noto-emoji/dist/scroll'
 import clockIcon from 'node-noto-emoji/dist/mantelpiece_clock'
 import dangerIcon from 'node-noto-emoji/dist/radioactive_sign'
 
-import HasJsonView from 'common/has-jsonview'
-
-import showModels from '../librivox-books'
 import headerTemplate from './header-template'
 
 
-searchURl = "https://archive.org/services/search/v1/scrape?q=more_animation&count=100" # noqa
+# searchURl = "https://archive.org/services/search/v1/scrape?q=more_animation&count=100" # noqa
 
 pages = [
   {
@@ -39,22 +36,13 @@ class Entry extends MnView
     link: 'a'
   events:
     'click @ui.link': 'linkClicked'
-  linkClicked: (event) ->
+  linkClicked: ->
     #event.preventDefault()
     console.log "show", @model.id
 
 class EntryCollectionView extends CollectionView
   className: 'row'
   childView: Entry
-
-
-
-class JsonView extends MnView
-  template: tc.renderable (model) ->
-    tc.div '.jsonview.listview-list-entry', style:'overflow:auto'
-  behaviors:
-    HasJsonView:
-      behaviorClass: HasJsonView
 
 warning = "This is an experimental app. Many parts will not \
 work properly."
@@ -81,6 +69,6 @@ class MainView extends MnView
     @showChildView 'itemList', view
   templateContext:
     appName: 'netark'
-    
-module.exports = MainView
+
+export default MainView
 
