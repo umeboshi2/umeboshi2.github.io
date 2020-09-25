@@ -56,6 +56,7 @@ class MainView extends MnView
       vidViews.each (index) ->
         jv = $(this)
         id = jv.attr 'data-id'
+        jv.attr 'id', regionId
         regionId = "vid-region-#{index}"
         region = mainView.addRegion "vid-region-#{index}", "##{regionId}"
         view = new VideoView
@@ -74,6 +75,7 @@ class MainView extends MnView
         response = linkInfo.fetch()
         response.done ->
           regionId = "region-#{index}"
+          jv.attr 'id', regionId
           region = mainView.addRegion "region-#{index}", "##{regionId}"
           title = region.$el.attr('data-title')
           lview = new LinkView
