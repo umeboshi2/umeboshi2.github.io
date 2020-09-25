@@ -1,8 +1,6 @@
 import { Radio } from 'backbone'
 
 import createMainApp from 'tbirds/start-main-app'
-import objectEmpty from 'tbirds/util/object-empty'
-
 import indexModels from 'common/index-models'
 
 import './base'
@@ -14,7 +12,6 @@ import pmcSchema from 'applets/pmc/dbschema'
 import MainAppConfig from './index-config'
 
 MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 
 app = createMainApp MainAppConfig
 
@@ -46,7 +43,7 @@ schemas =
   
 dbConns = {}
 
-promises = Object.keys(schemas).map (key, index, array) ->
+promises = Object.keys(schemas).map (key) ->
   schemas[key].connect().then (db) ->
     dbConns[key] = db
     if __DEV__ and DEBUG

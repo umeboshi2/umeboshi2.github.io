@@ -1,9 +1,6 @@
-import { Radio} from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import moment from 'moment'
-
-MainChannel = Radio.channel 'global'
 
 class LinkEntryView extends MnView
   tagName: 'p'

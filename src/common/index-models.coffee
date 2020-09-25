@@ -1,9 +1,4 @@
-import { Radio } from 'backbone'
-
 import NoCacheModel from './nocache-model'
-
-MainChannel = Radio.channel 'global'
-AppChannel = Radio.channel 'crown'
 
 class CvLinks extends NoCacheModel
   url: '/assets/documents/cvlinks.json'

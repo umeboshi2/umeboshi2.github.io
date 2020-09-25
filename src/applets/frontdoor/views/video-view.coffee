@@ -1,8 +1,5 @@
-import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-
-MainChannel = Radio.channel 'global'
 
 makeEmbedUrl = (id) ->
   return "https://www.youtube.com/embed/#{id}"
@@ -21,7 +18,7 @@ class YTIframe extends MnView
     
 
 class VideoView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.vid-container'
     tc.button '.show-video-btn.btn.btn-outline-warning', ->
       tc.i '.fa.fa-youtube'

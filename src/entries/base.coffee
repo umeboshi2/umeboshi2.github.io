@@ -1,6 +1,5 @@
 import 'babel-polyfill'
 import $ from 'jquery'
-import _ from 'underscore'
 import { Radio, Model } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 
@@ -32,11 +31,11 @@ if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
   Radio.DEBUG = true
 
-require 'tbirds/applet-router'
+import 'tbirds/applet-router'
 IsEscapeModal = require('tbirds/behaviors/is-escape-modal').default
 
 
-require '../common/static-documents'
+import '../common/static-documents'
 
 MainChannel = Radio.channel 'global'
 MessageChannel = Radio.channel 'messages'

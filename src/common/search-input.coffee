@@ -1,11 +1,8 @@
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
-import _ from 'underscore'
-
 
 class SearchInput extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.input-group', ->
       tc.div '.input-group-prepend', ->
         tc.button '.input-group-text.btn.btn-outline-warning', "Search"

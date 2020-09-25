@@ -1,4 +1,4 @@
-import { Collection, Model, Radio } from 'backbone'
+import { Collection, Radio } from 'backbone'
 import { MnObject } from 'backbone.marionette'
 
 import indexModels from './index-models'

@@ -1,16 +1,14 @@
-path = require 'path'
-$= require 'jquery'
-Backbone = require 'backbone'
-Marionette = require 'backbone.marionette'
-tc = require 'teacup'
-marked = require 'marked'
+import $ from 'jquery'
+import { Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
+import tc from 'teacup'
 
-MainChannel = Backbone.Radio.channel 'global'
+MainChannel = Radio.channel 'global'
 
 THEMES = ['vanilla', 'cornsilk', 'BlanchedAlmond', 'DarkSeaGreen',
   'LavenderBlush']
 
-class ThemeSwitchView extends Backbone.Marionette.View
+class ThemeSwitchView extends MnView
   ui:
     stylesheet: '#main-stylesheet'
     theme: '.theme'
@@ -18,7 +16,7 @@ class ThemeSwitchView extends Backbone.Marionette.View
     'click @ui.theme': 'switch_theme'
   templateContext: ->
     ui: @ui
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div ->
       THEMES.forEach (theme) ->
         tc.div ".theme.btn.btn-default", theme
@@ -31,4 +29,4 @@ class ThemeSwitchView extends Backbone.Marionette.View
     MainChannel.request 'main:app:set-theme', theme
     MainChannel.request 'main:app:switch-theme', theme
     
-module.exports = ThemeSwitchView
+export default ThemeSwitchView

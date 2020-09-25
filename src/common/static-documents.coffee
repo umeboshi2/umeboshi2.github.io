@@ -5,7 +5,6 @@ import yaml from 'js-yaml'
 import NoCacheModel from './nocache-model'
 
 MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 
 class TextModel extends NoCacheModel
   fetch: (options) ->
@@ -14,14 +13,14 @@ class TextModel extends NoCacheModel
     super options
   
 
-class StaticDocument extends TextModel
+export class StaticDocument extends TextModel
   url: ->
     "/assets/documents/#{@id}.md"
   
   parse: (response) ->
     return content: response
 
-class EventData extends TextModel
+export class EventData extends TextModel
   url: ->
     "/assets/events/#{@id}.yml"
 
@@ -43,8 +42,3 @@ MainChannel.reply 'main:app:get-document', (name) ->
   model = new StaticDocument
     id: name
   return model
-
-  
-module.exports =
-  StaticDocument: StaticDocument
-  

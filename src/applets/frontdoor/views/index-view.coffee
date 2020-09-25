@@ -13,7 +13,7 @@ MainChannel = Radio.channel 'global'
 
 class MenuBar extends MnView
   className: 'btn-group'
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.button '.home-btn.btn.btn-outline-warning.btn-sm.fa.fa-home', 'Home'
     tc.button '.parent-bnt.btn.btn-outline-warning.btn-sm.fa.fa-arrow-up', 'Up'
   ui:
@@ -57,7 +57,6 @@ class MainView extends MnView
         jv = $(this)
         id = jv.attr 'data-id'
         regionId = "vid-region-#{index}"
-        rname = jv.attr 'id', regionId
         region = mainView.addRegion "vid-region-#{index}", "##{regionId}"
         view = new VideoView
           id: id
@@ -75,7 +74,6 @@ class MainView extends MnView
         response = linkInfo.fetch()
         response.done ->
           regionId = "region-#{index}"
-          rname = jv.attr 'id', regionId
           region = mainView.addRegion "region-#{index}", "##{regionId}"
           title = region.$el.attr('data-title')
           lview = new LinkView
@@ -92,7 +90,5 @@ class MainView extends MnView
         model: new Model
           parent: @ui.menuData.attr('data-parent')
       @showChildView 'menuBar', view
-    
-          
-module.exports = MainView
 
+export default MainView

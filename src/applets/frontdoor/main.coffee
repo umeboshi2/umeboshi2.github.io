@@ -1,11 +1,7 @@
-import { Radio } from 'backbone'
 import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
 
 import Controller from './controller'
-
-MainChannel = Radio.channel 'global'
-AppChannel = Radio.channel 'frontdoor'
 
 appletEntries = [
   {

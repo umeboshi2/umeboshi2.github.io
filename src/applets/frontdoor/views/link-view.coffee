@@ -1,11 +1,9 @@
-import { Collection, Radio } from 'backbone'
+import { Collection } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import _ from 'underscore'
 
 import LinkEntryView from 'common/link-entry-view'
-
-MainChannel = Radio.channel 'global'
 
 getTopics = (string) ->
   if not string?

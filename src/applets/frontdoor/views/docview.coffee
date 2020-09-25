@@ -1,14 +1,7 @@
 import path from 'path'
-import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
-
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'fromtdoor'
-
-
 
 class Renderer extends marked.Renderer
   link: (href, title, text) ->

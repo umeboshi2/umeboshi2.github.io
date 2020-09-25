@@ -4,14 +4,13 @@ import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import FileSaver from 'file-saver'
 import HasJsonView from 'common/has-jsonview'
-import exportToFile from 'tbirds/util/export-to-file'
+#import exportToFile from 'tbirds/util/export-to-file'
 
 #FileSaver = require 'file-saver'
 #exportToFile = require('tbirds/util/export-to-file').default
 
 MainChannel = Radio.channel 'global'
 MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'ebcsv'
 
 importExportTemplate = tc.renderable (model) ->
   tc.div '.listview-list-entry', ->
@@ -42,7 +41,7 @@ importExportTemplate = tc.renderable (model) ->
 
 class DatabaseView extends MnView
   behaviors: [HasJsonView]
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.jsonview'
     
 class ImportExportView extends MnView
@@ -71,14 +70,14 @@ class ImportExportView extends MnView
     'change @ui.fileInput': 'fileInputChanged'
 
   # https://stackoverflow.com/a/12102992
-  fileInputClicked: (event) ->
+  fileInputClicked: ->
     @ui.fileInput.val null
     @ui.importChosenButton.hide()
 
-  fileInputChanged: (event) ->
+  fileInputChanged: ->
     @ui.importChosenButton.show()
 
-  handleDrop: (event) ->
+  handleDrop: ->
     event.preventDefault()
     @$el.css 'border', '0px'
     dt = event.originalEvent.dataTransfer
@@ -146,7 +145,7 @@ class ImportExportView extends MnView
 class MainView extends MnView
   regions:
     body: '.body'
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.listview-header', ->
       tc.text "Indexed Database Admin"
     tc.div '.body'
