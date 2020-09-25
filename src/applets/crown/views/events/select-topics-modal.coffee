@@ -1,18 +1,16 @@
 import { Radio } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
+import { CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import TopicEntryView from './topic-entry-view'
 import BaseModalView from 'common/base-modal-view'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
 
 class ModalTopicsView extends BaseModalView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
         tc.div '.topics'

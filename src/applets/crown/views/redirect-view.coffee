@@ -1,7 +1,5 @@
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
-import _ from 'underscore'
 
 class MainView extends MnView
   template: tc.renderable (model) ->

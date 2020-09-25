@@ -2,12 +2,9 @@ import $ from 'jquery'
 import { Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import moment from 'moment'
 
 import LinkEntryView from 'common/link-entry-view'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
@@ -37,7 +34,7 @@ class TopicView extends MnView
     @showChildView 'eventsList', view
     
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.events-container'
   ui:
     clearBtn: '.btn-clear'
@@ -48,7 +45,7 @@ class MainView extends MnView
   events:
     'click @ui.clearBtn': 'clearCalendar'
   clearCalendar: ->
-    currentItems = []
+    eventManager.currentEvents.length = 0
   onRender: ->
     selectedCategories = eventManager.getSelectedCategories()
     view = new ListGroupView

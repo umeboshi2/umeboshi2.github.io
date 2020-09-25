@@ -1,15 +1,9 @@
-import { Radio } from 'backbone'
 import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
-import capitalize from 'tbirds/util/capitalize'
 
 import Controller from './controller'
 
 appName = 'crown'
-
-MainChannel = Radio.channel 'global'
-AppChannel = Radio.channel appName
-
 
 appletMenu = [
   {

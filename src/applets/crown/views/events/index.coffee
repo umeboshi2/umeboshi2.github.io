@@ -2,19 +2,13 @@ import $ from 'jquery'
 import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import moment from 'moment'
 
 import ModalTopicsView from './select-topics-modal'
 
 MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'crown'
 
-eventManager = AppChannel.request 'get-event-manager', 'events'
-
-    
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.btn-group', role:'group', ->
       tc.button '.topics-button.btn.btn-outline-warning', 'Select Topics'
       tc.button '.list-events-button.btn.btn-outline-warning', 'List Events'
@@ -34,12 +28,12 @@ class MainView extends MnView
     'click @ui.timelineBtn': 'showTimeline'
     'click @ui.calendarBtn': 'showCalendar'
     'click @ui.listEventsBtn': 'showEventList'
-  topicsBtnClicked: (event) ->
+  topicsBtnClicked: ->
     contentView = @getChildView 'content'
     view = new ModalTopicsView
       model: @model
     MainChannel.request 'show-modal', view
-    view.on 'topics:fetched', (event) =>
+    view.on 'topics:fetched', =>
       @ui.timelineBtn.show()
       @ui.calendarBtn.show()
       contentView.resetTopics()

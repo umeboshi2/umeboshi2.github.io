@@ -1,14 +1,9 @@
-#import { Collection, Radio } from 'backbone'
-#import { View as MnView, CollectionView } from 'backbone.marionette'
-import { Model, Collection, Radio } from 'backbone'
+import { Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
 
 import LinkEntryView from 'common/link-entry-view'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'topics'
@@ -48,7 +43,7 @@ class MainView extends MnView
     if not topics.length
       eventManager.initTopics()
     
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.card', ->
       tc.span '.card-title', ->
         tc.text "Subtopic Events"

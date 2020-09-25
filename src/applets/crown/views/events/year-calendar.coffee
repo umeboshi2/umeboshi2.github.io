@@ -11,13 +11,9 @@ import BaseModalView from 'common/base-modal-view'
 import LinkEntryView from 'common/link-entry-view'
 
 MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
-
-currentItems = []
-
 
 convertDate = (date) ->
   # A workaround for this issue
@@ -33,7 +29,7 @@ convertEvent = (event) ->
   event.name = event.title
 
 class ModalEventsView extends BaseModalView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
         tc.div '.events'
@@ -54,7 +50,7 @@ class ModalEventsView extends BaseModalView
     @showChildView 'eventsRegion', view
     
 class CalendarView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.maincalendar'
   ui:
     calendar: '.maincalendar'

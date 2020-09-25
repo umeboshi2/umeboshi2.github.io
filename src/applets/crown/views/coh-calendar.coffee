@@ -1,33 +1,19 @@
 import $ from 'jquery'
-import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import { Calendar } from '@fullcalendar/core'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
-import { DateTime } from 'luxon'
+#import { DateTime } from 'luxon'
 
 import '@fullcalendar/core/main.css'
 import '@fullcalendar/daygrid/main.css'
 import '@fullcalendar/timegrid/main.css'
 import '@fullcalendar/list/main.css'
 
-import navigateToUrl from 'tbirds/util/navigate-to-url'
-
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'crown'
-
-makeOrderFilename = (id) ->
-  return "exec_order_2020-#{id}.pdf"
-  
-makeOrderUrl = (id) ->
-  base = "http://www.hattiesburgms.com/wp-content/uploads/"
-  return base + makeOrderFilename id
-
 class CalendarView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '#maincalendar.col-sm-10.offset-sm-1'
   ui:
     calendar: '#maincalendar'
@@ -40,7 +26,7 @@ class CalendarView extends MnView
   onBeforeDestroy: ->
     cal = @fullCalendar.destroy()
     if __DEV__
-      console.log 'calendar destroyed'
+      console.log 'calendar destroyed', cal
   onDomRefresh: ->
     events = @model.get('events')
     calEvents = []
@@ -48,7 +34,6 @@ class CalendarView extends MnView
       event.extendedProps = link: event.link
       calEvents.push event
     calEventClick = (event) ->
-      id = event.event.id
       url = event.event.extendedProps.link
       window.open url, '_blank'
     date = new Date()

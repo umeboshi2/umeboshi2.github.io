@@ -1,35 +1,19 @@
 import $ from 'jquery'
-import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
 import { Calendar } from '@fullcalendar/core'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
-import { DateTime } from 'luxon'
+#import { DateTime } from 'luxon'
 
 import '@fullcalendar/core/main.css'
 import '@fullcalendar/daygrid/main.css'
 import '@fullcalendar/timegrid/main.css'
 import '@fullcalendar/list/main.css'
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'crown'
-
-loadingCalendarEvents = (isTrue) ->
-  console.log "loadingCalendarEvents", isTrue
-  loading = $('loading')
-  header = $('.fc-toolbar')
-  if isTrue
-    loading.show()
-    header.hide()
-  else
-    loading.hide()
-    header.show()
-
 class CalendarView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '#loading', style:'display: none;', ->
       tc.h2 ->
         tc.i '.fa.fa-spinner.fa-spin'
@@ -46,12 +30,14 @@ class CalendarView extends MnView
   onBeforeDestroy: ->
     cal = @fullCalendar.destroy()
     if __DEV__
-      console.log 'calendar destroyed'
+      console.log 'calendar destroyed', cal
   onDomRefresh: ->
     calEventClick = (event) ->
-      id = event.event.id
-      url = makeOrderUrl id
-      window.open url, '_blank'
+      if __DEV__
+        console.log "event", event
+      #id = event.event.id
+      #url = makeOrderUrl id
+      #window.open url, '_blank'
     date = new Date()
     # console.log '@ui.calendar', @ui.calendar.get(0)
     @fullCalendar = new Calendar @ui.calendar.get(0),

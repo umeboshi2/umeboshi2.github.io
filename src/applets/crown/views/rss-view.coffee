@@ -1,14 +1,12 @@
 import { Model } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
 import X2JS from 'x2js'
 import moment from "moment"
 
-JView = require 'json-view'
-require 'json-view/devtools.css'
+import 'common/json-view.css'
 
-class QRSSModel extends Model
+#class QRSSModel extends Model
   #url: 'https://www.qmap.pub/api/rss?lang=en'
 
 class RSSModel extends Model
@@ -36,7 +34,7 @@ class IndexView extends MnView
             tc.raw i.description
 
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.row.listview-header'
     tc.div '.index-view'
   ui:

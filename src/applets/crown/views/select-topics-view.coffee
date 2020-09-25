@@ -1,21 +1,14 @@
 import { Collection, Radio} from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
 
 import TopicEntryView from './events/topic-entry-view'
 import BaseModalView from 'common/base-modal-view'
 
 MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'topics'
-
-isMainTopicLoaded = (options) ->
-  o = options
-  console.log "topic is ", o.topic
-
 
 class TopicCollectionView extends CollectionView
   childView: TopicEntryView
@@ -31,7 +24,7 @@ class CategoryEntry extends MnView
     
 
 class CategoriesModal extends BaseModalView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
         tc.div '.categories'
@@ -58,7 +51,7 @@ class MainView extends MnView
     topics = eventManager.collections.topics
     if not topics.length
       eventManager.initTopics()
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.text-center.listview-header', ->
       tc.text "Topics View"
     tc.div '.card', ->

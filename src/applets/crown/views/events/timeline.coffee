@@ -5,17 +5,12 @@ import tc from 'teacup'
 import { Timeline } from "vis-timeline/standalone"
 
 
-MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventManager = AppChannel.request 'get-event-manager', 'events'
 
-currentItems = []
-
-
 class TimelineView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.maintimeline', style:'height: 300px; width: 400px;'
   ui:
     timeline: '.maintimeline'

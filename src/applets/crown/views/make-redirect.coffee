@@ -1,7 +1,6 @@
 import { Model, Radio} from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
-import $ from 'jquery'
 import { encode } from 'url-safe-base64'
 
 import make_field_input_ui from 'tbirds/util/make-field-input-ui'
@@ -11,7 +10,7 @@ MessageChannel = Radio.channel 'messages'
 
 class MainView extends MnView
   fieldList: ['url']
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.text-center.listview-header', ->
       tc.text "Create Redirect Link"
     tc.div ->

@@ -1,8 +1,6 @@
 import { Model, Radio } from 'backbone'
-import tc from 'teacup'
 import { decode } from 'url-safe-base64'
 
-import ToolbarView from 'tbirds/views/button-toolbar'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
@@ -11,7 +9,6 @@ import EventManager from 'common/event-manager'
 import './dbchannel'
 
 MainChannel = Radio.channel 'global'
-MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'crown'
 
 eventIndex = indexModels.eventIndex

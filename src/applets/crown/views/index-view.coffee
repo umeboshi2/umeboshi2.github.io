@@ -41,7 +41,7 @@ class PageEntryView extends MnView
     linksView: '@ui.linksView'
   events:
     'click @ui.linksBtn': 'linkBtnClicked'
-  linkBtnClicked: (event) ->
+  linkBtnClicked: ->
     region = @getRegion('linksView')
     if region.hasView()
       region.empty()
@@ -52,16 +52,13 @@ class PageEntryView extends MnView
       @ui.toggleIcon.removeClass 'fa-toggle-down'
       @ui.toggleIcon.addClass 'fa-toggle-up'
   showListView: ->
-    links = @model.get 'links'
-    name = @model.get 'name'
-    # console.log name, links
     view = new LinksView
       model: @model
     @showChildView 'linksView', view
     
 
 class MainView extends MnView
-  template: tc.renderable (model) ->
+  template: tc.renderable ->
     tc.div '.row.listview-header', ->
       tc.h1 "Index"
     tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
