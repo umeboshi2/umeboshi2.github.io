@@ -39,7 +39,7 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       blogs = AppChannel.request 'get-local-blogs'
-      SimpleBlogListView = require './views/bloglist'
+      SimpleBlogListView = require('./views/bloglist').default
       view = new SimpleBlogListView
         collection: blogs
       @layout.showChildView 'content', view
@@ -52,7 +52,7 @@ class Controller extends MainController
     require.ensure [], () =>
       host = "#{blog_id}.tumblr.com"
       collection = AppChannel.request 'make-blog-post-collection', host
-      BlogPostListView = require './views/postlist'
+      BlogPostListView = require('./views/postlist').default
       response = collection.fetch()
       response.done =>
         view = new BlogPostListView
@@ -69,7 +69,7 @@ class Controller extends MainController
       host = "#{blog_id}.tumblr.com"
       collection = AppChannel.request 'make-pix-collection', host
       window.pix = collection
-      View = require './views/picview'
+      View = require('./views/picview').default
       response = collection.getFirstPage()
       response.done =>
         view = new View
@@ -82,7 +82,7 @@ class Controller extends MainController
   addNewBlog: () ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      NewBlogFormView = require './views/newblog'
+      NewBlogFormView = require('./views/newblog').default
       view = new NewBlogFormView
       @layout.showChildView 'content', view
       scroll_top_fast()
