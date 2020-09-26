@@ -59,7 +59,7 @@ class PageEntryView extends MnView
 
 class MainView extends MnView
   template: tc.renderable ->
-    tc.div '.row.listview-header', ->
+    tc.div '.listview-header.text-center', ->
       tc.h1 "Index"
     tc.button '.refresh-btn.btn.btn-link.btn-sm', 'Refresh'
     tc.div '.index-view'
