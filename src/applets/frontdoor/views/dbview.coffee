@@ -146,7 +146,7 @@ class MainView extends MnView
   regions:
     body: '.body'
   template: tc.renderable ->
-    tc.div '.listview-header', ->
+    tc.div '.listview-header.text-center', ->
       tc.text "Indexed Database Admin"
     tc.div '.body'
   onRender: ->
