@@ -4,30 +4,17 @@ import tc from 'teacup'
 import marked from 'marked'
 import $ from 'jquery'
 
+import EventManager from 'common/event-manager'
+
+import MenuBar from './menu-bar'
 import LinkView from './link-view'
 import VideoView from './video-view'
-
-import navigateToUrl from 'tbirds/util/navigate-to-url'
-
+ 
 MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'frontdoor'
 
-class MenuBar extends MnView
-  className: 'btn-group'
-  template: tc.renderable ->
-    tc.button '.home-btn.btn.btn-outline-warning.btn-sm.fa.fa-home', 'Home'
-    tc.button '.parent-bnt.btn.btn-outline-warning.btn-sm.fa.fa-arrow-up', 'Up'
-  ui:
-    homeBtn: '.home-btn'
-    parentBtn: '.parent-bnt'
-  events:
-    'click @ui.homeBtn': 'homeBtnClicked'
-    'click @ui.parentBtn': 'parentBtnClicked'
-  homeBtnClicked: ->
-    navigateToUrl '#pages/blog/cv19/index'
-  parentBtnClicked: ->
-    parent = @model.get 'parent'
-    navigateToUrl parent
-    
+eventManager = AppChannel.request 'get-event-manager'
+
 class MainView extends MnView
   template: tc.renderable (post) ->
     tc.div '.menu-bar'
@@ -52,34 +39,42 @@ class MainView extends MnView
   showVidViews: ->
     vidViews = @ui.videoView
     if vidViews.length
+      console.log "vidViews", vidViews
       mainView = @
       vidViews.each (index) ->
         jv = $(this)
         id = jv.attr 'data-id'
-        jv.attr 'id', regionId
         regionId = "vid-region-#{index}"
+        jv.attr 'id', regionId
         region = mainView.addRegion "vid-region-#{index}", "##{regionId}"
         view = new VideoView
           id: id
         region.show view
-        
   showLinkViews: ->
     linkViews = @ui.linkView
+    if not eventManager.collections.categories.length
+      eventManager.initCategories()
+      console.log "initCategories", eventManager
     if linkViews.length
       mainView = @
       linkViews.each (index) ->
         jv = $(this)
-        eventsName = jv.attr('data-events')
+        category = jv.attr('data-category')
         topics = jv.attr("data-topics")
-        linkInfo = MainChannel.request 'main:app:get-events', eventsName
-        response = linkInfo.fetch()
-        response.done ->
+        models = eventManager.collections.categories.where name:category
+        if models.length != 1
+          MessageChannel.request 'error', "Category #{category} not found."
+        console.log "model", models[0]
+        models.pop().set('selected', true)
+        promises = eventManager.fetchEventModels()
+        Promise.all(promises).then ->
           regionId = "region-#{index}"
           jv.attr 'id', regionId
           region = mainView.addRegion "region-#{index}", "##{regionId}"
           title = region.$el.attr('data-title')
+          model = eventManager.getEventData category
           lview = new LinkView
-            model: linkInfo
+            model: model
             title: title
             topics: topics
           region.show lview
