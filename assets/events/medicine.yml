@@ -653,7 +653,7 @@ events:
     topics:
       - paper
       - transmission
-    pretext: "World Health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020 [Internet]. Geneva: World Health Organization; 2020 Available as a"
+    pretext: "World Health Organization. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) 16-24 February 2020 [Internet]. Geneva: World Health Organization; 2020"
     title: [PDF]
     link: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
   - start: 2020-03-04
@@ -1097,6 +1097,99 @@ events:
       - exercise
     title: Atlantic Storm
     link: https://en.wikipedia.org/wiki/Atlantic_Storm
-    
-    
+
+  - start: 2020-09-22
+    topics:
+      - news
+      - vaccination
+    journal: "Jon Rappoport's Blog"
+    title: How CDC/WHO will fake the effects of the COVID vaccine to make it look like a success
+    link: https://blog.nomorefakenews.com/2020/09/22/how-cdc-will-fake-effects-of-covid-vaccine-make-it-look-like-success/
+  - start: 2020-09-21
+    topics:
+      - news
+      - vaccination
+      - liability
+    journal: "Jon Rappoport's Blog"
+    title: "Exposed: There’s a new federal court to handle all the expected COVID vaccine-injury claims"
+    link: https://blog.nomorefakenews.com/2020/09/21/exposed-new-federal-court-to-handle-expected-covid-vaccine-injury-claims/
+  - start: 2020-03-17
+    topics:
+      - news
+      - public-notice
+      - vaccination
+      - liability
+    title: Declaration Under the Public Readiness and Emergency Preparedness Act for Medical Countermeasures Against COVID-19
+    link: https://www.federalregister.gov/documents/2020/03/17/2020-05484/declaration-under-the-public-readiness-and-emergency-preparedness-act-for-medical-countermeasures
+  - start: 2020-09-25
+    topics:
+      - news
+      - general-covid
+    authors: Denise Chow
+    journal: NBC News
+    title: Covid models predicted devastation in Africa — but 'the reality is starkly different'
+    link: https://www.msn.com/en-us/news/world/covid-models-predicted-devastation-in-africa-%E2%80%94-but-the-reality-is-starkly-different/ar-BB19pMQ2
+  - start: 2020-09-23
+    topics:
+      - news
+      - general-covid
+      - vaccination
+    authors: Elizabeth Chuck
+    journal: NBC News
+    title: Many parents are hesitant to give their kids a Covid-19 vaccine. What if schools require it?
+    link: https://www.nbcnews.com/news/us-news/many-parents-are-hesitant-give-their-kids-covid-19-vaccine-n1240741
+  - start: 2020-09-21
+    topics:
+      - news
+      - general-covid
+      - transmission
+    title: CDC says it erroneously posted guidance that said coronavirus spreads through air and travels beyond 6 feet
+    link: https://www.cnbc.com/2020/09/21/cdc-says-it-erroneously-posted-guidance-that-said-coronavirus-spreads-through-air-and-and-travel-beyond-six-feet.html
+  - start: 2020-09-21
+    topics:
+      - news
+      - general-covid
+      - pcr-testing
+    title: Chief Science Officer for Pfizer Says "Second Wave" Faked on False-Positive COVID Tests, "Pandemic is Over"
+    link: https://hubpages.com/politics/Pfizer-Chief-Science-Officer-Second-Wave-Based-on-Fake-Data-of-False-Positives-for-New-Cases-Pandemic-is-Over
+  - start: 2020-09-21
+    topics:
+      - paper
+      - general-covid
+      - pcr-testing
+    title: How Likely is a Second wave?
+    link: https://lockdownsceptics.org/addressing-the-cv19-second-wave/
+  - start: 2020-08-18
+    topics:
+      - paper
+      - general-covid
+      - pcr-testing
+    pretext: Unlike previous epidemics, in addressing COVID-19 nearly all
+     international health organizations and national health ministries have
+     treated a single positive result from a PCR-based test as confirmation of
+     infection, even in asymptomatic persons without any history of exposure.
+     This is based on a widespread belief that positive results in these tests
+     are highly reliable. However, data on PCR-based tests for similar viruses
+     show that PCR-based testing produces enough false positive results to make
+     positive results highly unreliable over a broad range of real-world
+     scenarios. This has clinical and case management implications, and affects
+     an array of epidemiological statistics, including the asymptomatic ratio,
+     prevalence, and hospitalization and death rates. Steps should be taken to
+     raise awareness of false positives, reduce their frequency, and mitigate
+     their effects. In the interim, positive results in asymptomatic individuals
+     that haven't been confirmed by a second test should be considered suspect.
+    journal: Medrxiv
+    title: "Diagnosing COVID-19 infection: the danger of over-reliance on positive test results"
+    link: https://www.medrxiv.org/content/10.1101/2020.04.26.20080911v3
+    extra:
+      - name: (PDF)
+        link: https://www.medrxiv.org/content/10.1101/2020.04.26.20080911v3.full.pdf
+      - name: (Supplementary Material)
+        link: https://www.medrxiv.org/content/10.1101/2020.04.26.20080911v3.supplementary-material
+  - start: 2020-09-22
+    topics:
+      - news
+      - vaccination
+    title: Physicians for Informed Consent Sends Cautionary Letter to UC Board of Regents Regarding Its New Flu Shot Mandate, Emphasizes Lack of Scientific Basis
+    link: https://physiciansforinformedconsent.org/physicians-for-informed-consent-sends-cautionary-letter-to-uc-board-of-regents-regarding-its-new-flu-shot-mandate-emphasizes-lack-of-scientific-basis/
     

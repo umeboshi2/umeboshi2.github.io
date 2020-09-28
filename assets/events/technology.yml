@@ -154,3 +154,21 @@ events:
     journal: Nano letters
     title: 3D Printing of Ordered Mesoporous Silica Complex Structures
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7496731/
+  - start: 2020-01-27
+    topics:
+      - news
+      - weather-modification
+    title: BPPT to Continue Weather Modification amid Criticism
+    link: https://en.tempo.co/read/1300095/bppt-to-continue-weather-modification-amid-criticism
+  - start: 2020-09-17
+    topics:
+      - news
+      - general-covid
+      - darpa
+      - hydrogel
+      - moderna
+      - mrna
+    title: A DARPA-Funded Implantable Biochip to Detect COVID-19 Could Hit Markets by 2021
+    link: https://www.mintpressnews.com/darpa-covid-19-vaccine-implant-mrna/271287/?fbclid=IwAR3TPyVLtxcxIm84e3yH1V6bki4Fo0baCPjbwXIXELwLw2Tr1VO3UdZ2Kd0
+    
+      

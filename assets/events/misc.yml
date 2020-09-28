@@ -335,3 +335,64 @@ events:
     journal: Scientific reports
     title: Diagnosis of thyroid nodules on ultrasonography by a deep convolutional neural network
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498581/
+  - start: 2020-09-24
+    topics:
+      - news
+      - general-covid
+      - virtual-classroom
+    title: 4th grade virtual learner gets suspended for having a BB gun in his bedroom
+    link: https://www.wvlt.tv/2020/09/25/4th-grade-virtual-learner-gets-suspended-for-having-a-bb-gun-in-his-bedroom/
+  - start: 2020-09-24
+    topics:
+      - news
+      - general-covid
+      - masks
+    title: Shocking moment woman is tased and arrested for not wearing a face mask at a middle school football game in Ohio
+    link: https://www.dailymail.co.uk/news/article-8768465/Woman-tased-arrested-not-wearing-face-mask-middle-school-football-game-Ohio.html
+  - start: 2020-09-25
+    topics:
+      - news
+      - general-covid
+      - masks
+      - vaccination
+    authors: Elizabeth Ralph
+    journal: Politico
+    title: Here’s How the Pandemic Finally Ends
+    link: https://www.politico.com/news/magazine/2020/09/25/how-covid-19-pandemic-ends-421122
+  - start: 2020-09-25
+    topics:
+      - news
+      - general-covid
+      - masks
+    title: Attorney says school district ‘misapplied law’ in arresting woman with no mask at football game
+    link: https://www.nbc4i.com/news/attorney-says-school-district-misapplied-law-in-arresting-woman-with-no-mask-at-football-game/
+  - start: 2020-09-25
+    topics:
+      - news
+      - general-covid
+      - masks
+    title: Arresting People For Not Wearing Masks Is Another Giant Step Toward Total Tyranny
+    link: http://themostimportantnews.com/archives/arresting-people-for-not-wearing-masks-is-another-giant-step-toward-total-tyranny
+  - start: 2020-09-25
+    topics:
+      - news
+      - general-covid
+    title: Florida's Governor Lifts All COVID-19 Restrictions On Businesses Statewide
+    link: https://www.npr.org/sections/coronavirus-live-updates/2020/09/25/916969969/floridas-governor-lifts-all-covid-19-restrictions-on-businesses-statewide
+  - start: 2000-08-03
+    topics:
+      - paper
+    title: "Resisting Unlawful Arrest in Mississippi: Resisting the Modern Trend"
+    link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=235760
+    extra:
+      - name: (PDF)
+        link: https://papers.ssrn.com/sol3/Delivery.cfm/000710365.pdf
+  - start: 2020-09-25
+    topics:
+      - news
+      - election
+    title: 10 things you need to know to stop a coup
+    link: https://wagingnonviolence.org/2020/09/10-things-you-need-to-know-to-stop-a-coup/
+    
+        
+
