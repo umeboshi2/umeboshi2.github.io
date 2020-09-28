@@ -1,6 +1,5 @@
 import { Radio } from 'backbone'
 import { CollectionView } from 'backbone.marionette'
-import tc from 'teacup'
 
 import CheckboxEntryView from 'tbirds/views/checkbox-entry'
 import BaseModalTopicsView from 'common/base-select-topics-modal'
