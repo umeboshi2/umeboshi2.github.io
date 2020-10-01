@@ -91,8 +91,8 @@ def get_event_topics(parsed_yaml):
         try:
             topics = e['topics']
         except KeyError:
-            print("No topic list in {}".format(parsed_yaml['topic']))
-            print(e)
+            print("No topic list in {}".format(parsed_yaml['category']))
+            print("EVENT IS {}".format(e))
             raise RuntimeError("Add a topic list to the event: {}".format(e))
         for t in topics:
             topic_set.add(t)
