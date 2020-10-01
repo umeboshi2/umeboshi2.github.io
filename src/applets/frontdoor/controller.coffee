@@ -4,16 +4,22 @@ import ToolbarView from 'tbirds/views/button-toolbar'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 import scroll_top_fast from 'tbirds/util/scroll-top-fast'
+import EventManager from 'common/event-manager'
 
 MainChannel = Radio.channel 'global'
 MessageChannel = Radio.channel 'messages'
-AppChannel = Radio.channel 'todos'
+AppChannel = Radio.channel 'frontdoor'
 
 toolbarEntries = []
 
 toolbarEntryCollection = new Collection toolbarEntries
 AppChannel.reply 'get-toolbar-entries', ->
   toolbarEntryCollection
+
+eventManager = new EventManager
+AppChannel.reply 'get-event-manager', ->
+  return eventManager
+
 
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
@@ -73,7 +79,7 @@ class Controller extends MainController
   viewDbAdmin: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require('./views/idbview').default
+      View = require('./views/dbview').default
       view = new View
       @layout.showChildView 'content', view
     # name the chunk
