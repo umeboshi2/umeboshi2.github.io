@@ -33,6 +33,16 @@ class EventManager extends MnObject
         selected: false
         topics: stMap[st]
     return
+  initAll: ->
+    if not @collections.categories.length
+      @initCategories()
+      if __DEV__
+        console.log "initCategories"
+    if not @collections.topics.length
+      @initTopics()
+      if __DEV__
+        console.log "initTopics"
+    return
   fetchEventModels: ->
     selected = @collections.categories.filter selected:true
     topicMap = eventIndex.get('categories')
@@ -58,6 +68,29 @@ class EventManager extends MnObject
       eventsModel = model.get 'content'
       topicEvents[topic] = eventsModel.getSubtopicEvents name
     return topicEvents
+
+  getTopicEvents: (topic) ->
+    categories = eventIndex.get('topics')[topic]
+    collection = new Collection
+    categories.forEach (category) ->
+      model = eventDataModels.get category
+      eventModel = eventDataModels.get(category).get('content')
+      events = eventModel.getSubtopicEvents topic
+      collection.add events
+    return collection
+  getManyTopicEvents: (topics) ->
+    topicEvents = {}
+    topics.forEach (topic) ->
+      topicEvents[topic] = new Collection
+      categories = eventIndex.get('topics')[topic]
+      categories.forEach (category) ->
+        model = eventDataModels.get category
+        eventModel = eventDataModels.get(category).get('content')
+        console.log "eventModel", eventModel
+        events = eventModel.getSubtopicEvents topic
+        topicEvents[topic].add events
+    return topicEvents
+    
   determineCategories: ->
     allTopics = new Collection []
     subtopics = @collections.topics.filter selected:true
@@ -78,6 +111,7 @@ class EventManager extends MnObject
     return
       promises: promises
       allTopics: allTopics
+      categories: allTopics
   setCurrentEvents: ->
     self_events = @currentEvents
     self_events.length = 0
