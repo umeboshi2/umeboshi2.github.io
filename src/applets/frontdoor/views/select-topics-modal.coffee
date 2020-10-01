@@ -1,13 +1,9 @@
 import { Collection, Radio } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
-import tc from 'teacup'
-import _ from 'underscore'
+import { CollectionView } from 'backbone.marionette'
 
 import CheckboxEntryView from 'tbirds/views/checkbox-entry'
-import LinkEntryView from 'common/link-entry-view'
-import BaseModalTopicsView from 'common/base=select-topics-modal'
+import BaseModalTopicsView from 'common/base-select-topics-modal'
 
-MainChannel = Radio.channel 'global'
 AppChannel = Radio.channel 'frontdoor'
 
 eventManager = AppChannel.request 'get-event-manager'
@@ -27,17 +23,22 @@ getEventTopics = (category) ->
   return topics
   
 class TopicsModal extends BaseModalTopicsView
-  onRender: ->
-    model = @model
+  getTopics: ->
     category = @model.get 'category'
     topics = getEventTopics category
+    console.log "@options", @options
+    @options.topics = topics
+  onRender: ->
+    @getTopics()
+    topics = @getOption 'topics'
     view = new CollectionView
       collection: topics
       childView: CheckboxEntryView
+      viewComparator: 'name'
     @showChildView 'content', view
     @ui.header.text "Select Topics"
   okBtnClicked: ->
-    @triggerMethod 'topics:selected'
+    @triggerMethod 'topics:selected', @
   onTopicsSelected: ->
     @emptyModal()
     

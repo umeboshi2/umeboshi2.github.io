@@ -3,14 +3,25 @@ import tc from 'teacup'
 
 makeEmbedUrl = (id) ->
   return "https://www.youtube.com/embed/#{id}"
-  
+
+
+YTIFrameAllow = [
+  "accelerometer"
+  "autoplay"
+  "encrypted-media"
+  "gyroscope"
+  "picture-in-picture"
+]
+
+
 class YTIframe extends MnView
   tagName: 'iframe'
   attributes:
     width: "320"
     height: "240"
     frameborder: "0"
-    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" # noqa 
+    # allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" # noqa
+    allow: YTIFrameAllow.join('; ')
     allowfullscreen: ""
   template: ->
   onRender: ->
@@ -20,7 +31,7 @@ class YTIframe extends MnView
 class VideoView extends MnView
   template: tc.renderable ->
     tc.div '.vid-container'
-    tc.button '.show-video-btn.btn.btn-outline-warning', ->
+    tc.button '.show-video-btn.btn.btn-outline-primary', ->
       tc.i '.fa.fa-youtube'
       tc.text " Show Video"
     tc.button '.remove-video-btn.btn.btn-outline-danger',

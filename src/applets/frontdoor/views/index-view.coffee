@@ -1,19 +1,23 @@
-import { Model, Radio } from 'backbone'
+import { Model, Collection, Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
 import $ from 'jquery'
 
-import EventManager from 'common/event-manager'
-
 import MenuBar from './menu-bar'
 import LinkView from './link-view'
 import VideoView from './video-view'
  
-MainChannel = Radio.channel 'global'
 AppChannel = Radio.channel 'frontdoor'
 
 eventManager = AppChannel.request 'get-event-manager'
+
+getArrayFromString = (string) ->
+  if not string?
+    return []
+  items = (item.trim() for item in string.split(','))
+  return items
+
 
 class MainView extends MnView
   template: tc.renderable (post) ->
@@ -52,31 +56,36 @@ class MainView extends MnView
         region.show view
   showLinkViews: ->
     linkViews = @ui.linkView
-    if not eventManager.collections.categories.length
-      eventManager.initCategories()
-      console.log "initCategories", eventManager
+    eventManager.initAll()
     if linkViews.length
       mainView = @
       linkViews.each (index) ->
         jv = $(this)
-        category = jv.attr('data-category')
-        topics = jv.attr("data-topics")
-        models = eventManager.collections.categories.where name:category
-        if models.length != 1
-          MessageChannel.request 'error', "Category #{category} not found."
-        console.log "model", models[0]
-        models.pop().set('selected', true)
-        promises = eventManager.fetchEventModels()
-        Promise.all(promises).then ->
+        staticTopics = getArrayFromString jv.attr("data-topics")
+        tcollection = eventManager.collections.topics
+        staticTopics.forEach (topic) ->
+          model = tcollection.find name:topic
+          model.set 'selected', true
+        opts = eventManager.determineCategories()
+        Promise.all(opts.promises).then ->
+          eventMap = {}
+          allEvents = new Collection
+          staticTopics.forEach (topic) ->
+            events = eventManager.getTopicEvents topic
+            eventMap[topic] = events
+            allEvents.add events.models
           regionId = "region-#{index}"
           jv.attr 'id', regionId
           region = mainView.addRegion "region-#{index}", "##{regionId}"
           title = region.$el.attr('data-title')
-          model = eventManager.getEventData category
+          model = new Model
+            title: title
+            staticTopics: staticTopics
+            selectedTopics: new Collection []
+            eventMap: eventMap
+            allEvents: allEvents
           lview = new LinkView
             model: model
-            title: title
-            topics: topics
           region.show lview
   onRender: ->
     @colorLocalLinks()
@@ -87,5 +96,5 @@ class MainView extends MnView
         model: new Model
           parent: @ui.menuData.attr('data-parent')
       @showChildView 'menuBar', view
-
+    
 export default MainView
