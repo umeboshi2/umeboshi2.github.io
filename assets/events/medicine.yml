@@ -1192,4 +1192,11 @@ events:
       - vaccination
     title: Physicians for Informed Consent Sends Cautionary Letter to UC Board of Regents Regarding Its New Flu Shot Mandate, Emphasizes Lack of Scientific Basis
     link: https://physiciansforinformedconsent.org/physicians-for-informed-consent-sends-cautionary-letter-to-uc-board-of-regents-regarding-its-new-flu-shot-mandate-emphasizes-lack-of-scientific-basis/
+  - start: 2019-12-18
+    topics:
+      - news
+      - vaccination
+      - quantum-dot
+    title: Storing medical information below the skin’s surface
+    link: https://news.mit.edu/2019/storing-vaccine-history-skin-1218
     

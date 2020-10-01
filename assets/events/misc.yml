@@ -3,17 +3,20 @@ events:
   - start: 2020-07-23
     topics:
       - news
+      - religion
     title: "Christians told to renounce Jesus or be refused coronavirus aid - 'Let your God take care of your family'"
     link: https://www.christiantoday.com/article/christians.told.renounce.jesus.or.be.refused.coronavirus.aid.let.god.take.care.of.your.family/135252.htm
   - start: 2020-07-27
     topics:
       - news
+      - mutation
     title: Enzymes in Humans are Mutating the Novel Coronavirus in an Accelerated Fashion to Make it Less Harmful.
     link: https://sciencewithdrdoug.wordpress.com/2020/07/27/enzymes-in-humans-are-mutating-the-novel-coronavirus-in-an-accelerated-fashion-to-make-it-less-harmful/
   - start: 2020-07-20
     topics:
       - paper
       - vaccination
+      - mutation
     journal: Molecular Biology and Evolution
     title: "Evidence for strong mutation bias towards, and selection against, U content in SARS-CoV-2: implications for vaccine design"
     link: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa188/5873882
@@ -26,6 +29,7 @@ events:
   - start: 2020-07-28
     topics:
       - news
+      - big-pharma
     journal: Bloomberg
     title: Goldman Warns the Dollar's Grip on Global Markets Might Be Over
     link: https://www.bloomberg.com/news/articles/2020-07-28/goldman-warns-dollar-s-role-as-world-reserve-currency-is-at-risk
@@ -44,16 +48,19 @@ events:
   - start: 2020-07-09
     topics:
       - news
+      - ufo
     title: 3 States Account for 42 Percent of All COVID-19 Deaths in America. Why?
     link: https://fee.org/articles/3-states-account-for-42-percent-of-all-covid-19-deaths-in-america-why/
   - start: 2020-07-01
     topics:
       - news
+      - general-covid
     title: COVID-19 death toll underreported, study finds
     link: https://www.virginiabusiness.com/article/covid-19-death-toll-underreported-study-finds/
   - start: 2007-03-01
     topics:
       - paper
+      - general-covid
     title: "The effects of skin tone on race-related amygdala activity: an fMRI investigation"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2555431/
   - start: 2020-09-05
@@ -65,6 +72,7 @@ events:
     topics:
       - news
       - artificial-intelligence
+      - hydrogel
     pretext: "\"The team also discovered evidence of down-regulated genes in 
      COVID patients that might otherwise have kept hyaluronic acid levels in 
      check. So with fluid inundating the lungs and gels that absorb those 
@@ -75,7 +83,6 @@ events:
     extra:
       - name: (Wikipedia hydrogel article)
         link: https://en.wikipedia.org/wiki/Hydrogel
-
   - start: 2020-06-22
     topics:
       - news
@@ -126,17 +133,21 @@ events:
   - start: 2020-06-05
     topics:
       - paper
+      - herd-immunity
+      - vaccination
     title: Covid-19 and Herd Immunity Without Vaccination—Teaching Modern Vaccine Dogma Old Tricks?
     link: https://www.andrewbostom.org/2020/06/covid-19-and-herd-immunity-without-vaccination-teaching-modern-vaccine-dogma-old-tricks/
   - start: 2017-02-10
     topics:
       - paper
+      - nanotech
     journal: Biomaterials
     title: "Crossing Kingdoms: Using Decellularized Plants as Perfusable Tissue Engineering Scaffolds"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5388455/
   - start: 2018-05-31
     topics:
       - paper
+      - nanotech
     journal: Journal of Visualized Experiments
     title: Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101437/
@@ -393,6 +404,31 @@ events:
       - election
     title: 10 things you need to know to stop a coup
     link: https://wagingnonviolence.org/2020/09/10-things-you-need-to-know-to-stop-a-coup/
-    
-        
-
+  - start: 2020-09-23
+    topics:
+      - paper
+    pretext: New documents unveiled in an explosive Senate report Wednesday
+     show former Secretary of State John Kerry lied to reporters when asked
+     whether he was aware of former Vice President Joe Biden's son serving in
+     a lucrative board position for a Ukrainian energy company.
+    title: "Hunter Biden, Burisma, and Corruption: The Impact on U.S. Government Policy and Related Concerns"
+    link: https://www.scribd.com/document/477154100/FINAL-DRAFT-CLEAN-COPY-4-pdf
+  - start: 2020-07-08
+    topics:
+      - news
+      - masks
+    title: 7 Reasons for Unmasking the Masks
+    link: https://dougwils.com/books-and-culture/s7-engaging-the-culture/7-reasons-for-unmasking-the-masks.html
+  - start: 2020-07-10
+    topics:
+      - news
+      - masks
+    title: "Update: Why Face Masks Don’t Work: A Revealing Review"
+    link: https://www.oralhealthgroup.com/features/face-masks-dont-work-revealing-review/
+  - start: 2016-10-19
+    topics:
+      - paper
+      - masks
+    pretext: (Original paper on archive.org) 
+    title: "Why Face Masks Don’t Work: A Revealing Review"
+    link: https://web.archive.org/web/20200509053953/https://www.oralhealthgroup.com/features/face-masks-dont-work-revealing-review/
