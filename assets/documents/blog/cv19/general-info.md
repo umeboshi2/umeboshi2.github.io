@@ -67,12 +67,13 @@ Coronavirus Disease 2019 (COVID-19)"
 
 [CDC Current Outbreak List](https://www.cdc.gov/outbreaks/index.html)
 
+Compare Trends in COVID-19 Cases and Deaths in States in the US Reported to CDC 
+with the [CDC COVID Data Tracker](https://covid.cdc.gov/covid-data-tracker/#compare-trends_newcasesper100k).
 
 # Other Articles
 
 [We Thought It Was Just a Respiratory Virus](https://www.ucsf.edu/magazine/covid-body)
 
-<div class="link-view" data-title="Research Papers"  data-events="medicine"></div>
 
 ## [Transmission Dynamics of COVID-19](http://www.cebm.net/evidence-synthesis/transmission-dynamics-of-covid-19/)
 
@@ -80,3 +81,5 @@ Jul 16, 2020
 [SARS-CoV-2 and the Role of Orofecal Transmission: Evidence Brief](https://www.cebm.net/covid-19/sars-cov-2-and-the-role-of-orofecal-transmission-evidence-brief/) [(PDF)](https://www.cebm.net/wp-content/uploads/2020/07/SARS-CoV-2-and-the-Role-of-Orofecal-Transmission-Evidence-Brief-2.pdf)
 
 [Excess Deaths From COVID-19 and Other Causes, March-April 2020](https://jamanetwork.com/journals/jama/fullarticle/2768086)
+
+<div class="link-view" data-title="Research Papers" data-topics="general-covid"></div>

@@ -69,6 +69,13 @@ https://renz-law.com/2020/09/11/covid-19-case/
 
 
 
-<div class="link-view" data-title="Papers And Articles"  data-events="misc"></div>
+<div class="link-view" data-title="Papers And Articles"  data-category="miscellaneous"></div>
 
 
+https://www.facebook.com/maryjosperry/posts/10223232336332357
+
+
+
+Novavax
+
+inovio
