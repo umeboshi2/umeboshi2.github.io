@@ -108,3 +108,9 @@ events:
       - news
     title: 'Executive Orders 2020-18'
     link: http://www.hattiesburgms.com/wp-content/uploads/exec_order_2020-18.pdf
+  - start: 2020-10-02 09:14
+    end: 2020-10-22 08:00
+    topics:
+      - news
+    title: 'Executive Orders 2020-19'
+    link: http://www.hattiesburgms.com/wp-content/uploads/exec_order_2020-19.pdf
