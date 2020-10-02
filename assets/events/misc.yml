@@ -43,12 +43,12 @@ events:
   - start: 2020-07-23
     topics:
       - news
+      - ufo
     title: Pentagon UFO unit to publicly release some findings
     link: https://nypost.com/2020/07/23/pentagon-ufo-unit-to-publicly-release-some-findings/
   - start: 2020-07-09
     topics:
       - news
-      - ufo
     title: 3 States Account for 42 Percent of All COVID-19 Deaths in America. Why?
     link: https://fee.org/articles/3-states-account-for-42-percent-of-all-covid-19-deaths-in-america-why/
   - start: 2020-07-01
