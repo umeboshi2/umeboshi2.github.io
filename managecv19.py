@@ -1,14 +1,14 @@
 import sys
 import os
 import pathlib
-import subprocess
+# import subprocess
 import collections
 import json
 import yaml
 
 from bs4 import BeautifulSoup
 import markdown
-import networkx as nx
+# import networkx as nx
 
 
 COMMAND_ARGS = sys.argv
@@ -63,10 +63,10 @@ def get_html_links(soup):
     links = set()
     anchors = soup.findAll('a')
     for a in anchors:
-        l = a['href']
-        if l.startswith('#'):
-            if l.startswith('#pages/'):
-                links.add(l)
+        link = a['href']
+        if link.startswith('#'):
+            if link.startswith('#pages/'):
+                links.add(link)
         else:
             links.add(a['href'])
     return sorted(list(links))
@@ -82,53 +82,74 @@ def create_event_index_file(content):
         json.dump(content, outfile)
 
 
-def get_event_topics(parsed_yaml):
-    main_data = dict(main_topic=parsed_yaml['category'])
-    events = parsed_yaml['events']
-    # print("Events", events)
-    topic_set = set()
-    for e in events:
-        try:
-            topics = e['topics']
-        except KeyError:
-            print("No topic list in {}".format(parsed_yaml['category']))
-            print("EVENT IS {}".format(e))
-            raise RuntimeError("Add a topic list to the event: {}".format(e))
-        for t in topics:
-            topic_set.add(t)
-    main_data['topics'] = sorted(list(topic_set))
-    return main_data
+class EventParser(object):
+    def __init__(self):
+        self.parsed = None
+        self.category = None
+        needed = ['start', 'topics', 'title', 'link']
+        known = needed + ['end', 'pretext', 'authors', 'journal', 'extra']
+        self.needed = needed
+        self.known = known
 
-def check_event_links(parsed_yaml):
-    category = parsed_yaml['category']
-    events = parsed_yaml['events']
-    for e in events:
-        link = e['link']
-        if link.endswith(')'):
-            raise RuntimeError("Bad link for {}: {}".format(category, link))
-        if 'extra' in e:
-            for ex in e['extra']:
-                link = ex['link']
-                if link.endswith(')'):
-                    raise RuntimeError(
-                        "extra Bad link for {}: {}".format(category, link))
+    def check_event(self, event):
+        for key in self.needed:
+            if key not in event:
+                raise RuntimeError("{} not in event: {}".format(key, event))
+        for key in event.keys():
+            if key not in self.known:
+                msg = "Unknown key {} in category: {}, event: {}"
+                print(msg.format(key, self.category, event))
 
+    def parse(self, path):
+        if not path.name.endswith('.yml'):
+            raise RuntimeError("Need yaml file")
+        self.parsed = yaml.safe_load(open(path))
+        self.category = self.parsed['category']
 
-def get_pmc_ids(parsed_yaml):
-    pmc_ids = set()
-    events = parsed_yaml['events']
-    for e in events:
-        link = e['link']
-        if '/pmc/' in link:
-            if not link.startswith(PMC_URL_PREFIX):
-                raise RuntimeError("Bad pmc url {}".format(link))
-            dirname = os.path.dirname(link)
-            basename = os.path.basename(dirname)
-            if not basename.startswith('PMC'):
-                raise RuntimeError("problem with {}".format(link))
-            id = int(basename[3:])
-            pmc_ids.add(id)
-    return sorted(list(pmc_ids))
+    def get_event_topics(self):
+        events = self.parsed['events']
+        topic_set = set()
+        for e in events:
+            try:
+                topics = e['topics']
+            except KeyError:
+                print("No topic list in category:{}".format(self.category))
+                raise RuntimeError(
+                    "Add a topic list to the event: {}".format(e))
+            for t in topics:
+                topic_set.add(t)
+        return sorted(list(topic_set))
+
+    def check_event_links(self):
+        events = self.parsed['events']
+        for e in events:
+            self.check_event(e)
+            link = e['link']
+            if link.endswith(')'):
+                msg = "Bad link for {}: {}".format(self.category, link)
+                raise RuntimeError(msg)
+            if 'extra' in e:
+                for ex in e['extra']:
+                    link = ex['link']
+                    if link.endswith(')'):
+                        msg = "extra Bad link for {}: {}"
+                        raise RuntimeError(msg.format(self.category, link))
+
+    def get_pmc_ids(self):
+        pmc_ids = set()
+        events = self.parsed['events']
+        for e in events:
+            link = e['link']
+            if '/pmc/' in link:
+                if not link.startswith(PMC_URL_PREFIX):
+                    raise RuntimeError("Bad pmc url {}".format(link))
+                dirname = os.path.dirname(link)
+                basename = os.path.basename(dirname)
+                if not basename.startswith('PMC'):
+                    raise RuntimeError("problem with {}".format(link))
+                id = int(basename[3:])
+                pmc_ids.add(id)
+        return sorted(list(pmc_ids))
 
 
 def generate_topic_database(yaml_files):
@@ -136,17 +157,16 @@ def generate_topic_database(yaml_files):
     main_data = dict()
     main_data['categories'] = dict()
     tdict = main_data['categories']
+    parser = EventParser()
     for node in yaml_files:
-        if not node.name.endswith('.yml'):
-            raise RuntimeError("Need yaml file")
-        parsed = yaml.safe_load(open(node))
-        check_event_links(parsed)
-        category = parsed['category']
+        parser.parse(node)
+        parser.check_event_links()
+        category = parser.category
         if category in tdict:
             raise RuntimeError("Topic {} already exists.".format(category))
         tdict[category] = dict(filename=node.name[:-4], name=category)
-        tdict[category]['topics'] = get_event_topics(parsed)['topics']
-        tdict[category]['pmc_ids'] = get_pmc_ids(parsed)
+        tdict[category]['topics'] = parser.get_event_topics()
+        tdict[category]['pmc_ids'] = parser.get_pmc_ids()
     topic_dict = collections.defaultdict(list)
     for category in sorted(tdict.keys()):
         sublist = sorted(tdict[category]['topics'])
@@ -186,4 +206,3 @@ create_cvlinks_file(pagelink_data)
 ev_nodes = list(events_dir.glob('**/*.yml'))
 topic_db = generate_topic_database(ev_nodes)
 create_event_index_file(topic_db)
-
