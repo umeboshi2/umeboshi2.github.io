@@ -15,6 +15,7 @@ class EventManager extends MnObject
       categories: new Collection []
       topics: new Collection []
     @currentEvents = []
+    @currentTopicEvents = {}
     return
   setCollection: (name, collection) ->
     @collections[name].set collection
@@ -90,7 +91,17 @@ class EventManager extends MnObject
         events = eventModel.getSubtopicEvents topic
         topicEvents[topic].add events
     return topicEvents
-    
+
+  setCurrentTopicEvents: ->
+    self_events = @currentEvents
+    self_events.length = 0
+    selected = @getSelectedTopics()
+    topics = selected.pluck 'name'
+    topics.forEach (topic) =>
+      col = @getTopicEvents topic
+      col.each (item) ->
+        self_events.push item.toJSON()
+        
   determineCategories: ->
     allTopics = new Collection []
     subtopics = @collections.topics.filter selected:true

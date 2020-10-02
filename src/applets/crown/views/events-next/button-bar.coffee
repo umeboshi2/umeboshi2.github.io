@@ -49,6 +49,8 @@ class ButtonBar extends MnView
     'click @ui.listEventsBtn': 'list:clicked'
     'click @ui.calendarBtn': 'calendar:clicked'
     'click @ui.timelineBtn': 'timeline: clicked'
+  onRender: ->
+    @ui.timelineBtn.hide()
     
     
 export default ButtonBar

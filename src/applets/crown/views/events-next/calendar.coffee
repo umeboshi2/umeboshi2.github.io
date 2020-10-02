@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import { Model, Collection, Radio } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
+import { Model, Radio } from 'backbone'
+import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 import moment from 'moment'
 
@@ -39,7 +39,7 @@ class BaseCalendarView extends MnView
       clickDay: @onClickDay
     @resetTopics()
   resetTopics: ->
-    eventManager.setCurrentEvents()
+    eventManager.setCurrentTopicEvents()
     currentEvents = eventManager.currentEvents
     currentEvents.forEach (item) ->
       convertEvent item
