@@ -67,7 +67,7 @@ class Controller extends MainController
   viewEvents: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require('./views/events').default
+      View = require('./views/events-next').default
       view = new View
         model: eventIndex
       @layout.showChildView 'content', view
@@ -101,7 +101,7 @@ class Controller extends MainController
   viewTopics: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require('./views/select-topics-view').default
+      View = require('./views/events-next').default
       view = new View
         model: eventIndex
       @layout.showChildView 'content', view
