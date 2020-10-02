@@ -118,7 +118,7 @@ events:
   - start: 2009-11-29
     topics:
       - paper
-      - nanotechnology
+      - nanotech
     journal: Nanoethics
     authors: Henk van den Belt
     pretext: "\"Synthetic biology, it is therefore maintained, does not 
@@ -432,3 +432,23 @@ events:
     pretext: (Original paper on archive.org) 
     title: "Why Face Masks Don’t Work: A Revealing Review"
     link: https://web.archive.org/web/20200509053953/https://www.oralhealthgroup.com/features/face-masks-dont-work-revealing-review/
+  - start: 2020-09-15
+    topics:
+      - news
+      - ufo
+    title: Thousands witness UFO Over New Jersey Sept 14, 2020, 4 Videos, UFO Sighting News.
+    link: https://www.ufosightingsdaily.com/2020/09/thousands-witness-ufo-over-new-jersey.html?m=1
+  - start: 2020-10-02
+    topics:
+      - news
+      - general-covid
+    title: A Covid-19 Nasal Swab Test Punctured Woman's Brain Lining and Leaked Brain Fluid From Her Nose
+    link: https://www.news18.com/news/buzz/a-covid-19-nasal-swab-test-punctured-womans-brain-lining-and-leaked-brain-fluid-from-her-nose-2927009.html
+  - start: 2020-10-01
+    topics:
+      - opinion
+      - general-covid
+      - technology
+      - artificial-intelligence
+    title: Exponential Technologies and the Perfect Storm for Digital Health
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528448/
