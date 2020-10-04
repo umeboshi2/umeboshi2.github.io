@@ -1211,3 +1211,53 @@ events:
       - general-covid
     title: Epidemiological Investigation of OHCWs with COVID-19
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7527907/
+  - start: 2020-09-30
+    topics:
+      - news
+      - general-covid
+      - contact-tracing
+    title: Largest COVID-19 contact tracing study to date finds children key to spread, evidence of superspreaders
+    link: https://www.princeton.edu/news/2020/09/30/largest-covid-19-contact-tracing-study-date-finds-children-key-spread-evidence
+  - start: 2020-07-17
+    topics:
+      - paper
+      - general-covid
+      - contact-tracing
+    pretext: (Preprint Paper)
+    title: Epidemiology and transmission dynamics of COVID-19 in two Indian states
+    link:  https://www.medrxiv.org/content/10.1101/2020.07.14.20153643v1
+    extra:
+      - name: (PDF)
+        link: https://www.medrxiv.org/content/10.1101/2020.07.14.20153643v1.full.pdf
+  - start: 2020-09-30
+    topics:
+      - paper
+      - general-covid
+      - contact-tracing
+    title: Epidemiology and transmission dynamics of COVID-19 in two Indian states
+    link: https://science.sciencemag.org/content/early/2020/09/29/science.abd7672
+  - start: 2020-10-01
+    topics:
+      - paper
+      - vaccination
+    title: HPV Vaccination and the Risk of Invasive Cervical Cancer
+    link: https://www.nejm.org/doi/full/10.1056/NEJMoa1917338
+  - start: 2020-09-01
+    topics:
+      - news
+      - vaccination
+    pretext: (Estimated date)
+    title: Results of ICAN Lawsuit Against FDA Reveals That Merck&#039;s Chicken Pox Vaccine, Varivax, Should Never Have Been Licensed | ICAN - Informed Consent Action Network
+    link: https://www.icandecide.org/ican_government/results-of-ican-lawsuit-against-fda-reveals-that-mercks-chicken-pox-vaccine-varivax-should-never-have-been-licensed/
+  - start: 2013-09-23
+    topics:
+      - paper
+      - zinc
+    title: Impact of vitamin A with zinc supplementation on malaria morbidity in Ghana
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850154/
+  - start: 2020-09-21
+    topics:
+      - paper
+      - general-covid
+    title: Data-driven modeling for different stages of pandemic response
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7523119/

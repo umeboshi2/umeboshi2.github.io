@@ -452,3 +452,18 @@ events:
       - artificial-intelligence
     title: Exponential Technologies and the Perfect Storm for Digital Health
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528448/
+  - start: 2020-06-04
+    topics:
+      - paper
+    journal: Journal of Theoretical Biology
+    authors: Steinar Thorvaldsen and Ola Hössjer
+    title: Using statistical methods to model the fine-tuning of molecular machines and systems
+    link: https://www.sciencedirect.com/science/article/pii/S0022519320302071
+    extra:
+      - name: (PDF Disclaimer)
+        link: https://www.sciencedirect.com/science/article/pii/S0022519320302071/pdfft?md5=b85d653066ce5ae5da15d8443156d53f&pid=1-s2.0-S0022519320302071-main.pdf
+  - start: 2020-08-20
+    topics:
+      - opinion
+    title: Large sample spaces do not imply biological systems are ‘fine-tuned’
+    link: https://www.sciencedirect.com/science/article/pii/S002251932030312X
