@@ -1261,3 +1261,48 @@ events:
       - general-covid
     title: Data-driven modeling for different stages of pandemic response
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7523119/
+  - start: 2020-09-16
+    topics:
+      - news
+      - general-covid
+      - masks
+    title: "Wearing the Face Mask: Who is Putting our Children at Risk, SARS-CoV-2 or the Actions of our Governments?"
+    link: https://www.globalresearch.ca/wearing-the-face-mask-who-is-putting-our-children-at-risk-sars-cov-2-or-the-actions-of-our-governments/5723961
+  - start: 1968-05-18
+    topics:
+      - paper
+      - disease
+      - germ-theory
+    journal: The Lancet
+    title: LIMITATIONS OF THE GERM THEORY
+    link: https://www.thelancet.com/journals/lancet/article/PIIS0140673668914256/fulltext
+  - start: 2015-11-26
+    topics:
+      - paper
+      - vaccination
+    title: "Vaccines Through Centuries: Major Cornerstones of Global Health"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659912/
+  - start: 2013-05-29
+    topics:
+      - paper
+      - disease
+    title: "The Genetic Theory of Infectious Diseases: A Brief History and Selected Illustrations"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4980761/
+  - start: 2018-10-18
+    topics:
+      - paper
+      - disease
+    title: The British Army's contribution to tropical medicine
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6334121/
+  - start: 2020-09-03
+    topics:
+      - news
+      - general-covid
+      - pcr-testing
+    title: "NY TIMES: Up to 90% Who’ve Tested COVID-Positive Wrongly Diagnosed! TRUTH: A Whole Lot Worse! (Pt 3/3)"
+    link: https://www.redstate.com/michael_thau/2020/09/03/ny-times-up-to-90-of-people-who-tested-positive-for-c19-not-infected-truth-a-whole-lot-worse-pt-3/
+    extra:
+      - name: (Part 2)
+        link: https://www.redstate.com/michael_thau/2020/09/03/ny-times-up-to-90-whove-tested-covid-positive-wrongly-diagnosed-truth-a-whole-lot-worse-pt-2/
+      - name: (Part 1)
+        link: https://www.redstate.com/michael_thau/2020/09/03/ny-times-up-to-90-testing-positive-for-c19-virus-not-infectious-but-problem-actually-much-worse/
