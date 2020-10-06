@@ -98,10 +98,11 @@ class EventManager extends MnObject
     selected = @getSelectedTopics()
     topics = selected.pluck 'name'
     topics.forEach (topic) =>
-      col = @getTopicEvents topic
-      col.each (item) ->
+      collection = @getTopicEvents topic
+      @currentTopicEvents[topic] = collection
+      collection.each (item) ->
         self_events.push item.toJSON()
-        
+      
   determineCategories: ->
     allTopics = new Collection []
     subtopics = @collections.topics.filter selected:true

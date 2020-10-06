@@ -26,7 +26,6 @@ export class ConfigObjectCollection extends Collection
 
 
 export initTopicColors = ->
-  console.log "eventIndex", eventIndex
   model = new ConfigObjectModel
     #id: 'topic-colors'
     name: 'topic-colors'
@@ -40,8 +39,6 @@ export initTopicColors = ->
       value: 'SkyBlue'
     topics[key] = item
   model.set 'content', topics
-  #model.save().then ->
-  #  return model.fetch()
   return model.save()
      
     
