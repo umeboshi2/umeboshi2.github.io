@@ -2,7 +2,7 @@ import { Radio } from 'backbone'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
-import indexModels from 'common/index-models'
+import { eventIndex } from 'common/index-models'
 import { FrontMatterModel } from './dbchannel/front-matter'
 import './dbchannel'
 
@@ -19,7 +19,7 @@ class Controller extends MainController
       response = collection.fetch()
       response.done =>
         view = new View
-          model: indexModels.eventIndex
+          model: eventIndex
         @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-index'
@@ -29,7 +29,7 @@ class Controller extends MainController
     require.ensure [], () =>
       View = require('./views/manage-topics').default
       view = new View
-        model: indexModels.eventIndex
+        model: eventIndex
       @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-sitetipics'
@@ -39,7 +39,7 @@ class Controller extends MainController
     require.ensure [], () =>
       View = require('./views/sitetopics').default
       view = new View
-        model: indexModels.eventIndex
+        model: eventIndex
       @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-sitetipics'
@@ -52,7 +52,7 @@ class Controller extends MainController
       response = collection.fetch()
       response.done =>
         view = new View
-          model: indexModels.eventIndex
+          model: eventIndex
         @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-search-pmc'
@@ -69,7 +69,17 @@ class Controller extends MainController
           model: model
         @layout.showChildView 'content', view
     # name the chunk
-    , 'pmc-view-search-pmc'
+    , 'pmc-view-pmc-article'
+
+      
+  importSite: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/import-pmc-data').default
+      view = new View
+      @layout.showChildView 'content', view
+    # name the chunk
+    , 'pmc-view-import-pmc-data'
 
       
 export default Controller
