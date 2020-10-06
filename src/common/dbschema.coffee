@@ -3,7 +3,13 @@ import lf from 'lovefield'
 # Use yaml to build schema
 # https://groups.google.com/forum/#!topic/lovefield-users/jxIlb7jtiak
 
-schemaBuilder = lf.schema.create('main-database', 2)
+schemaBuilder = lf.schema.create('main-database', 3)
+
+schemaBuilder.createTable('ConfigObject')
+.addColumn('id', lf.Type.STRING)
+.addColumn('name', lf.Type.STRING)
+.addColumn('content', lf.Type.OBJECT)
+.addPrimaryKey(['id'])
 
 schemaBuilder.createTable('SimpleObject')
 .addColumn('id', lf.Type.STRING)
