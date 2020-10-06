@@ -43,11 +43,13 @@ class MainView extends MnView
     'available:clicked': 'availableClicked'
     'list:clicked': 'listClicked'
     'calendar:clicked': 'calendarClicked'
+    'topic:colors:clicked': 'topicColorsClicked'
   contentMap:
     selected: 'selectClicked'
     available: 'availableClicked'
     listEvents: 'listClicked'
     calendar: 'calendarClicked'
+    colors: 'topicColorsClicked'
   contentTopic: 'available'
   childToggled: ->
     opts = eventManager.determineCategories()
@@ -89,6 +91,17 @@ class MainView extends MnView
       @showChildView 'content', view
     # name the chunk
     , 'crown-child-view-list-subtopic-events'
+  topicColorsClicked: ->
+    console.log "topicColorsClicked"
+    @contentTopic = 'colors'
+    require.ensure [], () =>
+      View = require('../../../frontdoor/views/topic-colors').default
+      topicColors = MainChannel.request 'get-topic-colors'
+      view = new View
+        model: topicColors
+      @showChildView 'content', view
+    # name the chunk
+    , 'crown-child-view-topic-colors'
     
 export default MainView
 

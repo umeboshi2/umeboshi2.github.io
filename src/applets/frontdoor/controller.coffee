@@ -21,6 +21,10 @@ eventManager = new EventManager
 AppChannel.reply 'get-event-manager', ->
   return eventManager
 
+topicColors = new ConfigObjectModel
+topicColors.fetch().then ->
+  MainChannel.reply 'get-topic-colors', ->
+    return topicColors
 
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout

@@ -36,12 +36,15 @@ class ButtonBar extends MnView
       tc.text 'Calendar'
     tc.button ".timeline-btn#{warn}.fa.fa-road", ->
       tc.text 'Timeline'
+    tc.button ".topic-colors-btn#{warn}.fa.fa-brush", ->
+      tc.text 'Topic Colors'
   ui:
     showSelectedBtn: '.show-selected-btn'
     showAvailBtn: '.show-available-btn'
     listEventsBtn: '.list-events-btn'
     calendarBtn: '.calendar-btn'
     timelineBtn: '.timeline-btn'
+    topicColorsBtn: '.topic-colors-btn'
   triggers:
     'click @ui.showSelectedBtn': 'select:clicked'
     'click @ui.showCategoriesBtn': 'categories:clicked'
@@ -49,6 +52,7 @@ class ButtonBar extends MnView
     'click @ui.listEventsBtn': 'list:clicked'
     'click @ui.calendarBtn': 'calendar:clicked'
     'click @ui.timelineBtn': 'timeline: clicked'
+    'click @ui.topicColorsBtn': 'topic:colors:clicked'
   onRender: ->
     @ui.timelineBtn.hide()
     
