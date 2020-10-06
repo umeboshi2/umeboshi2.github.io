@@ -20,7 +20,8 @@ class PMCFrontMatter extends MnView
     href = makePMCurl(model.id)
     tc.div '.card', ->
       tc.div '.card-body', ->
-        tc.h5 '.card-title',  content.title
+        tc.h5 '.card-title',  ->
+          tc.a href:"#pmc/view/#{model.id}", content.title
         tc.div '.small', content.journal
         tc.a '.pmc-anchor.small', href:href, '(PMC)'
         if content?.doi

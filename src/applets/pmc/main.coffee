@@ -33,6 +33,7 @@ class Router extends AppRouter
     'pmc/topics/site': 'viewSiteTopics'
     'pmc/topics/manage': 'manageTopics'
     'pmc/search/pmc': 'viewSearchPMC'
+    'pmc/view/:id': 'viewPMCArticle'
     
 class Applet extends TkApplet
   Controller: Controller

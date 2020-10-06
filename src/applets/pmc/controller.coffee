@@ -3,6 +3,7 @@ import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
 import indexModels from 'common/index-models'
+import { FrontMatterModel } from './dbchannel/front-matter'
 import './dbchannel'
 
 AppChannel = Radio.channel 'pmc'
@@ -55,6 +56,21 @@ class Controller extends MainController
         @layout.showChildView 'content', view
     # name the chunk
     , 'pmc-view-search-pmc'
+
+      
+  viewPMCArticle: (pmcid) ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/article').default
+      model = new FrontMatterModel id:pmcid
+      response = model.fetch()
+      response.done =>
+        view = new View
+          model: model
+        @layout.showChildView 'content', view
+    # name the chunk
+    , 'pmc-view-search-pmc'
+
       
 export default Controller
 
