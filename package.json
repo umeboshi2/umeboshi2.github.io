@@ -65,6 +65,7 @@
     "pdfjs-dist": "^2.1.266",
     "raw-loader": "^3.1.0",
     "sass-loader": "^7.3.1",
+    "spectrum-colorpicker": "^1.8.1",
     "stats-webpack-plugin": "^0.7.0",
     "style-loader": "^1.0.0",
     "tbirds": "^0.4.66",
