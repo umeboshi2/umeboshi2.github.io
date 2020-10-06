@@ -28,6 +28,10 @@ appletEntries = [
     label: "Eliza"
     url: "#eliza"
     icon: '.fa.fa-terminal'
+  },{
+    label: "Topic Colors"
+    url: "#frontdoor/topic-colors"
+    icon: '.fa.fa-palette'
   }
 ]
 
@@ -49,6 +53,7 @@ class Router extends AppRouter
     'frontdoor': 'viewIndex'
     'pages/*name': 'viewPage'
     'frontdoor/dbadmin': 'viewDbAdmin'
+    'frontdoor/topic-colors': 'viewTopicColors'
     
 class Applet extends TkApplet
   Controller: Controller

@@ -5,6 +5,7 @@ import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 import EventManager from 'common/event-manager'
+import { ConfigObjectModel, initTopicColors } from 'common/site-config-model'
 
 MainChannel = Radio.channel 'global'
 MessageChannel = Radio.channel 'messages'
@@ -84,6 +85,28 @@ class Controller extends MainController
       @layout.showChildView 'content', view
     # name the chunk
     , 'frontdoor-view-dbadmin'
+    
+  viewTopicColors: ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/topic-colors').default
+      model = new ConfigObjectModel
+      model.fetch()
+      .then =>
+        content = model.get 'content'
+        if content
+          view = new View
+            model: model
+          @layout.showChildView 'content', view
+        else
+          initTopicColors().then =>
+            view = new View
+              model: model
+            @layout.showChildView 'content', view
+            # FIXME
+            window.location.reload()
+    # name the chunk
+    , 'frontdoor-view-topic-colors'
     
     
     
