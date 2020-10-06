@@ -1306,3 +1306,38 @@ events:
         link: https://www.redstate.com/michael_thau/2020/09/03/ny-times-up-to-90-whove-tested-covid-positive-wrongly-diagnosed-truth-a-whole-lot-worse-pt-2/
       - name: (Part 1)
         link: https://www.redstate.com/michael_thau/2020/09/03/ny-times-up-to-90-testing-positive-for-c19-virus-not-infectious-but-problem-actually-much-worse/
+  - start: 2020-08-05
+    topics:
+      - news
+      - general-covid
+      - pcr-testing
+    authors: Tom Jefferson, Carl Heneghan, Elizabeth Spencer, Jon Brassey
+    title: Are you infectious if you have a positive PCR test result for COVID-19?
+    link: https://www.cebm.net/covid-19/infectious-positive-pcr-test-result-covid-19/
+  - start: 2020-06-15
+    topics:
+      - news
+      - general-covid
+      - pcr-testing
+    title: What Zebra Mussels Can Tell Us About Errors In Coronavirus Tests
+    link: https://www.npr.org/sections/health-shots/2020/06/15/871186164/what-zebra-mussels-can-tell-us-about-errors-in-coronavirus-tests
+  - start: 2020-05-01
+    topics:
+      - paper
+      - general-covid
+      - pcr-testing
+    authors:  Andrew N Cohen, Bruce Kessel, and Michael G Milgroom
+    title: "Diagnosing COVID-19 infection: the danger of over-reliance on positive test results"
+    link: https://www.medrxiv.org/content/10.1101/2020.04.26.20080911v4.article-info
+  - start: 2020-10-05
+    topics:
+      - paper
+      - general-covid
+      - transmission
+    journal: MMWR Morb Mortal Wkly Rep.
+    title: Adolescent with COVID-19 as the Source of an Outbreak at a 3-Week Family Gathering — Four States, June–July 2020.
+    link: https://www.cdc.gov/mmwr/volumes/69/wr/mm6940e2.htm
+    extra:
+      - name: (PDF)
+        link: https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6940e2-H.pdf
+        
