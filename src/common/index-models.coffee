@@ -6,8 +6,14 @@ export class CvLinks extends NoCacheModel
 export class EventIndex extends NoCacheModel
   url: '/assets/events/index.json'
 
+export cvlinks = new CvLinks
+export eventIndex = new EventIndex
+
+
 indexModels =
-  cvlinks: new CvLinks
-  eventIndex: new EventIndex
+  cvlinks: cvlinks
+  eventIndex: eventIndex
+
+
   
 export default indexModels
