@@ -2,7 +2,7 @@
 
 # Virus Nanotechnology
 
-<div class="link-view" data-title="Papers And Articles"  data-events="nanotech"></div>
+<div class="link-view" data-title="Papers And Articles"  data-topics="nanotech"></div>
 
 Raja Muthuramalingam Thangavelu on [Google Scholar](https://scholar.google.com/scholar?q=Raja+Muthuramalingam+Thangavelu+) [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56979919300)
 

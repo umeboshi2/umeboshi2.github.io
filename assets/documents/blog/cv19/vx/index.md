@@ -2,10 +2,6 @@
 
 
 
-<div class="link-view" data-title="Vaccine Trials"  data-events="medicine" data-topics="vaccination,trials"></div>
-<div class="link-view" data-title="Local Vaccine Trials"  data-events="medicine" data-topics="vaccination,trials,local"></div>
-<div class="link-view" data-title="Vaccine Liability"  data-events="medicine" data-topics="vaccination,liability"></div>
-
 
 [mRNA-1273 Approval Status](https://www.drugs.com/history/mrna-1273.html)
 
@@ -52,3 +48,9 @@ alternative" to a vaccine.
 
 <div class="link-view" data-title="Full Timeline"  data-events="medicine" data-topics="vaccination"></div>
 
+<!--
+<div class="link-view" data-title="Vaccine Trials"  data-events="medicine" data-topics="vaccination,trials"></div>
+<div class="link-view" data-title="Local Vaccine Trials"  data-events="medicine" data-topics="vaccination,trials,local"></div>
+<div class="link-view" data-title="Vaccine Liability"  data-events="medicine" data-topics="vaccination,liability"></div>
+-->
+\

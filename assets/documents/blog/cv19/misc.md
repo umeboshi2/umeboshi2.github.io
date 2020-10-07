@@ -74,8 +74,16 @@ https://renz-law.com/2020/09/11/covid-19-case/
 
 https://www.facebook.com/maryjosperry/posts/10223232336332357
 
+https://web.archive.org/web/20171126152327/https://www.nationalacademies.org/hmd/~/media/Files/Activity%20Files/PublicHealth/MicrobialThreats/Nowak.pdf
 
 
 Novavax
 
 inovio
+
+https://www.goodreads.com/quotes/445661-selfishness-is-not-living-as-one-wishes-to-live-it
+
+
+https://twitter.com/JohnCammo/status/1306863435125202946
+
+https://caniuse.com/indexeddb
