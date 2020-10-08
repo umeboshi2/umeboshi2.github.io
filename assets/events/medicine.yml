@@ -1340,4 +1340,15 @@ events:
     extra:
       - name: (PDF)
         link: https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6940e2-H.pdf
-        
+  - start: 2020-10-06
+    topics:
+      - news
+      - general-covid
+      - vaccination
+      - hesitancy
+      - bill-gates
+    title: Round up the ‘anti-vaxxers’? Enlist religious leaders? Bill Gates warns US needs to brainstorm ways to reduce ‘vaccine hesitancy’
+    link: https://www.rt.com/usa/502742-bill-gates-vaccine-rollout-hesitancy/
+    extra:
+      - name: (Video Page)
+        link: https://www.wsj.com/video/watch-bill-gates-at-wsj-ceo-council-summit/031C310C-128B-4229-BC1D-660B99BDA759.html
