@@ -44,12 +44,15 @@ class MainView extends MnView
     tc.div '.paginate-bar'
     tc.div '.import-progress'
     tc.div '.import-btn.btn.btn-outline-warning', 'Import Models'
+    tc.div '.update-btn.btn.btn-outline-warning', 'Update Local Models'
     tc.div '.content'
   ui:
     content: '.content'
     paginateBar: '.paginate-bar'
     importProgress: '.import-progress'
     importBtn: '.import-btn'
+    updateBtn: '.update-btn'
+    header: 'h3'
   regions:
     content: '@ui.content'
     paginateBar: '@ui.paginateBar'
@@ -57,9 +60,11 @@ class MainView extends MnView
     importBtn: '@ui.importBtn'
   events:
     'click @ui.importBtn': 'importBtnClicked'
+    'click @ui.updateBtn': 'updateBtnClicked'
     'model:imported': 'onModelImported'
   collection: allPmcIds
   onRender: ->
+    console.log "@collection has length", @collection
     fmCollection = AppChannel.request 'get-fm-collection'
     fmCollection.fetch()
     .then =>
@@ -69,18 +74,23 @@ class MainView extends MnView
         if loc
           allPmcIds.remove model
       console.log 'allPmcIds', allPmcIds
-      view = new ObjView
-        model: @collection
-      @showChildView 'content', view
-      model = new ProgressModel
-      model.set('valuemax', @collection.length)
-      model.set('valuenow', 0)
-      view = new ProgressView
-        model: model
-      @showChildView 'importProgress', view
-      @progressModel = model
-      @progressView = view
-      
+      if @collection.length
+        view = new ObjView
+          model: @collection
+        @showChildView 'content', view
+        model = new ProgressModel
+        model.set('valuemax', @collection.length)
+        model.set('valuenow', 0)
+        view = new ProgressView
+          model: model
+        @showChildView 'importProgress', view
+        @progressModel = model
+        @progressView = view
+        msg = "#{@collection.length} models to import."
+        @ui.header.text msg
+      else
+        @ui.importBtn.hide()
+        @ui.header.text "No models to import."
   importModel: (model, index) ->
     remote = AppChannel.request 'make-remote-model', model.id
     response = remote.fetch()

@@ -23,6 +23,8 @@ class SimpleEntry extends MnView
       view = new PMCFrontMatter
         model: @model
       @showChildView 'content', view
+  childViewTriggers:
+    'model:destroyed': 'model:destroyed'
     
 class MainView extends MnView
   template: tc.renderable ->
@@ -35,6 +37,13 @@ class MainView extends MnView
   regions:
     content: '@ui.content'
     paginateBar: '@ui.paginateBar'
+  childViewTriggers:
+    'model:destroyed': 'model:destroyed'
+  childViewEvents:
+    'model:destroyed': 'onModelDestroyed'
+  triggerMethods:
+    'model:destroyed': 'onModelDestroyed'
+    
   onRender: ->
     collection = AppChannel.request 'make-fm-pageable'
     response = collection.fetch()
@@ -46,4 +55,7 @@ class MainView extends MnView
         collection: collection
         childView: SimpleEntry
       @showChildView 'content', view
+  onModelDestroyed: ->
+    console.log "onModelDestroyed"
+    
 export default MainView

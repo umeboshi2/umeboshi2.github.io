@@ -1,5 +1,11 @@
+import { Radio } from 'backbone'
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
+import { delay } from 'underscore'
+import ms from 'ms'
+import qs from 'qs'
+
+MessageChannel = Radio.channel 'messages'
 
 class MainView extends MnView
   template: tc.renderable (model) ->
@@ -18,11 +24,14 @@ class MainView extends MnView
   onRender: ->
     if @model?
       url = @model.get('url')
-      if __DEV__
-        console.log "URL IS", url
     # https://stackoverflow.com/questions/5811122/how-to-trigger-a-click-on-a-link-using-jquery#comment32919832_5811122
     # Perform the "click" on the DOM element insteat of the jquery object
-      if url
-        @ui.direct.get(0).click()
+      parsed = qs.parse window.location.search.substring(1)
+      auto = parsed.auto == 'true'
+      if url and auto
+        MessageChannel.request 'info', "You will be automatically redirected in 10 seconds" # noqa
+        delay =>
+          @ui.direct.get(0).click()
+        , ms '10s'
 
 export default MainView
