@@ -20,7 +20,6 @@ config.navbarEntries = [
     url: "#pmc"
     icon: '.fa.fa-book'
   }
-  misc_menu
   ]
   
 
