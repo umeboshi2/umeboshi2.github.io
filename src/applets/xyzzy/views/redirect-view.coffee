@@ -18,7 +18,7 @@ class MainView extends MnView
       tc.a '.new-windiw-link', href:model.url, target:'_blank', ->
         tc.text"(Open in new window/tab)"
     tc.div ->
-      tc.a href:'#crown/make-redirect', "Create a redirect link"
+      tc.a href:'#xyzzy', "Create a redirect link"
   ui:
     direct: '.direct-link'
     newTab: '.new-windiw-link'
