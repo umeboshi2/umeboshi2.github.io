@@ -1,11 +1,11 @@
 import config from './base-config'
 
 misc_menu =
-  label: 'Misc Applets'
+  label: 'More Applets'
   menu: [
     {
-      label: 'Themes'
-      url: '#frontdoor/themes'
+      label: 'Xyzzy'
+      url: '#xyzzy'
     }
   ]
 
@@ -20,6 +20,7 @@ config.navbarEntries = [
     url: "#pmc"
     icon: '.fa.fa-book'
   }
+  misc_menu
   ]
   
 

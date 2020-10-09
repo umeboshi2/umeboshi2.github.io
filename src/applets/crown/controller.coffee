@@ -74,30 +74,6 @@ class Controller extends MainController
     # name the chunk
     , 'crown-view-events'
 
-  viewRedirect: (encoded) ->
-    @setupLayoutIfNeeded()
-    require.ensure [], () =>
-      View = require('./views/redirect-view').default
-      view = new View
-        model: new Model url: atob decode encoded
-      @layout.showChildView 'content', view
-    # name the chunk
-    , 'crown-view-redirect'
-
-  makeRedirect: ->
-    @setupLayoutIfNeeded()
-    require.ensure [], () =>
-      View = require('./views/make-redirect').default
-      view = new View
-      @layout.showChildView 'content', view
-    # name the chunk
-    , 'crown-make-redirect'
-
-  viewRedirectAuto: (encoded) ->
-    url = atob(encoded)
-    console.log "URL IS", url
-    window.open url, '_blank'
-
   viewTopics: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>

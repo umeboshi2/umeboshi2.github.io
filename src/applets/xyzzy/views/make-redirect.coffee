@@ -49,7 +49,7 @@ class MainView extends MnView
     r = encode btoa @ui.url.val()
     path = loc?.pathname or '/'
     url = "#{loc.protocol}://#{loc.host}#{path}"
-    hash= "#crown/redirect/#{r}"
+    hash= "#xyzzy/go/#{r}"
     checked = @ui.autoLoad.is ':checked'
     console.log "@ui.autoLoad", checked
     url = "#{url}?#{qs.stringify auto:checked}#{hash}"
