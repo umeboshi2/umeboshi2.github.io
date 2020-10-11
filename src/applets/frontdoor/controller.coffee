@@ -6,7 +6,7 @@ import { ToolbarAppletLayout } from 'tbirds/views/layout'
 import scroll_top_fast from 'tbirds/util/scroll-top-fast'
 import EventManager from 'common/event-manager'
 import { ConfigObjectModel, initTopicColors } from 'common/site-config-model'
-
+import { updateTopicColors } from 'common/site-config-model'
 MainChannel = Radio.channel 'global'
 MessageChannel = Radio.channel 'messages'
 AppChannel = Radio.channel 'frontdoor'
@@ -25,7 +25,8 @@ topicColors = new ConfigObjectModel
 topicColors.fetch().then ->
   MainChannel.reply 'get-topic-colors', ->
     return topicColors
-
+  updateTopicColors()
+  
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
   setupLayoutIfNeeded: ->

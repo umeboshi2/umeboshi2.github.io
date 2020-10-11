@@ -95,7 +95,7 @@ class MainView extends MnView
     console.log "topicColorsClicked"
     @contentTopic = 'colors'
     require.ensure [], () =>
-      View = require('../../../frontdoor/views/topic-colors').default
+      View = require('common/topic-colors').default
       topicColors = MainChannel.request 'get-topic-colors'
       view = new View
         model: topicColors

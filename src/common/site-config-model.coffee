@@ -40,6 +40,23 @@ export initTopicColors = ->
     topics[key] = item
   model.set 'content', topics
   return model.save()
-     
+
+export updateTopicColors = ->
+  indexTopics = eventIndex.get 'topics'
+  model = new ConfigObjectModel
+  model.fetch()
+  .then ->
+    topics = model.get 'content'
+    localTopicKeys = _.keys topics
+    for key of indexTopics
+      if not _.contains localTopicKeys, key
+        item =
+          id: key
+          name: key
+          value: 'SkyBlue'
+        topics[key] = item
+    model.set 'content', topics
+    return model.save()
+    
     
 
