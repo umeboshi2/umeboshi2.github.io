@@ -207,6 +207,7 @@ WebPackConfig =
       }
     ]
   resolve:
+    mainFields: ['module', 'jsnext:main', 'browser', 'main']
     extensions: [".wasm", ".mjs", ".js", ".json", ".coffee"]
     alias:
       applets: path.join __dirname, 'src/applets'
