@@ -8,6 +8,7 @@ BundleTracker = require 'webpack-bundle-tracker'
 MiniCssExtractPlugin = require 'mini-css-extract-plugin'
 HtmlPlugin = require 'html-webpack-plugin'
 FaviconPlugin = require 'favicons-webpack-plugin'
+LodashModuleReplacementPlugin = require 'lodash-webpack-plugin'
 
 BuildEnvironment = process.env.NODE_ENV or 'development'
 if BuildEnvironment not in ['development', 'production']
@@ -75,7 +76,7 @@ coffeeLoaderTranspileRule =
   options:
     transpile:
       presets: ['env']
-      plugins: ["dynamic-import-webpack"]
+      plugins: ["dynamic-import-webpack", 'lodash']
 
 coffeeLoaderDevRule =
   test: /\.coffee$/
@@ -118,6 +119,7 @@ common_plugins = [
       twitter: false
       yandex: false
       windows: false
+  new LodashModuleReplacementPlugin
   ]
     
 
@@ -214,6 +216,8 @@ WebPackConfig =
       tbirds: 'tbirds/src'
       # https://github.com/wycats/handlebars.js/issues/953
       handlebars: 'handlebars/dist/handlebars'
+      # alias underscore with lodash and eventually remove underscore
+      underscore: 'lodash'
   stats:
     colors: true
     modules: false
