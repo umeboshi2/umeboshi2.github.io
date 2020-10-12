@@ -1,7 +1,7 @@
 import { Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-import _ from 'underscore'
+import _ from 'lodash'
 
 import LinkEntryView from 'common/link-entry-view'
 import TopicsModal from './select-topics-modal'
@@ -30,7 +30,7 @@ filterEvents = (events, topics) ->
       else
         etopics = e.topics
       everyTopic = _.every topics, (topic) ->
-        return _.contains etopics, topic
+        return _.includes etopics, topic
       if everyTopic
         filtered.push e
   return filtered
@@ -40,7 +40,7 @@ filterEventsByTopics = (events, topics) ->
   for e in events
     etopics = e.topics
     topics.forEach (topic) ->
-      if _.contains etopics, topic
+      if _.includes etopics, topic
         filtered.push e
   return filtered
 

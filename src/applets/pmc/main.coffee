@@ -1,6 +1,6 @@
 import AppRouter from 'marionette.approuter'
 import TkApplet from 'tbirds/tkapplet'
-import capitalize from 'tbirds/util/capitalize'
+import { capitalize } from 'lodash'
 
 import Controller from './controller'
 

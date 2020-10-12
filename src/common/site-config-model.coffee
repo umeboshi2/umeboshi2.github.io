@@ -1,4 +1,4 @@
-import _ from 'underscore'
+import _ from 'lodash'
 import { Model, Collection, Radio } from 'backbone'
 import { LoveStore } from 'backbone.lovefield'
 import indexModels from 'common/index-models'
@@ -49,7 +49,7 @@ export updateTopicColors = ->
     topics = model.get 'content'
     localTopicKeys = _.keys topics
     for key of indexTopics
-      if not _.contains localTopicKeys, key
+      if not _.includes localTopicKeys, key
         item =
           id: key
           name: key
