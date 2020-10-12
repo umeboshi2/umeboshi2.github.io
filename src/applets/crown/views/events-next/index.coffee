@@ -2,7 +2,9 @@ import $ from 'jquery'
 import { Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
+import PageableCollection from 'backbone.paginator'
 
+import PaginateBar from 'tbirds/views/paginate-bar'
 import CheckboxEntryView from 'tbirds/views/checkbox-entry'
 import BaseModalTopicsView from 'common/base-select-topics-modal'
 import indexModels from 'common/index-models'
@@ -15,6 +17,13 @@ eventIndex = indexModels.eventIndex
 
 eventManager = AppChannel.request 'get-event-manager', 'topics'
 
+class TopicCollection extends PageableCollection
+  mode: 'client'
+  state:
+    sortKey: 'name'
+    pageSize: 10
+  comparator: 'name'
+  
 class TopicCollectionView extends CollectionView
   childView: CheckboxEntryView
   viewComparator: 'name'
@@ -23,6 +32,26 @@ class TopicCollectionView extends CollectionView
   childToggled: ->
     @trigger 'child:toggled'
 
+class TopicsView extends MnView
+  template: tc.renderable ->
+    tc.div '.paginate-bar'
+    tc.div '.content'
+  ui:
+    paginateBar: '.paginate-bar'
+    content: '.content'
+  regions:
+    paginateBar: '@ui.paginateBar'
+    content: '@ui.content'
+  childViewTriggers:
+    'child:toggled': 'child:toggled'
+  onRender: =>
+    pgbar = new PaginateBar
+      collection: @collection
+    @showChildView 'paginateBar', pgbar
+    view = new TopicCollectionView
+      collection: @collection
+    @showChildView 'content', view
+    
 class MainView extends MnView
   initialize: (options) ->
     eventManager.initAll()
@@ -64,14 +93,14 @@ class MainView extends MnView
   selectClicked: ->
     @contentTopic = 'selected'
     topics = eventManager.collections.topics
-    selectedView = new TopicCollectionView
-      collection: new Collection topics.filter selected: true
+    selectedView = new TopicsView
+      collection: new TopicCollection topics.filter selected: true
     @showChildView 'content', selectedView
   availableClicked: ->
     @contentTopic = 'available'
     topics = eventManager.collections.topics
-    availableView = new TopicCollectionView
-      collection: new Collection topics.filter selected: false
+    availableView = new TopicsView
+      collection: new TopicCollection topics.filter selected: false
     @showChildView 'content', availableView
   listClicked: ->
     @contentTopic = 'listEvents'
