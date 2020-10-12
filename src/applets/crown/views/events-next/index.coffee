@@ -9,6 +9,7 @@ import CheckboxEntryView from 'tbirds/views/checkbox-entry'
 import BaseModalTopicsView from 'common/base-select-topics-modal'
 import indexModels from 'common/index-models'
 import ButtonBar from './button-bar'
+import HasMasonryView from 'tbirds/behaviors/has-masonry'
 
 MainChannel = Radio.channel 'global'
 AppChannel = Radio.channel 'crown'
@@ -25,12 +26,26 @@ class TopicCollection extends PageableCollection
   comparator: 'name'
   
 class TopicCollectionView extends CollectionView
+  template: tc.renderable ->
+    tc.div '.topics'
   childView: CheckboxEntryView
+  childViewContainer: '.topics'
   viewComparator: 'name'
   childViewEvents:
     'toggled': 'childToggled'
   childToggled: ->
     @trigger 'child:toggled'
+  behaviors:
+    HasMasonryView:
+      behaviorClass: HasMasonryView
+      listContainer: '.topics'
+      hasPageableCollection: true
+      masonryOptions:
+        itemSelector: '.form-check'
+        isInitLayout: false
+        horizontalOrder: true
+        columnWidth: 100
+        stagger: 30
 
 class TopicsView extends MnView
   template: tc.renderable ->
@@ -59,7 +74,7 @@ class MainView extends MnView
     tc.div '.text-center.listview-header', ->
       tc.text "Topic Events"
     tc.div '.row.button-bar'
-    tc.div '.row.content'
+    tc.div '.content'
   ui:
     buttonBar: '.button-bar'
     content: '.content'
