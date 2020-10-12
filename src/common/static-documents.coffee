@@ -1,4 +1,4 @@
-import _ from 'underscore'
+import { extend, filter } from 'lodash'
 import { Radio } from 'backbone'
 import yaml from 'js-yaml'
 
@@ -8,7 +8,7 @@ MainChannel = Radio.channel 'global'
 
 class TextModel extends NoCacheModel
   fetch: (options) ->
-    options = _.extend options || {},
+    options = extend options || {},
       dataType: 'text'
     super options
   
@@ -29,7 +29,7 @@ export class EventData extends TextModel
     return obj
     
   getSubtopicEvents: (name) ->
-    events = _.filter @get('events'), (event) ->
+    events = filter @get('events'), (event) ->
       return name in event.topics
     return events
     
