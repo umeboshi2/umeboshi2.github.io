@@ -41,7 +41,7 @@ AppChannel.reply 'make-topic-pageable', ->
 
 topicResponse = topicCollection.fetch()
 topicResponse.done ->
-  topics = eventIndex.get 'subtopics'
+  topics = eventIndex.get 'topics'
   tlist = _.keys topics
   tlist.forEach (topic) ->
     tmodel = topicCollection.find name:topic
@@ -52,7 +52,7 @@ topicResponse.done ->
 
 
 FMTopicFields = ['pmcid', 'topic_id']
-class FMTopicModel extends Model
+export class FMTopicModel extends Model
   loveStore: FMTopicsStore
   toJSON: ->
     data = {}

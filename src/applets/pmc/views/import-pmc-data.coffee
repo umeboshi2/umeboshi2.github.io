@@ -2,7 +2,9 @@ import { Model, Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import { promisify } from 'es6-promisify'
+import { includes } from 'lodash'
 
+import removeTrailingSlashes from 'tbirds/util/remove-trailing-slashes'
 import PaginateBar from 'tbirds/views/paginate-bar'
 import HasJsonView from 'common/has-jsonview'
 import { eventIndex } from 'common/index-models'
@@ -10,8 +12,25 @@ import PMCFrontMatter from './pmc-front-matter'
 
 import { ProgressModel, ProgressView } from 'tbirds/views/simple-progress'
 
+import { FMTopicModel } from '../dbchannel/fmtopics'
+
 
 AppChannel = Radio.channel 'pmc'
+
+eventManager = AppChannel.request 'get-event-manager'
+eventManager.initAll()
+
+pmcPrefix = 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC'
+
+getPMCId = (link) ->
+  id = link.split(pmcPrefix)[1]
+  return Number removeTrailingSlashes id
+  
+
+isPMCLink = (link) ->
+  if link.startsWith pmcPrefix
+    return true
+  return false
 
 pmcIndexIdCollection = ->
   categories = eventIndex.get 'categories'
@@ -64,7 +83,6 @@ class MainView extends MnView
     'model:imported': 'onModelImported'
   collection: allPmcIds
   onRender: ->
-    console.log "@collection has length", @collection
     fmCollection = AppChannel.request 'get-fm-collection'
     fmCollection.fetch()
     .then =>
@@ -73,7 +91,6 @@ class MainView extends MnView
         loc = fmCollection.get model.id
         if loc
           allPmcIds.remove model
-      console.log 'allPmcIds', allPmcIds
       if @collection.length
         view = new ObjView
           model: @collection
@@ -115,6 +132,39 @@ class MainView extends MnView
       valueNow = @progressModel.get('valuenow')
       model = @collection.pop()
       @importModel model, valueNow
-      
-      
+  updateBtnClicked: ->
+    categories = eventIndex.get 'categories'
+    pmcCategories = new Collection
+    for key of categories
+      item = categories[key]
+      if item.pmc_ids.length
+        col = eventManager.collections.categories
+        model = col.findWhere name: item.name
+        model.set 'selected', true
+    promises = eventManager.fetchEventModels()
+    topicCollection = AppChannel.request 'get-topic-collection'
+    topicCollection = new Collection await topicCollection.fetch()
+    fmTopicCollection = AppChannel.request 'get-fmtopic-collection'
+    await fmTopicCollection.fetch()
+    Promise.all(promises).then ->
+      selected = eventManager.getSelectedCategories()
+      names = selected.pluck 'name'
+      names.forEach (name) ->
+        events = eventManager.getEventData(name).get('events')
+        events.forEach (e) ->
+          if isPMCLink e.link
+            pmcid = getPMCId e.link
+            topics = e.topics
+            e.topics.forEach (tname) ->
+              dbTopic = topicCollection.findWhere name: tname
+              topicId = dbTopic.id
+              item =
+                pmcid: pmcid
+                topic_id: topicId
+              fmtopic = fmTopicCollection.findWhere item
+              if not fmtopic?
+                model = new FMTopicModel item
+                fmTopicCollection.add model
+                await model.save()
+                
 export default MainView

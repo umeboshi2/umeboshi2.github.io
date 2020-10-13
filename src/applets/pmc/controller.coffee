@@ -2,11 +2,16 @@ import { Radio } from 'backbone'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
 
+import EventManager from 'common/event-manager'
 import { eventIndex } from 'common/index-models'
 import { FrontMatterModel } from './dbchannel/front-matter'
 import './dbchannel'
 
 AppChannel = Radio.channel 'pmc'
+
+eventManager = new EventManager
+AppChannel.reply 'get-event-manager', ->
+  return eventManager
 
 class Controller extends MainController
   channelName: 'pmc'
