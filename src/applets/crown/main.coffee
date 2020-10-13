@@ -19,10 +19,6 @@ appletMenu = [
     url: '#crown/events'
     icon: '.fa.fa-calendar'
   },{
-    label: 'Redirect Link'
-    url: '#crown/make-redirect'
-    icon: '.fa.fa-hand-o-right'
-  },{
     label: 'Subtopics'
     url: '#crown/topics'
     icon: '.fa.fa-globe'

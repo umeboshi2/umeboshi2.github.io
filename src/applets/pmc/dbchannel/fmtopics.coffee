@@ -13,7 +13,7 @@ AppChannel = Radio.channel 'pmc'
 dbConn = MainChannel.request 'main:app:dbConn', 'common'
 
 TopicsStore = new LoveStore dbConn, 'Topics'
-FMTopicsStore = new LoveStore dbConn, 'PMCFMTopics'
+FMTopicsStore = new LoveStore dbConn, 'PMCTopics'
 
 TopicFields = ['id', 'name']
 class TopicModel extends Model
@@ -74,4 +74,3 @@ AppChannel.reply 'get-fmtopic-collection', ->
   return fmtopicCollection
 AppChannel.reply 'make-fmtopic-pageable', ->
   return new FMTopicPageable
-

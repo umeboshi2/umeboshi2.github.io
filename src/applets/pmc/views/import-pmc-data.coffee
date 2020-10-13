@@ -128,10 +128,8 @@ class MainView extends MnView
       @importModel model, valueNow
     
   importBtnClicked: ->
-    if @collection.length
-      valueNow = @progressModel.get('valuenow')
-      model = @collection.pop()
-      @importModel model, valueNow
+    @onModelImported()
+
   updateBtnClicked: ->
     categories = eventIndex.get 'categories'
     pmcCategories = new Collection
@@ -166,5 +164,4 @@ class MainView extends MnView
                 model = new FMTopicModel item
                 fmTopicCollection.add model
                 await model.save()
-                
 export default MainView
