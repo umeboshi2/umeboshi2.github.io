@@ -40,9 +40,7 @@ class Controller extends MainController
       promises = [articles.fetch(), topics.fetch(), fmtopics.fetch()]
       Promise.all(promises).then =>
         topic = topics.findWhere name: name
-        console.log "topic is", topic
         pmtopics = fmtopics.filter topic_id: topic.id
-        console.log "pmtopics", pmtopics
         view = new View
           name: name
           collection: new Collection pmtopics

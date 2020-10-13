@@ -25,7 +25,6 @@ class TopicEntry extends MnView
     click: 'viewClicked'
   viewClicked: ->
     name = @model.get('name')
-    console.log "viewClicked", name
     navigateToUrl "#pmc/topics/#{name}"
     
 class TopicsListView extends CollectionView
