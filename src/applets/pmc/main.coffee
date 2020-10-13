@@ -12,12 +12,8 @@ appletMenu = [
     url: '#pmc'
     icon: '.fa.fa-star'
   },{
-    label: 'Site Topics'
-    url: '#pmc/topics/site'
-    icon: '.fa.fa-sitemap'
-  },{
     label: 'manageTopics'
-    url: '#pmc/topics/manage'
+    url: '#pmc/manage/topics'
     icon: '.fa.fa-sitemap'
   },{
     label: 'Search PMC'
@@ -34,8 +30,8 @@ class Router extends AppRouter
   channelName: appName
   appRoutes:
     'pmc': 'viewIndex'
-    'pmc/topics/site': 'viewSiteTopics'
-    'pmc/topics/manage': 'manageTopics'
+    'pmc/topics/:name': 'viewByTopic'
+    'pmc/manage/topics': 'manageTopics'
     'pmc/search/pmc': 'viewSearchPMC'
     'pmc/view/:id': 'viewPMCArticle'
     'pmc/import/site': 'importSite'

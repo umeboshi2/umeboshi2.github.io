@@ -1,6 +1,7 @@
-import { Radio } from 'backbone'
+import { Radio, Collection } from 'backbone'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
+import PageableCollection from 'backbone.paginator'
 
 import EventManager from 'common/event-manager'
 import { eventIndex } from 'common/index-models'
@@ -29,6 +30,26 @@ class Controller extends MainController
     # name the chunk
     , 'pmc-view-index'
 
+  viewByTopic: (name) ->
+    @setupLayoutIfNeeded()
+    require.ensure [], () =>
+      View = require('./views/bytopic-view').default
+      articles = AppChannel.request 'get-fm-collection'
+      topics = AppChannel.request 'get-topic-collection'
+      fmtopics = AppChannel.request 'get-fmtopic-collection'
+      promises = [articles.fetch(), topics.fetch(), fmtopics.fetch()]
+      Promise.all(promises).then =>
+        topic = topics.findWhere name: name
+        console.log "topic is", topic
+        pmtopics = fmtopics.filter topic_id: topic.id
+        console.log "pmtopics", pmtopics
+        view = new View
+          name: name
+          collection: new Collection pmtopics
+        @layout.showChildView 'content', view
+    # name the chunk
+    , 'pmc-view-bytopic'
+
   manageTopics: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
@@ -37,7 +58,7 @@ class Controller extends MainController
         model: eventIndex
       @layout.showChildView 'content', view
     # name the chunk
-    , 'pmc-view-sitetipics'
+    , 'pmc-view-manage-topics'
       
   viewSiteTopics: ->
     @setupLayoutIfNeeded()
@@ -47,7 +68,7 @@ class Controller extends MainController
         model: eventIndex
       @layout.showChildView 'content', view
     # name the chunk
-    , 'pmc-view-sitetipics'
+    , 'pmc-view-sitetopics'
       
   viewSearchPMC: ->
     @setupLayoutIfNeeded()

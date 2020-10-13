@@ -1,7 +1,9 @@
-import { Radio } from 'backbone'
-import { View as MnView } from 'backbone.marionette'
+import { Radio, Model, Collection } from 'backbone'
+import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import { JSONPath as jpath } from 'jsonpath-plus'
+import PointerOnHover from 'tbirds/behaviors/pointer-on-hover'
+import navigateToUrl from 'tbirds/util/navigate-to-url'
 
 import HasJsonView from 'common/has-jsonview'
 import parseRecord from '../parse-pmc-fm-content'
@@ -11,7 +13,24 @@ import makeDOIurl from 'common/make-doi-url'
 import ModalTopicsView from './manage-topics-modal'
 
 MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel 'pmc'
 
+class TopicEntry extends MnView
+  tagName: 'span'
+  className: 'badge badge-primary'
+  template: tc.renderable (model) ->
+    tc.text model.name
+  behaviors: [PointerOnHover]
+  events:
+    click: 'viewClicked'
+  viewClicked: ->
+    name = @model.get('name')
+    console.log "viewClicked", name
+    navigateToUrl "#pmc/topics/#{name}"
+    
+class TopicsListView extends CollectionView
+  childView: TopicEntry
+  
 class PMCFrontMatter extends MnView
   behaviors: [HasJsonView]
   template: tc.renderable (model) ->
@@ -52,6 +71,7 @@ class PMCFrontMatter extends MnView
                 tc.div '.card-text.small', atext
         tc.div '.abstract-container'
         tc.div '.card-footer', ->
+          tc.span '.topics-list.small.font-italic'
           tc.span '.topics-btn.badge.badge-dark', type:'button', 'assign topics'
       tc.div '.jsonview'
   ui:
@@ -61,6 +81,9 @@ class PMCFrontMatter extends MnView
     abstractCard: '.abstract-card'
     abstractBtn: '.abstract-btn'
     topicsBtn: '.topics-btn'
+    topicsList: '.topics-list'
+  regions:
+    topicsList: '@ui.topicsList'
   events:
     'click @ui.pmcAnchor': 'pmcAnchorClicked'
     'click @ui.deleteBtn': 'deleteBtnClicked'
@@ -69,6 +92,25 @@ class PMCFrontMatter extends MnView
   onRender: ->
     if not __DEV__
       @ui.jsonView.hide()
+    @ui.topicsBtn.hide()
+    topicList = new Collection
+    pmcid = @model.id
+    topics = AppChannel.request 'get-topic-collection'
+    fmtopics = AppChannel.request 'get-fmtopic-collection'
+    promises = [topics.fetch(), fmtopics.fetch()]
+    Promise.all(promises).then =>
+      pmtopics = fmtopics.filter pmcid:pmcid
+      tnames = []
+      pmtopics.forEach (model) ->
+        topicId = model.get 'topic_id'
+        topic = topics.get(topicId)
+        name = topic.get 'name'
+        topicList.add
+          id: name
+          name: name
+      view = new TopicsListView
+        collection: topicList
+      @showChildView 'topicsList', view
   pmcAnchorClicked: (event) ->
     event.preventDefault()
   deleteBtnClicked: ->
