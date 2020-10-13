@@ -2,9 +2,15 @@ import { Model, Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import 'spectrum-colorpicker'
+import PageableCollection from 'backbone.paginator'
+import PaginateBar from 'tbirds/views/paginate-bar'
 
 import { eventIndex } from './index-models'
 import './spectrum.css'
+
+class TopicColorCollection extends PageableCollection
+  mode: 'client'
+  comparator: 'name'
 
 class Entry extends MnView
   tagName: "li"
@@ -48,10 +54,13 @@ class TopicCollectionView extends CollectionView
 class MainView extends MnView
   template: tc.renderable (model) ->
     tc.h3 ".text-center", "Select Topic Colors"
+    tc.div '.paginate-bar'
     tc.div '.content'
   ui:
+    paginateBar: '.paginate-bar'
     content: '.content'
   regions:
+    paginateBar: '@ui.paginateBar'
     content: '@ui.content'
   childViewEvents:
     'input:changed': 'inputChanged'
@@ -62,7 +71,10 @@ class MainView extends MnView
       item =
         content[key]
       topics.push item
-    collection = new Collection topics
+    collection = new TopicColorCollection topics
+    pbar = new PaginateBar
+      collection: collection
+    @showChildView 'paginateBar', pbar
     view = new TopicCollectionView
       collection: collection
     @showChildView 'content', view

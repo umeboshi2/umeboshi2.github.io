@@ -32,7 +32,6 @@ class TopicCollectionView extends CollectionView
     
 class MainView extends MnView
   template: tc.renderable (model) ->
-    console.log "model", model
     tc.h3 "Manage Topics"
     tc.button '.update-btn.btn.btn-outline-warning', 'Update static topics'
     tc.div '.add-topic-input'
@@ -80,17 +79,12 @@ class MainView extends MnView
     papers = new FrontMatterCollection
     topics.fetch()
     .then ->
-      console.log "topics fetched"
       fmtopics.fetch()
     .then ->
-      console.log "fmtopics fetched"
       papers.fetch()
     .then ->
-      console.log "papers fetched"
       papers.each (paper) ->
-        console.log "paper", paper.id
         pmcid = paper.id
         pmtopics = fmtopics.where pmcid:pmcid
-        console.log "pmtopics", pmtopics
         
 export default MainView
