@@ -24,11 +24,15 @@ class TopicCollection extends PageableCollection
     sortKey: 'name'
     pageSize: 10
   comparator: 'name'
+
+class TopicEntry extends CheckboxEntryView
+  className: "form-group form-check border border-primary rounded"
+  
   
 class TopicCollectionView extends CollectionView
   template: tc.renderable ->
     tc.div '.topics'
-  childView: CheckboxEntryView
+  childView: TopicEntry
   childViewContainer: '.topics'
   viewComparator: 'name'
   childViewEvents:
@@ -42,9 +46,9 @@ class TopicCollectionView extends CollectionView
       hasPageableCollection: true
       masonryOptions:
         itemSelector: '.form-check'
-        isInitLayout: false
+        isInitLayout: true
         horizontalOrder: true
-        columnWidth: 100
+        columnWidth: 15
         stagger: 30
 
 class TopicsView extends MnView
