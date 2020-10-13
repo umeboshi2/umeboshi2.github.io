@@ -3,6 +3,7 @@ import { Collection, Radio } from 'backbone'
 import { View as MnView, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 
+import PointerOnHover from 'tbirds/behaviors/pointer-on-hover'
 import CheckboxEntryView from 'tbirds/views/checkbox-entry'
 import BaseModalTopicsView from 'common/base-select-topics-modal'
 import indexModels from 'common/index-models'
@@ -14,48 +15,46 @@ eventIndex = indexModels.eventIndex
 
 eventManager = AppChannel.request 'get-event-manager', 'topics'
 
-class TopicCollectionView extends CollectionView
-  childView: CheckboxEntryView
-  viewComparator: 'name'
-  childViewEvents:
-    'toggled': 'childToggled'
-  childToggled: ->
-    @trigger 'child:toggled'
-
 class ButtonBar extends MnView
-  className: 'btn-group'
+  tagName: 'ul'
+  className: 'nav nav-pills'
   template: tc.renderable ->
-    warn = ".btn.btn-outline-warning"
-    tc.button '.show-available-btn.btn.btn-outline-info', ->
-      tc.text 'Show available'
-    tc.button ".show-selected-btn#{warn}", ->
-      tc.text 'Show selected'
-    tc.button ".list-events-btn#{warn}.fa.fa-list", ->
-      tc.text 'List Events'
-    tc.button ".calendar-btn#{warn}.fa.fa-calendar", ->
-      tc.text 'Calendar'
-    tc.button ".timeline-btn#{warn}.fa.fa-road", ->
-      tc.text 'Timeline'
-    tc.button ".topic-colors-btn#{warn}.fa.fa-brush", ->
-      tc.text 'Topic Colors'
+    tc.li '.show-available.nav-item', ->
+      tc.a '.nav-link.fa.fa-circle-o', ->
+        tc.text 'Show available'
+    tc.li ".show-selected.nav-item", ->
+      tc.a '.nav-link.fa.fa-check', ->
+        tc.text 'Show selected'
+    tc.li ".list-events.nav-item", ->
+      tc.a '.nav-link.fa.fa-list', ->
+        tc.text 'List Events'
+    tc.li ".calendar.nav-item", ->
+      tc.a '.nav-link.fa.fa-calendar', ->
+        tc.text 'Calendar'
+    tc.li ".timeline.nav-item", ->
+      tc.a '.nav-link.fa.fa-road', ->
+        tc.text 'Timeline'
+    tc.li ".topic-colors.nav-item", ->
+      tc.a '.nav-link.fa.fa-paint-brush', ->
+        tc.text 'Topic Colors'
   ui:
-    showSelectedBtn: '.show-selected-btn'
-    showAvailBtn: '.show-available-btn'
-    listEventsBtn: '.list-events-btn'
-    calendarBtn: '.calendar-btn'
-    timelineBtn: '.timeline-btn'
-    topicColorsBtn: '.topic-colors-btn'
+    showSelected: '.show-selected'
+    showAvail: '.show-available'
+    listEvents: '.list-events'
+    calendar: '.calendar'
+    timeline: '.timeline'
+    topicColors: '.topic-colors'
   triggers:
-    'click @ui.showSelectedBtn': 'select:clicked'
-    'click @ui.showCategoriesBtn': 'categories:clicked'
-    'click @ui.showAvailBtn': 'available:clicked'
-    'click @ui.listEventsBtn': 'list:clicked'
-    'click @ui.calendarBtn': 'calendar:clicked'
-    'click @ui.timelineBtn': 'timeline: clicked'
-    'click @ui.topicColorsBtn': 'topic:colors:clicked'
+    'click @ui.showSelected': 'select:clicked'
+    'click @ui.showCategories': 'categories:clicked'
+    'click @ui.showAvail': 'available:clicked'
+    'click @ui.listEvents': 'list:clicked'
+    'click @ui.calendar': 'calendar:clicked'
+    'click @ui.timeline': 'timeline: clicked'
+    'click @ui.topicColors': 'topic:colors:clicked'
   onRender: ->
-    @ui.timelineBtn.hide()
-    
+    @ui.timeline.hide()
+  behaviors: [PointerOnHover]
     
 export default ButtonBar
 

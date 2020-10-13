@@ -1,22 +1,30 @@
 import { View as MnView } from 'backbone.marionette'
 import tc from 'teacup'
 
+import PointerOnHover from 'tbirds/behaviors/pointer-on-hover'
 import navigateToUrl from 'tbirds/util/navigate-to-url'
  
 class MenuBar extends MnView
-  className: 'btn-group'
+  tagName: 'ul'
+  className: 'nav nav-pills'
+  #className: 'btn-group'
   template: tc.renderable ->
-    tc.button '.home-btn.btn.btn-outline-primary.btn-sm.fa.fa-home', 'Home'
-    tc.button '.parent-bnt.btn.btn-outline-primary.btn-sm.fa.fa-arrow-up', 'Up'
+    tc.li '.home.nav-item', ->
+      tc.a '.nav-link.fa.fa-home', ->
+        tc.text 'Home'
+    tc.li ".parent.nav-item", ->
+      tc.a '.nav-link.fa.fa-arrow-up', ->
+        tc.text 'Up'
   ui:
-    homeBtn: '.home-btn'
-    parentBtn: '.parent-bnt'
+    home: '.home'
+    parent: '.parent'
   events:
-    'click @ui.homeBtn': 'homeBtnClicked'
-    'click @ui.parentBtn': 'parentBtnClicked'
-  homeBtnClicked: ->
+    'click @ui.home': 'homeClicked'
+    'click @ui.parent': 'parentClicked'
+  behaviors: [PointerOnHover]
+  homeClicked: ->
     navigateToUrl '#pages/blog/cv19/index'
-  parentBtnClicked: ->
+  parentClicked: ->
     parent = @model.get 'parent'
     navigateToUrl parent
     
