@@ -1474,3 +1474,84 @@ events:
       - general-covid
     title: The Expression of Emotion Through Nonverbal Behavior in Medical Visits
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1484830/
+  - start: 2020-09-11
+    type: paper
+    topics:
+      - general-covid
+    journal: Morbidity and Mortality Weekly Report (MMWR)
+    title: Community and Close Contact Exposures Associated with COVID-19 Among Symptomatic Adults ≥18 Years in 11 Outpatient Health Care Facilities — United States, July 2020
+    link: https://www.cdc.gov/mmwr/volumes/69/wr/mm6936a5.htm
+    extra:
+      - name: (PDF)
+        link: https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6936a5-H.pdf
+  - start: 2020-10-10
+    type: paper
+    topics:
+      - general-covid
+    title: An Evidence Based Scientific Analysis of Why Masks are Ineffective, Unnecessary, and Harmful
+    link: https://www.meehanmd.com/blog/2020-10-10-an-evidence-based-scientific-analysis-of-why-masks-are-ineffective-unnecessary-and-harmful/
+  - start: 2020-08-14
+    type: paper
+    topics:
+      - general-covid
+      - hcq
+    title: "Hydroxychloroquine in the Treatment of COVID-19: A Multicenter Randomized Controlled Study"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7543820/
+  - start: 2020-10-12
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+    title: "GUINEA PIGS: More than 30,000 Sign Up To Be Infected With COVID-19 To Test Experimental Vaccine"
+    link: https://www.dailywire.com/news/guinea-pigs-more-than-300000-sign-up-to-be-infected-with-covid-19-to-test-experimental-vaccine
+  - start: 2020-10-13
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - censorship
+    title: Facebook Bans Ads Discouraging Vaccines, In Latest Misinformation Crackdown
+    link: https://www.npr.org/sections/coronavirus-live-updates/2020/10/13/923331982/facebook-bans-ads-discouraging-vaccines-in-latest-misinformation-crackdown
+  - start: 2020-10-13
+    type: news
+    topics:
+      - general-covid
+      - world-economic-forum
+    title: "WHO: Just 10% of the world has caught COVID-19 and things are about to get 'difficult'"
+    link: https://www.weforum.org/agenda/2020/10/one-in-10-may-have-caught-covid-as-world-heads-into-difficult-period-who
+  - start: 2020-07-01
+    type: paper
+    topics:
+      - general-covid
+      - environmental-stability
+    title: Increasing Temperature and Relative Humidity Accelerates Inactivation of SARS-CoV-2 on Surfaces
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7333574/
+  - start: 2020-10-07
+    type: paper
+    topics:
+      - general-covid
+      - environmental-stability
+    title: The effect of temperature on persistence of SARS-CoV-2 on common surfaces
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7538848/
+  - start: 2020-10-14
+    type: news
+    topics:
+      - general-covid
+      - environmental-stability
+    title: How worried should I be about news the coronavirus survives on surfaces for up to 28 days?
+    link: https://medicalxpress.com/news/2020-10-news-coronavirus-survives-surfaces-days.html
+  - start: 2020-07-27
+    type: news
+    topics:
+      - general-covid
+      - vitamins
+    title: Vitamin D helps the body fight coronavirus, major Israeli study claims
+    link: https://www.timesofisrael.com/vitamin-d-helps-the-body-fight-coronavirus-major-israeli-study-claims/
+  - start: 2020-07-23
+    type: paper
+    topics:
+      - general-covid
+      - vitamins
+    title: "Low plasma 25(OH) vitamin D level is associated with increased risk of COVID‐19 infection: an Israeli population‐based study"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7404739/
+    
