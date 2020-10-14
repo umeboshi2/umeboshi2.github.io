@@ -43,10 +43,17 @@ export initTopicColors = ->
 
 export updateTopicColors = ->
   indexTopics = eventIndex.get 'topics'
-  model = new ConfigObjectModel
-  model.fetch()
+  collection = new ConfigObjectCollection
+  collection.fetch()
   .then ->
-    topics = model.get 'content'
+    console.log "collection", collection
+    if not collection.length
+      initTopicColors()
+    
+    model = collection.findWhere name:'topic-colors'
+    console.log "MODEL", model
+    topics = model.get('content')
+    console.log "TOPICS", topics
     localTopicKeys = _.keys topics
     for key of indexTopics
       if not _.includes localTopicKeys, key
