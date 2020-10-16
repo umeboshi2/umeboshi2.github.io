@@ -1,23 +1,10 @@
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
-import tc from 'teacup'
-import ms from 'ms'
-
-import ToolbarView from 'tbirds/views/button-toolbar'
+import { Radio } from 'backbone'
 import { MainController } from 'tbirds/controllers'
 import { ToolbarAppletLayout } from 'tbirds/views/layout'
-import navigate_to_url from 'tbirds/util/navigate-to-url'
-
-scroll_top_fast = require 'tbirds/util/scroll-top-fast'
 
 import './dbchannel'
 
-
-MainChannel = Backbone.Radio.channel 'global'
-MessageChannel = Backbone.Radio.channel 'messages'
-ResourceChannel = Backbone.Radio.channel 'resources'
-AppChannel = Backbone.Radio.channel 'tvmaze'
-
+AppChannel = Radio.channel 'tvmaze'
 
 class Controller extends MainController
   layoutClass: ToolbarAppletLayout
@@ -25,11 +12,11 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       lcollection = AppChannel.request 'get-local-tvshows'
-      Collection = AppChannel.request 'tv-show-search-collection'
-      View = require './views/index-view'
+      SCollection = AppChannel.request 'tv-show-search-collection'
+      View = require('./views/index-view').default
       lcollection.fetch().then =>
         view = new View
-          collection: new Collection
+          collection: new SCollection
         @layout.showChildView 'content', view
     # name the chunk
     , 'tvmaze-view-index'
@@ -41,35 +28,17 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     collection = AppChannel.request 'get-local-tvshows'
     require.ensure [], () =>
-      View = require './views/card-show-list'
+      View = require('./views/card-show-list').default
       @_loadView View, collection, 'tvshow'
     # name the chunk
     , 'tvmaze-view-show-list-cards'
-      
-  viewShowListPackery: ->
-    @setupLayoutIfNeeded()
-    collection = AppChannel.request 'get-local-tvshows'
-    require.ensure [], () =>
-      View = require './views/packery-show-list'
-      @_loadView View, collection, 'tvshow'
-    # name the chunk
-    , 'tvmaze-view-show-list-packery'
-      
-  viewShowListMasonry: ->
-    @setupLayoutIfNeeded()
-    collection = AppChannel.request 'get-local-tvshows'
-    require.ensure [], () =>
-      View = require './views/masonry-show-list'
-      @_loadView View, collection, 'tvshow'
-    # name the chunk
-    , 'tvmaze-view-show-list-masonry'
       
   viewShowListFlat: ->
     @setupLayoutIfNeeded()
     collection = AppChannel.request 'get-local-tvshows'
     window.tvshows = collection
     require.ensure [], () =>
-      View = require './views/flat-show-list'
+      View = require('./views/flat-show-list').default
       response = collection.fetch()
       response.done =>
         view = new View
@@ -81,7 +50,7 @@ class Controller extends MainController
   viewSearchShow: ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/single-search-show-view'
+      View = require('./views/single-search-show-view').default
       view = new View
       @layout.showChildView 'content', view
     # name the chunk
@@ -90,7 +59,7 @@ class Controller extends MainController
   viewShow: (id) ->
     @setupLayoutIfNeeded()
     require.ensure [], () =>
-      View = require './views/view-show'
+      View = require('./views/view-show').default
       LModel = AppChannel.request 'get-local-tvshow-model'
       model = new LModel id: id
       @_loadView View, model, 'tvshow'
@@ -101,7 +70,6 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       lcollection = AppChannel.request 'get-all-local-tvshows'
-      Collection = AppChannel.request 'tv-show-search-collection'
       View = require('./views/sample-data-import').default
       lcollection.fetch().then =>
         view = new View
@@ -113,8 +81,7 @@ class Controller extends MainController
     @setupLayoutIfNeeded()
     require.ensure [], () =>
       lcollection = AppChannel.request 'get-local-tvshows'
-      Collection = AppChannel.request 'tv-show-search-collection'
-      View = require './views/calendar-view'
+      View = require('./views/calendar-view').default
       lcollection.fetch().then =>
         view = new View
         @layout.showChildView 'content', view

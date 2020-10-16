@@ -1,18 +1,16 @@
 import $ from 'jquery'
-import Backbone from 'backbone'
-import Marionette from 'backbone.marionette'
+import { Radio } from 'backbone'
+import { capitalize } from 'lodash'
 import AppRouter from 'marionette.approuter'
-import TkApplet from 'tbirds/tkapplet'
-import capitalize from 'tbirds/util/capitalize'
 
+import TkApplet from 'tbirds/tkapplet'
 import Controller from './controller'
 import Worker from 'worker-loader!./worker'
 
 appName = 'tvmaze'
 
-MainChannel = Backbone.Radio.channel 'global'
-AppChannel = Backbone.Radio.channel appName
-
+MainChannel = Radio.channel 'global'
+AppChannel = Radio.channel appName
 
 appletMenu = [
   {
@@ -40,6 +38,7 @@ if __DEV__
     console.log event.data
   
 class Router extends AppRouter
+  channelName: appName
   appRoutes:
     'tvmaze': 'viewIndex'
     'tvmaze/searchshow': 'viewSearchShow'
