@@ -57,6 +57,7 @@ a global pandemic.
 
 Here is a list of tools and other services provided by this web application.
 
-1. [Create a Redirect Link](#crown/make-redirect)  This feature can be used to 
-   share links that are otherwise blocked on facebook, or other platforms.
+1. [Xyzzy](#xyzzy)  This [feature](https://en.wikipedia.org/wiki/Xyzzy_(computing)) can be useful.  It's in a shifty and rickety state of development and may
+provide useless results.
+
    

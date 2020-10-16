@@ -87,3 +87,6 @@ https://www.goodreads.com/quotes/445661-selfishness-is-not-living-as-one-wishes-
 https://twitter.com/JohnCammo/status/1306863435125202946
 
 https://caniuse.com/indexeddb
+
+https://www.facebook.com/maryjosperry/posts/10223411105681479
+
