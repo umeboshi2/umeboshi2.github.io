@@ -219,6 +219,7 @@ WebPackConfig =
       handlebars: 'handlebars/dist/handlebars'
       # alias underscore with lodash and eventually remove underscore
       underscore: 'lodash'
+      jquery: 'jquery/src/jquery'
   stats:
     colors: true
     modules: false
