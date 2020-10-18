@@ -1,27 +1,19 @@
 import { Radio } from 'backbone'
-import { View as MnView } from 'backbone.marionette'
+import { View } from 'backbone.marionette'
 import tc from 'teacup'
 import marked from 'marked'
 import ElizaToolbar from './toolbar'
 
 import TerminalView from './terminal'
-import { Terminal } from 'xterm'
-import * as fit from 'xterm/lib/addons/fit/fit'
-import './xterm.scss'
-Terminal.applyAddon fit
-
-import Worker from 'worker-loader!../worker'
-
-  
+#import Worker from 'worker-loader!../worker'
 import Intro from "raw-loader!../intro.md"
 
-worker = new Worker()
-if __DEV__ and DEBUG
-  console.log "worker", worker
+#worker = new Worker()
+
 
 MessageChannel = Radio.channel 'messages'
 
-class MainView extends MnView
+class MainView extends View
   template: tc.renderable ->
     tc.div '.row.listview-header.justify-content-center', 'ELIZA Terminal'
     tc.div '.row.intro'
@@ -41,7 +33,7 @@ class MainView extends MnView
   onRender: ->
     view = new ElizaToolbar
     @showChildView 'toolbar', view
-    iview = new MnView
+    iview = new View
       template: tc.renderable ->
         tc.raw marked Intro
     @showChildView 'intro', iview
@@ -60,7 +52,6 @@ class MainView extends MnView
     @showChildView 'terminal', tview
     view = @getChildView 'terminal'
     view.startTerminal()
-    
   destroyTerminal: ->
     view = @getChildView 'terminal'
     if view

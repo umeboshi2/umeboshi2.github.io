@@ -1,6 +1,6 @@
 import $ from 'jquery'
 import { Model, Collection, Radio } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
+import { View, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
 import FileSaver from 'file-saver'
 import HasJsonView from 'common/has-jsonview'
@@ -39,12 +39,12 @@ importExportTemplate = tc.renderable (model) ->
       tc.div '.dbview'
       
 
-class DatabaseView extends MnView
+class DatabaseView extends View
   behaviors: [HasJsonView]
   template: tc.renderable ->
     tc.div '.jsonview'
     
-class ImportExportView extends MnView
+class ImportExportView extends View
   template: importExportTemplate
   ui:
     viewButton: '.view'
@@ -142,7 +142,7 @@ class ImportExportView extends MnView
     @ui.importButton.hide()
     
 
-class MainView extends MnView
+class MainView extends View
   regions:
     body: '.body'
   template: tc.renderable ->

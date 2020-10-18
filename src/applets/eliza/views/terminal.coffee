@@ -1,25 +1,24 @@
-import { View as MnView } from 'backbone.marionette'
-#import { hterm, lib } from 'hterm-umdjs'
+import { View } from 'backbone.marionette'
 
 import { Terminal } from 'xterm'
-import * as fit from 'xterm/lib/addons/fit/fit'
-#import "xterm/dist/xterm.css"
-import './xterm.scss'
-Terminal.applyAddon fit
+import { FitAddon } from 'xterm-addon-fit'
 
+import './xterm.scss'
 import Worker from 'worker-loader!../worker'
 
 worker = new Worker()
 
 class MyTerminal extends Terminal
   prompt: ->
-    @.write '\r\n->'
+    @write '\r\n->'
     return
 
 makeTerm = ->
   term = new MyTerminal()
   currentInput = ''
-  term.on 'key', (key, ev) ->
+  term.onKey (options) ->
+    ev = options.domEvent
+    key = options.key
     printable = !ev.altKey && !ev.altGraphKey && !ev.ctrlKey && !ev.metaKey
     if ev.keyCode == 13
       term.write('\r\n')
@@ -36,7 +35,7 @@ makeTerm = ->
       currentInput += key
   return term
 
-class TerminalView extends MnView
+class TerminalView extends View
   template: false
   className: 'my-xterm'
   ui:
@@ -44,13 +43,16 @@ class TerminalView extends MnView
   startTerminal: ->
     #@terminal.dispose()
     @terminal = makeTerm()
+    @fitAddon = new FitAddon()
+    @terminal.loadAddon @fitAddon
     #@terminal = myXterm
     @terminal.open @el
     @terminal.setOption 'fontSize', 14
     @terminal.setOption 'fontFamily', 'Mono'
     @terminal.resize(80, 15)
     #@terminal.resize(NaN, NaN)
-    @terminal.fit()
+    # @terminal.fit()
+    @fitAddon.fit()
     console.log "@terminal", @terminal
     worker.onmessage = (event) =>
       @terminal.write event.data.content

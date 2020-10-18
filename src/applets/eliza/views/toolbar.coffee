@@ -1,11 +1,6 @@
-import { Collection } from 'backbone'
-import { View as MnView, CollectionView } from 'backbone.marionette'
+import { history as bbhistory, Collection } from 'backbone'
+import { View, CollectionView } from 'backbone.marionette'
 import tc from 'teacup'
-
-import { Terminal } from 'xterm'
-import * as fit from 'xterm/lib/addons/fit/fit'
-import './xterm.scss'
-Terminal.applyAddon fit
 
 import Worker from 'worker-loader!../worker'
 
@@ -13,9 +8,6 @@ worker = new Worker()
 if __DEV__ and DEBUG
   console.log "worker", worker
   
-
-{ navigate_to_url } = require 'tbirds/util/navigate-to-url'
-
 toolbarEntries = [
   {
     id: 'destroy'
@@ -29,7 +21,6 @@ toolbarEntries = [
   }
 ]
 
-
 defaultButtonTemplate = tc.renderable (model) ->
   tc.i model.icon
   tc.text " "
@@ -37,7 +28,7 @@ defaultButtonTemplate = tc.renderable (model) ->
 
 defaultButtonClassName = "btn btn-outline-primary"
 
-class ToolbarButton extends MnView
+class ToolbarButton extends View
   tagName: 'button'
   #className: 'btn btn-outline-primary'
   className: ->
@@ -59,7 +50,7 @@ class ToolbarButtonGroup extends CollectionView
   childViewTriggers:
     'button:clicked': 'toolbar:entry:clicked'
 
-class ToolbarView extends MnView
+class ToolbarView extends View
   template: tc.renderable () ->
     tc.div '.toolbar-entries'
   regions:
@@ -74,8 +65,7 @@ class ToolbarView extends MnView
       buttonClassName: buttonClassName
     @showChildView 'entries', view
   onChildviewToolbarEntryClicked: (child) ->
-    navigate_to_url child.model.get 'url'
-    
+    bbhistory.navigate child.model.get('url'), trigger:true
   
 class ElizaToolbar extends ToolbarView
   collection: new Collection toolbarEntries

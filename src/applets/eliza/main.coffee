@@ -1,5 +1,6 @@
+import { Radio } from 'backbone'
 import TkApplet from 'tbirds/tkapplet'
-import capitalize from 'tbirds/util/capitalize'
+import { capitalize } from 'lodash'
 import AppRouter from 'marionette.approuter'
 
 import Controller from './controller'
