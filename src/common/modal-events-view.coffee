@@ -10,8 +10,9 @@ class ModalEventsView extends BaseModalView
     tc.div '.modal-dialog.modal-md', ->
       tc.div '.modal-content', ->
         tc.div '.events'
-        tc.button '.close-btn.btn.btn-warning.fa.fa-close.ml-auto',
-        data:dismiss:'modal', "Close"
+        tc.div '.modal-footer', ->
+          tc.button '.close-btn.btn.btn-warning.fa.fa-close.ml-auto',
+          data:dismiss:'modal', "Close"
   ui:
     closeBtn: '.close-btn'
     eventsRegion: '.events'
