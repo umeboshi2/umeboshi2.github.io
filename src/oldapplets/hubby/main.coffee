@@ -1,6 +1,6 @@
 import $ from 'jquery'
 import Marionette from 'backbone.marionette'
-import AppRouter from 'marionette.approuter'
+import AppRouter from 'tbirds/routers/approuter'
 import TkApplet from 'tbirds/tkapplet'
 
 import './collections'

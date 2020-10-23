@@ -2,7 +2,7 @@ import Backbone from 'backbone'
 import Marionette from 'backbone.marionette'
 import TkApplet from 'tbirds/tkapplet'
 import capitalize from 'tbirds/util/capitalize'
-import AppRouter from 'marionette.approuter'
+import AppRouter from 'tbirds/routers/approuter'
 
 import Controller from './controller'
 

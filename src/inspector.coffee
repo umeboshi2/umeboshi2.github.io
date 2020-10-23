@@ -1,5 +1,5 @@
 import Backbone from  'backbone'
-import  'backbone.routefilter'
+import  'tbirds/routers/filtered-router'
 import Marionette from 'backbone.marionette'
 
 
