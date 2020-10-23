@@ -31,7 +31,6 @@ if __DEV__
   console.warn "__DEV__", __DEV__, "DEBUG", DEBUG
   Radio.DEBUG = true
 
-import 'tbirds/applet-router'
 IsEscapeModal = require('tbirds/behaviors/is-escape-modal').default
 
 
@@ -47,8 +46,8 @@ $(document).ajaxError (event, xhr) ->
   MessageChannel.request 'xhr-error', xhr
 
 
-if __DEV__
-  require '../inspector'
+#if __DEV__
+#  require '../inspector'
   
 currentUser = new Model
   isGuest: true
