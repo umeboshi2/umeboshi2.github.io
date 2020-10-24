@@ -528,5 +528,14 @@ events:
       - agenda21
     title: "Mapping the knowledge of green consumption: a meta-analysis"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7528456/
-    
+  - start: 2020-10-20
+    type: news
+    topics:
+      - general-covid
+      - masks
+      - mississippi
+    journal: The Daily Beast
+    authors: Larrison Campbell
+    title: Maskless White People Are Fueling a Massive New Coronavirus Surge in Mississippi
+    link: https://www.msn.com/en-us/news/us/maskless-white-people-are-fueling-a-massive-new-coronavirus-surge-in-mississippi/ar-BB1acvVl
     
