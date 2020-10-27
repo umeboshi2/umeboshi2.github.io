@@ -538,4 +538,32 @@ events:
     authors: Larrison Campbell
     title: Maskless White People Are Fueling a Massive New Coronavirus Surge in Mississippi
     link: https://www.msn.com/en-us/news/us/maskless-white-people-are-fueling-a-massive-new-coronavirus-surge-in-mississippi/ar-BB1acvVl
-    
+  - start: 2020-07-27
+    type: news
+    topics:
+      - general-covid
+      - hand-hygiene
+    journal: The Atlantic
+    authors: Derek Thompson
+    title: Hygiene Theater Is a Huge Waste of Time
+    link: https://www.theatlantic.com/ideas/archive/2020/07/scourge-hygiene-theater/614599/
+  - start: 2020-10-22
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - trials
+      - astra-zeneca
+    journal: The Print
+    title: AstraZeneca trial volunteer in Brazil who died had been given placebo, not Covid vaccine
+    link: https://theprint.in/world/astrazeneca-trial-volunteer-in-brazil-who-died-had-been-given-placebo-not-covid-vaccine/528611/
+  - start: 2020-10-21
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - trials
+      - astra-zeneca
+    journal: Reuters
+    title: AstraZeneca COVID-19 vaccine trial Brazil volunteer dies, trial to continue
+    link: https://www.reuters.com/article/health-coronavirus-brazil-vaccine-int-idUSKBN2762OV

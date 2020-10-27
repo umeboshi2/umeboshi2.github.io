@@ -1293,7 +1293,7 @@ events:
     type: paper
     topics:
       - disease
-    title: The British Army's contribution to tropical medicine
+    title: "The British Army's contribution to tropical medicine"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6334121/
   - start: 2020-09-03
     type: news
@@ -1554,4 +1554,10 @@ events:
       - vitamins
     title: "Low plasma 25(OH) vitamin D level is associated with increased risk of COVID‐19 infection: an Israeli population‐based study"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7404739/
-    
+  - start: 2020-10-24
+    type: news
+    topics:
+      - vaccination
+      - disease
+    title: South Korean authorities stick to flu vaccine plan after deaths rise to 48
+    link: https://www.reuters.com/article/us-health-coronavirus-southkorea-flushot-idUSKBN2790G8
