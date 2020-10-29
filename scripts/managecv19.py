@@ -86,7 +86,7 @@ class EventParser(object):
     def __init__(self):
         self.parsed = None
         self.category = None
-        needed = ['start', 'topics', 'title', 'link']
+        needed = ['start', 'type', 'topics', 'title', 'link']
         known = needed + ['end', 'pretext', 'authors', 'journal', 'extra']
         self.needed = needed
         self.known = known
