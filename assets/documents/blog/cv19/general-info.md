@@ -70,6 +70,8 @@ Coronavirus Disease 2019 (COVID-19)"
 Compare Trends in COVID-19 Cases and Deaths in States in the US Reported to CDC 
 with the [CDC COVID Data Tracker](https://covid.cdc.gov/covid-data-tracker/#compare-trends_newcasesper100k).
 
+[Vaccine Recommendations and Guidelines of the ACIP](https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/general-recs-errata.html)
+
 # Other Articles
 
 [We Thought It Was Just a Respiratory Virus](https://www.ucsf.edu/magazine/covid-body)
