@@ -1561,3 +1561,50 @@ events:
       - disease
     title: South Korean authorities stick to flu vaccine plan after deaths rise to 48
     link: https://www.reuters.com/article/us-health-coronavirus-southkorea-flushot-idUSKBN2790G8
+  - start: 2020-09-25
+    type: paper
+    topics:
+      - general-covid
+      - disease
+    journal: Morbidity and Mortality Weekly Report (MMWR)
+    title: some title
+    link: https://www.cdc.gov/mmwr/volumes/69/wr/mm6937a6.htm
+  - start: 2020-10-20
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+    title: Researchers Warn Some Covid-19 Vaccines Could Increase Risk Of HIV Infection
+    link: https://www.forbes.com/sites/roberthart/2020/10/20/researchers-warn-some-covid-19-vaccines-could-increase-risk-of-hiv-infection/
+  - start: 2020-10-19
+    type: paper
+    topics:
+      - general-covid
+      - vaccination
+    title: "Use of adenovirus type-5 vectored vaccines: a cautionary tale"
+    link: ancet.com/journals/lancet/article/PIIS0140-6736(20)32156-5/fulltext
+  - start: 2014-05-07
+    type: paper
+    topics:
+      - vaccination
+      - trials
+    title: "Safety and Immunogenicity of Tetanus Diphtheria and Acellular Pertussis (Tdap) Immunization During Pregnancy in Mothers and Infants: A Randomized Clinical Trial"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4333147/
+  - start: 2020-02-03
+    type: paper
+    topics:
+      - general-covid
+    title: A new coronavirus associated with human respiratory disease in China
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7094943/
+  - start: 2020-01-30
+    type: paper
+    topics:
+      - general-covid
+    title: "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7159086/
+  - start: 2020-03-18
+    type: paper
+    topics:
+      - general-covid
+    title: "COVID-19: Knowns, Unknowns, and Questions"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7082143/

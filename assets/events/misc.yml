@@ -567,3 +567,38 @@ events:
     journal: Reuters
     title: AstraZeneca COVID-19 vaccine trial Brazil volunteer dies, trial to continue
     link: https://www.reuters.com/article/health-coronavirus-brazil-vaccine-int-idUSKBN2762OV
+  - start: 2020-10-28
+    type: news
+    topics:
+      - general-covid
+      - masks
+    title: MS,Police Officers Harass,Ticket Arrest and Assault Residents For Not Wearing Masks.
+    link: https://www.thebiggsreport.com/2020/10/mspolice-officers-harassticket-arrest-and-assault-residents-for-not-wearing-masks/
+  - start: 2011-07-28
+    type: paper
+    topics:
+      - dna
+      - evolution
+    title: "A 33,000-Year-Old Incipient Dog from the Altai Mountains of Siberia: Evidence of the Earliest Domestication Disrupted by the Last Glacial Maximum"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3145761/
+  - start: 2014-01-16
+    type: paper
+    topics:
+      - dna
+      - evolution
+    title: Genome Sequencing Highlights the Dynamic Early History of Dogs
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894170/
+  - start: 2015-12-15
+    type: paper
+    topics:
+      - dna
+      - evolution
+    title: "Out of southern East Asia: the natural history of domestic dogs across the world"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4816135/
+  - start: 2020-03-04
+    type: paper
+    topics:
+      - dna
+      - evolution
+    title: Whole genome resequencing of the Iranian native dogs and wolves to unravel variome during dog domestication
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7057629/
