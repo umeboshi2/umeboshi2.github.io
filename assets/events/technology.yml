@@ -179,3 +179,22 @@ events:
     extra:
       - name: (Github Repo)
         link: https://github.com/OpenGene/fastv
+  - start: 2019-04-12
+    type: paper
+    topics:
+      - nanotech
+    title: Virus-Like Particle Facilitated Deposition of Hydroxyapatite Bone Mineral on Nanocellulose after Exposure to Phosphate and Calcium Precursors
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6515374/
+  - start: 2014-12-04
+    type: paper
+    topics:
+      - nanotech
+    title: Fundamentals and Application of Magnetic Particles in Cell Isolation and Enrichment
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4310825/
+  - start: 2013-05-07
+    type: paper
+    topics:
+      - nanotech
+    title: TMV nanorods with programmed longitudinal domains of differently addressable coat proteins
+    link: https://pubmed.ncbi.nlm.nih.gov/23519401/
+    

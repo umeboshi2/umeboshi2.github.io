@@ -1608,3 +1608,27 @@ events:
       - general-covid
     title: "COVID-19: Knowns, Unknowns, and Questions"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7082143/
+  - start: 2015-06-27
+    type: paper
+    topics:
+      - disease
+    title: "SARS and MERS: recent insights into emerging coronaviruses"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7097822/
+  - start: 2004-11-11
+    type: paper
+    topics:
+      - disease
+    title: Prediction of quaternary assembly of SARS coronavirus peplomer
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7092937/
+  - start: 2006-10-04
+    type: paper
+    topics:
+      - disease
+    title: "Adaptive evolution of the spike gene of SARS coronavirus: changes in positively selected sites in different epidemic groups"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1609170/
+  - start: 2005-02-04
+    type: paper
+    topics:
+      - disease
+    title: Cross-host evolution of severe acute respiratory syndrome coronavirus in palm civet and human
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC548959/
