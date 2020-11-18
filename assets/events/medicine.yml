@@ -1632,3 +1632,19 @@ events:
       - disease
     title: Cross-host evolution of severe acute respiratory syndrome coronavirus in palm civet and human
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC548959/
+  - start: 2020-02-03
+    type: paper
+    topics:
+      - general-covid
+    title: A pneumonia outbreak associated with a new coronavirus of probable bat origin
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7095418/
+    extra:
+      - name: (Bat coronavirus RaTG13, complete genome)
+        link: https://www.ncbi.nlm.nih.gov/nuccore/MN996532
+  - start: 2011-12-21
+    type: paper
+    topics:
+      - masks
+      - disease
+    title: "The use of masks and respirators to prevent transmission of influenza: a systematic review of the scientific evidence"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5779801/

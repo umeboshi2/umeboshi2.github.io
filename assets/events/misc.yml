@@ -602,3 +602,42 @@ events:
       - evolution
     title: Whole genome resequencing of the Iranian native dogs and wolves to unravel variome during dog domestication
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7057629/
+  - start: 2020-11-12
+    type: news
+    topics:
+      - general-covid
+    title: Fauci says U.S. has ‘independent spirit,’ but now is the time to ‘do what you’re told’
+    link: https://www.cnbc.com/2020/11/12/fauci-says-us-has-independent-spirit-but-now-is-the-time-to-do-what-youre-told.html
+  - start: 2020-11-16
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+    title: "‘Zero margin for failure’: With vaccination approval expected soon for high-risk Mississippians, the state doesn’t have enough money to distribute it"
+    link: https://mississippitoday.org/2020/11/16/zero-margin-for-failure-with-vaccination-approval-expected-soon-for-high-risk-mississippians-the-state-doesnt-have-enough-money-to-distribute-it/
+  - start: 2020-11-16
+    type: news
+    topics:
+      - general-covid
+      - masks
+    title: "Horowitz: Pro-mask study withdrawn after virus spread in counties analyzed by researchers"
+    link: https://www.theblaze.com/op-ed/horowitz-pro-mask-study-withdrawn-after-virus-spread-in-counties-analyzed-by-researchers
+  - start: 2020-11-16
+    type: news
+    topics:
+      - miscellaneous
+    title: "Youtube-dl is Back on Github: 'Our Priority Is Supporting Open Source'"
+    link: https://www.vice.com/en/article/7k9b4q/youtube-dl-is-back-on-github
+  - start: 2019-02-11
+    type: paper
+    topics:
+      - miscellaneous
+    title: Morphogenesis of termite mounds
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6397510/
+  - start: 2020-05-26
+    type: news
+    topics:
+      - general-covid
+      - masks
+    title: The Risks vs. Benefits of Face Masks- Is There an Agenda?
+    link: https://childrenshealthdefense.org/news/the-risks-vs-benefits-of-face-masks-is-there-an-agenda/
