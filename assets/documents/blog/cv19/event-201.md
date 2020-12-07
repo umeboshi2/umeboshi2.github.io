@@ -38,3 +38,6 @@ the participants and the audience." [(Youtube playlist)](https://www.youtube.com
 
 <div class="video-view" data-id="0-_FAjNSd58"></div>
 
+
+[Coronavirus Stuffed Toy](https://www.facebook.com/photo/?fbid=2587820948104339&set=a.1545484785671299&__tn__=%2CO*F)
+

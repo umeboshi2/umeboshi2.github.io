@@ -1664,3 +1664,19 @@ events:
       - astrazeneca
     title: AstraZeneca Coronavirus Trial Promises 'Highly Effective' New Vaccine
     link: https://www.npr.org/sections/coronavirus-live-updates/2020/11/23/937881011/u-k-coronavirus-trial-promises-highly-effective-new-vaccine
+  - start: 2020-12-04
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - pfizer
+    title: "Pfizer COVID jab warning: No breastfeeding, avoid pregnancy for 2 months, unknown fertility impacts"
+    link: https://www.lifesitenews.com/news/pfizer-coronavirus-vaccine-not-safe-for-pregnant-or-breastfeeding-mums-potential-danger-for-fertility
+  - start: 2020-11-17
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - pfizer
+    title: Former Pfizer Vice-President Dr. Michael Yeadon Questions Company’s Vaccine ‘Breakthrough’ Spin
+    link: https://www.globalresearch.ca/top-pfizer-whistleblower-trashes-company-vaccine-breakthrough-spin/5729650

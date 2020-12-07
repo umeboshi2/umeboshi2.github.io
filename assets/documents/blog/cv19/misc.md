@@ -90,3 +90,16 @@ https://caniuse.com/indexeddb
 
 https://www.facebook.com/maryjosperry/posts/10223411105681479
 
+https://lockdownsceptics.org/2020/10/23/latest-news-171/
+
+https://www.technocracy.news/masks-are-neither-effective-nor-safe-a-summary-of-the-science/
+
+
+https://msdh.ms.gov/msdhsite/_static/23,22430,424.html
+
+
+
+https://archive.org/details/infocomcabinet
+
+https://archive.org/details/d64_Neuromancer_1988_Electronic_Arts_Disk_1_of_2_Side_A
+
