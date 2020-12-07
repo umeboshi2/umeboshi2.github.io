@@ -197,4 +197,15 @@ events:
       - nanotech
     title: TMV nanorods with programmed longitudinal domains of differently addressable coat proteins
     link: https://pubmed.ncbi.nlm.nih.gov/23519401/
-    
+  - start: 2019-04-10
+    type: paper
+    topics:
+      - nanotech
+    title: Dynamic DNA material with emergent locomotion behavior powered by artificial metabolism
+    link: https://robotics.sciencemag.org/content/4/29/eaaw3512
+  - start: 2019-04-10
+    type: news
+    topics:
+      - nanotech
+    title: Engineers create ‘lifelike’ material with artificial metabolism
+    link: https://news.cornell.edu/stories/2019/04/engineers-create-lifelike-material-artificial-metabolism

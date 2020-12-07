@@ -641,3 +641,28 @@ events:
       - masks
     title: The Risks vs. Benefits of Face Masks- Is There an Agenda?
     link: https://childrenshealthdefense.org/news/the-risks-vs-benefits-of-face-masks-is-there-an-agenda/
+  - start: 2020-11-27
+    type: news
+    topics:
+      - general-covid
+    title: "UPDATED: Johns Hopkins Study Saying COVID-19 Has 'Relatively No Effect on Deaths' in U.S. Spiked After Publication"
+    link: https://pjmedia.com/news-and-politics/matt-margolis/2020/11/27/johns-hopkins-study-saying-covid-19-has-relatively-no-effect-on-deaths-in-u-s-deleted-after-publication-n1178930
+  - start: 2020-11-27
+    type: news
+    topics:
+      - general-covid
+    title: A closer look at U.S. deaths due to COVID-19
+    link: https://www.jhunewsletter.com/article/2020/11/a-closer-look-at-u-s-deaths-due-to-covid-19
+    extra:
+      - name: (Original archived on wayback machine)
+        link: https://web.archive.org/web/20201126163323/https://www.jhunewsletter.com/article/2020/11/a-closer-look-at-u-s-deaths-due-to-covid-19
+      - name: (Author's Response to "A Closer Look at U.S. Deaths due to COVID-19"​)
+        link: https://www.linkedin.com/pulse/authors-response-closer-look-us-deaths-due-covid-19-yanni-gu/?trackingId=xjBSM9QqTLC4ld5zUbNG0Q%3D%3D
+      - name: (PDF)
+        link: https://drive.google.com/file/d/1Tnb1a8TXHj_jJCM2BDfGSriUgdn-2gec/view?usp=sharing
+  - start: 2020-11-16
+    type: news
+    topics:
+      - philanthropy
+    title: The Secret Club for Billionaires Who Care About Climate Change
+    link: https://archive.is/eSkYu#selection-3373.0-3378.0

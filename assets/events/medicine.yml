@@ -1648,3 +1648,19 @@ events:
       - disease
     title: "The use of masks and respirators to prevent transmission of influenza: a systematic review of the scientific evidence"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5779801/
+  - start: 2020-10-24
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - trials
+    title: “I Have Done Humanity a Big Friggin’ Favor”
+    link: https://slate.com/technology/2020/10/covid-vaccine-trial-pfizer-participant.html
+  - start: 2020-11-23
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - astrazeneca
+    title: AstraZeneca Coronavirus Trial Promises 'Highly Effective' New Vaccine
+    link: https://www.npr.org/sections/coronavirus-live-updates/2020/11/23/937881011/u-k-coronavirus-trial-promises-highly-effective-new-vaccine
