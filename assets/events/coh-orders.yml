@@ -161,3 +161,10 @@ events:
       - executive-orders
     title: 'Executive Orders 2020-23'
     link: http://www.hattiesburgms.com/wp-content/uploads/exec_order_2020-23.pdf
+  - start: 2020-12-14 17:02
+    end: 2020-12-28 08:00
+    type: public-notice
+    topics:
+      - executive-orders
+    title: 'Executive Orders 2020-24'
+    link: http://www.hattiesburgms.com/wp-content/uploads/exec_order_2020-24.pdf
