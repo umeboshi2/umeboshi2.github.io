@@ -30,3 +30,9 @@ June 20, 2020, Wall Street Journal (archived copy)
 <div class="video-view" data-id="QQxcuHF_QEM"></div>
 
 <div class="video-view" data-id="EnF1PIHCYsw"></div>
+
+
+[Episode 390 – Bretton Woods 2.0](https://www.corbettreport.com/brettonwoods2/)
+
+
+[Episode 387 – Your Guide to The Great Reset](https://www.corbettreport.com/greatreset/)

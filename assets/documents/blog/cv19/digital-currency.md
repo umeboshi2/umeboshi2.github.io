@@ -21,3 +21,7 @@ discussions worldwide."
 [WEF’s Sheila Warren: which digital currency use cases can help financial inclusion?](https://ledgerinsights.com/digital-currency-financial-inclusion-world-economic-forum-wef/)
 
 
+## Wikipedia Articles
+
+[Central bank digital currency](https://en.wikipedia.org/wiki/Central_bank_digital_currency)
+
