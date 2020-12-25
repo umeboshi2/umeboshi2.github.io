@@ -1680,3 +1680,59 @@ events:
       - pfizer
     title: Former Pfizer Vice-President Dr. Michael Yeadon Questions Company’s Vaccine ‘Breakthrough’ Spin
     link: https://www.globalresearch.ca/top-pfizer-whistleblower-trashes-company-vaccine-breakthrough-spin/5729650
+  - start: 2011-05-04
+    type: paper
+    topics:
+      - vaccination
+    title: "Infant mortality rates regressed against number of vaccine doses routinely given: Is there a biochemical or synergistic toxicity?"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170075/
+  - start: 2002-09-24
+    type: paper
+    topics:
+      - genetic-sequencing
+    title: "NCBI Reference Sequence Project: update and current status"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC165558/
+  - start: 2008-11-26
+    type: paper
+    topics:
+      - genetic-sequencing
+    title: Synthetic recombinant bat SARS-like coronavirus is infectious in cultured cells and in mice
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2588415/
+  - start: 2015-11-19
+    type: paper
+    topics:
+      - vaccination
+      - mrna-vaccine
+    title: RNA-Based Vaccines in Cancer Immunotherapy
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4668311/
+  - start: 2020-07-29
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - mrna-vaccine
+      - moderna
+    title: Moderna’s Mysterious Coronavirus Vaccine Delivery System
+    link: https://www.forbes.com/sites/nathanvardi/2020/07/29/modernas-mysterious-coronavirus-vaccine-delivery-system/?sh=198bfe5962d9
+  - start: 2020-07-01
+    type: paper
+    topics:
+      - general-covid
+      - vaccination
+      - mrna-vaccine
+    title: "Prototype pathogen approach for pandemic preparedness: world on fire"
+    link: https://doi.org/10.1172/JCI139601
+  - start: 2012-10-12
+    type: paper
+    topics:
+      - vaccination
+      - mrna-vaccine
+    title: Developing mRNA-vaccine technologies
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3597572/
+  - start: 1989-08-01
+    type: paper
+    topics:
+      - vaccination
+      - rna-transfection
+    title: Cationic liposome-mediated RNA transfection.
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC297778/

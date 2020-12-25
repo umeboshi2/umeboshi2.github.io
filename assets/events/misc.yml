@@ -666,3 +666,21 @@ events:
       - philanthropy
     title: The Secret Club for Billionaires Who Care About Climate Change
     link: https://archive.is/eSkYu#selection-3373.0-3378.0
+  - start: 2020-08-21
+    type: news
+    topics:
+      - philanthropy
+      - bill-gates
+      - gates-foundation
+    title: Journalism’s Gates keepers
+    link: https://www.cjr.org/criticism/gates-foundation-journalism-funding.php
+    extra:
+      - name: (referenced NPR article)
+        link: https://www.npr.org/2019/08/05/747610085/in-seattle-a-move-across-town-could-be-a-path-out-of-poverty
+  - start: 2020-12-04
+    type: news
+    topics:
+      - vaccination
+      - general-covid
+    title: Why vaccinate our most frail? Odd vote out shows the dilemma\
+    link: https://edition.cnn.com/2020/12/04/health/coronavirus-vaccine-acip-nursing-homes-question/index.html
