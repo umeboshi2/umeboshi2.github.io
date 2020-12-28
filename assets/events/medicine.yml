@@ -1736,3 +1736,16 @@ events:
       - rna-transfection
     title: Cationic liposome-mediated RNA transfection.
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC297778/
+  - start: 2013-01-19
+    type: paper
+    topics:
+      - mrna-modification
+    title: N6-methyl-Adenosine modification in messenger and long non-coding RNA
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3608796/
+  - start: 2020-12-21
+    type: news
+    topics:
+      - vaccination
+      - mrna-vaccine
+    title: Suspicions grow that nanoparticles in Pfizer’s COVID-19 vaccine trigger rare allergic reactions
+    link: https://www.sciencemag.org/news/2020/12/suspicions-grow-nanoparticles-pfizer-s-covid-19-vaccine-trigger-rare-allergic-reactions

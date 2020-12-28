@@ -54,3 +54,6 @@ alternative" to a vaccine.
 <div class="link-view" data-title="Vaccine Liability"  data-events="medicine" data-topics="vaccination,liability"></div>
 -->
 \
+
+https://docs.google.com/document/d/14-5tyf4DiJV39mBq7S62ROxIDA-oAwPPTQXYfowszFA/edit?fbclid=IwAR16MbvD3aMTai2Lmh84XzhzcfB1uJalj9talUCZaJInEwOAM-6hnlA49d8
+
