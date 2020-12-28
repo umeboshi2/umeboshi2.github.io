@@ -209,3 +209,30 @@ events:
       - nanotech
     title: Engineers create ‘lifelike’ material with artificial metabolism
     link: https://news.cornell.edu/stories/2019/04/engineers-create-lifelike-material-artificial-metabolism
+  - start: 2020-12-21
+    type: paper
+    topics:
+      - 5g
+    title: 5G-Enabled Autonomous Driving Demonstration with a V2X Scenario-in-the-Loop Approach
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7767350/
+  - start: 2020-12-20
+    type: paper
+    topics:
+      - machine-learning
+      - reinforcement-learning
+    title: Data Efficient Reinforcement Learning for Integrated Lateral Planning and Control in Automated Parking System
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7766926/
+  - start: 2020-12-15
+    type: paper
+    topics:
+      - machine-learning
+      - federated-learming
+    title: A Critical Evaluation of Privacy and Security Threats in Federated Learning
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7765278/
+  - start: 2020-12-15
+    type: paper
+    topics:
+      - general-covid
+      - artificial-intelligence
+    title: "Artificial Intelligence in the Fight Against COVID-19: Scoping Review"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7744141/
