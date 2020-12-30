@@ -36,3 +36,5 @@ June 20, 2020, Wall Street Journal (archived copy)
 
 
 [Episode 387 – Your Guide to The Great Reset](https://www.corbettreport.com/greatreset/)
+
+[Episode 392 – The Future of Vaccines](https://www.corbettreport.com/futurevaccines/)

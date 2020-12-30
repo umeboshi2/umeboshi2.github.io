@@ -103,3 +103,7 @@ https://archive.org/details/infocomcabinet
 
 https://archive.org/details/d64_Neuromancer_1988_Electronic_Arts_Disk_1_of_2_Side_A
 
+
+
+[Grand Theft World Podcast 006 | Wolves in White Lab Coats](https://grandtheftworld.com/2020/12/14/grand-theft-world-podcast-006-wolves-in-white-lab-coats/)
+

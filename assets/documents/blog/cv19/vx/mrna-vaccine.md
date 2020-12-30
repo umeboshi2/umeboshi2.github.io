@@ -11,12 +11,17 @@ proteins is "smuggled" into the cells. To achieve this goal, however, one must
 bypass cellular systems that prevent the penetration and translation of foreign 
 mRNA.
 
-https://en.wikipedia.org/wiki/Talk:RNA_vaccine#Life_time_of_of_RNA_vaccines_in_cell?
+[Lifetime of RNA vaccines in cell?](https://en.wikipedia.org/wiki/Talk:RNA_vaccine#Life_time_of_of_RNA_vaccines_in_cell?)
+
 
 https://en.wikipedia.org/wiki/RNA_transfection
 
 RNA transfection is the process of deliberately introducing RNA into a 
 living cell.
+
+
+[Central dogma of molecular biology](https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology#Transfers_of_information_not_explicitly_covered_in_the_theory)
+
 
 https://en.wikipedia.org/wiki/MRNA-1273
 
