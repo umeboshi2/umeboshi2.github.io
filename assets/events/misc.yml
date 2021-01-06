@@ -690,3 +690,12 @@ events:
       - general-covid
     title: If the Coronavirus Doesn’t Scare You, the Banners Will—A Case Study of Early COVID-19 Banners
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7767478/
+  - start: 2021-01-04
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoulation-event
+    title: Portuguese health worker, 41, dies two days after getting the Pfizer covid vaccine as her father says he 'wants answers'
+    link: https://www.dailymail.co.uk/news/article-9111311/Portuguese-health-worker-41-dies-two-days-getting-Pfizer-covid-vaccine.html
+    
