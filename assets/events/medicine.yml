@@ -1770,3 +1770,18 @@ events:
       - ivermectin
     title: The FDA-approved drug ivermectin inhibits the replication of SARS-CoV-2 in vitro
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7129059/
+  - start: 2015-10-06
+    type: paper
+    topics:
+      - vaccination
+      - post-inoculation-event
+    title: Risk of anaphylaxis after vaccination in children and adults
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4783279/
+  - start: 2020-04-27
+    type: paper
+    topics:
+      - general-covid
+      - transmission
+      - pcr-testing
+    title: Viral RNA load as determined by cell culture as a management tool for discharge of SARS-CoV-2 patients from infectious disease wards
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7185831/

@@ -236,3 +236,9 @@ events:
       - artificial-intelligence
     title: "Artificial Intelligence in the Fight Against COVID-19: Scoping Review"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7744141/
+  - start: 2019-12-19
+    type: paper
+    topics:
+      - rna-translation
+    title: GC content shapes mRNA storage and decay in human cells
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6944446/
