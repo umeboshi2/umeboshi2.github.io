@@ -60,6 +60,14 @@ https://www.facebook.com/maryjosperry/posts/10222907343927750
 
 [Gene Targets](https://www.who.int/docs/default-source/coronaviruse/whoinhouseassays.pdf?sfvrsn=de3a76aa_2)
 
+## Adjustment
+
+"WHO reminds IVD users that disease prevalence alters the predictive value of test results; as disease prevalence decreases, the risk of false positive increases (2). This means that the probability that a person who has a positive result (SARS-CoV-2 detected) is truly infected with SARS-CoV-2 decreases as prevalence decreases, irrespective of the claimed specificity."
+
+[Nucleic acid testing (NAT) technologies that use polymerase chain reaction (PCR) for detection of SARS-CoV-2](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
+
+
+
 
 ## Video
 
