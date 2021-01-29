@@ -695,7 +695,13 @@ events:
     topics:
       - general-covid
       - vaccination
-      - post-inoulation-event
+      - post-inoculation-event
     title: Portuguese health worker, 41, dies two days after getting the Pfizer covid vaccine as her father says he 'wants answers'
     link: https://www.dailymail.co.uk/news/article-9111311/Portuguese-health-worker-41-dies-two-days-getting-Pfizer-covid-vaccine.html
-    
+  - start: 2020-12-14
+    type: news
+    topics:
+      - general-covid
+      - podcast
+    title: Grand Theft World Podcast 006 | Wolves in White Lab Coats
+    link: https://grandtheftworld.com/2020/12/14/grand-theft-world-podcast-006-wolves-in-white-lab-coats/

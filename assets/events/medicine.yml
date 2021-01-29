@@ -1815,11 +1815,69 @@ events:
       - post-inoculation-event
     title: Investigation launched as 2 people die in Norway nursing home days after receiving Pfizer’s Covid-19 vaccine
     link: https://www.rt.com/news/511623-norway-covid19-vaccine-deaths/
-  - start: 2020-12-14
+  - start: 2017-08-24
+    type: paper
+    topics:
+      - mrna-vaccine
+      - lipid-nanoparticle-encapsulation
+    title: Boosting intracellular delivery of lipid nanoparticle-encapsulated messenger RNA
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623340/
+  - start: 2019-11-17
+    type: paper
+    topics:
+      - mrna-vaccine
+      - lipid-nanoparticle-encapsulation
+    title: A Lipid-encapsulated mRNA Encoding a Potently Neutralizing Human Monoclonal Antibody Protects Against Chikungunya Infection
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6629435/
+  - start: 2021-01-27
     type: news
     topics:
       - general-covid
-      - podcast
-    title: Grand Theft World Podcast 006 | Wolves in White Lab Coats
-    link: https://grandtheftworld.com/2020/12/14/grand-theft-world-podcast-006-wolves-in-white-lab-coats/
-    
+      - vaccination
+      - post-inoculation-event
+    title: OC health care worker dies after receiving 2nd COVID-19 vaccine shot; official cause of death pending
+    link: https://www.fox2detroit.com/news/oc-health-care-worker-dies-after-receiving-2nd-shot-official-cause-of-death-pending
+  - start: 2021-01-27
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - acip
+    title: "ACIP Presentation Slides: January 27, 2021 Meeting"
+    link: https://www.cdc.gov/vaccines/acip/meetings/slides-2021-1-27-21.html
+    extra:
+      - name: Introduction
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/01-COVID-Bell.pdf
+      - name: AstraZeneca COVID-19 vaccine (AZD1222)
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/02-COVID-Villafana.pdf
+      - name: COVID-19 Epidemology among Children
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/03-COVID-Campbell.pdf
+      - name: Pediatric COVID-19 Clinical Trials
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/04-COVID-Erbelding.pdf
+      - name: Vaccine Safety Technical Subgroup (VaST) introduction
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/05-COVID-Lee-intro.pdf
+      - name: COVID-19 Vaccine Safety Update
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/06-COVID-Shimabukuro.pdf
+      - name: VaST assessement of safety data
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/07-COVID-Lee-Conclusions.pdf
+      - name: Update on COVID-19 Vaccine Administration
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/08-COVID-Cohn.pdf
+      - name: COVID-19 Vaccine Effectiveness Studies
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/09-COVID-Fleming-Dutra.pdf
+      - name: Work Group Interpretation and Next Steps
+        link: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-01/10-COVID-Oliver.pdf
+  - start: 2021-01-27
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoculation-event
+    title: ITALIAN DOCTOR TAKES VAXX AND DROPS DEAD FROM HEART ATTACK
+    link: https://fromrome.info/2021/01/27/italian-doctor-takes-vaxx-and-drops-dead-from-heart-attack/
+  - start: 2021-01-27
+    type: news
+    topics:
+      - general-covid
+      - bill-gates
+    title: The year global health went local
+    link: https://www.gatesnotes.com/2021-Annual-Letter
