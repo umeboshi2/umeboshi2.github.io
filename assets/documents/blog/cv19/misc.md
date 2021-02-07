@@ -258,3 +258,38 @@ https://drquay.com/news/new-study-concludes-beyond-a-reasonable-doubt-that-sars-
 
 https://globalnews.ca/news/4194106/440-hz-conspiracy-music/
 
+https://www.mckinsey.com/about-us/new-at-mckinsey-blog/the-davos-agenda-what-we-shared-and-learned
+
+https://www.vox.com/22249433/covid-19-vaccine-pfizer-moderna-safe-pregnancy-breastfeeding-baby-study
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3676139/
+
+https://www.weforum.org/agenda/2020/11/covid19-super-spreading-global-disease-transmission/
+
+https://creation.com/rna-vaccines
+
+https://www.ncbi.nlm.nih.gov/nuccore/NC_045512
+
+
+“The other thing is, we have pulled back a little bit of our Pfizer doses from our long-term care program, because they weren’t using it. So that’ll be sort of like a one-time push of maybe about 9,000 doses of vaccine, so it’s a little bit unpredictable … but we have to give it when we get it and just get ready for the next amount of vaccine that’s going to be made available.”
+
+https://archive.org/details/historyofchris02jone
+
+https://vaers.hhs.gov/data.html
+
+https://medium.com/swlh/how-to-create-animated-gifs-with-ffmpeg-29467362cdc1
+
+https://www.worldometers.info/coronavirus/usa/mississippi/
+
+https://www.iwinslowayer.com/home
+
+https://en.wikipedia.org/wiki/Man-in-the-middle_attack
+
+https://web.archive.org/web/20171011173249/https://www.nationalacademies.org/hmd/~/media/E9B963EDB28645C5ABCC22467120662D.ashx
+
+https://askubuntu.com/questions/948304/how-to-automatically-segment-video-using-ffmpeg-without-re-encoding
+
+https://www.npr.org/sections/coronavirus-live-updates/2020/11/23/937881011/u-k-coronavirus-trial-promises-highly-effective-new-vaccine
+
+https://video.stackexchange.com/questions/32297/resuming-a-partially-completed-encode-with-ffmpeg
+
