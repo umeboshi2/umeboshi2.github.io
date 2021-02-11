@@ -1881,3 +1881,68 @@ events:
       - bill-gates
     title: The year global health went local
     link: https://www.gatesnotes.com/2021-Annual-Letter
+  - start: 2021-02-10
+    type: news
+    topics:
+      - general-covid
+      - post-inoculation-event
+    title: Doctors suspect COVID delayed immune response in young surgeon’s death
+    link: https://dailymemphian.com/article/19893/surgeon-died-of-suspected-delayed-immune-response#/questions
+  - start: 2020-09-03
+    type: paper
+    topics:
+      - general-covid
+      - ivermectin
+    title: Ivermectin Docks to the SARS-CoV-2 Spike Receptor-binding Domain Attached to ACE2
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7652439/
+  - start: 2020-03-30
+    type: paper
+    topics:
+      - general-covid
+    title: Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor
+    link: https://pubmed.ncbi.nlm.nih.gov/32225176/
+  - start: 2019-02-07
+    type: paper
+    topics:
+      - vaccination
+      - rna-vaccine
+      - lipid-nanoparticle-encapsulation
+    title: Optimization of Lipid Nanoparticles for Intramuscular Administration of mRNA Vaccines
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6383180/
+  - start: 2020-06-24
+    type: paper
+    topics:
+      - vaccination
+      - rna-vaccine
+    title: Impact of mRNA chemistry and manufacturing process on innate immune activation
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314518/
+  - start: 2018-11-14
+    type: paper
+    topics:
+      - rna-seq
+      - jupyter
+    title: "BioJupies: Automated Generation of Interactive Notebooks for RNA-seq Data Analysis in the Cloud"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6265050/
+  - start: 2010-01-15
+    type: paper
+    topics:
+      - rna-seq
+    pretext: (estimated date)
+    title: "RNA-Seq: a revolutionary tool for transcriptomics"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2949280/
+  - start: 2016-12-09
+    type: paper
+    topics:
+      - rna-seq
+      - mi-rna
+    title: "Tools for Sequence-Based miRNA Target Prediction: What to Choose?"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5187787/
+  - start: 2021-01-15
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoculation-event
+    pretext: "Norwegian officials said 23 people had died in the country a short time after receiving their first dose of the vaccine."
+    title: Norway Warns of Vaccination Risks for Sick Patients Over 80
+    link: https://www.bloomberg.com/news/articles/2021-01-15/norway-warns-of-vaccination-risks-for-sick-patients-over-80

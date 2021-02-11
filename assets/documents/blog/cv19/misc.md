@@ -119,12 +119,6 @@ https://courts.ms.gov/index.php?cn=92749#dispArea
 
 [2020-IA-01199-SCT](https://courts.ms.gov/index.php?cn=92749#dispArea)
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7652439/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7652439/
-
-https://pubmed.ncbi.nlm.nih.gov/32225176/
-
 https://en.wikipedia.org/wiki/Priming_(immunology)
 
 https://en.wikipedia.org/wiki/McLean_v._Arkansas
@@ -133,21 +127,11 @@ https://en.wikipedia.org/wiki/Edwards_v._Aguillard
 
 https://www.nexusnewsfeed.com/article/geopolitics/msm-deathly-silent-as-pcr-test-legally-ruled-useless-to-test-for-covid
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6383180/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314518/
-
 https://pubmed.ncbi.nlm.nih.gov/30447998/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2949280/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2949280/
 
 https://pubmed.ncbi.nlm.nih.gov/19015660/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4746618/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5187787/
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC165558/citedby/
 
@@ -292,4 +276,12 @@ https://askubuntu.com/questions/948304/how-to-automatically-segment-video-using-
 https://www.npr.org/sections/coronavirus-live-updates/2020/11/23/937881011/u-k-coronavirus-trial-promises-highly-effective-new-vaccine
 
 https://video.stackexchange.com/questions/32297/resuming-a-partially-completed-encode-with-ffmpeg
+
+https://www.realclearpolitics.com/video/2020/04/08/dr_birx_unlike_some_countries_if_someone_dies_with_covid-19_we_are_counting_that_as_a_covid-19_death.html
+
+
+https://www.npr.org/sections/health-shots/2021/02/08/964633908/my-mother-got-vaccinated-is-it-now-safe-to-go-visit?utm_term=nprnews&utm_campaign=npr&utm_medium=social&utm_source=facebook.com
+
+
+https://www.wfla.com/community/health/coronavirus/man-in-70s-collapses-dies-after-getting-covid-vaccine-in-ny-officials-saw-no-sign-of-allergic-reaction/
 
