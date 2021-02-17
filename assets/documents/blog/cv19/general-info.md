@@ -72,6 +72,9 @@ with the [CDC COVID Data Tracker](https://covid.cdc.gov/covid-data-tracker/#comp
 
 [Vaccine Recommendations and Guidelines of the ACIP](https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/general-recs-errata.html)
 
+[Historical Vaccine Safety Concerns](https://www.cdc.gov/vaccinesafety/concerns/concerns-history.html)
+
+
 # Other Articles
 
 [We Thought It Was Just a Respiratory Virus](https://www.ucsf.edu/magazine/covid-body)

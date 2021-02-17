@@ -285,3 +285,44 @@ https://www.npr.org/sections/health-shots/2021/02/08/964633908/my-mother-got-vac
 
 https://www.wfla.com/community/health/coronavirus/man-in-70s-collapses-dies-after-getting-covid-vaccine-in-ny-officials-saw-no-sign-of-allergic-reaction/
 
+https://www.localmemphis.com/article/news/investigations/i-team/memphis-doctor-believed-to-have-died-of-rare-covid-related-syndrome/522-7bb29487-c330-4de4-b1b0-188fe3865e35
+
+
+
+
+Threlkeld added, Williams also had been vaccinated for COVID about a month ago and that testing found the two types of antibodies in his system - one type of antibody that results from a natural COVID infection, and a second type of antibody from the vaccine. Threlkeld also said Williams tested negative for COVID-19 while in the hospital. 
+
+https://www.foxnews.com/entertainment/chick-corea-legendary-jazz-keyboardist-dead
+
+https://www.facebook.com/Mrs.Cruz/posts/4050248651676195
+
+https://www.merckmanuals.com/-/media/Manual/LabTests/ImmunoglobulinsIgAIgGIgM
+
+https://www.npr.org/2021/02/06/964822479/supreme-court-rules-against-california-ban-on-in-person-worship-amid-the-pandemi
+
+https://www.cdc.gov/mmwr/volumes/69/wr/mm6940e1.htm
+
+https://dailymemphian.com/article/19893/surgeon-died-of-suspected-delayed-immune-response#/questions/
+
+https://nypost.com/2021/02/07/elderly-man-collapses-dies-shortly-after-getting-covid-19-vaccine-at-javits-center/
+
+https://abc3340.com/news/local/covid-vaccine-symptoms-worse-for-people-previously-infected
+
+
+https://www.facebook.com/josh.pounders.5
+
+https://www.genocidewatch.com/
+
+https://www.congress.gov/bill/117th-congress/house-bill/350/text?r=96
+
+https://lynmelvin.blogspot.com/2020/09/the-mask-and-mark.html
+
+https://www.pre-trib.org/articles/all-articles/message/the-mark-of-the-beast/read
+
+https://www.bitchute.com/channel/tj99AwcN3zlH/
+
+https://coronistan.blogspot.com/2021/01/corona-total-jetzt-gehts-rund-erst-inn.html
+
+https://childrenshealthdefense.org/defender/surgeon-warns-fda-pfizer-immunological-danger-covid-vaccines-convalescent-asymptomatic-carriers/
+
+https://www.cbsnews.com/news/covid-vaccine-variants-third-shot-bill-gates/

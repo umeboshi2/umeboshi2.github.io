@@ -1946,3 +1946,108 @@ events:
     pretext: "Norwegian officials said 23 people had died in the country a short time after receiving their first dose of the vaccine."
     title: Norway Warns of Vaccination Risks for Sick Patients Over 80
     link: https://www.bloomberg.com/news/articles/2021-01-15/norway-warns-of-vaccination-risks-for-sick-patients-over-80
+  - start: 2021-02-11
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - elevated-immune-response
+    title: "Doctor: COVID-19 vaccine symptoms worse for people previously infected with COVID-19"
+    link: https://abc3340.com/news/local/covid-vaccine-symptoms-worse-for-people-previously-infected
+  - start: 2020-11-13
+    type: paper
+    topics:
+      - general-covid
+    journal: BMJ
+    title: 'Covid-19: politicisation, “corruption,” and suppression of science'
+    link: https://www.bmj.com/content/371/bmj.m4425
+  - start: 2006-01-15
+    type: paper
+    topics:
+      - vaccination
+      - swine-flu
+    journal: EID
+    pretext: (estimated date)
+    title: Reflections on the 1976 Swine Flu Vaccination Program
+    link: https://wwwnc.cdc.gov/eid/article/12/1/05-1007_article
+  - start: 2012-04-20
+    type: paper
+    topics:
+      - vaccination
+      - sars-coronavirus
+    journal: PLOS
+    title: Immunization with SARS Coronavirus Vaccines Leads to Pulmonary Immunopathology on Challenge with the SARS Virus
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3335060/
+  - start: 2021-02-13
+    type: news
+    topics:
+      - vaccination
+      - post-inoculation-event
+    title: California woman, 78, dies after vaccination, though no sign of link
+    link: https://www.nbcnews.com/news/us-news/78-year-old-woman-dies-california-vaccination-site-after-being-n1257885
+  - start: 2020-04-09
+    type: paper
+    topics:
+      - general-covid
+      - pathogenic-priming
+    title: Pathogenic priming likely contributes to serious and critical illness and mortality in COVID-19 via autoimmunity
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7142689/
+  - start: 2020-12-10
+    type: news
+    topics:
+      - general-covid
+      - pathogenic-priming
+      - vaccination
+      - pfizer
+    title: Pfizer COVID Vaccine Trial Shows Alarming Evidence of Pathogenic Priming in Older Adults
+    link: https://childrenshealthdefense.org/defender/pfizer-covid-vaccine-trial-pathogenic-priming/
+  - start: 2021-02-01
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+    title: CDC report says 62 percent of nursing home workers refused COVID-19 vaccines
+    link: https://thehill.com/changing-america/well-being/prevention-cures/536844-cdc-report-says-62-percent-of-nursing-home
+  - start: 2021-02-15
+    type: news
+    topics:
+      - general-covid
+      - variant
+    title: Mississippi State Department of Health Confirms First Case of COVID-19 Variant Strain
+    link: https://msdh.ms.gov/msdhsite/_static/23,22972,341.html
+  - start: 2020-04-28
+    type: paper
+    topics:
+      - general-covid
+      - disease
+    title: "The trinity of COVID-19: immunity, inflammation and intervention"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7187672/
+  - start: 2021-02-05
+    type: news
+    topics:
+      - general-covid
+      - variant
+    title: Extraordinary Patient Offers Surprising Clues To Origins Of Coronavirus Variants
+    link: https://www.npr.org/sections/goatsandsoda/2021/02/05/964447070/where-did-the-coronavirus-variants-come-from
+  - start: 2021-02-02
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+    title: BARKER, DOBBS DISCUSS FUTURE OF COVID-19 VACCINE
+    link: https://www.hubcityspokes.com/most-recent/barker-dobbs-discuss-future-covid-19-vaccine
+  - start: 2020-12-13
+    type: paper
+    topics:
+      - general-covid
+      - reverse-transcription
+    title: SARS-CoV-2 RNA reverse-transcribed and integrated into the human genome
+    link: https://pubmed.ncbi.nlm.nih.gov/33330870/
+  - start: 2020-12-13
+    type: paper
+    topics:
+      - general-covid
+      - reverse-transcription
+    journal: BioRxiv
+    title: SARS-CoV-2 RNA reverse-transcribed and integrated into the human genome
+    link: https://www.biorxiv.org/content/10.1101/2020.12.12.422516v1
