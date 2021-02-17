@@ -326,3 +326,10 @@ https://coronistan.blogspot.com/2021/01/corona-total-jetzt-gehts-rund-erst-inn.h
 https://childrenshealthdefense.org/defender/surgeon-warns-fda-pfizer-immunological-danger-covid-vaccines-convalescent-asymptomatic-carriers/
 
 https://www.cbsnews.com/news/covid-vaccine-variants-third-shot-bill-gates/
+
+https://sciencewithdrdoug.com/2020/11/27/will-an-rna-vaccine-permanently-alter-my-dna/
+
+https://sciencewithdrdoug.com/2021/02/15/breaking-study-sheds-more-light-on-whether-an-rna-vaccine-can-permanently-alter-dna/
+
+https://lynmelvin.blogspot.com/2020/09/the-mask-and-mark.html
+
