@@ -2051,3 +2051,12 @@ events:
     journal: BioRxiv
     title: SARS-CoV-2 RNA reverse-transcribed and integrated into the human genome
     link: https://www.biorxiv.org/content/10.1101/2020.12.12.422516v1
+  - start: 2021-02-16
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoculation-event
+    journal: CBS, Detroit
+    title: Former Detroit TV Anchor Karen Hudson-Samuels Dies One Day After Taking COVID Vaccine
+    link: https://detroit.cbslocal.com/2021/02/16/former-detroit-tv-anchor-dies-one-day-after-taking-covid-vaccine/
