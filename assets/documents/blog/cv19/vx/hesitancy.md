@@ -8,6 +8,9 @@ vaccinated or to have one's children vaccinated against contagious
 diseases. It was identified by the World Health Organization as one of the 
 top ten global health threats of 2019.
 
+[Ten threats to global health in 2019](https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019)
+
+
 
 ## Your Body, Their Choice
 
