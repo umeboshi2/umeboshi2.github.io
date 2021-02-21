@@ -2060,3 +2060,27 @@ events:
     journal: CBS, Detroit
     title: Former Detroit TV Anchor Karen Hudson-Samuels Dies One Day After Taking COVID Vaccine
     link: https://detroit.cbslocal.com/2021/02/16/former-detroit-tv-anchor-dies-one-day-after-taking-covid-vaccine/
+  - start: 2021-02-11
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoculation-event
+    title: Sandy Creek schools closed Thursday due to staffer side effects from 2nd COVID-19 vaccine shot
+    link: https://www.localsyr.com/news/local-news/sandy-creek-schools-closed-thursday-due-to-staffer-side-effects-from-2nd-covid-19-vaccine-shot/
+  - start: 2021-02-18
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoculation-event
+    title: SHA investigating death of infected health-care worker dubbed 'hero' by premier
+    link: https://www.cbc.ca/news/canada/saskatoon/tom-thomas-covid-19-care-aid-north-battleford-1.5918560
+  - start: 2021-02-07
+    type: news
+    topics:
+      - general-covid
+      - vaccination
+      - post-inoculation-event
+    title: Elderly man collapses, dies shortly after getting COVID-19 vaccine at Javits Center
+    link: https://nypost.com/2021/02/07/elderly-man-collapses-dies-shortly-after-getting-covid-19-vaccine-at-javits-center/

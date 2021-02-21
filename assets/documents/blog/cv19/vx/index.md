@@ -1,6 +1,21 @@
 <div class="menu-data" data-parent="#pages/blog/cv19/index"/></div>
 
 
+[Vaccination](https://en.wikipedia.org/wiki/Vaccination) is the administration 
+of a [vaccine](https://en.wikipedia.org/wiki/Vaccine) to help the immune 
+system develop protection from a disease.  Vaccines contain a microorganism 
+or virus in a weakened, live or killed state, or proteins or toxins from the 
+organism.  A [vaccine](https://en.wikipedia.org/wiki/Vaccine) is a biological 
+preparation that provides active acquired immunity to a particular infectious 
+disease.
+
+An older 
+[revision](https://en.wikipedia.org/w/index.php?title=Vaccine&oldid=446157626) 
+of the vaccine page doesn't include surface protein in the definition.  
+"A vaccine is a biological preparation that improves immunity to a particular 
+disease. A vaccine typically contains an agent that resembles a disease-causing 
+microorganism, and is often made from weakened or killed forms of the microbe 
+or its toxins." 
 
 
 [mRNA-1273 Approval Status](https://www.drugs.com/history/mrna-1273.html)

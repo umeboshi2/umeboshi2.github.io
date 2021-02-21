@@ -333,3 +333,16 @@ https://sciencewithdrdoug.com/2021/02/15/breaking-study-sheds-more-light-on-whet
 
 https://lynmelvin.blogspot.com/2020/09/the-mask-and-mark.html
 
+https://www.facebook.com/carrie.martinez.7399/posts/1386171145052196
+
+https://www.facebook.com/marcellaterry/posts/10225587727507867
+
+https://www.facebook.com/circleofmamas/posts/2834546453487602
+
+https://www.facebook.com/marcellaterry/posts/10225586640720698
+
+https://vaers.hhs.gov/data.html
+
+https://www.facebook.com/marcellaterry/posts/10225587727507867
+
+https://www.facebook.com/marcellaterry/posts/10225566442415753
