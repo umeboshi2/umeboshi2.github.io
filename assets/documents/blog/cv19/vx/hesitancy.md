@@ -2,6 +2,13 @@
 
 # Vaccine Hesitancy
 
+[Vaccine hesitancy](https://en.wikipedia.org/wiki/Vaccine_hesitancy), also 
+known as anti-vaccination or anti-vax, is a reluctance or refusal to be 
+vaccinated or to have one's children vaccinated against contagious 
+diseases. It was identified by the World Health Organization as one of the 
+top ten global health threats of 2019.
+
+
 ## Your Body, Their Choice
 
 The links below are taken from [here](https://www.corbettreport.com/mybody/).

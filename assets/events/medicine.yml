@@ -2084,3 +2084,17 @@ events:
       - post-inoculation-event
     title: Elderly man collapses, dies shortly after getting COVID-19 vaccine at Javits Center
     link: https://nypost.com/2021/02/07/elderly-man-collapses-dies-shortly-after-getting-covid-19-vaccine-at-javits-center/
+  - start: 2019-01-15
+    type: news
+    topics:
+      - vaccination
+      - hesitancy
+    title: Anti-vax Movement Listed by World Health Organization as One of the Top 10 Health Threats for 2019
+    link: https://www.newsweek.com/world-health-organization-who-un-global-health-air-pollution-anti-vaxxers-1292493
+  - start: 2018-06-12
+    type: paper
+    topics:
+      - vaccination
+      - hesitancy
+    title: "The state of the antivaccine movement in the United States: A focused examination of nonmedical exemptions in states and counties"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5997312/
