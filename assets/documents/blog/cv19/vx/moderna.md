@@ -14,3 +14,6 @@ https://en.wikipedia.org/wiki/Luciferase
 
 AUGUST 28, 2020
 [Moderna failed to disclose federal funding for vaccine patent applications, advocates say](https://www.statnews.com/pharmalot/2020/08/28/moderna-covid19-vaccine-coronavirus-patents-darpa/)
+
+
+[mRNA Platform: Enabling Drug Discovery & Development](https://www.modernatx.com/mrna-technology/mrna-platform-enabling-drug-discovery-development)

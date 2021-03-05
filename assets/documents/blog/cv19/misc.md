@@ -346,3 +346,66 @@ https://vaers.hhs.gov/data.html
 https://www.facebook.com/marcellaterry/posts/10225587727507867
 
 https://www.facebook.com/marcellaterry/posts/10225566442415753
+
+https://www.bitchute.com/channel/si0wbCkiFc5A/
+
+https://www.bitchute.com/channel/davidicke/
+
+https://www.facebook.com/jilldhines/posts/10225092369960181
+
+
+https://ugetube.com/watch/darpa-nano-mind-control-dreadds-chemogenetics-hive-mind_rLAHiqjSaTRamQF.html?d=n
+
+
+https://rumble.com/vdjwrh-doctors-worldwide-warn-about-the-covid-vaccine.html
+
+https://www.facebook.com/groups/2862620063973793/permalink/2927265227509276/?comment_id=2928112727424526
+
+https://www.reuters.com/article/us-pope-iraq-ur-preparations/popes-visit-to-iraqi-ziggurat-to-bring-together-several-faiths-and-hopefully-lure-more-visitors-idUSKBN2AM0YN
+
+https://www.youtube.com/watch?v=c1ufK04tjOI
+
+https://www.youtube.com/watch?v=c74B7m2vBJ0
+
+https://www.reuters.com/article/uk-factcheck-covid-vaccines-not-os-with/fact-check-covid-19-vaccines-are-not-operating-systems-designed-to-program-humans-do-not-contain-fetal-cells-idUSKBN2AO2OY
+
+
+https://pubmed.ncbi.nlm.nih.gov/2665354/
+
+“Belief can be manipulated. Only knowledge is dangerous.”
+― Frank Herbert
+
+“The people who can destroy a thing, they control it.”
+― Frank Herbert, Dune
+
+“He who controls the spice controls the universe.”
+― Frank Herbert, Dune
+
+“The gift of words is the gift of deception and illusion.”
+― Frank Herbert, Children of Dune
+
+“Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.”
+― Frank Herbert, Dune
+
+“The truth always carries the ambiguity of the words used to express it.”
+― Frank Herbert, God Emperor of Dune
+
+“What do such machines really do? They increase the number of things we can do without thinking. Things we do without thinking-there’s the real danger.”
+― Frank Herbert
+
+“The concept of progress acts as a protective mechanism to shield us from the terrors of the future.”
+― Frank Herbert, Dune
+
+“Knowing where the trap is—that's the first step in evading it.”
+― Frank Herbert, Dune
+
+“Small souls who seek power over others first destroy the faith those others might have in themselves.”
+― Frank Herbert, God Emperor of Dune
+
+“When law and duty are one, united by religion, you never become fully conscious, fully aware of yourself. You are always a little less than an individual.”
+― Frank Herbert, Dune
+
+“Quite naturally, holders of power wish to suppress wild research. Unrestricted questing after knowledge has a long history of producing unwanted competition. The powerful want a “safe line of investigations,” which will develop only those products and ideas that can be controlled and, most important, that will allow the larger part of the benefits to be captured by inside investors. Unfortunately, a random universe full of relative variables does not insure such a “safe line of investigations.”
+― Frank Herbert, Heretics of Dune
+
+

@@ -90,3 +90,6 @@ https://www.youtube.com/watch?v=vtKHwBWD1Wc
 
 [Chapter 3. The Germ Theory: A Deadly Fallacy: Part 2: Bacteria](https://www.facebook.com/notes/sam-kofalt/chapter-3-the-germ-theory-a-deadly-fallacy-part-2-bacteria/10158503217823324/)
 
+[Germ theory denialism](https://en.wikipedia.org/wiki/Germ_theory_denialism)
+
+"A common thread among many alternative-medicine proponents is opposition to vaccines, and some use GTD to justify their claims. Germ-theory deniers make many claims about the biological underpinnings of the theory and the historical record that are at odds with what most modern scientists and historians accept. Another claim from the anti-vaccine community involves the theory that all diseases are caused by toxemia due to inadequate diet and health practices."
