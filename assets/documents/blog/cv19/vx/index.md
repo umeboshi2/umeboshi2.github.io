@@ -62,6 +62,8 @@ alternative" to a vaccine.
 
 [mRNA Vaccines](#pages/blog/cv19/vx/mrna-vaccine)
 
+[mark](#pages/blog/cv19/vx/mark)
+
 **watch this**
 [Disease outbreak news for Poliomyelitis](https://www.who.int/csr/don/archive/disease/poliomyelitis/en/?fbclid=IwAR1klOKiOPc0mGuOxOy7NkY6mI7dKy5174o6P94RVNvSnzvZAEcS-qZpGxY)
 
@@ -75,4 +77,8 @@ alternative" to a vaccine.
 \
 
 https://docs.google.com/document/d/14-5tyf4DiJV39mBq7S62ROxIDA-oAwPPTQXYfowszFA/edit?fbclid=IwAR16MbvD3aMTai2Lmh84XzhzcfB1uJalj9talUCZaJInEwOAM-6hnlA49d8
+
+https://vaers.hhs.gov/data/datasets.html
+
+https://andrewkaufmanmd.com/sovi/
 

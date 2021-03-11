@@ -93,3 +93,5 @@ https://www.youtube.com/watch?v=vtKHwBWD1Wc
 [Germ theory denialism](https://en.wikipedia.org/wiki/Germ_theory_denialism)
 
 "A common thread among many alternative-medicine proponents is opposition to vaccines, and some use GTD to justify their claims. Germ-theory deniers make many claims about the biological underpinnings of the theory and the historical record that are at odds with what most modern scientists and historians accept. Another claim from the anti-vaccine community involves the theory that all diseases are caused by toxemia due to inadequate diet and health practices."
+
+
