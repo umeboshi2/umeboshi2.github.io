@@ -1,7 +1,9 @@
-SHARE WITH EVERYONE ON YOUR CONTACT LIST
+<div class="menu-data" data-parent="#pages/blog/cv19/vx/index"/></div>
+
+# SHARE WITH EVERYONE ON YOUR CONTACT LIST
 
 
-FULL REPORT
+## FULL REPORT
 
 30 links of proof People are being "destroyed by CV VAK, for lack of knowledge" Hosea 4:6
 

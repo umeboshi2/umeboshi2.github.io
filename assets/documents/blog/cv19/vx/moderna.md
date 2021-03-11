@@ -1,4 +1,4 @@
-<div class="menu-data" data-parent="#pages/blog/cv19/index"/></div>
+<div class="menu-data" data-parent="#pages/blog/cv19/vx/index"/></div>
 
 ## [Moderna](https://en.wikipedia.org/wiki/Moderna)
 
