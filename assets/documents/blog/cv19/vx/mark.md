@@ -1,9 +1,9 @@
 <div class="menu-data" data-parent="#pages/blog/cv19/vx/index"/></div>
 
-# SHARE WITH EVERYONE ON YOUR CONTACT LIST
+SHARE WITH EVERYONE ON YOUR CONTACT LIST
 
 
-## FULL REPORT
+# FULL REPORT
 
 30 links of proof People are being "destroyed by CV VAK, for lack of knowledge" Hosea 4:6
 
@@ -27,7 +27,7 @@ CV VAK & says will see massive sickness in people in 4 to 18 mon.
 https://www.bitchute.com/video/mHpzAEpb8XNA/
 
 
-This is another doctor & this website alone has over 100 links. PLEASE SHARE
+ Doctor Northrup says what's in vak & this website alone has over 100 links. PLEASE SHARE
 
 https://www.thrivetimeshow.com/business-podcasts/dr-christiane-northrup-whats-inside-the-covid-19-vaccines/
 
@@ -37,9 +37,11 @@ Dr Dolores Cahill predicts we will start seeing deaths months after the snake bi
 https://rumble.com/vdol6j-scientist-predicts-mrna-vaccine-will-lead-to-numerous-deaths-months-after-i.html
 
 
-Bill Gates quantum dot tattoo, What's luciferase? Do you see the root word?! LOOK IT UP. Rev 13. MOB. This is the 2nd part of NWO PLAN.
+Scroll down to where it says “Project Rooftop”, click on that PDF file. All about the Bill G@tes Quantum Dot Tattoo. 
 
-https://youtu.be/zXJC9FryiNI   
+https://anthonypatch.com/
+
+
 
 
 This is the 4th New VAK side effects group. If you have 1st knowledge of any please post here; they may decide to hide or block these groups. PLEASE SHARE DON'T BE SILENT
@@ -50,7 +52,10 @@ https://www.facebook.com/groups/312382486840127/?ref=share
 
 
 
-Bill Gates Cryptocurrency 666 # patent using body activity data https://youtu.be/NZjs-XgIudw
+This video is of top scientists discussing  n@n0tech in the Vak & they want to GMO all life on Earth.
+
+https://www.bitchute.com/video/1MwdykF6nPF6/
+
 
 
 PLEASE DO NOT TAKE THIS POISON, IT IS NOT A VAK IT'S GENETIC MUTATION ENGINEERING GEN0C1DE. 4 min video explains what's in the Vak. 
@@ -84,6 +89,7 @@ https://m.facebook.com/story.php?story_fbid=1668564143327039&id=100005204072228
 WATCH VIDEO Please share this is VERY URGENT NEW INFO. ABOUT THE  CV  T3 ST. They are putting n@n0tech fibers on the n0se swab.
 
 https://lbry.tv/@RichardLopez:3/The-Truth-About-The-Covid-Test:1
+
 
 ALSO ON BITCHUTE AND BRIGHTEON
 
@@ -187,6 +193,7 @@ https://m.facebook.com/story.php?story_fbid=469714827369307&id=100029923818631
 
 2 Tim 1:7 "For God hath not given us the spirit of fear; but of power, & of love, & of a sound mind." Yahweh has already provided many simple Natural  Solutions, trust his way, not man's corrupt system of pharmakeia or VAK's, which is sorcery. Rev 18:23
 
+
 "The Universal Antidote"
 
 YouTube:  https://youtu.be/D7en17ChmF8
@@ -198,6 +205,6 @@ CDS chlorine dioxide is widely being used in S. AMERICA to treat CV.
 
 VIT D3, Zinc together with tonic water containing Quinine.Courageous holistic DR. speaks out. Share this video, Freedom of speech is slipping away.
 
-
 https://youtu.be/3pxil1pwLo0
+
 

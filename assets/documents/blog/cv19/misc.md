@@ -409,3 +409,5 @@ https://pubmed.ncbi.nlm.nih.gov/2665354/
 ― Frank Herbert, Heretics of Dune
 
 
+https://leadstories.com/hoax-alert/2020/02/fake-news-pope-francis-did-not-declare-lucifer-as-god.html
+
