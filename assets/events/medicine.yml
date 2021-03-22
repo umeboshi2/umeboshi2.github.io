@@ -2098,3 +2098,11 @@ events:
       - hesitancy
     title: "The state of the antivaccine movement in the United States: A focused examination of nonmedical exemptions in states and counties"
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5997312/
+  - start: 2021-03-18
+    type: news
+    topics:
+      - vaccination
+      - general-covid
+      - variants
+    title: Covid Spiking In Over A Dozen States—Most With High Vaccination Rates
+    link: https://www.forbes.com/sites/nicholasreimann/2021/03/18/covid-spiking-in-over-a-dozen-states-most-with-high-vaccination-rates/
