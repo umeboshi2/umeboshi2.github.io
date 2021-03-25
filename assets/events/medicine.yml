@@ -2106,3 +2106,11 @@ events:
       - variants
     title: Covid Spiking In Over A Dozen States—Most With High Vaccination Rates
     link: https://www.forbes.com/sites/nicholasreimann/2021/03/18/covid-spiking-in-over-a-dozen-states-most-with-high-vaccination-rates/
+  - start: 2021-03-23
+    type: news
+    topics:
+      - vaccination
+      - general-covid
+      - variants
+    title: Preventing the Next Pandemic
+    link: https://www.scientificamerican.com/custom-media/preventing-the-next-pandemic/

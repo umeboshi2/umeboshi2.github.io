@@ -412,3 +412,5 @@ https://pubmed.ncbi.nlm.nih.gov/2665354/
 https://leadstories.com/hoax-alert/2020/02/fake-news-pope-francis-did-not-declare-lucifer-as-god.html
 
 https://www.afinalwarning.com/501240.html
+
+https://www.breitbart.com/environment/2021/03/01/pope-francis-warns-of-second-great-flood-from-global-warming/
