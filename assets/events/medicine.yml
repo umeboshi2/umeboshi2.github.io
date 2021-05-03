@@ -2114,3 +2114,16 @@ events:
       - variants
     title: Preventing the Next Pandemic
     link: https://www.scientificamerican.com/custom-media/preventing-the-next-pandemic/
+  - start: 2018-01-19
+    type: news
+    topics:
+      - germ-theory
+    title: "The Patient At Risk: Ever Hear of Germ Theory Denialism?"
+    link: https://www.healinghealth.com/wp/patient-risk-germ-theory-denialism/
+  - start: 2021-01-04
+    type: news
+    topics:
+      - general-covid
+      - germ-theory
+    title: Germ theory denial in the age of the COVID-19 pandemic
+    link: https://sciencebasedmedicine.org/germ-theory-denial-in-the-age-of-the-covid-19-pandemic/

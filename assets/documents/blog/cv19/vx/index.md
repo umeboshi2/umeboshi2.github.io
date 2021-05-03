@@ -82,3 +82,6 @@ https://vaers.hhs.gov/data/datasets.html
 
 https://andrewkaufmanmd.com/sovi/
 
+[CDC Vaccine Tracker](https://covid.cdc.gov/covid-data-tracker/#vaccinations)
+
+[Article on Pfizer vaccine nucleotide sequence](https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/)
