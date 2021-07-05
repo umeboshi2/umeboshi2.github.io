@@ -242,3 +242,10 @@ events:
       - rna-translation
     title: GC content shapes mRNA storage and decay in human cells
     link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6944446/
+  - start: 2016-01-27
+    type: paper
+    topics:
+      - graphene-oxide
+      - vaccination
+    title:  Functionalized graphene oxide serves as a novel vaccine nano-adjuvant for robust stimulation of cellular immunity
+    link: https://pubmed.ncbi.nlm.nih.gov/26814441/

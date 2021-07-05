@@ -2134,3 +2134,11 @@ events:
       - spike-protein
     title: The novel coronavirus’ spike protein plays additional key role in illness
     link: https://www.salk.edu/news-release/the-novel-coronavirus-spike-protein-plays-additional-key-role-in-illness/
+  - start: 2021-05-15
+    type: news
+    topics:
+      - general-covid
+      - trial
+    title: 8-month-old from NY is youngest COVID vaccine recipient in the world
+    link: https://nypost.com/2021/05/15/8-month-old-becomes-youngest-covid-vaccine-recipient-in-the-world/
+# http://vis.mit.edu/pubs/viral-visualizations
