@@ -40,6 +40,8 @@
 
 1. [Shi Zhengli](#pages/blog/cv19/people/shi-zhengli)
 
+1. [Geert Vanden Bossche](#pages/blog/cv19/people/geert)
+
 #### Other People
 
 1. [Myron Fagan](#pages/blog/cv19/people/myron-fagan)
